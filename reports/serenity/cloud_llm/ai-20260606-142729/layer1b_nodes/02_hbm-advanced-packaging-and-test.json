@@ -1,0 +1,459 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "confidence": 0.95,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track CoWoS/advanced packaging capex, capacity expansion cadence, AI accelerator customer concentration, and packaging gross margin commentary in annual reports and earnings calls.",
+      "node_relation": "Operates leading-edge foundry capacity and advanced packaging platforms including CoWoS-like 2.5D integration used for AI accelerators.",
+      "sector_or_industry": "Foundry and advanced packaging",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "capacity_expansion",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct capacity chokepoint for AI accelerator logic plus HBM integration.",
+      "ticker": "TSM",
+      "why_include": "TSMC is the most obvious public-market mapping for advanced packaging capacity constraints because many AI accelerators require its leading-edge process and advanced packaging ecosystem."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Micron Technology",
+      "confidence": 0.93,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify HBM revenue ramp, capacity allocation, yield progress, customer qualification, and HBM share versus DRAM peers.",
+      "node_relation": "HBM supplier; Micron announced volume production of HBM3E for AI applications.",
+      "sector_or_industry": "Memory semiconductors",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "customer_qualification",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct exposure to HBM supply growth for AI accelerators.",
+      "ticker": "MU",
+      "why_include": "HBM availability is one of the central constraints in AI accelerator shipments, and Micron is a US-listed direct HBM supplier."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Amkor Technology",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check AI/HPC customer mix, advanced SiP/2.5D revenue contribution, capex, utilization, and whether capacity is qualified for high-end AI packages.",
+      "node_relation": "Provides advanced packaging and test services including 2.5D and high-density packaging capabilities.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "outsourced_capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order beneficiary if AI chiplet and advanced package demand spills beyond captive foundry capacity.",
+      "ticker": "AMKR",
+      "why_include": "AMKR is a US-listed OSAT with advanced packaging exposure; it may benefit if AI packaging demand requires more outsourced capacity."
+    },
+    {
+      "claim_type": "fact",
+      "company": "ASE Technology Holding",
+      "confidence": 0.87,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify whether AI/HPC advanced package demand is material versus broader consumer/communications OSAT demand.",
+      "node_relation": "Large OSAT provider with advanced packaging, system-in-package, fan-out, and test capabilities.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "test",
+        "outsourced_capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potential second-order beneficiary from AI packaging complexity and OSAT test demand.",
+      "ticker": "ASX",
+      "why_include": "ASE is a major OSAT with US-listed ADR exposure and broad advanced packaging/test relevance."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Applied Materials",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Segment orders by DRAM/HBM, foundry/logic, and advanced packaging; look for management commentary explicitly tying demand to AI packaging.",
+      "node_relation": "Supplies semiconductor manufacturing equipment used across wafer fabrication and packaging-enabling process steps.",
+      "sector_or_industry": "Semiconductor equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "capex",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order equipment exposure to foundry, memory, and advanced packaging capex.",
+      "ticker": "AMAT",
+      "why_include": "If HBM and advanced packaging capacity expands, process equipment vendors can participate through memory, logic, deposition, etch, plating, and packaging-related tool demand."
+    },
+    {
+      "claim_type": "inference",
+      "company": "KLA Corporation",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check advanced packaging process-control revenue, AI/HPC customer pull, and whether packaging inspection tools are capacity constrained.",
+      "node_relation": "Provides process control, inspection, and metrology tools relevant to advanced semiconductor manufacturing and packaging yield.",
+      "sector_or_industry": "Semiconductor process control and inspection",
+      "serenity_tags": [
+        "supply_chain",
+        "yield",
+        "inspection",
+        "metrology",
+        "evidence_needed"
+      ],
+      "theme_relation": "Yield and inspection are chokepoints when package complexity rises.",
+      "ticker": "KLAC",
+      "why_include": "AI accelerator packages with HBM stacks increase defect sensitivity; inspection and metrology intensity can rise with process complexity."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Lam Research",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Separate HBM-related DRAM demand from cyclical NAND/DRAM recovery; check memory WFE commentary and customer concentration.",
+      "node_relation": "Supplies wafer fabrication equipment, especially deposition and etch, with strong memory and advanced semiconductor process exposure.",
+      "sector_or_industry": "Semiconductor equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "memory_capex",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order exposure to HBM wafer capacity and memory capex.",
+      "ticker": "LRCX",
+      "why_include": "HBM expansion requires DRAM wafer process investment; Lam can benefit if memory capex recovers around HBM and leading-edge DRAM nodes."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Teradyne",
+      "confidence": 0.8,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Look for AI accelerator, HBM, or high-performance compute test commentary in orders, backlog, and segment disclosures.",
+      "node_relation": "Provides automated test equipment used for semiconductor devices; AI accelerator, memory, and advanced package complexity can increase test intensity.",
+      "sector_or_industry": "Automated semiconductor test equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "test",
+        "yield",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order exposure to AI chip and HBM test bottlenecks.",
+      "ticker": "TER",
+      "why_include": "As AI chips become larger and more integrated with HBM, test coverage and throughput can become a bottleneck; Teradyne is a major US-listed ATE supplier."
+    },
+    {
+      "claim_type": "inference",
+      "company": "FormFactor",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify HBM-specific probe card exposure, DRAM customer concentration, lead times, and gross margin impact from advanced probe demand.",
+      "node_relation": "Supplies probe cards and test interface products used in wafer-level semiconductor testing.",
+      "sector_or_industry": "Semiconductor probe cards and test interface",
+      "serenity_tags": [
+        "supply_chain",
+        "test",
+        "probe",
+        "yield",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potentially levered to HBM and advanced logic probe complexity.",
+      "ticker": "FORM",
+      "why_include": "Probe cards are a less obvious but critical test consumable/capital interface for advanced memory and logic; HBM ramp may increase demanding probe requirements."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Onto Innovation",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check advanced packaging revenue mix, AI/HPC customer orders, Dragonfly/inspection platform traction, and capacity utilization.",
+      "node_relation": "Provides inspection and metrology systems with explicit advanced packaging and process-control relevance.",
+      "sector_or_industry": "Semiconductor metrology and inspection",
+      "serenity_tags": [
+        "supply_chain",
+        "inspection",
+        "metrology",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order exposure to advanced packaging yield and heterogeneous integration.",
+      "ticker": "ONTO",
+      "why_include": "Onto is a focused US-listed inspection/metrology company with clear advanced packaging relevance, making it a plausible under-the-surface AI packaging beneficiary."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Camtek",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify AI/HPC or HBM packaging order contribution, customer concentration, China/Taiwan exposure, and delivery lead times.",
+      "node_relation": "Inspection and metrology equipment provider for advanced packaging, compound semiconductors, and semiconductor manufacturing.",
+      "sector_or_industry": "Semiconductor inspection and metrology",
+      "serenity_tags": [
+        "supply_chain",
+        "inspection",
+        "metrology",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potential beneficiary from advanced packaging inspection demand tied to AI accelerators and HBM integration.",
+      "ticker": "CAMT",
+      "why_include": "Camtek has relatively direct exposure to advanced packaging inspection, a chokepoint-adjacent area where yield improvement matters."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Kulicke and Soffa Industries",
+      "confidence": 0.76,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check thermocompression bonding, advanced display/packaging order mix, and whether AI accelerator packaging is a material growth driver.",
+      "node_relation": "Supplies assembly equipment including bonding and advanced packaging-related tools.",
+      "sector_or_industry": "Semiconductor assembly equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order exposure if AI package assembly requires more advanced bonding and interconnect capacity.",
+      "ticker": "KLIC",
+      "why_include": "Advanced packaging expansion can pull demand for bonding and assembly equipment, though KLIC also has meaningful cyclical and consumer electronics exposure."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Entegris",
+      "confidence": 0.77,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Identify explicit advanced packaging/HBM materials exposure, customer qualification cycles, and margin sensitivity to high-purity product mix.",
+      "node_relation": "Supplies specialty materials, filtration, contamination control, and handling products used in advanced semiconductor manufacturing.",
+      "sector_or_industry": "Semiconductor materials and contamination control",
+      "serenity_tags": [
+        "supply_chain",
+        "materials",
+        "yield",
+        "contamination_control",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order materials exposure to leading-edge logic, memory, and advanced packaging yield requirements.",
+      "ticker": "ENTG",
+      "why_include": "As HBM and advanced packaging processes become more demanding, purity, contamination control, and specialty materials can become quiet bottlenecks."
+    },
+    {
+      "claim_type": "hypothesis",
+      "company": "Cohu",
+      "confidence": 0.64,
+      "market_cap_filter_note": "unknown",
+      "next_evidence": "Check market cap, advanced compute/memory customer mix, AI-related orders, and whether test handler demand is tied to HBM or mostly automotive/industrial cycles.",
+      "node_relation": "Provides semiconductor test handlers, interface products, inspection, and test-related equipment.",
+      "sector_or_industry": "Semiconductor test and inspection equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "test",
+        "inspection",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potential second-order exposure to higher semiconductor test complexity, though AI/HBM specificity needs verification.",
+      "ticker": "COHU",
+      "why_include": "Cohu belongs on the watchlist because test handling and interface equipment can matter when package complexity rises, but direct AI accelerator/HBM exposure is less proven than TER or FORM."
+    },
+    {
+      "claim_type": "hypothesis",
+      "company": "ACM Research",
+      "confidence": 0.66,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify advanced packaging equipment revenue, export-control exposure, customer qualifications, and whether demand is tied to AI/HBM rather than domestic China fab buildout.",
+      "node_relation": "Supplies wafer cleaning, plating, and packaging-related process equipment; exposure is relevant but geographically and customer-mix dependent.",
+      "sector_or_industry": "Semiconductor wafer processing equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "Possible second-order beneficiary from advanced packaging and wafer-level process capacity expansion.",
+      "ticker": "ACMR",
+      "why_include": "ACM Research may touch advanced packaging process steps, but the AI/HBM linkage is weaker and should be treated as a hypothesis due to China-heavy exposure and customer specificity."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "TSMC describes advanced packaging technologies including CoWoS as part of its 3DFabric platform.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "",
+      "source_title": "TSMC 3DFabric - CoWoS",
+      "source_url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "TSMC annual reports and investor materials are available through the company investor-relations site for verification of capex, revenue mix, and advanced technology commentary.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "TSMC Annual Reports",
+      "source_url": "https://investor.tsmc.com/english/annual-reports",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Micron announced volume production of its HBM3E solution for AI applications.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2024-02-26",
+      "source_title": "Micron Begins Volume Production of Industry-Leading HBM3E Solution",
+      "source_url": "https://investors.micron.com/news-releases/news-release-details/micron-begins-volume-production-industry-leading-hbm3e-solution",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Amkor markets 2.5D technology and advanced package platforms relevant to heterogeneous integration.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "Amkor Technology - 2.5D Technology",
+      "source_url": "https://amkor.com/technology/2-5d/",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "ASE describes advanced packaging capabilities across fan-out, system-in-package, and other advanced packaging technologies.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "ASE - Advanced Packaging",
+      "source_url": "https://ase.aseglobal.com/en/technology/advanced_packaging",
+      "ticker": "ASX"
+    },
+    {
+      "claim": "Onto Innovation markets Dragonfly inspection and metrology systems for advanced packaging applications.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Onto Innovation - Dragonfly G3",
+      "source_url": "https://ontoinnovation.com/products/dragonfly-g3",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Camtek describes its inspection and metrology systems as serving advanced packaging and semiconductor manufacturing applications.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "Camtek - Advanced Packaging",
+      "source_url": "https://www.camtek.com/markets/advanced-packaging/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "FormFactor provides probe cards and wafer test products used in semiconductor wafer-level testing.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "FormFactor - Probe Cards",
+      "source_url": "https://www.formfactor.com/products/probe-cards/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Teradyne provides automated test equipment for semiconductor devices.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Teradyne - Semiconductor Test",
+      "source_url": "https://www.teradyne.com/products/semiconductor-test/",
+      "ticker": "TER"
+    },
+    {
+      "claim": "Kulicke and Soffa provides semiconductor assembly equipment, including bonding and advanced packaging-related solutions.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "",
+      "source_title": "Kulicke & Soffa - Semiconductor Assembly",
+      "source_url": "https://www.kns.com/Products/Semiconductor-Assembly",
+      "ticker": "KLIC"
+    },
+    {
+      "claim": "Entegris provides materials, filtration, purification, and contamination-control products for semiconductor manufacturing.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "",
+      "source_title": "Entegris - Semiconductor",
+      "source_url": "https://www.entegris.com/en/home/industries/semiconductor.html",
+      "ticker": "ENTG"
+    },
+    {
+      "claim": "KLA provides process control and yield management solutions for semiconductor manufacturing.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "",
+      "source_title": "KLA - Products",
+      "source_url": "https://www.kla.com/products",
+      "ticker": "KLAC"
+    },
+    {
+      "claim": "Applied Materials provides equipment, services, and software used in semiconductor chip manufacturing.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Applied Materials - Semiconductor Solutions",
+      "source_url": "https://www.appliedmaterials.com/us/en/solutions/semiconductor.html",
+      "ticker": "AMAT"
+    },
+    {
+      "claim": "Lam Research provides wafer fabrication equipment and services used in semiconductor manufacturing.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "",
+      "source_title": "Lam Research - Products",
+      "source_url": "https://www.lamresearch.com/products/",
+      "ticker": "LRCX"
+    },
+    {
+      "claim": "Cohu provides semiconductor test and inspection handlers, contactors, and related test solutions.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "",
+      "source_title": "Cohu - Semiconductor Test and Inspection Solutions",
+      "source_url": "https://www.cohu.com/",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "ACM Research provides wafer processing solutions including cleaning, plating, and other process equipment.",
+      "claim_type": "fact",
+      "confidence": 0.68,
+      "published_at": "",
+      "source_title": "ACM Research - Company Website",
+      "source_url": "https://www.acmrcsh.com/",
+      "ticker": "ACMR"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.88,
+      "text": "For the HBM/advanced-packaging/test node, the highest-priority US-listed candidates are TSM, MU, AMKR, ASX, AMAT, KLAC, TER, FORM, ONTO, CAMT, KLIC, ENTG, LRCX, COHU, and ACMR.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Separate direct capacity operators and suppliers from tool/material enablers: TSM, MU, AMKR, and ASX are closer to physical capacity; AMAT, KLAC, LRCX, TER, FORM, ONTO, CAMT, KLIC, ENTG, COHU, and ACMR require evidence that AI/HBM packaging demand is material rather than generic semiconductor cyclicality.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Important HBM and substrate suppliers such as SK Hynix, Samsung Electronics, Ibiden, Shinko, Unimicron, Nan Ya PCB, and other ABF/interposer ecosystem names are not primary US-listed common stocks; ADR/OTC or non-US coverage may be needed in a later global universe layer.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Substrate and silicon interposer pure-play exposure is limited in the US-listed universe; many US-listed candidates are indirect tool, materials, inspection, or OSAT proxies rather than pure substrate suppliers.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.83,
+      "text": "Best falsification checks for this node: CoWoS/HBM lead times normalize, HBM yields improve faster than expected, substrate supply is not limiting, AI accelerator demand shifts to less package-intensive architectures, or customers dual-source packaging/test capacity faster than expected.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "HBM, advanced packaging, substrates, interposers, and semiconductor test",
+  "node_id": "hbm_advanced_packaging_and_test",
+  "summary": "Expanded US-listed universe for the AI accelerator bottleneck node covering HBM supply, CoWoS-like advanced packaging, OSAT capacity, advanced packaging equipment, inspection/metrology, probe/test, and specialty materials. The strongest direct exposures are TSM, MU, AMKR, ASX, AMAT, KLAC, TER, FORM, ONTO, CAMT, KLIC, ENTG, LRCX, COHU, and ACMR. Key distinction: TSM/MU/AMKR/ASX are closer to capacity and qualification bottlenecks; AMAT/KLAC/LRCX/KLIC/ONTO/CAMT/FORM/TER/COHU/ENTG/ACMR are second-order enablers whose evidence should be checked through advanced packaging order commentary, utilization, backlog, and AI/HBM customer qualification rather than AI narrative alone.",
+  "theme_id": "ai_artificial_intelligence_cloud_data_center_semiconductors_software_automation"
+}

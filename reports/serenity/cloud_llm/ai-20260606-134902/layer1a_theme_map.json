@@ -1,0 +1,149 @@
+{
+  "coverage_gaps": [
+    "AI software and automation are under-decomposed in this Layer 1A pass; next layer should split into infrastructure software, model platforms, data platforms, cybersecurity, enterprise workflow automation, vertical AI and robotics/process automation.",
+    "Need a non-U.S. public-market expansion: Taiwan, Korea, Japan, Netherlands, Germany, France, Canada and selected A-share/H-share suppliers may contain upstream chokepoints not captured by the pilot universe.",
+    "Need to separate AI training demand from inference demand because they stress different components: training stresses GPU clusters, HBM and interconnect; inference stresses utilization software, energy efficiency, latency, edge deployment and model-serving economics.",
+    "Need market-pricing checks in later layers: valuation, revenue growth already embedded, short interest, estimate revisions, backlog conversion and capex-cycle risk were not assessed in Layer 1A.",
+    "Need falsification plan: monitor hyperscaler capex revisions, chip lead-time normalization, advanced packaging capacity additions, HBM oversupply signals, power project delays, regulatory pushback, and lower-than-expected enterprise AI monetization."
+  ],
+  "evidence": [
+    {
+      "claim": "IEA's Energy and AI analysis states that AI is accelerating deployment of high-performance accelerated servers and increasing data-center power density; it also frames data-center electricity demand as a material but not dominant share of global electricity-demand growth through 2030.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2025",
+      "source_title": "IEA - Energy demand from AI",
+      "source_url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+      "ticker": ""
+    },
+    {
+      "claim": "IEA's Energy and AI supply analysis identifies electricity supply for data centers as a multi-source issue, with renewables contributing heavily to demand growth and nuclear becoming more relevant in the United States after 2030 if SMRs are commissioned.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025",
+      "source_title": "IEA - Energy supply for AI",
+      "source_url": "https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai",
+      "ticker": ""
+    },
+    {
+      "claim": "The U.S. Department of Energy states that the United States is returning to rising electricity-demand growth partly because of artificial intelligence, data-center expansion, manufacturing and electrification; DOE cites an EPRI estimate that data centers could reach up to 9% of U.S. electricity generation annually by 2030 versus 4% of total load in 2023.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "U.S. Department of Energy - Clean Energy Resources to Meet Data Center Electricity Demand",
+      "source_url": "https://www.energy.gov/oe/clean-energy-resources-meet-data-center-electricity-demand",
+      "ticker": ""
+    },
+    {
+      "claim": "NVIDIA reported Q2 fiscal 2026 Data Center revenue of $41.1 billion, up 5% sequentially and 56% year over year, and said Blackwell Data Center revenue grew sequentially.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026",
+      "source_title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2026",
+      "source_url": "https://nvidianews.nvidia.com/_gallery/download_pdf/68af69043d6332f1d02dec91/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "TSMC's 2025 annual report states that it is developing advanced packaging and 3D chip-stacking technologies, including CoWoS, InFO and SoIC, to support customer needs and large-scale interconnectivity for lower power consumption.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026",
+      "source_title": "TSMC 2025 Annual Report Website",
+      "source_url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "TSMC's 2025 annual report describes capacity planning to address a structural increase in long-term market demand and says its Arizona plan supports leading-edge customers in smartphone, AI and HPC applications.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026",
+      "source_title": "TSMC 2025 Annual Report Website",
+      "source_url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+      "ticker": "TSM"
+    }
+  ],
+  "layer": "1A",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "AI should be tracked as an infrastructure-capex theme spanning compute, memory, packaging, networking, data-center power/cooling, electricity supply, grid and software automation rather than as a single semiconductor ticker story.",
+      "type": "theme_relation"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Advanced compute packaging, HBM, substrates and AI networking are priority chokepoint nodes because they sit between AI demand and deliverable accelerator-cluster capacity.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.87,
+      "text": "Data-center power, cooling, grid interconnection and firm electricity supply are priority chokepoint nodes because AI workloads increase rack density and regional power stress.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Future layers should add AI software/automation decomposition and distinguish companies with measurable AI revenue from companies with only narrative exposure.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.95,
+      "text": "Future layers should include valuation and market-pricing checks; Layer 1A intentionally avoids buy/sell judgments, target prices or return forecasts.",
+      "type": "coverage_gap"
+    }
+  ],
+  "summary": "Layer 1A decomposition: the AI theme should be treated as a multi-layer infrastructure buildout, not just an AI software or GPU story. The two highest-value research branches for universe expansion are: 1) accelerated-compute supply constraints around advanced packaging, HBM, networking and foundry capacity; and 2) data-center power, cooling, grid interconnection and firm electricity supply. Software and automation remain important demand pull-through layers, but the first Serenity pass should prioritize nodes where AI demand collides with physical capacity, long qualification cycles, capex lead times, scarce equipment, regulated interconnection, or supplier concentration.",
+  "supply_chain_nodes": [
+    {
+      "bottleneck_hypothesis": "The market may over-focus on accelerator brands while under-pricing second-order chokepoints in advanced packaging, HBM, substrates, networking silicon and manufacturing equipment. If AI cluster demand remains strong, suppliers controlling qualified capacity, process know-how or hard-to-substitute inputs may have stronger pricing power and longer visibility than generic AI-exposed hardware vendors.",
+      "claim_type": "hypothesis",
+      "confidence": 0.82,
+      "node": "Accelerated compute stack: AI accelerators, advanced packaging, HBM, substrates, high-speed interconnect and AI networking",
+      "node_id": "advanced_compute_packaging_memory_networking",
+      "public_asset_hunting_notes": "Seed tickers include NVDA, AMD, AVGO, TSM and ASML, but the node should be expanded to memory suppliers, OSAT/advanced packaging, substrate makers, test equipment, networking ASICs, Ethernet switching, optics, liquid-cooled server integration and semiconductor equipment. Evidence to collect in Layer 1B: segment revenue tied to AI/HPC, capex plans, capacity expansion language, customer prepayments, order backlog, gross margin resilience, lead times and qualification barriers.",
+      "role": "capacity",
+      "search_queries": [
+        "AI accelerator advanced packaging CoWoS capacity bottleneck public companies",
+        "HBM supply constraint AI data center suppliers annual report",
+        "AI networking Ethernet InfiniBand data center switch ASIC suppliers revenue",
+        "advanced packaging equipment bottleneck semiconductor AI public companies",
+        "TSMC AI HPC advanced packaging capacity annual report CoWoS"
+      ],
+      "why_it_matters": "AI model training and inference require dense accelerator clusters. The finished system depends not only on GPU or ASIC design, but also on advanced-node foundry supply, packaging capacity, HBM availability, substrates, high-speed networking and rack-scale integration. This node is where software demand turns into scarce semiconductor capacity."
+    },
+    {
+      "bottleneck_hypothesis": "Power availability and grid connection timelines may become a more binding constraint than chip availability in selected regions. Public-market beneficiaries may include electrical equipment makers, cooling vendors, grid contractors, utilities with advantaged load-growth territories, nuclear operators, gas turbine suppliers, storage providers and energy infrastructure developers.",
+      "claim_type": "hypothesis",
+      "confidence": 0.86,
+      "node": "Data-center physical infrastructure: power distribution, cooling, grid interconnection, firm electricity supply and construction",
+      "node_id": "data_center_power_cooling_grid",
+      "public_asset_hunting_notes": "Seed tickers include VRT, ETN, CEG, SMR, BWXT, LEU, CCJ, FLR, GEV, PWR and NEE. Layer 1B should separate near-term beneficiaries from long-duration narratives: switchgear, transformers, UPS and cooling may monetize before speculative SMR deployment. Evidence to collect: data-center order backlog, book-to-bill, utility interconnection queues, capex by region, data-center customer concentration, generation availability, nuclear fuel supply, regulatory approvals and project execution risk.",
+      "role": "infrastructure",
+      "search_queries": [
+        "AI data center power demand electrical equipment backlog public companies",
+        "data center liquid cooling AI rack density suppliers annual report",
+        "data center grid interconnection bottleneck transformers switchgear utilities",
+        "DOE data center electricity demand artificial intelligence 2030",
+        "IEA Energy and AI data centres electricity demand power supply"
+      ],
+      "why_it_matters": "AI servers increase rack power density and create large, lumpy electricity loads. Data-center growth therefore depends on substations, switchgear, transformers, UPS systems, thermal management, grid buildout, power procurement, permitting and reliable electricity generation. This node broadens the AI theme beyond semiconductors into electrical equipment, utilities, nuclear fuel, EPC and grid services."
+    }
+  ],
+  "theme_id": "ai_artificial_intelligence_cloud_data_center_semiconductors_software_automation",
+  "theme_map": {
+    "demand_drivers": [
+      "Training and inference demand from hyperscalers, sovereign AI programs, enterprise AI adoption, consumer AI applications, coding agents, model-serving platforms and AI reasoning workloads.",
+      "Cloud capex by major platform companies expanding GPU clusters, custom ASIC deployments, high-speed networking, storage, power and cooling footprints.",
+      "Transition from model training to large-scale inference, which increases demand for lower-latency networking, memory bandwidth, energy efficiency, liquid cooling and utilization software.",
+      "AI software and automation pull-through from enterprise workflow automation, defense/industrial data platforms, developer tools, copilots, robotic process automation and AI-enabled cybersecurity.",
+      "Energy-intensive data-center growth, where compute density converts AI demand into demand for transformers, switchgear, backup power, grid construction, thermal systems, nuclear/gas/renewables, storage and power management."
+    ],
+    "public_market_search_strategy": "Start broad, then rank by chokepoint proximity. First map the AI stack into demand owners, compute platforms, foundries, memory, advanced packaging, networking, substrates, equipment, power/cooling, grid, electricity supply, software platforms and automation applications. Then hunt public assets where revenue is tied to scarce capacity rather than generic AI narratives: advanced packaging equipment/materials, HBM and substrate suppliers, Ethernet/optical networking, liquid cooling, switchgear, transformers, power modules, grid EPC, nuclear fuel, utilities with data-center load growth, and AI software vendors with measurable net revenue retention or usage-based expansion. Avoid centering the theme on a single mega-cap ticker; use mega-caps mainly as demand-signal and capex-signal sources.",
+    "supply_side_constraints": [
+      "Advanced-node wafer capacity and leading-edge foundry qualification remain concentrated and capital intensive.",
+      "Advanced packaging, especially 2.5D/3D integration such as CoWoS-like capacity, can become a separate bottleneck even when wafer starts are available.",
+      "HBM supply, substrate capacity, high-speed interconnect components and AI networking silicon can constrain finished accelerator shipments.",
+      "Power availability, substation queues, transmission constraints, utility interconnection timelines and local permitting can cap data-center deployment even when chips are available.",
+      "Thermal density is rising with accelerated AI servers, pushing demand from conventional air cooling toward liquid cooling, high-efficiency power distribution and redesigned data-center mechanical/electrical systems.",
+      "Export controls and geopolitical concentration affect advanced chips, semiconductor equipment, foundry capacity, nuclear fuel, uranium enrichment and certain strategic infrastructure inputs."
+    ]
+  }
+}

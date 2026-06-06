@@ -1,0 +1,290 @@
+{
+  "evidence": [
+    {
+      "claim_type": "fact",
+      "company": "NVIDIA",
+      "published_at": "2025-11-19",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2026/",
+      "summary": "NVIDIA reported record fiscal Q3 2026 revenue and record data-center revenue, with management commentary indicating very strong AI compute demand.",
+      "ticker": "NVDA"
+    },
+    {
+      "claim_type": "fact",
+      "company": "Amazon",
+      "published_at": "2026-04-29",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/",
+      "summary": "Amazon said AWS revenue grew 28% year over year in Q1 2026 and disclosed large AI chip deployments and planned NVIDIA GPU rollout.",
+      "ticker": "AMZN"
+    },
+    {
+      "claim_type": "fact",
+      "company": "Amazon",
+      "published_at": "2026-02-05",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
+      "summary": "Amazon said it expects about $200 billion of 2026 capex, explicitly citing AI as a major opportunity.",
+      "ticker": "AMZN"
+    },
+    {
+      "claim_type": "fact",
+      "company": "Arista Networks",
+      "published_at": "2026-02-12",
+      "source_url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Networks-Inc--Reports-Fourth-Quarter-and-Year-End-2025-Financial-Results/default.aspx",
+      "summary": "Arista reported strong 2025 results and highlighted continued momentum in large AI and data-center networking environments.",
+      "ticker": "ANET"
+    },
+    {
+      "claim_type": "fact",
+      "company": "Vertiv",
+      "published_at": "2026-02-12",
+      "source_url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Fourth-Quarter-with-Organic-Orders-Growth-of-252-and-Diluted-EPS-Growth-of-200-Adjusted-Diluted-EPS-37/",
+      "summary": "Vertiv reported strong orders and backlog, with demand particularly strong in AI infrastructure.",
+      "ticker": "VRT"
+    },
+    {
+      "claim_type": "fact",
+      "company": "Vertiv",
+      "published_at": "2025-05-05",
+      "source_url": "https://investors.vertiv.com/news/news-details/2025/Vertiv-announces-Vertiv-OneCore-to-accelerate-deployment-of-scalable-prefabricated-infrastructure-for-AI-HPC-and-high-density-5-MW-data-centers/default.aspx",
+      "summary": "Vertiv announced OneCore, a prefabricated infrastructure solution for AI, HPC, and high-density data centers.",
+      "ticker": "VRT"
+    }
+  ],
+  "layer": 3,
+  "memory_update": [
+    {
+      "confidence": 0.97,
+      "text": "For Layer 3 AI ranking, prioritize the most structurally scarce upstream control points first: accelerators, foundry/advanced packaging, networking, and data-center power/cooling.",
+      "type": "research_priority"
+    },
+    {
+      "confidence": 0.95,
+      "text": "Memory/HBM, advanced packaging subcontractors, photonics, and test/inspection equipment remain under-covered and should be added in the next research pass.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.96,
+      "text": "Hyperscalers such as Amazon, Microsoft, Alphabet, and Meta are demand engines rather than bottleneck suppliers; they are useful for validation but should usually rank below scarce-layer suppliers.",
+      "type": "demand_vs_bottleneck"
+    }
+  ],
+  "ranked_candidates": [
+    {
+      "company": "NVIDIA",
+      "main_evidence_gap": "Need primary-source confirmation of current capacity constraints, shipment timing, and how much incremental demand is already locked versus still opportunistic.",
+      "rank": 1,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 5,
+        "evidence_quality": 5,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 5,
+        "risk_clarity": 4,
+        "supplier_scarcity": 5
+      },
+      "ticker": "NVDA",
+      "total_score": 36,
+      "why_prioritized": "Core AI accelerator supplier at the center of the theme; strongest direct exposure to AI compute demand, with repeated evidence of record data-center revenue and sold-out cloud GPU demand. This is the cleanest public-market proxy for the AI compute bottleneck."
+    },
+    {
+      "company": "Taiwan Semiconductor Manufacturing",
+      "main_evidence_gap": "Need more direct evidence on AI-related advanced packaging utilization, customer concentration, and whether incremental capacity is already reserved.",
+      "rank": 2,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 4,
+        "risk_clarity": 3,
+        "supplier_scarcity": 5
+      },
+      "ticker": "TSM",
+      "total_score": 34,
+      "why_prioritized": "Critical foundry and advanced-packaging node for leading-edge AI chips. If AI accelerators keep scaling, wafer and packaging capacity remain a gating layer, making TSM one of the most structurally important names in the chain."
+    },
+    {
+      "company": "ASML Holding",
+      "main_evidence_gap": "Need current order/capacity and regional mix detail to separate secular AI demand from cyclical semiconductor capex.",
+      "rank": 3,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 5
+      },
+      "ticker": "ASML",
+      "total_score": 34,
+      "why_prioritized": "Lithography remains one of the hardest-to-replicate bottlenecks in leading-edge semiconductor manufacturing. AI-driven wafer demand makes this a key upstream control point with extreme supplier scarcity."
+    },
+    {
+      "company": "Arista Networks",
+      "main_evidence_gap": "Need finer detail on AI-related backlog, customer mix, and whether growth is broadening beyond the largest hyperscaler rollouts.",
+      "rank": 4,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 5,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 5,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4
+      },
+      "ticker": "ANET",
+      "total_score": 34,
+      "why_prioritized": "High-speed Ethernet switching and data-center networking are a distinct AI bottleneck, separate from compute. Arista has strong evidence of AI networking momentum and is one of the cleanest public-market expressions of cluster buildout."
+    },
+    {
+      "company": "Vertiv",
+      "main_evidence_gap": "Need more granular evidence on how much of backlog is directly AI-related versus general data-center refresh and how durable margins are under faster capacity expansion.",
+      "rank": 5,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 5,
+        "falsifiability": 5,
+        "mispricing_potential": 4,
+        "public_market_purity": 5,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4
+      },
+      "ticker": "VRT",
+      "total_score": 34,
+      "why_prioritized": "AI data-center power and cooling are increasingly binding constraints, especially with higher rack densities and liquid cooling requirements. Vertiv has unusually strong evidence around orders, backlog, and AI-specific infrastructure adaptation."
+    },
+    {
+      "company": "Broadcom",
+      "main_evidence_gap": "Need clearer separation of AI networking/ASIC revenue from broader semis and better visibility into customer dependence and concentration.",
+      "rank": 6,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 4,
+        "risk_clarity": 3,
+        "supplier_scarcity": 4
+      },
+      "ticker": "AVGO",
+      "total_score": 31,
+      "why_prioritized": "Broadcom sits at the intersection of AI networking and custom silicon/ASIC infrastructure. It is less pure than a single-node bottleneck, but still a major infrastructure enabler with strong strategic importance."
+    },
+    {
+      "company": "Amazon",
+      "main_evidence_gap": "Need to quantify how much capex is specifically AI-driven versus broader cloud/infrastructure expansion.",
+      "rank": 7,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 5,
+        "evidence_quality": 5,
+        "falsifiability": 4,
+        "mispricing_potential": 2,
+        "public_market_purity": 2,
+        "risk_clarity": 4,
+        "supplier_scarcity": 2
+      },
+      "ticker": "AMZN",
+      "total_score": 26,
+      "why_prioritized": "A major AI demand engine through AWS capex and AI chip deployment, with strong disclosed spending plans. Important for theme confirmation, but not a bottleneck supplier itself."
+    },
+    {
+      "company": "Microsoft",
+      "main_evidence_gap": "Need more detail on AI capex intensity and whether growth is translating into sustained infrastructure pull-through or mostly software monetization.",
+      "rank": 8,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 2,
+        "public_market_purity": 2,
+        "risk_clarity": 4,
+        "supplier_scarcity": 2
+      },
+      "ticker": "MSFT",
+      "total_score": 25,
+      "why_prioritized": "Azure and AI deployment make Microsoft a key demand node and a high-quality confirmation source for AI infrastructure spending, but it is not a scarcity point in the chain."
+    },
+    {
+      "company": "Meta Platforms",
+      "main_evidence_gap": "Need more precise disclosure on AI infrastructure capex versus broader product and advertising-related spend.",
+      "rank": 9,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 2,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2
+      },
+      "ticker": "META",
+      "total_score": 23,
+      "why_prioritized": "Important AI compute demand driver through model training and data-center expansion. Useful as a demand-side signal, but less directly tied to a scarce supply node than NVDA/TSM/ASML/ANET/VRT."
+    },
+    {
+      "company": "Alphabet",
+      "main_evidence_gap": "Need more specific AI infrastructure and capex decomposition, plus clearer linkage to downstream supply-chain stress.",
+      "rank": 10,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 2,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2
+      },
+      "ticker": "GOOGL",
+      "total_score": 23,
+      "why_prioritized": "Strong AI and cloud demand engine, especially for search/model deployment and Google Cloud. Better for demand validation than for bottleneck discovery."
+    },
+    {
+      "company": "GE Vernova",
+      "main_evidence_gap": "AI-specific revenue contribution is not yet well quantified; need direct evidence of order flow tied to data-center/grid buildouts.",
+      "rank": 11,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 3
+      },
+      "ticker": "GEV",
+      "total_score": 27,
+      "why_prioritized": "Potential AI power-grid beneficiary as data-center electricity demand grows. More indirect than Vertiv, but useful for mapping the power bottleneck beyond IT hardware."
+    },
+    {
+      "company": "Eaton",
+      "main_evidence_gap": "Need more direct evidence of AI-linked orders and a tighter split between general electrification demand and AI-specific demand.",
+      "rank": 12,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "ETN",
+      "total_score": 26,
+      "why_prioritized": "Electrical distribution and power-management exposure gives Eaton a real AI infrastructure link, especially around data-center buildouts and grid constraints."
+    }
+  ],
+  "summary": "Layer 3 prioritizes the most research-worthy AI theme candidates by combining demand durability, chokepoint severity, supplier scarcity, public-market purity, evidence quality, mispricing potential, falsifiability, and risk clarity. The highest-priority names are the clearest bottleneck/control points in the AI stack: NVIDIA, TSMC, ASML, Arista, Vertiv, and Broadcom. Hyperscalers remain critical demand engines, but they rank lower as bottlenecks because they mostly pull demand rather than constrain supply. Under-covered but important next-step research areas remain memory/HBM, advanced packaging, photonics, and test/inspection equipment.",
+  "theme_id": "AI-artificial-intelligence-cloud-data-center-semiconductors-software-automation"
+}

@@ -1,0 +1,500 @@
+{
+  "catalysts": [
+    {
+      "affected_nodes": [
+        "AI accelerator demand",
+        "HBM supply",
+        "Advanced packaging and 2.5D/3D integration",
+        "AI networking and data-center switching",
+        "Data-center power distribution",
+        "Thermal management and liquid cooling",
+        "Grid interconnection, substations, and transmission"
+      ],
+      "claim_type": "inference",
+      "description": "Hyperscaler AI infrastructure capex increases demand for accelerators, HBM, advanced packaging, networking, power distribution, cooling, and grid infrastructure.",
+      "type": "capex"
+    },
+    {
+      "affected_nodes": [
+        "HBM supply",
+        "Advanced packaging and 2.5D/3D integration",
+        "Advanced substrates and packaging materials",
+        "Semiconductor inspection, metrology, and test",
+        "Thermal management and liquid cooling"
+      ],
+      "claim_type": "inference",
+      "description": "New AI accelerator generations with higher memory bandwidth and larger package complexity can increase demand for HBM, advanced packaging, substrates, inspection/metrology, and thermal management.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "HBM supply",
+        "Advanced packaging and 2.5D/3D integration",
+        "Data-center power distribution",
+        "Thermal management and liquid cooling",
+        "AI networking and data-center switching"
+      ],
+      "claim_type": "fact",
+      "description": "Supplier earnings calls may confirm or falsify AI revenue materiality through backlog, book-to-bill, capex allocation, segment margins, lead times, and customer concentration commentary.",
+      "type": "earnings"
+    },
+    {
+      "affected_nodes": [
+        "HBM supply",
+        "Custom AI ASICs",
+        "AI networking and data-center switching",
+        "Leading-edge foundry capacity"
+      ],
+      "claim_type": "hypothesis",
+      "description": "HBM qualification wins, custom ASIC program ramps, and hyperscaler networking/platform decisions can re-rank suppliers within the AI hardware chain.",
+      "type": "customer"
+    },
+    {
+      "affected_nodes": [
+        "Lithography and advanced semiconductor equipment",
+        "Leading-edge foundry capacity",
+        "AI accelerator demand"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Export controls on advanced semiconductor equipment and AI chips may affect supply-chain allocation, tool shipments, regional capex, and customer mix.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "Grid interconnection, substations, and transmission",
+        "Data-center power distribution",
+        "Power generation and grid equipment"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Power permitting, utility interconnection rules, grid-planning policy, and local data-center regulation may become key constraints for AI data-center expansion.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "Grid interconnection, substations, and transmission",
+        "Power generation and grid equipment",
+        "Mechanical and electrical construction capacity"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Announcements of new data-center campuses, power-purchase agreements, nuclear/gas generation partnerships, or substation projects can shift attention from chips to power and grid bottlenecks.",
+      "type": "news"
+    },
+    {
+      "affected_nodes": [
+        "Thermal management and liquid cooling",
+        "Mechanical and electrical construction capacity"
+      ],
+      "claim_type": "inference",
+      "description": "Liquid-cooling adoption at higher rack densities can benefit suppliers of thermal systems, pumps, cold plates, CDUs, facility cooling, and specialized installation services.",
+      "type": "technology"
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "TSMC describes its 3DFabric family as including front-end and back-end advanced packaging technologies that support high-performance computing applications, including chip stacking and advanced integration.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "TSMC 3DFabric Advanced Packaging and 3D Silicon Stacking",
+      "source_url": "https://www.tsmc.com/english/dedicatedFoundry/technology/3DFabric",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Micron announced volume production of HBM3E and stated that the solution would be part of NVIDIA H200 Tensor Core GPUs, supporting direct HBM exposure to AI accelerators.",
+      "claim_type": "fact",
+      "confidence": 0.96,
+      "published_at": "2024-02-26",
+      "source_title": "Micron Begins Volume Production of Industry-Leading HBM3E Solution",
+      "source_url": "https://investors.micron.com/news-releases/news-release-details/micron-begins-volume-production-industry-leading-hbm3e-solution",
+      "ticker": "MU"
+    },
+    {
+      "claim": "NVIDIA states that its H100 Tensor Core GPU uses HBM3 memory and is designed for AI and high-performance computing workloads.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "NVIDIA H100 Tensor Core GPU",
+      "source_url": "https://www.nvidia.com/en-us/data-center/h100/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Vertiv describes itself as a provider of critical digital infrastructure and continuity solutions, including power, cooling, and IT infrastructure for data centers and communication networks.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Vertiv - About Us",
+      "source_url": "https://www.vertiv.com/en-us/about/",
+      "ticker": "VRT"
+    },
+    {
+      "claim": "Eaton describes its data-center offerings as including electrical distribution, backup power, power management, and related infrastructure used in data centers.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Cached Layer 1 evidence: Eaton data-center offerings",
+      "source_url": "provided_cached_evidence_truncated",
+      "ticker": "ETN"
+    },
+    {
+      "claim": "ASML is mapped as a semiconductor equipment and lithography supplier relevant to advanced chipmaking capacity, though its AI exposure is indirect rather than tied to a single AI product.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Cached Layer 1 candidate mapping",
+      "source_url": "provided_cached_evidence",
+      "ticker": "ASML"
+    },
+    {
+      "claim": "Onto Innovation is mapped in cached Layer 1 evidence as an inspection, metrology, and process-control supplier relevant to advanced packaging and yield-control workflows.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "",
+      "source_title": "Cached Layer 1 candidate mapping",
+      "source_url": "provided_cached_evidence",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Amkor Technology is mapped in cached Layer 1 evidence as an outsourced semiconductor assembly and test company with advanced packaging relevance.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "",
+      "source_title": "Cached Layer 1 candidate mapping",
+      "source_url": "provided_cached_evidence",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Palantir Technologies is mapped in cached Layer 1 evidence as an AI software, data platform, enterprise, and government software company.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "",
+      "source_title": "Cached Layer 1 candidate mapping",
+      "source_url": "provided_cached_evidence",
+      "ticker": "PLTR"
+    },
+    {
+      "claim": "Quanta Services may benefit from AI data-center power constraints because grid interconnection, substation construction, utility work, and transmission expansion are potential deployment bottlenecks.",
+      "claim_type": "inference",
+      "confidence": 0.74,
+      "published_at": "",
+      "source_title": "Cached Layer 1 candidate mapping",
+      "source_url": "provided_cached_evidence",
+      "ticker": "PWR"
+    },
+    {
+      "claim": "Arista Networks is a public-market mapping for AI-related cloud networking and Ethernet switching exposure, but the AI cluster revenue share and durability require primary-source validation.",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "published_at": "",
+      "source_title": "Cached Layer 1 candidate mapping",
+      "source_url": "provided_cached_evidence",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Broadcom may be exposed to AI infrastructure through custom AI ASICs and networking semiconductors, but customer-program details, AI revenue mix, and supply-chain constraints need validation.",
+      "claim_type": "hypothesis",
+      "confidence": 0.68,
+      "published_at": "",
+      "source_title": "Cached Layer 1 candidate mapping",
+      "source_url": "provided_cached_evidence",
+      "ticker": "AVGO"
+    }
+  ],
+  "layer": 2,
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "AI theme should be tracked as a multi-layer infrastructure chain, not only as software or GPU demand: accelerator demand, HBM, foundry, advanced packaging, substrates, networking, power, cooling, grid, construction, and enterprise software deployment.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Highest-confidence physical chokepoint candidates are HBM supply, leading-edge foundry capacity, and advanced packaging/2.5D integration.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Second major AI chokepoint cluster is data-center power, cooling, grid interconnection, substations, and specialized mechanical/electrical construction.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.74,
+      "text": "AI networking may become a bottleneck as clusters scale, but current evidence must distinguish durable AI network share from general cloud networking demand.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Upcoming earnings and capex commentary from hyperscalers and key suppliers should be used to validate demand durability, backlog conversion, supply constraints, and margin capture.",
+      "type": "catalyst"
+    },
+    {
+      "confidence": 0.92,
+      "text": "Need to expand beyond US-listed and ADR-heavy universe to SK hynix, Samsung Electronics, Ibiden, Shinko, Unimicron, Nan Ya PCB, Advantest, Disco, Besi, Camtek, KLA, Teradyne, and other Taiwan/Korea/Japan/Europe suppliers.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Company-specific AI revenue materiality remains weak for several infrastructure and equipment names. Next layer should collect segment revenue, backlog, customer wins, lead times, utilization, and margin evidence.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Market-pricing checks are not yet performed. Next layer should compare valuation, consensus revenue growth, earnings revisions, backlog growth, and implied expectations against evidence strength.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Falsification plan should watch for HBM oversupply, packaging capacity normalization, hyperscaler capex cuts, AI monetization disappointment, grid delays, power-cost inflation, and margin compression despite revenue growth.",
+      "type": "evidence_gap"
+    }
+  ],
+  "summary": "Layer 2 Serenity funnel view: the AI theme should be decomposed into (1) demand anchors: hyperscaler and enterprise AI capex; (2) accelerator supply chain: GPUs/custom ASICs, HBM, leading-edge foundry, advanced packaging, substrates, inspection/metrology/test; (3) data-center infrastructure: power distribution, thermal management, grid interconnection, mechanical/electrical construction; and (4) software adoption: enterprise/government AI workflow deployment. The highest-priority chokepoint candidates are advanced packaging/HBM/foundry capacity, AI data-center power and cooling infrastructure, grid interconnection, and high-speed AI networking. Evidence is strongest for the existence of AI-related product exposure at TSMC, Micron, NVIDIA, Vertiv, Eaton, and ASML. Evidence remains weaker for company-specific AI revenue materiality, customer concentration, backlog durability, margin conversion, and market-pricing expectations.",
+  "supply_chain_map": [
+    {
+      "bottleneck_score": 86,
+      "node": "AI accelerator demand",
+      "role": "demand",
+      "why_it_matters": "GPU and custom accelerator demand is the upstream demand signal that pulls on HBM, advanced packaging, leading-edge foundry capacity, substrates, networking, server power, cooling, and grid infrastructure."
+    },
+    {
+      "bottleneck_score": 93,
+      "node": "HBM supply",
+      "role": "input",
+      "why_it_matters": "High-bandwidth memory is a necessary component for leading AI accelerators. Qualification cycles, limited supplier count, packaging complexity, and memory capacity allocation can constrain accelerator shipments."
+    },
+    {
+      "bottleneck_score": 91,
+      "node": "Leading-edge foundry capacity",
+      "role": "capacity",
+      "why_it_matters": "AI accelerators and custom ASICs require advanced semiconductor manufacturing capacity, process yield, and allocation from leading foundries."
+    },
+    {
+      "bottleneck_score": 95,
+      "node": "Advanced packaging and 2.5D/3D integration",
+      "role": "capacity",
+      "why_it_matters": "AI accelerators increasingly depend on advanced package integration of compute die and HBM. Packaging capacity, yield control, interposers, substrates, and equipment availability can become shipment bottlenecks."
+    },
+    {
+      "bottleneck_score": 88,
+      "node": "Advanced substrates and packaging materials",
+      "role": "input",
+      "why_it_matters": "Large AI packages require complex substrates and materials with tight tolerances. This layer is underrepresented in the current public-market candidate set and requires expansion to Asia-listed suppliers."
+    },
+    {
+      "bottleneck_score": 82,
+      "node": "Semiconductor inspection, metrology, and test",
+      "role": "equipment",
+      "why_it_matters": "Advanced packages and HBM stacks increase process-control, inspection, and test intensity. Yield-sensitive bottlenecks can shift value toward metrology, inspection, probing, and back-end test tools."
+    },
+    {
+      "bottleneck_score": 80,
+      "node": "Lithography and advanced semiconductor equipment",
+      "role": "equipment",
+      "why_it_matters": "Leading-edge AI silicon capacity ultimately depends on advanced wafer-fabrication tools. This is a strategic chokepoint, though less AI-specific than HBM or advanced packaging."
+    },
+    {
+      "bottleneck_score": 84,
+      "node": "AI networking and data-center switching",
+      "role": "distribution",
+      "why_it_matters": "Large AI clusters need high-bandwidth, low-latency networking across GPUs and racks. Ethernet switching, optical interconnect, DSPs, retimers, and related test equipment may become constraints as cluster scale rises."
+    },
+    {
+      "bottleneck_score": 89,
+      "node": "Data-center power distribution",
+      "role": "input",
+      "why_it_matters": "AI racks increase power density and electrical complexity, raising demand for switchgear, transformers, UPS, busway, breakers, monitoring systems, and power-management equipment."
+    },
+    {
+      "bottleneck_score": 88,
+      "node": "Thermal management and liquid cooling",
+      "role": "input",
+      "why_it_matters": "Higher AI rack densities require more advanced cooling architectures. Cooling capacity, liquid-cooling adoption, and service/installation capability may constrain deployment timelines."
+    },
+    {
+      "bottleneck_score": 90,
+      "node": "Grid interconnection, substations, and transmission",
+      "role": "regulation",
+      "why_it_matters": "AI data centers may be delayed or capped by electricity availability, utility interconnection queues, substation construction, transmission expansion, and permitting."
+    },
+    {
+      "bottleneck_score": 78,
+      "node": "Mechanical and electrical construction capacity",
+      "role": "capacity",
+      "why_it_matters": "Even when chips and equipment are available, AI data-center deployment requires specialized electrical, mechanical, cooling, commissioning, and project-management labor."
+    },
+    {
+      "bottleneck_score": 75,
+      "node": "Hyperscaler AI capex",
+      "role": "customer",
+      "why_it_matters": "Cloud providers are major buyers of accelerators, networking, power, cooling, and data-center capacity. Their capex plans are key demand evidence for upstream suppliers."
+    },
+    {
+      "bottleneck_score": 62,
+      "node": "Enterprise and government AI software deployment",
+      "role": "customer",
+      "why_it_matters": "Software adoption validates downstream AI utility and may support infrastructure demand, but software firms are usually less direct physical bottlenecks than HBM, packaging, power, and grid nodes."
+    }
+  ],
+  "theme_id": "AI",
+  "ticker_relationships": [
+    {
+      "claim_type": "fact",
+      "evidence_quality": 86,
+      "next_evidence": "Check latest annual report, quarterly earnings call, capex plan, CoWoS/advanced packaging capacity commentary, customer concentration, and AI/HPC revenue mix.",
+      "node": "Leading-edge foundry capacity / advanced packaging and 2.5D/3D integration",
+      "relationship": "Core AI supply-chain bottleneck candidate because AI accelerator output depends on leading-edge manufacturing, 3DFabric/advanced packaging platforms, yield, and customer allocation.",
+      "ticker": "TSM"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 88,
+      "next_evidence": "Verify latest HBM3E/HBM4 customer qualifications, HBM capacity ramp, gross margin impact, capex allocation, and management commentary on supply tightness.",
+      "node": "HBM supply",
+      "relationship": "Direct HBM supplier mapped to AI accelerator memory demand; relevance depends on HBM qualification wins, bit share, pricing, and duration of supply tightness.",
+      "ticker": "MU"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 84,
+      "next_evidence": "Check latest data-center revenue, Blackwell/Hopper shipment commentary, supply constraints, HBM supply agreements, customer concentration, and gross-margin sensitivity.",
+      "node": "AI accelerator demand",
+      "relationship": "Primary AI accelerator demand anchor. NVIDIA products pull on HBM, foundry capacity, advanced packaging, substrates, networking, and data-center infrastructure.",
+      "ticker": "NVDA"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 78,
+      "next_evidence": "Check backlog mix, hyperscaler exposure, liquid-cooling orders, AI-specific management commentary, margin durability, and capacity constraints.",
+      "node": "Data-center power distribution / thermal management",
+      "relationship": "Direct supplier candidate for AI data-center buildouts because high-density AI clusters increase power, cooling, rack, monitoring, and service complexity.",
+      "ticker": "VRT"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 76,
+      "next_evidence": "Check data-center revenue mix, electrical segment backlog, pricing power, transformer/switchgear lead times, and utility vs hyperscaler demand split.",
+      "node": "Data-center power distribution",
+      "relationship": "Electrical-infrastructure mapping for AI data centers, including power distribution, backup power, switchgear, breakers, transformers, and power-management systems.",
+      "ticker": "ETN"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 70,
+      "next_evidence": "Check utility backlog, data-center-related work disclosure, interconnection and substation project wins, labor availability, and permitting-related delays.",
+      "node": "Grid interconnection, substations, and transmission",
+      "relationship": "AI data-center capacity can be constrained by grid interconnection, substation construction, utility work, and transmission expansion, making Quanta a relevant infrastructure execution candidate.",
+      "ticker": "PWR"
+    },
+    {
+      "claim_type": "hypothesis",
+      "evidence_quality": 67,
+      "next_evidence": "Check AI revenue disclosure, custom silicon customer concentration, networking growth, ASIC ramp schedules, and dependence on TSMC/HBM/packaging supply.",
+      "node": "Custom AI ASICs / AI networking",
+      "relationship": "AI semiconductor supplier with exposure to custom accelerators and networking silicon; relevance depends on customer programs, AI revenue mix, and packaging/HBM-like capacity requirements.",
+      "ticker": "AVGO"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 82,
+      "next_evidence": "Check EUV/High-NA EUV order trends, China export-control impact, foundry/logic demand, memory demand, backlog, and shipment timing.",
+      "node": "Lithography and advanced semiconductor equipment",
+      "relationship": "Upstream equipment chokepoint candidate for advanced chip manufacturing; less directly AI-specific than HBM or packaging, but strategically important for leading-edge semiconductor supply.",
+      "ticker": "ASML"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 69,
+      "next_evidence": "Check 800G/1.6T roadmap, cloud titan customer concentration, AI networking revenue commentary, competitive position against InfiniBand and merchant silicon dependencies.",
+      "node": "AI networking and data-center switching",
+      "relationship": "Public-market mapping for high-speed Ethernet switching exposure in AI clusters; detailed AI cluster share and durability need validation.",
+      "ticker": "ANET"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 72,
+      "next_evidence": "Check advanced packaging revenue mix, HBM-related tool demand, customer wins, order growth, and whether AI-driven packaging demand is material to consolidated revenue.",
+      "node": "Semiconductor inspection, metrology, and advanced packaging process control",
+      "relationship": "Less obvious equipment chokepoint candidate because advanced AI packages increase inspection, metrology, overlay, and yield-control intensity.",
+      "ticker": "ONTO"
+    },
+    {
+      "claim_type": "hypothesis",
+      "evidence_quality": 60,
+      "next_evidence": "Search for data-center-related gas turbine, grid equipment, substation, and electrification order evidence; compare with non-AI electrification drivers.",
+      "node": "Power generation and grid equipment",
+      "relationship": "Second-order AI infrastructure candidate if data-center electricity demand drives grid upgrades, dispatchable generation demand, turbine orders, substations, and electrification equipment.",
+      "ticker": "GEV"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 68,
+      "next_evidence": "Check advanced packaging capex, AI/HPC exposure, customer programs, utilization rates, and whether OSAT economics capture bottleneck value.",
+      "node": "Advanced packaging / OSAT",
+      "relationship": "Public OSAT mapping for advanced packaging capacity; AI relevance depends on HPC/AI revenue contribution, customer wins, and margin impact from packaging complexity.",
+      "ticker": "AMKR"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 73,
+      "next_evidence": "Check latest Instinct revenue guide, customer adoption, HBM supply availability, packaging capacity, software ecosystem progress, and gross-margin implications.",
+      "node": "AI accelerator demand",
+      "relationship": "Incremental AI accelerator demand vector beyond NVIDIA; Instinct products pull on HBM and advanced packaging capacity if customer traction and ramp scale continue.",
+      "ticker": "AMD"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 62,
+      "next_evidence": "Check advanced packaging revenue mix, AI/HPC customer exposure, capex allocation, utilization, and pricing power.",
+      "node": "OSAT / semiconductor assembly and test",
+      "relationship": "Large OSAT mapping for packaging and test workflows; inclusion is strongest if AI/HPC advanced packaging and test revenue becomes material versus diversified non-AI packaging exposure.",
+      "ticker": "ASX"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 61,
+      "next_evidence": "Check data-center backlog disclosures, margin by project type, labor constraints, hyperscaler customer exposure, and project execution risks.",
+      "node": "Mechanical and electrical construction capacity",
+      "relationship": "Relevant contractor exposure because AI data centers require specialized electrical, mechanical, cooling, and commissioning work; materiality to consolidated backlog needs validation.",
+      "ticker": "EME"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 75,
+      "next_evidence": "Check Azure AI demand commentary, capex growth, depreciation schedule, GPU supply constraints, custom silicon strategy, and AI monetization.",
+      "node": "Hyperscaler AI capex",
+      "relationship": "Major demand-side participant whose cloud and AI infrastructure spending drives downstream demand for accelerators, networking, power, cooling, and data-center capacity.",
+      "ticker": "MSFT"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 74,
+      "next_evidence": "Check AWS capex commentary, Trainium/Inferentia strategy, data-center expansion, GPU procurement, and customer AI workload growth.",
+      "node": "Hyperscaler AI capex",
+      "relationship": "AWS is a major cloud and AI infrastructure demand driver; inclusion helps distinguish downstream infrastructure beneficiaries from hyperscaler capex sponsors.",
+      "ticker": "AMZN"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 74,
+      "next_evidence": "Check capex growth, TPU deployment, Google Cloud AI revenue indicators, internal AI compute needs, and supplier dependencies.",
+      "node": "Hyperscaler AI capex / custom AI silicon",
+      "relationship": "Demand-side and platform participant through AI infrastructure, Google Cloud, internal model development, and TPU/custom silicon strategy.",
+      "ticker": "GOOGL"
+    },
+    {
+      "claim_type": "hypothesis",
+      "evidence_quality": 56,
+      "next_evidence": "Check mission-critical backlog, customer mix, modular construction exposure, data-center project contribution, and labor/material bottlenecks.",
+      "node": "Mechanical, electrical, and modular construction capacity",
+      "relationship": "Potential less-obvious AI infrastructure beneficiary if data centers become a material backlog category and specialized construction capacity remains tight.",
+      "ticker": "FIX"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 66,
+      "next_evidence": "Check AIP customer growth, net revenue retention, government vs commercial mix, implementation cycle, margin sustainability, and competitive displacement risk.",
+      "node": "Enterprise and government AI software deployment",
+      "relationship": "Software-side AI mapping focused on deploying AI into enterprise and government workflows; less of a physical bottleneck, but important for tracking AI adoption breadth.",
+      "ticker": "PLTR"
+    }
+  ]
+}

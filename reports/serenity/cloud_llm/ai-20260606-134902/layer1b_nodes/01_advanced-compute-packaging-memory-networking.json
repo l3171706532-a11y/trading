@@ -1,0 +1,249 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "NVIDIA",
+      "confidence": 0.96,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track data center revenue growth, HBM supply commentary, Blackwell/Hopper supply constraints, networking revenue, customer concentration, and gross-margin resilience.",
+      "node_relation": "Primary accelerator supplier and full-stack AI compute/networking platform vendor; demand pull-through affects HBM, advanced packaging, substrates, optics, networking and server integration.",
+      "sector_or_industry": "AI accelerators, GPUs, networking systems, data center semiconductors",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "Core AI infrastructure demand driver and direct beneficiary of hyperscaler and enterprise AI cluster buildouts.",
+      "ticker": "NVDA",
+      "why_include": "NVIDIA is the anchor public-market mapping for AI accelerator demand and also sells networking products used in accelerated data centers, making it both a demand signal and a direct node participant."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Advanced Micro Devices",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track data center GPU revenue, MI300/MI325/MI350 ramp language, customer disclosures, HBM allocation, supply constraints and margins.",
+      "node_relation": "Competing AI accelerator supplier with MI300/Instinct products; depends on foundry, advanced packaging and HBM availability.",
+      "sector_or_industry": "AI accelerators, GPUs, CPUs, adaptive and embedded semiconductors",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct exposure to AI accelerator adoption and potential diversification of hyperscaler supply away from a single dominant GPU vendor.",
+      "ticker": "AMD",
+      "why_include": "AMD is a direct AI accelerator competitor and therefore an important benchmark for whether AI compute demand is broadening beyond the leading platform."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Broadcom",
+      "confidence": 0.93,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track AI semiconductor revenue, custom ASIC customer concentration, Ethernet switching demand, backlog, lead times and AI revenue guidance.",
+      "node_relation": "Supplier of networking silicon and custom AI accelerators/ASICs used in large-scale AI data center infrastructure.",
+      "sector_or_industry": "AI networking semiconductors, custom ASICs, Ethernet switching silicon",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "demand",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order AI infrastructure beneficiary through custom silicon and high-speed networking, especially as hyperscalers design proprietary AI systems.",
+      "ticker": "AVGO",
+      "why_include": "Broadcom maps to the less-obvious AI chokepoint of custom accelerator silicon and scale-out networking, which can be critical as clusters expand."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "confidence": 0.95,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HPC revenue mix, advanced packaging capacity expansion, capex allocation, CoWoS commentary, customer prepayments and utilization.",
+      "node_relation": "Leading foundry for advanced AI chips and a key provider of advanced packaging capacity, including CoWoS-related capacity used for AI accelerators.",
+      "sector_or_industry": "Advanced-node foundry and advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "Core supply-chain bottleneck where AI accelerator designs become manufacturable wafers and packaged devices.",
+      "ticker": "TSM",
+      "why_include": "TSMC is central to AI compute supply because advanced-node wafer capacity and advanced packaging capacity constrain the pace of accelerator ramps."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Micron Technology",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM revenue ramp, HBM capacity sold-out language, qualification status with accelerator customers, DRAM pricing and capex discipline.",
+      "node_relation": "HBM supplier for AI accelerators and high-bandwidth memory systems; HBM supply is a core constraint for advanced AI GPU/ASIC modules.",
+      "sector_or_industry": "Memory semiconductors, DRAM, NAND, HBM",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct memory-side exposure to AI accelerator growth; HBM demand can tighten DRAM industry supply-demand balance.",
+      "ticker": "MU",
+      "why_include": "HBM is one of the clearest second-order AI hardware chokepoints; Micron is a US-listed memory supplier with explicit HBM product exposure."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Marvell Technology",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track AI-related custom silicon revenue, electro-optics/DSP demand, design wins, product-cycle timing, customer concentration and margin trajectory.",
+      "node_relation": "Supplier of custom silicon, high-speed connectivity and data center networking components relevant to AI cluster scale-out.",
+      "sector_or_industry": "Data center semiconductors, custom silicon, optical/DSP connectivity, networking",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "hypothesis",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order AI data center exposure through custom compute and interconnect components rather than branded GPUs.",
+      "ticker": "MRVL",
+      "why_include": "Marvell is included as a plausible AI networking/custom-silicon chokepoint candidate, especially where hyperscalers pursue internal silicon and high-speed optical/electrical interconnect."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Arista Networks",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track cloud titan revenue mix, AI cluster networking commentary, 400G/800G adoption, backlog, inventory digestion and competitive pressure.",
+      "node_relation": "Provider of high-performance Ethernet switching platforms used in cloud and AI data center networks.",
+      "sector_or_industry": "Cloud networking equipment, Ethernet switching",
+      "serenity_tags": [
+        "supply_chain",
+        "demand",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI clusters require scale-out networking; Ethernet adoption creates direct demand for switching platforms and network operating software.",
+      "ticker": "ANET",
+      "why_include": "Arista maps to the AI networking layer, especially where large clusters use Ethernet rather than proprietary networking fabrics."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Applied Materials",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track advanced packaging equipment orders, foundry/logic and DRAM capex recovery, China exposure, backlog, services revenue and export-control risk.",
+      "node_relation": "Supplier of wafer fabrication and packaging-related equipment used by foundries, logic manufacturers, memory suppliers and advanced packaging lines.",
+      "sector_or_industry": "Semiconductor manufacturing equipment and advanced packaging equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order AI infrastructure beneficiary if foundry, HBM and advanced packaging capacity expansions require more process equipment.",
+      "ticker": "AMAT",
+      "why_include": "Applied Materials provides exposure to the equipment layer behind AI semiconductor capacity expansion, including logic, memory and advanced packaging process steps."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "NVIDIA reports Data Center as its largest segment and describes its data center platform as including accelerated computing and networking products.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "",
+      "source_title": "NVIDIA Data Center Solutions",
+      "source_url": "https://www.nvidia.com/en-us/data-center/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "AMD markets its Instinct accelerators for AI and high-performance computing workloads in data centers.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "AMD Instinct Accelerators",
+      "source_url": "https://www.amd.com/en/products/accelerators/instinct.html",
+      "ticker": "AMD"
+    },
+    {
+      "claim": "Broadcom identifies networking and custom accelerators as part of its AI infrastructure semiconductor opportunity.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "Broadcom Investor Relations",
+      "source_url": "https://investors.broadcom.com/",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "TSMC provides advanced packaging technologies, including CoWoS, that are used for high-performance computing applications.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "",
+      "source_title": "TSMC 3DFabric Advanced Packaging Technologies",
+      "source_url": "https://www.tsmc.com/english/dedicatedFoundry/technology/3DFabric",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Micron markets HBM3E high-bandwidth memory for AI workloads and high-performance data center applications.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "",
+      "source_title": "Micron High Bandwidth Memory",
+      "source_url": "https://www.micron.com/products/memory/hbm",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Marvell describes AI infrastructure as a market for custom silicon, optical connectivity and data center semiconductor solutions.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "Marvell AI Infrastructure Solutions",
+      "source_url": "https://www.marvell.com/solutions/artificial-intelligence.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Arista markets data center switching and cloud networking platforms, including high-speed Ethernet technologies relevant to large cloud and AI networks.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "",
+      "source_title": "Arista Data Center Networking Solutions",
+      "source_url": "https://www.arista.com/en/solutions/data-center",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Applied Materials supplies semiconductor manufacturing equipment and describes advanced packaging as an area of technology enablement.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "Applied Materials Advanced Packaging",
+      "source_url": "https://www.appliedmaterials.com/us/en/semiconductor/technologies/advanced-packaging.html",
+      "ticker": "AMAT"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Layer 1B universe for advanced_compute_packaging_memory_networking should include direct accelerator vendors NVDA and AMD, but should not stop there; AVGO, TSM, MU, MRVL, ANET and AMAT are important second-order mappings.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "The strongest chokepoint claims in this node are likely to center on HBM supply, advanced packaging capacity, advanced-node foundry capacity, custom ASIC/networking silicon and scale-out Ethernet switching.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Potential future additions outside the 8-candidate cap include ASML, Lam Research, KLA, Teradyne, Amkor, Coherent, Lumentum, Fabrinet, Super Micro Computer and Celestica, depending on whether Layer 2 focuses more on lithography, test, optics, OSAT, or rack integration.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Substrate makers and some OSAT/advanced-packaging specialists are less represented among large US-listed equities; non-US listings may be required for fuller coverage of ABF substrates, CoWoS ecosystem suppliers and HBM peers.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Accelerated compute stack: AI accelerators, advanced packaging, HBM, substrates, high-speed interconnect and AI networking",
+  "node_id": "advanced_compute_packaging_memory_networking",
+  "summary": "Expanded US-listed universe for the AI accelerated-compute supply-chain node. The shortlist emphasizes companies with direct exposure to AI accelerators, advanced-node foundry and packaging capacity, HBM memory, AI networking silicon, Ethernet switching, and semiconductor equipment. The central Layer 1B hypothesis remains that market attention may concentrate on accelerator brands while second-order chokepoints such as HBM supply, CoWoS/advanced packaging, custom ASIC connectivity, and process equipment may also capture durable economics if AI cluster demand persists.",
+  "theme_id": "AI"
+}

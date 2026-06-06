@@ -1,0 +1,500 @@
+{
+  "args": {
+    "limit_themes": 8,
+    "max_briefs": 8,
+    "max_candidates": 60,
+    "max_candidates_per_node": 15,
+    "max_deep_reports": 3,
+    "max_layer1_nodes": 6,
+    "theme_id": null,
+    "themes": "config/serenity_themes.csv",
+    "universe": "config/us_serenity_pilot_universe.csv"
+  },
+  "layer1a": {
+    "coverage_gaps": [
+      "No live market-pricing check was performed in this Layer 1A pass; valuation, consensus expectations, short interest, and recent price moves require separate market-data validation.",
+      "Geographic coverage is still US-heavy because the pilot universe centers on US-listed and global mega-cap companies; Taiwan, Korea, Japan, Europe, and A-share suppliers should be added in Layer 1B.",
+      "Private-company exposure is important in AI infrastructure, especially model labs, data-center developers, optical component suppliers, and server ODM relationships; public-market mapping may miss private chokepoints.",
+      "The nuclear and power theme needs stricter timeline separation: near-term AI power demand can benefit grid equipment and firm-power contracts, while new nuclear/SMR deployment may have much longer permitting, financing, and fuel-cycle lead times.",
+      "Software monetization evidence is weaker and more company-specific than semiconductor infrastructure evidence; Layer 1B should distinguish proven consumption revenue from AI narrative."
+    ],
+    "evidence": [
+      {
+        "claim": "The International Energy Agency stated that electricity consumption from data centres, artificial intelligence, and the cryptocurrency sector could double by 2026, with data centres and data transmission networks each accounting for about 1% to 1.3% of global electricity use in 2022.",
+        "claim_type": "fact",
+        "confidence": 0.93,
+        "published_at": "2024-01",
+        "source_title": "IEA Electricity 2024: Analysis and forecast to 2026",
+        "source_url": "https://www.iea.org/reports/electricity-2024",
+        "ticker": ""
+      },
+      {
+        "claim": "NVIDIA reports a Data Center business segment and described data-center demand as a major driver of fiscal 2024 revenue growth, including demand for accelerated computing and generative AI.",
+        "claim_type": "fact",
+        "confidence": 0.9,
+        "published_at": "2024",
+        "source_title": "NVIDIA Annual Reports and Proxies",
+        "source_url": "https://investor.nvidia.com/financial-info/annual-reports-and-proxies/default.aspx",
+        "ticker": "NVDA"
+      },
+      {
+        "claim": "Microsoft's FY2024 Annual Report discusses continued investment in cloud and AI infrastructure and identifies data centers and other infrastructure as major capital expenditure requirements.",
+        "claim_type": "fact",
+        "confidence": 0.9,
+        "published_at": "2024",
+        "source_title": "Microsoft 2024 Annual Report",
+        "source_url": "https://www.microsoft.com/investor/reports/ar24/",
+        "ticker": "MSFT"
+      },
+      {
+        "claim": "TSMC provides annual-report disclosure for its foundry business and advanced packaging capabilities, making it a core source for checking leading-edge manufacturing and packaging capacity claims.",
+        "claim_type": "fact",
+        "confidence": 0.88,
+        "published_at": "2024",
+        "source_title": "TSMC Annual Reports",
+        "source_url": "https://investor.tsmc.com/english/annual-reports",
+        "ticker": "TSM"
+      },
+      {
+        "claim": "ASML identifies lithography systems, including EUV systems, as critical semiconductor manufacturing equipment and reports order, backlog, and geographic risk information in its annual reports.",
+        "claim_type": "fact",
+        "confidence": 0.9,
+        "published_at": "2024",
+        "source_title": "ASML Annual Report 2023",
+        "source_url": "https://www.asml.com/en/investors/annual-report/2023",
+        "ticker": "ASML"
+      },
+      {
+        "claim": "Arista Networks reports that its cloud networking products serve large-scale cloud and data-center customers, making it a relevant public-market source for AI networking exposure checks.",
+        "claim_type": "fact",
+        "confidence": 0.84,
+        "published_at": "2024",
+        "source_title": "Arista Networks SEC Filings",
+        "source_url": "https://investors.arista.com/financials/sec-filings/default.aspx",
+        "ticker": "ANET"
+      },
+      {
+        "claim": "Vertiv describes its business as critical digital infrastructure technologies and services, including power management and thermal management for data centers and other critical environments.",
+        "claim_type": "fact",
+        "confidence": 0.87,
+        "published_at": "2024",
+        "source_title": "Vertiv Annual Reports",
+        "source_url": "https://investors.vertiv.com/financial-information/annual-reports/default.aspx",
+        "ticker": "VRT"
+      },
+      {
+        "claim": "Amazon reports AWS as a major cloud segment and discusses capital expenditures for infrastructure supporting technology and content, fulfillment, and AWS capacity.",
+        "claim_type": "fact",
+        "confidence": 0.86,
+        "published_at": "2024",
+        "source_title": "Amazon Annual Reports, Proxies and Shareholder Letters",
+        "source_url": "https://ir.aboutamazon.com/annual-reports-proxies-and-shareholder-letters/default.aspx",
+        "ticker": "AMZN"
+      },
+      {
+        "claim": "Alphabet reports Google Cloud as a segment and discloses technical infrastructure investment, including servers and data centers, in its annual filings.",
+        "claim_type": "fact",
+        "confidence": 0.86,
+        "published_at": "2024",
+        "source_title": "Alphabet Investor Relations",
+        "source_url": "https://abc.xyz/investor/",
+        "ticker": "GOOGL"
+      },
+      {
+        "claim": "Meta reports significant capital expenditures for data centers, servers, network infrastructure, and AI-related infrastructure in its annual filings and investor disclosures.",
+        "claim_type": "fact",
+        "confidence": 0.86,
+        "published_at": "2024",
+        "source_title": "Meta Investor Relations Financials",
+        "source_url": "https://investor.fb.com/financials/",
+        "ticker": "META"
+      }
+    ],
+    "layer": "1A",
+    "memory_update": [
+      {
+        "confidence": 0.9,
+        "text": "AI theme should be tracked as a system expansion from model demand to cloud deployment, accelerator silicon, HBM/advanced packaging, networking, power/cooling/grid, and software monetization.",
+        "type": "theme_relation"
+      },
+      {
+        "confidence": 0.86,
+        "text": "HBM plus advanced packaging is a high-priority AI chokepoint candidate because it combines high technical difficulty, supplier concentration, qualification requirements, and capacity expansion lead times.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.88,
+        "text": "Data-center power and cooling should be treated as an AI infrastructure node, not merely a utility subtheme, because rack density and total site power can constrain deployment.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.78,
+        "text": "AI networking and optical interconnect deserve separate coverage from accelerators because cluster scaling can shift bottlenecks into switch silicon, NICs, optics, DSPs, lasers, and cabling.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.85,
+        "text": "Layer 1B should expand beyond the pilot universe into Asian memory, substrate, OSAT, server ODM, optics, and semiconductor equipment suppliers.",
+        "type": "coverage_gap"
+      },
+      {
+        "confidence": 0.82,
+        "text": "Layer 1B should add a market-pricing check to distinguish under-researched bottlenecks from already-consensus AI beneficiaries.",
+        "type": "coverage_gap"
+      }
+    ],
+    "summary": "AI is best decomposed as a multi-layer infrastructure buildout rather than a single software or chip theme. The strongest first-pass chokepoint map runs from model demand and cloud deployment into accelerator silicon, HBM/advanced packaging, high-speed networking, data-center power/cooling/grid interconnection, and enterprise/industrial AI software adoption. At Layer 1A, the goal is not to select securities but to identify where incremental AI demand meets scarce capacity, long qualification cycles, high capital intensity, or regulatory constraints.",
+    "supply_chain_nodes": [
+      {
+        "bottleneck_hypothesis": "The visible chip vendor may not be the only bottleneck; constraints can migrate across accelerator availability, HBM attach rate, advanced packaging slots, server integration, power envelopes, and rack-scale deployment readiness.",
+        "claim_type": "hypothesis",
+        "confidence": 0.82,
+        "node": "AI accelerators, GPUs, XPUs, and custom ASIC silicon",
+        "node_id": "ai_accelerators_and_custom_asic",
+        "public_asset_hunting_notes": "Map exposure across merchant accelerator vendors, custom ASIC suppliers, foundries, IP/EDA suppliers, server OEM/ODMs, test providers, and companies with credible design-win evidence. Separate companies with direct AI silicon revenue from those with only thematic language.",
+        "role": "capacity",
+        "search_queries": [
+          "AI accelerator data center GPU revenue annual report",
+          "custom AI ASIC hyperscaler supplier 10-K",
+          "AI server accelerator supply constraint HBM CoWoS",
+          "data center GPU backlog supply chain bottleneck"
+        ],
+        "why_it_matters": "This is the compute layer that converts model demand into semiconductor and server demand. It includes merchant GPUs, hyperscaler custom ASICs, networking-attached accelerators, and AI server platforms."
+      },
+      {
+        "bottleneck_hypothesis": "HBM supply, CoWoS-like packaging capacity, substrate availability, and yield/test bottlenecks can determine how fast AI accelerator supply can expand, creating second-order beneficiaries beyond the headline chip designer.",
+        "claim_type": "hypothesis",
+        "confidence": 0.86,
+        "node": "HBM, advanced packaging, substrates, interposers, and semiconductor test",
+        "node_id": "hbm_advanced_packaging_and_test",
+        "public_asset_hunting_notes": "Track HBM suppliers, foundry advanced packaging operators, packaging equipment, inspection/metrology, probe/test, substrates, thermal interface materials, and outsourced semiconductor assembly and test companies. Prioritize evidence from capacity expansion, capex, customer qualification, and utilization.",
+        "role": "input",
+        "search_queries": [
+          "HBM capacity expansion AI accelerators 2024 annual report",
+          "CoWoS advanced packaging capacity AI chips TSMC annual report",
+          "advanced packaging equipment AI semiconductor bottleneck",
+          "semiconductor test capacity HBM AI GPU"
+        ],
+        "why_it_matters": "Modern AI accelerators require high-bandwidth memory and advanced packaging to connect logic and memory at scale. This layer can become a harder-to-expand chokepoint than the processor design itself."
+      },
+      {
+        "bottleneck_hypothesis": "The market may over-focus on compute chips while underestimating Ethernet/InfiniBand switching, optical interconnect, transceiver supply, lasers, DSPs, and network operating software as scaling constraints.",
+        "claim_type": "hypothesis",
+        "confidence": 0.78,
+        "node": "AI networking, switches, NICs, optical modules, DSPs, and silicon photonics",
+        "node_id": "ai_networking_and_optical_interconnect",
+        "public_asset_hunting_notes": "Search for public companies tied to high-speed switching ASICs, Ethernet switches, InfiniBand, NICs, optical transceivers, active electrical cables, lasers, silicon photonics, optical test equipment, and cloud networking deployments.",
+        "role": "distribution",
+        "search_queries": [
+          "AI cluster networking Ethernet InfiniBand bottleneck annual report",
+          "800G optical transceiver AI data center demand",
+          "AI networking switch cloud titan annual report",
+          "silicon photonics data center AI interconnect public companies"
+        ],
+        "why_it_matters": "Large AI clusters require high-bandwidth, low-latency communication between accelerators, storage, and servers. As clusters scale, networking becomes a system-level performance and cost bottleneck."
+      },
+      {
+        "bottleneck_hypothesis": "The next constraint for AI deployment may shift from chip availability to site-level power availability, grid interconnection lead times, transformer/switchgear supply, and thermal management capacity.",
+        "claim_type": "hypothesis",
+        "confidence": 0.88,
+        "node": "Data-center power, cooling, grid interconnection, and energy supply",
+        "node_id": "data_center_power_cooling_and_grid",
+        "public_asset_hunting_notes": "Map power/cooling exposure across UPS, switchgear, transformers, power management, electrical contractors, grid EPC firms, turbine and generator suppliers, liquid cooling, colocation operators, utilities, nuclear operators, gas power, renewables, storage, and fuel-cycle companies. Avoid assuming every utility benefits equally; check geography, contracted load, regulatory return structure, and capex recovery.",
+        "role": "infrastructure",
+        "search_queries": [
+          "AI data center electricity demand IEA 2024",
+          "data center power cooling backlog annual report Vertiv Eaton",
+          "grid interconnection data center AI power demand",
+          "hyperscaler data center power nuclear contract AI"
+        ],
+        "why_it_matters": "AI training and inference increase rack power density and total data-center electricity demand. This converts AI growth into demand for electrical equipment, thermal management, substations, transmission, backup power, and firm energy sources."
+      },
+      {
+        "bottleneck_hypothesis": "If AI accelerator demand persists, the bottleneck can migrate upstream into the semiconductor capital equipment chain, especially where supplier concentration is high and qualification cycles are long.",
+        "claim_type": "hypothesis",
+        "confidence": 0.8,
+        "node": "Leading-edge foundry capacity, lithography, deposition, etch, metrology, and process control",
+        "node_id": "semiconductor_equipment_and_foundry_capacity",
+        "public_asset_hunting_notes": "Screen equipment companies by exposure to leading-edge logic, advanced packaging, HBM memory, inspection/metrology, and service revenue. Validate with order intake, backlog, geographic restrictions, export controls, and foundry capex commentary.",
+        "role": "equipment",
+        "search_queries": [
+          "EUV lithography supplier concentration ASML annual report",
+          "foundry advanced node capacity AI chip demand annual report",
+          "semiconductor equipment backlog AI HBM advanced packaging",
+          "export controls semiconductor equipment AI risk annual report"
+        ],
+        "why_it_matters": "AI chip supply ultimately depends on advanced-node manufacturing and equipment availability. EUV lithography, process control, etch/deposition, and foundry capex determine long-term capacity expansion."
+      },
+      {
+        "bottleneck_hypothesis": "Adoption may be constrained less by model access and more by data readiness, governance, security, integration, domain workflows, change management, and verifiable ROI.",
+        "claim_type": "hypothesis",
+        "confidence": 0.72,
+        "node": "Enterprise AI software, data platforms, workflow automation, and application-layer deployment",
+        "node_id": "enterprise_ai_software_data_and_automation",
+        "public_asset_hunting_notes": "Hunt for companies with usage-based AI revenue, AI attach rates, net retention evidence, workflow automation penetration, regulated-sector deployment, and clear gross-margin implications. Penalize companies where AI language is not tied to revenue, backlog, customer wins, or product metrics.",
+        "role": "customer",
+        "search_queries": [
+          "enterprise AI software revenue disclosure annual report",
+          "generative AI copilot adoption revenue evidence",
+          "AI automation platform customer wins regulated industries",
+          "data platform AI workload consumption growth annual report"
+        ],
+        "why_it_matters": "Long-term AI infrastructure demand depends on software use cases that produce measurable productivity, revenue, cost savings, or automation outcomes. This layer determines whether compute demand is durable or speculative."
+      }
+    ],
+    "theme_id": "ai_artificial_intelligence_cloud_data_center_semiconductors_software_automation",
+    "theme_map": {
+      "demand_drivers": [
+        "Hyperscaler training and inference demand for large language models, recommendation systems, search, coding assistants, advertising optimization, and AI agents.",
+        "Enterprise adoption of generative AI through cloud platforms, copilots, data platforms, workflow automation, cybersecurity, customer support, and industrial analytics.",
+        "Sovereign and regulated-sector AI demand from governments, defense, healthcare, financial services, and national compute infrastructure programs.",
+        "Edge and on-device AI demand in PCs, smartphones, vehicles, robotics, factory automation, and embedded systems.",
+        "Second-order infrastructure demand from AI data-center density: power distribution, backup power, cooling, grid connections, substations, transmission, land, water, and permitting."
+      ],
+      "public_market_search_strategy": "Start with the system bottlenecks, not the most visible AI tickers. Build parallel public-market baskets for: 1) AI accelerator and custom silicon exposure; 2) HBM, advanced packaging, substrates, EDA, test, and semiconductor equipment; 3) AI networking and optical interconnect; 4) data-center power, cooling, grid construction, and energy supply; 5) cloud hyperscalers and colocation operators as demand aggregators; 6) AI software and automation platforms where revenue evidence can be separated from narrative. For each basket, prioritize companies with verifiable revenue exposure, customer qualification evidence, capacity expansion evidence, backlog/order evidence, pricing power or margin evidence, and falsifiable leading indicators.",
+      "supply_side_constraints": [
+        "Advanced-node foundry capacity and wafer starts for leading-edge AI accelerators and custom ASICs.",
+        "HBM supply, CoWoS/advanced packaging capacity, interposers, substrates, test capacity, and yield learning curves.",
+        "High-speed networking capacity across Ethernet/InfiniBand switches, NICs, DSPs, optical transceivers, lasers, and silicon photonics.",
+        "Data-center electrical infrastructure including transformers, switchgear, UPS systems, power management, generators, and liquid cooling.",
+        "Grid interconnection queues, available baseload or firm power, nuclear/gas/renewable project timelines, and local permitting.",
+        "Enterprise AI deployment friction: data quality, data governance, security, integration with legacy workflows, ROI measurement, and model reliability."
+      ]
+    }
+  },
+  "metas": [
+    {
+      "created_at": "2026-06-06 14:28:50 UTC",
+      "endpoint": "chat",
+      "model": "gpt-5.5",
+      "output_types": [
+        "chat_message"
+      ],
+      "response_id": "resp_0e9556cfc4e7a3cf016a242e52db5c8198bf3369a3cba84835",
+      "status": "stop",
+      "step": "layer1a_theme_map",
+      "usage": {
+        "completion_tokens": 4379,
+        "prompt_tokens": 6102,
+        "total_tokens": 10481
+      },
+      "web_search_fallback_reason": "chat.completions endpoint does not use Responses web_search tool",
+      "web_search_requested": false,
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-06 14:30:31 UTC",
+      "endpoint": "chat",
+      "model": "gpt-5.5",
+      "output_types": [
+        "chat_message"
+      ],
+      "response_id": "resp_062e52e32ceb83a1016a242ea378ec819b9bea5931de96d8a7",
+      "status": "stop",
+      "step": "layer1b_node_ai_accelerators_and_custom_asic",
+      "usage": {
+        "completion_tokens": 5487,
+        "prompt_tokens": 4611,
+        "total_tokens": 10098
+      },
+      "web_search_fallback_reason": "chat.completions endpoint does not use Responses web_search tool",
+      "web_search_requested": false,
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-06 14:32:18 UTC",
+      "endpoint": "chat",
+      "model": "gpt-5.5",
+      "output_types": [
+        "chat_message"
+      ],
+      "response_id": "resp_0860db05494e4521016a242f08aea0819bb94ff2d7571b0a59",
+      "status": "stop",
+      "step": "layer1b_node_hbm_advanced_packaging_and_test",
+      "usage": {
+        "completion_tokens": 5729,
+        "prompt_tokens": 4621,
+        "total_tokens": 10350
+      },
+      "web_search_fallback_reason": "chat.completions endpoint does not use Responses web_search tool",
+      "web_search_requested": false,
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-06 14:34:11 UTC",
+      "endpoint": "chat",
+      "model": "gpt-5.5",
+      "output_types": [
+        "chat_message"
+      ],
+      "response_id": "resp_0882c6e6c6dc614c016a242f73d610819ba139f7eb890d5ca0",
+      "status": "stop",
+      "step": "layer1b_node_ai_networking_and_optical_interconnect",
+      "usage": {
+        "completion_tokens": 6014,
+        "prompt_tokens": 4620,
+        "total_tokens": 10634
+      },
+      "web_search_fallback_reason": "chat.completions endpoint does not use Responses web_search tool",
+      "web_search_requested": false,
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-06 14:35:58 UTC",
+      "endpoint": "chat",
+      "model": "gpt-5.5",
+      "output_types": [
+        "chat_message"
+      ],
+      "response_id": "resp_01994e7e2eb1f7a9016a242fe4747c81988512d27328ec63ef",
+      "status": "stop",
+      "step": "layer1b_node_data_center_power_cooling_and_grid",
+      "usage": {
+        "completion_tokens": 5751,
+        "prompt_tokens": 4635,
+        "total_tokens": 10386
+      },
+      "web_search_fallback_reason": "chat.completions endpoint does not use Responses web_search tool",
+      "web_search_requested": false,
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-06 14:37:44 UTC",
+      "endpoint": "chat",
+      "model": "gpt-5.5",
+      "output_types": [
+        "chat_message"
+      ],
+      "response_id": "resp_0336a40289d1e1c5016a24304f50948199af0e735001d9e0d5",
+      "status": "stop",
+      "step": "layer1b_node_semiconductor_equipment_and_foundry_capacity",
+      "usage": {
+        "completion_tokens": 5774,
+        "prompt_tokens": 4613,
+        "total_tokens": 10387
+      },
+      "web_search_fallback_reason": "chat.completions endpoint does not use Responses web_search tool",
+      "web_search_requested": false,
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-06 14:39:59 UTC",
+      "endpoint": "chat",
+      "model": "gpt-5.5",
+      "output_types": [
+        "chat_message"
+      ],
+      "response_id": "resp_089285f91a98aa58016a2430b90738819a93bf1444a8227351",
+      "status": "stop",
+      "step": "layer1b_node_enterprise_ai_software_data_and_automation",
+      "usage": {
+        "completion_tokens": 7375,
+        "prompt_tokens": 4601,
+        "total_tokens": 11976
+      },
+      "web_search_fallback_reason": "chat.completions endpoint does not use Responses web_search tool",
+      "web_search_requested": false,
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-06 14:42:24 UTC",
+      "endpoint": "chat",
+      "model": "gpt-5.5",
+      "output_types": [
+        "chat_message"
+      ],
+      "response_id": "resp_0bcbab0d92e1310d016a2431403aa0819881997d2883c07d4f",
+      "status": "stop",
+      "step": "layer1c_merge_universe",
+      "usage": {
+        "completion_tokens": 7944,
+        "prompt_tokens": 10519,
+        "total_tokens": 18463
+      },
+      "web_search_fallback_reason": "chat.completions endpoint does not use Responses web_search tool",
+      "web_search_requested": false,
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-06 14:44:38 UTC",
+      "endpoint": "chat",
+      "model": "gpt-5.5",
+      "output_types": [
+        "chat_message"
+      ],
+      "response_id": "resp_042b4f04a8e87c07016a2431d165a0819a852f4a050d91ac31",
+      "status": "stop",
+      "step": "layer2_chokepoints",
+      "usage": {
+        "completion_tokens": 7321,
+        "prompt_tokens": 9255,
+        "total_tokens": 16576
+      },
+      "web_search_fallback_reason": "chat.completions endpoint does not use Responses web_search tool",
+      "web_search_requested": false,
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-06 14:47:37 UTC",
+      "endpoint": "chat",
+      "model": "gpt-5.5",
+      "output_types": [
+        "chat_message"
+      ],
+      "response_id": "resp_0c26b34cf0d7187c016a2432576154819aa1648bb4f2fb363e",
+      "status": "stop",
+      "step": "layer3_ranking",
+      "usage": {
+        "completion_tokens": 9851,
+        "prompt_tokens": 10046,
+        "total_tokens": 19897
+      },
+      "web_search_fallback_reason": "chat.completions endpoint does not use Responses web_search tool",
+      "web_search_requested": false,
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-06 14:49:26 UTC",
+      "endpoint": "chat",
+      "model": "gpt-5.5",
+      "output_types": [
+        "chat_message"
+      ],
+      "response_id": "resp_0afd09a5225fd073016a24330ab4e4819b9ec574c2a9098f06",
+      "status": "stop",
+      "step": "layer4_briefs",
+      "usage": {
+        "completion_tokens": 5791,
+        "prompt_tokens": 9018,
+        "total_tokens": 14809
+      },
+      "web_search_fallback_reason": "chat.completions endpoint does not use Responses web_search tool",
+      "web_search_requested": false,
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-06 14:50:32 UTC",
+      "endpoint": "chat",
+      "model": "gpt-5.5",
+      "output_types": [
+        "chat_message"
+      ],
+      "response_id": "resp_0672a5602cf18e84016a243377dd94819b90925c99c8ee0e56",
+      "status": "stop",
+      "step": "layer5_deep_reports",
+      "usage": {
+        "completion_tokens": 3524,
+        "prompt_tokens": 9314,
+        "total_tokens": 12838
+      },
+      "web_search_fallback_reason": "chat.completions endpoint does not use Responses web_search tool",
+      "web_search_requested": false,
+      "web_search_used": false
+    }
+  ],
+  "theme": {
+    "name": "AI",
+    "query": "AI artificial intelligence cloud data center semiconductors software automation",
+    "theme_id": "ai"
+  }
+}

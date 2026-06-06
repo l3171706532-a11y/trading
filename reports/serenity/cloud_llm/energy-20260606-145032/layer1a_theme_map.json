@@ -1,0 +1,256 @@
+{
+  "coverage_gaps": [
+    "Need current market-pricing check: relative valuations, backlog multiples, commodity price sensitivity, and whether public equities already discount the bottleneck.",
+    "Need live source verification of 2025-2026 grid equipment lead times, transformer shortages, and public-company backlog trends.",
+    "Need regional power-market mapping: PJM, ERCOT, MISO, CAISO, SPP, Southeast utilities, Europe, China, India, and Middle East demand are not interchangeable.",
+    "Need separation between regulated utility beneficiaries and companies exposed to rate-case lag, wildfire liability, political caps, or balance-sheet stress.",
+    "Need deeper nuclear segmentation between existing fleet owners, SMR developers, uranium miners, enrichment/fuel-cycle providers, EPC contractors, and reactor component suppliers.",
+    "Need commodity-risk overlay for uranium, oil, gas, copper, steel, and lithium because theme correctness may not translate into margin expansion.",
+    "Need project-execution-risk review for EPC, nuclear new-build, LNG terminals, renewables, and transmission projects.",
+    "Need hyperscaler power-procurement evidence: signed PPAs, behind-the-meter generation, co-location with nuclear/gas, and interconnection commitments."
+  ],
+  "evidence": [
+    {
+      "claim": "The International Energy Agency reported that electricity consumption from data centres, artificial intelligence, and cryptocurrency could more than double from 2022 to 2026, with data centres becoming a significant source of electricity demand growth.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2024-01-24",
+      "source_title": "IEA - Electricity 2024",
+      "source_url": "https://www.iea.org/reports/electricity-2024",
+      "ticker": ""
+    },
+    {
+      "claim": "The U.S. Department of Energy has identified large power transformers as critical grid components and has discussed supply-chain vulnerabilities, including long lead times and limited domestic manufacturing capacity.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2022-02-24",
+      "source_title": "U.S. Department of Energy - America’s Strategy to Secure the Supply Chain for a Robust Clean Energy Transition",
+      "source_url": "https://www.energy.gov/oe/articles/doe-releases-new-report-americas-strategy-secure-supply-chain-robust-clean-energy",
+      "ticker": ""
+    },
+    {
+      "claim": "Lawrence Berkeley National Laboratory has documented large U.S. interconnection queues, showing that many proposed generation and storage projects wait in queues before connecting to the grid.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "Lawrence Berkeley National Laboratory - Generator Interconnection Queue Data",
+      "source_url": "https://emp.lbl.gov/queues",
+      "ticker": ""
+    },
+    {
+      "claim": "The U.S. Energy Information Administration states that natural gas has been the largest source of U.S. electricity generation in recent years, making gas infrastructure relevant to grid reliability and incremental load growth.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "U.S. Energy Information Administration - Electricity in the United States",
+      "source_url": "https://www.eia.gov/energyexplained/electricity/electricity-in-the-us.php",
+      "ticker": ""
+    },
+    {
+      "claim": "The World Nuclear Association describes the nuclear fuel cycle as including mining, milling, conversion, enrichment, fuel fabrication, reactor use, and back-end management, supporting a multi-node fuel-cycle research map rather than a single uranium-miner lens.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "",
+      "source_title": "World Nuclear Association - Nuclear Fuel Cycle Overview",
+      "source_url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/introduction/nuclear-fuel-cycle-overview",
+      "ticker": ""
+    },
+    {
+      "claim": "The U.S. Department of Energy has described high-assay low-enriched uranium, or HALEU, as needed for many advanced reactor designs and has launched programs to support domestic HALEU availability.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "U.S. Department of Energy - High-Assay Low-Enriched Uranium",
+      "source_url": "https://www.energy.gov/ne/high-assay-low-enriched-uranium",
+      "ticker": ""
+    },
+    {
+      "claim": "NREL has described grid integration of renewable energy as requiring transmission, flexibility, storage, forecasting, and operational changes, which supports treating renewables integration as a separate supply-chain node.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "National Renewable Energy Laboratory - Renewable Energy Grid Integration",
+      "source_url": "https://www.nrel.gov/grid/renewable-energy-grid-integration.html",
+      "ticker": ""
+    },
+    {
+      "claim": "The Federal Energy Regulatory Commission issued Order No. 2023 to reform generator interconnection procedures and address interconnection queue backlogs, confirming interconnection as a recognized grid bottleneck.",
+      "claim_type": "fact",
+      "confidence": 0.89,
+      "published_at": "2023-07-28",
+      "source_title": "FERC - Improvements to Generator Interconnection Procedures and Agreements, Order No. 2023",
+      "source_url": "https://www.ferc.gov/media/e-1-rm22-14-000",
+      "ticker": ""
+    },
+    {
+      "claim": "Constellation Energy operates one of the largest nuclear generation fleets in the United States, making it a relevant public-market mapping candidate for existing dispatchable nuclear capacity.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Constellation Energy - Power Plants",
+      "source_url": "https://www.constellationenergy.com/our-company/locations/power-plants.html",
+      "ticker": "CEG"
+    },
+    {
+      "claim": "GE Vernova reports business segments including Power, Wind, and Electrification, making it relevant to gas turbines, grid equipment, and energy transition infrastructure mapping.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "GE Vernova - About Us",
+      "source_url": "https://www.gevernova.com/company/about-us",
+      "ticker": "GEV"
+    }
+  ],
+  "layer": "1A",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Energy theme should be decomposed into electricity load growth, grid hardware, transmission/interconnection, dispatchable capacity, nuclear fuel cycle, renewables/storage integration, and gas/LNG reliability rather than treated as a single commodity trade.",
+      "type": "theme_relation"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Grid power equipment may be a high-priority chokepoint because electrification, data centers, renewables, and utility reliability spending all require transformers, switchgear, substations, and high-voltage equipment with long qualification and manufacturing cycles.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Transmission construction and interconnection are separate investable bottleneck layers; they can delay otherwise economic generation and storage projects.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Nuclear exposure should be split into existing fleet owners, reactor developers, EPC/component suppliers, uranium miners, conversion, enrichment, HALEU, and fuel fabrication because the bottleneck may sit in the fuel cycle rather than reactor demand.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.75,
+      "text": "Natural gas and LNG remain relevant as reliability and balancing infrastructure for power demand growth, but public-market screening should emphasize contracted infrastructure and bottleneck assets over generic commodity beta.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Next Serenity layers should add market-pricing checks, company revenue exposure verification, current backlog/order evidence, and falsification tests for each node.",
+      "type": "coverage_gap"
+    }
+  ],
+  "summary": "Energy is not one theme but a convergence of load growth, electrification, grid modernization, dispatchable power scarcity, nuclear fuel-cycle security, gas reliability, and renewable/storage integration. The Serenity-style chokepoint framing should start with where incremental electricity demand is appearing, then map the physical constraints that determine who can serve it: generation availability, interconnection queues, transmission buildout, transformer/switchgear supply, nuclear fuel/enrichment capacity, gas turbine availability, storage duration, permitting, and utility/regulatory cost recovery. This Layer 1A pass prioritizes six research nodes that broaden coverage beyond obvious commodity exposure and toward harder-to-replicate infrastructure bottlenecks.",
+  "supply_chain_nodes": [
+    {
+      "bottleneck_hypothesis": "The most durable chokepoint may be not generation fuel but the long-cycle electrical equipment layer, especially large power transformers, high-voltage switchgear, substation components, HVDC equipment, and grid automation systems where qualification, factory capacity, and utility procurement cycles are slow.",
+      "claim_type": "hypothesis",
+      "confidence": 0.86,
+      "node": "Grid power equipment: transformers, switchgear, breakers, protection relays, substations, HVDC, power electronics",
+      "node_id": "grid_power_equipment",
+      "public_asset_hunting_notes": "Screen for companies with rising grid backlog, transformer/switchgear exposure, utility capex exposure, pricing power, and multi-year capacity expansion. Separate true equipment bottlenecks from generalized industrial names with only small grid revenue exposure.",
+      "role": "equipment",
+      "search_queries": [
+        "large power transformer shortage utility capex backlog public companies",
+        "high voltage switchgear backlog electrification data center grid equipment",
+        "HVDC equipment suppliers transmission expansion listed companies",
+        "Eaton Schneider Siemens GE Vernova grid backlog transformers switchgear"
+      ],
+      "why_it_matters": "Nearly every electrification path requires physical grid hardware before load can be served. Data centers, renewables, EV charging, industrial load, and utility reliability spend all pull on overlapping equipment categories."
+    },
+    {
+      "bottleneck_hypothesis": "Even where renewable, gas, or nuclear generation is economic, transmission congestion, interconnection queues, and construction labor may delay monetization. Companies with specialized utility construction, right-of-way, substation, and transmission execution capabilities may sit closer to the bottleneck than commodity generators.",
+      "claim_type": "hypothesis",
+      "confidence": 0.84,
+      "node": "Transmission buildout, interconnection, substations, utility construction and grid services",
+      "node_id": "transmission_interconnection_construction",
+      "public_asset_hunting_notes": "Hunt for contractors and engineering firms with utility/grid backlog, multi-year master service agreements, storm-hardening work, transmission projects, and data-center power infrastructure exposure. Check whether margins are protected or diluted by labor/material cost inflation.",
+      "role": "infrastructure",
+      "search_queries": [
+        "interconnection queue transmission bottleneck renewable projects United States",
+        "utility transmission construction backlog public companies",
+        "Quanta Services transmission substation utility backlog data center power",
+        "grid interconnection delays renewable storage public market beneficiaries"
+      ],
+      "why_it_matters": "New generation and new loads are often limited by deliverability, permitting, and interconnection rather than only by project economics. Physical construction and grid services become second-order beneficiaries of electrification."
+    },
+    {
+      "bottleneck_hypothesis": "The market may underappreciate the scarcity value of existing dispatchable assets and long-lead gas turbine supply. New-build gas and nuclear are constrained by equipment lead times, permitting, fuel supply, and interconnection, making existing reliable generation and turbine service capacity strategically important.",
+      "claim_type": "hypothesis",
+      "confidence": 0.82,
+      "node": "Dispatchable generation: gas turbines, nuclear plants, capacity markets, reliability resources",
+      "node_id": "dispatchable_power_capacity",
+      "public_asset_hunting_notes": "Map independent power producers, regulated utilities, nuclear fleet owners, gas turbine OEMs, and service providers. Verify capacity-market exposure, contracted power deals, turbine backlog, heat-rate competitiveness, fuel access, and regulatory risk.",
+      "role": "capacity",
+      "search_queries": [
+        "data center firm power demand nuclear gas generation capacity markets",
+        "gas turbine supply constraints power plant backlog GE Vernova Siemens Mitsubishi",
+        "PJM capacity auction power demand data centers nuclear gas",
+        "existing nuclear fleet data center power purchase agreements"
+      ],
+      "why_it_matters": "Variable renewables and rising peak demand increase the value of reliable capacity. Data centers and industrial customers often require 24/7 availability, shifting attention to firm power, reserve margins, and capacity-market mechanisms."
+    },
+    {
+      "bottleneck_hypothesis": "For nuclear expansion, the fuel cycle may be a more immediate chokepoint than reactor deployment. Uranium supply, conversion, enrichment, and HALEU availability are geopolitically sensitive and difficult to expand quickly because of licensing, capital intensity, technical qualification, and national-security constraints.",
+      "claim_type": "hypothesis",
+      "confidence": 0.88,
+      "node": "Nuclear fuel cycle: uranium mining, conversion, enrichment, HALEU, fabrication and qualification",
+      "node_id": "nuclear_fuel_cycle",
+      "public_asset_hunting_notes": "Screen uranium miners, conversion/enrichment providers, nuclear fuel fabricators, and reactor-service companies. Distinguish spot uranium price exposure from contracted utility demand, enrichment separative work unit exposure, and HALEU capability.",
+      "role": "input",
+      "search_queries": [
+        "HALEU supply bottleneck United States advanced reactors public companies",
+        "uranium conversion enrichment capacity shortage nuclear fuel cycle",
+        "Centrus HALEU DOE contract enrichment public company",
+        "Cameco uranium conversion Westinghouse nuclear fuel exposure"
+      ],
+      "why_it_matters": "Nuclear energy is a firm low-carbon power source, but reactor growth or life extensions require secure fuel supply. Advanced reactors add additional fuel requirements, including HALEU, where commercial-scale supply is limited."
+    },
+    {
+      "bottleneck_hypothesis": "The highest-quality renewable exposure may be in integration chokepoints rather than pure generation volume: grid-forming inverters, battery supply and controls, long-duration storage, project developers with interconnection positions, and operators that can monetize volatility and capacity value.",
+      "claim_type": "hypothesis",
+      "confidence": 0.78,
+      "node": "Renewables, batteries, inverters, storage duration, and grid integration",
+      "node_id": "renewables_storage_grid_integration",
+      "public_asset_hunting_notes": "Avoid treating all renewables as equivalent. Check interconnection queue position, contracted pricing, battery availability, tax-credit qualification, inverter supplier exposure, storage attach rates, curtailment, and cost of capital.",
+      "role": "distribution",
+      "search_queries": [
+        "renewable interconnection queue storage attach rate bottleneck",
+        "grid forming inverter suppliers public companies renewables storage",
+        "battery energy storage system backlog public companies utility scale",
+        "NextEra renewable backlog storage interconnection transmission constraints"
+      ],
+      "why_it_matters": "Solar and wind can be fast to deploy at the project level, but their system value depends on interconnection, storage, inverter capability, curtailment management, and transmission availability."
+    },
+    {
+      "bottleneck_hypothesis": "Gas exposure may be most interesting where constrained infrastructure, LNG export capacity, pipeline bottlenecks, or turbine backup needs create durable margins, rather than in undifferentiated upstream commodity production.",
+      "claim_type": "hypothesis",
+      "confidence": 0.75,
+      "node": "Natural gas, LNG, pipelines, compression, and backup reliability infrastructure",
+      "node_id": "gas_lng_midstream_reliability",
+      "public_asset_hunting_notes": "Map LNG developers, midstream pipelines, compression equipment, gas turbine fuel supply, and regional basis differentials. Stress-test regulatory/permitting risk, methane rules, commodity-price sensitivity, and contract structure.",
+      "role": "input",
+      "search_queries": [
+        "LNG export capacity public companies natural gas demand power grid",
+        "pipeline constraints data center power natural gas generation",
+        "natural gas turbines data center backup grid reliability beneficiaries",
+        "US LNG export approvals permitting bottleneck public companies"
+      ],
+      "why_it_matters": "Natural gas remains a major balancing fuel for power grids and a key export commodity through LNG. It can benefit from both electricity load growth and reliability needs even in a decarbonization pathway."
+    }
+  ],
+  "theme_id": "energy_power_grid_nuclear_uranium_oil_gas_renewables_electrification",
+  "theme_map": {
+    "demand_drivers": [
+      "Data-center and AI compute load growth, especially from hyperscalers and colocation operators requiring high-density, reliable power.",
+      "Industrial electrification, reshoring, EV charging, heat pumps, and broader economy-wide decarbonization increasing electricity intensity.",
+      "Retirement or constrained growth of older dispatchable generation creating demand for replacement capacity, grid services, storage, and firm clean power.",
+      "Energy security and geopolitical pressure increasing interest in domestic nuclear fuel, uranium supply, LNG, gas infrastructure, and resilient power systems.",
+      "Renewables growth requiring transmission expansion, interconnection upgrades, grid-forming inverters, storage, curtailment management, and balancing resources.",
+      "Oil and gas demand resilience in transport, petrochemicals, LNG exports, and backup generation, even as power markets electrify."
+    ],
+    "public_market_search_strategy": "Do not begin with integrated oil majors or utilities alone. Build a public-market map by node: (1) load creators and power buyers such as cloud/data-center operators; (2) grid equipment makers with transformer, switchgear, HVDC, protection, and power electronics exposure; (3) transmission and utility construction contractors; (4) dispatchable generation owners and turbine/service suppliers; (5) nuclear fuel-cycle companies across uranium, conversion, enrichment, and reactor services; (6) renewable/storage developers and grid-balancing technology suppliers; (7) gas/LNG midstream and turbine backup beneficiaries. For each candidate, verify revenue exposure, backlog, order growth, customer concentration, regulatory approvals, capacity expansion, margin conversion, and whether the market already prices the bottleneck.",
+    "supply_side_constraints": [
+      "Long permitting and siting timelines for transmission, generation, pipelines, nuclear facilities, and LNG infrastructure.",
+      "Transformer, high-voltage equipment, switchgear, gas turbine, and skilled-labor constraints limiting how quickly physical grid capacity can expand.",
+      "Interconnection queue delays and transmission congestion preventing renewable or storage projects from becoming deliverable capacity.",
+      "Nuclear fuel-cycle bottlenecks including uranium mining, conversion, enrichment, HALEU availability, and fuel qualification timelines.",
+      "Utility rate-case and regulatory approval cycles that can delay cost recovery even when technical demand is strong.",
+      "Commodity and project-execution risk across uranium, copper, steel, natural gas, oilfield services, EPC labor, and power-equipment supply chains."
+    ]
+  }
+}

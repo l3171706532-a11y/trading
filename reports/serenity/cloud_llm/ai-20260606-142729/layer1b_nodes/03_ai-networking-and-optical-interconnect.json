@@ -1,0 +1,447 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "NVIDIA",
+      "confidence": 0.95,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track data-center networking revenue commentary, mix of InfiniBand versus Ethernet, lead times, large cloud deployments, and competitive displacement by Ethernet alternatives.",
+      "node_relation": "Direct supplier of AI cluster networking hardware and software, including InfiniBand, Ethernet switching, DPUs, and NICs through its data-center networking portfolio.",
+      "sector_or_industry": "AI semiconductors and networking systems",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI clusters need low-latency accelerator-to-accelerator and server-to-storage networking; NVIDIA is both an accelerator vendor and a networking stack supplier.",
+      "ticker": "NVDA",
+      "why_include": "Obvious leader because its Mellanox-derived networking stack is tightly coupled to large GPU cluster deployments and can be a scaling constraint alongside GPUs."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Broadcom",
+      "confidence": 0.94,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify AI-related networking contribution versus custom AI accelerator contribution, Tomahawk/Jericho shipment cadence, customer concentration, and CoWoS/advanced packaging dependence.",
+      "node_relation": "Direct supplier of merchant Ethernet switch silicon and related high-speed connectivity chips used in hyperscale data-center networks.",
+      "sector_or_industry": "Semiconductors: Ethernet switching ASICs, custom silicon, optical/connectivity components",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "demand",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI clusters shift toward scale-out Ethernet fabrics, merchant switching silicon and custom networking ASICs become key enabling components.",
+      "ticker": "AVGO",
+      "why_include": "Core AI networking chokepoint candidate because Broadcom's switch ASICs are widely referenced in high-speed cloud Ethernet architectures."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Arista Networks",
+      "confidence": 0.93,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track AI/cluster networking revenue disclosure, hyperscaler customer concentration, 800G/1.6T switch adoption, gross margin impact from optics and silicon supply.",
+      "node_relation": "Direct supplier of high-performance Ethernet switches, cloud networking platforms, and network operating software to large cloud and AI infrastructure customers.",
+      "sector_or_industry": "Cloud networking equipment and network operating software",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI training and inference clusters increasingly require high-throughput Ethernet fabrics, telemetry, routing, and network operating capabilities.",
+      "ticker": "ANET",
+      "why_include": "Obvious pure-play public-market mapping for Ethernet AI cluster networking."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Marvell Technology",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Break out AI custom silicon versus optical interconnect revenue, DSP generation adoption, 800G/1.6T ramps, and hyperscaler program concentration.",
+      "node_relation": "Direct/adjacent supplier of data-center connectivity silicon, electro-optics, PAM4 DSPs, and custom silicon for cloud infrastructure.",
+      "sector_or_industry": "Data-center semiconductors, optical DSPs, custom silicon, switching/connectivity",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "demand",
+        "evidence_needed"
+      ],
+      "theme_relation": "High-speed optical links and custom data-center silicon are second-order beneficiaries of AI cluster scaling.",
+      "ticker": "MRVL",
+      "why_include": "Important semiconductor node for optical interconnect and custom cloud silicon exposure, though AI networking-specific contribution needs separation from storage and other data-center products."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Credo Technology Group",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check customer concentration, AI cluster deployment references, 400G/800G AEC adoption, margin durability, and whether revenue is broad-based or program-specific.",
+      "node_relation": "Direct supplier of high-speed SerDes connectivity products, active electrical cables, and related data-center connectivity solutions.",
+      "sector_or_industry": "High-speed connectivity semiconductors and active electrical cables",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "demand",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI data centers require short-reach high-bandwidth interconnects inside racks and between switches/servers; active electrical cables can become a cost/power alternative to some optical links.",
+      "ticker": "CRDO",
+      "why_include": "Less obvious but highly relevant high-speed connectivity supplier with potential leverage to AI cluster cabling and switch-server interconnect."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Astera Labs",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Distinguish exposure to AI server scale-up connectivity from broader PCIe/CXL cycles; track hyperscaler and accelerator-platform design wins.",
+      "node_relation": "Adjacent supplier of PCIe, CXL, and Ethernet connectivity products for AI and cloud infrastructure.",
+      "sector_or_industry": "Data-center connectivity semiconductors",
+      "serenity_tags": [
+        "supply_chain",
+        "demand",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI servers need high-speed connectivity between accelerators, CPUs, memory expansion, and switching fabrics; this is more intra-system/inter-system connectivity than optical modules.",
+      "ticker": "ALAB",
+      "why_include": "Relevant second-order AI networking/connectivity name, especially for scale-up server architecture and CXL/PCIe connectivity constraints."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Cisco Systems",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify AI order backlog, Silicon One adoption in hyperscale AI networks, optics attach rates, and competitive share versus Arista/NVIDIA/Broadcom-based systems.",
+      "node_relation": "Direct supplier of data-center networking equipment, Silicon One routing/switching silicon, optics, and network software.",
+      "sector_or_industry": "Networking equipment, silicon, optics, and software",
+      "serenity_tags": [
+        "supply_chain",
+        "demand",
+        "evidence_needed"
+      ],
+      "theme_relation": "Cisco can participate in AI data-center Ethernet fabrics, campus-to-data-center networking, and observability/security layers around AI infrastructure.",
+      "ticker": "CSCO",
+      "why_include": "Large incumbent with credible AI networking exposure, though AI-specific growth may be diluted by its broad enterprise networking base."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Ciena",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Separate cloud/DCI demand from telecom capex weakness, track coherent pluggables, WaveLogic roadmap, and AI-related cloud customer commentary.",
+      "node_relation": "Supplier of coherent optical networking systems, WaveLogic coherent DSP technology, and data-center interconnect/networking products.",
+      "sector_or_industry": "Optical networking equipment and coherent optical systems",
+      "serenity_tags": [
+        "supply_chain",
+        "demand",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI workloads can drive metro, long-haul, and data-center interconnect bandwidth demand as cloud regions and AI data centers scale.",
+      "ticker": "CIEN",
+      "why_include": "Optical transport and data-center interconnect exposure makes Ciena a second-order beneficiary of AI-driven bandwidth growth."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Coherent",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track datacom revenue, 800G/1.6T transceiver ramps, customer mix, margin recovery, capacity expansion, and competition from Asia-based module vendors.",
+      "node_relation": "Direct supplier of optical communications components and modules, including lasers and transceivers used in datacenter and telecom networks.",
+      "sector_or_industry": "Optical components, lasers, transceivers, photonics materials",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "demand",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI clusters require high-speed optical modules and lasers; component availability, yield, and cost can become a bottleneck at 800G/1.6T speeds.",
+      "ticker": "COHR",
+      "why_include": "Relevant optical-component supplier with potential exposure to AI data-center transceiver demand and laser supply constraints."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Lumentum",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm specific exposure to datacenter transceivers versus telecom/3D sensing, customer concentration, AI-driven order visibility, and inventory normalization.",
+      "node_relation": "Supplier of optical and photonic products used in cloud, networking, and communications markets.",
+      "sector_or_industry": "Optical communications components and lasers",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "demand",
+        "evidence_needed"
+      ],
+      "theme_relation": "High-speed optical transceiver and laser demand can rise with AI cluster and data-center bandwidth growth.",
+      "ticker": "LITE",
+      "why_include": "Important photonics/laser supplier; may benefit if optical component supply tightens for AI data centers."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Fabrinet",
+      "confidence": 0.8,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Identify customer concentration, datacom versus telecom mix, AI-related transceiver manufacturing ramps, and capacity additions.",
+      "node_relation": "Manufacturing-services provider for optical communications products and related precision manufacturing.",
+      "sector_or_industry": "Contract manufacturing for optical communications and precision components",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "If optical-module demand accelerates, contract manufacturing capacity, yield, and customer allocation can become a second-order constraint.",
+      "ticker": "FN",
+      "why_include": "Less obvious manufacturing node tied to optical communications supply-chain capacity rather than branded component ownership."
+    },
+    {
+      "claim_type": "hypothesis",
+      "company": "Applied Optoelectronics",
+      "confidence": 0.66,
+      "market_cap_filter_note": "below_1b_exception",
+      "next_evidence": "Check current market cap, 800G product status, major cloud customer dependence, profitability, balance sheet, production capacity, and whether AI demand is translating into signed orders.",
+      "node_relation": "Smaller supplier of fiber-optic networking products, including data-center optical transceivers and related components.",
+      "sector_or_industry": "Optical modules and components",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "speculative",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potential high-beta exposure to optical transceiver demand for cloud and AI data centers, but scale and financial risk are higher.",
+      "ticker": "AAOI",
+      "why_include": "Included despite likely sub-$1B/volatile market-cap status because optical transceivers are a direct chokepoint area; relevance is unusually direct but evidence quality and business durability need extra scrutiny."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Juniper Networks",
+      "confidence": 0.75,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HPE acquisition status, data-center switching exposure, AI cluster wins, and competitive positioning versus Ethernet AI networking specialists.",
+      "node_relation": "Supplier of data-center switching, routing, and network software, with AI-driven network operations through Mist AI.",
+      "sector_or_industry": "Networking equipment, switching, routing, and AI-driven network operations",
+      "serenity_tags": [
+        "supply_chain",
+        "demand",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI data centers and cloud networks need switch/routing infrastructure and automation, though Juniper's AI cluster exposure may be less direct than Arista/NVIDIA/Broadcom.",
+      "ticker": "JNPR",
+      "why_include": "Incumbent networking vendor with cloud/data-center relevance; inclusion is useful for coverage completeness and competitive mapping."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Keysight Technologies",
+      "confidence": 0.76,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify AI networking-specific order commentary, exposure to 800G/1.6T Ethernet, optical test attach, and customer mix across semis/cloud/network OEMs.",
+      "node_relation": "Second-order supplier of high-speed network, semiconductor, optical, and electronic test/measurement solutions.",
+      "sector_or_industry": "Electronic design, validation, and test equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "800G/1.6T optical modules, switch silicon, SerDes, and AI networking systems require advanced validation; test capacity and instrumentation are enablers of deployment.",
+      "ticker": "KEYS",
+      "why_include": "Test and measurement is a less obvious picks-and-shovels node for high-speed interconnect qualification."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Viavi Solutions",
+      "confidence": 0.68,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check datacenter/AI test exposure, 800G/1.6T product demand, telecom versus cloud customer mix, and whether optical lab demand offsets carrier weakness.",
+      "node_relation": "Second-order supplier of network test, monitoring, and optical products used by network equipment makers, service providers, and labs.",
+      "sector_or_industry": "Network test, monitoring, and optical security/performance products",
+      "serenity_tags": [
+        "supply_chain",
+        "evidence_needed"
+      ],
+      "theme_relation": "Scaling AI networks increases validation and monitoring requirements for high-speed optical and Ethernet infrastructure.",
+      "ticker": "VIAV",
+      "why_include": "Relevant as a test/monitoring enabler, but AI-specific exposure may be indirect and mixed with telecom-cycle demand."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "NVIDIA reports data-center products that include GPUs, DPUs, networking products, and systems used for accelerated computing and AI infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "",
+      "source_title": "NVIDIA Investor Relations - Annual Reports and Proxies",
+      "source_url": "https://www.nvidia.com/en-us/about-nvidia/investor-relations/financial-info/annual-reports-and-proxies/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Broadcom describes semiconductor products for networking, broadband, storage, wireless, and industrial markets, including Ethernet switching and routing silicon relevant to data-center networking.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "Broadcom Investor Relations - SEC Filings",
+      "source_url": "https://investors.broadcom.com/sec-filings",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Arista provides cloud networking solutions, including Ethernet switching platforms and EOS software for cloud, data-center, and high-performance networking environments.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "",
+      "source_title": "Arista Networks Investor Relations - SEC Filings",
+      "source_url": "https://investors.arista.com/financial-information/sec-filings",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Marvell serves data infrastructure markets and offers products across data center, carrier infrastructure, enterprise networking, and related semiconductor categories.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "Marvell Technology Investor Relations - SEC Filings",
+      "source_url": "https://investor.marvell.com/sec-filings",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Credo develops high-speed connectivity solutions for data-center and networking applications, including SerDes, active electrical cable, and optical connectivity related products.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Credo Technology Group Investor Relations - SEC Filings",
+      "source_url": "https://investors.credosemi.com/financials/sec-filings/default.aspx",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Astera Labs provides semiconductor-based connectivity solutions purpose-built for cloud and AI infrastructure, including PCIe and CXL products.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "Astera Labs Investor Relations - SEC Filings",
+      "source_url": "https://ir.asteralabs.com/financials/sec-filings/default.aspx",
+      "ticker": "ALAB"
+    },
+    {
+      "claim": "Cisco offers networking products and platforms including switching, routing, optics, security, and software used across enterprise and data-center networks.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "Cisco Investor Relations - SEC Filings",
+      "source_url": "https://investor.cisco.com/financial-info/sec-filings/default.aspx",
+      "ticker": "CSCO"
+    },
+    {
+      "claim": "Ciena provides networking systems, software, and services, including coherent optical networking products used for high-capacity data transmission.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Ciena Investor Relations - SEC Filings",
+      "source_url": "https://investor.ciena.com/financials/sec-filings/default.aspx",
+      "ticker": "CIEN"
+    },
+    {
+      "claim": "Coherent offers products for networking and communications, including optical communications components and modules.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Coherent Investor Relations - SEC Filings",
+      "source_url": "https://investors.coherent.com/financials/sec-filings/default.aspx",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Lumentum supplies optical and photonic products for cloud, networking, and communications applications.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Lumentum Investor Relations - SEC Filings",
+      "source_url": "https://investor.lumentum.com/financials/sec-filings/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Fabrinet provides advanced optical packaging and precision manufacturing services for optical communications and related markets.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "",
+      "source_title": "Fabrinet Investor Relations - SEC Filings",
+      "source_url": "https://investor.fabrinet.com/financials/sec-filings/default.aspx",
+      "ticker": "FN"
+    },
+    {
+      "claim": "Applied Optoelectronics designs and manufactures fiber-optic networking products for internet data center, cable television, telecom, and fiber-to-the-home markets.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "",
+      "source_title": "Applied Optoelectronics Investor Relations - SEC Filings",
+      "source_url": "https://investors.ao-inc.com/financials/sec-filings/default.aspx",
+      "ticker": "AAOI"
+    },
+    {
+      "claim": "Juniper Networks provides networking products, including routing, switching, security, and automated network operations software.",
+      "claim_type": "fact",
+      "confidence": 0.75,
+      "published_at": "",
+      "source_title": "Juniper Networks Investor Relations - SEC Filings",
+      "source_url": "https://investor.juniper.net/financials/sec-filings/default.aspx",
+      "ticker": "JNPR"
+    },
+    {
+      "claim": "Keysight provides electronic design, test, and measurement solutions used in communications, networking, semiconductor, and other high-speed electronic markets.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "",
+      "source_title": "Keysight Technologies Investor Relations - SEC Filings",
+      "source_url": "https://investor.keysight.com/financials/sec-filings/default.aspx",
+      "ticker": "KEYS"
+    },
+    {
+      "claim": "Viavi Solutions provides network test, monitoring, assurance, and optical technology products for communications and networking markets.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "",
+      "source_title": "Viavi Solutions Investor Relations - SEC Filings",
+      "source_url": "https://investor.viavisolutions.com/financials/sec-filings/default.aspx",
+      "ticker": "VIAV"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.88,
+      "text": "Core direct AI networking candidates for this node: NVDA, AVGO, ANET, MRVL, CRDO, ALAB, CSCO.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Core optical interconnect candidates for this node: COHR, LITE, FN, AAOI, CIEN; evidence should separate datacom AI demand from telecom and consumer optical cycles.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "Second-order test and validation candidates: KEYS and VIAV; relevance depends on exposure to 800G/1.6T Ethernet, optical module validation, SerDes testing, and AI data-center buildouts.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.9,
+      "text": "The node should be tracked in sub-buckets: switching ASICs, complete Ethernet/InfiniBand systems, NICs/DPUs, optical transceivers, lasers/components, DSP/SerDes chips, active electrical cables, contract manufacturing, and network test/monitoring.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Many important optical module suppliers and silicon photonics players are Asia-listed or private; the US-listed universe may miss suppliers such as leading China/Taiwan optical module vendors and private silicon photonics startups.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Need market-cap verification for AAOI before dashboard promotion; included as a below-$1B exception because optical transceiver relevance is direct but financial and liquidity risks may be higher.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.83,
+      "text": "Falsification plan: downgrade the node if hyperscalers report adequate network supply, if AI cluster scaling bottlenecks shift mainly to power/cooling or GPU supply, if Ethernet commoditization compresses margins faster than volume growth, or if optical module supply becomes oversupplied.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "AI networking, switches, NICs, optical modules, DSPs, and silicon photonics",
+  "node_id": "ai_networking_and_optical_interconnect",
+  "summary": "Expanded US-listed universe for the AI networking and optical interconnect supply-chain node. The strongest direct mappings are Ethernet/InfiniBand switch and NIC vendors, merchant switching-silicon suppliers, optical transceiver/component suppliers, high-speed connectivity semiconductor vendors, contract manufacturers for optical modules, and test/measurement vendors used to validate high-speed networks. This is a research universe only, not a buy/sell list. Several candidates are direct chokepoint candidates; others are second-order enablers or demand-side/cloud-network beneficiaries that require follow-up evidence on AI-specific revenue exposure.",
+  "theme_id": "AI"
+}

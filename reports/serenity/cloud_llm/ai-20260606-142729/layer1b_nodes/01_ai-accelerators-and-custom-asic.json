@@ -1,0 +1,465 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "NVIDIA",
+      "confidence": 0.96,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track data-center revenue mix, GPU architecture transitions, HBM supply, advanced packaging allocation, hyperscaler customer concentration, and gross-margin sensitivity.",
+      "node_relation": "Merchant AI GPU and accelerator platform leader; sells data-center GPUs, networking, systems, and software stack used for AI training and inference.",
+      "sector_or_industry": "Semiconductors / AI accelerators / data center platforms",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "direct_revenue",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct compute-layer exposure to AI model training/inference demand and accelerator supply constraints.",
+      "ticker": "NVDA",
+      "why_include": "Core public-market mapping for AI accelerators; company filings identify Compute & Networking/Data Center as major revenue categories and discuss accelerated computing and generative AI demand."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Advanced Micro Devices",
+      "confidence": 0.92,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify accelerator revenue ramp, customer design wins, software maturity, HBM availability, and margin trajectory versus NVIDIA.",
+      "node_relation": "Merchant data-center GPU competitor and CPU/platform supplier; MI300-class accelerators and EPYC CPUs map directly into AI server platforms.",
+      "sector_or_industry": "Semiconductors / GPUs / CPUs / adaptive compute",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "direct_revenue",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct accelerator exposure plus second-order AI server CPU/platform attach exposure.",
+      "ticker": "AMD",
+      "why_include": "AMD filings and product disclosures identify Instinct accelerators and data-center products as part of its AI and data-center strategy."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Broadcom",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track AI semiconductor revenue, customer concentration, custom accelerator design-win durability, and switching/optical attach rates.",
+      "node_relation": "Custom AI ASIC and high-speed networking silicon supplier; exposure to hyperscaler custom accelerator programs and AI data-center networking.",
+      "sector_or_industry": "Semiconductors / custom ASICs / networking silicon",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "custom_asic",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct custom silicon and network bottleneck exposure; relevant if demand migrates from merchant GPUs to hyperscaler ASICs.",
+      "ticker": "AVGO",
+      "why_include": "Broadcom publicly discusses AI revenue from networking and custom accelerators; it is a key listed proxy for hyperscaler ASIC outsourcing."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Marvell Technology",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check custom silicon design-win timing, AI revenue disclosures, optical DSP attach rates, and margin impact from ramp costs.",
+      "node_relation": "Custom silicon, interconnect, optical DSP, storage, and data infrastructure semiconductor supplier with AI data-center exposure.",
+      "sector_or_industry": "Semiconductors / custom silicon / data infrastructure",
+      "serenity_tags": [
+        "supply_chain",
+        "custom_asic",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order and potentially direct exposure to custom AI silicon and data-center connectivity bottlenecks.",
+      "ticker": "MRVL",
+      "why_include": "Marvell has publicly framed custom silicon and electro-optics/connectivity as AI data-center growth drivers."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "confidence": 0.95,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track advanced-node utilization, CoWoS/SoIC capacity additions, capex allocation, customer concentration, and geopolitical risk.",
+      "node_relation": "Advanced-node foundry and advanced-packaging capacity provider for leading AI accelerators and ASICs.",
+      "sector_or_industry": "Foundry / advanced logic / advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "capacity",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "Critical supply-chain node if AI accelerator bottlenecks migrate from chip vendors to wafer starts, advanced nodes, CoWoS, or packaging capacity.",
+      "ticker": "TSM",
+      "why_include": "TSMC is a dominant advanced logic foundry and has repeatedly discussed AI demand and advanced packaging capacity expansion."
+    },
+    {
+      "claim_type": "fact",
+      "company": "ASML Holding",
+      "confidence": 0.92,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Monitor foundry logic demand, EUV backlog, China export controls, high-NA adoption, and customer capex cycles.",
+      "node_relation": "EUV and DUV lithography equipment supplier required for advanced semiconductor manufacturing.",
+      "sector_or_industry": "Semiconductor equipment / lithography",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "equipment",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order bottleneck exposure: AI accelerator capacity depends on advanced-node wafer fabrication where lithography tools are essential.",
+      "ticker": "ASML",
+      "why_include": "ASML is the sole supplier of EUV lithography systems used in the most advanced semiconductor manufacturing nodes."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Arm Holdings",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify AI/data-center royalty mix, Arm-based custom accelerator attach, licensing deal evidence, and exposure to hyperscaler silicon programs.",
+      "node_relation": "CPU and system IP licensor used across mobile, cloud, embedded, and custom silicon designs; potential relevance to custom AI ASIC control-plane and CPU subsystem design.",
+      "sector_or_industry": "Semiconductor IP / CPU architecture",
+      "serenity_tags": [
+        "supply_chain",
+        "ip",
+        "custom_asic",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order IP exposure to custom silicon proliferation, including hyperscaler and edge AI designs.",
+      "ticker": "ARM",
+      "why_include": "Custom AI chips often require licensed CPU/control-plane IP; Arm has broad semiconductor ecosystem penetration and cloud/data-center ambitions."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Synopsys",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track AI/custom silicon commentary, EDA backlog, IP growth, China/export risks, and customer concentration.",
+      "node_relation": "Electronic design automation and semiconductor IP supplier for advanced chip design and verification.",
+      "sector_or_industry": "EDA software / semiconductor IP",
+      "serenity_tags": [
+        "supply_chain",
+        "eda",
+        "custom_asic",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order bottleneck exposure: more custom AI ASIC projects increase demand for EDA, verification, IP blocks, and design services.",
+      "ticker": "SNPS",
+      "why_include": "Synopsys provides EDA and IP required to design complex chips; custom AI silicon proliferation increases design complexity and verification workload."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Cadence Design Systems",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check AI-driven EDA demand, hardware emulation growth, multi-die package design adoption, and export-control sensitivity.",
+      "node_relation": "EDA, verification, simulation, and system-design software vendor used in complex semiconductor and package design.",
+      "sector_or_industry": "EDA software / system design",
+      "serenity_tags": [
+        "supply_chain",
+        "eda",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order exposure to AI ASIC design complexity, chiplet/3D packaging, and verification bottlenecks.",
+      "ticker": "CDNS",
+      "why_include": "Cadence is a major EDA supplier; AI chips, chiplets, and advanced packaging increase design and verification intensity."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Applied Materials",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track foundry/DRAM/HBM capex, advanced packaging equipment demand, China sales exposure, and order-cycle inflection.",
+      "node_relation": "Wafer fabrication and packaging process equipment supplier across deposition, etch, implant, metrology, and advanced packaging-related flows.",
+      "sector_or_industry": "Semiconductor equipment / wafer fabrication / packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order capacity exposure to foundry, HBM, and advanced packaging expansions needed for AI accelerators.",
+      "ticker": "AMAT",
+      "why_include": "AI accelerator supply expansion requires incremental semiconductor manufacturing equipment; Applied Materials is a broad supplier to leading chipmakers."
+    },
+    {
+      "claim_type": "fact",
+      "company": "KLA Corporation",
+      "confidence": 0.85,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Monitor leading-edge logic, advanced packaging metrology, HBM process control demand, and export-control impact.",
+      "node_relation": "Process-control, inspection, and metrology equipment supplier used to improve yields in advanced semiconductor manufacturing.",
+      "sector_or_industry": "Semiconductor equipment / process control / inspection",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "yield",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order bottleneck exposure: advanced AI accelerators and packaging require high yields, defect control, and metrology intensity.",
+      "ticker": "KLAC",
+      "why_include": "As chips become larger, more advanced, and packaging becomes more complex, process-control intensity can rise."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Lam Research",
+      "confidence": 0.83,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check DRAM/HBM capex recovery, foundry logic capex, China exposure, and tool intensity per wafer.",
+      "node_relation": "Etch and deposition equipment supplier with exposure to memory, logic, and advanced packaging manufacturing steps.",
+      "sector_or_industry": "Semiconductor equipment / etch and deposition",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "hbm",
+        "capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order exposure to HBM and leading-edge semiconductor capacity supporting AI accelerators.",
+      "ticker": "LRCX",
+      "why_include": "HBM and advanced logic capacity expansions require complex etch/deposition process tools; Lam is a major supplier in these categories."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Micron Technology",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM revenue, qualification with major accelerator vendors, capacity allocation, pricing, yield, and competition from SK hynix/Samsung.",
+      "node_relation": "HBM and DRAM supplier; HBM is attached to AI accelerators and can become a constraint for GPU/ASIC availability.",
+      "sector_or_industry": "Memory semiconductors / DRAM / HBM",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "hbm",
+        "direct_revenue",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct supply-chain bottleneck exposure through HBM supply, memory bandwidth, and AI server memory content.",
+      "ticker": "MU",
+      "why_include": "Micron publicly markets HBM products for AI accelerators and has discussed HBM demand in investor materials and filings."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Super Micro Computer",
+      "confidence": 0.8,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify revenue quality, customer concentration, margins, inventory, working capital, GPU allocation, liquid-cooling adoption, and governance/accounting risks.",
+      "node_relation": "AI server and rack-scale system integrator that packages GPUs/accelerators, CPUs, networking, power, and thermal components into deployable platforms.",
+      "sector_or_industry": "AI servers / systems integration",
+      "serenity_tags": [
+        "demand",
+        "server_integration",
+        "rack_scale",
+        "evidence_needed"
+      ],
+      "theme_relation": "Downstream node that can reveal whether accelerator availability converts into deployable AI clusters; exposed to rack-level integration bottlenecks.",
+      "ticker": "SMCI",
+      "why_include": "AI accelerators do not become usable capacity until integrated into servers/racks with cooling, power, and networking; SMCI is a public pure-play proxy for this layer."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Dell Technologies",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track AI server backlog, gross margin dilution or expansion, GPU supply availability, enterprise adoption, and cash conversion.",
+      "node_relation": "Large-scale server vendor supplying AI servers, storage, and enterprise infrastructure built around accelerators.",
+      "sector_or_industry": "Enterprise servers / AI infrastructure",
+      "serenity_tags": [
+        "demand",
+        "server_integration",
+        "enterprise_ai",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order demand capture from enterprise and cloud AI infrastructure deployment; useful check on server backlog and margin pass-through.",
+      "ticker": "DELL",
+      "why_include": "Dell publicly reports AI-optimized server demand/backlog commentary and is a major listed AI infrastructure integrator."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "NVIDIA reports Data Center as a major platform and states that accelerated computing and generative AI drove strong demand for its data-center products.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2024",
+      "source_title": "NVIDIA Investor Relations - Annual Reports and Proxies",
+      "source_url": "https://www.nvidia.com/en-us/about-nvidia/investor-relations/financial-info/annual-reports-and-proxies/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "AMD identifies Data Center products including EPYC processors and Instinct accelerators as part of its business and AI strategy.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2024",
+      "source_title": "AMD Investor Relations - SEC Filings",
+      "source_url": "https://ir.amd.com/sec-filings",
+      "ticker": "AMD"
+    },
+    {
+      "claim": "Broadcom has publicly discussed AI semiconductor revenue including networking and custom accelerator opportunities.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2024",
+      "source_title": "Broadcom Investor Relations - Quarterly Results",
+      "source_url": "https://investors.broadcom.com/financial-information/quarterly-results",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Marvell describes data infrastructure, custom silicon, and connectivity products as relevant to AI data-center demand.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2024",
+      "source_title": "Marvell Investor Relations - SEC Filings",
+      "source_url": "https://investor.marvell.com/financial-information/sec-filings",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "TSMC provides foundry manufacturing for advanced logic and has discussed strong AI-related demand and advanced packaging expansion.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2024",
+      "source_title": "TSMC Investor Relations - Quarterly Results",
+      "source_url": "https://investor.tsmc.com/english/quarterly-results",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "ASML supplies lithography systems including EUV systems used in advanced semiconductor manufacturing.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2024",
+      "source_title": "ASML - Annual Report",
+      "source_url": "https://www.asml.com/en/investors/annual-report",
+      "ticker": "ASML"
+    },
+    {
+      "claim": "Arm licenses processor IP and related technology to semiconductor companies and system designers.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2024",
+      "source_title": "Arm Investor Relations - SEC Filings",
+      "source_url": "https://investors.arm.com/financials/sec-filings/default.aspx",
+      "ticker": "ARM"
+    },
+    {
+      "claim": "Synopsys provides electronic design automation software and semiconductor IP used to design and verify chips.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2024",
+      "source_title": "Synopsys Investor Relations - Financials",
+      "source_url": "https://www.synopsys.com/company/investor-relations/financials.html",
+      "ticker": "SNPS"
+    },
+    {
+      "claim": "Cadence provides computational software, EDA, verification, and system-design solutions for semiconductor and electronic systems design.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2024",
+      "source_title": "Cadence Investor Relations - SEC Filings",
+      "source_url": "https://www.cadence.com/en_US/home/company/investor-relations/sec-filings.html",
+      "ticker": "CDNS"
+    },
+    {
+      "claim": "Applied Materials supplies manufacturing equipment, services, and software to the semiconductor industry across wafer fabrication and related processes.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2024",
+      "source_title": "Applied Materials Investor Relations - Annual Reports",
+      "source_url": "https://ir.appliedmaterials.com/financial-information/annual-reports",
+      "ticker": "AMAT"
+    },
+    {
+      "claim": "KLA provides process control and yield management systems for semiconductor manufacturing.",
+      "claim_type": "fact",
+      "confidence": 0.85,
+      "published_at": "2024",
+      "source_title": "KLA Investor Relations - Annual Reports",
+      "source_url": "https://ir.kla.com/financial-information/annual-reports",
+      "ticker": "KLAC"
+    },
+    {
+      "claim": "Lam Research supplies wafer fabrication equipment and services, including deposition and etch technologies, to semiconductor manufacturers.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2024",
+      "source_title": "Lam Research Investor Relations - Annual Reports and Proxy",
+      "source_url": "https://investor.lamresearch.com/financials/annual-reports-and-proxy/default.aspx",
+      "ticker": "LRCX"
+    },
+    {
+      "claim": "Micron supplies memory and storage products and has positioned HBM as a product for AI workloads and accelerators.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2024",
+      "source_title": "Micron Investor Relations - SEC Filings",
+      "source_url": "https://investors.micron.com/financial-information/sec-filings",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Super Micro Computer provides server and storage systems, including GPU-accelerated systems for AI and high-performance computing.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2024",
+      "source_title": "Super Micro Computer Investor Relations - SEC Filings",
+      "source_url": "https://ir.supermicro.com/financials/sec-filings/default.aspx",
+      "ticker": "SMCI"
+    },
+    {
+      "claim": "Dell Technologies sells servers, storage, and infrastructure products and has publicly discussed AI-optimized server demand.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2024",
+      "source_title": "Dell Technologies Investor Relations - SEC Filings",
+      "source_url": "https://investors.delltechnologies.com/financial-information/sec-filings/default.aspx",
+      "ticker": "DELL"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Direct AI accelerator public-market leaders for this node: NVDA, AMD, AVGO, MRVL.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Critical upstream capacity enablers for AI accelerators/custom ASICs: TSM, ASML, AMAT, KLAC, LRCX.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "EDA/IP beneficiaries of custom AI ASIC proliferation: SNPS, CDNS, ARM.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "HBM and memory bandwidth should be tracked as part of the AI accelerator node; MU is the main US-listed HBM supplier, while key non-US comparables include SK hynix and Samsung.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Rack-scale conversion layer candidates include SMCI and DELL because accelerator supply must be integrated into deployable servers with power, cooling, networking, and service support.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Important non-US or less directly US-listed exposures not included in the 15-candidate cap: SK hynix, Samsung Electronics, ASE Technology, Global Unichip, Alchip, Wistron, Quanta Computer, Inventec, Wiwynn, Foxconn Industrial Internet, and Advantest.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.76,
+      "text": "Additional US-listed second-order candidates for later layers: ANET for AI Ethernet networking, TER for semiconductor test automation, AEHR as a smaller test/burn-in exception candidate, HPE for enterprise AI systems, and ORCL/MSFT/AMZN/GOOGL/META as demand-side customers/custom silicon owners.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Primary falsification checks: accelerator revenue fails to convert into cash/profit, custom ASIC demand is concentrated in too few customers, HBM/CoWoS constraints ease faster than expected, hyperscalers overbuild capacity, or server integrators show backlog without margin/cash conversion.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "AI accelerators, GPUs, XPUs, and custom ASIC silicon",
+  "node_id": "ai_accelerators_and_custom_asic",
+  "summary": "Expanded US-listed universe for the AI accelerator and custom ASIC silicon node. The highest-direct-exposure names are merchant accelerator vendors, custom silicon/networking ASIC suppliers, foundry/advanced-packaging enablers, EDA/IP suppliers, semiconductor capital equipment vendors, HBM memory suppliers, and AI server integration platforms. The chokepoint hypothesis remains that constraints can shift from visible GPU supply into HBM attach, CoWoS/advanced packaging, reticle/foundry capacity, EDA/IP, wafer-processing equipment, test/burn-in, and rack-level deployment readiness.",
+  "theme_id": "ai"
+}

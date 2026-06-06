@@ -1,0 +1,285 @@
+{
+  "coverage_gaps": [
+    "Need current market-pricing check: compare valuation, backlog growth, and estimate revisions across grid equipment, utilities, nuclear, uranium, gas turbines, midstream, and renewables before ranking securities.",
+    "Need region-level load-growth mapping: data-center-heavy markets such as PJM, ERCOT, MISO, SPP, and Southeast utilities may have very different winners and constraints.",
+    "Need primary filing review for candidate companies: backlog, customer concentration, capex plans, regulatory approvals, and contract duration should be verified from 10-K/10-Q, annual reports, and earnings transcripts.",
+    "Need fuel-cycle granularity: uranium mining, conversion, enrichment, fuel fabrication, and HALEU have different scarcity profiles and different public-market mappings.",
+    "Need oil and gas decomposition beyond broad commodity exposure: upstream, oilfield services, LNG, midstream, gas power, and refinery/petrochemical demand should be separated.",
+    "Need policy-risk layer: permitting reform, FERC transmission rules, IRA tax credits, NRC licensing, uranium import restrictions, and LNG export policy can materially change bottleneck economics."
+  ],
+  "evidence": [
+    {
+      "claim": "The U.S. Energy Information Administration reports and tracks U.S. electricity generation, capacity, fuel mix, and demand trends, making it a primary source for power-demand and generation-mix verification.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "",
+      "source_title": "U.S. Energy Information Administration - Electricity",
+      "source_url": "https://www.eia.gov/electricity/",
+      "ticker": ""
+    },
+    {
+      "claim": "The International Energy Agency has identified electricity demand growth from data centers, AI, and digitalization as an important component of global power demand outlooks.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2024-01-24",
+      "source_title": "IEA - Electricity 2024",
+      "source_url": "https://www.iea.org/reports/electricity-2024",
+      "ticker": ""
+    },
+    {
+      "claim": "Lawrence Berkeley National Laboratory tracks U.S. interconnection queues and has documented very large volumes of generation and storage projects waiting in queues, supporting the view that interconnection is a major renewable and grid bottleneck.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "",
+      "source_title": "Lawrence Berkeley National Laboratory - Generation, Storage, and Hybrid Capacity in Interconnection Queues",
+      "source_url": "https://emp.lbl.gov/queues",
+      "ticker": ""
+    },
+    {
+      "claim": "FERC issued Order No. 1920 on regional transmission planning and cost allocation, indicating that transmission planning and grid expansion are active regulatory priorities in the United States.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2024-05-13",
+      "source_title": "FERC Issues Transmission and Cost Allocation Rule",
+      "source_url": "https://www.ferc.gov/news-events/news/ferc-issues-transmission-and-cost-allocation-rule",
+      "ticker": ""
+    },
+    {
+      "claim": "The U.S. Department of Energy has highlighted large power transformers as critical grid components and has discussed supply-chain challenges affecting grid reliability and resilience.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "U.S. Department of Energy - Transformer Resilience and Advanced Components Program",
+      "source_url": "https://www.energy.gov/oe/transformer-resilience-and-advanced-components-trac-program",
+      "ticker": ""
+    },
+    {
+      "claim": "The U.S. Nuclear Regulatory Commission is the regulator for commercial nuclear reactors and licensing, making NRC approvals and licensing timelines central evidence for nuclear life extensions, uprates, restarts, and new reactor deployment.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "",
+      "source_title": "U.S. Nuclear Regulatory Commission - Nuclear Reactors",
+      "source_url": "https://www.nrc.gov/reactors.html",
+      "ticker": ""
+    },
+    {
+      "claim": "The U.S. Department of Energy announced a contract with Centrus Energy to demonstrate HALEU production, showing that HALEU supply is a recognized policy and fuel-cycle issue for advanced nuclear reactors.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2022-11-10",
+      "source_title": "DOE Awards Centrus Contract to Produce HALEU",
+      "source_url": "https://www.energy.gov/ne/articles/doe-awards-centrus-contract-produce-haleu",
+      "ticker": "LEU"
+    },
+    {
+      "claim": "The U.S. Department of Energy states that high-assay low-enriched uranium, or HALEU, will be needed by many advanced reactors, supporting HALEU as a distinct nuclear fuel-cycle node.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "",
+      "source_title": "U.S. Department of Energy - High-Assay Low-Enriched Uranium",
+      "source_url": "https://www.energy.gov/ne/high-assay-low-enriched-uranium",
+      "ticker": ""
+    },
+    {
+      "claim": "Amazon Web Services announced a purchase of a data center campus powered by Talen Energy's Susquehanna nuclear facility, illustrating hyperscaler interest in large-scale power access near nuclear generation.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2024-03-04",
+      "source_title": "Amazon Web Services - AWS makes major investment in Pennsylvania data center campus",
+      "source_url": "https://www.aboutamazon.com/news/aws/aws-talen-energy-nuclear-data-center",
+      "ticker": "AMZN"
+    },
+    {
+      "claim": "Microsoft and Constellation announced a power agreement intended to support restart of the Three Mile Island Unit 1 nuclear plant, illustrating the link between hyperscaler power demand and nuclear generation assets.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2024-09-20",
+      "source_title": "Constellation - Constellation Launches Crane Clean Energy Center, Restoring Jobs and Carbon-Free Power to the Grid",
+      "source_url": "https://www.constellationenergy.com/newsroom/2024/Constellation-launches-Crane-Clean-Energy-Center-restoring-jobs-and-carbon-free-power-to-the-grid.html",
+      "ticker": "MSFT"
+    },
+    {
+      "claim": "The EIA tracks U.S. LNG export capacity and natural gas market data, making it a primary source for checking whether LNG and gas demand are structurally tightening or only commodity-cycle stories.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "",
+      "source_title": "U.S. Energy Information Administration - Natural Gas",
+      "source_url": "https://www.eia.gov/naturalgas/",
+      "ticker": ""
+    },
+    {
+      "claim": "The cached Serenity methodology instructs the agent to start from broad themes, decompose demand and supply-chain layers, identify bottlenecks, map public-market exposure, and create falsification checks before focusing on individual tickers.",
+      "claim_type": "fact",
+      "confidence": 1.0,
+      "published_at": "2026-06-06",
+      "source_title": "Cached Serenity skill/methodology context supplied in user prompt",
+      "source_url": "provided_cached_evidence",
+      "ticker": ""
+    }
+  ],
+  "layer": "1A",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Energy theme should be tracked as an electrification, grid reliability, and firm-power super-theme rather than only oil/gas or renewables.",
+      "type": "theme_relation"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Transmission/interconnection is a cross-cutting bottleneck for renewables, storage, data centers, nuclear restarts, industrial electrification, and gas generation siting.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Electrical equipment such as transformers, switchgear, breakers, UPS, and substation hardware should be a priority node because it converts power-demand narratives into backlog and pricing-power evidence.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.89,
+      "text": "Nuclear fuel-cycle analysis should separate uranium mining from conversion, enrichment, fuel fabrication, and HALEU because scarcity and public-company exposure differ by layer.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Existing nuclear generation may be a nearer-term firm clean-power chokepoint than SMR deployment, while SMRs require separate licensing, cost, timeline, and fuel-supply validation.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Next layer should build a public-company universe across grid EPC, electrical OEMs, utilities/IPPs, nuclear fuel, uranium, gas turbines, midstream/LNG, renewables, storage, and hyperscaler power buyers.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.85,
+      "text": "Need market-pricing checks for crowded names and valuation-sensitive segments before moving from theme decomposition to candidate ranking.",
+      "type": "coverage_gap"
+    }
+  ],
+  "summary": "Energy is best decomposed as an electrification-and-reliability theme rather than a single commodity theme. The core demand drivers are rising electricity load from AI/data centers, industrial reshoring, electrification of transport/heating, and reliability needs as grids integrate variable renewables. The highest-quality Serenity chokepoint candidates are likely to sit in grid interconnection/transmission buildout, electrical equipment, firm clean power including nuclear, nuclear fuel-cycle constraints, gas-fired balancing/turbines, and large-load power procurement by hyperscalers. Oil and gas remain important as reliability and feedstock backstops, but the more differentiated public-market bottlenecks may be in permitting, grid hardware, skilled construction capacity, turbine lead times, and uranium conversion/enrichment rather than in broad upstream commodity exposure.",
+  "supply_chain_nodes": [
+    {
+      "bottleneck_hypothesis": "The binding constraint may be grid access rather than generation supply. Public beneficiaries may include grid EPC contractors, regulated utilities with approved capex plans, high-voltage equipment suppliers, and specialized transmission constructors.",
+      "claim_type": "hypothesis",
+      "confidence": 0.86,
+      "node": "Transmission expansion, substations, and interconnection capacity",
+      "node_id": "grid_transmission_interconnection",
+      "public_asset_hunting_notes": "Screen for companies with transmission backlog, substation exposure, utility capex pass-through, grid-hardening programs, interconnection services, and exposure to regions with high data-center or renewable interconnection demand. Watch for regulatory lag and project execution risk.",
+      "role": "distribution",
+      "search_queries": [
+        "FERC transmission planning reform interconnection queue grid bottleneck",
+        "EIA electricity demand data centers transmission constraints",
+        "utility transmission capex backlog substations public companies",
+        "Quanta Services transmission backlog data center power grid",
+        "Eaton Schneider Siemens grid equipment lead times transformers switchgear"
+      ],
+      "why_it_matters": "Almost every energy sub-theme depends on moving electricity from generation to load. Renewables, data centers, industrial electrification, and reliability upgrades all require interconnection studies, transmission capacity, substations, and grid hardening."
+    },
+    {
+      "bottleneck_hypothesis": "Equipment lead times and scarce manufacturing slots can create pricing power and backlog visibility for electrical OEMs and distributors, especially where products require safety certification, utility qualification, and high-reliability performance.",
+      "claim_type": "hypothesis",
+      "confidence": 0.84,
+      "node": "Power transformers, switchgear, breakers, UPS, electrical balance-of-system",
+      "node_id": "electrical_equipment_transformers_switchgear",
+      "public_asset_hunting_notes": "Look for order growth, book-to-bill, margin expansion, backlog duration, North American manufacturing capacity, and exposure to data centers and utilities. Separate true grid/data-center electrical exposure from general industrial cyclicality.",
+      "role": "equipment",
+      "search_queries": [
+        "power transformer shortage lead times United States DOE",
+        "switchgear backlog data center demand Eaton Vertiv Schneider",
+        "electrical equipment book to bill data center power infrastructure",
+        "large power transformer supply chain bottleneck utility capex",
+        "data center power distribution UPS thermal management public companies"
+      ],
+      "why_it_matters": "Electricity demand growth is hardware-intensive. Data centers, substations, renewables, storage, and industrial loads require transformers, switchgear, power distribution units, breakers, backup power, and grid protection equipment."
+    },
+    {
+      "bottleneck_hypothesis": "Existing nuclear assets may be more immediately investable than new-build SMRs because they already have licenses, grid interconnection, operating staff, and proven capacity. SMRs remain important but face licensing, cost, fuel, and deployment-timing risks.",
+      "claim_type": "hypothesis",
+      "confidence": 0.81,
+      "node": "Firm clean power: nuclear generation, life extensions, uprates, and SMR development",
+      "node_id": "firm_clean_power_nuclear_generation",
+      "public_asset_hunting_notes": "Map nuclear generators, reactor service providers, component suppliers, EPC firms, and utilities with license-extension or uprate plans. Verify power purchase agreements, regulatory approvals, capacity-market exposure, and nuclear operating performance.",
+      "role": "capacity",
+      "search_queries": [
+        "data centers nuclear power purchase agreement hyperscaler",
+        "NRC nuclear plant license renewal uprate United States",
+        "Constellation Energy nuclear data center power agreement",
+        "SMR licensing NRC NuScale BWXT fuel supply bottleneck",
+        "nuclear power capacity factor EIA United States"
+      ],
+      "why_it_matters": "Large electricity users increasingly need 24/7 reliable power with lower carbon intensity. Existing nuclear plants provide high-capacity-factor baseload power, while uprates, restarts, life extensions, and SMRs are potential long-duration supply responses."
+    },
+    {
+      "bottleneck_hypothesis": "The highest-quality nuclear chokepoint may be not uranium mining alone but conversion, enrichment, and HALEU availability, because advanced reactors and energy-security policy create demand for non-Russian fuel-cycle capacity.",
+      "claim_type": "hypothesis",
+      "confidence": 0.85,
+      "node": "Nuclear fuel cycle: uranium mining, conversion, enrichment, and HALEU",
+      "node_id": "uranium_conversion_enrichment_haleu",
+      "public_asset_hunting_notes": "Screen uranium miners, conversion/enrichment companies, fuel fabricators, and nuclear service providers. Track long-term contract prices, utility contracting, production restarts, government awards, sanctions, and enrichment capacity expansions.",
+      "role": "input",
+      "search_queries": [
+        "HALEU supply shortage advanced reactors DOE Centrus",
+        "uranium conversion enrichment capacity bottleneck nuclear fuel cycle",
+        "Russian uranium import ban United States nuclear fuel supply",
+        "Cameco uranium contracting conversion enrichment Westinghouse",
+        "Department of Energy HALEU enrichment awards"
+      ],
+      "why_it_matters": "Nuclear growth, life extensions, reactor restarts, and advanced-reactor deployment depend on secure fuel supply. The fuel cycle is more concentrated and qualification-heavy than generic power equipment, with geopolitical exposure and long contracting cycles."
+    },
+    {
+      "bottleneck_hypothesis": "Near-term electricity demand growth may increase demand for gas generation and turbine capacity, but the public-market bottleneck may be split between gas turbine OEM lead times, pipeline constraints, and contracted midstream assets rather than undifferentiated gas commodity exposure.",
+      "claim_type": "hypothesis",
+      "confidence": 0.73,
+      "node": "Natural gas power generation, turbines, midstream, and LNG balancing",
+      "node_id": "gas_power_lng_balancing",
+      "public_asset_hunting_notes": "Separate commodity-price beta from structural bottlenecks. Search for turbine backlog, combined-cycle plant orders, pipeline constraints near data-center clusters, LNG take-or-pay contracts, and utilities adding dispatchable capacity.",
+      "role": "capacity",
+      "search_queries": [
+        "gas turbine lead times power generation demand data centers",
+        "GE Vernova gas turbine backlog electricity demand",
+        "natural gas power plant additions EIA data centers grid reliability",
+        "LNG export capacity United States EIA natural gas demand",
+        "pipeline constraints data center power demand natural gas"
+      ],
+      "why_it_matters": "Gas remains a key dispatchable resource for grid reliability, peak demand, renewable balancing, and industrial loads. It is also linked to LNG exports and global energy security."
+    },
+    {
+      "bottleneck_hypothesis": "The differentiated opportunity may be in developers and suppliers that can secure interconnection, financing, tax-credit compliance, and contracted offtake rather than in generic solar/wind capacity growth. Storage may become a grid reliability bottleneck where renewable penetration and peak load rise together.",
+      "claim_type": "hypothesis",
+      "confidence": 0.77,
+      "node": "Utility-scale renewables, storage, and developer interconnection execution",
+      "node_id": "renewables_storage_developer_interconnection",
+      "public_asset_hunting_notes": "Analyze project backlog quality, interconnection status, PPA counterparties, tax-credit transferability, battery supply exposure, curtailment risk, and regional power-price spreads. Avoid treating all renewables exposure as equal.",
+      "role": "capacity",
+      "search_queries": [
+        "renewable interconnection queue backlog Lawrence Berkeley National Laboratory",
+        "utility scale battery storage additions EIA United States",
+        "NextEra renewables backlog interconnection storage earnings",
+        "IRA tax credits renewables storage domestic content public companies",
+        "solar wind storage curtailment grid bottleneck data center demand"
+      ],
+      "why_it_matters": "Wind, solar, and batteries are central to new generation additions, but realized value depends on interconnection, storage duration, tax-credit monetization, supply-chain sourcing, and power purchase agreements."
+    }
+  ],
+  "theme_id": "energy_power_grid_nuclear_uranium_oil_gas_renewables_electrification",
+  "theme_map": {
+    "demand_drivers": [
+      "AI and cloud data-center electricity demand growth",
+      "Industrial electrification and reshoring of manufacturing loads",
+      "Transmission and distribution upgrades required for renewable interconnection and load growth",
+      "Reliability demand from intermittent renewables, extreme weather, and aging grid assets",
+      "Policy-driven decarbonization, including nuclear life extensions, renewable tax credits, storage, and clean hydrogen",
+      "Natural gas demand for dispatchable power, LNG exports, and industrial use",
+      "Energy security demand for domestic uranium, fuel-cycle capacity, gas infrastructure, and critical grid equipment"
+    ],
+    "public_market_search_strategy": "Start with system-level demand evidence from grid operators, EIA/IEA, hyperscaler capex disclosures, utility integrated resource plans, and interconnection-queue data. Then map bottleneck nodes to public companies across utilities, IPPs, grid EPC, electrical equipment, nuclear generators, uranium/fuel-cycle suppliers, gas turbine OEMs, LNG/midstream, renewables developers, storage suppliers, and data-center power infrastructure. Prioritize companies with disclosed backlog, pricing power, regulated asset-base growth, long-duration contracts, scarce licenses, customer qualification barriers, or unique fuel/regulatory positioning. Deprioritize broad theme exposure where the link to bottleneck revenue, margin, backlog, or capacity is weak.",
+    "supply_side_constraints": [
+      "Transmission permitting, siting, interconnection queues, and utility regulatory approval timelines",
+      "Shortage of power transformers, switchgear, breakers, substations, and high-voltage equipment",
+      "Limited skilled labor and EPC capacity for grid, nuclear, utility-scale renewables, and data-center power projects",
+      "Nuclear fuel-cycle constraints, especially uranium mining, conversion, enrichment, and HALEU availability for advanced reactors",
+      "Long lead times for gas turbines and large rotating power equipment",
+      "Renewables constraints from interconnection queues, land permitting, storage economics, and supply-chain localization rules",
+      "Oil and gas constraints from geology, service intensity, pipeline/LNG permitting, capital discipline, and geopolitical risk"
+    ]
+  }
+}
