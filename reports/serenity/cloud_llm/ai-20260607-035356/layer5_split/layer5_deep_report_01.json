@@ -1,0 +1,108 @@
+{
+  "deep_reports": [
+    {
+      "company": "NVIDIA",
+      "evidence_chain": [
+        "NVIDIA reported fiscal Q1 2027 revenue of $81.6B, up 85% year over year, and Data Center revenue of $75.2B, up 92% year over year. Source: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "For fiscal Q1 2027, NVIDIA disclosed GAAP gross margin of 74.9% and non-GAAP gross margin of 75.0%; management guided fiscal Q2 2027 revenue to $91.0B plus or minus 2%, with GAAP and non-GAAP gross margins expected at 74.9% and 75.0%, plus or minus 50 bps. Source: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "Under NVIDIA's prior sub-market presentation, fiscal Q1 2027 Data Center compute revenue was $60.4B, up 77% year over year, while Data Center networking revenue was $14.8B, up 199% year over year. Source: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "NVIDIA disclosed a new reporting framework beginning in fiscal Q1 2027, with Data Center sub-markets split into Hyperscale and ACIE, where ACIE includes AI Clouds, Industrial, and Enterprise. Source: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "On May 31, 2026, NVIDIA said Vera Rubin was ramping into full production, with server makers and supply-chain partners manufacturing Vera Rubin-based systems at scale; it also stated production shipments are set to begin starting in fall 2026. Source: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx",
+        "NVIDIA described Vera Rubin as a POD-scale platform combining Vera Rubin NVL72 systems, Vera CPU, Rubin GPU, BlueField-4 STX storage, and Spectrum-6 SPX Ethernet racks; NVIDIA also stated Vera Rubin delivers 10x agent throughput at scale versus Grace Blackwell. Source: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx",
+        "NVIDIA said the Vera Rubin ecosystem includes hundreds of supply-chain partners across more than 350 factories and 30 countries, including major system builders and ODMs such as Dell Technologies, HPE, Lenovo, Supermicro, Foxconn, Inventec, QCT, Wistron, and Wiwynn. Source: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx",
+        "The combination of very large Data Center revenue, strong networking growth, rack-scale product disclosure, and broad system-builder adoption supports the view that NVIDIA's chokepoint control is shifting from discrete accelerator cards toward full AI factory system architecture.",
+        "If agentic AI workloads materially increase inference-time compute, memory, networking, and storage intensity, NVIDIA's integrated rack-scale architecture could remain scarce even if individual GPU supply improves.",
+        "Customer-level order visibility, HBM allocation, CoWoS/advanced packaging capacity, Vera Rubin qualification schedules, rack power/cooling readiness, and deployment lead times are not fully proven by the current press-release evidence."
+      ],
+      "falsification_plan": [
+        "Falsify the demand thesis if Data Center sequential growth slows materially for multiple quarters while hyperscaler and neocloud capex remains high, implying share loss, saturation, deployment bottlenecks, or a shift to alternative silicon.",
+        "Falsify the chokepoint-control thesis if networking, DPU, and rack-scale system revenue growth decouple negatively from accelerator growth, suggesting customers are buying chips but not adopting NVIDIA's broader AI factory architecture.",
+        "Falsify the margin-resilience thesis if GAAP or non-GAAP gross margin compresses materially beyond management expectations because of product mix, competitive pricing, export controls, or supply-chain inflation.",
+        "Falsify the Vera Rubin execution thesis if fall 2026 production shipments slip, customer qualification is delayed, or broad hyperscaler/neocloud deployment commitments fail to convert into visible revenue.",
+        "Falsify the supply-scarcity thesis if HBM/advanced packaging capacity expands faster than end demand and lead times normalize while pricing and margins weaken.",
+        "Falsify the agentic-AI workload thesis if enterprise and cloud inference workloads do not scale token consumption, networking intensity, or rack utilization enough to justify new AI factory builds.",
+        "Falsify the platform-lock-in thesis if major customers increasingly deploy custom silicon clusters with non-NVIDIA networking/software at comparable performance-per-dollar and lower dependency risk."
+      ],
+      "next_research_tasks": [
+        "Pull NVIDIA's latest 10-Q/10-K and CFO commentary to reconcile Data Center revenue, Hyperscale versus ACIE split, backlog/order commentary, inventory, purchase obligations, and customer concentration disclosures.",
+        "Build a Blackwell Ultra to Vera Rubin milestone tracker: tapeout/qualification, HBM generation, packaging partner readiness, rack design finalization, system-builder production, first shipments, and volume ramp.",
+        "Map upstream chokepoints: HBM suppliers, TSMC advanced nodes, CoWoS or equivalent packaging, substrates, CPO/optics suppliers, power modules, liquid cooling, and ODM/server integration capacity.",
+        "Cross-check customer capex absorption: compare Microsoft, Google, Amazon, Meta, Oracle, CoreWeave, Nebius, Lambda, sovereign AI programs, and enterprise AI commentary against NVIDIA Data Center growth.",
+        "Track gross margin bridge each quarter: accelerator mix, networking mix, rack-scale system mix, China/export-control impact, inventory charges, and supply-chain cost inflation.",
+        "Verify independent adoption signals for Vera Rubin: cloud instance announcements, purchase commitments, data-center buildouts, ODM production commentary, and shipment timing versus NVIDIA's fall 2026 availability statement.",
+        "Compare merchant GPU economics against alternatives: hyperscaler ASICs, AMD roadmap, inference-optimized chips, model-efficiency improvements, and total cost of ownership at cluster scale.",
+        "Create a dashboard monitor with quarterly fields for Data Center revenue, compute revenue, networking revenue, Hyperscale/ACIE disclosure, gross margin, inventory, capex from top customers, HBM/CoWoS availability, and Vera Rubin shipment status."
+      ],
+      "risks": [
+        "Customer concentration and capex digestion risk: hyperscalers, AI labs, neoclouds, and sovereign AI buyers may slow deployments if model ROI, token economics, financing, or data-center power availability disappoint.",
+        "Supply-chain execution risk: HBM, advanced packaging, substrates, power delivery, liquid cooling, optics/CPO, server assembly, and logistics must all scale together; a shortage in any node can delay recognized revenue or shift margin mix.",
+        "Gross-margin risk: margins could compress from product transitions, higher supply-chain costs, lower-margin rack/system mix, competitive pricing, export restrictions, or customer bargaining power.",
+        "Technology-transition risk: Blackwell Ultra and Vera Rubin ramps could face qualification delays, reliability issues, thermal/power constraints, or software-stack maturity problems.",
+        "Competitive risk: hyperscaler custom silicon, AMD accelerators, ASICs, alternative interconnect architectures, or lower-cost inference stacks could reduce merchant GPU attach rates over time.",
+        "Regulatory and geopolitical risk: U.S.-China export controls, tariff changes, Taiwan supply-chain concentration, and broader semiconductor policy changes could affect demand, supply, or margins.",
+        "Narrative/valuation risk: because NVIDIA is already widely recognized as an AI beneficiary, the market may price in flawless execution, making the research hurdle higher even if the operating business remains strong.",
+        "Evidence-quality risk: several Vera Rubin claims are company disclosures and forward-looking statements; independent customer deployment data and supply-chain checks are still required."
+      ],
+      "supply_chain_position": "AI infrastructure stack position: downstream demand comes from hyperscalers, AI labs, neoclouds, enterprises, industrial AI users, and sovereign AI projects; system layer includes AI factories, cloud regions, clusters, racks, storage, networking, and orchestration; NVIDIA maps to the high-value control layer across accelerator compute, NVLink/NVSwitch or Spectrum-X networking, BlueField DPUs, rack-scale reference systems such as MGX/DSX, CUDA/software libraries, and deployment ecosystem. Upstream dependencies include TSMC leading-edge foundry, HBM suppliers, CoWoS/advanced packaging, substrates, optics/CPO, server ODMs, power/cooling, and data-center construction. The likely chokepoint is not a single chip alone, but synchronized delivery of accelerator, memory, packaging, networking, rack integration, software, and customer deployment capacity.",
+      "thesis_cn": "NVIDIA 是 AI 主题中最纯粹的算力瓶颈映射之一：GPU、NVLink/网络、BlueField DPU、机架级系统、参考设计和软件生态共同决定下游 AI 工厂的可交付能力。当前研究重点不再是“是否受益 AI”，而是 Blackwell 到 Vera Rubin 的代际切换能否顺利、HBM/先进封装/系统集成是否继续成为供给约束、毛利率能否维持，以及客户资本开支能否持续消化快速扩张的供给。",
+      "thesis_en": "[Inference] NVIDIA is one of the cleanest AI compute chokepoint mappings: GPUs, NVLink/networking, BlueField DPUs, rack-scale systems, reference designs, and software jointly shape downstream AI factory delivery. The key research question is no longer whether NVIDIA benefits from AI, but whether the Blackwell-to-Vera-Rubin transition executes cleanly, whether HBM/advanced packaging/system integration remain supply constraints, whether gross margins stay resilient, and whether customer capex continues to absorb rapidly expanding supply.",
+      "ticker": "NVDA",
+      "title_cn": "NVIDIA：AI 工厂的加速器与机架级系统瓶颈映射",
+      "title_en": "NVIDIA: Accelerator and Rack-Scale System Chokepoint Mapping for AI Factories"
+    }
+  ],
+  "evidence": [
+    {
+      "claim_type": "fact",
+      "date": "2026-05-20",
+      "evidence_quality": "high_for_reported_company_financials; medium_for_forward-looking_guidance",
+      "key_points": [
+        "Fiscal Q1 2027 revenue was $81.6B, up 85% year over year.",
+        "Fiscal Q1 2027 Data Center revenue was $75.2B, up 92% year over year.",
+        "GAAP and non-GAAP gross margins were 74.9% and 75.0%.",
+        "Fiscal Q2 2027 revenue outlook was $91.0B plus or minus 2%.",
+        "Prior Data Center compute revenue was $60.4B and networking revenue was $14.8B."
+      ],
+      "source_type": "company_press_release",
+      "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+    },
+    {
+      "claim_type": "fact_and_forward_looking_company_disclosure",
+      "date": "2026-05-31",
+      "evidence_quality": "medium; strong_as_company_disclosure_but_requires_independent_customer_and_supply-chain_verification",
+      "key_points": [
+        "NVIDIA said Vera Rubin is ramping into full production.",
+        "The company described Vera Rubin as a POD-scale platform integrating compute, CPU, storage/DPU, networking, and rack systems.",
+        "The company said hundreds of ecosystem partners across 350+ factories and 30 countries are ramping Vera Rubin.",
+        "Production shipments are stated to begin starting in fall 2026.",
+        "NVIDIA introduced Spectrum-X Ethernet Photonics and BlueField-4 DPU integration as part of the platform."
+      ],
+      "source_type": "company_press_release",
+      "title": "NVIDIA Vera Rubin Ramps Into Full Production to Power Agentic AI Factories Worldwide",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx"
+    }
+  ],
+  "layer": 5,
+  "memory_update": [
+    {
+      "claim_type": "inference",
+      "company": "NVIDIA",
+      "core_chokepoint": "AI accelerator plus rack-scale networking, DPU, system design, and software platform",
+      "highest_priority_verifications": [
+        "Vera Rubin fall 2026 shipment timing and qualification status",
+        "HBM and advanced packaging allocation",
+        "Gross margin durability during rack-scale system transition",
+        "Hyperscale versus ACIE demand absorption",
+        "Customer capex continuation and deployment lead times"
+      ],
+      "not_a_recommendation": true,
+      "research_status": "mini_deep_report_completed",
+      "theme_id": "AI",
+      "ticker": "NVDA",
+      "type": "theme_funnel_layer_5"
+    }
+  ],
+  "summary": "Layer 5 mini deep report for the AI theme: NVIDIA is treated as a deep-research target for the AI accelerator, rack-scale networking, DPU, systems, and software-platform chokepoint. The core conclusion is an inference, not a trading recommendation: NVIDIA remains the cleanest public-market mapping to AI factory system delivery, but the research edge now depends on verifying Blackwell-to-Vera-Rubin execution, HBM and advanced packaging allocation, rack/networking bottlenecks, gross-margin durability, and whether hyperscaler/neocloud/sovereign AI capex can absorb expanding supply.",
+  "theme_id": "AI"
+}

@@ -1,0 +1,287 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "FormFactor Inc.",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-K/10-Q for DRAM probe-card revenue mix, number of HBM customers, HBM3E/HBM4 transition costs, gross-margin impact, and whether volume is concentrated at one or more of SK hynix/Samsung/Micron.",
+      "node_relation": "Supplies probe cards and wafer-level test products used in DRAM and HBM testing; HBM ramps increase test intensity and customer-specific probe-card demand.",
+      "sector_or_industry": "Semiconductor test equipment / probe cards",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "test",
+        "hbm",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order beneficiary of AI accelerator demand because HBM capacity, yield, and qualification require known-good-die testing before stacking and packaging.",
+      "ticker": "FORM",
+      "why_include": "Company filings and product pages explicitly link its DRAM/probe-card growth and products to HBM used in generative AI. This makes it a relatively direct but underappreciated HBM chokepoint supplier versus the obvious memory vendors."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Teradyne Inc.",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track memory-test revenue, HBM-specific tester adoption, customer wins at the three major memory vendors, and whether HBM4/HBM4E drives a new upgrade cycle.",
+      "node_relation": "Provides memory test systems for HBM devices integrated with GPUs and accelerators; memory ATE is a key qualification and yield-control layer for AI memory.",
+      "sector_or_industry": "Automated semiconductor test equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "test",
+        "hbm",
+        "qualification"
+      ],
+      "theme_relation": "AI accelerator growth increases demand for HBM and DRAM test capacity; Teradyne benefits if HBM generations require more complex, higher-throughput testing.",
+      "ticker": "TER",
+      "why_include": "Teradyne launched the Magnum 7H memory tester for HBM devices used with GPUs/accelerators in AI servers, and its 2025 annual report says Memory achieved record revenue with share growth in AI-driven HBM and DRAM markets."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Amkor Technology Inc.",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify whether Amkor has direct HBM/AI accelerator package programs, customer commitments, utilization outlook for Arizona, and overlap with TSMC/Apple/NVIDIA/AMD supply chains.",
+      "node_relation": "Provides advanced packaging and test services; its AI packaging portfolio supports heterogeneous integration including logic, memory, chiplets, and HBM.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test / advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "advanced_packaging",
+        "bottleneck",
+        "hbm",
+        "capacity"
+      ],
+      "theme_relation": "AI accelerators depend on advanced packaging to integrate compute die and HBM stacks; OSAT capacity can become a regional and capacity chokepoint, especially for US-based supply-chain resilience.",
+      "ticker": "AMKR",
+      "why_include": "Amkor is a less obvious AI/HBM exposure because it sits between wafer fabrication and finished AI systems. Its AI application materials explicitly discuss HBM heterogeneous packaging, and it is investing in a large Arizona advanced packaging/test campus."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Camtek Ltd.",
+      "confidence": 0.8,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Separate HBM/chiplet contribution from broader advanced packaging revenue, identify customer concentration, and test whether order growth is tied to HBM capacity expansions rather than cyclical OSAT/foundry spending.",
+      "node_relation": "Supplies inspection and metrology systems for advanced packaging, heterogeneous integration, memory, and HBM manufacturing flows.",
+      "sector_or_industry": "Semiconductor inspection and metrology equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "inspection",
+        "metrology",
+        "advanced_packaging"
+      ],
+      "theme_relation": "As HBM stacks and AI packages grow more complex, yield management becomes more difficult; inspection/metrology demand can rise as memory and packaging customers ramp capacity.",
+      "ticker": "CAMT",
+      "why_include": "Camtek’s filings and materials identify Advanced Interconnect Packaging, Heterogeneous Integration, Memory, and HBM as served markets, with AI demand and HBM/chiplet applications cited as business drivers."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Onto Innovation Inc.",
+      "confidence": 0.79,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest orders and revenue mix for AI packaging, whether Onto tools are qualified at HBM memory makers or CoWoS/OSAT lines, and whether growth is incremental or share-shift driven.",
+      "node_relation": "Provides process-control tools for advanced packaging, including 3D metrology, macro defect inspection, and interconnect process control relevant to HBM/GPU packages.",
+      "sector_or_industry": "Semiconductor process control, inspection, metrology, and lithography",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "metrology",
+        "advanced_packaging",
+        "yield"
+      ],
+      "theme_relation": "AI packages with HBM and GPUs require smaller line/space, bump pitch, hybrid bonding, and yield control; Onto is exposed to this enabling process-control layer.",
+      "ticker": "ONTO",
+      "why_include": "Onto explicitly states that high-performance HBM and GPU devices powering AI packages demand tighter interconnect and bump requirements, and it expects AI packaging spend momentum into 2026."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "FormFactor’s 2025 Form 10-K says financial performance was driven by record revenue levels led by strong growth in DRAM, particularly demand for HBM chips used in generative AI applications.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03",
+      "source_title": "FormFactor 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor’s HFTAP product page says the probe-card architecture supports testing of memory products including HBM3.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "FormFactor HFTAP Series",
+      "source_url": "https://www.formfactor.com/product/probe-cards/dram/hftap-series/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Current finance data showed FormFactor market cap of about USD 9.27B as of June 6, 2026 UTC, satisfying the above-USD-1B filter.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06-06",
+      "source_title": "Web finance quote for FORM",
+      "source_url": "web.finance:FORM",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Teradyne announced Magnum 7H as a next-generation memory tester for HBM devices integrated with GPUs and accelerators in high-performance generative AI servers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-08",
+      "source_title": "Teradyne Unveils Magnum 7H - The Next-Generation Memory Tester for High Bandwidth Memory Devices",
+      "source_url": "https://investors.teradyne.com/news-events/press-releases/detail/419/teradyne-unveils-magnum-7h---the-next-generation-memory-tester-for-high-bandwidth-memory-devices",
+      "ticker": "TER"
+    },
+    {
+      "claim": "Teradyne’s 2025 annual report states that Memory achieved record revenue and grew share in AI-driven HBM and DRAM markets.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05",
+      "source_title": "Teradyne 2025 Annual Report",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000097210/000119312526127510/2025_ter-ars.pdf",
+      "ticker": "TER"
+    },
+    {
+      "claim": "Current finance data showed Teradyne market cap of about USD 56.42B as of June 6, 2026 UTC, satisfying the above-USD-1B filter.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06-06",
+      "source_title": "Web finance quote for TER",
+      "source_url": "web.finance:TER",
+      "ticker": "TER"
+    },
+    {
+      "claim": "Amkor’s AI application page says its high-performance packaging portfolio can combine logic, memory, and chiplets, including HBM designs, for heterogeneous packaging solutions.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "Amkor Technology - Artificial Intelligence",
+      "source_url": "https://amkor.com/applications/artificial-intelligence/",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor broke ground on an Arizona advanced packaging and test campus and described a partnership supporting high-volume advanced packaging for AI capabilities.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "2025-10-06",
+      "source_title": "Amkor Technology Breaks Ground on New Semiconductor Advanced Packaging and Test Campus in Arizona",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Current finance data showed Amkor market cap of about USD 16.21B as of June 6, 2026 UTC, satisfying the above-USD-1B filter.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06-06",
+      "source_title": "Web finance quote for AMKR",
+      "source_url": "web.finance:AMKR",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Camtek describes itself as a developer and manufacturer of high-end inspection and metrology equipment serving Advanced Interconnect Packaging, Heterogeneous Integration, Memory, and HBM markets.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03",
+      "source_title": "Camtek Q4 2025 / FY2025 materials",
+      "source_url": "https://www.camtek.com/wp-content/uploads/Camtek-Q425_FY2025.pdf",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Camtek’s 2025 record-results release cites continued demand and future contribution of HBM and chiplet applications as factors tied to AI growth.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-02-18",
+      "source_title": "Camtek Announces Record Results for the Fourth Quarter & Full Year 2025",
+      "source_url": "https://www.nasdaq.com/press-release/camtek-announces-record-results-fourth-quarter-full-year-2025-2026-02-18",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Current finance data showed Camtek market cap of about USD 7.41B as of June 6, 2026 UTC, satisfying the above-USD-1B filter.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06-06",
+      "source_title": "Web finance quote for CAMT",
+      "source_url": "web.finance:CAMT",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Onto Innovation says high-performance HBM and GPU devices powering AI packages require smaller line/space and bump pitch, and positions its process-control suite for 3D interconnect yields.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025",
+      "source_title": "Onto Innovation Advances Process Control Suite for 3D Interconnect Yields",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2025/Onto-Innovation-Advances-Process-Control-Suite-for-3D-Interconnect-Yields/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Onto Innovation’s Q2 2025 results release says the company expected acceleration in AI packaging spend in Q4 2025 with momentum into 2026.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2025-08",
+      "source_title": "Onto Innovation Reports 2025 Second Quarter Results",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2025/Onto-Innovation-Reports-2025-Second-Quarter-Results/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Current finance data showed Onto Innovation market cap of about USD 12.66B as of June 6, 2026 UTC, satisfying the above-USD-1B filter.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06-06",
+      "source_title": "Web finance quote for ONTO",
+      "source_url": "web.finance:ONTO",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Industry coverage reports that HBM shortages are tied to advanced die stacking, precision bonding, and sophisticated packaging, and that AI demand is tightening wider DRAM supply.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "2026-05",
+      "source_title": "Samsung and SK hynix warn AI-driven memory shortages could last until 2027 and beyond",
+      "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond-as-hbm-demand-explodes",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.86,
+      "text": "Add FORM as a high-priority HBM second-order candidate: probe-card demand is directly linked to HBM DRAM testing and generative-AI memory ramps.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Add TER as a high-priority HBM test candidate: Magnum 7H and annual-report language provide direct evidence of AI-driven HBM/DRAM memory-test exposure.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Add AMKR as an advanced-packaging/OSAT candidate: direct HBM packaging relevance is plausible, but revenue attribution to AI/HBM still needs stronger customer-level evidence.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Add CAMT as an inspection/metrology candidate for HBM, chiplets, memory, and advanced packaging; evidence is company-disclosed but revenue segmentation needs verification.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.79,
+      "text": "Add ONTO as a process-control/metrology candidate for HBM/GPU AI packages; direct tool relevance is clear, but customer qualification evidence should be checked.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "For the AI accelerators + HBM node, include test, probe-card, metrology, and advanced-packaging suppliers as first-class chokepoint-adjacent mappings, not only GPU, memory, and foundry names.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Need a follow-up pass on materials and consumables for HBM/advanced packaging, including temporary bonding, electroplating chemistry, substrates/interposers, thermal interface materials, and ultra-clean process inputs.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI accelerators and HBM memory",
+  "node_id": "ai_accelerators_hbm_memory",
+  "summary": "Expanded the US-listed universe around the AI accelerator + HBM node toward less obvious second-order chokepoint exposures. The most relevant additions are not only GPU/ASIC and memory vendors, but also wafer probe cards, HBM memory testers, advanced packaging/test capacity, and inspection/metrology suppliers needed to raise HBM and 2.5D/3D package yields. All five candidates screened above USD 1B market cap using current web finance data, but inclusion is research-priority only, not a trading recommendation.",
+  "theme_id": "ai"
+}

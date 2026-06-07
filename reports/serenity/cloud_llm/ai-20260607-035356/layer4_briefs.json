@@ -1,0 +1,225 @@
+{
+  "briefs": [
+    {
+      "brief_cn": "NVIDIA 是本组最纯粹的 AI 算力瓶颈映射：GPU、NVLink/网络、DPU、机架级系统和软件生态共同决定下游 AI 工厂交付能力。已验证事实包括：NVIDIA 2027 财年一季度收入 816 亿美元，数据中心收入 752 亿美元；公司披露 Vera Rubin 平台，并称该平台已进入量产爬坡。核心研究问题不是“是否受益 AI”，而是 Blackwell 到 Vera Rubin 的交付节奏、HBM/先进封装约束、毛利率韧性，以及客户资本开支是否继续吸收快速扩张的供给。",
+      "brief_en": "NVIDIA is the cleanest public-market mapping in this chunk to the AI accelerator and rack-scale compute chokepoint. Its GPUs, NVLink/networking, DPUs, rack systems, and software ecosystem collectively influence AI factory delivery. Verified facts include fiscal Q1 2027 revenue of $81.6B and Data Center revenue of $75.2B, plus company disclosures around Vera Rubin and its production ramp. The key question is not whether NVIDIA benefits from AI, but whether Blackwell-to-Vera Rubin delivery, HBM/advanced packaging allocation, gross margins, and customer capex absorption remain durable.",
+      "chokepoint_thesis": "NVIDIA controls the highest-value system layer in AI infrastructure: accelerator compute plus rack-scale interconnect and platform software. If AI demand keeps scaling, downstream cloud, neocloud, enterprise, and sovereign AI deployments remain constrained by NVIDIA-class system delivery.",
+      "claim_type": "inference",
+      "company": "NVIDIA",
+      "evidence_to_verify": [
+        "Fact: NVIDIA reported Q1 FY2027 revenue of $81.6B and Data Center revenue of $75.2B, up 85% and 92% year over year respectively. Source: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "Fact: NVIDIA disclosed Q1 FY2027 GAAP and non-GAAP gross margins of 74.9% and 75.0%. Source: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+        "Fact: NVIDIA said Vera Rubin was announced in Q1 FY2027 and, in a separate May 31, 2026 release, said Vera Rubin is ramping into full production. Source: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx",
+        "Verify next: order visibility by customer group, HBM allocation, CoWoS/advanced packaging availability, and whether Rubin deployments are on schedule versus hyperscaler capex digestion."
+      ],
+      "falsification": [
+        "Data Center sequential growth slows materially while customer capex remains high, implying share loss, saturation, or deployment bottlenecks outside NVIDIA.",
+        "Gross margin compresses beyond management expectations because of mix, competition, export controls, or supply-chain cost inflation.",
+        "Vera Rubin ramp slips, has qualification issues, or fails to receive broad hyperscaler deployment commitments.",
+        "Major customers reduce accelerator orders because inference economics, custom silicon, or capex constraints lower demand for merchant GPUs."
+      ],
+      "monitoring_items": [
+        "Quarterly Data Center revenue growth and new Hyperscale versus ACIE disclosure.",
+        "GAAP and non-GAAP gross margin trajectory.",
+        "Blackwell Ultra and Vera Rubin production, shipment, and customer adoption commentary.",
+        "HBM supplier allocation, advanced packaging capacity, and rack-scale delivery lead times.",
+        "Hyperscaler, neocloud, and sovereign AI capex commentary."
+      ],
+      "ticker": "NVDA"
+    },
+    {
+      "brief_cn": "Broadcom 的 AI 逻辑集中在两个关键节点：定制 AI 加速器和 AI 网络芯片。公司 2026 财年二季度披露 AI 半导体收入 108 亿美元，同比增长 143%，并预计三季度 AI 半导体收入同比增长超过 200% 至 160 亿美元。Serenity 角度看，Broadcom 的卡点价值在于：大客户如果从通用 GPU 走向自研 ASIC，仍需要高端 SerDes、交换芯片、封装协同和长期设计服务。主要证据缺口是客户集中度、每个 ASIC 项目的生命周期、网络 attach rate，以及客户自研是否会强化还是削弱 Broadcom 依赖。",
+      "brief_en": "Broadcom maps to two AI infrastructure nodes: custom AI accelerators and AI networking silicon. In Q2 FY2026, Broadcom reported AI semiconductor revenue of $10.8B, up 143% year over year, and guided Q3 AI semiconductor revenue to $16.0B, up more than 200% year over year. The Serenity chokepoint angle is that hyperscaler ASIC transitions may still require Broadcom’s design depth, SerDes, switching, and long-cycle platform integration. The evidence gaps are customer concentration, design-win durability, networking attach rates, and whether hyperscaler in-house silicon reinforces or reduces dependence on Broadcom.",
+      "chokepoint_thesis": "Broadcom is a chokepoint for hyperscaler custom AI silicon and scale-out networking. As AI clusters shift toward custom accelerators and larger network fabrics, Broadcom can capture value from both accelerator design wins and the networking layer needed to connect them.",
+      "claim_type": "inference",
+      "company": "Broadcom",
+      "evidence_to_verify": [
+        "Fact: Broadcom reported Q2 FY2026 revenue of $22.187B, up 48% year over year. Source: https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+        "Fact: Broadcom reported Q2 FY2026 AI semiconductor revenue of $10.8B, up 143% year over year, driven by custom AI accelerators and AI networking. Source: https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+        "Fact: Broadcom guided Q3 FY2026 AI semiconductor revenue to $16.0B, up more than 200% year over year. Source: https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+        "Verify next: customer-by-customer ASIC exposure, backlog duration, networking silicon mix, and whether AI growth is concentrated in a small number of hyperscaler programs."
+      ],
+      "falsification": [
+        "AI semiconductor growth decelerates sharply after current design ramps or fails to convert into multi-year revenue.",
+        "Hyperscalers shift more ASIC design, networking, or packaging integration in-house and reduce Broadcom content.",
+        "AI networking attach rates disappoint because cluster architectures move to alternative vendors or internal silicon.",
+        "Margin mix deteriorates as custom silicon becomes lower-return engineering work or software mix weakens."
+      ],
+      "monitoring_items": [
+        "Quarterly AI semiconductor revenue and forward AI revenue guide.",
+        "Number and scale of custom AI accelerator customers or programs.",
+        "Networking product demand, especially high-end switch and SerDes commentary.",
+        "Semiconductor solutions margin and infrastructure software mix.",
+        "Customer concentration and risk factors in SEC filings."
+      ],
+      "ticker": "AVGO"
+    },
+    {
+      "brief_cn": "SK hynix 对应 AI 半导体中最明确的物理瓶颈之一：HBM 带宽、堆叠、良率、客户认证和产能分配。公司已披露完成 HBM4 开发并准备量产，称 HBM4 相比上一代带宽翻倍、功耗效率提升 40% 以上。Serenity 研究重点应放在：HBM4/HBM4E 客户认证、NVIDIA/其他加速器客户分配、产能扩张、良率曲线、价格韧性，以及与 Samsung、Micron 的份额变化。",
+      "brief_en": "SK hynix maps to one of the clearest physical chokepoints in AI semiconductors: HBM bandwidth, stacking, yields, customer qualification, and capacity allocation. The company has disclosed completion of HBM4 development and readiness for mass production, claiming doubled bandwidth and over 40% better power efficiency versus the prior generation. The key research work is to verify HBM4/HBM4E qualification, customer allocation, capacity expansion, yield progress, pricing durability, and share versus Samsung and Micron.",
+      "chokepoint_thesis": "HBM is a structural AI bottleneck because next-generation accelerators require memory bandwidth and power efficiency that are difficult to qualify, stack, yield, and expand quickly. SK hynix may retain bottleneck economics if its HBM4 execution and customer allocation remain ahead of peers.",
+      "claim_type": "inference",
+      "company": "SK hynix",
+      "evidence_to_verify": [
+        "Fact: SK hynix announced on September 12, 2025 that it completed HBM4 development and readied mass production. Source: https://news.skhynix.com/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/",
+        "Fact: SK hynix stated HBM4 bandwidth doubled and power efficiency improved by more than 40% compared with the previous generation. Source: https://news.skhynix.com/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/",
+        "Fact: SK hynix stated it adopted Advanced MR-MUF and 1bnm process technology for HBM4 to reduce mass-production risk. Source: https://news.skhynix.com/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/",
+        "Verify next: actual HBM4 customer qualifications, volume shipment timing, wafer allocation, advanced packaging partners, yield data, and pricing contracts."
+      ],
+      "falsification": [
+        "HBM4 qualification with leading accelerator customers is delayed or lost to Samsung or Micron.",
+        "Capacity expansion creates oversupply or HBM pricing weakens faster than expected.",
+        "Yield or thermal reliability issues limit profitable volume production.",
+        "AI accelerator architectures reduce HBM intensity per unit of compute or shift to alternative memory configurations."
+      ],
+      "monitoring_items": [
+        "HBM3E, HBM4, and HBM4E revenue mix and shipment commentary.",
+        "Customer qualification milestones and allocation language.",
+        "Capex plans tied to HBM and advanced DRAM.",
+        "Yield, packaging, MR-MUF, and thermal reliability commentary.",
+        "Competitive updates from Samsung and Micron."
+      ],
+      "ticker": "000660.KS"
+    },
+    {
+      "brief_cn": "EMCOR 是本组中最接近 AI 数据中心执行层卡点的标的：电气、机械、网络通信、调试、施工劳动力和复杂项目管理。公司 2025 年末剩余履约义务达到 132.5 亿美元，同比增长 31.2%；年报/公开资料显示 network and communications 增长主要由数据中心建设项目推动。与芯片公司不同，EMCOR 的关键问题是：增长是否真由 AI/数据中心驱动，还是广义建筑通胀和项目周期；以及利润率能否在劳动力、材料和项目执行风险下保持。",
+      "brief_en": "EMCOR is the closest name in this chunk to the AI data-center execution chokepoint: electrical work, mechanical systems, network/communications infrastructure, commissioning, labor, and complex project management. EMCOR reported year-end 2025 remaining performance obligations of $13.25B, up 31.2% year over year, and public filings indicate network and communications growth was predominantly driven by data-center construction projects. Unlike chip companies, the key issue is whether growth is truly AI/data-center specific rather than broad construction inflation, and whether margins hold under labor, materials, and execution risk.",
+      "chokepoint_thesis": "If AI infrastructure is constrained not only by chips but by power distribution, electrical/mechanical installation, network cabling, commissioning, and skilled labor, EMCOR can become a practical execution chokepoint for data-center buildouts.",
+      "claim_type": "hypothesis",
+      "company": "EMCOR Group",
+      "evidence_to_verify": [
+        "Fact: EMCOR reported FY2025 revenue of $16.99B and year-end remaining performance obligations of $13.25B, up 31.2% year over year. Source: https://emcorgroup.com/investor-relations/press-releases/2026-news/emcor-group-inc-reports-fourth-quarter-and-full-year-2025-results",
+        "Fact: EMCOR 2025 annual-report summaries state that network and communications revenue/RPO growth was predominantly driven by data-center construction projects. Source: https://companiesmarketcap.com/emcor/sec-reports-10k/0000105634-26-000025/",
+        "Fact: EMCOR guided 2026 revenue of $17.75B to $18.50B and diluted EPS of $27.25 to $29.25. Source: https://emcorgroup.com/investor-relations/press-releases/2026-news/emcor-group-inc-reports-fourth-quarter-and-full-year-2025-results",
+        "Verify next: primary-source data-center share of backlog, mission-critical margin contribution, customer concentration, labor availability, and backlog conversion schedule."
+      ],
+      "falsification": [
+        "Backlog growth is revealed to be broad construction demand rather than AI/data-center-specific work.",
+        "Data-center project awards slow, cancellations rise, or customers defer construction because of power constraints or capex digestion.",
+        "Margins compress due to labor shortages, copper/steel cost inflation, fixed-price contract risk, or project delays.",
+        "RPO conversion weakens and cash flow lags reported earnings."
+      ],
+      "monitoring_items": [
+        "Remaining performance obligations by sector, especially network and communications.",
+        "Data-center and mission-critical project commentary in earnings calls and presentations.",
+        "Segment margins in U.S. electrical and mechanical construction.",
+        "Labor availability, safety metrics, project delays, and material-cost pass-through.",
+        "Customer concentration and conversion of RPO into revenue and cash flow."
+      ],
+      "ticker": "EME"
+    },
+    {
+      "brief_cn": "Microsoft 的卡点不是单一零部件，而是“AI 算力资本开支能否持续转化为 Azure AI、Copilot 和企业 AI 收入”。事实层面，微软 FY26 Q3 披露收入 829 亿美元、Microsoft Cloud 收入强劲，AI 业务年化收入运行率超过 370 亿美元，同比增 123%。Serenity 视角下，微软是 AI 产业链最强需求锚之一，但瓶颈控制力弱于 GPU、网络、存储、供电和冷却供应商。若 Azure AI 增速放缓、Copilot 付费渗透低于预期、AI capex 持续压低自由现金流或毛利率，则该 thesis 降级。",
+      "brief_en": "Microsoft is not a scarce component chokepoint; it is a demand-anchor and monetization test for the AI infrastructure cycle. The thesis is that large AI capex can convert into durable Azure AI, Copilot, and enterprise AI revenue. Microsoft disclosed FY26 Q3 revenue of $82.9B and said its AI business surpassed a $37B annual revenue run rate, up 123% year over year. The Serenity concern is whether the company is prebuilding capacity faster than monetization, utilization, and margin recovery can prove out.",
+      "chokepoint_thesis": "Microsoft is a hyperscale demand-anchor chokepoint: its AI cloud and Copilot monetization determine whether upstream GPU, networking, memory, power, data-center, and cooling demand is durable rather than speculative capacity prebuild.",
+      "claim_type": "hypothesis",
+      "company": "Microsoft",
+      "evidence_to_verify": [
+        "Fact: Microsoft FY26 Q3 earnings release reported revenue of $82.9B and AI business annual revenue run rate above $37B, up 123% year over year: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast",
+        "Verify Azure and other cloud services growth, Microsoft Cloud gross margin, capex, finance lease obligations, and remaining performance obligations in Microsoft FY26 Q3 10-Q and earnings call transcript.",
+        "Verify Copilot paid seats, ARPU, renewal rates, and enterprise attach rates; current disclosures remain less granular than needed for a fully proven monetization thesis.",
+        "Cached evidence note: prior candidate ranking cited roughly $190B of calendar-2026 capex; this should be rechecked against official Microsoft filings and guidance before being treated as fact."
+      ],
+      "falsification": [
+        "Azure AI growth decelerates while AI-related capex remains elevated.",
+        "Copilot usage grows but paid conversion, renewal, or ARPU fails to show durable enterprise monetization.",
+        "Gross margin or free cash flow deteriorates because GPU and data-center capacity is underutilized.",
+        "Management reduces or delays AI infrastructure deployment because demand is below internal expectations."
+      ],
+      "monitoring_items": [
+        "Azure and other cloud services growth rate, especially management commentary on AI contribution.",
+        "AI annual revenue run rate and any incremental disclosure on Copilot paid seats or enterprise usage.",
+        "Capital expenditures, finance leases, depreciation, and data-center commitments.",
+        "Cloud gross margin and free cash flow conversion.",
+        "Utilization and capacity-constraint commentary in earnings calls."
+      ],
+      "ticker": "MSFT"
+    },
+    {
+      "brief_cn": "Amazon 的 AI thesis 主要在 AWS：外部 NVIDIA GPU 供给、自研 Trainium/Graviton、Bedrock 模型平台和大客户 AI 工作负载。事实层面，Amazon Q1 2026 披露过去 12 个月落地 210 万颗以上 AI 芯片，其中超过一半为 Trainium，并宣布 2026 年开始部署 100 万颗以上 NVIDIA GPU；同时芯片业务年化收入运行率超过 200 亿美元。Serenity 关键问题是：Trainium 是否能在性能、生态和客户采用上降低对 NVIDIA 的依赖，同时不牺牲 AWS 竞争力和利润率。",
+      "brief_en": "Amazon is an AI infrastructure demand driver through AWS, NVIDIA GPU deployment, Trainium, Graviton, Bedrock, and large enterprise AI workloads. Amazon’s Q1 2026 release disclosed more than 2.1M AI chips landed over the prior 12 months, more than half Trainium, and more than 1M NVIDIA GPUs to be deployed starting in 2026. The thesis is strongest if AWS can translate AI capacity into revenue growth while custom silicon improves price-performance and margins rather than becoming a compatibility bottleneck.",
+      "chokepoint_thesis": "Amazon/AWS is a dual demand-anchor and internal-silicon chokepoint: it can pull through external GPU supply while testing whether Trainium can become a credible cloud AI accelerator for large customers.",
+      "claim_type": "hypothesis",
+      "company": "Amazon",
+      "evidence_to_verify": [
+        "Fact: Amazon Q1 2026 earnings release disclosed more than 2.1M AI chips landed over the prior 12 months, more than half Trainium, and more than 1M NVIDIA GPUs to be deployed starting in 2026: https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf",
+        "Fact: Amazon Q1 2026 release disclosed Amazon chips business annual revenue run rate exceeded $20B, inclusive of Graviton and Trainium: https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf",
+        "Verify AWS AI revenue contribution, Bedrock usage, Trainium customer wins, and AI backlog in official earnings calls and 10-Q filings.",
+        "Verify Anthropic, OpenAI, Meta, Uber, and other named AI workloads for depth of production use rather than announcement value."
+      ],
+      "falsification": [
+        "AWS growth fails to accelerate despite large AI capex and AI chip deployment.",
+        "Trainium adoption remains mostly internal or concentrated in a few strategic accounts.",
+        "Customers prefer NVIDIA-based offerings because Trainium software ecosystem, performance, or availability is insufficient.",
+        "AI infrastructure spending depresses AWS margins without visible AI revenue contribution."
+      ],
+      "monitoring_items": [
+        "AWS revenue growth, operating margin, and backlog commentary.",
+        "Trainium3 production workload disclosures and external customer adoption.",
+        "NVIDIA GPU deployment pace and capacity-constraint commentary.",
+        "Bedrock model usage, enterprise adoption, and AI service revenue run-rate hints.",
+        "Capex, depreciation, and infrastructure utilization disclosures."
+      ],
+      "ticker": "AMZN"
+    },
+    {
+      "brief_cn": "CoreWeave 是本组里最纯的 AI 云算力映射，卡点在“GPU 集群、电力/数据中心交付、融资和客户合约能否变成高利用率与自由现金流”。事实层面，公司 Q1 2026 披露收入 20.78 亿美元、收入 backlog 994 亿美元，并与 NVIDIA 扩大关系，计划到 2030 年建设超过 5GW AI factories；但同季仍录得 GAAP 净亏损 7.40 亿美元，且资本开支高。Serenity 重点不是收入增长本身，而是合约质量、客户集中度、折旧、债务成本和可持续现金回报。",
+      "brief_en": "CoreWeave is the purest public-market mapping in this chunk to AI compute capacity monetization. The chokepoint is access to GPU clusters, power, data-center delivery, and financing. CoreWeave reported Q1 2026 revenue of $2.078B and revenue backlog of $99.4B, but also a GAAP net loss of $740M and heavy property-and-equipment investment. The key Serenity question is whether backlog converts into profitable, high-utilization capacity rather than debt-funded growth with customer and depreciation risk.",
+      "chokepoint_thesis": "CoreWeave is a concentrated AI compute-capacity chokepoint: if scarce accelerated compute, power access, and large customer contracts stay tight, it can monetize capacity faster than diversified hyperscalers; if utilization or financing weakens, the thesis breaks quickly.",
+      "claim_type": "hypothesis",
+      "company": "CoreWeave",
+      "evidence_to_verify": [
+        "Fact: CoreWeave Q1 2026 release reported revenue backlog of $99.4B as of March 31, 2026: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/default.aspx",
+        "Fact: CoreWeave Q1 2026 release reported Q1 revenue of $2.078B, GAAP net loss of $740M, and purchase of property and equipment of $7.695B: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/default.aspx",
+        "Fact: CoreWeave disclosed expanded NVIDIA relationship to accelerate build-out of more than 5GW of AI factories by 2030: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/default.aspx",
+        "Verify contract duration, take-or-pay terms, cancellation rights, customer concentration, GPU depreciation schedules, and financing covenants in CoreWeave 10-Q/S-1 and debt disclosures."
+      ],
+      "falsification": [
+        "Backlog does not convert to recognized revenue on schedule because capacity, power, or data-center delivery slips.",
+        "Utilization falls or pricing weakens as hyperscalers add capacity or customers optimize workloads.",
+        "Interest expense, depreciation, or refinancing costs prevent positive free cash flow despite revenue growth.",
+        "Customer concentration or renegotiated contracts reduce revenue visibility."
+      ],
+      "monitoring_items": [
+        "Revenue backlog, remaining performance obligations, and backlog-to-revenue conversion.",
+        "GPU utilization, average contract duration, and customer concentration disclosures.",
+        "Capex, depreciation, interest expense, and free cash flow.",
+        "Power and data-center delivery milestones.",
+        "NVIDIA supply relationship and next-generation GPU deployment timing."
+      ],
+      "ticker": "CRWV"
+    },
+    {
+      "brief_cn": "nVent 的 AI thesis 是高密度 AI 机柜提高电气连接、防护、配电、机柜和液冷内容量，使其成为数据中心物理基础设施的二阶卡点。事实层面，nVent Q1 2026 披露创纪录销售、订单和 backlog；公司材料称 data center growth broad-based，white space 由 liquid cooling 带动，backlog 达 26 亿美元，有机订单约增 40%。Serenity 的证据缺口是 AI/data center 收入占比、每机柜内容量提升、液冷订单转收入节奏和毛利 mix。",
+      "brief_en": "nVent is a second-order AI infrastructure chokepoint tied to electrical connection, protection, enclosures, power distribution, and liquid cooling for high-density AI racks. Q1 2026 materials described record sales, orders, and backlog, broad-based data-center growth, liquid-cooling-led white-space growth, and approximately 40% organic order growth with $2.6B backlog. The thesis is that higher rack density raises content per rack and makes deployment bottlenecks more physical, not only semiconductor-driven.",
+      "chokepoint_thesis": "nVent is a physical deployment chokepoint for AI data centers: high-density racks increase thermal and electrical complexity, expanding demand for enclosures, connection/protection, PDUs, cable management, and liquid cooling.",
+      "claim_type": "hypothesis",
+      "company": "nVent Electric",
+      "evidence_to_verify": [
+        "Fact: nVent Q1 2026 press release reported record sales, orders, and backlog and raised 2026 guidance on data-center momentum: https://s22.q4cdn.com/268397047/files/doc_financials/2026/q1/Q1-2026-NVT-Press-Release.pdf",
+        "Fact: nVent Q1 2026 earnings materials cited approximately 40% organic order growth and $2.6B backlog, with broad-based data-center growth led by liquid cooling: https://s22.q4cdn.com/268397047/files/doc_financials/2026/q1/2026-Q1-Earnings-Deck.pdf",
+        "Fact: nVent Q1 2026 transcript stated data-center growth across gray and white space, with white-space growth led by liquid cooling, PDUs, and cable management: https://s22.q4cdn.com/268397047/files/doc_financials/2026/q1/NVT-Q1-Earnings-Transcript.pdf",
+        "Verify percentage of total revenue from data centers, AI-specific project mix, hyperscaler/customer concentration, margin contribution, and backlog conversion timing."
+      ],
+      "falsification": [
+        "Data-center orders prove lumpy and do not convert into sustained revenue growth.",
+        "Liquid-cooling growth is offset by price competition, commoditization, or lower-margin project mix.",
+        "AI rack density does not materially increase nVent content per rack versus traditional data centers.",
+        "Tariffs, input costs, or execution issues compress margins despite order growth."
+      ],
+      "monitoring_items": [
+        "Data-center revenue mix and organic growth excluding data centers.",
+        "Liquid-cooling orders, backlog, and conversion to revenue.",
+        "Gross margin and segment margin mix as infrastructure exposure grows.",
+        "Book-to-bill, backlog, and cancellation or delay commentary.",
+        "Customer concentration and exposure to hyperscaler capex cycles."
+      ],
+      "ticker": "NVT"
+    }
+  ],
+  "evidence": [],
+  "layer": 4,
+  "memory_update": [],
+  "summary": "Split Layer 4 briefs merged from ranked-candidate chunks.",
+  "theme_id": "ai"
+}

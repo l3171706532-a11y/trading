@@ -1,0 +1,233 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Micron Technology",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM revenue mix, HBM gross margin, customer qualification status with NVIDIA/AMD/custom ASIC vendors, capex for HBM assembly, and whether future HBM supply is pre-allocated under multi-year agreements.",
+      "node_relation": "Direct HBM supplier for AI accelerators; US-listed memory manufacturer with HBM3E and HBM roadmap exposure.",
+      "sector_or_industry": "Memory semiconductors / HBM",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerators require high-bandwidth memory stacks; HBM availability can constrain GPU/ASIC shipments even when logic die supply is available.",
+      "ticker": "MU",
+      "why_include": "Micron explicitly markets HBM for AI training and inference, and announced Micron HBM designed into AMD's MI350 platform. It is one of the few global HBM suppliers, making it a primary public-market mapping for the HBM chokepoint."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Amkor Technology",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm which advanced packaging technologies will be qualified, timing of production ramp, customer commitments, revenue contribution from AI/HPC packaging, and whether Amkor receives spillover from TSMC advanced packaging constraints.",
+      "node_relation": "Second-order advanced packaging and test capacity provider; potential beneficiary if AI chip assembly/test demand spills beyond foundry-internal CoWoS-like capacity.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test / advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "capacity",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerators increasingly depend on high-density chiplet/HBM integration and final package test, making OSAT capacity a possible adjacent chokepoint.",
+      "ticker": "AMKR",
+      "why_include": "Amkor is investing in a large Arizona advanced packaging and test campus and has announced collaboration with TSMC for advanced packaging in Arizona. The direct AI/HPC relevance is stated, but exact exposure to leading AI accelerator packages needs more customer-level confirmation."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Teradyne",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM tester order growth, memory-test segment backlog, customer concentration, utilization of installed base, and whether HBM4/3D packaging creates test intensity per accelerator that expands TER's addressable market.",
+      "node_relation": "Supplies memory and AI device test platforms, including HBM test systems and TSMC 3DFabric testing ecosystem participation.",
+      "sector_or_industry": "Semiconductor test equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "test_capacity",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "As HBM stacks and chiplet packages become more complex, test time, yield learning, and known-good-die validation can become capacity and cost bottlenecks.",
+      "ticker": "TER",
+      "why_include": "Teradyne announced Magnum 7H as a next-generation memory tester for HBM devices integrated with GPUs and accelerators in high-performance generative AI servers, and was recognized as a TSMC 3DFabric testing partner."
+    },
+    {
+      "claim_type": "inference",
+      "company": "FormFactor",
+      "confidence": 0.76,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Quantify revenue exposure to HBM and advanced packaging probe cards, identify memory customer concentration, verify capacity constraints for MEMS probes, and track whether AI/HBM probe-card demand is growing faster than legacy DRAM probe demand.",
+      "node_relation": "Provides probe cards and wafer-level test interfaces used for DRAM/HBM, known-good-die validation, interposer testing, and advanced packaging workflows.",
+      "sector_or_industry": "Probe cards / semiconductor wafer test interfaces",
+      "serenity_tags": [
+        "supply_chain",
+        "test_interface",
+        "yield",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM and 2.5D/3D packaging require high-yield known-good-die test before expensive integration; probe-card technology may be an underappreciated throughput and yield enabler.",
+      "ticker": "FORM",
+      "why_include": "FormFactor materials state that heterogeneous 2.5D/3D packaging drives demand for known-good-die testing and that its probe architectures address HBM wafer and stack-die test challenges. The company is a less obvious pick-and-shovel supplier to HBM/advanced packaging rather than a direct AI chip vendor."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Onto Innovation",
+      "confidence": 0.8,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track advanced packaging revenue contribution, Dragonfly system adoption, customer mix across OSAT/foundry/memory vendors, and whether ONTO tools are qualified in HBM4 or hybrid-bonding process flows.",
+      "node_relation": "Provides inspection/metrology/process-control tools for advanced packaging, 3D interconnects, HBM, hybrid bonding, and AI package yield improvement.",
+      "sector_or_industry": "Semiconductor inspection, metrology, lithography, and process control",
+      "serenity_tags": [
+        "supply_chain",
+        "metrology",
+        "yield",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerator packages with HBM and 2.5D/3D integration require tight process control; inspection and metrology intensity can rise as bump pitch, interconnect density, and package complexity increase.",
+      "ticker": "ONTO",
+      "why_include": "Onto reported Dragonfly 3Di metrology shipments for advanced 2.5D logic packaging and AI packaging applications, and separately described HBM/GPU AI packages as driving tighter requirements for 3D interconnect process control."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Independent supply-chain analysis found that in 2025 the largest AI chip designers consumed a much larger share of CoWoS packaging capacity and HBM supply than advanced logic die production, supporting the bottleneck-migration hypothesis.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-04",
+      "source_title": "Advanced packaging and HBM, not logic dies, were the bottlenecks on AI chip production in 2025",
+      "source_url": "https://epoch.ai/data-insights/ai-chip-supply-chain-constraints",
+      "ticker": ""
+    },
+    {
+      "claim": "Micron states that its HBM3E supports AI training and inference and announced that Micron HBM3E 36GB 12-high memory was designed into AMD Instinct MI350 Series GPUs and platforms.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-06-12",
+      "source_title": "Micron HBM Designed into Leading AMD AI Platform",
+      "source_url": "https://micron.gcs-web.com/news-releases/news-release-details/micron-hbm-designed-leading-amd-ai-platform",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Micron's HBM product page positions HBM3E as high-bandwidth memory for AI training and inference and highlights lower power consumption versus alternatives.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "High-bandwidth memory (HBM) | Micron Technology Inc.",
+      "source_url": "https://www.micron.com/products/memory/hbm",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Amkor announced groundbreaking for a new Arizona advanced packaging and test campus, expanded potential investment to $7 billion, and said the facility will serve AI, high-performance computing, mobile communications, and automotive applications.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-10",
+      "source_title": "Amkor Technology Breaks Ground on New Semiconductor Advanced Packaging and Test Campus in Arizona; Expands Investment to $7 Billion",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor and TSMC announced collaboration on advanced packaging in Arizona to support high-performance computing and communications markets.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2024",
+      "source_title": "Amkor and TSMC to Expand Partnership and Collaborate on Advanced Packaging in Arizona",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-and-tsmc-expand-partnership-and-collaborate-advanced",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Teradyne announced Magnum 7H as a next-generation memory tester for HBM devices integrated with GPUs and accelerators in high-performance generative AI servers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-08",
+      "source_title": "Teradyne Unveils Magnum 7H - The Next-Generation Memory Tester for High Bandwidth Memory Devices",
+      "source_url": "https://investors.teradyne.com/news-events/press-releases/detail/419/teradyne-unveils-magnum-7h---the-next-generation-memory-tester-for-high-bandwidth-memory-devices",
+      "ticker": "TER"
+    },
+    {
+      "claim": "Teradyne was awarded 2025 TSMC OIP Partner of the Year for TSMC 3DFabric testing, linking its test tools and methodologies to high-performance, energy-efficient compute and AI proliferation.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025",
+      "source_title": "Teradyne Awarded 2025 TSMC Open Innovation Platform OIP Partner of the Year for TSMC 3DFabric Testing",
+      "source_url": "https://investors.teradyne.com/news-events/press-releases/detail/422/teradyne-awarded-2025-tsmc-open-innovation-platform-oip-partner-of-the-year-for-tsmc-3dfabric-testing",
+      "ticker": "TER"
+    },
+    {
+      "claim": "FormFactor states that 2.5D and 3D advanced packaging is driving demand for known-good-die memory test, including devices used in HBM stacks and fine-pitch interposers.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "HFTAP Series | FormFactor, Inc.",
+      "source_url": "https://www.formfactor.com/product/probe-cards/dram/hftap-series/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor says its probe-card technologies address advanced packaging test challenges, including HBM and technologies such as TSMC Integrated Fanout.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Advanced Packaging Raises the Bar for Wafer Test | FormFactor Inc.",
+      "source_url": "https://www.formfactor.com/applications/high-volume-test-on-wafer/advanced-packaging/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Onto Innovation reported shipments of Dragonfly 3Di metrology tools to more than 10 customers for applications including co-packaged optics and advanced 2.5D logic packaging, plus more than 20 Dragonfly systems for advanced AI packaging applications in Q2 2025.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-08-07",
+      "source_title": "Onto Innovation Reports 2025 Second Quarter Results",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2025/Onto-Innovation-Reports-2025-Second-Quarter-Results/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Onto Innovation states that high-performance HBM and GPU devices powering AI packages demand smaller line/space and bump pitch requirements, supporting a need for advanced 3D interconnect process control.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025",
+      "source_title": "Onto Innovation Advances Process Control Suite for 3D Interconnect Yields",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2025/Onto-Innovation-Advances-Process-Control-Suite-for-3D-Interconnect-Yields/default.aspx",
+      "ticker": "ONTO"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Add MU as direct US-listed HBM exposure within the AI accelerator/HBM/advanced packaging node.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Add AMKR as a US-listed OSAT/advanced packaging and test capacity candidate tied to TSMC Arizona and AI/HPC packaging demand, but require proof of leading-edge AI accelerator package revenue.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Add TER as an HBM and advanced 3D package test equipment candidate; monitor whether HBM4 and chiplet complexity increase test intensity.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "Add FORM as a less obvious probe-card and wafer-test interface supplier for HBM, known-good-die, and advanced packaging workflows.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Add ONTO as an inspection/metrology/process-control supplier for AI advanced packaging, HBM interconnects, and 2.5D/3D integration yield.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "This pass did not fully map US-listed substrate, interposer, thermal-interface-material, specialty chemical, and electronic design automation/IP suppliers; those require a separate focused Layer 1B expansion.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI accelerators, HBM, and advanced packaging",
+  "node_id": "ai_accelerators_hbm_and_advanced_packaging",
+  "summary": "Expanded the US-listed universe around the AI accelerator/HBM/advanced-packaging chokepoint beyond the obvious GPU designers. The most relevant additions are Micron for HBM supply, Amkor for outsourced advanced packaging and test capacity, Teradyne for HBM and 3DFabric test, FormFactor for probe cards and known-good-die test in HBM/advanced packaging, and Onto Innovation for inspection/metrology/lithography process control in AI advanced packaging. This is research support only, not a trading recommendation.",
+  "theme_id": "ai"
+}

@@ -1,0 +1,214 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Celestica Inc.",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify the share of revenue and margin coming from hyperscale AI networking, customer concentration, backlog, supply availability for Broadcom TH6-based systems, and whether Celestica is ODM-only or has defensible platform IP.",
+      "node_relation": "Designs and manufactures AI-scale data-center switching platforms, including 1.6TbE / 102.4T switch systems using Broadcom Tomahawk 6 silicon.",
+      "sector_or_industry": "Electronics manufacturing services / cloud infrastructure hardware / networking platforms",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "second_order",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order beneficiary of hyperscaler and AI-cluster network buildouts; exposure is through switch platform design, manufacturing, and integration rather than owning switch ASIC IP.",
+      "ticker": "CLS",
+      "why_include": "Celestica is less obvious than Arista/Broadcom but sits in a practical deployment chokepoint: turning high-end switch silicon into AI-networking systems at scale. Official releases explicitly tie DS6000-series 1.6TbE switches to AI-scale networking and Broadcom Tomahawk 6."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Ciena Corporation",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Separate AI-driven DCI revenue from traditional telecom/cable demand; check hyperscaler customer disclosures, order duration, product mix, backlog conversion, and competitive pressure from Nokia/Infinera, Cisco/Acacia, and pluggable optics vendors.",
+      "node_relation": "Provides coherent optics, WaveLogic 6 1.6T technology, data-center interconnect platforms, co-packaged optics concepts, and AI-network automation/management products.",
+      "sector_or_industry": "Optical networking equipment / coherent optics / data-center interconnect",
+      "serenity_tags": [
+        "supply_chain",
+        "adjacent_chokepoint",
+        "demand",
+        "evidence_needed"
+      ],
+      "theme_relation": "Adjacent chokepoint for scale-across AI data centers and high-capacity DCI; less direct for in-rack GPU fabrics but relevant as AI workloads increase inter-data-center bandwidth needs.",
+      "ticker": "CIEN",
+      "why_include": "Ciena is not a pure AI cluster switch vendor, but official materials position WaveLogic 6 Extreme and 1.6T coherent/pluggable technology against AI- and cloud-driven bandwidth demand, plus CPO and copper-extender products for scale-up/scale-out architectures."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Lumentum Holdings Inc.",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm AI/datacom revenue mix, customer concentration among module makers/hyperscalers, laser yield/capacity, pricing power, inventory cycles, and exposure to 1.6T silicon-photonics versus EML transitions.",
+      "node_relation": "Supplies high-performance lasers, CW lasers, EML/DML components, and 800G/1.6T datacom transceiver technology used in AI and cloud data-center optical fabrics.",
+      "sector_or_industry": "Optical components / lasers / datacom transceivers",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "materials_components",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potential component-level chokepoint if AI clusters require more optical links and if laser/component capacity, reliability, or power efficiency becomes constrained.",
+      "ticker": "LITE",
+      "why_include": "Lumentum is a less direct but potentially high-leverage supplier to the optical module chain. Official product pages describe CW lasers and datacom transceivers supporting 400G, 800G, and 1.6T platforms for next-generation AI and cloud data centers."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Credo Technology Group Holding Ltd.",
+      "confidence": 0.87,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check customer concentration, durability of AEC demand if optics substitute faster, production ramps for 200G/lane and 1.6T products, gross margin by product line, and integration risk from DustPhotonics.",
+      "node_relation": "Provides AECs, retimers, SerDes/DSP silicon, 800G optical DSPs, 1.6T AEC/optical connectivity, and is expanding into silicon photonics through DustPhotonics acquisition.",
+      "sector_or_industry": "High-speed connectivity semiconductors / optical DSPs / active electrical cables",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "demand",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct AI interconnect beneficiary where the underappreciated mapping may be short-reach copper AECs, optical DSPs, and the transition path from electrical to optical links in scale-up and scale-out fabrics.",
+      "ticker": "CRDO",
+      "why_include": "Credo has explicit official positioning around AI connectivity at up to 1.6T, 800G optical DSPs for AI applications, 1.6T AEC products, and a silicon-photonics acquisition to deepen optical interconnect exposure."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Astera Labs Inc.",
+      "confidence": 0.76,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify product-level revenue from AI server platforms, attach rate per accelerator server, exposure to Ethernet versus PCIe/CXL only, customer concentration, and whether PCIe-over-optics becomes commercial revenue or remains a technical demo.",
+      "node_relation": "Provides PCIe/CXL smart retimers, connectivity modules, and Ethernet-related connectivity solutions for AI and cloud infrastructure; demonstrated PCIe over optics for GPU clusters.",
+      "sector_or_industry": "AI connectivity semiconductors / PCIe, CXL, Ethernet retimers and switches",
+      "serenity_tags": [
+        "supply_chain",
+        "adjacent_chokepoint",
+        "second_order",
+        "evidence_needed"
+      ],
+      "theme_relation": "Adjacent rack-scale AI interconnect beneficiary: not primarily an optical transceiver company, but tied to signal integrity, PCIe/CXL reach, accelerator-to-NIC/storage/memory connectivity, and rack-scale fabric complexity.",
+      "ticker": "ALAB",
+      "why_include": "Astera is a second-order interconnect candidate because AI servers and rack-scale systems need reliable high-speed links between GPUs/accelerators, CPUs, NICs, memory, and storage. Official materials describe PCIe/CXL smart retimers and PCIe over optics for GPU clusters, but the mapping to the optical-transceiver bottleneck is less direct than Lumentum/Credo/Ciena."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Celestica announced DS6000-series 1.6TbE switches for AI-scale networking, powered by Broadcom Tomahawk 6 switch silicon and delivering up to 102.4 Tbps of non-blocking switching capacity.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-05",
+      "source_title": "Celestica Accelerates AI-Scale Networking: DS6000-Series 1.6TbE Switches Now Available to Order",
+      "source_url": "https://corporate.celestica.com/news-releases/news-release-details/celestica-accelerates-ai-scale-networking-ds6000-series-16tbe",
+      "ticker": "CLS"
+    },
+    {
+      "claim": "Ciena highlighted AI networking products at OFC 2026, including WaveLogic 6 Extreme 1.6T, Nitro copper cable extender, Vesta co-packaged optics solutions, and liquid-cooling concepts for 3.2T+ transceivers.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-03",
+      "source_title": "Ciena Brings AI Networking Expertise to OFC 2026",
+      "source_url": "https://www.ciena.com/about/newsroom/press-releases/ciena-brings-ai-networking-expertise-to-ofc-2026",
+      "ticker": "CIEN"
+    },
+    {
+      "claim": "Ciena's WaveLogic 6 Extreme page states capacity up to 1.6 Tb/s to meet accelerating AI- and cloud-driven bandwidth demand.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "WaveLogic 6 Extreme | Ciena",
+      "source_url": "https://www.ciena.com/products/wavelogic/wavelogic-6/wavelogic-6-extreme",
+      "ticker": "CIEN"
+    },
+    {
+      "claim": "Lumentum's CW laser product page says its lasers support silicon-photonics transceivers and co-packaged optics architectures across 400G, 800G, and 1.6T platforms for AI and cloud data centers.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "",
+      "source_title": "CW Lasers | Lumentum",
+      "source_url": "https://www.lumentum.com/en/products/data-center/cw-lasers",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Lumentum's datacom transceiver materials position 800G OSFP and 1.6T 2xDR4 OSFP transceivers for next-generation AI infrastructure optical fabrics.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Datacom Transceivers | Lumentum",
+      "source_url": "https://www.lumentum.com/en/products/data-center/datacom-transceivers",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Credo introduced its Robin 800G optical DSP family for AI applications and says its high-speed copper and optical interconnect products deliver up to 1.6T for AI infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03-17",
+      "source_title": "Credo Introduces Robin 800G Optical DSP Family Tailored for Next Wave of AI Applications",
+      "source_url": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Introduces-Robin-800G-Optical-DSP-Family-Tailored-for-Next-Wave-of-AI-Applications/default.aspx",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Credo agreed to acquire DustPhotonics to bring silicon-photonics PIC technology in-house and expand its optical interconnect portfolio across 800G, 1.6T, 3.2T, near-port optics, and co-packaged optics.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-04",
+      "source_title": "Credo Agrees to Acquire DustPhotonics, Accelerating Expansion into Silicon Photonics and Next Generation Optical Connectivity",
+      "source_url": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Agrees-to-Acquire-DustPhotonics-Accelerating-Expansion-into-Silicon-Photonics-and-Next-Generation-Optical-Connectivity/default.aspx",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Astera Labs describes Aries PCIe/CXL Smart DSP Retimers as enabling robust PCIe 6.x/CXL 3.x reach in complex AI topologies.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "Aries PCIe/CXL Smart DSP Retimers | Astera Labs",
+      "source_url": "https://www.asteralabs.com/products/aries/pcie-cxl-smart-dsp-retimers/",
+      "ticker": "ALAB"
+    },
+    {
+      "claim": "Astera Labs announced an end-to-end PCIe over optics demonstration for GPU clusters, extending PCIe/CXL connectivity from chip-to-chip and rack-to-rack to row-to-row data-center topologies.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2024-03",
+      "source_title": "Astera Labs First to Demonstrate End-to-End PCIe over Optics for GPU Clusters Across the Data Center",
+      "source_url": "https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-first-demonstrate-end-end-pcie-over-optics-gpu",
+      "ticker": "ALAB"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.86,
+      "text": "Add Celestica (CLS) as a second-order AI networking candidate: ODM/platform supplier for 1.6TbE and 102.4T AI switching systems using Broadcom Tomahawk 6.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Add Ciena (CIEN) as an adjacent AI optical interconnect/DCI candidate: stronger for scale-across and DCI than intra-rack GPU fabrics, but relevant through WaveLogic 6 1.6T, CPO, and data-center interconnect products.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Add Lumentum (LITE) as a component chokepoint candidate around lasers, CW lasers, EML/DML, 800G/1.6T transceivers, silicon photonics, and CPO architectures.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.87,
+      "text": "Add Credo (CRDO) as a direct AI connectivity candidate spanning AECs, retimers, optical DSPs, SerDes, 800G/1.6T products, and silicon photonics via DustPhotonics.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "Add Astera Labs (ALAB) as an adjacent rack-scale AI connectivity candidate; key exposure is PCIe/CXL/Ethernet signal integrity and reach rather than classic optical transceiver/module supply.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Not included due to five-candidate cap but worth later passes: Coherent (COHR), Fabrinet (FN), Amphenol (APH), TE Connectivity (TEL), Corning (GLW), Cisco (CSCO), Marvell (MRVL), Broadcom (AVGO), Arista (ANET), Nokia ADR (NOK), and Viavi (VIAV).",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI data-center networking, switching, optics, and interconnect",
+  "node_id": "ai_data_center_networking_and_optical_interconnect",
+  "summary": "Expanded the US-listed universe around the AI networking/interconnect node beyond the most obvious GPU and switch-chip leaders. The strongest second-order mappings found in this pass are: white-box/ODM AI switch platforms, coherent and intra/inter-data-center optical transport, optical DSP/AEC suppliers, laser/transceiver component suppliers, and PCIe/CXL/Ethernet connectivity silicon for rack-scale AI systems. This is research support only, not a buy/sell list.",
+  "theme_id": "ai"
+}

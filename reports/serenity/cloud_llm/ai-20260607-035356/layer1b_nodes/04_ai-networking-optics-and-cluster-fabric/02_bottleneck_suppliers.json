@@ -1,0 +1,228 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Broadcom Inc.",
+      "confidence": 0.92,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Separate AI networking revenue from custom accelerator revenue; verify hyperscaler/customer concentration, Tomahawk 6 production ramp, CPO adoption timing, and competitive exposure to NVIDIA, Marvell, Cisco, and in-house silicon.",
+      "node_relation": "Direct supplier of AI networking silicon including Tomahawk/Jericho Ethernet switch ASICs, NIC-related silicon, retimers, optical DSPs, SerDes, and custom AI infrastructure silicon.",
+      "sector_or_industry": "Semiconductors / Ethernet switching ASICs, SerDes, optical DSPs, custom AI silicon",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "merchant_silicon",
+        "custom_silicon",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI clusters require high-radix, low-latency, congestion-managed fabrics; Broadcom is positioned as a merchant and custom silicon supplier for Ethernet-based AI scale-up, scale-out, and scale-across architectures.",
+      "ticker": "AVGO",
+      "why_include": "Broadcom has official 2026 disclosures tying AI revenue growth to custom AI accelerators and AI networking, and has announced 102.4T Tomahawk 6 Ethernet switch products optimized for AI networks. This is one of the cleanest public-market mappings to the switch-ASIC and high-speed connectivity chokepoint."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Arista Networks, Inc.",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Validate actual AI-specific revenue, hyperscaler concentration, back-end versus front-end AI-network exposure, attach rate of EOS/software, and dependence on merchant ASIC suppliers such as Broadcom.",
+      "node_relation": "Direct supplier of Ethernet switching platforms, routing platforms, EOS network operating software, AI fabric architectures, and emerging optical/networking form factors for large AI and cloud data centers.",
+      "sector_or_industry": "Networking equipment / cloud and AI Ethernet switching systems and software",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "systems_vendor",
+        "software",
+        "evidence_needed"
+      ],
+      "theme_relation": "If hyperscalers standardize more AI back-end and scale-across traffic on Ethernet, Arista is a plausible system-level beneficiary of cluster fabric buildouts.",
+      "ticker": "ANET",
+      "why_include": "Arista’s official releases describe the company as a leader in cloud and AI networking, with R4 platforms for AI/data-center deployment and XPO high-density liquid-cooled pluggable optics designed for AI networking. The company maps to both hardware and operational software layers of the cluster fabric."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Marvell Technology, Inc.",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Quantify AI datacenter revenue mix, custom XPU versus optical/DSP contribution, sampling-to-volume timing for 1.6T products, and exposure to Amazon/Google/Microsoft/NVIDIA design wins.",
+      "node_relation": "Direct supplier of optical DSPs, coherent DSPs, PAM4 interconnect silicon, high-speed connectivity IP, and custom silicon used in AI data-center interconnect and cluster-scale infrastructure.",
+      "sector_or_industry": "Data infrastructure semiconductors / optical DSPs, PAM4, coherent DSPs, SerDes, custom silicon",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "optical_dsp",
+        "serdes",
+        "evidence_needed"
+      ],
+      "theme_relation": "As AI clusters require 800G, 1.6T and beyond optical/electrical links, DSPs, SerDes, and custom connectivity silicon can become power, signal-integrity, and qualification bottlenecks.",
+      "ticker": "MRVL",
+      "why_include": "Marvell has official 2026 product announcements for 1.6T PAM4 optical DSP and 1.6T ZR/ZR+ coherent DSP products for AI interconnects, plus an NVIDIA NVLink Fusion partnership connecting Marvell into NVIDIA AI factory infrastructure."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Lumentum Holdings Inc.",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify order backlog, customer concentration, gross-margin durability, manufacturing-capacity additions, indium phosphide/laser supply constraints, and exposure to 800G/1.6T module ramps versus telecom cycles.",
+      "node_relation": "Direct supplier of photonic and optical products, including datacenter products, transceivers, lasers, and optical subsystems that support AI/cloud data-center connectivity.",
+      "sector_or_industry": "Optical and photonic components / lasers, transceivers, optical subsystems",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "optics",
+        "photonic_components",
+        "evidence_needed"
+      ],
+      "theme_relation": "Optical interconnects, high-power lasers, and advanced photonic components become more important as cluster bandwidth density and power constraints rise.",
+      "ticker": "LITE",
+      "why_include": "Lumentum’s official product pages tie its data-center products to AI and cloud connectivity, and NVIDIA announced a multiyear strategic agreement with Lumentum in March 2026 for advanced optics technologies and future AI data-center needs."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Fabrinet",
+      "confidence": 0.72,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Identify top customers and AI-related programs, confirm whether 800G/1.6T optical module ramps are meaningful to revenue, track capacity expansion, yields, customer concentration, and margin impact from mix shift.",
+      "node_relation": "Second-order supplier: contract manufacturer and advanced optical packaging provider for OEMs of complex optical, electro-mechanical, and electronic products, with large optical communications exposure including datacom and data-center interconnect categories.",
+      "sector_or_industry": "Advanced optical packaging and precision optical/electro-mechanical manufacturing services",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "contract_manufacturing",
+        "optical_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "If optical modules, DCI products, and high-precision optical assemblies become supply-constrained, manufacturing yield, packaging, and production capacity can become a bottleneck behind the visible optics brands.",
+      "ticker": "FN",
+      "why_include": "Fabrinet’s official filings show optical communications as the majority of revenue and break out datacom and data-center interconnect revenue categories. The AI link is less explicit than AVGO/ANET/MRVL/LITE, but the company is a plausible picks-and-shovels manufacturing node for optical infrastructure."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Broadcom reported Q1 fiscal 2026 AI revenue of $8.4 billion, up 106% year over year, driven by demand for custom AI accelerators and AI networking.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-03-05",
+      "source_title": "Broadcom Inc. Announces First Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend",
+      "source_url": "https://www.broadcom.com/company/news/financial-releases/63976",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Broadcom describes Tomahawk 6 as a 102.4 Tb/s Ethernet switch series optimized for AI scale-up and scale-out networks, supporting high-radix 800GbE/1.6TbE configurations and congestion-management features.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "",
+      "source_title": "Ethernet Switch Chip | Networking for AI | AI Clusters",
+      "source_url": "https://www.broadcom.com/products/ethernet-connectivity/switching/strataxgs/bcm78910-series",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Arista announced R4 Series platforms for AI, data-center, and routed backbone deployment, positioning them for next-generation data and AI centers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-10-29",
+      "source_title": "Arista Networks Unveils Next Generation Data and AI Centers",
+      "source_url": "https://www.arista.com/en/company/news/press-release/22541-pr-10292025",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Arista announced XPO high-density liquid-cooled pluggable optics designed to support AI networking across scale-up, scale-out, scale-across, and metro-reach fabrics.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-03-17",
+      "source_title": "Arista Announces XPO High Density Liquid Cooled Pluggable Optics",
+      "source_url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Announces-XPO-High-Density-Liquid-Cooled-Pluggable-Optics/default.aspx",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Marvell announced 1.6T ZR/ZR+ pluggables and 2nm coherent DSPs for secure AI scale-across interconnects, with customer sampling expected in the second half of 2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03-16",
+      "source_title": "Marvell Extends ZR/ZR+ Leadership with Industry-first 1.6T ZR/ZR+ Pluggable and 2nm Coherent DSPs for Secure AI Scale-across Interconnects",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-1-6t-zr-zr-plus-pluggable-2nm-coherent-dsp-ai-interconnects.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "NVIDIA and Marvell announced a strategic partnership connecting Marvell to the NVIDIA AI factory and AI-RAN ecosystem through NVLink Fusion.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-03-31",
+      "source_title": "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-AI-Ecosystem-Expands-as-Marvell-Joins-Forces-Through-NVLink-Fusion/default.aspx",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Lumentum states that its data-center products power high-speed connectivity for AI and cloud computing, including high-speed optical transceivers for scalable AI/cloud data-center connectivity.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Data Center Products | Lumentum",
+      "source_url": "https://www.lumentum.com/en/products/data-center",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "NVIDIA announced multiyear strategic agreements with Lumentum to develop advanced optics technologies, expand manufacturing capacity, and support future AI data-center needs.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-03-02",
+      "source_title": "NVIDIA Announces Strategic Partnership With Lumentum to Develop State-of-the-Art Optics Technology",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Fabrinet describes itself as a provider of advanced optical packaging and precision optical, electro-mechanical, and electronic manufacturing services to OEMs of complex products.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-02-02",
+      "source_title": "Fabrinet Announces Second Quarter Fiscal Year 2026 Financial Results",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000006/fn-2026202xex991q226.htm",
+      "ticker": "FN"
+    },
+    {
+      "claim": "Fabrinet’s Q3 fiscal 2026 Form 10-Q shows optical communications revenue as 73.2% of quarterly revenue, with datacom and data-center interconnect categories disclosed.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05-05",
+      "source_title": "Form 10-Q for Fabrinet filed 05/05/2026",
+      "source_url": "https://fabrinet.gcs-web.com/static-files/5cd60ad7-3f62-428f-963e-918b711bb6aa",
+      "ticker": "FN"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.92,
+      "text": "AVGO is a high-confidence direct candidate for AI cluster fabric due to official AI revenue disclosure and Tomahawk/Jericho Ethernet switch ASIC positioning.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "ANET is a high-confidence systems/software candidate for Ethernet AI fabrics; later layers should separate durable AI back-end deployments from general cloud refresh and campus/routing growth.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "MRVL is a high-confidence connectivity semiconductor candidate across optical DSPs, coherent DSPs, SerDes, and custom silicon; key open question is revenue mix and design-win durability.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "LITE is a direct optics/photonic-component candidate, strengthened by NVIDIA’s 2026 strategic agreement; key risks are customer concentration, capacity execution, and cyclical telecom/datacom mix.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "FN is a second-order optical manufacturing/packaging candidate; include because manufacturing yield and precision optical assembly may become hidden bottlenecks behind transceiver OEMs.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Not included due to 5-candidate cap but should be evaluated in later passes: COHR for optical transceivers/lasers/materials and NVIDIA partnership; CIEN for DCI/coherent optics and WaveLogic; CSCO/HPE/JNPR/NOK for networking systems; AAOI for smaller optical-module exposure; CIEN/COHR/LITE/FN comparisons need AI revenue purity checks.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI networking, optics, and cluster fabric",
+  "node_id": "ai_networking_optics_and_cluster_fabric",
+  "summary": "Expanded US-listed universe for the AI cluster-fabric node. The strongest direct exposures are merchant/custom networking silicon, Ethernet switching systems, optical DSP/SerDes/connectivity semiconductors, photonic components/lasers, and precision optical manufacturing. This pass prioritizes suppliers whose products may become capacity or qualification chokepoints as AI clusters move from accelerator scarcity toward fabric, optics, congestion control, and observability constraints. This is research support only, not a trading recommendation.",
+  "theme_id": "ai"
+}

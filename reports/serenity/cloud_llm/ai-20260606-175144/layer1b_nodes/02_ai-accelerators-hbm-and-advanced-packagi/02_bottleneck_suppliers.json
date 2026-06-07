@@ -1,0 +1,227 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Micron Technology",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM revenue mix, HBM3E/HBM4 qualification status by customer, capex for HBM packaging, capacity sold-out commentary, gross margin sensitivity, and whether Samsung/SK hynix supply reduces pricing power.",
+      "node_relation": "HBM supplier and DRAM manufacturer with direct exposure to AI accelerator memory bandwidth constraints.",
+      "sector_or_industry": "Memory semiconductors",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerators increasingly require HBM stacks; Micron is one of the three global HBM suppliers and is investing in HBM capacity and advanced packaging capability.",
+      "ticker": "MU",
+      "why_include": "Micron's 2025 10-K states that its data-center CMBU sales included HBM and that it delivered HBM4 samples to key customers for next-generation AI platforms. Its 2026 sustainability report also describes HBM-related manufacturing and packaging expansions."
+    },
+    {
+      "claim_type": "inference",
+      "company": "ASE Technology Holding",
+      "confidence": 0.77,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify actual AI/HPC advanced-packaging revenue, customer overlap with accelerator vendors, ability to handle large interposer/substrate packages, and whether ASE is capacity-constrained or mainly a later-cycle beneficiary.",
+      "node_relation": "Advanced packaging and test services provider; second-source or complementary OSAT capacity for heterogeneous integration, chiplets, ASICs, and HBM-related packages.",
+      "sector_or_industry": "OSAT / semiconductor assembly and test",
+      "serenity_tags": [
+        "supply_chain",
+        "capacity",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "If CoWoS-like capacity and packaging throughput constrain AI accelerator shipments, OSATs with advanced packaging and test capability may become second-order beneficiaries.",
+      "ticker": "ASX",
+      "why_include": "ASE announced automated 310mm panel-level packaging aimed at heterogeneous integration, explicitly referencing chiplets, ASICs, and HBM for AI training and inference workloads."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Applied Materials",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Quantify revenue exposure to DRAM/HBM and advanced packaging versus mature-node and foundry/logic tools; check customer concentration, China restrictions, and whether HBM capex converts into order growth.",
+      "node_relation": "Equipment supplier for leading-edge logic, DRAM/HBM, and advanced packaging process steps.",
+      "sector_or_industry": "Semiconductor manufacturing equipment",
+      "serenity_tags": [
+        "equipment",
+        "supply_chain",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "As AI accelerator supply shifts toward HBM and advanced packaging constraints, process equipment enabling HBM, hybrid bonding, and packaging yield becomes a second-order bottleneck exposure.",
+      "ticker": "AMAT",
+      "why_include": "Applied Materials' own product release says its new chipmaking products target leading-edge logic, high-performance DRAM including HBM, and advanced packaging for AI chips. Its 2025 annual report also references high-bandwidth memory, advanced packaging, AI, and data-center computing as demand drivers."
+    },
+    {
+      "claim_type": "fact",
+      "company": "KLA Corporation",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track advanced-packaging revenue, attach rates to HBM and CoWoS-like flows, competitive pressure from Onto/Camtek/others, and whether metrology demand grows faster than wafer fab equipment.",
+      "node_relation": "Inspection, metrology, and process-control supplier for HBM, advanced IC substrates, panel RDL, and 2.5D/3D packaging yield ramps.",
+      "sector_or_industry": "Semiconductor inspection and metrology equipment",
+      "serenity_tags": [
+        "equipment",
+        "metrology",
+        "yield",
+        "evidence_needed"
+      ],
+      "theme_relation": "As AI packages grow larger and more complex, yield control can become a chokepoint; inspection/metrology intensity may rise for HBM stacks, substrates, and heterogeneous packages.",
+      "ticker": "KLAC",
+      "why_include": "KLA materials describe process-control support for HBM stacked memory and inspection/metrology for advanced IC substrates, panel RDL, FC-BGA, and 2.5D/3D heterogeneous integration. KLA's FY2025 stockholder letter also referenced advanced packaging growth and HBM investments for AI."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Teradyne",
+      "confidence": 0.75,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm direct revenue from AI accelerator/HBM test, order growth in SOC/memory test platforms, customer wins at GPU/ASIC suppliers or OSATs, and whether test-handler/probe-card partners capture more economics.",
+      "node_relation": "Semiconductor test equipment provider for complex AI devices, advanced packages, and known-good-die/known-good-wafer workflows.",
+      "sector_or_industry": "Automated test equipment",
+      "serenity_tags": [
+        "test",
+        "capacity",
+        "supply_chain",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerators with chiplets and HBM increase test complexity; test throughput and thermal-control requirements can become a capacity/yield bottleneck after packaging.",
+      "ticker": "TER",
+      "why_include": "Teradyne states that AI semiconductor designs require enhanced test coverage, and its 2026 AI computing note discusses CoWoS-style 2.5D/3D packages with HBM stacks and the need for advanced test from known-good-die to known-good-CoW."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Micron's 2025 10-K says its data-center sales included HBM products and that it delivered HBM4 36GB 12-high samples to multiple key customers for next-generation AI platforms.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2025-10-03",
+      "source_title": "Micron Technology 2025 Form 10-K",
+      "source_url": "https://investors.micron.com/static-files/7a1f8c6f-1ce9-4efe-bc6e-722b6b9c4550",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Micron's 2026 sustainability report describes continued investment in AI-driven memory and storage, including HBM-related manufacturing and packaging capacity in Singapore and Taiwan.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-05",
+      "source_title": "Micron Technology 2026 Sustainability Report",
+      "source_url": "https://www.micron.com/content/dam/micron/global/public/programs/sustainability/documents/micron-technology-2026-sustainability-report.pdf",
+      "ticker": "MU"
+    },
+    {
+      "claim": "ASE announced automated panel-level packaging for heterogeneous integration and explicitly tied the need to chiplets, ASICs, HBM, and AI training/inference workloads.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-05",
+      "source_title": "ASE Launches Automated 310mm Panel-Level Packaging to Accelerate AI Innovation",
+      "source_url": "https://www.aseglobal.com/press-room/310x310",
+      "ticker": "ASX"
+    },
+    {
+      "claim": "Applied Materials says its next-generation products target leading-edge logic, high-performance DRAM including HBM, and advanced packaging for more powerful AI chips.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-10",
+      "source_title": "Applied Materials Unveils Next-Gen Chipmaking Products to Supercharge AI Performance",
+      "source_url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-unveils-next-gen-chipmaking-products/",
+      "ticker": "AMAT"
+    },
+    {
+      "claim": "Applied Materials' 2025 annual report links demand to high-bandwidth memory, advanced packaging, AI, and data-center computing.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-05",
+      "source_title": "Applied Materials 2025 Annual Report",
+      "source_url": "https://ir.appliedmaterials.com/static-files/af599bc7-92ed-4bfa-8efe-9ddef39642b4",
+      "ticker": "AMAT"
+    },
+    {
+      "claim": "KLA describes process-control and process-enabling solutions for HBM stacked memory architecture and advanced packaging inspection/metrology.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "",
+      "source_title": "KLA Artificial Intelligence Solutions",
+      "source_url": "https://www.spts.com/solutions/ai",
+      "ticker": "KLAC"
+    },
+    {
+      "claim": "KLA describes inspection and metrology tools for advanced IC substrates and panel RDL used in FC-BGA, 2.5D, and 3D heterogeneous integration.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "",
+      "source_title": "KLA Inspection and Metrology Solutions for PCB & IC Substrate Manufacturing",
+      "source_url": "https://www.spts.com/products/pcb-ic-substrate-manufacturing/inspection-metrology",
+      "ticker": "KLAC"
+    },
+    {
+      "claim": "Teradyne says AI semiconductor designs require enhanced test coverage to improve production yield and silicon performance.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "",
+      "source_title": "Teradyne Artificial Intelligence Application Page",
+      "source_url": "https://www.teradyne.com/application-pages/ai/",
+      "ticker": "TER"
+    },
+    {
+      "claim": "Teradyne's AI computing note discusses AI packages combining processing cores with HBM stacks using CoWoS-style 2.5D/3D packaging and requiring advanced test workflows.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-02-10",
+      "source_title": "How AI is Changing Computing—And Why Testing Is Critical",
+      "source_url": "https://www.teradyne.com/2026/02/10/how-ai-is-changing-computing/",
+      "ticker": "TER"
+    },
+    {
+      "claim": "Epoch AI concluded that in 2025 advanced packaging and HBM, rather than logic dies, were the binding bottlenecks for the largest AI chip designers.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-04",
+      "source_title": "Advanced packaging and HBM, not logic dies, were the bottlenecks on AI chip production in 2025",
+      "source_url": "https://epoch.ai/data-insights/ai-chip-supply-chain-constraints",
+      "ticker": ""
+    },
+    {
+      "claim": "TSMC's 2025 annual report describes advanced packaging and 3D stacking technologies including CoWoS, InFO, SoIC, and COUPE to support customer needs.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026",
+      "source_title": "TSMC 2025 Annual Report Website",
+      "source_url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+      "ticker": "TSM"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Add MU as a high-confidence US-listed HBM supplier for the AI accelerator/HBM/advanced-packaging node.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.77,
+      "text": "Add ASX as a US-listed ADR OSAT candidate with direct advanced-packaging and test exposure; relation is plausible but needs revenue/customer validation.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Add AMAT, KLAC, and TER as second-order equipment/test beneficiaries tied to HBM, advanced packaging yield, and AI package test complexity.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "Follow-up pass should evaluate ONTO, FORM, CAMT, COHU, AEHR, LRCX, ACLS, UCTT, MKSI, ENTG, and MTSI for metrology, probe cards, test handlers, materials/subsystems, and silicon-photonics/CPO adjacency.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Current evidence supports the hypothesis that HBM, CoWoS-like packaging, substrate/interposer yield, and test capacity are more durable chokepoints than the accelerator die alone, but company-level revenue sensitivity still needs validation.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "AI accelerators, HBM, and advanced packaging",
+  "node_id": "ai_accelerators_hbm_and_advanced_packaging",
+  "summary": "Expanded US-listed universe for the AI accelerator/HBM/advanced-packaging capacity node. The highest-confidence additions are companies tied to scarce HBM supply, advanced packaging/OSAT capacity, wafer-level packaging equipment, inspection/metrology, and semiconductor test. This pass does not make investment recommendations; it only maps candidates for further evidence collection under the Serenity chokepoint framework.",
+  "theme_id": "ai"
+}

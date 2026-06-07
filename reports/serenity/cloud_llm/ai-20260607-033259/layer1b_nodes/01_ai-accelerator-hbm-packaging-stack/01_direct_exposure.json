@@ -1,0 +1,187 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "NVIDIA Corporation",
+      "confidence": 0.94,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track latest data-center revenue, Blackwell/Vera Rubin ramp commentary, HBM supplier mix, gross-margin effects from supply constraints, and references to advanced packaging capacity in filings/calls.",
+      "node_relation": "Product leader and direct customer of leading-edge logic, HBM, and advanced packaging capacity; NVIDIA AI accelerator availability is structurally tied to HBM allocation and 2.5D/advanced packaging throughput.",
+      "sector_or_industry": "AI accelerators, GPUs, networking, AI systems platforms",
+      "serenity_tags": [
+        "demand",
+        "platform",
+        "supply_chain",
+        "bottleneck",
+        "customer_concentration",
+        "evidence_needed"
+      ],
+      "theme_relation": "Core AI compute platform supplier for data-center training and inference clusters.",
+      "ticker": "NVDA",
+      "why_include": "NVIDIA is the obvious public-market anchor for this node because its AI GPU systems convert hyperscaler AI capex into demand for logic wafers, HBM stacks, substrates, CoWoS-like packaging, networking, and systems integration."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Taiwan Semiconductor Manufacturing Company Limited",
+      "confidence": 0.95,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track CoWoS/SoIC capacity expansion rate, AI/HPC revenue mix, customer concentration, capex, and management comments on whether advanced packaging or wafers are the binding constraint.",
+      "node_relation": "Foundry and advanced packaging capacity owner; CoWoS and related 2.5D/3D packaging capacity are central to integrating AI accelerator logic dies with HBM.",
+      "sector_or_industry": "Foundry and advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "capacity",
+        "bottleneck",
+        "foundry",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "Critical manufacturing chokepoint for AI accelerator designers and hyperscaler custom silicon programs.",
+      "ticker": "TSM",
+      "why_include": "TSMC is directly exposed through leading-edge wafer manufacturing and CoWoS/SoIC advanced-packaging capacity, making it one of the clearest public-market mappings for the combined wafer + HBM packaging bottleneck."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Micron Technology, Inc.",
+      "confidence": 0.92,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM revenue, HBM3E/HBM4 qualification, sold-out capacity commentary, capex allocation to HBM, DRAM gross margin, and named platform wins.",
+      "node_relation": "US-listed HBM supplier; HBM capacity, yields, qualification, and allocation are directly tied to AI accelerator shipment capacity.",
+      "sector_or_industry": "Memory semiconductors, DRAM, HBM, NAND",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "memory",
+        "HBM",
+        "capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "Memory-side bottleneck beneficiary and potential second supplier/alternative source for AI accelerator platforms.",
+      "ticker": "MU",
+      "why_include": "Micron is one of the few public, US-listed direct HBM suppliers. Its HBM roadmap and customer qualification status are directly relevant to whether AI accelerator supply is constrained by memory rather than only logic wafer starts."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Applied Materials, Inc.",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track semiconductor systems revenue by end-market, advanced packaging tool adoption, memory equipment orders, customer concentration with HBM producers, and whether AI-related equipment demand is incremental or already embedded in capex cycles.",
+      "node_relation": "Equipment and process-integration supplier for advanced DRAM/HBM, leading-edge logic, and advanced packaging; benefits from customer ramps that require more process complexity and packaging steps.",
+      "sector_or_industry": "Semiconductor equipment and materials engineering",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "capacity",
+        "advanced_packaging",
+        "HBM",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order but highly relevant supplier to the capital equipment layer behind AI accelerator, HBM, and packaging capacity expansion.",
+      "ticker": "AMAT",
+      "why_include": "Applied Materials has explicit public commentary around next-generation DRAM, HBM, AI systems, and 3D/advanced packaging. If HBM and advanced packaging remain chokepoints, equipment intensity and process integration may matter more than simple wafer-capacity growth."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Amkor Technology, Inc.",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify named AI/HPC customers, package types, volume timing, utilization, capex, margin uplift from advanced packaging, and whether Amkor participates in HBM-adjacent 2.5D/chiplet programs or mainly lower-complexity packages.",
+      "node_relation": "OSAT and advanced-packaging capacity provider; potentially relevant to domestic advanced packaging, chiplet integration, and high-performance AI/HPC packaging programs.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test, advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "advanced_packaging",
+        "OSAT",
+        "capacity",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "Less obvious but direct public-market exposure to the packaging layer of AI semiconductors, especially where customers outsource package assembly/test rather than relying solely on foundry-integrated packaging.",
+      "ticker": "AMKR",
+      "why_include": "Amkor is a US-listed advanced-packaging and test provider with public statements about AI/data-center packaging programs and a major Arizona advanced-packaging campus. It is relevant if advanced packaging capacity migrates beyond foundry-only CoWoS supply."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "NVIDIA announced its Vera Rubin platform was ramping into full production for agentic AI factories, supporting its role as the leading AI accelerator platform customer for HBM and advanced packaging supply.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-05-31",
+      "source_title": "NVIDIA Vera Rubin Ramps Into Full Production to Power Agentic AI Factories Worldwide",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "TSMC’s annual report describes continued investment in leading-edge, specialty, and advanced packaging technologies, including CoWoS and SoIC, to support AI/HPC demand.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2025-03-12",
+      "source_title": "TSMC 2024 Annual Report",
+      "source_url": "https://investor.tsmc.com/sites/ir/annual-report/2024/2024%20Annual%20Report_E.pdf",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Micron’s fiscal Q2 2026 prepared remarks referenced HBM4 36GB 12H and NVIDIA Vera, reinforcing Micron’s direct exposure to AI accelerator HBM roadmaps.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03",
+      "source_title": "Micron Technology Fiscal Q2 2026 Earnings Call Prepared Remarks",
+      "source_url": "https://investors.micron.com/static-files/e089f8c0-065d-47b8-9d02-bfa863cdb357",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Applied Materials’ Q2 2026 results discussed collaboration with Micron on next-generation DRAM, HBM, and NAND solutions for more energy-efficient AI systems, plus 3D advanced packaging work.",
+      "claim_type": "fact",
+      "confidence": 0.89,
+      "published_at": "2026-05",
+      "source_title": "Applied Materials Announces Second Quarter 2026 Results",
+      "source_url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-second-quarter-2026-results",
+      "ticker": "AMAT"
+    },
+    {
+      "claim": "Amkor reported progress on key customer programs in advanced packaging in Q1 2026 and has publicly described advanced packaging as part of its AI/data-center opportunity set.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04",
+      "source_title": "Amkor Technology Reports Financial Results for the First Quarter 2026",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-first-quarter-2026",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor broke ground on an Arizona advanced packaging and test campus and described the project as supporting leading AI industry capabilities and US semiconductor innovation.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2025-10",
+      "source_title": "Amkor Technology Breaks Ground on New Semiconductor Advanced Packaging and Test Campus in Arizona; Expands Investment to $7 Billion",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced",
+      "ticker": "AMKR"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "NVDA, TSM, MU, AMAT, and AMKR form a compact US-listed universe for the AI accelerator + HBM + advanced-packaging stack: product leader, foundry/CoWoS owner, HBM supplier, equipment supplier, and OSAT/advanced-packaging supplier.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "The node is better modeled as a multi-variable capacity chokepoint: logic wafer starts, HBM stack supply, substrate availability, packaging throughput, yield learning, and customer qualification all determine final AI accelerator output.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Strong adjacent candidates not included due to the 5-candidate limit include AMD, AVGO, ASML, LRCX, KLAC, INTC, SNPS, CDNS, ASX, and BE Semiconductor/ASMI if non-US primary listings are allowed. These should be revisited in later Layer 1B passes by sub-node.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.86,
+      "text": "SK hynix and Samsung are critical HBM suppliers but are not clean US-listed common-stock candidates; they should be tracked as external private/foreign supply-chain evidence rather than primary US-listed candidates unless ADR/OTC eligibility is explicitly allowed.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI accelerators, HBM memory, and advanced packaging stack",
+  "node_id": "ai_accelerator_hbm_packaging_stack",
+  "summary": "Expanded the US-listed universe around the AI accelerator + HBM + advanced-packaging capacity node. The strongest direct exposures are the AI accelerator product leader, the leading foundry/CoWoS capacity owner, the US-listed HBM memory supplier, and equipment/OSAT suppliers tied to HBM and advanced packaging ramps. This pass intentionally limits candidates to 5 and does not rank them as buy/sell ideas.",
+  "theme_id": "ai_artificial_intelligence_cloud_data_center_semiconductors_software_automation"
+}

@@ -1,0 +1,230 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Generac Holdings Inc.",
+      "confidence": 0.83,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track whether the June 2026 hyperscale agreement becomes binding purchase orders, gross margin on C&I/data-center products, manufacturing capacity, and whether competition from Caterpillar/Cummins limits pricing.",
+      "node_relation": "Supplier of emergency standby generation and backup-power systems to hyperscale data-center operators.",
+      "sector_or_industry": "Backup power generation / mission-critical power equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "power",
+        "data_center",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI compute clusters increase facility power density and uptime requirements, making backup power a required part of hyperscaler data-center capex.",
+      "ticker": "GNRC",
+      "why_include": "Generac disclosed a global supply agreement with a leading hyperscale data-center operator on June 2, 2026, and previously launched emergency standby generators targeted at hyperscale/high-capacity data-center use. This makes GNRC a direct but less-obvious beneficiary of AI compute demand through resiliency infrastructure rather than chips."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Modine Manufacturing Company",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track data-center cooling revenue growth, backlog, liquid-cooling mix, customer concentration, manufacturing expansions, and whether margins normalize as competitors add capacity.",
+      "node_relation": "Supplier of air, hybrid, and liquid cooling systems for high-density data centers.",
+      "sector_or_industry": "Thermal management / data-center cooling",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "cooling",
+        "thermal_management",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI and high-performance computing increase heat loads, pushing demand toward liquid cooling, rear-door heat exchangers, CDUs, chillers, and related thermal systems.",
+      "ticker": "MOD",
+      "why_include": "Modine’s FY2026 10-K explicitly connects AI and machine learning to increased high-performance computing heat loads and says this drives demand for high-density cooling solutions including hybrid and liquid cooling. This is a clean second-order exposure to hyperscaler AI capex."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Wesco International, Inc.",
+      "confidence": 0.76,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify data-center revenue disclosure in 10-K/earnings call transcripts, hyperscaler exposure, backlog/order conversion, working-capital strain, supplier allocation constraints, and mix between low-margin distribution and value-added services.",
+      "node_relation": "Distributor and supply-chain/logistics provider for electrical, network, security, utility, and data-center infrastructure products.",
+      "sector_or_industry": "Electrical, communications, and utility distribution/logistics",
+      "serenity_tags": [
+        "supply_chain",
+        "adjacent_chokepoint",
+        "electrical_distribution",
+        "network_infrastructure",
+        "evidence_needed"
+      ],
+      "theme_relation": "Hyperscaler AI buildouts require complex procurement of electrical distribution, fiber/connectivity, switchgear, racks, cabling, automation, and utility-grid materials.",
+      "ticker": "WCC",
+      "why_include": "Wesco’s 2025 annual report references AI-driven data centers as part of digitalization demand, and secondary reporting of its 2025 results cited a 30% increase in data-center sales to about $1.2B. The mapping is underappreciated because WCC is a distributor/logistics node rather than a branded AI hardware supplier."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Comfort Systems USA, Inc.",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm data-center revenue share and backlog from company filings/transcripts; track backlog quality, change orders, labor availability, margin sustainability, project cancellations, and customer concentration.",
+      "node_relation": "Specialty contractor installing mechanical, electrical, HVAC, plumbing, piping, controls, and off-site modular systems for mission-critical facilities.",
+      "sector_or_industry": "Mechanical, electrical, HVAC, modular construction services",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "construction",
+        "cooling",
+        "electrical",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI data centers require fast deployment of high-density cooling and electrical systems; labor, project management, and modular construction capacity can become chokepoints before GPUs are monetized.",
+      "ticker": "FIX",
+      "why_include": "Comfort Systems has been highlighted by multiple market sources as a data-center construction beneficiary, with reported 2025 data-center work rising to 45% of revenue from 33% in the prior year. The candidate is relevant as a labor/execution bottleneck, though valuation and cyclicality require extra falsification work."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Bloom Energy Corporation",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track binding capacity orders, deployment timelines, fuel economics, service margins, warranty/performance risk, manufacturing capacity, customer financing structure, and whether fuel cells beat turbines/batteries on cost and permitting.",
+      "node_relation": "Provider of onsite fuel-cell power that can be deployed behind the meter for AI data centers facing grid-interconnection delays.",
+      "sector_or_industry": "Onsite fuel-cell power / distributed generation",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "power",
+        "onsite_generation",
+        "grid_interconnection",
+        "evidence_needed"
+      ],
+      "theme_relation": "If time-to-power becomes a binding constraint for AI compute campuses, onsite power suppliers can capture capex that otherwise would flow through utilities or conventional grid upgrades.",
+      "ticker": "BE",
+      "why_include": "Nebius and Bloom announced a May 20, 2026 agreement to deploy Bloom fuel-cell technology for Nebius’s AI infrastructure buildout. This directly links Bloom to AI cloud power demand and makes it a possible chokepoint beneficiary where grid access is slow."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "TrendForce reported that sustained AI demand is expected to drive global data-center growth and support demand for HVDC power systems and liquid cooling systems.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-05-06",
+      "source_title": "North American AI Data Center Expansion Drives 2026 CapEx of Top Nine CSPs to US$830 Billion, Says TrendForce",
+      "source_url": "https://www.trendforce.com/presscenter/news/20260506-13033.html",
+      "ticker": ""
+    },
+    {
+      "claim": "Generac announced a global supply agreement with a leading hyperscale data-center operator to supply backup power.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06-02",
+      "source_title": "Generac Signs Global Supply Agreement with Leading Hyperscale Data Center Operator to Supply Backup Power",
+      "source_url": "https://investors.generac.com/node/16221/pdf",
+      "ticker": "GNRC"
+    },
+    {
+      "claim": "Generac introduced emergency standby generators designed for high-capacity applications including hyperscale data centers.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2025-04-08",
+      "source_title": "Generac Strengthens Its Energy Portfolio with New Products Designed for the Data Center Market",
+      "source_url": "https://investors.generac.com/node/15501/pdf",
+      "ticker": "GNRC"
+    },
+    {
+      "claim": "Modine’s FY2026 10-K says AI and machine-learning trends are increasing high-performance-computing heat loads and the need for high-density cooling such as hybrid and liquid cooling.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-29",
+      "source_title": "Modine Manufacturing Co. Form 10-K for fiscal year ended March 31, 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000067347/000110465926066795/mod-20260331x10k.htm",
+      "ticker": "MOD"
+    },
+    {
+      "claim": "Wesco’s 2025 annual report identifies AI-driven data centers as part of the digitalization demand backdrop for its business.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-05",
+      "source_title": "Wesco International 2025 Annual Report",
+      "source_url": "https://investors.wesco.com/static-files/a5fec8fe-d630-412f-be74-6a7ae8313042",
+      "ticker": "WCC"
+    },
+    {
+      "claim": "Secondary reporting of Wesco’s 2025 results said data-center sales increased 30% to approximately $1.2B, driven by AI-related hyperscale projects and infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.68,
+      "published_at": "2026-02-16",
+      "source_title": "WESCO Record Sales but Profitability Hit, Data Centers Drive Growth",
+      "source_url": "https://electricaltrends.com/2026/02/16/wesco-record-sales-but-profitability-hit-data-centers-drive-growth/",
+      "ticker": "WCC"
+    },
+    {
+      "claim": "Secondary reporting of Comfort Systems’ 2025 results said data-center work was 45% of revenue, up from 33% in the prior year.",
+      "claim_type": "fact",
+      "confidence": 0.67,
+      "published_at": "2026-02-27",
+      "source_title": "Forget Tech Stocks: The Construction Stock Building Tomorrow's Data Centers",
+      "source_url": "https://www.fool.com/investing/2026/02/27/forget-tech-stocks-the-construction-stock-building/",
+      "ticker": "FIX"
+    },
+    {
+      "claim": "Comfort Systems is a provider of mechanical, electrical, HVAC, plumbing, piping, controls, modular, monitoring, fire-protection, installation, and servicing capabilities relevant to data-center construction.",
+      "claim_type": "fact",
+      "confidence": 0.75,
+      "published_at": "",
+      "source_title": "Comfort Systems USA company website",
+      "source_url": "https://www.comfortsystemsusa.com/",
+      "ticker": "FIX"
+    },
+    {
+      "claim": "Nebius and Bloom Energy announced an agreement to deploy Bloom fuel-cell technology to help power Nebius’s AI infrastructure buildout.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05-20",
+      "source_title": "Nebius and Bloom Energy partner to power AI infrastructure build-out",
+      "source_url": "https://nebius.com/newsroom/nebius-and-bloom-energy-partner-to-power-ai-infrastructure-build-out",
+      "ticker": "BE"
+    },
+    {
+      "claim": "An SEC exhibit disclosed that Nebius entered into a Master Fuel Cell Capacity Agreement and related system orders with Bloom Energy on May 14, 2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "Nebius Form 6-K Exhibit 99.2",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926064092/nbis-20260331xex99d2.htm",
+      "ticker": "BE"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.86,
+      "text": "Add GNRC as a direct hyperscale data-center backup-power supplier; evidence strengthened by June 2, 2026 global supply agreement with a leading hyperscale data-center operator.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Add MOD as a high-density cooling candidate; FY2026 10-K directly links AI/HPC heat loads to demand for hybrid and liquid cooling.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "Add WCC as an underappreciated electrical/network distribution and logistics node for AI data-center buildouts; verify data-center revenue and margins in primary transcripts.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.74,
+      "text": "Add FIX as a mechanical/electrical construction and modular execution chokepoint; exposure appears strong but needs primary-source verification and valuation/cyclicality checks.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Add BE as an onsite power/time-to-power chokepoint candidate after Nebius fuel-cell agreement; monitor execution, financing structure, and fuel-cell competitiveness versus turbines and grid solutions.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.81,
+      "text": "Future Layer 1B passes should separately cover neocloud demand aggregators such as NBIS, CRWV, and IREN, plus REIT/colocation nodes such as DLR/EQIX, to avoid mixing demand-side customers with infrastructure suppliers in this pass.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Hyperscaler and cloud AI compute demand",
+  "node_id": "hyperscaler_ai_compute_demand",
+  "summary": "Expanded the universe around less-obvious public beneficiaries of hyperscaler/neocloud AI compute demand. The strongest second-order mappings in this pass are not GPU vendors but enabling infrastructure: backup/onsite power, high-density cooling, electrical distribution/logistics, and mechanical/electrical construction. These names benefit if AI compute demand keeps pulling forward data-center buildouts, but the same operating leverage can reverse if hyperscaler capex, GPU utilization, permitting, or AI monetization disappoints.",
+  "theme_id": "ai_cloud_data_center_semiconductors_software_automation"
+}

@@ -1,0 +1,488 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Micron Technology",
+      "confidence": 0.95,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM revenue mix, sold-out capacity language, HBM gross margin vs commodity DRAM, capex, customer concentration, and HBM4 qualification timing.",
+      "node_relation": "Direct HBM, DRAM, NAND and AI memory supplier; U.S.-listed pure-play memory producer.",
+      "sector_or_industry": "Memory semiconductors",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "direct_supplier",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerator platforms require high-capacity, high-bandwidth memory; Micron's HBM4 / HBM3E ramp directly maps to AI memory demand.",
+      "ticker": "MU",
+      "why_include": "Micron is the clearest U.S.-listed direct HBM producer and has disclosed AI memory products, HBM4, HBM3E, and data-center memory positioning."
+    },
+    {
+      "claim_type": "fact",
+      "company": "SK hynix",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify current U.S. trading symbol / ADR status, HBM4 customer qualifications, NVIDIA / ASIC platform exposure, capacity commitments, and capex schedule.",
+      "node_relation": "Direct HBM and advanced DRAM leader; U.S. OTC access appears available but liquidity / symbol treatment should be verified by broker.",
+      "sector_or_industry": "Memory semiconductors",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "direct_supplier",
+        "otc_liquidity_risk"
+      ],
+      "theme_relation": "HBM supply leadership makes SK hynix central to AI accelerator shipment capacity and next-generation AI memory roadmaps.",
+      "ticker": "HXSCF",
+      "why_include": "SK hynix has public HBM4 / AI memory disclosures and is widely cited as a leading HBM supplier; include despite OTC implementation caveats."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Samsung Electronics",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track NVIDIA / AMD / custom ASIC qualification, HBM yield, foundry-base-die strategy, memory segment margin recovery, and customer sampling conversion.",
+      "node_relation": "Direct HBM, DRAM, foundry and advanced memory supplier; U.S. OTC access.",
+      "sector_or_industry": "Memory semiconductors and diversified electronics",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "direct_supplier",
+        "qualification_watch"
+      ],
+      "theme_relation": "Samsung's ability to qualify HBM3E / HBM4 / HBM4E with AI customers affects industry supply balance and competitive pricing.",
+      "ticker": "SSNLF",
+      "why_include": "Samsung is one of the few global HBM manufacturers and has official disclosures around HBM4 and HBM4E sampling / shipping."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track CoWoS / advanced packaging capacity, AI customer allocation, base-die work for HBM4 / custom memory, and packaging cycle-time disclosures.",
+      "node_relation": "Second-order node enabler through advanced logic manufacturing and packaging coordination for AI accelerators that integrate HBM.",
+      "sector_or_industry": "Foundry and advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "advanced_packaging",
+        "bottleneck",
+        "second_order"
+      ],
+      "theme_relation": "AI accelerators require advanced-node logic plus 2.5D / advanced packaging flows that coordinate GPU / ASIC dies with HBM stacks.",
+      "ticker": "TSM",
+      "why_include": "Although not an HBM maker, TSMC is central to AI accelerator manufacturing and packaging ecosystems where HBM integration becomes a throughput bottleneck."
+    },
+    {
+      "claim_type": "inference",
+      "company": "ASML Holding",
+      "confidence": 0.8,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track memory-customer EUV orders, DRAM EUV layer adoption, tool lead times, and whether HBM-driven capex is incremental or replacement.",
+      "node_relation": "Second-order equipment bottleneck for advanced DRAM and HBM-related wafer processes, especially as memory makers use EUV on leading DRAM nodes.",
+      "sector_or_industry": "Semiconductor lithography equipment",
+      "serenity_tags": [
+        "equipment",
+        "supply_chain",
+        "capacity_expansion",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM capacity expansion depends on advanced DRAM wafer starts and process-node transitions, which can require high-end lithography tools.",
+      "ticker": "ASML",
+      "why_include": "Memory makers' HBM and advanced DRAM capacity expansions can pull EUV demand; include as a cross-cycle equipment choke rather than a pure HBM play."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Applied Materials",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track memory WFE orders, advanced packaging revenue, HBM-specific tool demand, customer concentration, and China export-control exposure.",
+      "node_relation": "Equipment supplier exposed to HBM materials engineering, DRAM process steps, TSV / advanced packaging and yield enablement.",
+      "sector_or_industry": "Semiconductor manufacturing equipment",
+      "serenity_tags": [
+        "equipment",
+        "supply_chain",
+        "bottleneck",
+        "yield"
+      ],
+      "theme_relation": "HBM manufacturing adds specialized materials and process steps beyond conventional DRAM, creating equipment intensity.",
+      "ticker": "AMAT",
+      "why_include": "Applied has explicitly described HBM materials-engineering exposure and claims its equipment serves a large portion of added HBM process steps."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Lam Research",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track memory WFE recovery, HBM-related etch / deposition content, SK hynix / Samsung / Micron capex, and leading-edge DRAM transitions.",
+      "node_relation": "Equipment supplier for DRAM, HBM, TSV, etch, deposition and advanced memory process control.",
+      "sector_or_industry": "Semiconductor etch and deposition equipment",
+      "serenity_tags": [
+        "equipment",
+        "supply_chain",
+        "advanced_memory",
+        "yield"
+      ],
+      "theme_relation": "HBM relies on complex DRAM and 3D integration process flows where etch / deposition intensity and yield matter.",
+      "ticker": "LRCX",
+      "why_include": "Lam's own DRAM solution materials reference HBM and named tools for HBM-related process flows."
+    },
+    {
+      "claim_type": "inference",
+      "company": "KLA Corporation",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track advanced packaging inspection revenue, memory-customer orders, HBM-specific product references, and yield-improvement case studies.",
+      "node_relation": "Yield and inspection / metrology enabler for wafer manufacturing and advanced packaging, including HBM stack and substrate complexity.",
+      "sector_or_industry": "Semiconductor process control, inspection and metrology",
+      "serenity_tags": [
+        "equipment",
+        "metrology",
+        "yield",
+        "advanced_packaging"
+      ],
+      "theme_relation": "As HBM stacks and advanced packages become more complex, defect inspection, metrology and process control become higher-value bottleneck mitigators.",
+      "ticker": "KLAC",
+      "why_include": "KLA is not a direct memory supplier, but its process-control role is highly relevant where HBM yield and packaging defects are chokepoints."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Amkor Technology",
+      "confidence": 0.76,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track Arizona facility timing, AI accelerator customers, package types supported, HBM / 2.5D explicit disclosures, and utilization.",
+      "node_relation": "Advanced packaging and test provider; potential second-order exposure to AI chip packaging capacity and U.S. packaging localization.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test / advanced packaging",
+      "serenity_tags": [
+        "advanced_packaging",
+        "supply_chain",
+        "second_order",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM adoption requires advanced package assembly and test coordination around AI processors, memory stacks, substrates and interposers.",
+      "ticker": "AMKR",
+      "why_include": "Amkor is a U.S.-headquartered OSAT investing heavily in advanced packaging; exposure is more to AI packaging capacity than to HBM fabrication itself."
+    },
+    {
+      "claim_type": "fact",
+      "company": "ASE Technology Holding",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track advanced packaging revenue mix, AI customer exposure, HBM package volume, capex, and competitive overlap with TSMC / Amkor.",
+      "node_relation": "Advanced packaging and test leader with explicit 2.5D / HBM packaging relevance.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test / advanced packaging",
+      "serenity_tags": [
+        "advanced_packaging",
+        "supply_chain",
+        "bottleneck",
+        "second_order"
+      ],
+      "theme_relation": "AI accelerators increasingly depend on 2.5D / 3D packaging that integrates logic dies and HBM memory.",
+      "ticker": "ASX",
+      "why_include": "ASE's own materials state it has delivered 2.5D solutions involving ASIC and HBM products and has mass-production history for 2.5D HBM packages."
+    },
+    {
+      "claim_type": "fact",
+      "company": "FormFactor",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM probe-card revenue, DRAM customer concentration, margin impact, capacity expansion, and whether HBM growth offsets cyclical test weakness.",
+      "node_relation": "Probe-card and test supplier exposed to HBM / GPU advanced packaging test intensity.",
+      "sector_or_industry": "Semiconductor probe cards and test",
+      "serenity_tags": [
+        "test",
+        "supply_chain",
+        "yield",
+        "less_obvious_supplier"
+      ],
+      "theme_relation": "HBM and heterogeneous integration increase wafer / die test complexity, supporting demand for specialized probe cards.",
+      "ticker": "FORM",
+      "why_include": "FormFactor has directly referenced HBM validation and advanced-packaging probe card use cases; recent investor materials mention GPU+HBM test intensity."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Onto Innovation",
+      "confidence": 0.76,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track AI advanced packaging tool orders, HBM / chiplet customer references, PACE center outputs, and revenue contribution from packaging.",
+      "node_relation": "Advanced packaging process-control supplier with potential exposure to HBM / chiplet / heterogeneous integration inspection and metrology.",
+      "sector_or_industry": "Semiconductor metrology, inspection, lithography and software",
+      "serenity_tags": [
+        "metrology",
+        "advanced_packaging",
+        "yield",
+        "less_obvious_supplier"
+      ],
+      "theme_relation": "HBM packaging yield depends on 3D metrology, macro defect inspection, lithography and process analytics across advanced packaging flows.",
+      "ticker": "ONTO",
+      "why_include": "Onto explicitly positions its packaging applications center around heterogeneous integration for AI applications; HBM-specific exposure needs confirmation."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Rambus",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track licensing wins, HBM4E IP adoption, revenue mix from IP vs chips, customer concentration, and competitive pressure from Synopsys / Cadence.",
+      "node_relation": "HBM controller IP and memory-interface technology provider.",
+      "sector_or_industry": "Semiconductor IP and memory interface chips",
+      "serenity_tags": [
+        "semiconductor_ip",
+        "supply_chain",
+        "bottleneck",
+        "less_obvious_supplier"
+      ],
+      "theme_relation": "AI accelerators require high-performance HBM controller / interface IP to connect compute dies with HBM stacks.",
+      "ticker": "RMBS",
+      "why_include": "Rambus offers HBM4E / HBM4 / HBM3E controller IP and explicitly links the products to AI / ML, graphics and HPC applications."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Synopsys",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM IP customer wins, AI ASIC design activity, IP revenue growth, and integration with EDA tool demand.",
+      "node_relation": "HBM IP and verification IP supplier for AI / HPC chip design flows.",
+      "sector_or_industry": "Electronic design automation and semiconductor IP",
+      "serenity_tags": [
+        "semiconductor_ip",
+        "software",
+        "supply_chain",
+        "design_enablement"
+      ],
+      "theme_relation": "Custom AI ASICs and accelerators need verified HBM PHY / controller IP and design tools before HBM supply can be used in production systems.",
+      "ticker": "SNPS",
+      "why_include": "Synopsys offers HBM4 / HBM4E IP and HBM verification IP; exposure is through design enablement rather than physical HBM output."
+    },
+    {
+      "claim_type": "fact",
+      "company": "NVIDIA",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM content per platform, supplier mix, prepayment / supply commitments, Blackwell / Rubin shipment cadence, and any memory-related shipment constraints.",
+      "node_relation": "Downstream HBM consumer and capacity allocator; AI accelerator platforms require HBM stacks from qualified suppliers.",
+      "sector_or_industry": "AI accelerators and accelerated computing platforms",
+      "serenity_tags": [
+        "demand",
+        "customer",
+        "capacity_allocation",
+        "evidence_needed"
+      ],
+      "theme_relation": "NVIDIA demand drives HBM capacity commitments and qualification cycles; HBM scarcity can constrain GPU / system shipments.",
+      "ticker": "NVDA",
+      "why_include": "NVIDIA is a primary AI accelerator customer for HBM suppliers and its GPU roadmap uses high-bandwidth memory, making it key to demand-side mapping."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Micron has disclosed HBM4 and AI memory products, including HBM4 positioning for next-generation AI platforms and COMPUTEX 2026 AI memory messaging.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-06-01",
+      "source_title": "Micron Powers AI Everywhere at COMPUTEX 2026",
+      "source_url": "https://investors.micron.com/news-releases/news-release-details/micron-powers-ai-everywhere-computex-2026",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Micron's HBM4 product page describes greater than 2.8 TB/s bandwidth per stack and a wider 2048-pin bus interface.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "HBM4 | Micron Technology Inc.",
+      "source_url": "https://www.micron.com/products/memory/hbm/hbm4",
+      "ticker": "MU"
+    },
+    {
+      "claim": "SK hynix showcased next-generation AI memory solutions at CES 2026, including HBM4 16Hi 48GB.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-01-06",
+      "source_title": "CES 2026: SK hynix Showcases Next-Gen AI Memory Innovations",
+      "source_url": "https://news.skhynix.com/sk-hynix-showcases-next-generation-ai-memory-innovations-at-ces-2026/",
+      "ticker": "HXSCF"
+    },
+    {
+      "claim": "U.S. OTC references list SK hynix under HXSCF / related OTC symbols, but broker availability and liquidity should be verified.",
+      "claim_type": "fact",
+      "confidence": 0.75,
+      "published_at": "",
+      "source_title": "HXSCF - SK Hynix, Inc. Stock - Stock Price, Institutional Ownership, Shareholders",
+      "source_url": "https://fintel.io/so/us/hxscf",
+      "ticker": "HXSCF"
+    },
+    {
+      "claim": "Samsung announced commercial HBM4 shipments for AI computing in February 2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-02-12",
+      "source_title": "Samsung Ships Industry-First Commercial HBM4 With Ultimate Performance for AI Computing",
+      "source_url": "https://news.samsung.com/global/samsung-ships-industry-first-commercial-hbm4-with-ultimate-performance-for-ai-computing",
+      "ticker": "SSNLF"
+    },
+    {
+      "claim": "Samsung's Q1 2026 results said memory demand remained strong amid AI infrastructure expansion and referenced HBM4E sampling / advanced-node utilization.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04-30",
+      "source_title": "Samsung Electronics Announces First Quarter 2026 Results",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2026-results",
+      "ticker": "SSNLF"
+    },
+    {
+      "claim": "Applied Materials says the HBM manufacturing flow adds around 19 materials-engineering steps beyond conventional DRAM and that Applied serves about 75% of those steps with equipment.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2024-03-13",
+      "source_title": "HBM: Materials Innovation Propels High-Bandwidth Memory Into the AI Era",
+      "source_url": "https://www.appliedmaterials.com/us/en/newsroom/blogs/hbm--materials-innovation-propels-high-bandwidth-memory-into-the.html",
+      "ticker": "AMAT"
+    },
+    {
+      "claim": "Applied introduced chipmaking products targeting leading-edge logic, high-performance DRAM including HBM, and advanced packaging.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2025-10-07",
+      "source_title": "Applied Materials Unveils Next-Gen Chipmaking Products to Supercharge AI Performance",
+      "source_url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-unveils-next-gen-chipmaking-products/",
+      "ticker": "AMAT"
+    },
+    {
+      "claim": "Lam Research's DRAM solutions page explicitly lists HBM-related tools and process capabilities, including TEOS 3D, SABRE and Syndion etch.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "DRAM | Our Solutions | Lam Research",
+      "source_url": "https://www.lamresearch.com/products/our-solutions/dram/",
+      "ticker": "LRCX"
+    },
+    {
+      "claim": "KLA describes inspection and metrology systems for advanced wafer-level packaging that help chip manufacturers increase yield and traceability.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "",
+      "source_title": "Wafer Inspection and Metrology for Semiconductor Advanced Packaging | KLA",
+      "source_url": "https://www.spts.com/products/packaging-manufacturing/wafer-inspection-and-metrology-for-advanced-packaging",
+      "ticker": "KLAC"
+    },
+    {
+      "claim": "Onto Innovation says its Packaging Applications Center of Excellence targets advanced heterogeneous integration for AI applications, combining substrate, process equipment and materials ecosystem work.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2024-10-28",
+      "source_title": "Onto Innovation Announces Opening of Packaging Applications Center of Excellence",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2024/Onto-Innovation-Announces-Opening-of-Packaging-Applications-Center-of-Excellence/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Amkor broke ground on an Arizona advanced packaging and test campus and said it expanded investment to $7 billion.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2025-10-06",
+      "source_title": "Amkor Technology Breaks Ground on New Semiconductor Advanced Packaging and Test Campus in Arizona; Expands Investment to $7 Billion",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "ASE states it has delivered pioneering 2.5D solutions that helped bring advanced ASIC and HBM products to market and launched mass production of 2.5D IC packages equipped with HBM.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "2.5D and 3D IC Packaging | ASE",
+      "source_url": "https://ase.aseglobal.com/3d-ic-packaging/",
+      "ticker": "ASX"
+    },
+    {
+      "claim": "FormFactor's investor materials describe probe cards as critical to advanced packaging for GPU+HBM and show higher test intensity as advanced packaging becomes widespread.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-05-20",
+      "source_title": "FormFactor Investor Presentation",
+      "source_url": "https://investors.formfactor.com/static-files/70613b10-fdd0-4f05-84f1-51b233469238",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor previously introduced a vertical MEMS probe card for advanced packaging, citing at-speed validation of high-bandwidth memory as a use case.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2019-12-10",
+      "source_title": "FormFactor Introduces the Altius Vertical MEMS Probe Card for Advanced Packaging Technologies",
+      "source_url": "https://investors.formfactor.com/news-releases/news-release-details/formfactor-introduces-altiustm-vertical-mems-probe-card-advanced",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Rambus offers HBM4E / HBM4 / HBM3E / HBM3 and HBM2E / HBM2 controller IP for AI / ML, graphics and HPC applications.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "HBM Controller IP - Rambus",
+      "source_url": "https://www.rambus.com/interface-ip/hbm/",
+      "ticker": "RMBS"
+    },
+    {
+      "claim": "Synopsys offers HBM4 / HBM4E IP with stated bandwidth over 3 TBps.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "HBM IP Solutions: High-Bandwidth Memory | Synopsys",
+      "source_url": "https://www.synopsys.com/designware-ip/interface-ip/hbm.html",
+      "ticker": "SNPS"
+    },
+    {
+      "claim": "NVIDIA's downstream AI accelerator ecosystem is a major HBM demand driver; public reporting around H200 / Blackwell / Rubin platforms describes large HBM content.",
+      "claim_type": "fact",
+      "confidence": 0.75,
+      "published_at": "2026-04-07",
+      "source_title": "Jensen says Nvidia has received orders from Chinese customers for H200 GPUs, licenses from US gov't",
+      "source_url": "https://www.tomshardware.com/tech-industry/nvidia-has-received-po-s-from-chinese-customers",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "AMD's Instinct MI325X platform provides up to 2TB HBM3E capacity across 8 GPU OAM modules, confirming downstream accelerator demand for HBM.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "AMD Instinct MI300 Series Accelerators",
+      "source_url": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+      "ticker": "AMD"
+    },
+    {
+      "claim": "Cadence announced an HBM4 12.8Gbps IP memory system solution for next-generation AI and HPC systems.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2025-02-19",
+      "source_title": "Cadence Enables Next-Gen AI and HPC Systems with Industry’s Fastest HBM4 12.8Gbps IP Memory System Solution",
+      "source_url": "https://www.cadence.com/ko_KR/home/company/newsroom/press-releases/pr/2025/cadence-enables-next-gen-ai-and-hpc-systems-with-industrys.html",
+      "ticker": "CDNS"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Direct HBM producer coverage should include MU, Samsung Electronics OTC SSNLF, and SK hynix OTC HXSCF / possible ADR-status watch. These are the highest-priority public-market mappings for this node.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "HBM node exposure is not limited to memory makers; meaningful second-order chokepoints include HBM process equipment, DRAM EUV, advanced packaging, probe cards, metrology / inspection, controller IP, and downstream AI accelerator customers.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Important non-U.S. or harder-to-access HBM supply-chain names not fully captured in this U.S.-listed screen may include Japanese / Korean / Taiwanese materials, substrate, bonding, and test-equipment suppliers; further localization pass needed.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.78,
+      "text": "CDNS and AMD have relevant HBM exposure but were not included in the 15-candidate cap; keep them as overflow candidates for a larger universe because Cadence has HBM IP and AMD is a downstream HBM-heavy accelerator customer.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "For falsification, downgrade the HBM chokepoint if supplier capacity additions outpace accelerator demand, HBM4 yields improve faster than expected across all three memory makers, or AI accelerator roadmaps shift materially toward lower-HBM architectures.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "HBM, advanced DRAM, and AI memory supply",
+  "node_id": "hbm_and_advanced_memory",
+  "summary": "Expanded U.S.-accessible public universe for the HBM / advanced memory chokepoint. The strongest direct exposures are the three memory producers with U.S. listings or OTC access: Micron, SK hynix, and Samsung Electronics. Second-order exposure clusters around DRAM / HBM wafer-fab equipment, EUV lithography, advanced packaging and test, probe / metrology, HBM controller IP, and downstream AI accelerator customers whose shipment ramps depend on qualified HBM supply. This is a research universe only, not a recommendation list.",
+  "theme_id": "ai"
+}

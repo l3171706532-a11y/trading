@@ -1,0 +1,413 @@
+{
+  "evidence": [
+    {
+      "claim": "Microsoft stated on its FY2026 Q3 earnings call that for calendar year 2026 it expected to invest roughly $190 billion in capital expenditures, including about $25 billion from higher component pricing.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "source_title": "Microsoft Fiscal Year 2026 Third Quarter Earnings Conference Call",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+      "used_for": [
+        "MSFT demand_durability",
+        "MSFT evidence_quality",
+        "AI capex pull-through"
+      ]
+    },
+    {
+      "claim": "NVIDIA announced the Vera Rubin platform with CPU, GPU, NVLink switch, ConnectX SuperNIC, BlueField DPU, and Spectrum Ethernet switch components to scale AI factories.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "source_title": "NVIDIA Vera Rubin Opens Agentic AI Frontier",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Opens-Agentic-AI-Frontier/default.aspx",
+      "used_for": [
+        "NVDA bottleneck_severity",
+        "NVDA supplier_scarcity",
+        "rack-scale platform pull-through"
+      ]
+    },
+    {
+      "claim": "NVIDIA's newsroom said Microsoft would deploy Vera Rubin NVL72 rack-scale systems and CoreWeave would integrate Rubin-based systems into its AI cloud platform beginning in the second half of 2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "source_title": "NVIDIA Kicks Off the Next Generation of AI With Rubin",
+      "source_url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
+      "used_for": [
+        "NVDA evidence_quality",
+        "CRWV evidence_quality",
+        "customer deployment validation"
+      ]
+    },
+    {
+      "claim": "Amazon's Q1 2026 earnings release cited AI infrastructure activity including NVIDIA GPU deployments beginning in 2026 and multiple AWS AI agreements.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "source_title": "Amazon Q1 2026 Earnings Release",
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf",
+      "used_for": [
+        "AMZN demand_durability",
+        "AMZN evidence_quality",
+        "AWS AI infrastructure demand"
+      ]
+    },
+    {
+      "claim": "Amazon's Q4 2025 results stated that Trainium3 was delivering production workloads and that nearly all Trainium3 chip supply was expected to be committed by mid-2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "source_title": "Amazon.com Announces Fourth Quarter Results",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
+      "used_for": [
+        "AMZN internal AI chip thesis",
+        "custom silicon demand",
+        "falsifiability"
+      ]
+    },
+    {
+      "claim": "Samsung announced that it began mass production of HBM4 and shipped commercial products to customers, positioning HBM4 as a next-generation AI computing memory product.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "source_title": "Samsung Ships Industry-First Commercial HBM4 With Ultimate Performance for AI Computing",
+      "source_url": "https://news.samsung.com/global/samsung-ships-industry-first-commercial-hbm4-with-ultimate-performance-for-ai-computing",
+      "used_for": [
+        "HBM node bottleneck",
+        "SK hynix peer benchmark",
+        "HBM4 catalyst validation"
+      ]
+    },
+    {
+      "claim": "Micron described HBM4 36GB 12-high memory as enabling higher large-language-model inference throughput and highlighted AI data-center and edge memory products at COMPUTEX 2026.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "source_title": "Micron Powers AI Everywhere at COMPUTEX 2026",
+      "source_url": "https://investors.micron.com/node/50566/pdf",
+      "used_for": [
+        "HBM node demand durability",
+        "SK hynix peer benchmark",
+        "AI memory throughput thesis"
+      ]
+    },
+    {
+      "claim": "The IEA reported that data-center electricity use surged in 2025 and that capital expenditure by five large technology companies exceeded $400 billion in 2025 and was set to rise further in 2026.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "source_title": "Data centre electricity use surged in 2025, even with tightening bottlenecks driving a scramble for solutions",
+      "source_url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+      "used_for": [
+        "power bottleneck thesis",
+        "DLR demand_durability",
+        "NVT/WCC/FIX/MOD/CAT physical infrastructure relevance"
+      ]
+    },
+    {
+      "claim": "The IEA states that traditional data centers use roughly 10-25 MW while hyperscale AI centers can exceed 100 MW, supporting the view that power blocks are a core AI infrastructure constraint.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "source_title": "Artificial Intelligence - IEA",
+      "source_url": "https://www.iea.org/topics/artificial-intelligence",
+      "used_for": [
+        "power and cooling bottleneck severity",
+        "CAT thesis",
+        "DLR/NVT/WCC/FIX/MOD physical capacity thesis"
+      ]
+    },
+    {
+      "claim": "The U.S. Department of Energy said it planned to partner with private-sector developers on AI data centers and energy-generation projects on DOE lands and launched a Speed to Power initiative for grid infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "source_title": "Artificial Intelligence - Department of Energy",
+      "source_url": "https://www.energy.gov/topics/artificial-intelligence",
+      "used_for": [
+        "policy catalyst",
+        "power interconnection thesis",
+        "physical AI infrastructure bottleneck"
+      ]
+    }
+  ],
+  "layer": 3,
+  "memory_update": [
+    {
+      "content": "For AI Layer 3, prioritize candidates that combine direct exposure to AI demand pull-through with chokepoint severity, supplier scarcity, strong source evidence, and clear falsification metrics. Penalize candidates with diversified non-AI revenue unless the AI-specific disclosure is strong.",
+      "type": "ranking_rule"
+    },
+    {
+      "content": "In this candidate chunk, the strongest Serenity nodes are accelerator platforms, custom silicon/networking, HBM, AI cloud capacity conversion, hyperscaler capex, and physical data-center power/cooling/construction bottlenecks.",
+      "type": "theme_observation"
+    },
+    {
+      "content": "Layer 4 should test NVDA, AVGO, SK hynix, CRWV, MSFT, AMZN, NVT, WCC, DLR, and FIX with company-specific filings, backlog, customer concentration, capex conversion, margin, capacity, and falsification evidence.",
+      "type": "next_research_focus"
+    }
+  ],
+  "ranked_candidates": [
+    {
+      "company": "NVIDIA",
+      "main_evidence_gap": "Need current order visibility, HBM allocation, CoWoS/advanced packaging capacity, gross-margin durability, and evidence of whether Rubin deployments are ramping on schedule versus customer capex digestion.",
+      "rank": 1,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 5,
+        "evidence_quality": 5,
+        "falsifiability": 5,
+        "mispricing_potential": 2,
+        "public_market_purity": 5,
+        "risk_clarity": 4,
+        "supplier_scarcity": 5
+      },
+      "ticker": "NVDA",
+      "total_score": 36,
+      "why_prioritized": "NVIDIA remains the cleanest public-market mapping to the AI accelerator and rack-scale compute chokepoint. Cached evidence shows Vera Rubin platform pull-through across GPUs, NVLink, DPUs, Ethernet switching, and rack-scale systems, with customer deployment references involving Microsoft and CoreWeave. Its bottleneck score is highest because downstream AI cloud, enterprise AI, and neocloud capacity often depend on NVIDIA-class accelerator availability and system delivery. Mispricing potential is lower because the market already recognizes NVIDIA as a core AI beneficiary."
+    },
+    {
+      "company": "Broadcom",
+      "main_evidence_gap": "Need customer-by-customer custom silicon exposure, durability of AI ASIC program wins, networking backlog, margin mix, and whether hyperscaler in-house silicon reduces or reinforces Broadcom dependence.",
+      "rank": 2,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4
+      },
+      "ticker": "AVGO",
+      "total_score": 33,
+      "why_prioritized": "Broadcom maps directly to two high-priority AI infrastructure nodes: hyperscaler custom AI accelerators and AI networking silicon. The Serenity appeal is that custom ASIC programs and network-scaling silicon can become chokepoints as hyperscalers diversify beyond merchant GPUs and optimize total cost of ownership. Compared with NVIDIA, the AI exposure is less pure but may have more room for thesis differentiation because custom silicon customer concentration, networking attach rates, and design-win durability require deeper work."
+    },
+    {
+      "company": "SK hynix",
+      "main_evidence_gap": "Need company-specific HBM4/HBM4E qualification evidence, customer allocation, capacity expansion, yield progress, pricing durability, and share versus Samsung and Micron.",
+      "rank": 3,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4
+      },
+      "ticker": "SK hynix",
+      "total_score": 33,
+      "why_prioritized": "SK hynix is a top Serenity candidate because HBM remains one of the most direct semiconductor chokepoints in AI infrastructure. The thesis is tied to memory bandwidth, qualification cycles, packaging coordination, yield, and customer allocation. Cached Layer 2 evidence identifies HBM4 mass production, sampling, and qualification as key catalysts. SK hynix ranks slightly below NVIDIA because its direct evidence in the provided cache is less specific than Samsung and Micron citations, but its node importance is extremely high."
+    },
+    {
+      "company": "Microsoft",
+      "main_evidence_gap": "Need granular evidence that AI infrastructure capex converts into durable Azure AI revenue, Copilot monetization, utilization, margin recovery, and not merely capacity prebuild.",
+      "rank": 4,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 5,
+        "evidence_quality": 5,
+        "falsifiability": 5,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "MSFT",
+      "total_score": 32,
+      "why_prioritized": "Microsoft ranks highly as a demand-anchor and monetization platform rather than a pure supply chokepoint. Cached evidence says Microsoft described roughly $190 billion of calendar-2026 capex, making it one of the strongest observable pull-through sources for GPUs, networking, memory, power, data centers, and cooling. It also provides a key test of whether AI capex translates into Azure AI, Copilot, and enterprise AI revenue. The bottleneck score is lower because Microsoft is primarily a buyer/operator rather than the scarce component supplier."
+    },
+    {
+      "company": "CoreWeave",
+      "main_evidence_gap": "Need contract duration, customer concentration, financing structure, GPU depreciation assumptions, utilization, power/data-center access, and evidence that revenue growth converts into durable free cash flow.",
+      "rank": 5,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 5,
+        "risk_clarity": 3,
+        "supplier_scarcity": 3
+      },
+      "ticker": "CRWV",
+      "total_score": 31,
+      "why_prioritized": "CoreWeave is a high-priority research candidate because it is a relatively pure public mapping to AI compute capacity monetization. Cached evidence links CoreWeave to Rubin-based systems beginning in the second half of 2026. The Serenity question is whether scarce GPU capacity, power access, and customer contracts can convert into profitable utilization. It scores high on public-market purity and mispricing potential because it is a more concentrated AI cloud capacity vehicle than diversified hyperscalers."
+    },
+    {
+      "company": "Amazon",
+      "main_evidence_gap": "Need AWS AI revenue contribution, Trainium customer adoption beyond internal workloads, margin implications of AI capex, and whether internal chips reduce dependence on NVIDIA without reducing performance competitiveness.",
+      "rank": 6,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 5,
+        "evidence_quality": 5,
+        "falsifiability": 5,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "AMZN",
+      "total_score": 32,
+      "why_prioritized": "Amazon is a major AI infrastructure demand driver through AWS, external GPU deployment, and internal Trainium chips. Cached evidence indicates NVIDIA GPU deployments beginning in 2026, AWS AI agreements, and Trainium3 production workload traction with nearly all Trainium3 chip supply expected to be committed by mid-2026. It is ranked just below CoreWeave because its AI exposure is diluted by retail, advertising, logistics, and other businesses, but its evidence quality and falsifiability are strong."
+    },
+    {
+      "company": "Meta Platforms",
+      "main_evidence_gap": "Need current AI capex detail, GPU cluster utilization, ad-product monetization from AI, GenAI user engagement, custom silicon progress, and evidence that AI investment improves revenue or margins.",
+      "rank": 7,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 2
+      },
+      "ticker": "META",
+      "total_score": 28,
+      "why_prioritized": "Meta is a large AI infrastructure demand driver, especially for recommendation systems, generative AI, model training, inference, and advertising optimization. It matters in the Serenity funnel because its capex pulls through accelerators, memory, networking, power, cooling, and data-center construction. It ranks below Microsoft and Amazon because the provided cache has less direct Meta-specific evidence and because Meta is less of a sellable AI cloud platform, making monetization more indirect."
+    },
+    {
+      "company": "Dell Technologies",
+      "main_evidence_gap": "Need AI server backlog quality, margin per AI server, GPU pass-through versus value-add, customer concentration, rack-scale integration capability, and delivery timing.",
+      "rank": 8,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "DELL",
+      "total_score": 30,
+      "why_prioritized": "Dell is a practical deployment-layer candidate because accelerator demand becomes revenue-generating capacity only after servers and rack-scale systems are integrated, delivered, powered, burned in, and accepted. This maps to the AI server and rack integration node. It ranks below the core silicon and cloud demand anchors because assembly and integration generally have lower scarcity and margin control than GPUs, HBM, and custom silicon, but the falsification path is clear through AI server backlog, revenue, margins, and working capital."
+    },
+    {
+      "company": "nVent Electric",
+      "main_evidence_gap": "Need percentage of revenue tied to data centers and AI-specific deployments, liquid-cooling order growth, margin mix, customer concentration, and evidence that high-density AI racks materially increase content per rack.",
+      "rank": 9,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "NVT",
+      "total_score": 31,
+      "why_prioritized": "nVent is a strong second-order AI infrastructure candidate because high-density racks increase thermal and electrical complexity. It maps to enclosures, electrical connection, liquid cooling, and power distribution infrastructure. Serenity priority is high because this sits closer to physical deployment bottlenecks than generalized industrial exposure, and mispricing potential may be higher than obvious semiconductor leaders. It ranks below Dell in final order only because company-specific AI revenue disclosure requires more verification."
+    },
+    {
+      "company": "Wesco International",
+      "main_evidence_gap": "Need direct data-center revenue disclosure, backlog by vertical, gross-margin durability, inventory risk, supplier constraints, and whether AI data-center demand is incremental versus cyclical electrical distribution demand.",
+      "rank": 10,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "WCC",
+      "total_score": 30,
+      "why_prioritized": "Wesco is a second-order AI capex beneficiary with direct relevance to electrical, cabling, communications, utility, and data-center supply-chain logistics. It fits Serenity because data-center commissioning can be gated by physical components and delivery timing, not just GPUs. It ranks below nVent because distribution may have lower proprietary scarcity, but it remains valuable for tracking the breadth of AI data-center component demand."
+    },
+    {
+      "company": "Comfort Systems USA",
+      "main_evidence_gap": "Need data-center backlog, AI versus non-AI exposure, labor capacity, project margin history, change-order risk, geographic exposure, and evidence that electrical/mechanical labor is a durable bottleneck.",
+      "rank": 11,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 3
+      },
+      "ticker": "FIX",
+      "total_score": 28,
+      "why_prioritized": "Comfort Systems maps to the physical-capacity conversion layer: electrical, mechanical, modular construction, and skilled labor execution. This is a valid Serenity chokepoint candidate because AI capex cannot become compute capacity without construction and commissioning. It has higher mispricing potential than obvious AI names but lower evidence quality in the provided cache, so it requires targeted work on data-center backlog and labor availability."
+    },
+    {
+      "company": "Digital Realty Trust",
+      "main_evidence_gap": "Need AI-specific leasing evidence, power availability by campus, development yield, tenant concentration, debt/refinancing exposure, and whether hyperscale AI demand improves or pressures returns.",
+      "rank": 12,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "DLR",
+      "total_score": 30,
+      "why_prioritized": "Digital Realty is a physical AI infrastructure enabler where power access, land, leasing, and hyperscale deployments determine the speed at which AI demand becomes operational capacity. It ranks as a strong asset-owner candidate rather than a component chokepoint. The thesis is falsifiable through pre-leasing, development yields, power availability, occupancy, and return on invested capital."
+    },
+    {
+      "company": "Modine Manufacturing",
+      "main_evidence_gap": "Need AI data-center cooling revenue, liquid-cooling product exposure, backlog, capacity expansion, competitive positioning, margins, and whether demand is structural or a temporary buildout surge.",
+      "rank": 13,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 3
+      },
+      "ticker": "MOD",
+      "total_score": 28,
+      "why_prioritized": "Modine is tied to the data-center cooling node, where high-density AI racks raise the importance of air and liquid thermal-management systems. Its research appeal comes from potential mispricing as a less obvious AI infrastructure beneficiary. It ranks below nVent because the provided cache labels evidence as needing more work, and because AI-specific revenue purity needs verification."
+    },
+    {
+      "company": "Caterpillar",
+      "main_evidence_gap": "Need data-center generator order disclosure, content per MW, lead times, competitive position versus other power-equipment suppliers, emissions/permitting risk, and evidence of AI-specific contribution to growth.",
+      "rank": 14,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 3,
+        "evidence_quality": 4,
+        "falsifiability": 3,
+        "mispricing_potential": 4,
+        "public_market_purity": 2,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "CAT",
+      "total_score": 27,
+      "why_prioritized": "Caterpillar is an underappreciated physical-power candidate if grid interconnection, reliability, and time-to-power constraints increase demand for backup and behind-the-meter generation. The chokepoint logic is strong at the system level because AI data centers can exceed 100 MW and require resilient power. It ranks lower because public-market purity is low: Caterpillar has large non-AI exposures across construction, mining, energy, and industrial end markets."
+    },
+    {
+      "company": "Oracle",
+      "main_evidence_gap": "Need AI backlog quality, OCI GPU capacity, customer concentration, capex funding, cloud gross margin, data-center delivery schedule, and proof that contracted demand becomes profitable recurring revenue.",
+      "rank": 15,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2
+      },
+      "ticker": "ORCL",
+      "total_score": 25,
+      "why_prioritized": "Oracle is relevant as an AI cloud infrastructure provider through OCI, but the provided candidate chunk itself flags evidence needed. Its thesis depends on converting signed AI demand into GPU supply, data-center capacity, and profitable cloud revenue. It ranks last in this chunk because supplier scarcity is lower than core component chokepoints and because evidence quality in the provided materials is weaker than for Microsoft, Amazon, NVIDIA, or CoreWeave."
+    }
+  ],
+  "summary": "Layer 3 ranks the provided AI candidate chunk by Serenity research priority, emphasizing chokepoint control, demand durability, evidence strength, market purity, and ability to falsify the thesis. The highest-priority names cluster around accelerator platforms, custom silicon/networking, HBM, AI cloud capacity conversion, hyperscaler capex, and physical AI data-center bottlenecks. This is research prioritization only, not a buy/sell recommendation.",
+  "theme_id": "AI"
+}

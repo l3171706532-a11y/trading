@@ -1,0 +1,964 @@
+{
+  "catalysts": [
+    {
+      "affected_nodes": [
+        "Hyperscaler and neocloud capex conversion",
+        "AI accelerators: GPUs, custom ASICs, and rack-scale compute platforms",
+        "HBM and high-performance server memory",
+        "Data-center land, shell capacity, leasing, and colocation",
+        "Power generation, grid interconnection, substations, transformers, switchgear"
+      ],
+      "claim_type": "fact",
+      "description": "Hyperscaler capex guidance and funding actions remain the dominant near-term catalyst. Evidence includes Microsoft describing roughly $190 billion of calendar-2026 capex and Alphabet seeking capital to scale AI infrastructure and global compute.",
+      "type": "capex"
+    },
+    {
+      "affected_nodes": [
+        "AI accelerators: GPUs, custom ASICs, and rack-scale compute platforms",
+        "HBM and high-performance server memory",
+        "AI networking: NVLink-scale-up, InfiniBand, Ethernet, DPUs, switches, SerDes",
+        "AI servers, rack integration, ODM/OEM assembly, burn-in, and acceptance",
+        "Thermal management: liquid cooling, rear-door heat exchangers, CDU, chillers"
+      ],
+      "claim_type": "fact",
+      "description": "Next-generation rack-scale compute platforms such as NVIDIA Vera Rubin create a pull-forward catalyst for HBM4, NVLink-scale networking, DPUs, Ethernet switching, power distribution, liquid cooling, and rack integration.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "HBM and high-performance server memory",
+        "Advanced packaging, CoWoS-like capacity, substrates, and interposers",
+        "AI accelerators: GPUs, custom ASICs, and rack-scale compute platforms"
+      ],
+      "claim_type": "fact",
+      "description": "HBM4 mass production, sampling, customer qualification, and HBM4E roadmaps are key catalysts because memory bandwidth and allocation can gate accelerator shipments and inference throughput.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "Energy policy, permitting, export controls, and national-security regulation",
+        "Power generation, grid interconnection, substations, transformers, switchgear",
+        "Data-center land, shell capacity, leasing, and colocation",
+        "Construction execution, skilled electrical/mechanical labor, commissioning"
+      ],
+      "claim_type": "fact",
+      "description": "U.S. energy and federal-land policy for AI data centers can accelerate site availability, generation projects, permitting, and grid infrastructure, but may also increase scrutiny of ratepayer impacts and reliability.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "Energy policy, permitting, export controls, and national-security regulation",
+        "AI accelerators: GPUs, custom ASICs, and rack-scale compute platforms",
+        "Leading-edge foundry wafers and semiconductor equipment",
+        "Model platforms, AI cloud marketplaces, and developer distribution"
+      ],
+      "claim_type": "fact",
+      "description": "Export-control changes and license-review policy for advanced AI chips remain a geopolitical catalyst that can redirect supply, alter China exposure, and influence demand for compliant accelerators or local alternatives.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "Hyperscaler and neocloud capex conversion",
+        "Inference serving and AI application runtime",
+        "End-user AI demand and enterprise agentic workflows",
+        "AI accelerators: GPUs, custom ASICs, and rack-scale compute platforms"
+      ],
+      "claim_type": "inference",
+      "description": "Quarterly earnings from hyperscalers, AI cloud providers, semiconductor suppliers, and enterprise software vendors are catalysts because the market is testing whether capex, backlog, utilization, and AI revenue are moving together.",
+      "type": "earnings"
+    },
+    {
+      "affected_nodes": [
+        "Corporate customers, governments, healthcare, financial services, defense",
+        "Model platforms, AI cloud marketplaces, and developer distribution",
+        "Inference serving and AI application runtime",
+        "End-user AI demand and enterprise agentic workflows"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Large AI cloud supply agreements, sovereign AI deals, enterprise AI-agent deployments, and regulated-industry rollouts can validate demand beyond experimental pilots.",
+      "type": "customer"
+    },
+    {
+      "affected_nodes": [
+        "Inference serving and AI application runtime",
+        "AI accelerators: GPUs, custom ASICs, and rack-scale compute platforms",
+        "AI networking: NVLink-scale-up, InfiniBand, Ethernet, DPUs, switches, SerDes",
+        "Power generation, grid interconnection, substations, transformers, switchgear"
+      ],
+      "claim_type": "inference",
+      "description": "Cluster efficiency improvements, model compression, inference optimization, and lower-precision compute can either ease bottlenecks or expand demand by making AI cheaper to deploy.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "Power generation, grid interconnection, substations, transformers, switchgear",
+        "Data-center land, shell capacity, leasing, and colocation",
+        "Construction execution, skilled electrical/mechanical labor, commissioning",
+        "Energy policy, permitting, export controls, and national-security regulation"
+      ],
+      "claim_type": "inference",
+      "description": "Reports of project delays from power, transformer, permitting, water, or community opposition are negative catalysts for the physical-capacity layer and positive evidence for the power/construction chokepoint thesis.",
+      "type": "news"
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Microsoft stated on its FY2026 Q3 earnings call that for calendar year 2026 it expected to invest roughly $190 billion in capital expenditures, including about $25 billion from higher component pricing.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-04",
+      "source_title": "Microsoft Fiscal Year 2026 Third Quarter Earnings Conference Call",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+      "ticker": "MSFT"
+    },
+    {
+      "claim": "Alphabet announced an equity capital raise and said proceeds would support general corporate purposes, including capital expenditures to scale AI infrastructure and global compute.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-01",
+      "source_title": "Alphabet Equity Capital Raise Press Release",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_news/2026/Jun/01/attachments/2026-June-Alphabet-Equity-Capital-Raise-Press-Release-PDF.pdf",
+      "ticker": "GOOGL"
+    },
+    {
+      "claim": "Amazon's Q1 2026 earnings release cited AI infrastructure activity including NVIDIA GPU deployments beginning in 2026 and multiple AWS AI agreements.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05",
+      "source_title": "Amazon Q1 2026 Earnings Release",
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf",
+      "ticker": "AMZN"
+    },
+    {
+      "claim": "Amazon's Q4 2025 results stated that Trainium3 was delivering production workloads and that nearly all Trainium3 chip supply was expected to be committed by mid-2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-02",
+      "source_title": "Amazon.com Announces Fourth Quarter Results",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
+      "ticker": "AMZN"
+    },
+    {
+      "claim": "NVIDIA announced the Vera Rubin platform with CPU, GPU, NVLink switch, ConnectX SuperNIC, BlueField DPU, and Spectrum Ethernet switch components to scale AI factories.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-03-16",
+      "source_title": "NVIDIA Vera Rubin Opens Agentic AI Frontier",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Opens-Agentic-AI-Frontier/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "NVIDIA's newsroom said Microsoft would deploy Vera Rubin NVL72 rack-scale systems and CoreWeave would integrate Rubin-based systems into its AI cloud platform beginning in the second half of 2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-01",
+      "source_title": "NVIDIA Kicks Off the Next Generation of AI With Rubin",
+      "source_url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Samsung announced that it began mass production of HBM4 and shipped commercial products to customers, positioning HBM4 as a next-generation AI computing memory product.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-02-12",
+      "source_title": "Samsung Ships Industry-First Commercial HBM4 With Ultimate Performance for AI Computing",
+      "source_url": "https://news.samsung.com/global/samsung-ships-industry-first-commercial-hbm4-with-ultimate-performance-for-ai-computing",
+      "ticker": "SSNLF"
+    },
+    {
+      "claim": "Micron described HBM4 36GB 12-high memory as enabling higher large-language-model inference throughput and highlighted AI data-center and edge memory products at COMPUTEX 2026.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06",
+      "source_title": "Micron Powers AI Everywhere at COMPUTEX 2026",
+      "source_url": "https://investors.micron.com/node/50566/pdf",
+      "ticker": "MU"
+    },
+    {
+      "claim": "The IEA reported that data-center electricity use surged in 2025 and that capital expenditure by five large technology companies exceeded $400 billion in 2025 and was set to rise further in 2026.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-05",
+      "source_title": "Data centre electricity use surged in 2025, even with tightening bottlenecks driving a scramble for solutions",
+      "source_url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+      "ticker": ""
+    },
+    {
+      "claim": "The IEA states that traditional data centers use roughly 10-25 MW while hyperscale AI centers can exceed 100 MW, supporting the view that power blocks are a core AI infrastructure constraint.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026",
+      "source_title": "Artificial Intelligence - IEA",
+      "source_url": "https://www.iea.org/topics/artificial-intelligence",
+      "ticker": ""
+    },
+    {
+      "claim": "The U.S. Department of Energy said it planned to partner with private-sector developers on AI data centers and energy-generation projects on DOE lands and launched a Speed to Power initiative for grid infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026",
+      "source_title": "Artificial Intelligence - Department of Energy",
+      "source_url": "https://www.energy.gov/topics/artificial-intelligence",
+      "ticker": ""
+    },
+    {
+      "claim": "The U.S. Department of Energy selected sites for AI data-center and energy-infrastructure development on federal lands, explicitly linking the effort to AI data-center infrastructure and energy goals.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-08",
+      "source_title": "DOE Announces Site Selection for AI Data Center and Energy Infrastructure Development on Federal Lands",
+      "source_url": "https://www.energy.gov/articles/doe-announces-site-selection-ai-data-center-and-energy-infrastructure-development-federal",
+      "ticker": ""
+    },
+    {
+      "claim": "The White House issued a June 2026 executive action on advanced AI innovation and security, emphasizing AI innovation, cybersecurity, protection of intellectual property, and advanced AI-enabled capabilities.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06",
+      "source_title": "Promoting Advanced Artificial Intelligence Innovation and Security",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "ticker": ""
+    },
+    {
+      "claim": "The Bureau of Industry and Security revised license review policy for semiconductor exports to China in January 2026, including references to Nvidia H200 and AMD MI325X export license applications.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-01-13",
+      "source_title": "Department of Commerce Revises License Review Policy for Semiconductors Exports",
+      "source_url": "https://www.bis.gov/sites/default/files/documents/DoC%20Revises%20License%20Review%20Policy%20for%20Semiconductors%20Exports.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "Salesforce reported FY2026 results and described Agentforce and Data 360 adoption as part of its platform strategy, including a metric called Agentic Work Units for tasks executed by AI agents in production.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-02",
+      "source_title": "Salesforce Delivers Record Fourth Quarter Fiscal 2026 Results",
+      "source_url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Fourth-Quarter-Fiscal-2026-Results/default.aspx",
+      "ticker": "CRM"
+    },
+    {
+      "claim": "Academic and industry work on AI data-center grid integration suggests power supply, interconnection practices, and operational flexibility are becoming system-level constraints for gigawatt-scale AI clusters.",
+      "claim_type": "inference",
+      "confidence": 0.78,
+      "published_at": "2026-05",
+      "source_title": "Grid Integration of Gigawatt-Scale AI Data Centers under Connect-and-Manage",
+      "source_url": "https://arxiv.org/abs/2605.14109",
+      "ticker": ""
+    },
+    {
+      "claim": "NVIDIA announced the Vera Rubin platform with Vera CPU, Rubin GPU, NVLink switch, ConnectX SuperNIC, BlueField DPU and Spectrum Ethernet switch components for AI factories.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-03-16",
+      "source_title": "NVIDIA Vera Rubin Opens Agentic AI Frontier",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Opens-Agentic-AI-Frontier/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Broadcom reported record first-quarter fiscal 2026 revenue and said AI semiconductor revenue growth was driven by custom AI accelerators and AI networking.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-03-04",
+      "source_title": "Broadcom Inc. Announces First Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend",
+      "source_url": "https://investors.broadcom.com/node/63976/pdf",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "SK hynix announced completion of HBM4 development and establishment of mass-production readiness, positioning the company in the next-generation HBM supply chain.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-09",
+      "source_title": "SK hynix Newsroom: HBM4 Development Completed and Mass Production System Established",
+      "source_url": "https://news.skhynix.co.kr/mass-production-hbm-4/",
+      "ticker": "000660.KS"
+    },
+    {
+      "claim": "CoreWeave reported first-quarter 2026 results with revenue backlog of $99.4 billion as of March 31, 2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "CoreWeave Reports Strong First Quarter 2026 Results",
+      "source_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/default.aspx",
+      "ticker": "CRWV"
+    },
+    {
+      "claim": "CoreWeave said it completed bring-up and validation of NVIDIA Vera Rubin NVL72, supporting its role as an early AI cloud deployment partner for next-generation NVIDIA systems.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06",
+      "source_title": "CoreWeave Completes Industry-First Bring-Up and Validation of NVIDIA Vera Rubin NVL72",
+      "source_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Completes-Industry-First-Bring-Up-and-Validation-of-NVIDIA-Vera-Rubin-NVL72/default.aspx",
+      "ticker": "CRWV"
+    },
+    {
+      "claim": "Microsoft stated on its FY2026 Q3 earnings call that calendar-2026 capital expenditures were expected to be roughly $190 billion, including about $25 billion from higher component pricing.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-04-29",
+      "source_title": "Microsoft Fiscal Year 2026 Third Quarter Earnings Conference Call",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+      "ticker": "MSFT"
+    },
+    {
+      "claim": "Microsoft's FY2026 Q3 release said its AI business surpassed a $37 billion annual revenue run rate, up 123% year over year.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04-29",
+      "source_title": "Microsoft FY26 Q3 Earnings Release",
+      "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast",
+      "ticker": "MSFT"
+    },
+    {
+      "claim": "Amazon's Q1 2026 earnings release cited more than one million NVIDIA GPUs to be deployed starting in 2026 and AWS AI agreements with major customers.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05",
+      "source_title": "Amazon Q1 2026 Earnings Release",
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf",
+      "ticker": "AMZN"
+    },
+    {
+      "claim": "Amazon's Q4 2025 release said Trainium3 was delivering production workloads and nearly all Trainium3 chip supply was expected to be committed by mid-2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-02",
+      "source_title": "Amazon.com Announces Fourth Quarter Results",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
+      "ticker": "AMZN"
+    },
+    {
+      "claim": "NVIDIA announced a multiyear partnership with Meta spanning AI infrastructure, including large-scale deployment of NVIDIA CPUs, Blackwell and Rubin GPUs, and Spectrum-X Ethernet switches.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-02-17",
+      "source_title": "Meta Builds AI Infrastructure With NVIDIA",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/Meta-Builds-AI-Infrastructure-With-NVIDIA/default.aspx",
+      "ticker": "META"
+    },
+    {
+      "claim": "Meta announced a long-term agreement with AMD to power AI infrastructure with up to 6GW of AMD Instinct GPUs.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2026-02",
+      "source_title": "Meta and AMD Partner for Longterm AI Infrastructure Agreement",
+      "source_url": "https://about.fb.com/news/2026/02/meta-amd-partner-longterm-ai-infrastructure-agreement/",
+      "ticker": "META"
+    },
+    {
+      "claim": "Oracle reported fiscal 2026 second-quarter remaining performance obligations of $523 billion and cloud infrastructure revenue of $4.1 billion, up 68% in USD.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-12",
+      "source_title": "Oracle Announces Fiscal Year 2026 Second Quarter Financial Results",
+      "source_url": "https://investor.oracle.com/investor-news/news-details/2025/Oracle-Announces-Fiscal-Year-2026-Second-Quarter-Financial-Results/",
+      "ticker": "ORCL"
+    },
+    {
+      "claim": "Dell reported more than $64 billion in fiscal-2026 AI-optimized server orders, more than $25 billion shipped during the year, and record AI backlog of $43 billion entering fiscal 2027.",
+      "claim_type": "fact",
+      "confidence": 0.89,
+      "published_at": "2026-02",
+      "source_title": "Dell Technologies Delivers Fourth Quarter and Full-Year Fiscal 2026 Results",
+      "source_url": "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2026~2~dell-technologies-delivers-fourth-quarter-and-full-year-fiscal-2026-results.htm",
+      "ticker": "DELL"
+    },
+    {
+      "claim": "Wesco reported 2025 data-center sales of $4.3 billion, up about 50% year over year, and record company backlog, with management citing AI-driven data centers as a secular growth trend.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-02-10",
+      "source_title": "Wesco International Reports Fourth Quarter and Full Year 2025 Results",
+      "source_url": "https://investors.wesco.com/news-releases/news-release-details/wesco-international-reports-fourth-quarter-and-full-year-2025",
+      "ticker": "WCC"
+    },
+    {
+      "claim": "Wesco's first-quarter 2026 materials reported total company data-center sales up about 70% and backlog up 22% year over year.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-04-30",
+      "source_title": "Wesco First Quarter 2026 Results Presentation",
+      "source_url": "https://investors.wesco.com/static-files/e0d3c28b-8840-463d-91d9-5789d9482414",
+      "ticker": "WCC"
+    },
+    {
+      "claim": "nVent announced a new U.S. production facility to expand data-center solutions manufacturing and meet growing liquid-cooling demand, explicitly referencing AI infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-09-03",
+      "source_title": "nVent Expands Data Center Solutions Manufacturing with New U.S. Production Facility",
+      "source_url": "https://investors.nvent.com/press-releases/press-release-details/2025/nVent-Expands-Data-Center-Solutions-Manufacturing-with-New-U-S--Production-Facility/default.aspx",
+      "ticker": "NVT"
+    },
+    {
+      "claim": "nVent participated in a Siemens-led reference architecture purpose-built for NVIDIA AI data centers and stated it had deployed more than two gigawatts of liquid-cooling capacity globally.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06",
+      "source_title": "Siemens and Partners Develop Reference Architecture Purpose-Built for NVIDIA AI Data Centers",
+      "source_url": "https://investors.nvent.com/press-releases/press-release-details/2026/Siemens-and-partners-develop-reference--architecture-purpose-built-for-NVIDIA-AI-data-centers-/default.aspx",
+      "ticker": "NVT"
+    },
+    {
+      "claim": "nVent's Q1 2026 release cited broad-based data-center growth across gray and white space and raised full-year sales and EPS guidance because of data-center momentum.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-05-01",
+      "source_title": "nVent Electric plc Q1 2026 Press Release",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026029098/q12026nvtpressrelease.htm",
+      "ticker": "NVT"
+    },
+    {
+      "claim": "Modine's 2026 10-K cited significant data-center growth fueled by AI and a corresponding need for data-center cooling solutions.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-06",
+      "source_title": "Modine Manufacturing Company Form 10-K for Fiscal Year Ended March 31, 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000067347/000110465926066795/mod-20260331x10k.htm",
+      "ticker": "MOD"
+    },
+    {
+      "claim": "Modine's fiscal 2026 second-quarter release said expanded capacity positioned the company to meet growing demand for data-center products and remain on track for more than $2 billion in Data Centers revenue by fiscal 2028.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2025-11",
+      "source_title": "Modine Reports Second Quarter Fiscal 2026 Results",
+      "source_url": "https://investors.modine.com/news/news-details/2025/Modine-Reports-Second-Quarter-Fiscal-2026-Results/default.aspx",
+      "ticker": "MOD"
+    },
+    {
+      "claim": "Comfort Systems USA reported Q1 2026 backlog of $12.45 billion, up from $11.94 billion at December 31, 2025 and $6.89 billion at March 31, 2025; this supports backlog strength but does not alone prove AI-specific backlog purity.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04-23",
+      "source_title": "Comfort Systems USA Reports First Quarter 2026 Results",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926047679/fix-20260423xex99d1.htm",
+      "ticker": "FIX"
+    },
+    {
+      "claim": "Digital Realty reported Q1 2026 total bookings expected to generate $707 million of annualized GAAP base rent at 100% share, a $1.8 billion annualized GAAP base-rent backlog at 100% share, and management cited the largest hyperscale lease in company history plus hyperscale AI-oriented U.S. capacity.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-04-23",
+      "source_title": "Digital Realty Reports First Quarter 2026 Results",
+      "source_url": "https://investor.digitalrealty.com/news-releases/news-release-details/digital-realty-reports-first-quarter-2026-results",
+      "ticker": "DLR"
+    },
+    {
+      "claim": "Caterpillar reported Q1 2026 Power & Energy sales of $7.031 billion, up 22% year over year, and said Power Generation sales increased in large reciprocating engines, turbines and turbine-related services, primarily for data-center applications.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-04-30",
+      "source_title": "Caterpillar Reports First-Quarter 2026 Results",
+      "source_url": "https://investors.caterpillar.com/news/news-details/2026/Caterpillar-Reports-First-Quarter-2026-Results/default.aspx",
+      "ticker": "CAT"
+    },
+    {
+      "claim": "Caterpillar announced a strategic alliance and purchase agreement with American Intelligence & Power and Boyd CAT to support a 2 GW dedicated power platform for hyperscale AI infrastructure, with deliveries scheduled from September 2026 through August 2027.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-01-28",
+      "source_title": "American Intelligence & Power Forms Strategic Alliance with Caterpillar and Boyd CAT to Deploy 2 Gigawatts of Dedicated Power for Hyperscale AI Infrastructure",
+      "source_url": "https://investors.caterpillar.com/news/news-details/2026/American-Intelligence--Power-Forms-Strategic-Alliance-with-Caterpillar-and-Boyd-CAT-to-Deploy-2-Gigawatts-of-Dedicated-Power-for-Hyperscale-AI-Infrastructure/default.aspx",
+      "ticker": "CAT"
+    },
+    {
+      "claim": "EMCOR reported Q1 2026 record quarterly revenues of $4.63 billion and record remaining performance obligations of $15.62 billion, up 32.9% year over year; this supports the backlog/execution relationship but requires more segment detail for AI-specific exposure.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-04",
+      "source_title": "EMCOR Group, Inc. Reports First Quarter 2026 Results",
+      "source_url": "https://emcorgroup.com/investor-relations/press-releases/2026-news/emcor-group-inc-reports-first-quarter-2026-results",
+      "ticker": "EME"
+    },
+    {
+      "claim": "EMCOR's March 2026 investor material identifies Network and Communications as data centers and High-Tech Manufacturing as semiconductors, supporting the mapping to AI-related construction nodes while not yet quantifying AI backlog share.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-03-11",
+      "source_title": "EMCOR Group, Inc. Investor Presentation",
+      "source_url": "https://emcorgroup.com/download_file/view/40fd6d3c-3de6-476d-a3dc-9247c5d62adc/1",
+      "ticker": "EME"
+    },
+    {
+      "claim": "Equinix stated in its 2026 outlook release that it surpassed 500,000 interconnections globally as enterprises connect AI, cloud and network ecosystems, and referenced xScale lease timing expected in early 2026.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-02",
+      "source_title": "Equinix Provides Robust 2026 Outlook Driven by Strong Fourth-Quarter Results and Accelerating Business Momentum",
+      "source_url": "https://investor.equinix.com/news-events/press-releases/detail/1096/equinix-provides-robust-2026-outlook-driven-by-strong/",
+      "ticker": "EQIX"
+    },
+    {
+      "claim": "Equinix annual-report material states it expects to accelerate xScale deployment in the U.S., eventually adding more than 1.5 GW of new capacity, and references AI support through capabilities such as advanced liquid cooling.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05",
+      "source_title": "Equinix Annual Report",
+      "source_url": "https://investor.equinix.com/sec-filings/annual-reports/content/0001140361-25-013274/0001140361-25-013274.pdf",
+      "ticker": "EQIX"
+    },
+    {
+      "claim": "Trane Technologies announced an agreement to acquire LiquidStack to expand data-center thermal management across chillers, heat rejection, controls, liquid distribution, direct-to-chip cooling and immersion cooling.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-02-10",
+      "source_title": "Trane Technologies to Acquire LiquidStack to Accelerate End-to-End Data Center Thermal Management Solutions",
+      "source_url": "https://ir.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-to-Acquire-LiquidStack-to-Accelerate-EndtoEnd-Data-Center-Thermal-Management-Solutions/default.aspx",
+      "ticker": "TT"
+    },
+    {
+      "claim": "Trane Technologies' data-center materials describe LiquidStack as developing advanced liquid-cooling solutions that help data centers support high-density compute, reinforcing the link to AI rack-density cooling needs.",
+      "claim_type": "fact",
+      "confidence": 0.85,
+      "published_at": "2026-05-29",
+      "source_title": "Trane Technologies Data Centers",
+      "source_url": "https://www.tranetechnologies.com/en/index/company/data-centers.html",
+      "ticker": "TT"
+    },
+    {
+      "claim": "Salesforce reported Q4 FY2026 revenue of $41.5 billion for the fiscal year and said Agentforce and Data 360 ARR exceeded $2.9 billion, up over 200% year over year, including $800 million of Agentforce ARR.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-02-25",
+      "source_title": "Salesforce Delivers Record Fourth Quarter Fiscal 2026 Results",
+      "source_url": "https://s205.q4cdn.com/626266368/files/doc_financials/2026/q4/CRM-Q4-FY26-Earnings-Press-Release.pdf",
+      "ticker": "CRM"
+    },
+    {
+      "claim": "ServiceNow reported Q1 2026 subscription revenues of $3.671 billion, up 22% year over year, RPO of $27.7 billion, up 25% year over year, and said Now Assist customers spending over $1 million in ACV grew more than 130% year over year.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-04-22",
+      "source_title": "ServiceNow Reports First Quarter 2026 Financial Results",
+      "source_url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-First-Quarter-2026-Financial-Results/default.aspx",
+      "ticker": "NOW"
+    },
+    {
+      "claim": "ServiceNow announced Autonomous Workforce capabilities intended to move AI agents from isolated tasks to governed end-to-end job execution, supporting the mapping to enterprise agentic workflow automation.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "2026-05",
+      "source_title": "ServiceNow turns enterprise AI chaos into control with the platform for governed, autonomous work",
+      "source_url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-turns-enterprise-AI-chaos-into-control-with-the-platform-for-governed-autonomous-work/default.aspx",
+      "ticker": "NOW"
+    }
+  ],
+  "layer": 2,
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "AI should be tracked as an infrastructure funnel: demand and inference monetization pull hyperscaler/neocloud capex, which pulls accelerators, HBM, advanced packaging, networking, servers, data-center sites, power, cooling, and construction execution.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Power access, grid interconnection, substations, transformers, and switchgear are the highest-scored AI physical bottleneck in this Layer 2A pass.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.88,
+      "text": "HBM and advanced packaging remain high-confidence semiconductor chokepoints because AI accelerator supply depends on memory qualification, stacking yield, packaging capacity, and customer allocation.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.84,
+      "text": "AI networking and rack-scale integration are rising chokepoints as next-generation platforms shift from individual accelerators to full AI-factory systems.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Key recurring catalysts to monitor: hyperscaler capex guidance, AI cloud backlog/utilization, HBM4 qualification and allocation, next-generation accelerator platform ramps, data-center power deals, and export-control changes.",
+      "type": "catalyst"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Need a focused Layer 2B check on which public companies have verifiable revenue exposure to each bottleneck node versus merely thematic exposure.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Need cross-check of non-official capex estimates against company filings and transcripts before using any aggregate 2026 hyperscaler capex number as a hard fact.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Need project-level evidence for data-center delays, including interconnection queues, transformer lead times, water constraints, and local permitting opposition, before ranking construction and utility beneficiaries.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.94,
+      "text": "NVDA is the highest-directness AI infrastructure relationship in this chunk because Vera Rubin spans accelerators, CPU, scale-up networking, DPUs and Ethernet switching.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.91,
+      "text": "AVGO is a high-priority non-GPU accelerator and AI networking mapping; next validation should focus on named customer exposure and durability of custom ASIC ramps.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.88,
+      "text": "SK hynix/000660.KS is the HBM chokepoint mapping; HBM4 qualification, yield and allocation are the key evidence tracks.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.9,
+      "text": "CRWV is a pure-play AI cloud capacity monetization mapping with strong backlog and NVIDIA Rubin validation evidence, but customer concentration and financing risk remain core checks.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.88,
+      "text": "MSFT, AMZN, META and ORCL are demand-side capex converters whose AI thesis depends on turning infrastructure spending into cloud, model and enterprise AI revenue without unacceptable margin compression.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.89,
+      "text": "DELL is the deployment-layer server/rack integration mapping; AI server backlog and shipments are strong, but margin quality and working-capital intensity require follow-up.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.84,
+      "text": "WCC, NVT and MOD represent second-order physical-infrastructure mappings for data-center electrical distribution, liquid cooling and cooling systems.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.86,
+      "text": "For WCC, NVT and MOD, Layer 3 should separate AI-specific data-center demand from general data-center, utility, commercial construction and HVAC demand.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.9,
+      "text": "For all tickers in this chunk, later layers still need market-pricing checks: valuation, estimate revisions, gross-margin sustainability, capex intensity, balance-sheet risk and customer concentration.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.88,
+      "text": "For accelerator and HBM names, next evidence should connect Vera Rubin and custom ASIC ramps to HBM4, advanced packaging, substrates and foundry capacity constraints.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.78,
+      "text": "FIX should remain in the AI physical-buildout cluster, but its relationship is an inference until technology/data-center and AI-specific backlog contribution is quantified from filings or investor materials.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.9,
+      "text": "DLR has strong direct evidence for AI-oriented hyperscale capacity via Q1 2026 record bookings, backlog and management language about hyperscale AI-oriented U.S. capacity.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.92,
+      "text": "CAT has unusually explicit AI infrastructure evidence for an industrial name: Q1 2026 Power Generation growth tied primarily to data-center applications plus a 2 GW hyperscale AI power agreement.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.76,
+      "text": "EME maps to mission-critical AI data-center buildout and skilled labor, but exact data-center or AI backlog share must be extracted before upgrading from inference to fact.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.82,
+      "text": "EQIX maps to AI through interconnection, xScale and advanced cooling, but its exposure is broader enterprise/cloud digital infrastructure rather than a pure AI data-center capacity play.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.88,
+      "text": "TT maps to the AI thermal bottleneck after LiquidStack, with direct-to-chip and immersion cooling complementing Trane's broader data-center thermal portfolio.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.9,
+      "text": "CRM has measurable enterprise AI monetization evidence through Agentforce and Data 360 ARR; later layers should isolate organic Agentforce growth from Data 360/Informatica contribution.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.85,
+      "text": "NOW has measurable AI adoption evidence through Now Assist customers above $1 million ACV and broader Autonomous Workforce positioning, but product efficacy and implementation friction remain important falsification checks.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.86,
+      "text": "For the physical-infrastructure names, next layer should normalize AI exposure by revenue/backlog percentage, lead times, margins and customer concentration rather than relying only on thematic fit.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.87,
+      "text": "For CRM and NOW, next layer should test whether AI ARR/ACV is incremental paid monetization or packaging/upsell attached to existing platform renewals.",
+      "type": "evidence_gap"
+    }
+  ],
+  "summary": "Split Layer 2 synthesis. Layer 2A initial industry-chain map for the AI theme as of 2026-06-07. The current AI chain is best framed as an infrastructure-and-monetization funnel: enterprise and consumer AI demand pulls hyperscaler/neocloud capex; capex pulls accelerators, custom ASICs, HBM, advanced packaging, networking, servers, optical interconnect, data-center construction, power, cooling, and grid interconnection; software monetization and inference utilization determine whether the buildout remains economically justified. Highest Serenity chokepoint nodes in this pass are power/grid access, HBM/advanced memory, accelerator supply, advanced packaging, AI networking/scale-up interconnect, and data-center construction/cooling execution. This is research mapping only, not a trading recommendation.",
+  "supply_chain_map": [
+    {
+      "bottleneck_score": 62,
+      "node": "End-user AI demand and enterprise agentic workflows",
+      "role": "demand",
+      "why_it_matters": "Paid enterprise adoption converts model capability into recurring software, cloud, and inference demand. If agentic workflows show measurable productivity or ARR contribution, they support continued infrastructure spending; if not, the capex cycle becomes more fragile."
+    },
+    {
+      "bottleneck_score": 74,
+      "node": "Frontier model training and post-training demand",
+      "role": "demand",
+      "why_it_matters": "Large model training, synthetic data generation, reinforcement learning, and post-training workloads create demand for dense GPU/ASIC clusters, high-bandwidth memory, scale-up networking, and large power blocks."
+    },
+    {
+      "bottleneck_score": 70,
+      "node": "Inference serving and AI application runtime",
+      "role": "demand",
+      "why_it_matters": "Inference is the recurring usage layer. Token volume, latency requirements, context length, and agentic task complexity determine whether data-center utilization and AI cloud revenue can catch up with capex."
+    },
+    {
+      "bottleneck_score": 83,
+      "node": "Hyperscaler and neocloud capex conversion",
+      "role": "capacity",
+      "why_it_matters": "AI demand becomes revenue only after capital budgets are converted into GPUs/ASICs, servers, networking, data-center shells, power, and customer-ready capacity. Delays in any upstream layer push out monetization."
+    },
+    {
+      "bottleneck_score": 92,
+      "node": "AI accelerators: GPUs, custom ASICs, and rack-scale compute platforms",
+      "role": "input",
+      "why_it_matters": "Accelerators remain the central compute input for training and inference. Supply depends on leading-edge wafers, HBM availability, advanced packaging, substrate capacity, networking, and system integration."
+    },
+    {
+      "bottleneck_score": 95,
+      "node": "HBM and high-performance server memory",
+      "role": "input",
+      "why_it_matters": "HBM is tightly coupled to AI accelerator performance and supply. Qualification cycles, TSV stacking, yield, packaging coordination, and customer allocation make HBM one of the hardest-to-expand AI supply nodes."
+    },
+    {
+      "bottleneck_score": 91,
+      "node": "Advanced packaging, CoWoS-like capacity, substrates, and interposers",
+      "role": "capacity",
+      "why_it_matters": "High-end AI accelerators require dense packaging of GPU/ASIC dies, HBM stacks, interposers, substrates, and thermal interfaces. Packaging capacity can constrain accelerator shipments even when wafer supply exists."
+    },
+    {
+      "bottleneck_score": 86,
+      "node": "Leading-edge foundry wafers and semiconductor equipment",
+      "role": "input",
+      "why_it_matters": "AI accelerator and custom silicon supply depends on advanced-node wafer starts, lithography, etch/deposition/metrology tools, yield learning, and geopolitically concentrated manufacturing footprints."
+    },
+    {
+      "bottleneck_score": 90,
+      "node": "AI networking: NVLink-scale-up, InfiniBand, Ethernet, DPUs, switches, SerDes",
+      "role": "input",
+      "why_it_matters": "Training clusters and AI factories are networked computers. Scale-up and scale-out networking determine cluster efficiency, utilization, and ability to serve large models at low latency."
+    },
+    {
+      "bottleneck_score": 82,
+      "node": "Optical interconnect, transceivers, silicon photonics, and CPO pathway",
+      "role": "input",
+      "why_it_matters": "Bandwidth and power efficiency pressure increases with rack density and cluster size. Optical modules and future co-packaged optics can become bottlenecks if electrical interconnects hit power or distance limits."
+    },
+    {
+      "bottleneck_score": 80,
+      "node": "AI servers, rack integration, ODM/OEM assembly, burn-in, and acceptance",
+      "role": "capacity",
+      "why_it_matters": "Accelerators must be integrated into reliable rack-scale systems before customers can use them. Rack power, cabling, firmware, liquid-cooling readiness, logistics, and acceptance testing can delay revenue readiness."
+    },
+    {
+      "bottleneck_score": 87,
+      "node": "Data-center land, shell capacity, leasing, and colocation",
+      "role": "capacity",
+      "why_it_matters": "AI clusters require large contiguous power blocks, entitled land, shell capacity, network access, and fast commissioning. Scarcity shifts pricing power toward sites with pre-secured power and permits."
+    },
+    {
+      "bottleneck_score": 98,
+      "node": "Power generation, grid interconnection, substations, transformers, switchgear",
+      "role": "capacity",
+      "why_it_matters": "Power access is increasingly the gating input for AI data-center growth. Long interconnection queues, transformer/switchgear lead times, transmission limits, and ratepayer politics can slow deployments even when chip supply improves."
+    },
+    {
+      "bottleneck_score": 86,
+      "node": "Thermal management: liquid cooling, rear-door heat exchangers, CDU, chillers",
+      "role": "input",
+      "why_it_matters": "Higher rack densities push cooling from traditional air toward liquid and hybrid systems. Cooling readiness can decide whether next-generation racks can be deployed at planned density."
+    },
+    {
+      "bottleneck_score": 88,
+      "node": "Construction execution, skilled electrical/mechanical labor, commissioning",
+      "role": "capacity",
+      "why_it_matters": "Data-center capex is constrained by real-world project execution: EPC capacity, electricians, mechanical contractors, permitting, safety, component logistics, and commissioning schedules."
+    },
+    {
+      "bottleneck_score": 84,
+      "node": "Energy policy, permitting, export controls, and national-security regulation",
+      "role": "regulation",
+      "why_it_matters": "Policy can accelerate or restrict the chain through federal land access, power permitting, nuclear/generation support, AI security rules, and export licenses for advanced chips."
+    },
+    {
+      "bottleneck_score": 64,
+      "node": "Model platforms, AI cloud marketplaces, and developer distribution",
+      "role": "distribution",
+      "why_it_matters": "Cloud platforms and model marketplaces shape where inference demand lands and which infrastructure providers capture utilization. Distribution affects the pass-through from AI adoption to compute revenue."
+    },
+    {
+      "bottleneck_score": 66,
+      "node": "Corporate customers, governments, healthcare, financial services, defense",
+      "role": "customer",
+      "why_it_matters": "Regulated and large-enterprise customers require security, compliance, data governance, reliability, and ROI proof before broad AI deployment. Their adoption determines the durability of downstream software demand."
+    }
+  ],
+  "theme_id": "ai",
+  "ticker_relationships": [
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.94,
+      "next_evidence": "Track Vera Rubin production cadence, hyperscaler deployment timing, HBM4 allocation, networking attach rates, China/export-control impacts and data-center segment gross margin.",
+      "node": "AI accelerators, rack-scale compute, NVLink-scale networking, DPUs and Ethernet switching",
+      "relationship": "NVIDIA is the central platform supplier for current AI compute expansion; Vera Rubin combines CPU, GPU, NVLink switch, ConnectX SuperNIC, BlueField DPU and Spectrum Ethernet switch, making it both an accelerator and rack-scale systems bottleneck candidate.",
+      "ticker": "NVDA"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.91,
+      "next_evidence": "Validate named customer concentration, AI backlog duration, custom ASIC program ramps, networking silicon share, gross margin mix and whether AI revenue growth offsets non-AI cyclicality.",
+      "node": "Custom AI accelerators and AI networking silicon",
+      "relationship": "Broadcom maps to hyperscaler custom silicon and AI networking; its disclosed AI semiconductor revenue growth was driven by custom AI accelerators and AI networking.",
+      "ticker": "AVGO"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.88,
+      "next_evidence": "Confirm HBM4 customer qualification status, NVIDIA/Broadcom/ASIC allocation, yield, packaging partner constraints, capex intensity and competitive share shifts versus Samsung and Micron.",
+      "node": "HBM and high-performance server memory",
+      "relationship": "SK hynix maps to the HBM chokepoint: HBM4 development, production readiness and customer qualification influence accelerator supply because next-generation AI systems require high-bandwidth memory stacks.",
+      "ticker": "000660.KS"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.9,
+      "next_evidence": "Check customer concentration, financing terms, lease obligations, GPU utilization, power availability, revenue backlog conversion, and whether capacity additions are profitable after depreciation and interest.",
+      "node": "AI-native cloud capacity and GPU fleet monetization",
+      "relationship": "CoreWeave converts GPU and data-center capacity into contracted AI cloud revenue; it disclosed large revenue backlog and has specific NVIDIA Rubin deployment and validation evidence.",
+      "ticker": "CRWV"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.92,
+      "next_evidence": "Track Azure AI capacity constraints, capex-to-revenue conversion, AI gross margin pressure, Copilot seat adoption, OpenAI-related economics and depreciation trajectory.",
+      "node": "Hyperscaler capex conversion and enterprise AI monetization",
+      "relationship": "Microsoft is both a demand-side AI infrastructure buyer and monetization platform through Azure AI and Copilot; management disclosed a large calendar-2026 capex plan and rapid AI business run-rate growth.",
+      "ticker": "MSFT"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.88,
+      "next_evidence": "Track AWS AI revenue disclosure, Trainium3 adoption, NVIDIA GPU deployment timing, margin impact of capex, Anthropic/OpenAI/Meta agreement economics and power/data-center capacity.",
+      "node": "AWS AI infrastructure, internal AI chips and cloud AI demand",
+      "relationship": "Amazon is a major AI infrastructure buyer/operator through AWS and a custom-chip operator through Trainium; disclosed NVIDIA GPU deployments and Trainium supply commitments link it to both GPU and custom accelerator demand.",
+      "ticker": "AMZN"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.88,
+      "next_evidence": "Monitor 2026 capex revisions, AI model/product monetization, GPU mix across NVIDIA and AMD, power procurement, depreciation burden and whether AI engagement translates into ad revenue growth.",
+      "node": "Hyperscaler AI capex, model training/inference demand and AI data-center buildout",
+      "relationship": "Meta is a major AI infrastructure demand driver; public announcements reference large-scale NVIDIA CPU/GPU/networking deployment and a separate long-term AMD Instinct GPU agreement.",
+      "ticker": "META"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.86,
+      "next_evidence": "Validate RPO conversion schedule, AI customer concentration, capex funding, power-secured capacity, GPU supply commitments, OCI margins and risk from aggressive data-center expansion.",
+      "node": "OCI AI infrastructure and cloud capacity backlog",
+      "relationship": "Oracle maps to AI cloud infrastructure capacity: OCI revenue growth, large remaining performance obligations and comments on chip neutrality indicate demand for both GPU and CPU AI infrastructure.",
+      "ticker": "ORCL"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.89,
+      "next_evidence": "Track AI server backlog conversion, margin per server, working-capital strain, component constraints, customer concentration, competitive pressure from ODMs and attach of services/storage/networking.",
+      "node": "AI servers, rack integration and deployment layer",
+      "relationship": "Dell maps to the practical deployment layer where accelerators become shippable AI systems; it disclosed large AI-optimized server orders, shipments and backlog.",
+      "ticker": "DELL"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.82,
+      "next_evidence": "Break out AI versus non-AI data-center sales, gray-space versus white-space mix, supplier constraints, customer concentration, project timing risk, gross margin dilution and working-capital needs.",
+      "node": "Electrical, communications and data-center component distribution",
+      "relationship": "Wesco is a second-order AI data-center buildout beneficiary: its data-center sales and backlog disclosures indicate exposure to electrical, communications, utility and logistics needs for data-center construction and commissioning.",
+      "ticker": "WCC"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.86,
+      "next_evidence": "Validate liquid-cooling revenue scale, backlog by product, hyperscaler customer exposure, CDU/PDU margin, capacity ramp execution and competitive overlap with Vertiv, Schneider, Eaton and private vendors.",
+      "node": "Liquid cooling, enclosures, power distribution and rack infrastructure",
+      "relationship": "nVent maps to high-density AI rack physical infrastructure; disclosures point to data-center momentum, liquid cooling demand, manufacturing expansion, and participation in NVIDIA Vera Rubin reference architectures.",
+      "ticker": "NVT"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.8,
+      "next_evidence": "Quantify AI-specific data-center revenue, air versus liquid cooling mix, backlog visibility, capacity expansion timing, margin sustainability, customer concentration and competition from Vertiv, Schneider, Johnson Controls and private cooling vendors.",
+      "node": "Data-center cooling and thermal management",
+      "relationship": "Modine maps to the thermal-management bottleneck created by high-density AI data centers; filings cite AI-fueled data-center growth and cooling-solution demand.",
+      "ticker": "MOD"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.72,
+      "next_evidence": "Pull FIX May 2026 investor presentation and latest 10-Q; extract technology/data-center revenue percentage, modular backlog, customer concentration, margin by segment, and whether management specifically attributes growth to AI data centers rather than broader technology projects.",
+      "node": "Data-center construction execution / mechanical and electrical systems / modular construction",
+      "relationship": "Comfort Systems USA maps to the capex-conversion layer: hyperscaler and AI data-center capex becomes usable compute only after mechanical, electrical, modular, service and commissioning work is completed. Current evidence supports a strong construction/backlog relationship, but exact AI-specific exposure still requires validation.",
+      "ticker": "FIX"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.9,
+      "next_evidence": "Track megawatts under construction, percentage pre-leased, lease commencement lag, power availability, incremental development capital, hyperscale customer concentration, and renewal pricing.",
+      "node": "Hyperscale AI data-center capacity / colocation / power-land bottleneck",
+      "relationship": "Digital Realty maps directly to the AI physical-capacity layer. Its leasing, backlog, hyperscale AI-oriented capacity and power-constrained campuses determine how quickly AI demand converts into operational data-center capacity.",
+      "ticker": "DLR"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.91,
+      "next_evidence": "Separate durable AI data-center power demand from cyclical oil/gas and industrial power demand; track Power & Energy orders, backlog, lead times, data-center-specific disclosures, emissions/permitting constraints, and margin impact from manufacturing costs.",
+      "node": "Behind-the-meter power / backup generation / prime power for AI data centers",
+      "relationship": "Caterpillar maps to the time-to-power bottleneck. If grid interconnection delays persist, AI data-center operators may rely more on large reciprocating engines, turbines, generator sets, microgrids and related power services.",
+      "ticker": "CAT"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.74,
+      "next_evidence": "Use EMCOR Q1 2026 presentation and filings to quantify data-center, network-and-communications, semiconductor and high-tech manufacturing backlog; compare organic growth, margin mix, labor availability and project execution risk.",
+      "node": "Mission-critical electrical/mechanical construction / network and communications / skilled labor bottleneck",
+      "relationship": "EMCOR maps to the buildout labor and execution layer, where mission-critical electrical, mechanical and network infrastructure can gate AI data-center completion. Evidence supports a strong backlog and network/communications relationship, but AI-specific backlog purity is not yet fully proven.",
+      "ticker": "EME"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.82,
+      "next_evidence": "Track xScale megawatt deployment, enterprise AI use cases, AI-related bookings, liquid-cooling availability, power density, interconnection growth, and whether AI workloads lift pricing or capex intensity.",
+      "node": "Interconnection-rich colocation / xScale hyperscale capacity / distributed enterprise AI infrastructure",
+      "relationship": "Equinix maps to AI deployment through interconnection, cloud adjacency, xScale hyperscale deployments and data-center capacity for enterprises and service providers. Exposure is strategic but less pure than power-constrained hyperscale shell capacity because EQIX also serves broad digital infrastructure demand.",
+      "ticker": "EQIX"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.88,
+      "next_evidence": "Quantify data-center revenue and orders after LiquidStack and Stellar Energy integration; track direct-to-chip deployments, liquid-cooling attach rates, margins, customer wins and whether AI rack density shifts demand from traditional HVAC to liquid systems.",
+      "node": "Data-center thermal management / liquid cooling / heat rejection / controls",
+      "relationship": "Trane Technologies maps to the AI rack-density and cooling bottleneck. The LiquidStack acquisition gives Trane direct-to-chip and immersion-cooling exposure, complementing chillers, heat rejection, controls and central-plant capabilities needed for high-density AI data centers.",
+      "ticker": "TT"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.9,
+      "next_evidence": "Track Agentforce ARR, Data 360 ARR excluding acquired Informatica Cloud ARR, work units, attach rates in large deals, net retention, pricing, customer ROI evidence and risk of AI-native competitors compressing seat-based software economics.",
+      "node": "Enterprise AI monetization / agentic AI applications / CRM data layer",
+      "relationship": "Salesforce maps to the AI demand-validation layer because Agentforce and Data 360 ARR provide measurable enterprise AI monetization evidence beyond product announcements. The thesis depends on paid adoption, retention and expansion rather than infrastructure scarcity.",
+      "ticker": "CRM"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.85,
+      "next_evidence": "Track Now Assist ACV, customers above $1 million ACV, renewal/expansion impact, autonomous-workflow case studies, implementation success rates, AI billing transparency and whether customers prefer external AI tools integrated into ServiceNow instead of native Now Assist.",
+      "node": "Enterprise workflow automation / AI agents / AI control tower",
+      "relationship": "ServiceNow maps to enterprise agentic workflow adoption, where AI is monetized through Now Assist, autonomous workflow products and platform expansion. Evidence supports strong AI-related customer spend, but product efficacy, governance, pricing clarity and implementation friction remain key falsification areas.",
+      "ticker": "NOW"
+    }
+  ]
+}

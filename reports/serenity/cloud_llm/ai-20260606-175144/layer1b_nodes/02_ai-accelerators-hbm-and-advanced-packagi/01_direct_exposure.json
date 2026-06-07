@@ -1,0 +1,196 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Micron Technology",
+      "confidence": 0.92,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM revenue mix, HBM bit supply commitments, customer concentration, capex allocation to HBM, gross-margin impact, and commentary on HBM4 qualification/ramp timing.",
+      "node_relation": "Direct HBM supplier; HBM capacity and qualification are central to AI accelerator bill-of-materials constraints.",
+      "sector_or_industry": "Memory semiconductors / HBM",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "capacity",
+        "direct_supplier",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerator throughput increasingly depends on memory bandwidth and HBM availability; Micron is one of the public HBM suppliers accessible through a US listing.",
+      "ticker": "MU",
+      "why_include": "Micron explicitly markets HBM3E 12H and AI memory/storage products for NVIDIA-related AI platforms, making it a direct public-market mapping for the HBM leg of the node."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Marvell Technology",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify custom AI program count, named or implied hyperscaler customers, HBM attach, packaging partners, design-win conversion to production, and whether revenue is concentrated in a few programs.",
+      "node_relation": "Custom AI accelerator and data-center interconnect silicon platform; exposure includes custom XPUs, high-speed die-to-die/interconnect, HBM-related design work, and advanced packaging.",
+      "sector_or_industry": "Data infrastructure semiconductors / custom AI silicon",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "platform",
+        "custom_silicon",
+        "evidence_needed"
+      ],
+      "theme_relation": "Hyperscaler custom AI ASICs can increase demand for HBM, advanced packaging, and high-speed interconnect even when accelerator design shifts away from merchant GPUs.",
+      "ticker": "MRVL",
+      "why_include": "Marvell announced an advanced packaging platform for custom AI accelerators and disclosed investment in advanced process nodes, die-to-die interconnect, embedded memory, custom HBM, 2.5D packaging, and silicon photonics."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Amkor Technology",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check AI/HPC packaging revenue disclosures, Arizona advanced packaging ramp milestones, customer qualification evidence, relationship to TSMC/Intel ecosystems, and utilization of advanced packaging lines.",
+      "node_relation": "OSAT provider with advanced packaging capabilities relevant to chiplets, HBM integration, heterogeneous integration, and AI/HPC packages.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test / advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "capacity",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "If CoWoS-like and 2.5D/3D packaging capacity remains tight, OSATs able to qualify advanced AI/HPC packages can become second-source or regional-capacity beneficiaries.",
+      "ticker": "AMKR",
+      "why_include": "Amkor describes AI packaging needs as pushing advanced IC packaging to the limit and says its high-performance packaging portfolio can combine logic, memory, and HBM designs for heterogeneous packaging."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Teradyne",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track semiconductor-test segment bookings, HBM tester share, memory-vs-SoC mix, test-cell bottleneck commentary, and customer capex by memory and AI accelerator suppliers.",
+      "node_relation": "Semiconductor test equipment supplier exposed to AI-driven device test complexity, including HBM and DRAM final test.",
+      "sector_or_industry": "Semiconductor automated test equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "test_capacity",
+        "equipment",
+        "evidence_needed"
+      ],
+      "theme_relation": "As AI accelerators use larger packages, more HBM stacks, and higher-speed interfaces, test time, yield learning, and known-good-device requirements can become capacity and cost bottlenecks.",
+      "ticker": "TER",
+      "why_include": "Teradyne's annual-report language states semiconductor test growth was driven by AI demand and supported by share gains in HBM and DRAM final test."
+    },
+    {
+      "claim_type": "fact",
+      "company": "FormFactor",
+      "confidence": 0.8,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Validate revenue share from HBM probe cards, shipments to top HBM makers, qualification status for HBM4, production capacity, pricing power, and replacement/consumable cadence.",
+      "node_relation": "Probe-card and wafer-test interface supplier for DRAM/HBM, known-good-die testing, silicon interposer applications, and advanced-package test.",
+      "sector_or_industry": "Probe cards and semiconductor test interfaces",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "test_capacity",
+        "components",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM stacks and chiplet packages require high-yield known-good-die workflows; probe cards are a less obvious but direct consumable/capacity link in HBM and advanced packaging ramps.",
+      "ticker": "FORM",
+      "why_include": "FormFactor product materials list probe-card capabilities for HBM3 and high-end logic/silicon interposer applications, which map directly to AI accelerator HBM and packaging test needs."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Micron is offering HBM3E 12H and LPDDR5X-based SOCAMM solutions positioned for AI platforms and NVIDIA ecosystem alignment.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2025-03",
+      "source_title": "Micron Innovates From the Data Center to the Edge With NVIDIA",
+      "source_url": "https://investors.micron.com/news-releases/news-release-details/micron-innovates-data-center-edge-nvidia",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Marvell announced an advanced packaging platform for custom AI accelerators intended to support multi-die AI infrastructure silicon.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-05-29",
+      "source_title": "Marvell Delivers Advanced Packaging Platform for Custom AI Accelerators",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-delivers-advanced-packaging-platform-custom-ai-accelerators.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Marvell disclosed a five-year AWS strategic relationship spanning custom AI accelerators and data-center semiconductors, and said it invested in advanced nodes, die-to-die interconnects, custom HBM, 2.5D packaging, and silicon photonics.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-05-01",
+      "source_title": "Marvell Technology 2025 Definitive Proxy Statement",
+      "source_url": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001104659-25-043088/tm252448-4_def14a.htm",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Amkor states that AI acceleration and ultrafast networking are pushing advanced IC packaging requirements and that its portfolio can integrate logic, memory, and HBM designs for heterogeneous packaging.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "Artificial Intelligence Machine Learning - Amkor Technology",
+      "source_url": "https://amkor.com/applications/artificial-intelligence/",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Teradyne reported that its Semiconductor Test segment growth was driven by robust AI demand and supported by share gains in HBM and DRAM final test.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04",
+      "source_title": "Teradyne Annual Report",
+      "source_url": "https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-127510/0001193125-26-127510.pdf",
+      "ticker": "TER"
+    },
+    {
+      "claim": "FormFactor's HFTAP probe-card product materials state support for latest-generation memory products including HBM3.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "HFTAP Series - FormFactor",
+      "source_url": "https://www.formfactor.com/product/probe-cards/dram/hftap-series/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor's Altius probe-card materials describe support for high-end logic, silicon interposer applications, and HBM known-good-die or known-good-stack test.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Altius Probe Cards - Large I/O Logic Device Testing",
+      "source_url": "https://www.formfactor.com/product/probe-cards/foundry-logic/altius/",
+      "ticker": "FORM"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.92,
+      "text": "Add MU as the cleanest US-listed direct HBM supplier candidate for the AI accelerator/HBM/advanced-packaging node.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Add MRVL as a custom AI accelerator and advanced-packaging platform candidate, with direct hyperscaler-custom-silicon relevance.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Add AMKR as a US-listed advanced packaging/OSAT candidate tied to heterogeneous AI packaging and HBM integration.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Add TER and FORM as test-capacity and probe-card bottleneck candidates for HBM, DRAM final test, known-good-die, and interposer/package test.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Further Layer 1B passes should separately check US-listed or ADR exposure in inspection/metrology, substrates/interposers, thermal interface materials, hybrid bonding, and non-US HBM leaders that may only trade OTC or abroad.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI accelerators, HBM, and advanced packaging",
+  "node_id": "ai_accelerators_hbm_and_advanced_packaging",
+  "summary": "Expanded the US-listed universe for the AI accelerator/HBM/advanced-packaging capacity node beyond the seed list. The strongest additions cluster around: HBM memory supply, custom AI accelerator silicon, outsourced advanced packaging, automated semiconductor test, and HBM/advanced-package probe-card test. This is research support only and not a buy/sell recommendation.",
+  "theme_id": "ai"
+}

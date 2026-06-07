@@ -1,0 +1,278 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Amkor Technology",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify customer mix, actual AI/HPC package revenue, whether advanced packaging margins improve, Arizona production timing, Korea expansion, capex commitments, and any customer prepayment or long-term capacity agreements.",
+      "node_relation": "Provides semiconductor packaging and test services; management has highlighted record advanced-packaging and computing revenue and is building a large US advanced packaging and test campus.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test; advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "capacity",
+        "bottleneck",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerators require advanced packaging and test capacity after wafer fabrication; Amkor is a plausible beneficiary if customers outsource more high-performance packaging as CoWoS-like capacity remains tight.",
+      "ticker": "AMKR",
+      "why_include": "Direct OSAT capacity exposure with explicit company references to advanced packaging, computing, AI/HPC, and Arizona capacity expansion. Potentially underappreciated because market attention often stops at GPU designers, HBM vendors, or TSMC rather than outsourced back-end capacity."
+    },
+    {
+      "claim_type": "fact",
+      "company": "ASE Technology Holding",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check LEAP or advanced-packaging revenue disclosure, AI/HPC customer concentration, FOCoS/FOCoS-Bridge adoption, CoWoS overflow participation, capex allocation, and pricing power versus TSMC internal packaging.",
+      "node_relation": "ASE is a major OSAT with 2.5D/3D packaging, FOCoS/VIPack platforms, and company materials linking its platforms to ASIC, chiplet, and HBM integration.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test; advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "capacity",
+        "bottleneck",
+        "HBM_integration",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI compute output is constrained by packaging throughput and yield learning, a large OSAT with HBM and heterogeneous-integration capability may capture incremental demand from accelerator and ASIC programs.",
+      "ticker": "ASX",
+      "why_include": "US-listed ADR gives public-market exposure to one of the largest back-end semiconductor manufacturing platforms. ASE’s 2026 panel-level packaging announcement explicitly frames advanced packaging as needed for next-generation AI workloads and HBM/chiplet integration."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Onto Innovation",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track Dragonfly G5 shipments, repeat orders, customer concentration, advanced-packaging revenue growth, backlog, gross margin, and whether HBM4 inspection demand persists beyond initial ramp.",
+      "node_relation": "Provides inspection, metrology, lithography, and process-control tools for advanced packaging; Dragonfly G5 was selected by a leading HBM manufacturer for HBM4 ramp inspection according to company release.",
+      "sector_or_industry": "Semiconductor process control; inspection and metrology",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "yield",
+        "metrology",
+        "bottleneck"
+      ],
+      "theme_relation": "As HBM stacks, micro-bumps, hybrid bonding, and 2.5D/3D packages become more complex, process control and defect detection can become a yield bottleneck, making inspection/metrology a second-order chokepoint.",
+      "ticker": "ONTO",
+      "why_include": "High-quality second-order beneficiary: not an accelerator or memory supplier, but a tool vendor tied directly to HBM4 ramp and advanced packaging yield. The relationship is plausibly under-mapped by investors focused only on front-end wafer equipment."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Camtek",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm exact customer categories, order conversion to revenue, Hawk platform adoption, HBM versus non-HBM revenue mix, Israel operating/geopolitical risk, and whether 2026 order strength is pull-forward or structural.",
+      "node_relation": "Supplies high-end wafer inspection and 3D metrology for advanced packaging, HBM, chiplets, and hybrid bonding; recent company/filing materials reference HBM and advanced-packaging applications.",
+      "sector_or_industry": "Semiconductor inspection and metrology equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "yield",
+        "HBM",
+        "advanced_packaging"
+      ],
+      "theme_relation": "AI accelerator packaging has extremely high interconnect density and yield sensitivity. Camtek’s inspection/metrology exposure may scale with OSAT and HBM manufacturer capex rather than with accelerator unit sales alone.",
+      "ticker": "CAMT",
+      "why_include": "Less obvious pick-and-shovel exposure. Recent disclosed orders from OSAT/HBM-related customers strengthen the mapping from AI packaging complexity to tool demand."
+    },
+    {
+      "claim_type": "fact",
+      "company": "FormFactor",
+      "confidence": 0.8,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM probe-card revenue, Foundry & Logic probe-card growth, customer concentration among HBM vendors and AI ASIC/GPU supply chains, lead times, and margin sensitivity to memory-cycle volatility.",
+      "node_relation": "Provides probe cards and test subsystems used in advanced packages and HBM testing, including known-good-die/known-good-stack test use cases.",
+      "sector_or_industry": "Semiconductor test and measurement; probe cards",
+      "serenity_tags": [
+        "supply_chain",
+        "test",
+        "yield",
+        "HBM",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM and chiplet-based AI packages require more known-good-die and stack-level testing before expensive 2.5D/3D assembly; probe-card demand can therefore rise with HBM complexity and AI packaging yield requirements.",
+      "ticker": "FORM",
+      "why_include": "Second-order beneficiary where the chokepoint is not capacity alone but test/yield assurance before integrating costly GPU/ASIC die with HBM stacks. Potentially underappreciated because it sits upstream of final accelerator availability."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Amkor reported record advanced-packaging and computing revenue for 2025 and stated it is accelerating strategic investments to support advanced-packaging growth.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-02-09",
+      "source_title": "Amkor Technology Reports Financial Results for the Fourth Quarter and Full Year 2025",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-fourth-quarter-and-11",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor announced the groundbreaking of an Arizona outsourced semiconductor advanced packaging and test campus with planned investment expanded to $7 billion across two phases.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2025-10-06",
+      "source_title": "Amkor Technology Breaks Ground on New Semiconductor Advanced Packaging and Test Campus in Arizona; Expands Investment to $7 Billion",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "ASE announced an automated 310mm panel-level packaging production line and explicitly linked the transition to AI workloads, chiplets, ASICs, and HBM interconnect needs.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-05-26",
+      "source_title": "ASE Launches Automated 310mm Panel-Level Packaging to Accelerate AI Innovation",
+      "source_url": "https://www.aseglobal.com/press-room/310x310",
+      "ticker": "ASX"
+    },
+    {
+      "claim": "ASE states that it has delivered 2.5D solutions that helped bring advanced ASIC and HBM products to market and that it launched mass production of a 2.5D IC package with HBM.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "2.5D and 3D IC Packaging | ASE",
+      "source_url": "https://ase.aseglobal.com/3d-ic-packaging/",
+      "ticker": "ASX"
+    },
+    {
+      "claim": "Onto Innovation said a leading HBM manufacturer selected Dragonfly G5 and 3Di technology for HBM4 ramp inspection, with double-digit orders and shipments starting in Q2 2026.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-03-16",
+      "source_title": "Onto Innovation Launches Dragonfly G5 Inspection System",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Launches-Dragonfly-G5-Inspection-System/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Onto reported more than 20 Dragonfly systems shipped in Q2 2025 for advanced AI packaging applications and expected renewed AI packaging spend momentum into 2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-08-07",
+      "source_title": "Onto Innovation Reports 2025 Second Quarter Results",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2025/Onto-Innovation-Reports-2025-Second-Quarter-Results/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Camtek’s 2026 annual-report filing states that its systems serve Advanced Packaging, Chiplets, HBM, Memory, OSATs, IDMs, and foundries, and that Hawk is engineered for chiplets, HBM, and hybrid bonding.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-03-19",
+      "source_title": "Camtek Ltd. 2025 Form 20-F",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001109138/000117891326001561/zk2634678.htm",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Camtek’s investor page describes the company as a high-end semiconductor inspection and metrology supplier serving advanced interconnect packaging, memory, OSATs, IDMs, and foundries.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "",
+      "source_title": "Camtek Investors",
+      "source_url": "https://www.camtek.com/investors/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "FormFactor states that its probe-card architecture supports validation of HBM stack die and advanced packages.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2024",
+      "source_title": "Probe Cards for Every IC in Advanced Packages",
+      "source_url": "https://www.formfactor.com/blog/2024/probe-cards-for-every-ic-in-advanced-packages/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor reported Q2 2025 strength driven partly by HBM and Foundry & Logic probe cards.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025",
+      "source_title": "FormFactor, Inc. Reports 2025 Second Quarter Results",
+      "source_url": "https://investors.formfactor.com/news-releases/news-release-details/formfactor-inc-reports-2025-second-quarter-results/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Market capitalization was above $1 billion in the web finance snapshot checked on June 6, 2026 UTC.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-06-06",
+      "source_title": "Web finance snapshot",
+      "source_url": "web.finance://AMKR?checked_at=2026-06-06",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Market capitalization was above $1 billion in the web finance snapshot checked on June 5, 2026 UTC.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-06-05",
+      "source_title": "Web finance snapshot",
+      "source_url": "web.finance://ASX?checked_at=2026-06-05",
+      "ticker": "ASX"
+    },
+    {
+      "claim": "Market capitalization was above $1 billion in the web finance snapshot checked on June 5, 2026 UTC.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-06-05",
+      "source_title": "Web finance snapshot",
+      "source_url": "web.finance://ONTO?checked_at=2026-06-05",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Market capitalization was above $1 billion in the web finance snapshot checked on June 6, 2026 UTC.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-06-06",
+      "source_title": "Web finance snapshot",
+      "source_url": "web.finance://CAMT?checked_at=2026-06-06",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Market capitalization was above $1 billion in the web finance snapshot checked on June 6, 2026 UTC.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-06-06",
+      "source_title": "Web finance snapshot",
+      "source_url": "web.finance://FORM?checked_at=2026-06-06",
+      "ticker": "FORM"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.88,
+      "text": "Add AMKR as a direct OSAT/advanced-packaging capacity candidate for the AI accelerator HBM packaging stack; watch Arizona and Korea expansion, advanced-packaging revenue, and customer concentration.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Add ASX as a US-listed ADR for ASE Technology, a large OSAT with explicit HBM/chiplet/AI advanced-packaging positioning.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.89,
+      "text": "Add ONTO as a high-priority inspection/metrology candidate tied to HBM4 ramp and advanced AI packaging yield control.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.87,
+      "text": "Add CAMT as a high-priority inspection/metrology candidate with direct HBM, chiplet, hybrid bonding, and OSAT/HBM customer order evidence.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Add FORM as a probe-card/test candidate for HBM known-good-die and advanced-package test requirements.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Direct HBM vendor exposure remains a separate coverage gap for this node. Micron Technology is US-listed and should be evaluated in a dedicated HBM-memory pass alongside non-US HBM leaders SK hynix and Samsung, but was not included here because this pass emphasized second-order suppliers and the candidate list was capped at five.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.82,
+      "text": "The most underappreciated public-market mappings in this node may be yield-enabling tools and back-end capacity, not only GPU designers or front-end wafer equipment.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "AI accelerators, HBM memory, and advanced packaging stack",
+  "node_id": "ai_accelerator_hbm_packaging_stack",
+  "summary": "Expanded the US-listed universe around the HBM plus advanced-packaging constraint with emphasis on less-obvious second-order beneficiaries. The strongest mapped candidates are OSAT capacity providers and inspection/metrology/test vendors whose tools or services are needed as AI accelerators move to HBM, chiplets, 2.5D/3D integration, hybrid bonding, and higher bump/interconnect density. This is a research universe, not a buy/sell list.",
+  "theme_id": "AI"
+}

@@ -1,0 +1,195 @@
+{
+  "candidates": [
+    {
+      "claim_type": "inference",
+      "company": "Broadcom Inc.",
+      "confidence": 0.94,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track AI networking revenue disclosures, Tomahawk 6 production volume, hyperscaler/OEM design wins, 800G NIC adoption, CPO timing, and whether merchant Ethernet gains share versus vertically integrated NVIDIA fabrics.",
+      "node_relation": "Direct supplier of Ethernet switch silicon, AI Ethernet NICs, optical PHY/DSP technology, and CPO-related AI networking components.",
+      "sector_or_industry": "Semiconductors / networking silicon / custom ASICs",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "product_leader",
+        "evidence_needed"
+      ],
+      "theme_relation": "Broadcom sits at the merchant-silicon layer of AI cluster scale-out networking, where 800G/1.6T bandwidth, low latency, and power efficiency become cluster constraints.",
+      "ticker": "AVGO",
+      "why_include": "Broadcom has explicit AI networking products including Tomahawk 6 102.4T Ethernet switch silicon, Thor Ultra 800G AI Ethernet NIC, optical transceiver PHY/DSP products, and Tomahawk 6-Davisson CPO. These map directly to the hypothesized chokepoint."
+    },
+    {
+      "claim_type": "inference",
+      "company": "NVIDIA Corporation",
+      "confidence": 0.93,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Separate networking revenue contribution where possible, monitor Spectrum-X Ethernet adoption beyond NVIDIA GPU-only clusters, CPO readiness, supply agreements with optics partners, and competitive displacement risk from open Ethernet.",
+      "node_relation": "Direct platform owner for InfiniBand, Spectrum-X Ethernet, ConnectX NICs, Quantum-X switches, and emerging Spectrum-X photonics/CPO networking.",
+      "sector_or_industry": "AI accelerators / networking systems / systems software",
+      "serenity_tags": [
+        "demand",
+        "platform",
+        "supply_chain",
+        "bottleneck"
+      ],
+      "theme_relation": "NVIDIA is both an AI accelerator supplier and a networking-stack owner; as clusters scale, its networking products can determine GPU utilization, east-west bandwidth, and system-level performance.",
+      "ticker": "NVDA",
+      "why_include": "NVIDIA’s Spectrum-X and InfiniBand platforms are purpose-built for AI cluster networking. Its 2026 Rubin/Spectrum-6 disclosures explicitly reference 200G SerDes, co-packaged optics, and AI-optimized fabrics."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Arista Networks, Inc.",
+      "confidence": 0.89,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track AI back-end cluster revenue, 800G switch ramps, hyperscaler concentration, win/loss versus NVIDIA Spectrum-X and Broadcom-based white-box switches, and gross-margin durability.",
+      "node_relation": "Direct supplier of Ethernet switching systems and EOS software used in cloud and AI data center fabrics.",
+      "sector_or_industry": "Cloud networking equipment / Ethernet switching software and systems",
+      "serenity_tags": [
+        "platform",
+        "direct_customer_exposure",
+        "supply_chain",
+        "evidence_needed"
+      ],
+      "theme_relation": "Arista is a leading Ethernet AI networking platform vendor; if hyperscalers standardize more AI fabrics on Ethernet, Arista is a plausible direct beneficiary.",
+      "ticker": "ANET",
+      "why_include": "Arista has announced AI networking innovations and 800G/400G platforms for AI clusters scaling to 100,000+ accelerators. Its exposure is tied to Ethernet becoming a preferred AI scale-out fabric."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Marvell Technology, Inc.",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track design wins in 1.6T modules, DSP attach rate, custom silicon versus merchant DSP mix, optical module partner ramps, and whether AI optical DSP growth offsets cyclicality elsewhere.",
+      "node_relation": "Direct supplier of optical DSPs, AEC DSPs, coherent DSPs, and interconnect silicon for scale-up, scale-out, and data-center interconnect links.",
+      "sector_or_industry": "Data infrastructure semiconductors / optical DSPs / interconnect silicon",
+      "serenity_tags": [
+        "supply_chain",
+        "component",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "Marvell maps to the high-speed optical/electrical interconnect layer needed for 800G/1.6T AI fabrics, including DSPs used inside optical modules and active electrical cables.",
+      "ticker": "MRVL",
+      "why_include": "Marvell has announced 1.6T and 800G Alaska A PAM4 DSPs, 200G/lambda 1.6T PAM4 optical interconnect demonstrations, and 800G ZR/ZR+ pluggable optics for multi-site AI training."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Coherent Corp.",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track 1.6T datacom revenue ramp, NVIDIA partnership economics, hyperscaler customer concentration, module gross margins, InP/VCSEL capacity, and timing risk from pluggable-to-CPO transitions.",
+      "node_relation": "Direct supplier of optical transceivers, lasers, VCSELs, InP components, and silicon-photonics-based modules for AI data center networking.",
+      "sector_or_industry": "Optical components / lasers / transceivers / silicon photonics",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "component",
+        "evidence_needed"
+      ],
+      "theme_relation": "Coherent maps to the physical optical layer of AI fabrics; 800G/1.6T adoption increases demand for high-speed modules, lasers, photonic integrated circuits, and low-power optical architectures.",
+      "ticker": "COHR",
+      "why_include": "Coherent has demonstrated 1.6T optical transceivers, including silicon-photonics-based 1.6T modules using Marvell DSPs, and announced a strategic optics partnership with NVIDIA for next-generation data center architecture."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Broadcom lists the BCM78910/Tomahawk 6 Ethernet switch series as a 102.4 Tb/s switch family supporting 1.6TbE, 128 x 800GbE, and AI scale-out clusters with 1M+ XPUs.",
+      "claim_type": "fact",
+      "confidence": 0.96,
+      "published_at": "",
+      "source_title": "Ethernet Switch Chip | Networking for AI | AI Clusters",
+      "source_url": "https://www.broadcom.com/products/ethernet-connectivity/switching/strataxgs/bcm78910-series",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Broadcom’s OFC 2026 materials describe AI infrastructure networking products including Tomahawk 6 production volume, Tomahawk 6-Davisson CPO, and the Thor Ultra 800G AI NIC.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-05",
+      "source_title": "Broadcom Showcases Industry-Leading Solutions for Scaling AI Infrastructure at OFC 2026",
+      "source_url": "https://investors.broadcom.com/node/64036/pdf",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "NVIDIA describes Spectrum-X as an Ethernet networking platform for massive-scale AI and claims it enhances AI networking performance by 1.6x.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "NVIDIA Spectrum-X Ethernet Platform for AI Networking",
+      "source_url": "https://www.nvidia.com/en-us/networking/spectrumx/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "NVIDIA’s 2026 Rubin announcement says Spectrum-6 Ethernet is built for AI networking and is enabled by 200G SerDes, co-packaged optics, and AI-optimized fabrics.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-01",
+      "source_title": "NVIDIA Kicks Off the Next Generation of AI With Rubin — Six New Chips, One Incredible AI Supercomputer",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Kicks-Off-the-Next-Generation-of-AI-With-Rubin--Six-New-Chips-One-Incredible-AI-Supercomputer/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Arista announced AI networking products including EOS Smart AI Suite, Ethernet-based AI load balancing, and 800G/400G platforms intended to scale from small AI clusters to 100,000+ accelerators.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2025-03",
+      "source_title": "Arista Introduces Intelligent Innovations for AI Networking",
+      "source_url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2025/Arista-Introduces-Intelligent-Innovations-for-AI-Networking/",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Marvell announced an interconnect portfolio for scale-up and scale-out AI deployments at OFC 2025, including 200G/lambda 1.6T PAM4 optical interconnect, 1.6T AEC DSPs, and 800G ZR/ZR+ pluggable optics for multi-site AI training.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2025-03-31",
+      "source_title": "Marvell Advances Interconnect Portfolio for Scale-up and Scale-out Fabrics at OFC 2025",
+      "source_url": "https://investor.marvell.com/news-events/press-releases/detail/106/marvell-advances-interconnect-portfolio-for-scale-up-and-scale-out-fabrics-at-ofc-2025",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Coherent announced it would demonstrate multiple 1.6T transceivers at OFC 2026 using silicon photonics PICs, high-power InP CW lasers, 200G InP EML, and 200G GaAs VCSEL technologies.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-04",
+      "source_title": "Coherent Demonstrates Technologies for Next-Generation Pluggable Transceiver at OFC 2026",
+      "source_url": "https://www.coherent.com/news/press-releases/coherent-demonstrates-next-gen-pluggable-transceiver-ofc-2026",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "NVIDIA and Coherent announced a strategic partnership to develop optics technology for next-generation data center architecture.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03",
+      "source_title": "NVIDIA and Coherent Announce Strategic Partnership to Develop Optics Technology to Scale Next-Generation Data Center Architecture",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture",
+      "ticker": "COHR"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Core US-listed direct-exposure universe for AI cluster networking and optics should include AVGO, NVDA, ANET, MRVL, and COHR as first-pass leaders across switch silicon, networking systems, Ethernet platforms, DSP/interconnect silicon, and optical modules/components.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Potential next-pass additions not included due to the five-candidate limit: LITE for lasers/modules and NVIDIA optics partnership, CIEN for coherent optical/DCI, GLW for fiber/cable and optical connectivity, AMPH for high-speed interconnect/cables, CLS/JBL for switch/system manufacturing, and QCOM/INTC only if credible AI networking silicon evidence appears.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.91,
+      "text": "The most direct chokepoint mapping is not generic AI compute but data movement: Ethernet/InfiniBand switch ASICs, NICs, optical DSPs, 800G/1.6T pluggable modules, silicon photonics, lasers, and eventual CPO.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Need follow-up evidence on revenue materiality and customer concentration: product announcements confirm technical exposure, but not all companies disclose how much revenue or margin comes from AI networking and optics.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI cluster networking, Ethernet/InfiniBand, optical modules, and silicon photonics",
+  "node_id": "ai_cluster_networking_and_optics",
+  "summary": "Expanded the US-listed universe for the AI cluster networking and optics node. The highest-direct-exposure public companies found in this pass are switch/NIC silicon leaders, AI networking system vendors, Ethernet switch platforms, optical DSP suppliers, and high-speed optical component/module suppliers. This is a research universe only, not a recommendation.",
+  "theme_id": "ai"
+}

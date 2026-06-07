@@ -1,0 +1,227 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Marvell Technology",
+      "confidence": 0.87,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify latest segment revenue mix, hyperscaler/NVIDIA partnership details, 800G/1.6T DSP shipment volumes, switch ASIC design wins, gross margin effects, and customer concentration in the next 10-Q/10-K and earnings call.",
+      "node_relation": "Supplier of optical DSPs, Ethernet switch silicon, PHY/SerDes, silicon photonics-related technology, and custom silicon for AI data-center connectivity.",
+      "sector_or_industry": "Data infrastructure semiconductors; optical DSPs, Ethernet switching, SerDes, custom silicon",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "optical_dsp",
+        "ethernet_switching",
+        "silicon_photonics",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI cluster scaling raises demand for high-bandwidth, low-latency and power-efficient interconnects; Marvell maps to the semiconductor layer inside 800G/1.6T optics and AI Ethernet fabrics.",
+      "ticker": "MRVL",
+      "why_include": "Marvell is a direct node candidate because it has public 1.6T optical DSP products for AI data-center interconnects and switch silicon used in AI cloud deployments. It is less obvious than NVIDIA/Broadcom but can sit at a critical signal-processing layer inside high-speed optics."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Coherent Corp.",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track AI datacenter bookings, 800G/1.6T mix, InP capacity ramp, CPO revenue timing, customer concentration, capex intensity, and whether margins improve or are diluted by capacity expansion.",
+      "node_relation": "Supplier of photonic components, lasers, InP platforms, datacom optical transceivers, and potential CPO-related light-source technology for AI datacenters.",
+      "sector_or_industry": "Photonics, optical transceivers, lasers, InP materials and components",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "800G",
+        "1.6T",
+        "lasers",
+        "CPO",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI clusters consume rising quantities of 800G/1.6T optical connectivity; Coherent maps to the optical-module, laser, and materials layers that could become scarce as accelerator deployments scale.",
+      "ticker": "COHR",
+      "why_include": "Coherent has explicit public commentary that AI datacenter infrastructure is driving demand and capacity expansion. Its breadth across transceivers, lasers, InP and photonic components makes it a plausible chokepoint beneficiary if optical supply tightens."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Lumentum Holdings",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Validate how much revenue is actually AI datacenter versus telecom/industrial, timing of NVIDIA-related volume, utilization of new U.S. capacity, CPO design wins, and dependence on a small number of customers.",
+      "node_relation": "Supplier of high-performance lasers, optical modules, optical subsystems, VCSEL/InP/silicon-photonics-related technologies, and CPO-enabling light sources.",
+      "sector_or_industry": "Optical and photonic products; lasers, modules, optical subsystems",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "lasers",
+        "silicon_photonics",
+        "CPO",
+        "NVIDIA_ecosystem",
+        "evidence_needed"
+      ],
+      "theme_relation": "As AI networks migrate toward higher bandwidth and lower power, Lumentum’s lasers and photonic subsystems can become critical inputs for scale-out, scale-up and scale-across AI infrastructure.",
+      "ticker": "LITE",
+      "why_include": "Lumentum has public NVIDIA ecosystem exposure and announced U.S. manufacturing for advanced lasers for large AI data centers. This makes it a direct photonics-capacity candidate rather than a generic telecom optics name."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Corning Incorporated",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check optical communications revenue growth, incremental AI datacenter contribution, customer concentration, capacity additions, pricing power, lead times, and whether additional hyperscaler contracts are disclosed.",
+      "node_relation": "Supplier of optical fiber, cable and connectivity products used in dense AI data-center buildouts.",
+      "sector_or_industry": "Specialty glass, optical fiber, cable and connectivity",
+      "serenity_tags": [
+        "supply_chain",
+        "adjacent_chokepoint",
+        "fiber",
+        "data_center_connectivity",
+        "hyperscaler_customer",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI datacenters require denser fiber connectivity than conventional server environments; if fiber/cable lead times extend, Corning becomes a second-order infrastructure chokepoint candidate.",
+      "ticker": "GLW",
+      "why_include": "Corning is not a chip or module vendor, but it has explicit hyperscaler AI datacenter supply exposure through a multiyear Meta agreement for optical fiber, cable and connectivity. This maps to the physical network layer that can bottleneck campus-scale AI buildouts."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Tower Semiconductor",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm whether silicon-photonics work becomes material to revenue, identify end customers if disclosed, track foundry capacity, wafer pricing, process-node differentiation, and risk that larger foundries internalize or commoditize this layer.",
+      "node_relation": "Specialty foundry capacity for silicon photonics used in 1.6T data-center optical modules.",
+      "sector_or_industry": "Specialty analog foundry; silicon photonics platform",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "silicon_photonics",
+        "foundry",
+        "1.6T",
+        "NVIDIA_ecosystem",
+        "evidence_needed"
+      ],
+      "theme_relation": "If the AI networking stack shifts from traditional pluggable optics toward silicon photonics and CPO, foundry capacity and validated process platforms may become underappreciated chokepoints.",
+      "ticker": "TSEM",
+      "why_include": "Tower is a less obvious AI infrastructure mapping: it is not the branded module or switch vendor, but it has announced work with NVIDIA on high-performance silicon photonics for 1.6T data-center optical modules."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Marvell announced 1.6T ZR/ZR+ pluggable and 2nm coherent DSP products for secure AI scale-across data-center interconnects, with customer sampling expected in the second half of 2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03",
+      "source_title": "Marvell Extends ZR/ZR+ Leadership with Industry-first 1.6T ZR/ZR+ Pluggable and 2nm Coherent DSPs for Secure AI Scale-across Interconnects",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-1-6t-zr-zr-plus-pluggable-2nm-coherent-dsp-ai-interconnects.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Marvell describes its optical DSP portfolio as powering AI infrastructure, including 1.6T PAM4 DSPs for AI server-to-data-center connectivity.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Marvell Optical DSPs | Powering the Future of AI Infrastructure",
+      "source_url": "https://www.marvell.com/solutions/data-center/optical-dsp.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Coherent reported fiscal Q3 2026 results and stated that AI datacenter infrastructure scaling is driving capacity expansion and robust demand visibility.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05",
+      "source_title": "Coherent Corp. Reports Third Quarter Fiscal 2026 Results",
+      "source_url": "https://www.coherent.com/news/press-releases/third-quarter-fiscal-year-2026-results",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Coherent investor materials reference next-generation AI datacenter technologies including CPO architectures, silicon photonics and faster data transfer.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05-06",
+      "source_title": "Coherent Investor Presentation, Third Quarter Fiscal 2026",
+      "source_url": "https://www.coherent.com/content/dam/coherent/site/en/documents/investors/investor-presentations/2026/may-6/investor-presentation-20260506.pdf",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Lumentum announced a new U.S. manufacturing facility to produce advanced lasers for the world's largest AI data centers and stated NVIDIA will be a customer of the facility.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03-26",
+      "source_title": "Lumentum Announces New U.S. Manufacturing Facility to Produce Advanced Lasers for the World’s Largest AI Data Centers",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-New-U-S--Manufacturing-Facility-to-Produce-Advanced-Lasers-for-the-Worlds-Largest-AI-Data-Centers/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Lumentum showcased OFC 2026 AI infrastructure technologies, including high-power light sources for CPO and silicon photonics architectures.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03-17",
+      "source_title": "Lumentum Demonstrates Industry-Leading Technologies and Products for Scale-Out, Scale-Up and Scale-Across AI Infrastructure at OFC 2026",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Demonstrates-Industry-Leading-Technologies-and-Products-for-Scale-Out-Scale-Up-and-Scale-Across-AI-Infrastructure-at-OFC-2026/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Corning and Meta announced a multiyear agreement of up to $6 billion for optical fiber, cable and connectivity products designed for advanced AI data centers.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026",
+      "source_title": "Corning and Meta Announce Multiyear, up to $6 Billion Agreement to Accelerate US Data Center Buildout",
+      "source_url": "https://investor.corning.com/news-and-events/news/news-details/2026/Corning-and-Meta-Announce-Multiyear-up-to-6-Billion-Agreement-to-Accelerate-US-Data-Center-Buildout/default.aspx",
+      "ticker": "GLW"
+    },
+    {
+      "claim": "Tower Semiconductor announced work with NVIDIA to scale AI infrastructure using high-performance silicon photonics for 1.6T data-center optical modules designed for NVIDIA networking protocols.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-02-05",
+      "source_title": "Tower Semiconductor Teams with NVIDIA to Advance AI Infrastructure with 1.6T Data Center Optical Modules",
+      "source_url": "https://ir.towerjazz.com/news-releases/news-release-details/tower-semiconductor-teams-nvidia-advance-ai-infrastructure-16t",
+      "ticker": "TSEM"
+    },
+    {
+      "claim": "Across the node, the most underappreciated public-market mappings may be in optical DSPs, InP/laser capacity, silicon-photonics foundry platforms, and fiber/cable/connectivity, not only in branded GPU and switch vendors.",
+      "claim_type": "inference",
+      "confidence": 0.77,
+      "published_at": "2026-02",
+      "source_title": "AI Capex Flows Down the Supply Chain to DSP Vendors",
+      "source_url": "https://www.lightcounting.com/newsletter/en/february-2026-pam4-and-coherent-dsps-updated-april-2026-381",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.87,
+      "text": "Add MRVL as a direct AI networking and optics semiconductor candidate: optical DSPs, Ethernet switch silicon, SerDes, PHY and silicon-photonics adjacency.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.85,
+      "text": "Add COHR and LITE as direct photonics-capacity candidates tied to 800G/1.6T optics, lasers, InP, CPO and silicon-photonics-enabling components.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Add GLW as a second-order physical-layer infrastructure candidate due to optical fiber, cable and connectivity supply for AI data-center buildouts.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Add TSEM as a less obvious silicon-photonics foundry candidate with announced NVIDIA-related 1.6T data-center optical module exposure.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.74,
+      "text": "Further passes should check AAOI, Fabrinet, Ciena, Cisco, HPE/Juniper, Amphenol, TE Connectivity, Keysight, Teradyne and optical test-equipment vendors, but they were excluded here to keep this pass to five candidates.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Key falsification checks: 800G/1.6T ramps stall, hyperscalers dual-source aggressively, CPO adoption is delayed, optics pricing falls faster than volumes rise, or customer concentration creates volatile revenue rather than durable bottleneck economics.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "AI cluster networking, Ethernet/InfiniBand, optical modules, and silicon photonics",
+  "node_id": "ai_cluster_networking_and_optics",
+  "summary": "This pass expands the public-company universe around AI cluster networking and optics beyond the seed list. The strongest second-order mappings are in optical DSPs and switch silicon, photonic components and lasers, high-speed optical modules, silicon-photonics foundry capacity, and fiber/cable/connectivity. Key chokepoint variables to track are 800G-to-1.6T ramps, customer concentration with NVIDIA and hyperscalers, CPO/silicon-photonics design wins, InP and laser capacity, optical DSP attach rates, and whether demand shifts from pluggable optics toward co-packaged optics.",
+  "theme_id": "ai"
+}

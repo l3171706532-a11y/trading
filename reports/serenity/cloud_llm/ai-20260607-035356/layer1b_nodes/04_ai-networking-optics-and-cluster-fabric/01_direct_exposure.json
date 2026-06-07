@@ -1,0 +1,213 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Broadcom Inc.",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Quantify AI networking revenue versus custom accelerator revenue in latest filings/calls; check hyperscaler customer concentration, Tomahawk/Jericho shipment cadence, CPO adoption timing, and gross-margin durability.",
+      "node_relation": "Merchant and custom silicon supplier for AI Ethernet fabrics, including Tomahawk switching ASICs, Jericho fabric routers, co-packaged optics, NICs, retimers, SerDes, and optical DSPs.",
+      "sector_or_industry": "Semiconductors / Ethernet switching ASICs, SerDes, optical DSPs, CPO, custom AI silicon",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "direct_leader",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct AI infrastructure supplier; exposed to hyperscaler buildout where fabric bandwidth, congestion control, optical power efficiency, and scale-across data centers become constraints.",
+      "ticker": "AVGO",
+      "why_include": "Broadcom is one of the clearest public-market mappings for the AI networking chokepoint because its official product disclosures cover AI Ethernet switches, Jericho routers for distributed AI, co-packaged optics, optical DSPs, retimers, and NICs."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Arista Networks, Inc.",
+      "confidence": 0.87,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Separate AI cluster revenue from general cloud/campus switching; verify exposure to top cloud customers, product mix between 400G/800G/1.6T roadmaps, and competitive pressure from NVIDIA, Cisco, white-box, and Broadcom-based ODM systems.",
+      "node_relation": "AI Ethernet switch system vendor with EOS software, Etherlink AI platforms, 800G switch products, telemetry, and cloud-scale networking relationships.",
+      "sector_or_industry": "Networking equipment / cloud and AI Ethernet switching platforms",
+      "serenity_tags": [
+        "supply_chain",
+        "platform",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct platform beneficiary if Ethernet becomes the preferred fabric for large AI training, inference, storage, and front-end networks.",
+      "ticker": "ANET",
+      "why_include": "Arista explicitly positions itself as a cloud and AI networking provider and reported exceeding AI networking goals in 2025; its Etherlink platform targets AI clusters from thousands to hundreds of thousands of XPUs."
+    },
+    {
+      "claim_type": "fact",
+      "company": "NVIDIA Corporation",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Estimate standalone networking attach rate and revenue contribution versus GPU revenue; track whether open Ethernet alternatives reduce NVIDIA fabric lock-in, and whether CPO moves from announced production to broad deployment.",
+      "node_relation": "Full-stack AI networking platform provider through Spectrum-X Ethernet switches, SuperNICs, ConnectX, BlueField DPUs, NVLink switches, Spectrum-XGS, congestion-control software, telemetry, and co-packaged-optics networking.",
+      "sector_or_industry": "AI semiconductors / full-stack accelerated computing and networking",
+      "serenity_tags": [
+        "demand",
+        "platform",
+        "supply_chain",
+        "bottleneck"
+      ],
+      "theme_relation": "Direct AI infrastructure leader; networking is embedded into GPU cluster utilization, rack-scale systems, AI factories, and hyperscaler deployments.",
+      "ticker": "NVDA",
+      "why_include": "NVIDIA’s official materials describe Spectrum-X as an Ethernet platform purpose-built for AI, and 2026 disclosures describe Spectrum-X Ethernet Photonics/CPO and customer adoption by Meta, CoreWeave, Lambda, and Oracle Cloud Infrastructure."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Marvell Technology, Inc.",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Validate customer wins, timing of volume ramps, mix of custom XPU versus optical/DSP revenue, competitive position against Broadcom/Ciena/Cisco and module vendors, and whether AI demand offsets cyclicality in other end markets.",
+      "node_relation": "Supplier of coherent DSPs, 800G/1.6T optical interconnect silicon, ZR/ZR+ pluggables, PAM4 DSPs, and custom data-center silicon relevant to AI scale-up, scale-out, and scale-across networks.",
+      "sector_or_industry": "Data infrastructure semiconductors / optical DSPs, coherent DCI, PAM4 interconnect, Ethernet and custom silicon",
+      "serenity_tags": [
+        "supply_chain",
+        "component",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct second-order supplier to optical and custom silicon layers that enable higher-speed AI data-center interconnect and multi-site training/inference fabrics.",
+      "ticker": "MRVL",
+      "why_include": "Marvell’s official 2026 announcement highlights 1.6T ZR/ZR+ pluggables and 2nm coherent DSPs for secure AI scale-across interconnects, placing it directly in the optical/DSP bottleneck path."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Coherent Corp.",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Quantify AI datacom revenue share, 800G/1.6T volume ramps, hyperscaler concentration, manufacturing yield/capacity, exposure to Chinese optical-module competition, and margin impact from mix shifts.",
+      "node_relation": "Optical component and module supplier with materials, devices, lasers, transceivers, CPO-related technology, 800G/1.6T and higher-speed optical interconnect exposure.",
+      "sector_or_industry": "Photonics / optical components, lasers, transceivers, CPO and optical systems",
+      "serenity_tags": [
+        "supply_chain",
+        "component",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct optics supplier to AI data-center networking, where power, reach, bandwidth density, and availability of high-speed optical components can become deployment constraints.",
+      "ticker": "COHR",
+      "why_include": "Coherent’s official OFC 2026 materials describe AI-scale optical innovations, including 400G/lane, 3.2T transceivers, emerging 12.8T architectures, CPO, multi-rail transport, and a vertically integrated stack across materials, devices, modules, and systems."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Broadcom says its OFC 2026 AI infrastructure portfolio includes Ethernet switches for AI scale-up, scale-out, and scale-across, including Tomahawk 6 in production volume, Tomahawk 6-Davisson CPO, Tomahawk Ultra, and Jericho 4 for 1M+ XPU clusters.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-03",
+      "source_title": "Broadcom Showcases Industry-Leading Solutions for Scaling AI Infrastructure at OFC 2026",
+      "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Broadcom announced Jericho4 as a purpose-built Ethernet fabric router for distributed AI infrastructure, designed to interconnect over one million XPUs across multiple data centers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-08-04",
+      "source_title": "Broadcom Ships Jericho4, Enabling Distributed AI Computing Across Data Centers",
+      "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-ships-jericho4-enabling-distributed-ai-computing-across",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Arista reported 2025 revenue of $9 billion and said it exceeded both AI networking and campus expansion goals.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-02-12",
+      "source_title": "Arista Networks, Inc. Reports Fourth Quarter and Year End 2025 Financial Results",
+      "source_url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Networks-Inc--Reports-Fourth-Quarter-and-Year-End-2025-Financial-Results/default.aspx",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Arista’s Etherlink AI platforms are designed for demanding AI training and inference workloads and support cluster sizes from thousands to hundreds of thousands of XPUs.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2024-06-05",
+      "source_title": "Arista Unveils Etherlink AI Networking Platforms",
+      "source_url": "https://www.arista.com/en/company/news/press-release/19493-pr-20240605",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "NVIDIA describes Spectrum-X as an Ethernet networking platform for AI that connects AI compute fabrics within a data center, scales across multiple AI data centers with Spectrum-XGS, and supports co-packaged optical switching.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "NVIDIA Spectrum-X Ethernet Networking Platform",
+      "source_url": "https://www.nvidia.com/en-us/networking/spectrumx/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "NVIDIA announced Spectrum-X Ethernet Photonics with CPO-based switches and said CoreWeave, Lambda, and Oracle Cloud Infrastructure are among the first ecosystem partners and adopters.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-31",
+      "source_title": "NVIDIA Vera Rubin Ramps Into Full Production to Power Agentic AI Factories Worldwide",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "NVIDIA said Meta adopted Spectrum-X Ethernet across its infrastructure footprint and will integrate Spectrum-X Ethernet switches for Meta’s Facebook Open Switching System platform.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-02-17",
+      "source_title": "Meta Builds AI Infrastructure With NVIDIA",
+      "source_url": "https://nvidianews.nvidia.com/news/meta-builds-ai-infrastructure-with-nvidia?linkId=100000408268152&ncid=so-link-141505",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Marvell announced 1.6T ZR/ZR+ data-center interconnect pluggables and 2nm coherent DSPs with MACsec for secure AI scale-across connectivity.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-03",
+      "source_title": "Marvell Extends ZR/ZR+ Leadership with Industry-first 1.6T ZR/ZR+ Pluggable and 2nm Coherent DSPs for Secure AI Scale-across Interconnects",
+      "source_url": "https://investor.marvell.com/news-events/press-releases/detail/1010/marvell-extends-zrzr-leadership-with-industry-first-1-6t-zrzr-pluggable-and-2nm-coherent-dsps-for-secure-ai-scale-across-interconnects",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Coherent said it would showcase AI-scale optical innovations at OFC 2026, including 400G/lane, 3.2T transceivers, emerging 12.8T architectures, CPO, multi-rail transport, and open optical networking platforms.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03",
+      "source_title": "Coherent to Unveil Breakthrough AI-Scale Optical Innovations and Industry Leadership at OFC 2026",
+      "source_url": "https://www.coherent.com/news/press-releases/coherent-ai-scale-optical-innovations-ofc-2026",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Coherent said its DCI transceiver portfolio includes 100G, 400G, and 800G solutions in production and supports hyperscale and carrier-class interconnect applications.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "2026-03",
+      "source_title": "Coherent Advances Scale-Across Networks With Significant Enhancements to Its Multi-Rail Transport Platform",
+      "source_url": "https://www.coherent.com/news/press-releases/scale-across-networks-multi-rail-transport-platform",
+      "ticker": "COHR"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.88,
+      "text": "AVGO, ANET, NVDA, MRVL, and COHR form a high-priority US-listed direct-exposure set for AI networking, optics, and cluster fabric.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "The node should be split in later layers into: Ethernet switch ASICs/fabric routers, switch systems/EOS software, NVIDIA closed/full-stack fabrics, optical DSP/coherent DCI, CPO, pluggable optics/transceivers, lasers/components, and manufacturing/EMS.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Additional US-listed names to evaluate in a later pass include CIEN, LITE, FN, AAOI, CSCO, JNPR, SMTC, NOK, and possibly private/non-US leaders such as InnoLight, Eoptolink, Innolux/ODM suppliers, and Taiwan/China/Japan optical component suppliers.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.92,
+      "text": "This pass did not assess valuation, revenue concentration, cyclicality, or whether AI-related demand is already priced in; those require a market-pricing and falsification layer.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI networking, optics, and cluster fabric",
+  "node_id": "ai_networking_optics_and_cluster_fabric",
+  "summary": "Layer 1B expansion for the AI cluster-fabric node identifies five US-listed, direct-exposure companies spanning switch ASICs and CPO, Ethernet switching systems, full-stack AI networking platforms, optical/DSP semiconductors, and optical transceiver/component manufacturing. This is not a buy/sell list; it is a research universe for later evidence, revenue-quality, customer-concentration, and market-pricing checks.",
+  "theme_id": "ai"
+}

@@ -1,0 +1,178 @@
+{
+  "deep_reports": [
+    {
+      "company": "SK hynix",
+      "evidence_chain": [
+        "[Fact] SK hynix announced on September 12, 2025 that it completed development and finished preparation for HBM4 mass production. Source: https://news.skhynix.com/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/",
+        "[Fact] SK hynix stated that HBM4 doubles bandwidth versus the previous generation by adopting 2,048 I/O terminals and improves power efficiency by more than 40%; it also stated the product achieved over 10Gbps operating speed versus the JEDEC 8Gbps standard. Source: https://news.skhynix.com/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/",
+        "[Fact] SK hynix stated it adopted Advanced MR-MUF and 1bnm process technology for HBM4 to reduce mass-production risk. Source: https://news.skhynix.com/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/",
+        "[Fact] In its FY2025 results release, SK hynix reported 97.1467 trillion won revenue, 47.2063 trillion won operating profit, and 42.9479 trillion won net profit; it said HBM revenue more than doubled year over year and contributed significantly to record results. Source: https://news.skhynix.com/sk-hynix-announces-fy25-financial-results/",
+        "[Fact] SK hynix said in its FY2025 release that large-scale production of next-generation HBM4 was underway to meet customer requests and that it would strengthen customer and partner collaboration for Custom HBM. Source: https://news.skhynix.com/sk-hynix-announces-fy25-financial-results/",
+        "[Fact] At its 78th AGM, SK hynix highlighted HBM4 mass-production system establishment and said it would prepare HBM4, HBM4E, and customized cHBM in 2026. Source: https://news.skhynix.com/78th-annual-general-meeting/",
+        "[Fact] SK hynix showed 12-layer HBM4 at the 2025 OCP Global Summit and displayed 36GB HBM3E applied to NVIDIA GB300 Grace Blackwell GPU. Source: https://news.skhynix.com/sk-hynix-showcases-full-stack-ai-memory-portfolio-at-2025-ocp-global-summit/",
+        "[Fact/secondary-source] Aju Press reported April 23, 2026 that SK hynix said Q1 2026 revenue was 12.4296 trillion won and operating profit was 5.2886 trillion won; it also reported SK hynix commentary that HBM4 supply preparation is aligned with customer mass-production schedules and that three-year demand far exceeds current capacity. Source: https://www.ajupress.com/view/20260423104670975",
+        "[Fact/secondary-source] Asia Business Daily reported April 23, 2026 that SK hynix emphasized HBM4 competitiveness depends on performance, yield, quality, and supply stability, and that the company was working closely with customers from early stages. Source: https://www.asiae.co.kr/en/article/2026042309223223626",
+        "[Fact/secondary-source] TrendForce reported February 26, 2026 that Samsung reclaimed the top DRAM revenue share in 4Q25 with 36%, while SK hynix ranked second with 32.1%, showing that broader DRAM share remains contested even if SK hynix leads in HBM. Source: https://www.trendforce.com/presscenter/news/20260226-12937.html",
+        "[Inference] The evidence supports a strong bottleneck thesis, but the strongest missing evidence remains customer-level HBM4 qualification, actual allocation share by accelerator platform, gross margin by HBM generation, and yield/thermal reliability data. These are not fully disclosed in the public evidence above."
+      ],
+      "falsification_plan": [
+        "Downgrade the thesis if SK hynix fails to secure visible HBM4 allocation on leading 2026-2027 accelerator platforms or if customers diversify meaningfully toward Samsung/Micron faster than expected.",
+        "Downgrade if management language changes from customer-aligned ramp to delay, requalification, or yield stabilization language.",
+        "Downgrade if HBM ASPs or contract terms weaken despite high unit demand, indicating that supply scarcity is easing.",
+        "Downgrade if capex growth causes inventory build, lower utilization, or margin compression before HBM4/HBM4E volumes mature.",
+        "Downgrade if competitor disclosures show equal or superior HBM4/HBM4E bandwidth, power efficiency, stack height, yield, or earlier customer validation.",
+        "Downgrade if AI accelerator roadmaps show lower HBM stacks per accelerator, slower accelerator shipment growth, or migration toward architectures that reduce HBM content.",
+        "Downgrade if independent teardown, supply-chain, or customer evidence contradicts SK hynix’s claimed leadership in HBM4 mass-production readiness.",
+        "Downgrade if broader DRAM pricing strength, rather than HBM-specific economics, explains most profit growth and then reverses."
+      ],
+      "next_research_tasks": [
+        "Collect primary-source SK hynix quarterly earnings materials for Q1 2026 and subsequent quarters; extract exact HBM3E/HBM4 shipment, revenue mix, capex, and margin commentary.",
+        "Verify HBM4 customer qualification evidence from NVIDIA, AMD, Broadcom/custom ASIC ecosystem, hyperscalers, OCP presentations, module photos, teardowns, and supplier statements.",
+        "Map 2026-2027 HBM allocation by platform: NVIDIA GB300, Rubin/Vera Rubin, AMD MI-series, Google TPU, Amazon Trainium, Microsoft Maia, Broadcom custom ASICs, and other accelerators.",
+        "Build a competitor matrix for Samsung, Micron, and SK hynix: HBM3E, HBM4, HBM4E, stack height, I/O width, bandwidth, power, process node, packaging method, qualification status, and mass-production timing.",
+        "Track SK hynix packaging capacity: Cheongju advanced packaging facilities, Indiana U.S. packaging site, M15X, Yongin cluster, TSV capacity, and bottlenecks in substrates/interposers/CoWoS-adjacent capacity.",
+        "Separate HBM economics from conventional DRAM: estimate contribution from HBM, server DDR5/RDIMM, eSSD/Solidigm, and commodity DRAM to avoid over-attributing all profit to HBM.",
+        "Monitor market-pricing check: compare SK hynix valuation, earnings expectations, capex intensity, and margin assumptions against Samsung and Micron, without issuing buy/sell conclusions.",
+        "Search Korean regulatory filings and conference-call transcripts for customer prepayment, long-term supply agreements, order backlog language, inventory, and capex commitments.",
+        "Create a falsification dashboard with monthly fields: HBM4 qualification, competitor qualification, ASP trend, shipment mix, capex, inventory, gross/operating margin, and AI accelerator launch timing.",
+        "Interview or collect evidence from equipment/material nodes: TSV process tools, bonding/inspection, underfill/MUF materials, substrates, thermal interface materials, and advanced packaging capacity to locate second-order chokepoints."
+      ],
+      "risks": [
+        "[Execution risk] HBM4 or HBM4E customer qualification could slip, require rework, or lose allocation to Samsung or Micron.",
+        "[Yield and reliability risk] Advanced stacking, TSV, MR-MUF, thermal control, and 12-layer or future higher-stack architectures may create yield or field-reliability problems that reduce profitable volume.",
+        "[Capacity-cycle risk] Memory is historically cyclical. If SK hynix, Samsung, and Micron all expand HBM and advanced DRAM capacity aggressively, current scarcity could turn into oversupply or weaker pricing.",
+        "[Customer concentration risk] HBM demand is heavily tied to a small set of accelerator vendors, hyperscalers, and platform transitions. Any delay in NVIDIA/AMD/custom ASIC roadmaps could affect shipment timing.",
+        "[Competitive risk] Samsung may regain share through HBM4/HBM4E and packaging improvements; Micron has announced HBM4 high-volume production for NVIDIA Vera Rubin, making 2026-2027 share more contested.",
+        "[Architecture risk] Future accelerators could reduce HBM intensity per unit of compute through memory compression, larger on-package SRAM/cache, CXL memory pooling, optical interconnect changes, or alternative memory architectures.",
+        "[Geopolitical and capex risk] Korean, U.S., Chinese, and export-control policies, plus very large fab and packaging capex requirements, can alter economics and customer allocation.",
+        "[Market-pricing risk] The public market may already capitalize much of the HBM leadership narrative; research must separate operational upside from expectations already embedded in valuation."
+      ],
+      "supply_chain_position": "AI demand layer: hyperscale AI training/inference clusters and accelerator roadmaps. System layer: NVIDIA/AMD/custom ASIC AI modules using multi-stack HBM near compute dies. Component chokepoint: HBM3E/HBM4/HBM4E stacks, including DRAM core dies, base logic die, TSV stacking, micro-bumps/hybrid bonding roadmap, thermal interface and advanced packaging. SK hynix position: upstream memory supplier and AI memory platform provider, exposed to HBM bandwidth, yield, customer qualification, capacity allocation, and custom HBM collaboration. 中文定位：SK hynix 不在下游服务器整机，也不只是普通 DRAM 供应商；它处在 AI 加速器显存带宽与封装良率的核心卡点，研究重点应围绕 HBM4/HBM4E 的量产节奏、客户分配、良率和价格，而非笼统的“AI 需求很好”。",
+      "thesis_cn": "AI 加速器从训练扩展到推理后，对显存带宽、容量、功耗效率与封装可靠性的要求继续上升，HBM 因 TSV 堆叠、先进封装、热管理、良率爬坡和客户认证周期长，构成 AI 半导体链条中较明确的供应瓶颈。SK hynix 已披露完成 HBM4 开发并准备量产，2025 年 HBM 收入同比翻倍，且公司表示 HBM4 大规模生产已按客户需求推进。若 HBM4/HBM4E 认证和产能分配继续领先 Samsung 与 Micron，SK hynix 可能继续享有瓶颈环节的份额和利润弹性。需要强调：这是产业链研究假设，不是交易建议。",
+      "thesis_en": "[Inference] As AI accelerators scale from training into inference, requirements for memory bandwidth, capacity, power efficiency, packaging reliability, and thermal control continue to rise. HBM is a clear AI semiconductor chokepoint because TSV stacking, advanced packaging, yield ramp, customer qualification, and supply allocation are hard to expand quickly. SK hynix has disclosed completion of HBM4 development and readiness for mass production; it also reported that 2025 HBM revenue more than doubled year over year and that large-scale HBM4 production was underway to meet customer requests. If SK hynix sustains HBM4/HBM4E qualification and allocation leadership versus Samsung and Micron, it may retain bottleneck economics. This is a research hypothesis, not investment advice.",
+      "ticker": "000660.KS",
+      "title_cn": "SK hynix：AI HBM 物理瓶颈的领先供应商，关键验证点转向 HBM4/HBM4E 量产、认证与份额防守",
+      "title_en": "SK hynix: Leading Supplier at the AI HBM Physical Chokepoint; Key Verification Shifts to HBM4/HBM4E Ramp, Qualification, and Share Defense"
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "SK hynix announced completion of HBM4 development and readiness for mass production on September 12, 2025.",
+      "claim_type": "fact",
+      "evidence_quality": "primary_company_press_release",
+      "importance": "high",
+      "source_url": "https://news.skhynix.com/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/"
+    },
+    {
+      "claim": "SK hynix stated HBM4 doubled bandwidth, improved power efficiency by more than 40%, adopted 2,048 I/O terminals, and reached over 10Gbps operating speed.",
+      "claim_type": "fact",
+      "evidence_quality": "primary_company_press_release",
+      "importance": "high",
+      "source_url": "https://news.skhynix.com/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/"
+    },
+    {
+      "claim": "SK hynix stated HBM4 uses Advanced MR-MUF and 1bnm process technology to reduce mass-production risk.",
+      "claim_type": "fact",
+      "evidence_quality": "primary_company_press_release",
+      "importance": "high",
+      "source_url": "https://news.skhynix.com/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/"
+    },
+    {
+      "claim": "SK hynix reported FY2025 revenue of 97.1467 trillion won, operating profit of 47.2063 trillion won, and net profit of 42.9479 trillion won.",
+      "claim_type": "fact",
+      "evidence_quality": "primary_company_results_release",
+      "importance": "high",
+      "source_url": "https://news.skhynix.com/sk-hynix-announces-fy25-financial-results/"
+    },
+    {
+      "claim": "SK hynix said 2025 HBM revenue more than doubled year over year and contributed significantly to record results.",
+      "claim_type": "fact",
+      "evidence_quality": "primary_company_results_release",
+      "importance": "high",
+      "source_url": "https://news.skhynix.com/sk-hynix-announces-fy25-financial-results/"
+    },
+    {
+      "claim": "SK hynix said large-scale HBM4 production was underway to meet customer requests and highlighted Custom HBM collaboration.",
+      "claim_type": "fact",
+      "evidence_quality": "primary_company_results_release",
+      "importance": "high",
+      "source_url": "https://news.skhynix.com/sk-hynix-announces-fy25-financial-results/"
+    },
+    {
+      "claim": "SK hynix AGM commentary highlighted HBM4 mass-production system establishment and preparation of HBM4, HBM4E, and customized cHBM.",
+      "claim_type": "fact",
+      "evidence_quality": "primary_company_event_release",
+      "importance": "medium",
+      "source_url": "https://news.skhynix.com/78th-annual-general-meeting/"
+    },
+    {
+      "claim": "At OCP Global Summit 2025, SK hynix displayed 12-layer HBM4 and 36GB HBM3E applied to NVIDIA GB300 Grace Blackwell GPU.",
+      "claim_type": "fact",
+      "evidence_quality": "primary_company_event_release",
+      "importance": "medium",
+      "source_url": "https://news.skhynix.com/sk-hynix-showcases-full-stack-ai-memory-portfolio-at-2025-ocp-global-summit/"
+    },
+    {
+      "claim": "Aju Press reported SK hynix Q1 2026 revenue of 12.4296 trillion won and operating profit of 5.2886 trillion won, and reported management commentary that three-year HBM demand far exceeds current capacity.",
+      "claim_type": "fact",
+      "evidence_quality": "secondary_media_reporting_on_conference_call",
+      "importance": "medium",
+      "source_url": "https://www.ajupress.com/view/20260423104670975"
+    },
+    {
+      "claim": "Asia Business Daily reported SK hynix conference-call commentary that HBM4 competitiveness depends on performance, yield, quality, and supply stability.",
+      "claim_type": "fact",
+      "evidence_quality": "secondary_media_reporting_on_conference_call",
+      "importance": "medium",
+      "source_url": "https://www.asiae.co.kr/en/article/2026042309223223626"
+    },
+    {
+      "claim": "TrendForce reported that Samsung reclaimed the top DRAM revenue share in 4Q25 with 36%, while SK hynix ranked second with 32.1%, indicating broader DRAM share competition remains active.",
+      "claim_type": "fact",
+      "evidence_quality": "industry_research_press_release",
+      "importance": "medium",
+      "source_url": "https://www.trendforce.com/presscenter/news/20260226-12937.html"
+    },
+    {
+      "claim": "SK hynix maps to an AI chokepoint because HBM4/HBM4E performance, power efficiency, yield, qualification, and capacity allocation are difficult to substitute quickly.",
+      "claim_type": "inference",
+      "evidence_quality": "serenity_inference_from_primary_and_secondary_sources",
+      "importance": "high",
+      "source_url": "derived_from_evidence_above"
+    },
+    {
+      "claim": "SK hynix may retain bottleneck economics if it sustains HBM4/HBM4E customer allocation leadership and avoids yield or pricing deterioration.",
+      "claim_type": "hypothesis",
+      "evidence_quality": "research_hypothesis_requires_future_validation",
+      "importance": "high",
+      "source_url": "derived_from_evidence_above"
+    }
+  ],
+  "layer": 5,
+  "memory_update": [
+    {
+      "best_current_evidence": [
+        "Primary company HBM4 completion and mass-production readiness release dated 2025-09-12",
+        "Primary FY2025 results release showing record results and HBM revenue more than doubled year over year",
+        "Company AGM and OCP evidence showing HBM4/HBM4E/custom HBM strategic priority",
+        "Secondary Q1 2026 conference-call reporting indicating demand exceeds capacity and HBM4 ramp is aligned with customer schedules"
+      ],
+      "core_chokepoint": "HBM bandwidth, power efficiency, TSV stacking, advanced packaging yield, HBM4/HBM4E customer qualification, and capacity allocation",
+      "entity": "SK hynix",
+      "key_uncertainties": [
+        "Actual HBM4 customer qualification and allocation by platform",
+        "HBM4/HBM4E yield and thermal reliability at volume",
+        "Pricing durability as Samsung and Micron ramp",
+        "How much of profit growth is HBM-specific versus broader memory upcycle",
+        "Whether market expectations already price in leadership"
+      ],
+      "layer": 5,
+      "next_checkpoint": "Update after next SK hynix quarterly earnings call and after additional NVIDIA/AMD/custom ASIC HBM4 platform disclosures.",
+      "research_status": "mini_deep_report_completed",
+      "theme": "AI",
+      "ticker": "000660.KS"
+    }
+  ],
+  "summary": "Layer 5 mini deep report target: SK hynix / 000660.KS. Core conclusion: SK hynix is a high-priority Serenity deep-research target inside AI because HBM sits at the physical chokepoint where accelerator performance, memory bandwidth, thermal/power efficiency, TSV stacking, advanced packaging yield, and customer qualification converge. This is research support only, not a buy/sell recommendation. 核心结论：SK hynix 是 AI 半导体链条里值得进入第五层深挖的目标，因为 HBM 是算力扩张中最清晰的物理卡点之一，关键变量不是单纯需求热度，而是 HBM4/HBM4E 客户认证、良率、产能分配、价格韧性及 Samsung/Micron 追赶速度。",
+  "theme_id": "AI"
+}

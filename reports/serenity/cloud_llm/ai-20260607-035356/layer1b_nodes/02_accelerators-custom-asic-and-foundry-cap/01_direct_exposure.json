@@ -1,0 +1,205 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "NVIDIA Corporation",
+      "confidence": 0.95,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track the latest quarterly data-center revenue split, Blackwell/Rubin supply commentary, HBM supply, CoWoS or advanced packaging constraints, and hyperscaler concentration.",
+      "node_relation": "Merchant AI accelerator leader supplying GPUs, accelerator systems, networking, and AI data-center platforms.",
+      "sector_or_industry": "AI semiconductors / accelerated computing platforms",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "merchant_accelerator",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct compute-core beneficiary of AI model training and inference data-center buildout.",
+      "ticker": "NVDA",
+      "why_include": "NVIDIA has explicit data-center platform exposure to AI and accelerated computing, and its fiscal 2026 results describe record revenue driven by accelerated computing and AI. It is the obvious merchant accelerator benchmark for this node."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Broadcom Inc.",
+      "confidence": 0.94,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Validate customer concentration, number of active custom accelerator programs, AI backlog conversion, foundry allocation, package substrate/HBM constraints, and margin mix between custom accelerators and networking.",
+      "node_relation": "Custom AI accelerator and AI networking supplier for hyperscaler-scale AI infrastructure.",
+      "sector_or_industry": "Custom AI accelerators / AI networking semiconductors",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "custom_asic",
+        "ai_networking"
+      ],
+      "theme_relation": "Direct exposure to the shift from only merchant GPUs toward custom accelerator design slots and Ethernet/networking fabrics.",
+      "ticker": "AVGO",
+      "why_include": "Broadcom has unusually explicit AI semiconductor revenue disclosure: its Q2 fiscal 2026 filing said AI semiconductor revenue grew strongly, driven by custom AI accelerators and AI networking. Its OpenAI collaboration also directly maps to custom accelerator deployment."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Taiwan Semiconductor Manufacturing Company Limited",
+      "confidence": 0.93,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track N2/A16 ramp timing, CoWoS capacity additions, advanced packaging utilization, wafer pricing, AI customer allocation, and geographic expansion execution risk.",
+      "node_relation": "Advanced-node wafer capacity and CoWoS/3DFabric advanced packaging capacity owner for AI chips.",
+      "sector_or_industry": "Advanced foundry / advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "advanced_node",
+        "advanced_packaging",
+        "capacity"
+      ],
+      "theme_relation": "The manufacturing conversion layer that determines whether accelerator demand becomes shipped silicon.",
+      "ticker": "TSM",
+      "why_include": "TSMC directly sits at the advanced-node and advanced-packaging chokepoint. Its 2026 technology symposium materials describe 3DFabric and CoWoS expansion to support AI demand for more computing power and memory in a package."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Advanced Micro Devices, Inc.",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check Instinct revenue disclosure granularity, MI-series shipment cadence, hyperscaler wins, software ecosystem progress, HBM allocation, and whether custom/semi-custom AI programs emerge.",
+      "node_relation": "Merchant AI accelerator competitor through AMD Instinct GPUs plus data-center CPU platform exposure.",
+      "sector_or_industry": "AI accelerators / data-center CPUs and GPUs",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "merchant_accelerator",
+        "second_source",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct product-level exposure to AI accelerator demand and second-source diversification by hyperscalers.",
+      "ticker": "AMD",
+      "why_include": "AMD's Q1 2026 official release reported data-center revenue growth driven by EPYC demand and the continued ramp of Instinct GPU shipments, directly tying AMD to AI accelerator supply."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Synopsys, Inc.",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify AI/HPC customer contribution, EDA backlog or growth tied to advanced-node designs, IP attach rates for HBM/UCIe/PCIe, and whether Ansys integration strengthens multiphysics signoff for 3D packaging.",
+      "node_relation": "EDA and IP provider enabling advanced-node, multi-die, HBM/interface, and custom AI/HPC chip design flows.",
+      "sector_or_industry": "EDA software / semiconductor IP / chip design enablement",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "eda",
+        "custom_asic_enablement",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order but strategically important exposure to the custom accelerator design-slot bottleneck, because AI ASIC programs depend on certified EDA, IP, verification, and signoff flows.",
+      "ticker": "SNPS",
+      "why_include": "Synopsys has official 2026 announcements with TSMC and Samsung Foundry around certified EDA flows, silicon-proven IP, 3DIC, advanced nodes, and AI/multi-die designs. Revenue exposure to AI is less directly disclosed, so this is an enabling-bottleneck candidate rather than a pure-play accelerator vendor."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "NVIDIA's fiscal 2026 fourth-quarter release reported record revenue and said results were driven by accelerated computing and AI; the company is a direct AI data-center accelerator platform vendor.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-03",
+      "source_title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Broadcom's Q2 fiscal 2026 filing reported AI semiconductor revenue of $10.8 billion, up 143% year over year, driven by custom AI accelerators and AI networking.",
+      "claim_type": "fact",
+      "confidence": 0.96,
+      "published_at": "2026-06-03",
+      "source_title": "Broadcom Inc. Q2 Fiscal Year 2026 Financial Results",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-05032026x8kxex99.htm",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Broadcom and OpenAI announced a strategic collaboration to deploy OpenAI-designed AI accelerators, with Broadcom providing accelerators and Ethernet solutions.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2025-10",
+      "source_title": "OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators",
+      "source_url": "https://www.broadcom.com/company/news/product-releases/63631",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "TSMC's 2026 North America Technology Symposium announcement said it continues to expand CoWoS technology to integrate more silicon in support of AI demand for more computing power and memory in a single package.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-04-22",
+      "source_title": "TSMC Debuts A13 Technology at 2026 North America Technology Symposium",
+      "source_url": "https://pr.tsmc.com/english/news/3302",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Independent industry reporting indicates AI demand is tightening advanced packaging and 3nm-to-2nm capacity, reinforcing TSMC's relevance as a capacity bottleneck candidate.",
+      "claim_type": "inference",
+      "confidence": 0.86,
+      "published_at": "2026-04-30",
+      "source_title": "AI Competition Turns into a Supply Chain Arms Race, Tightening Advanced Packaging and 3nm Capacity, Says TrendForce",
+      "source_url": "https://www.trendforce.com/presscenter/news/20260430-13028.html",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "AMD's Q1 2026 financial release reported data-center segment revenue of $5.8 billion, up 57% year over year, driven by EPYC processor demand and continued ramp of AMD Instinct GPU shipments.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-05",
+      "source_title": "AMD Reports First Quarter 2026 Financial Results",
+      "source_url": "https://www.amd.com/en/newsroom/press-releases/2026-5-5-amd-reports-first-quarter-2026-financial-results.html",
+      "ticker": "AMD"
+    },
+    {
+      "claim": "Synopsys announced 2026 collaboration with TSMC for next-generation AI systems using silicon-proven IP and certified EDA flows across advanced processes and packaging technologies.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2026-04-22",
+      "source_title": "Synopsys Partners with TSMC to Power Next-Generation AI Systems with Silicon Proven IP and Certified EDA Flows",
+      "source_url": "https://investor.synopsys.com/news/news-details/2026/Synopsys-Partners-with-TSMC-to-Power-Next-Generation-AI-Systems-with-Silicon-Proven-IP-and-Certified-EDA-Flows/default.aspx",
+      "ticker": "SNPS"
+    },
+    {
+      "claim": "Synopsys announced 2026 collaborations with Samsung Foundry on advanced nodes, AI-powered EDA tools, certified interface IP, and 3D multi-die design support.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06",
+      "source_title": "Synopsys Advances Power and Performance for AI and Multi-Die Designs on Latest Samsung Foundry Processes at SAFE Forum 2026",
+      "source_url": "https://investor.synopsys.com/news/news-details/2026/Synopsys-Advances-Power-and-Performance-for-AI-and-Multi-Die-Designs-on-Latest-Samsung-Foundry-Processes-at-SAFE-Forum-2026/default.aspx",
+      "ticker": "SNPS"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.8,
+      "text": "MRVL should remain on the next-pass watchlist as a custom silicon, optical DSP, silicon photonics, and AI data-center connectivity supplier; official 2026 releases mention robust AI demand and NVIDIA NVLink Fusion participation, but it was excluded here due to the five-candidate limit.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "CDNS and ARM are credible second-order candidates for custom AI silicon design enablement: Cadence through certified EDA/IP/3D-IC flows and Arm through Neoverse CSS and AGI CPU positioning. They require separate evidence checks before promotion.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "The strongest direct evidence in this node currently clusters around AVGO custom AI accelerator revenue, NVDA merchant accelerator/data-center scale, AMD Instinct ramp, TSM advanced packaging/foundry capacity, and EDA/IP providers enabling more custom ASIC design starts.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.84,
+      "text": "This pass did not fully cover semiconductor capital equipment suppliers such as ASML, AMAT, LRCX, KLAC, and Tokyo Electron ADR exposure; those map more cleanly to the foundry capacity expansion sub-node and should be handled in a dedicated equipment pass.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.9,
+      "text": "AI revenue disclosure quality is uneven: AVGO and NVDA provide clearer AI/data-center evidence, while SNPS and other EDA/IP suppliers often provide product and ecosystem evidence rather than direct AI revenue attribution.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI accelerators, custom ASICs, and advanced foundry capacity",
+  "node_id": "accelerators_custom_asic_and_foundry_capacity",
+  "summary": "Layer 1B universe expansion for the AI accelerator/custom ASIC/foundry-capacity node identifies five US-listed or US-traded public companies with direct exposure: NVIDIA and AMD as merchant accelerator platform vendors, Broadcom as the clearest custom AI accelerator and AI networking supplier with explicit AI semiconductor revenue disclosure, TSMC as the dominant advanced-node and advanced-packaging manufacturing capacity owner, and Synopsys as an EDA/IP bottleneck enabler for custom AI/HPC silicon design flows. This is research support only, not a trading recommendation. The strongest evidence is from company releases; revenue attribution remains uneven because some companies disclose AI/data-center revenue directly while others describe AI exposure qualitatively.",
+  "theme_id": "ai_artificial_intelligence_cloud_data_center_semiconductors_software_automation"
+}

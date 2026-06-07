@@ -1,0 +1,529 @@
+{
+  "candidates": [
+    {
+      "claim_type": "inference",
+      "company": "Broadcom Inc.",
+      "confidence": 0.94,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track AI networking revenue disclosures, Tomahawk 6 production volume, hyperscaler/OEM design wins, 800G NIC adoption, CPO timing, and whether merchant Ethernet gains share versus vertically integrated NVIDIA fabrics.",
+      "node_relation": "Direct supplier of Ethernet switch silicon, AI Ethernet NICs, optical PHY/DSP technology, and CPO-related AI networking components.",
+      "sector_or_industry": "Semiconductors / networking silicon / custom ASICs",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "product_leader",
+        "evidence_needed"
+      ],
+      "theme_relation": "Broadcom sits at the merchant-silicon layer of AI cluster scale-out networking, where 800G/1.6T bandwidth, low latency, and power efficiency become cluster constraints.",
+      "ticker": "AVGO",
+      "why_include": "Broadcom has explicit AI networking products including Tomahawk 6 102.4T Ethernet switch silicon, Thor Ultra 800G AI Ethernet NIC, optical transceiver PHY/DSP products, and Tomahawk 6-Davisson CPO. These map directly to the hypothesized chokepoint."
+    },
+    {
+      "claim_type": "inference",
+      "company": "NVIDIA Corporation",
+      "confidence": 0.93,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Separate networking revenue contribution where possible, monitor Spectrum-X Ethernet adoption beyond NVIDIA GPU-only clusters, CPO readiness, supply agreements with optics partners, and competitive displacement risk from open Ethernet.",
+      "node_relation": "Direct platform owner for InfiniBand, Spectrum-X Ethernet, ConnectX NICs, Quantum-X switches, and emerging Spectrum-X photonics/CPO networking.",
+      "sector_or_industry": "AI accelerators / networking systems / systems software",
+      "serenity_tags": [
+        "demand",
+        "platform",
+        "supply_chain",
+        "bottleneck"
+      ],
+      "theme_relation": "NVIDIA is both an AI accelerator supplier and a networking-stack owner; as clusters scale, its networking products can determine GPU utilization, east-west bandwidth, and system-level performance.",
+      "ticker": "NVDA",
+      "why_include": "NVIDIA’s Spectrum-X and InfiniBand platforms are purpose-built for AI cluster networking. Its 2026 Rubin/Spectrum-6 disclosures explicitly reference 200G SerDes, co-packaged optics, and AI-optimized fabrics."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Marvell Technology",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-Q/10-K revenue mix, hyperscaler customer concentration, actual sampling-to-volume timing for Ara/Libra/COLORZ 1600, gross margin trend in data-center products, and whether 1.6T demand is incremental or replacing 800G.",
+      "node_relation": "Supplier of optical DSPs and related high-speed interconnect silicon used in 800G/1.6T optical modules, data-center interconnect, and AI scale-out networking.",
+      "sector_or_industry": "Data infrastructure semiconductors; optical DSPs, coherent DSPs, Ethernet switch silicon, SerDes, AEC DSPs",
+      "serenity_tags": [
+        "supply_chain",
+        "component",
+        "bottleneck",
+        "evidence_needed",
+        "optical_dsp",
+        "ai_networking",
+        "ethernet_switching",
+        "silicon_photonics"
+      ],
+      "theme_relation": "AI cluster growth increases bandwidth requirements between accelerators, racks, and data centers; Marvell's 1.6T PAM4 DSP, coherent DSP, AEC DSP, and switch-silicon products map directly to that bandwidth bottleneck.",
+      "ticker": "MRVL",
+      "why_include": "Marvell has announced 1.6T and 800G Alaska A PAM4 DSPs, 200G/lambda 1.6T PAM4 optical interconnect demonstrations, and 800G ZR/ZR+ pluggable optics for multi-site AI training. | Marvell has official 2026 disclosures for expanded 1.6T optical DSP platforms and OFC 2026 AI data-center connectivity demos, including Ara 3nm 1.6T PAM4 optical DSP and Teralynx switch silicon. This is direct exposure to the optical/DSP layer that may become scarce as AI clusters move from 800G toward 1.6T. | Marvell is a direct node candidate because it has public 1.6T optical DSP products for AI data-center interconnects and switch silicon used in AI cloud deployments. It is less obvious than NVIDIA/Broadcom but can sit at a critical signal-processing layer inside high-speed optics."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Arista Networks, Inc.",
+      "confidence": 0.89,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track AI back-end cluster revenue, 800G switch ramps, hyperscaler concentration, win/loss versus NVIDIA Spectrum-X and Broadcom-based white-box switches, and gross-margin durability.",
+      "node_relation": "Direct supplier of Ethernet switching systems and EOS software used in cloud and AI data center fabrics.",
+      "sector_or_industry": "Cloud networking equipment / Ethernet switching software and systems",
+      "serenity_tags": [
+        "platform",
+        "direct_customer_exposure",
+        "supply_chain",
+        "evidence_needed"
+      ],
+      "theme_relation": "Arista is a leading Ethernet AI networking platform vendor; if hyperscalers standardize more AI fabrics on Ethernet, Arista is a plausible direct beneficiary.",
+      "ticker": "ANET",
+      "why_include": "Arista has announced AI networking innovations and 800G/400G platforms for AI clusters scaling to 100,000+ accelerators. Its exposure is tied to Ethernet becoming a preferred AI scale-out fabric."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Coherent Corp.",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check fiscal 2026 datacom growth, 800G/1.6T transceiver shipments, capacity expansion spending, balance-sheet leverage, yield constraints in InP and silicon photonics, and how much NVIDIA-related demand is committed versus optional.",
+      "node_relation": "Vertically integrated photonics supplier with CPO demonstrations, external laser source modules, high-power InP continuous-wave lasers, silicon-photonics-based optical systems, and datacom transceiver exposure.",
+      "sector_or_industry": "Photonics, lasers, optical components, transceivers, advanced materials",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "component",
+        "evidence_needed",
+        "lasers",
+        "silicon_photonics",
+        "cpo",
+        "advanced_materials",
+        "800G",
+        "1.6T",
+        "CPO"
+      ],
+      "theme_relation": "Coherent maps to several scarce subnodes at once: advanced materials, lasers, optical modules, CPO building blocks, and manufacturing capacity for AI-scale data-center networks.",
+      "ticker": "COHR",
+      "why_include": "Coherent has demonstrated 1.6T optical transceivers, including silicon-photonics-based 1.6T modules using Marvell DSPs, and announced a strategic optics partnership with NVIDIA for next-generation data center architecture. | Coherent and NVIDIA announced a multiyear strategic agreement in 2026 to advance optics technologies, manufacturing capacity, and R&D for next-generation AI infrastructure. Coherent also demonstrated CPO technologies at OFC 2026, including a 6.4T socketed CPO based on silicon photonics paired with an external laser source powered by Coherent high-power InP CW lasers. | Coherent has explicit public commentary that AI datacenter infrastructure is driving demand and capacity expansion. Its breadth across transceivers, lasers, InP and photonic components makes it a plausible chokepoint beneficiary if optical supply tightens."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Lumentum Holdings",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track facility ramp timing, capex requirements, yields, customer purchase commitments, pricing pressure, exposure to NVIDIA versus other hyperscalers, and whether external laser source demand materializes at CPO scale.",
+      "node_relation": "Supplier of advanced lasers and photonic components that can serve as scarce inputs for high-speed optical interconnects and co-packaged optics.",
+      "sector_or_industry": "Optical and photonic components; advanced lasers for data centers and CPO",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "lasers",
+        "cpo",
+        "capacity_expansion",
+        "evidence_needed",
+        "silicon_photonics",
+        "CPO",
+        "NVIDIA_ecosystem"
+      ],
+      "theme_relation": "If AI data-center optical bandwidth and power efficiency become cluster-level constraints, high-reliability laser capacity for CPO and 800G/1.6T optics becomes a potential chokepoint.",
+      "ticker": "LITE",
+      "why_include": "Lumentum announced a new US manufacturing facility in March 2026 to produce advanced lasers for the world's largest AI data centers, and stated NVIDIA will serve as a customer of that facility. This is direct evidence of capacity expansion tied to AI optical infrastructure. | Lumentum has public NVIDIA ecosystem exposure and announced U.S. manufacturing for advanced lasers for large AI data centers. This makes it a direct photonics-capacity candidate rather than a generic telecom optics name."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Credo Technology Group",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify which hyperscalers or module partners are in production versus qualification, AEC revenue growth, 1.6T DSP sampling and volume timing, customer concentration, inventory risk, and competitive positioning versus Marvell/Broadcom.",
+      "node_relation": "Supplier of high-speed connectivity chips and optical DSPs for massive-scale AI fabrics, including 1.6T optical DSP products and AEC-related interconnect exposure.",
+      "sector_or_industry": "High-speed connectivity semiconductors; SerDes, active electrical cables, optical DSPs",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "aec",
+        "optical_dsp",
+        "hyperscaler_validation",
+        "evidence_needed"
+      ],
+      "theme_relation": "Credo benefits if AI clusters require lower-power, high-density electrical and optical connectivity between accelerators, switches, and racks.",
+      "ticker": "CRDO",
+      "why_include": "Credo announced its Cardinal 1.6T optical DSP family in March 2026, explicitly positioning it for massive-scale AI fabrics. The company is a focused connectivity supplier, which can create higher node purity but also raises customer concentration and ramp-risk questions."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Corning Incorporated",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check optical communications revenue growth, incremental AI datacenter contribution, customer concentration, capacity additions, pricing power, lead times, and whether additional hyperscaler contracts are disclosed.",
+      "node_relation": "Supplier of optical fiber, cable and connectivity products used in dense AI data-center buildouts.",
+      "sector_or_industry": "Specialty glass, optical fiber, cable and connectivity",
+      "serenity_tags": [
+        "supply_chain",
+        "adjacent_chokepoint",
+        "fiber",
+        "data_center_connectivity",
+        "hyperscaler_customer",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI datacenters require denser fiber connectivity than conventional server environments; if fiber/cable lead times extend, Corning becomes a second-order infrastructure chokepoint candidate.",
+      "ticker": "GLW",
+      "why_include": "Corning is not a chip or module vendor, but it has explicit hyperscaler AI datacenter supply exposure through a multiyear Meta agreement for optical fiber, cable and connectivity. This maps to the physical network layer that can bottleneck campus-scale AI buildouts."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Applied Optoelectronics",
+      "confidence": 0.78,
+      "market_cap_filter_note": "unknown",
+      "next_evidence": "Verify current market capitalization, customer concentration, actual shipment timing, gross margin sustainability, capex funding, yield/qualification status, and whether volume orders convert into recurring revenue rather than one-off demand.",
+      "node_relation": "Supplier of 400G, 800G, and 1.6T optical transceivers for datacenter and hyperscale customers.",
+      "sector_or_industry": "Optical modules and components; datacenter transceivers",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "optical_transceivers",
+        "hyperscaler_customer",
+        "smaller_cap_exception",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI cluster scaling drives demand for higher-speed optical transceivers; AAOI has direct product exposure to the 800G-to-1.6T transition, but the company may be smaller and more customer-concentrated than large-cap peers.",
+      "ticker": "AAOI",
+      "why_include": "AAOI announced in March 2026 that it received its first volume order for 1.6T datacenter transceivers from a long-term major hyperscale customer, and separately highlighted 800G/1.6T capacity expansion. It is a direct but potentially higher-risk chokepoint candidate due to smaller scale, customer concentration, and execution risk."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Tower Semiconductor",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm whether silicon-photonics work becomes material to revenue, identify end customers if disclosed, track foundry capacity, wafer pricing, process-node differentiation, and risk that larger foundries internalize or commoditize this layer.",
+      "node_relation": "Specialty foundry capacity for silicon photonics used in 1.6T data-center optical modules.",
+      "sector_or_industry": "Specialty analog foundry; silicon photonics platform",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "silicon_photonics",
+        "foundry",
+        "1.6T",
+        "NVIDIA_ecosystem",
+        "evidence_needed"
+      ],
+      "theme_relation": "If the AI networking stack shifts from traditional pluggable optics toward silicon photonics and CPO, foundry capacity and validated process platforms may become underappreciated chokepoints.",
+      "ticker": "TSEM",
+      "why_include": "Tower is a less obvious AI infrastructure mapping: it is not the branded module or switch vendor, but it has announced work with NVIDIA on high-performance silicon photonics for 1.6T data-center optical modules."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Broadcom lists the BCM78910/Tomahawk 6 Ethernet switch series as a 102.4 Tb/s switch family supporting 1.6TbE, 128 x 800GbE, and AI scale-out clusters with 1M+ XPUs.",
+      "claim_type": "fact",
+      "confidence": 0.96,
+      "published_at": "",
+      "source_title": "Ethernet Switch Chip | Networking for AI | AI Clusters",
+      "source_url": "https://www.broadcom.com/products/ethernet-connectivity/switching/strataxgs/bcm78910-series",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Broadcom’s OFC 2026 materials describe AI infrastructure networking products including Tomahawk 6 production volume, Tomahawk 6-Davisson CPO, and the Thor Ultra 800G AI NIC.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-05",
+      "source_title": "Broadcom Showcases Industry-Leading Solutions for Scaling AI Infrastructure at OFC 2026",
+      "source_url": "https://investors.broadcom.com/node/64036/pdf",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "NVIDIA describes Spectrum-X as an Ethernet networking platform for massive-scale AI and claims it enhances AI networking performance by 1.6x.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "NVIDIA Spectrum-X Ethernet Platform for AI Networking",
+      "source_url": "https://www.nvidia.com/en-us/networking/spectrumx/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "NVIDIA’s 2026 Rubin announcement says Spectrum-6 Ethernet is built for AI networking and is enabled by 200G SerDes, co-packaged optics, and AI-optimized fabrics.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-01",
+      "source_title": "NVIDIA Kicks Off the Next Generation of AI With Rubin — Six New Chips, One Incredible AI Supercomputer",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Kicks-Off-the-Next-Generation-of-AI-With-Rubin--Six-New-Chips-One-Incredible-AI-Supercomputer/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Arista announced AI networking products including EOS Smart AI Suite, Ethernet-based AI load balancing, and 800G/400G platforms intended to scale from small AI clusters to 100,000+ accelerators.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2025-03",
+      "source_title": "Arista Introduces Intelligent Innovations for AI Networking",
+      "source_url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2025/Arista-Introduces-Intelligent-Innovations-for-AI-Networking/",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Marvell announced an interconnect portfolio for scale-up and scale-out AI deployments at OFC 2025, including 200G/lambda 1.6T PAM4 optical interconnect, 1.6T AEC DSPs, and 800G ZR/ZR+ pluggable optics for multi-site AI training.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2025-03-31",
+      "source_title": "Marvell Advances Interconnect Portfolio for Scale-up and Scale-out Fabrics at OFC 2025",
+      "source_url": "https://investor.marvell.com/news-events/press-releases/detail/106/marvell-advances-interconnect-portfolio-for-scale-up-and-scale-out-fabrics-at-ofc-2025",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Coherent announced it would demonstrate multiple 1.6T transceivers at OFC 2026 using silicon photonics PICs, high-power InP CW lasers, 200G InP EML, and 200G GaAs VCSEL technologies.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-04",
+      "source_title": "Coherent Demonstrates Technologies for Next-Generation Pluggable Transceiver at OFC 2026",
+      "source_url": "https://www.coherent.com/news/press-releases/coherent-demonstrates-next-gen-pluggable-transceiver-ofc-2026",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "NVIDIA and Coherent announced a strategic partnership to develop optics technology for next-generation data center architecture.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03",
+      "source_title": "NVIDIA and Coherent Announce Strategic Partnership to Develop Optics Technology to Scale Next-Generation Data Center Architecture",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Marvell announced an expanded 1.6T optical DSP platform portfolio for next-generation AI data-center connectivity, including prior Nova and Ara 1.6T platforms and production-proven 800G platforms.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-03",
+      "source_title": "Marvell Ushers In the 1.6T Era with Expanded Optical DSP Platform Portfolio, Redefining AI Data Center End-to-End Connectivity",
+      "source_url": "https://investor.marvell.com/news-events/press-releases/detail/1013/marvell-ushers-in-the-1-6t-era-with-expanded-optical-dsp-platform-portfolio-redefining-ai-data-center-end-to-end-connectivity",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Marvell's OFC 2026 release listed 200G/lambda 1.6T PAM4 optical interconnect with Ara DSP and Teralynx switch silicon for AI workload traffic optimization at 800GE.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03",
+      "source_title": "Marvell to Showcase Industry-leading, End-to-End Connectivity Solutions for AI Data Center Infrastructure at OFC 2026",
+      "source_url": "https://investor.marvell.com/news-events/press-releases/detail/1014/marvell-to-showcase-industry-leading-end-to-end-connectivity-solutions-for-ai-data-center-infrastructure-at-ofc-2026",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Credo introduced the Cardinal 1.6T optical DSP family engineered for massive-scale AI fabrics.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03-17",
+      "source_title": "Credo Introduces Cardinal, a Low-Power 1.6T Optical DSP Family Engineered for Massive-Scale AI Fabrics",
+      "source_url": "https://s205.q4cdn.com/511065572/files/doc_news/Credo-Introduces-Cardinal-A-LowPower-1-6T-Optical-DSP-Family-Engineered-for-MassiveScale-AI-Fabrics-2026.pdf",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Lumentum announced a new US manufacturing facility to produce advanced lasers for large AI data centers and stated NVIDIA will serve as a customer of the facility.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03-26",
+      "source_title": "Lumentum Announces New U.S. Manufacturing Facility to Produce Advanced Lasers for the World’s Largest AI Data Centers",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-New-U-S--Manufacturing-Facility-to-Produce-Advanced-Lasers-for-the-Worlds-Largest-AI-Data-Centers/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "NVIDIA and Coherent announced a multiyear strategic agreement to advance optics technologies, manufacturing capacity, and R&D for next-generation AI infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-03",
+      "source_title": "NVIDIA and Coherent Announce Strategic Partnership to Develop Optics Technology to Scale Next-Generation Data Center Architecture",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership-to-develop-optics-technology-to-scale-next-generation-data-center-architecture",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Coherent demonstrated multiple CPO technologies at OFC 2026, including a 6.4T socketed CPO based on silicon photonics and an external laser source module powered by high-power InP CW lasers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03-17",
+      "source_title": "Coherent Demonstrates Multiple Technologies for Co-packaged Optics (CPO) at OFC 2026",
+      "source_url": "https://www.coherent.com/news/press-releases/coherent-co-packaged-optics-cpo-technologies-ofc-2026",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Applied Optoelectronics announced its first volume order for 1.6T data-center transceivers from a long-term major hyperscale customer.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03-09",
+      "source_title": "AOI Receives First Volume Order of 1.6T Data Center Transceivers from Major Hyperscale Customer",
+      "source_url": "https://investors.ao-inc.com/node/16751/pdf",
+      "ticker": "AAOI"
+    },
+    {
+      "claim": "Applied Optoelectronics described a progression toward higher-speed optics as AI clusters scale and referenced portfolio coverage across 400G, 800G, and 1.6T transceivers.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-03",
+      "source_title": "AOI Receives First Volume Order of 1.6T Data Center Transceivers from Major Hyperscale Customer",
+      "source_url": "https://www.nasdaq.com/press-release/aoi-receives-first-volume-order-16t-data-center-transceivers-major-hyperscale",
+      "ticker": "AAOI"
+    },
+    {
+      "claim": "Marvell announced 1.6T ZR/ZR+ pluggable and 2nm coherent DSP products for secure AI scale-across data-center interconnects, with customer sampling expected in the second half of 2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03",
+      "source_title": "Marvell Extends ZR/ZR+ Leadership with Industry-first 1.6T ZR/ZR+ Pluggable and 2nm Coherent DSPs for Secure AI Scale-across Interconnects",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-1-6t-zr-zr-plus-pluggable-2nm-coherent-dsp-ai-interconnects.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Marvell describes its optical DSP portfolio as powering AI infrastructure, including 1.6T PAM4 DSPs for AI server-to-data-center connectivity.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Marvell Optical DSPs | Powering the Future of AI Infrastructure",
+      "source_url": "https://www.marvell.com/solutions/data-center/optical-dsp.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Coherent reported fiscal Q3 2026 results and stated that AI datacenter infrastructure scaling is driving capacity expansion and robust demand visibility.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05",
+      "source_title": "Coherent Corp. Reports Third Quarter Fiscal 2026 Results",
+      "source_url": "https://www.coherent.com/news/press-releases/third-quarter-fiscal-year-2026-results",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Coherent investor materials reference next-generation AI datacenter technologies including CPO architectures, silicon photonics and faster data transfer.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05-06",
+      "source_title": "Coherent Investor Presentation, Third Quarter Fiscal 2026",
+      "source_url": "https://www.coherent.com/content/dam/coherent/site/en/documents/investors/investor-presentations/2026/may-6/investor-presentation-20260506.pdf",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Lumentum announced a new U.S. manufacturing facility to produce advanced lasers for the world's largest AI data centers and stated NVIDIA will be a customer of the facility.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03-26",
+      "source_title": "Lumentum Announces New U.S. Manufacturing Facility to Produce Advanced Lasers for the World’s Largest AI Data Centers",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-New-U-S--Manufacturing-Facility-to-Produce-Advanced-Lasers-for-the-Worlds-Largest-AI-Data-Centers/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Lumentum showcased OFC 2026 AI infrastructure technologies, including high-power light sources for CPO and silicon photonics architectures.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03-17",
+      "source_title": "Lumentum Demonstrates Industry-Leading Technologies and Products for Scale-Out, Scale-Up and Scale-Across AI Infrastructure at OFC 2026",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Demonstrates-Industry-Leading-Technologies-and-Products-for-Scale-Out-Scale-Up-and-Scale-Across-AI-Infrastructure-at-OFC-2026/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Corning and Meta announced a multiyear agreement of up to $6 billion for optical fiber, cable and connectivity products designed for advanced AI data centers.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026",
+      "source_title": "Corning and Meta Announce Multiyear, up to $6 Billion Agreement to Accelerate US Data Center Buildout",
+      "source_url": "https://investor.corning.com/news-and-events/news/news-details/2026/Corning-and-Meta-Announce-Multiyear-up-to-6-Billion-Agreement-to-Accelerate-US-Data-Center-Buildout/default.aspx",
+      "ticker": "GLW"
+    },
+    {
+      "claim": "Tower Semiconductor announced work with NVIDIA to scale AI infrastructure using high-performance silicon photonics for 1.6T data-center optical modules designed for NVIDIA networking protocols.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-02-05",
+      "source_title": "Tower Semiconductor Teams with NVIDIA to Advance AI Infrastructure with 1.6T Data Center Optical Modules",
+      "source_url": "https://ir.towerjazz.com/news-releases/news-release-details/tower-semiconductor-teams-nvidia-advance-ai-infrastructure-16t",
+      "ticker": "TSEM"
+    },
+    {
+      "claim": "Across the node, the most underappreciated public-market mappings may be in optical DSPs, InP/laser capacity, silicon-photonics foundry platforms, and fiber/cable/connectivity, not only in branded GPU and switch vendors.",
+      "claim_type": "inference",
+      "confidence": 0.77,
+      "published_at": "2026-02",
+      "source_title": "AI Capex Flows Down the Supply Chain to DSP Vendors",
+      "source_url": "https://www.lightcounting.com/newsletter/en/february-2026-pam4-and-coherent-dsps-updated-april-2026-381",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Core US-listed direct-exposure universe for AI cluster networking and optics should include AVGO, NVDA, ANET, MRVL, and COHR as first-pass leaders across switch silicon, networking systems, Ethernet platforms, DSP/interconnect silicon, and optical modules/components.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Potential next-pass additions not included due to the five-candidate limit: LITE for lasers/modules and NVIDIA optics partnership, CIEN for coherent optical/DCI, GLW for fiber/cable and optical connectivity, AMPH for high-speed interconnect/cables, CLS/JBL for switch/system manufacturing, and QCOM/INTC only if credible AI networking silicon evidence appears.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.91,
+      "text": "The most direct chokepoint mapping is not generic AI compute but data movement: Ethernet/InfiniBand switch ASICs, NICs, optical DSPs, 800G/1.6T pluggable modules, silicon photonics, lasers, and eventual CPO.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Need follow-up evidence on revenue materiality and customer concentration: product announcements confirm technical exposure, but not all companies disclose how much revenue or margin comes from AI networking and optics.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Add MRVL as a high-priority AI networking/optics candidate for optical DSPs, coherent DSPs, AEC DSPs, and switch silicon tied to 800G/1.6T AI data-center connectivity.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Add CRDO as a focused connectivity candidate with 1.6T optical DSP and AEC exposure; mark customer concentration and production timing as key evidence gaps.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Add LITE as an advanced laser and CPO input candidate, supported by a 2026 US manufacturing expansion and NVIDIA customer relationship.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Add COHR as a vertically integrated photonics candidate spanning advanced materials, lasers, silicon photonics, CPO, and transceiver-related AI data-center exposure.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Add AAOI as a direct 800G/1.6T transceiver candidate; keep risk flag for scale, market-cap uncertainty, customer concentration, and execution risk.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.9,
+      "text": "For this node, separate subnodes for future scoring: switch silicon/systems, optical DSPs, active electrical cables, lasers/external laser sources, silicon photonics/CPO, optical transceiver assembly, fiber/cable, and test/measurement equipment.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.86,
+      "text": "This pass did not fully cover optical test equipment, fiber/cable vendors, switch-system OEMs beyond seed names, or non-US-listed optical leaders such as Innolight; schedule a follow-up search if the dashboard needs broader global supply-chain mapping.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.87,
+      "text": "Add MRVL as a direct AI networking and optics semiconductor candidate: optical DSPs, Ethernet switch silicon, SerDes, PHY and silicon-photonics adjacency.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.85,
+      "text": "Add COHR and LITE as direct photonics-capacity candidates tied to 800G/1.6T optics, lasers, InP, CPO and silicon-photonics-enabling components.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Add GLW as a second-order physical-layer infrastructure candidate due to optical fiber, cable and connectivity supply for AI data-center buildouts.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Add TSEM as a less obvious silicon-photonics foundry candidate with announced NVIDIA-related 1.6T data-center optical module exposure.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.74,
+      "text": "Further passes should check AAOI, Fabrinet, Ciena, Cisco, HPE/Juniper, Amphenol, TE Connectivity, Keysight, Teradyne and optical test-equipment vendors, but they were excluded here to keep this pass to five candidates.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Key falsification checks: 800G/1.6T ramps stall, hyperscalers dual-source aggressively, CPO adoption is delayed, optics pricing falls faster than volumes rise, or customer concentration creates volatile revenue rather than durable bottleneck economics.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "AI cluster networking, Ethernet/InfiniBand, optical modules, and silicon photonics",
+  "node_id": "ai_cluster_networking_and_optics",
+  "search_pass_count": 3,
+  "summary": "Combined focused Layer 1B searches: Expanded the US-listed universe for the AI cluster networking and optics node. The highest-direct-exposure public companies found in this pass are switch/NIC silicon leaders, AI networking system vendors, Ethernet switch platforms, optical DSP suppliers, and high-speed optical component/module suppliers. This is a research universe only, not a recommendation. This pass expands the universe around AI cluster networking and optics toward scarce components rather than GPU suppliers: optical DSPs, active electrical cables, 800G/1.6T transceivers, external laser sources, silicon-photonics/CPO components, and photonics manufacturing capacity. The strongest US-listed direct exposures found in this focused pass are Marvell, Credo, Lumentum, Coherent, and Applied Optoelectronics. Key evidence points are recent 2026 product launches or capacity/customer announcements tied to 1.6T, AI data centers, CPO, and hyperscale optical networking. These are research candidates only, not trading recommendations. This pass expands the public-company universe around AI cluster networking and optics beyond the seed list. The strongest second-order mappings are in optical DSPs and switch silicon, photonic components and lasers, high-speed optical modules, silicon-photonics foundry capacity, and fiber/cable/connectivity. Key chokepoint variables to track are 800G-to-1.6T ramps, customer concentration with NVIDIA and hyperscalers, CPO/silicon-photonics design wins, InP and laser capacity, optical DSP attach rates, and whether demand shifts from pluggable optics toward co-packaged optics.",
+  "theme_id": ""
+}

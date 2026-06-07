@@ -1,0 +1,217 @@
+{
+  "coverage_gaps": [
+    "Need primary-source verification from the latest 10-K/10-Q filings and earnings calls of hyperscalers for capex, depreciation, AI infrastructure commitments, and capacity constraints.",
+    "Need company-level capacity evidence for HBM vendors, advanced packaging capacity, substrate suppliers, and OSATs rather than relying only on secondary market commentary.",
+    "Need a broader non-U.S. public-market mapping: Taiwan, Korea, Japan, Europe, and A-share suppliers may control important memory, substrate, equipment, optical, and power-infrastructure nodes.",
+    "Need separation of training demand versus inference demand because the supply-chain mix differs across GPUs/ASICs, memory, networking, storage, and software.",
+    "Need market-pricing checks for each node: revenue growth already priced, valuation multiples, backlog visibility, cyclicality, and customer concentration.",
+    "Need falsification indicators: hyperscaler capex cuts, lower model-scaling intensity, falling accelerator utilization, HBM oversupply, delayed data-center energization, or weak enterprise AI ROI."
+  ],
+  "evidence": [
+    {
+      "claim": "The IEA reported that large technology companies' capital expenditure exceeded USD 400 billion in 2025 and was expected to rise by another 75% in 2026, while global data-center electricity demand grew 17% in 2025.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026",
+      "source_title": "Key Questions on Energy and AI - Executive Summary",
+      "source_url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "ticker": ""
+    },
+    {
+      "claim": "Epoch AI found that in 2025 the four largest AI chip designers consumed over 90% of global CoWoS packaging capacity and HBM supply by value, but only about 12% of advanced logic die production, implying packaging and HBM were the primary AI chip supply constraints.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-04",
+      "source_title": "Advanced packaging and HBM, not logic dies, were the bottlenecks on AI chip production in 2025",
+      "source_url": "https://epoch.ai/data-insights/ai-chip-supply-chain-constraints",
+      "ticker": ""
+    },
+    {
+      "claim": "TrendForce reported that North American AI data-center expansion was driving 2026 capex of the top nine cloud service providers to US$830 billion.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05-06",
+      "source_title": "North American AI Data Center Expansion Drives 2026 CapEx of Top Nine CSPs to US$830 Billion, Says TrendForce",
+      "source_url": "https://www.trendforce.com/presscenter/news/20260506-13033.html",
+      "ticker": ""
+    },
+    {
+      "claim": "Stanford HAI's 2026 AI Index reported broad organizational AI adoption and rapid generative AI adoption, supporting the software automation demand leg of the theme.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026",
+      "source_title": "The 2026 AI Index Report",
+      "source_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "ticker": ""
+    },
+    {
+      "claim": "Recent industry reporting highlights photonics and high-speed data movement as an emerging AI infrastructure bottleneck after constraints in copper, power, DRAM, and NAND.",
+      "claim_type": "fact",
+      "confidence": 0.68,
+      "published_at": "2026-02",
+      "source_title": "Photonics and high-speed data movement is the next big AI bottleneck",
+      "source_url": "https://www.tomshardware.com/tech-industry/photonics-and-high-speed-data-movement-is-the-next-big-ai-bottleneck-following-copper-power-dram-and-nand",
+      "ticker": ""
+    },
+    {
+      "claim": "Academic research on U.S. hyperscale data centers estimated that hyperscale data-center electricity demand under a central scenario corresponded to about 1.8% of total U.S. electricity consumption for facilities operating between May 2024 and April 2025.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026-06-03",
+      "source_title": "Assessing the Carbon Emissions and Energy Consumption of U.S. Hyperscale Data Centers",
+      "source_url": "https://arxiv.org/abs/2606.05420",
+      "ticker": ""
+    }
+  ],
+  "layer": "1A",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "AI theme should be tracked as an infrastructure-plus-automation funnel: hyperscaler capex drives compute, networking, data-center infrastructure, power, and software monetization layers.",
+      "type": "theme_relation"
+    },
+    {
+      "confidence": 0.88,
+      "text": "HBM plus advanced packaging is a high-priority AI chokepoint because it can constrain accelerator supply even when leading-edge logic wafer capacity is available.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.87,
+      "text": "Data-center power, cooling, grid interconnection, transformers, switchgear, and construction labor are durable physical bottlenecks for AI deployment.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.82,
+      "text": "AI networking and optical interconnect should be treated as a separate scarce layer, not just as a derivative of GPU demand.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Enterprise AI software exposure should be evaluated through production deployment, governed data access, workflow integration, security, and measurable ROI rather than generic AI branding.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Next funnel layer should build a public-company universe across U.S., Taiwan, Korea, Japan, Europe, and China A-shares for each AI supply-chain node, then score bottleneck control and evidence quality.",
+      "type": "coverage_gap"
+    }
+  ],
+  "summary": "AI is best decomposed as a multi-layer infrastructure and automation supercycle rather than a single semiconductor trade. The highest-quality first-pass funnel should track: hyperscaler capex as the primary demand signal; accelerator plus HBM plus advanced packaging as the core compute bottleneck; networking and optical interconnect as the cluster-scaling bottleneck; power, cooling, grid interconnection, and site delivery as the physical infrastructure bottleneck; energy procurement and firm capacity as second-order constraints; and enterprise software/data-governance layers as the monetization and automation layer. This is research support only and does not provide buy/sell recommendations.",
+  "supply_chain_nodes": [
+    {
+      "bottleneck_hypothesis": "The real constraint is a combined HBM plus advanced packaging bottleneck rather than pure leading-edge wafer capacity. Suppliers with access to HBM allocation, CoWoS/2.5D capacity, and packaging yield learning may control a disproportionate share of AI compute output.",
+      "claim_type": "hypothesis",
+      "confidence": 0.86,
+      "node": "AI accelerators, HBM memory, and advanced packaging stack",
+      "node_id": "ai_accelerator_hbm_packaging_stack",
+      "public_asset_hunting_notes": "Map GPU/ASIC designers, foundries, HBM vendors, OSATs, substrate suppliers, packaging equipment, thermal interface materials, and EDA/IP vendors. Track capex, capacity ramps, customer concentration, package qualification, and gross-margin changes.",
+      "role": "capacity",
+      "search_queries": [
+        "AI accelerator HBM advanced packaging CoWoS capacity bottleneck 2026",
+        "HBM supply allocation AI GPU demand 2026 SK hynix Samsung Micron",
+        "TSMC CoWoS capacity expansion AI accelerators 2026",
+        "advanced packaging equipment AI HBM CoWoS suppliers public companies"
+      ],
+      "why_it_matters": "This node converts AI demand into physical compute supply. Frontier AI clusters require accelerators tightly integrated with HBM and advanced packaging, so GPU or ASIC availability is constrained by more than just logic-die output."
+    },
+    {
+      "bottleneck_hypothesis": "Semiconductor equipment and process capacity are slower-moving constraints that determine how quickly AI silicon supply can expand, but in the near term they may rank behind HBM and packaging for AI-specific scarcity.",
+      "claim_type": "hypothesis",
+      "confidence": 0.78,
+      "node": "Leading-edge foundry capacity and semiconductor equipment",
+      "node_id": "leading_edge_foundry_and_semi_equipment",
+      "public_asset_hunting_notes": "Screen EUV/DUV lithography, deposition, etch, inspection, metrology, test, probe-card, EDA, foundry, and advanced packaging equipment suppliers. Prioritize evidence from backlog, tool lead times, capex plans, shipment cadence, export restrictions, and node-specific utilization.",
+      "role": "equipment",
+      "search_queries": [
+        "AI semiconductor equipment backlog EUV advanced node 2026",
+        "foundry capex AI accelerator advanced node 3nm 4nm 2026",
+        "semiconductor equipment advanced packaging demand AI 2026",
+        "AI chip supply chain lithography etch deposition inspection bottleneck"
+      ],
+      "why_it_matters": "AI accelerators and custom ASICs depend on advanced process nodes, lithography, deposition, etch, metrology, inspection, and packaging equipment. Even when demand is strong, fabs and packaging capacity take years to add."
+    },
+    {
+      "bottleneck_hypothesis": "As accelerator supply expands, the next scarce layer may shift toward high-speed switching, 800G/1.6T optics, fiber, DSPs, silicon photonics, and co-packaged optics because network bandwidth and power efficiency become cluster-level constraints.",
+      "claim_type": "hypothesis",
+      "confidence": 0.82,
+      "node": "AI cluster networking, Ethernet/InfiniBand, optical modules, and silicon photonics",
+      "node_id": "ai_cluster_networking_and_optics",
+      "public_asset_hunting_notes": "Map switch silicon, Ethernet switch systems, optical transceivers, lasers, DSPs, photonic integrated circuits, fiber/cable vendors, and test equipment. Watch design wins, 800G/1.6T ramps, gross margins, hyperscaler concentration, and transition from pluggable optics to CPO.",
+      "role": "infrastructure",
+      "search_queries": [
+        "AI data center networking 800G 1.6T optics bottleneck 2026",
+        "silicon photonics co-packaged optics AI data center suppliers 2026",
+        "Ethernet AI cluster switch silicon market Broadcom NVIDIA Arista 2026",
+        "optical transceiver demand AI data center 800G public companies"
+      ],
+      "why_it_matters": "Large AI clusters are limited not only by chips but by data movement among accelerators, racks, and data centers. Networking determines utilization, training efficiency, and the feasibility of scaling clusters."
+    },
+    {
+      "bottleneck_hypothesis": "Power availability, transformers, switchgear, liquid cooling, engineering labor, and interconnection queues may become the most durable chokepoints because they are regional, regulated, and slow to expand.",
+      "claim_type": "hypothesis",
+      "confidence": 0.88,
+      "node": "Data-center power, cooling, grid interconnection, and site delivery",
+      "node_id": "data_center_power_cooling_grid_delivery",
+      "public_asset_hunting_notes": "Screen electrical equipment, UPS, switchgear, transformers, thermal management, liquid cooling, data-center REITs, EPC contractors, grid services, utilities, and land/site developers. Track backlog, book-to-bill, lead times, customer concentration, interconnection approvals, and capacity reservations.",
+      "role": "infrastructure",
+      "search_queries": [
+        "AI data center power cooling grid bottleneck 2026",
+        "data center transformer switchgear lead times AI demand 2026",
+        "liquid cooling AI data center suppliers public companies 2026",
+        "hyperscaler data center power constraints interconnection queues 2026"
+      ],
+      "why_it_matters": "AI data centers require dense power delivery, liquid cooling, fast construction, and grid access. These physical constraints can delay deployment even if chips are available."
+    },
+    {
+      "bottleneck_hypothesis": "The second-order AI beneficiary set may include firm power, nuclear fuel, grid services, turbines, renewables plus storage, and utility-scale energy developers, but the investable edge depends on regional power constraints and contract evidence rather than generic AI exposure.",
+      "claim_type": "hypothesis",
+      "confidence": 0.73,
+      "node": "Firm power generation, nuclear, gas, renewables, storage, and energy procurement",
+      "node_id": "firm_power_generation_and_energy_procurement",
+      "public_asset_hunting_notes": "Map utilities, independent power producers, nuclear operators, uranium/fuel-chain companies, gas turbine suppliers, renewables developers, storage providers, and transmission contractors. Verify with signed PPAs, interconnection queues, regulatory approvals, plant restarts, and capex recovery mechanisms.",
+      "role": "input",
+      "search_queries": [
+        "AI data center power purchase agreements nuclear gas renewables 2026",
+        "hyperscaler data center electricity demand nuclear power deals 2026",
+        "AI data center firm power bottleneck utilities public companies",
+        "data center power demand grid transmission construction beneficiaries 2026"
+      ],
+      "why_it_matters": "AI data centers need reliable electricity at scale. Long-term power purchase agreements, nuclear restarts, gas generation, renewables plus storage, and grid upgrades shape where capacity can be built."
+    },
+    {
+      "bottleneck_hypothesis": "The software bottleneck is not model access alone; it is production-grade integration into enterprise systems of record, governed data access, workflow orchestration, auditability, and measurable ROI. This may favor platforms with deep data context, security posture, and distribution into existing workflows.",
+      "claim_type": "hypothesis",
+      "confidence": 0.76,
+      "node": "Enterprise AI automation, data integration, governance, and workflow software",
+      "node_id": "enterprise_ai_automation_data_layer",
+      "public_asset_hunting_notes": "Map cloud platforms, data warehouses, observability, cybersecurity, workflow automation, CRM/ERP platforms, coding tools, vertical AI software, and government/defense AI platforms. Track net retention, AI product attach rates, seat expansion, consumption growth, customer case studies, and margin impact.",
+      "role": "software",
+      "search_queries": [
+        "enterprise generative AI adoption automation data governance bottleneck 2026",
+        "agentic AI enterprise software workflow automation adoption 2026",
+        "AI software monetization copilots data platforms observability public companies",
+        "generative AI enterprise ROI production deployment data integration 2026"
+      ],
+      "why_it_matters": "Infrastructure spending only becomes economically durable if AI is deployed into revenue, productivity, and automation workflows. Enterprise data quality, permissions, integration, security, and observability often determine whether AI pilots scale."
+    }
+  ],
+  "theme_id": "ai_artificial_intelligence_cloud_data_center_semiconductors_software_automation",
+  "theme_map": {
+    "demand_drivers": [
+      "Hyperscaler AI infrastructure capex for model training, inference, and cloud AI services.",
+      "Enterprise adoption of generative AI and agentic workflow automation across business functions.",
+      "Sovereign AI and private-cloud buildouts by governments, regulated industries, and large enterprises.",
+      "Rising inference demand from consumer AI, software copilots, search, advertising, coding, contact-center, and productivity workflows.",
+      "AI model scaling that increases demand for accelerators, HBM, advanced packaging, high-speed networking, storage, power, and thermal infrastructure."
+    ],
+    "public_market_search_strategy": "Start with the broad AI spend pool, then map scarce layers before mapping tickers. Search in stages: (1) hyperscaler capex and data-center buildout disclosures; (2) HBM, advanced packaging, and foundry capacity evidence; (3) AI networking, optical modules, and silicon photonics roadmaps; (4) data-center power, cooling, grid, and energy procurement constraints; (5) software automation adoption, enterprise AI deployment, and data-governance bottlenecks. Use the pilot universe as seed exposure, but expand to memory makers, OSATs, EDA, semiconductor equipment, optical component suppliers, electrical equipment, cooling, EPC/grid contractors, utilities, independent power producers, and enterprise software/data platforms.",
+    "supply_side_constraints": [
+      "HBM supply, CoWoS/advanced packaging capacity, and yield/qualification timelines.",
+      "Leading-edge foundry capacity and semiconductor equipment availability, especially lithography, etch, deposition, inspection, and packaging tools.",
+      "800G/1.6T networking, switch silicon, optical modules, silicon photonics, co-packaged optics, and fiber supply for large AI clusters.",
+      "Data-center power availability, grid interconnection queues, transformers, switchgear, backup generation, and electrical labor.",
+      "Thermal density constraints from liquid cooling, heat rejection, water availability, and site-level engineering.",
+      "Enterprise data integration, security, workflow orchestration, observability, and governance needed to move AI from pilots to production."
+    ]
+  }
+}

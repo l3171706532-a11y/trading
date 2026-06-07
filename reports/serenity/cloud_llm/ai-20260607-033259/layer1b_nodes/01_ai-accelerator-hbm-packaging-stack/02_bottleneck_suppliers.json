@@ -1,0 +1,218 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Micron Technology",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM revenue mix, HBM gross-margin delta, customer concentration, HBM4 qualification status, capex allocated to HBM/advanced packaging, and whether supply is sold out versus available.",
+      "node_relation": "Direct HBM supplier for AI accelerators; Micron has announced HBM3E/HBM4 products tied to NVIDIA and AMD AI platforms, including advanced stacking and packaging capabilities.",
+      "sector_or_industry": "Memory semiconductors / HBM",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerators require high-bandwidth memory tightly integrated with GPU/ASIC packages; HBM allocation and yield can constrain finished AI compute supply.",
+      "ticker": "MU",
+      "why_include": "Micron is one of the few US-listed direct HBM suppliers. Its HBM4 volume-shipment announcement for NVIDIA Vera Rubin and HBM3E integration with AMD Instinct MI350 make it a clear candidate for the HBM leg of the chokepoint."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Amkor Technology",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify customer names, package technologies used for AI accelerators, capex timing, expected revenue ramp from Arizona, and whether Amkor participates in 2.5D/HBM package flows versus lower-complexity advanced packages.",
+      "node_relation": "Advanced packaging and test capacity provider; Amkor is building a large Arizona advanced packaging/test campus and describes its portfolio as serving AI, HPC, and data-center semiconductor demand.",
+      "sector_or_industry": "OSAT / advanced semiconductor packaging and test",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "If CoWoS-like and high-end package capacity remains scarce, OSATs with credible advanced packaging ramps can become second-source or overflow capacity beneficiaries.",
+      "ticker": "AMKR",
+      "why_include": "Amkor is a US-listed OSAT with explicit advanced-packaging expansion plans, including a US high-volume advanced packaging facility. The link to AI/HPC is strong, but exact exposure to HBM-attached flagship accelerators needs customer/program verification."
+    },
+    {
+      "claim_type": "inference",
+      "company": "ASE Technology Holding",
+      "confidence": 0.8,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check ASE filings and calls for advanced packaging revenue, AI/HPC customer mix, FOCoS/CoWoS-related volumes, capex by site, and margin uplift from advanced packaging versus traditional assembly/test.",
+      "node_relation": "Large OSAT with advanced packaging, FOCoS, chip stacking, chiplet integration, CoWoS-related ecosystem exposure, and panel-level packaging development for AI/HPC devices.",
+      "sector_or_industry": "OSAT / semiconductor packaging and test",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "ASE can benefit if AI accelerator demand expands beyond TSMC internal CoWoS capacity or if advanced packaging/test outsourcing grows with chiplet and HBM package complexity.",
+      "ticker": "ASX",
+      "why_include": "ASE is a major US-listed ADR in OSAT and has explicit AI/HPC advanced-packaging initiatives. Its relevance is high, but the exact share of AI accelerator/HBM package revenue and customer allocation needs deeper evidence."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Applied Materials",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Quantify advanced packaging revenue contribution, tool categories used in HBM/CoWoS-like flows, order growth from memory customers, and whether HBM-related spend is incremental or cannibalizing other WFE.",
+      "node_relation": "Equipment and process-technology supplier for memory and advanced packaging; Applied has announced SK hynix collaboration focused on next-generation DRAM, HBM, materials, process integration, and 3D advanced packaging.",
+      "sector_or_industry": "Semiconductor equipment / materials engineering / advanced packaging tools",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment_vendor",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM and 2.5D/3D packaging ramps require process tools, materials engineering, TSV/micro-bump/interposer-related capabilities, and faster yield learning.",
+      "ticker": "AMAT",
+      "why_include": "Applied is not an HBM producer, but it is positioned upstream of the HBM and advanced-packaging capacity ramp. Its direct SK hynix HBM collaboration makes the node link stronger than generic wafer-fab equipment exposure."
+    },
+    {
+      "claim_type": "inference",
+      "company": "KLA Corporation",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track advanced packaging and IC substrate tool orders, customer concentration in memory/foundry/OSAT, management commentary on AI-driven packaging demand, and signs of tool lead-time constraints.",
+      "node_relation": "Inspection, metrology, and process-control supplier for advanced packaging, IC substrates, wafer-level packaging, memory, and foundry/logic manufacturing.",
+      "sector_or_industry": "Semiconductor process control / inspection / metrology",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment_vendor",
+        "yield_learning",
+        "evidence_needed"
+      ],
+      "theme_relation": "As HBM stacks and large 2.5D packages become more complex and expensive, yield learning and defect control become critical bottleneck mitigators.",
+      "ticker": "KLAC",
+      "why_include": "KLA is a second-order chokepoint candidate: its tools do not create HBM supply directly, but process control is critical when advanced packaging yield, substrate quality, and heterogeneous integration complexity constrain finished accelerator output."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Micron announced volume shipment of HBM4 36GB 12H in Q1 calendar 2026, designed for NVIDIA Vera Rubin, and described HBM4 bandwidth and power-efficiency improvements versus HBM3E.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-04",
+      "source_title": "Micron in High-Volume Production of HBM4 Designed for NVIDIA Vera Rubin, PCIe Gen6 SSD and SOCAMM2",
+      "source_url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Micron announced its HBM3E 36GB 12-high offering was integrated into AMD Instinct MI350 Series solutions for AI data-center workloads.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2025-06-12",
+      "source_title": "Micron HBM Designed into Leading AMD AI Platform",
+      "source_url": "https://investors.micron.com/news-releases/news-release-details/micron-hbm-designed-leading-amd-ai-platform",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Amkor said its Arizona campus is expected to be the first high-volume advanced packaging OSAT facility in the United States, supporting AI, HPC, automotive, and communications markets.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-05-19",
+      "source_title": "Amkor Technology Expands U.S. Advanced Packaging Footprint with Additional Land in Arizona",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-expands-us-advanced-packaging-footprint",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor reported Q1 2026 record first-quarter net sales and said it progressed key customer programs in advanced packaging.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-04-27",
+      "source_title": "Amkor Technology Reports Financial Results for the First Quarter 2026",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-first-quarter-2026",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "ASE and WUS announced an advanced AI packaging hub in Kaohsiung, citing AI/HPC demand for memory, logic chips, chip stacking, chiplet integration, CoWoS, and FOCoS.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-08",
+      "source_title": "ASE and WUS Announce Strategic Collaboration to Build Advanced AI Packaging Hub in Kaohsiung",
+      "source_url": "https://ase.aseglobal.com/press-room/ase-and-wus-announce-strategic-expansion/",
+      "ticker": "ASX"
+    },
+    {
+      "claim": "ASE launched an automated 310mm panel-level packaging line and said AI accelerators and HPC devices are growing in complexity, making panel-level packaging a critical innovation.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05",
+      "source_title": "ASE Launches Automated 310mm Panel-Level Packaging to Accelerate AI Innovation",
+      "source_url": "https://www.aseglobal.com/press-room/310x310",
+      "ticker": "ASX"
+    },
+    {
+      "claim": "Applied Materials and SK hynix announced a long-term collaboration focused on next-generation DRAM, HBM, materials engineering, process integration, and 3D advanced packaging for AI and HPC.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-03-10",
+      "source_title": "Applied Materials and SK hynix Announce Long-Term R&D Partnership to Accelerate AI Memory Innovation at EPIC Center in Silicon Valley",
+      "source_url": "https://investors.appliedmaterials.com/node/28986/pdf",
+      "ticker": "AMAT"
+    },
+    {
+      "claim": "Applied Materials said current high-capability AI chips are enabled by advanced packaging technologies including micro-bumps, through-silicon vias, and silicon interposers.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2024-07-18",
+      "source_title": "Applied Materials Announces New Collaboration Model for Advanced Packaging at Summit on Energy-Efficient Computing",
+      "source_url": "https://investors.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-new-collaboration-model-advanced",
+      "ticker": "AMAT"
+    },
+    {
+      "claim": "KLA reported that it expects to benefit from AI infrastructure buildout across foundry/logic, memory, advanced packaging, and services.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-02",
+      "source_title": "KLA Corporation Reports Fiscal 2026 Second Quarter Results",
+      "source_url": "https://ir.kla.com/news-events/press-releases/detail/509/kla-corporation-reports-fiscal-2026-second-quarter-results",
+      "ticker": "KLAC"
+    },
+    {
+      "claim": "KLA introduced an IC substrate portfolio for advanced semiconductor packaging, including inspection and metrology systems for IC substrate and panel-based interposer makers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2024-10-15",
+      "source_title": "KLA Unveils Comprehensive IC Substrate Portfolio for a New Era of Advanced Semiconductor Packaging",
+      "source_url": "https://ir.kla.com/news-events/press-releases/detail/485/kla-unveils-comprehensive-ic-substrate-portfolio-for-a-new",
+      "ticker": "KLAC"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.92,
+      "text": "Add MU as a direct US-listed HBM candidate for the AI accelerator/HBM/advanced-packaging node; highest evidence strength among new US-listed names due to specific NVIDIA and AMD platform announcements.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Add AMKR and ASX as OSAT/advanced-packaging capacity candidates; both need deeper verification of exposure to flagship HBM-attached AI accelerators versus broader advanced-packaging markets.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Add AMAT and KLAC as upstream equipment/process-control candidates tied to HBM, 2.5D/3D packaging, IC substrates, and yield learning rather than direct accelerator unit shipments.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "For this node, distinguish direct chokepoint suppliers from second-order enablers: direct = HBM vendors and advanced-packaging/test capacity; second-order = tools, inspection/metrology, materials, substrates, and yield-learning systems.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Still need a follow-up pass on US-listed or US-accessible substrate/material names, thermal-interface materials, test-equipment vendors, EDA/IP, and smaller specialty tool suppliers; some may be below $1B or non-US-listed.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI accelerators, HBM memory, and advanced packaging stack",
+  "node_id": "ai_accelerator_hbm_packaging_stack",
+  "summary": "Expanded the universe around the HBM plus advanced-packaging chokepoint. The highest-relevance US-listed additions are not only accelerator designers, but HBM suppliers, OSAT/advanced-packaging capacity providers, and packaging/process-control equipment vendors. Micron is the most direct US-listed HBM exposure; Amkor and ASE add outsourced advanced-packaging/test capacity exposure; Applied Materials and KLA are second-order equipment/process-control suppliers tied to HBM, 2.5D/3D packaging, IC substrates, yield learning, and capacity ramps. These are research candidates only, not trading recommendations.",
+  "theme_id": "ai"
+}

@@ -1,0 +1,237 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Micron Technology",
+      "confidence": 0.94,
+      "market_cap_filter_note": "above_1b; web.finance cached quote on 2026-06-06 UTC showed market cap about USD 986.7B",
+      "next_evidence": "Check the June 24, 2026 fiscal Q3 earnings call for HBM revenue mix, customer concentration, capex intensity, sold-out/prepayment language, gross-margin sustainability, and timing of HBM4/HBM4E ramps.",
+      "node_relation": "Direct HBM supplier and advanced memory capacity controller.",
+      "sector_or_industry": "Memory semiconductors",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "demand",
+        "capacity_controller",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerators require HBM close to compute; Micron's HBM4, data-center SSD, and AI memory portfolio map directly to next-generation AI platforms.",
+      "ticker": "MU",
+      "why_include": "Micron announced high-volume production and volume shipment of HBM4 36GB 12H for NVIDIA Vera Rubin in calendar Q1 2026, plus HBM4 48GB 16H samples. This makes MU one of the few US-listed direct public-market mappings to the HBM bottleneck itself."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Amkor Technology",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b; web.finance cached quote on 2026-06-06 UTC showed market cap about USD 16.2B",
+      "next_evidence": "Validate how much of AMKR revenue/capex is tied to high-performance compute advanced packaging versus mobile/consumer packaging; check Investor Day materials, Arizona advanced-packaging timing, customer commitments, and utilization risk.",
+      "node_relation": "Advanced packaging and test provider for heterogeneous integration, chiplets, logic-memory integration, and AI-related packaging workflows.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test / advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "second_order",
+        "capacity_expansion",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI chips remain constrained by CoWoS-like integration, HBM attachment, test, and regional advanced-packaging capacity, OSATs with advanced packaging capability can be second-order beneficiaries.",
+      "ticker": "AMKR",
+      "why_include": "Amkor describes its AI packaging portfolio as enabling integration of logic, memory, chiplets, and HBM designs; it also reported that it is accelerating strategic investments for the next wave of advanced-packaging growth."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Onto Innovation",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b; web.finance cached quote on 2026-06-05 UTC showed market cap about USD 12.7B",
+      "next_evidence": "Track whether the HBM volume purchase agreement converts into revenue on schedule; monitor customer concentration, tool share versus KLA/Camtek, and whether advanced-packaging growth offsets any weakness in other end markets.",
+      "node_relation": "Inspection and metrology supplier for advanced packaging, HBM bump metrology, 2D/3D inspection, and process-control steps.",
+      "sector_or_industry": "Semiconductor process control, inspection, and metrology",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "equipment",
+        "metrology",
+        "underappreciated_mapping"
+      ],
+      "theme_relation": "As HBM stacks, micro-bumps, hybrid bonding, and 2.5D integration grow more complex, yield control and metrology intensity can become an adjacent chokepoint.",
+      "ticker": "ONTO",
+      "why_include": "Onto reported a volume purchase agreement estimated at over USD 240M with a leading HBM manufacturer for Dragonfly 2D inspection and 3D bump metrology through expansion plans into 2027."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Camtek",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b; web.finance cached quote on 2026-06-06 UTC showed market cap about USD 7.4B",
+      "next_evidence": "Confirm repeat orders, backlog conversion, geographic/customer concentration, exposure to HBM4 versus legacy advanced packaging, and competitive position against Onto/KLA.",
+      "node_relation": "Inspection/metrology systems for advanced packaging, HBM, chiplets, hybrid bonding, and high-density micro-bump applications.",
+      "sector_or_industry": "Semiconductor inspection and metrology equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "metrology",
+        "second_order",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerator packaging has high defect-cost sensitivity; inspection and metrology vendors can benefit from increased process-control steps in HBM and heterogeneous integration.",
+      "ticker": "CAMT",
+      "why_include": "Camtek announced a roughly USD 25M multiple Hawk systems order from an IDM for AI applications; the Hawk platform is described by Camtek as serving advanced packaging applications including HBM, chiplets, hybrid bonding, and wafers with very high micro-bump counts."
+    },
+    {
+      "claim_type": "inference",
+      "company": "ACM Research",
+      "confidence": 0.68,
+      "market_cap_filter_note": "above_1b; web.finance cached quote on 2026-06-06 UTC showed market cap about USD 5.3B",
+      "next_evidence": "Determine whether ACMR tools are qualified in HBM, CoWoS-like, chiplet, or panel-level AI accelerator flows; check non-China customer mix, order size, export-control risk, and whether tools become production tools of record.",
+      "node_relation": "Wafer-level and panel-level advanced-packaging equipment supplier; possible beneficiary of advanced-packaging capacity expansion.",
+      "sector_or_industry": "Semiconductor wafer processing and advanced-packaging equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "second_order",
+        "adjacent_chokepoint",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI packaging expands into more wafer-level and panel-level process steps, cleaning and processing tools used in advanced packaging could see indirect demand.",
+      "ticker": "ACMR",
+      "why_include": "ACM Research announced multiple advanced-packaging equipment orders from global customers, including wafer-level systems for a Singapore-based OSAT and a panel-level advanced-packaging vacuum cleaning tool. The HBM-specific link is plausible but not yet proven in the cited disclosure."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Micron announced on March 16, 2026 that it had begun volume shipment of HBM4 36GB 12H in calendar Q1 2026, designed for NVIDIA Vera Rubin, and had shipped samples of HBM4 48GB 16H to customers.",
+      "claim_type": "fact",
+      "confidence": 0.96,
+      "published_at": "2026-03-16",
+      "source_title": "Micron in High-Volume Production of HBM4 Designed for NVIDIA Vera Rubin, PCIe Gen6 SSD and SOCAMM2",
+      "source_url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Micron reported record fiscal Q2 2026 results, citing strong demand, tight industry supply, and execution; its Cloud Memory Business Unit revenue was USD 7.749B with 74% gross margin.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-03-18",
+      "source_title": "Micron Technology, Inc. Reports Results for the Second Quarter of Fiscal 2026",
+      "source_url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Amkor states that its high-performance packaging portfolio can integrate logic, memory, chiplets, and HBM designs for AI and heterogeneous packaging solutions.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "Artificial Intelligence Machine Learning - Amkor Technology",
+      "source_url": "https://amkor.com/applications/artificial-intelligence/",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor reported Q4 and full-year 2025 results and said it entered 2026 with momentum while accelerating strategic investments to support advanced-packaging growth.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-02-10",
+      "source_title": "Amkor Technology Reports Financial Results for the Fourth Quarter and Full Year 2025",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-reports-financial-results-fourth-quarter-and-11",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Onto Innovation reported a volume purchase agreement estimated at over USD 240M with a leading HBM manufacturer for Dragonfly 2D inspection and 3D bump metrology, supporting expansion plans through 2027.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-02-26",
+      "source_title": "Onto Innovation Reports 2025 Fourth Quarter and Full Year Results",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Onto said its 3Di technology was qualified for 3D bump metrology by two customers supporting HBM and another customer supporting 2.5D logic applications for AI.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-11-06",
+      "source_title": "Onto Innovation Reports 2025 Third Quarter Results",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2025/Onto-Innovation-Reports-2025-Third-Quarter-Results/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Camtek announced a roughly USD 25M multiple Hawk systems order from an IDM for AI applications; Camtek says Hawk is designed for demanding advanced packaging applications including HBM, chiplets, hybrid bonding, and high micro-bump-count wafers.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-02-10",
+      "source_title": "Camtek Receives Multiple Hawk Systems Order of Approximately $25 Million from an IDM for AI Applications",
+      "source_url": "https://www.camtek.com/news-and-events/camtek-receives-multiple-hawk-systems-order-of-approximately-25-million-from-an-idm-for-ai-applications/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Camtek reported Q1 2026 revenue of USD 121.7M and guided Q2 2026 revenue of USD 129M to USD 131M, with expected second-half 2026 growth based on order momentum.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-05-12",
+      "source_title": "Camtek Announces Results for the First Quarter of 2026",
+      "source_url": "https://www.camtek.com/news-and-events/camtek-announces-results-for-the-first-quarter-of-2026/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "ACM Research announced multiple advanced-packaging equipment orders from global customers, including wafer-level advanced-packaging systems for an OSAT and a panel-level advanced-packaging vacuum cleaning tool.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-02-26",
+      "source_title": "ACM Research Receives Multiple Advanced Packaging Equipment Orders from Leading Global Customers",
+      "source_url": "https://ir.acmr.com/news-releases/news-release-details/acm-research-receives-multiple-advanced-packaging-equipment",
+      "ticker": "ACMR"
+    },
+    {
+      "claim": "ACM Research describes itself as a supplier of wafer processing solutions for semiconductor and advanced wafer-level packaging applications and reported Q1 2026 results on May 8, 2026.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05-08",
+      "source_title": "ACM Research Reports First Quarter 2026 Results",
+      "source_url": "https://ir.acmr.com/news-releases/news-release-details/acm-research-reports-first-quarter-2026-results",
+      "ticker": "ACMR"
+    },
+    {
+      "claim": "Market-cap filter notes used cached web.finance data from 2026-06-05/2026-06-06 UTC for MU, AMKR, ONTO, CAMT, and ACMR; each was above USD 1B.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-06",
+      "source_title": "Cached finance quote data from web.finance",
+      "source_url": "provided_cached_evidence:web.finance:turn4finance0-turn4finance4",
+      "ticker": "MU,AMKR,ONTO,CAMT,ACMR"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.94,
+      "text": "MU is the cleanest US-listed direct HBM mapping in this node; verify HBM revenue, customer commitments, and HBM4/HBM4E ramp status in the next earnings call.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "AMKR should be tracked as a US-listed OSAT/advanced-packaging capacity candidate, but the research layer must separate broad packaging exposure from true AI/HBM advanced-packaging utilization.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.89,
+      "text": "ONTO and CAMT are high-relevance inspection/metrology beneficiaries for HBM and advanced packaging; both have explicit HBM/AI packaging disclosures and should be compared on tool share, customer concentration, and backlog conversion.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.68,
+      "text": "ACMR is a less obvious advanced-packaging equipment candidate with global customer orders, but its HBM-specific linkage is an inference and needs tool-of-record/customer validation.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.91,
+      "text": "Non-US-listed but important node controllers remain outside this pass: SK hynix, Samsung Electronics, TSMC, ASE, Ibiden, Shinko, Unimicron, Kinsus, Disco, Besi, and ASMPT. Later layers should map US ADR/accessibility and supplier dependencies.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.88,
+      "text": "The expanded US-listed universe for this node clusters into: HBM capacity controller, OSAT/advanced-packaging capacity, inspection/metrology, and wafer/panel-level advanced-packaging equipment.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "HBM, advanced memory, and advanced packaging",
+  "node_id": "hbm_memory_and_advanced_packaging",
+  "summary": "Expanded the US-listed universe for the AI HBM / advanced-packaging chokepoint. The strongest direct mappings are Micron as a US-listed HBM producer, Amkor as an OSAT/advanced-packaging provider, and Onto/Camtek as inspection and metrology vendors tied to HBM, micro-bumps, 2.5D/3D packaging, and heterogeneous integration. ACM Research is included as a less obvious second-order beneficiary because it has announced advanced-packaging tool orders across wafer-level and panel-level packaging; its direct HBM exposure still needs customer-level validation.",
+  "theme_id": "ai"
+}

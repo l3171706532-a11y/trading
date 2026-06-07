@@ -1,0 +1,218 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "NVIDIA Corporation",
+      "confidence": 0.95,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track Rubin/Vera Rubin shipment cadence, HBM supplier mix across SK hynix/Samsung/Micron, Blackwell-to-Rubin transition yield, cloud customer deployment timing, and whether supply constraints shift from GPUs to HBM, advanced packaging, or networking.",
+      "node_relation": "Merchant AI accelerator leader whose Blackwell and Rubin platforms consume large amounts of advanced HBM and drive data-center GPU demand.",
+      "sector_or_industry": "AI accelerators, GPUs, data center semiconductors",
+      "serenity_tags": [
+        "demand",
+        "platform",
+        "bottleneck",
+        "supply_chain",
+        "evidence_needed"
+      ],
+      "theme_relation": "Core AI compute platform supplier for hyperscaler training and inference clusters.",
+      "ticker": "NVDA",
+      "why_include": "NVIDIA is the clearest public-market mapping for AI accelerator demand. Its fiscal 2026 results showed record data center revenue and Rubin platform deployment plans across major cloud providers, making it directly tied to accelerator availability, HBM qualification, and system-level supply constraints."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Micron Technology, Inc.",
+      "confidence": 0.94,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify HBM revenue contribution, HBM gross margin vs commodity DRAM/NAND, customer concentration, contracted capacity through 2026-2027, capex execution, yield, and whether Samsung/SK hynix capacity additions pressure pricing.",
+      "node_relation": "Direct US-listed HBM supplier with HBM4 designed for NVIDIA Vera Rubin and broader AI-optimized memory and storage exposure.",
+      "sector_or_industry": "Memory semiconductors, HBM, DRAM, NAND, data-center SSDs",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "memory",
+        "qualification",
+        "evidence_needed"
+      ],
+      "theme_relation": "Upstream memory bottleneck candidate for AI accelerators, with second-order exposure through DRAM/NAND tightness caused by AI-driven capacity allocation.",
+      "ticker": "MU",
+      "why_include": "Micron is the most direct US-listed pure memory candidate for HBM exposure. Its March 2026 release says HBM4 36GB 12H entered high-volume production and was designed for NVIDIA Vera Rubin, while Q2 FY2026 results cited record results driven by tight industry supply and strong demand."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Advanced Micro Devices, Inc.",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track MI350 and MI450 shipment ramps, Meta deployment milestones, ROCm/software adoption, HBM sourcing, system OEM availability, gross margin impact, and whether AMD wins material non-Meta hyperscaler sockets.",
+      "node_relation": "Merchant AI accelerator challenger with Instinct MI300/MI350/MI450 roadmap using high-capacity HBM and targeting hyperscaler deployments.",
+      "sector_or_industry": "AI accelerators, GPUs, CPUs, data center semiconductors",
+      "serenity_tags": [
+        "demand",
+        "platform",
+        "supply_chain",
+        "customer_qualification",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct AI accelerator supplier; potential second-source beneficiary if hyperscalers diversify away from NVIDIA-only GPU supply.",
+      "ticker": "AMD",
+      "why_include": "AMD’s Instinct MI350 products are specified with large HBM3E memory capacity and bandwidth, and AMD announced a multi-gigawatt Meta partnership for future Instinct GPU deployments beginning in 2H 2026. This makes AMD directly exposed to accelerator demand and HBM availability."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Broadcom Inc.",
+      "confidence": 0.91,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Validate named customer revenue concentration, OpenAI/Meta deployment timing, XPU gross margins, attach rate of Ethernet switching/NIC/optics, packaging capacity dependencies, and whether custom ASIC ramps displace or supplement merchant GPUs.",
+      "node_relation": "Custom AI accelerator / XPU platform supplier whose 3.5D XDSiP integrates compute, memory, and network I/O, including HBM stacks, for hyperscale AI clusters.",
+      "sector_or_industry": "Custom AI accelerators, ASICs, networking semiconductors, infrastructure software",
+      "serenity_tags": [
+        "platform",
+        "custom_silicon",
+        "supply_chain",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct custom silicon beneficiary as hyperscalers build proprietary AI accelerators and Ethernet-based AI fabrics.",
+      "ticker": "AVGO",
+      "why_include": "Broadcom disclosed strong AI semiconductor growth driven by custom AI accelerators and AI networking, and its 3.5D XDSiP platform supports next-generation XPUs with compute, memory, and network I/O scaling. Its OpenAI and Meta collaborations further support direct exposure to custom accelerator deployments."
+    },
+    {
+      "claim_type": "hypothesis",
+      "company": "Marvell Technology, Inc.",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm active hyperscaler custom AI sockets, timing of XPU revenue ramps, design-win durability, relationship with HBM suppliers, advanced packaging partners, AI data-center revenue mix, and whether Marvell captures accelerator silicon value or mainly interconnect attach.",
+      "node_relation": "Custom AI accelerator and HBM compute architecture supplier; also exposed to AI data center interconnect around XPU deployments.",
+      "sector_or_industry": "Custom silicon, data infrastructure semiconductors, AI interconnect",
+      "serenity_tags": [
+        "custom_silicon",
+        "supply_chain",
+        "second_order",
+        "interconnect",
+        "evidence_needed"
+      ],
+      "theme_relation": "Less obvious but direct second-tier custom silicon platform for hyperscaler AI accelerators, memory-adjacent compute architectures, and data-center connectivity.",
+      "ticker": "MRVL",
+      "why_include": "Marvell announced a custom HBM compute architecture for cloud AI accelerators and says it works with Micron, Samsung, and SK hynix on custom HBM solutions. This creates plausible direct node exposure, but public evidence on specific hyperscaler sockets, revenue scale, and HBM-linked contribution is less complete than for NVIDIA, Micron, AMD, or Broadcom."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "NVIDIA reported record Q4 fiscal 2026 data center revenue of $62.3 billion, up 75% year over year, and full-year data center revenue of $193.7 billion; it also said AWS, Google Cloud, Microsoft Azure, and Oracle Cloud Infrastructure would be among the first to deploy Vera Rubin-based instances.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-02-25",
+      "source_title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Micron said its HBM4 36GB 12H entered volume shipment in Q1 calendar 2026 and was designed for NVIDIA Vera Rubin, delivering more than 2.8 TB/s bandwidth and more than 20% power-efficiency improvement versus HBM3E.",
+      "claim_type": "fact",
+      "confidence": 0.96,
+      "published_at": "2026-03-16",
+      "source_title": "Micron in High-Volume Production of HBM4 Designed for NVIDIA Vera Rubin, PCIe Gen6 SSD and SOCAMM2",
+      "source_url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Micron’s Q2 FY2026 release reported record revenue, gross margin, EPS, and free cash flow, with management attributing results to strong demand, tight industry supply, and execution.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-03-18",
+      "source_title": "Micron Technology, Inc. Reports Results for the Second Quarter of Fiscal 2026",
+      "source_url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026",
+      "ticker": "MU"
+    },
+    {
+      "claim": "AMD’s Instinct MI350 Series GPUs list 288GB of HBM3E memory and 8TB/s bandwidth for AI inference, training, and HPC workloads.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "AMD Instinct MI350 Series GPUs",
+      "source_url": "https://www.amd.com/en/products/accelerators/instinct/mi350.html",
+      "ticker": "AMD"
+    },
+    {
+      "claim": "AMD and Meta announced a 6-gigawatt agreement for Meta’s next-generation AI infrastructure across multiple AMD Instinct GPU generations, with first deployment support expected to begin in 2H 2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-02-24",
+      "source_title": "AMD and Meta Announce Expanded Strategic Partnership to Deploy 6 Gigawatts of AMD GPUs",
+      "source_url": "https://ir.amd.com/news-events/press-releases/detail/1279/amd-and-meta-announce-expanded-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus",
+      "ticker": "AMD"
+    },
+    {
+      "claim": "Broadcom reported Q1 FY2026 AI revenue of $8.4 billion, up 106% year over year, driven by custom AI accelerators and AI networking, and expected Q2 AI semiconductor revenue of $10.7 billion.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-03-05",
+      "source_title": "Broadcom Inc. Announces First Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend",
+      "source_url": "https://investors.broadcom.com/node/63976/pdf",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Broadcom said its 3.5D XDSiP platform is foundational to next-generation XPUs and allows compute, memory, and network I/O to scale independently for AI clusters.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-02-26",
+      "source_title": "Broadcom Ships 3.5D Face-to-Face Compute SoC Powering AI Revolution",
+      "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-ships-35d-face-face-compute-soc-powering-ai-revolution",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Broadcom’s 3.5D XDSiP technology can integrate more than 6000 mm2 of silicon and up to 12 HBM stacks in one packaged device for AI at scale.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2024-12-05",
+      "source_title": "Broadcom Delivers Industry’s First 3.5D F2F Technology for AI XPUs",
+      "source_url": "https://investors.broadcom.com/node/62691/pdf",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Marvell announced a custom HBM compute architecture for cloud AI accelerators, saying it works with Micron, Samsung, and SK hynix to deliver custom HBM solutions for XPUs.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2024-12-10",
+      "source_title": "Marvell Announces Breakthrough Custom HBM Compute Architecture to Optimize Cloud AI Accelerators",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-announces-breakthrough-custom-hbm-compute-architecture.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Marvell is a plausible direct but lower-confidence candidate for this node because its public disclosures emphasize custom AI compute, HBM architecture, and interconnect, but revenue visibility by customer socket is less explicit than Broadcom’s recent AI revenue disclosures.",
+      "claim_type": "inference",
+      "confidence": 0.76,
+      "published_at": "2025-08-28",
+      "source_title": "Marvell Q2 FY26 Financial and Business Results",
+      "source_url": "https://investor.marvell.com/image/2025_8_28_Marvell_Q2_FY26_financial_business_results_FINAL.pdf",
+      "ticker": "MRVL"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "For the AI accelerators + HBM node, NVDA, MU, AMD, AVGO, and MRVL form the most direct US-listed candidate set for this pass: merchant GPUs, HBM memory, and custom XPU silicon.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "HBM exposure is not only a memory-supplier issue; accelerator designers and custom silicon vendors are tightly exposed through platform qualification, HBM stack count, bandwidth, power, packaging yield, and hyperscaler deployment schedules.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.96,
+      "text": "Non-US primary HBM leaders SK hynix and Samsung Electronics are central to the chokepoint but were not included as candidates because this pass requested US-listed companies. They remain mandatory comparables for HBM share, pricing, and capacity evidence.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.87,
+      "text": "TSMC is a highly relevant ADR-listed advanced packaging and foundry chokepoint for AI accelerators and HBM integration, but was left outside the five-candidate limit to keep this pass focused on accelerator/HBM product leaders. It should be covered in a dedicated advanced packaging / foundry node pass.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI accelerators and HBM memory",
+  "node_id": "ai_accelerators_hbm_memory",
+  "summary": "Focused Layer 1B expansion for the AI accelerators + HBM memory node identified five US-listed companies with the most direct public-market exposure: NVIDIA and AMD as merchant AI accelerator platforms, Micron as the direct US-listed HBM memory supplier, and Broadcom and Marvell as custom AI accelerator / XPU silicon platforms. The node appears structurally important because modern AI accelerators bind together compute dies, HBM stacks, advanced packaging, networking I/O, and hyperscaler qualification cycles. This is research support only, not a buy/sell recommendation.",
+  "theme_id": "ai_artificial_intelligence_cloud_data_center_semiconductors_software_automation"
+}

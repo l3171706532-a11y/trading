@@ -1,0 +1,580 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Broadcom",
+      "confidence": 0.95,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Separate AI networking revenue from custom accelerator revenue; verify hyperscaler customer concentration, merchant Ethernet share, Jericho/Tomahawk product cycles, and whether AI networking gross margins can hold as large customers negotiate.",
+      "node_relation": "Direct supplier of Ethernet switch silicon, routing silicon, NICs, PCIe/connectivity, optical interconnect technology, and custom AI accelerator silicon for hyperscale AI systems.",
+      "sector_or_industry": "AI networking semiconductors, Ethernet switching, custom ASICs, optical interconnect",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "custom_silicon",
+        "ethernet",
+        "optical_interconnect",
+        "evidence_needed",
+        "merchant_silicon"
+      ],
+      "theme_relation": "Broadcom maps to several potential chokepoints at once: custom AI ASICs, Ethernet scale-out/scale-up networking, high-speed switching, and optical interconnect for large AI clusters.",
+      "ticker": "AVGO",
+      "why_include": "Broadcom is one of the clearest public-market leaders for AI networking silicon. Company materials describe an end-to-end AI infrastructure portfolio spanning custom AI accelerators, Ethernet, PCIe, and optical interconnect. | Official Broadcom materials describe a 102.4T Tomahawk 6 Ethernet switch family for AI scale-up/scale-out and an OFC 2026 portfolio spanning 400G/lane optical DSPs, 200G/lane Ethernet retimers/AEC, PCIe Gen6 switches/retimers, and AI Ethernet NICs."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Marvell Technology",
+      "confidence": 0.92,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify design-win concentration, timing of 1.6T and 200G/lane ramps, mix between custom silicon and merchant interconnect, advanced-node capacity dependencies, and whether optical DSP demand is tied to a few hyperscale customers.",
+      "node_relation": "Direct supplier of optical DSPs, data-center interconnect modules, Ethernet switching silicon, SerDes, retimers, active cable chips, and custom AI silicon building blocks.",
+      "sector_or_industry": "Data-center semiconductors, optical DSPs, Ethernet switching silicon, custom silicon, interconnect",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "optical_dsp",
+        "custom_silicon",
+        "ethernet",
+        "evidence_needed"
+      ],
+      "theme_relation": "Marvell is highly exposed to the shift from single-pod AI systems to larger rack, row, campus, and inter-data-center fabrics where optical DSPs and high-speed interconnect become more critical.",
+      "ticker": "MRVL",
+      "why_include": "Marvell company releases describe a broad AI interconnect portfolio including PAM optical DSPs, coherent DSPs, DCI modules, PCIe retimers, active electrical/optical cable DSPs, Ethernet switching silicon, and custom AI accelerators. | Marvell announced 1.6T ZR/ZR+ pluggables and 2nm coherent DSPs for AI scale-across interconnects, and has shown 1.6T PAM4/coherent-lite DSPs with Lumentum OCS demonstrations."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Arista Networks",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify the latest AI-specific revenue disclosure, cloud customer concentration, 800G/1.6T platform mix, gross-margin durability, and whether back-end AI networking revenue is accelerating faster than front-end cloud switching.",
+      "node_relation": "Direct supplier of Ethernet switching platforms and software for cloud, AI, data-center, campus, and routing environments.",
+      "sector_or_industry": "Cloud and AI data-center Ethernet networking systems",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "ethernet",
+        "switching",
+        "evidence_needed",
+        "switching_systems"
+      ],
+      "theme_relation": "If hyperscalers and AI labs move more AI cluster traffic to Ethernet-based scale-out and scale-up fabrics, Arista is one of the most direct public-market mappings to AI Ethernet networking systems.",
+      "ticker": "ANET",
+      "why_include": "Arista is an obvious leader in high-performance data-center Ethernet switching. Current filings and company materials explicitly frame its platforms around large AI and cloud data-center environments, and recent annual-report summaries reference AI-focused R4 platforms and Ethernet for Scale-Up Networks work. | Arista has official AI networking product releases covering 800G/400G platforms and Ultra Ethernet Consortium-compatible Etherlink for clusters up to 100,000+ accelerators; recent releases also frame Arista as an AI/data-center networking leader."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Coherent",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify AI/datacom revenue share, 800G and 1.6T order visibility, customer concentration, laser/component sourcing constraints, pricing pressure from hyperscalers, and whether Coherent benefits more from modules, components, or optical switching.",
+      "node_relation": "Direct optical supply-chain participant for AI data-center transceivers, lasers, coherent modules, optical circuit switching, and related photonics components.",
+      "sector_or_industry": "Optical components, lasers, transceivers, optical switching, data-center photonics",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "optical_modules",
+        "lasers",
+        "photonics",
+        "evidence_needed",
+        "materials"
+      ],
+      "theme_relation": "As AI clusters require more 400G, 800G, and 1.6T optical links, Coherent maps to the optical-module and component layer that could become capacity-constrained.",
+      "ticker": "COHR",
+      "why_include": "Coherent’s FY2025 annual-report materials identify R&D investment in optical circuit switching for AI/ML and hyperscale data centers and in coherent transceivers up to 800G; company investor-day materials also highlight optical transceivers/components for AI data centers and CPO/pluggable roadmaps. | Coherent’s FY2025 annual report explicitly lists R&D focus areas including 800G/1.6T transceivers, CPO, VCSELs, EMLs, silicon photonics, InP lasers, and an OCS product family for AI/ML and hyperscale datacenters."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Astera Labs",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify customer concentration, attach rate per AI rack, competition from in-house silicon and larger semiconductor vendors, product-cycle timing for PCIe 6/CXL/Ethernet modules, and exposure to NVIDIA versus non-NVIDIA accelerator ecosystems.",
+      "node_relation": "Direct supplier of PCIe, CXL, Ethernet, UALink, NVLink Fusion-related and software-managed connectivity products for rack-scale AI infrastructure.",
+      "sector_or_industry": "Semiconductor-based connectivity for rack-scale AI infrastructure",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "rack_scale",
+        "pcie",
+        "cxl",
+        "ethernet",
+        "evidence_needed"
+      ],
+      "theme_relation": "Astera is a less traditional but direct interconnect candidate: AI scale-up and rack-scale architectures need retimers, fabric switches, active cable modules, memory connectivity, and system-level connectivity software.",
+      "ticker": "ALAB",
+      "why_include": "Astera’s investor materials describe rack-scale AI infrastructure and an Intelligent Connectivity Platform integrating CXL, Ethernet, NVLink Fusion, PCIe, UALink, and software; company releases also highlight PCIe 6 retimers, fabric switches, gearboxes, and active cable modules for next-generation AI/cloud systems."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Credo Technology Group Holding Ltd",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check customer concentration, Microsoft/other hyperscaler dependence, AEC adoption versus optical alternatives, foundry/packaging constraints, and whether revenue growth is tied to durable AI cluster deployments rather than a narrow product cycle.",
+      "node_relation": "Provides high-speed, energy-efficient connectivity ICs, active electrical cables, optical DSPs, and SerDes chiplets for AI clusters and hyperscale networks.",
+      "sector_or_industry": "Connectivity semiconductors; AECs, optical DSPs, SerDes chiplets",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "aec",
+        "optical_dsp",
+        "evidence_needed",
+        "customer_dependency"
+      ],
+      "theme_relation": "Credo is a smaller but direct interconnect pure-play candidate if AI racks require more short-reach electrical connectivity and optical DSP capacity at 800G and emerging 1.6T speeds.",
+      "ticker": "CRDO",
+      "why_include": "Credo’s FY2025 10-K describes HiWire AECs at 100G/200G/400G/800G and emerging 1.6T, and optical DSPs used inside transceivers for AI clusters and hyperscale data centers. | Credo directly maps to AI networking interconnect rather than generic compute: its FY2025 10-K describes optical DSPs as building blocks inside optical transceivers used in AI clusters and states that it partners with Microsoft on HiWire Switch AEC for data-center ToR architecture."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Lumentum Holdings Inc.",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify capacity constraints in EML/laser lines, long-term agreement coverage, 1.6T design wins, actual AI customer concentration, and margin impact from optical-component supply expansion.",
+      "node_relation": "Supplier of lasers, EML chips, pump lasers, narrow-linewidth laser assemblies, 800G modules, and optical circuit switching relevant to AI data-center optical networks.",
+      "sector_or_industry": "Optical components; lasers, optical modules, optical circuit switching",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "lasers",
+        "optical_modules",
+        "evidence_needed",
+        "adjacent_chokepoint"
+      ],
+      "theme_relation": "Lumentum is a candidate scarce-component exposure if 800G/1.6T optical modules and optical circuit switching become limiting factors in AI data-center expansion.",
+      "ticker": "LITE",
+      "why_include": "Lumentum’s FY2025 release attributes cloud-product growth to AI data centers and specifically names EML chips, pump lasers, narrow-linewidth laser assemblies for DCI, and 800G modules; it also demonstrated OCS interoperability with Marvell for AI scale-up infrastructure. | Lumentum’s 2025 disclosures highlight AI/ML back-end network products including 800G and 1.6T transceivers and OCS, plus InP chip solutions for scalable AI data centers and 200G-per-lane optical interconnects."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Keysight Technologies Inc",
+      "confidence": 0.76,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Quantify AI networking as a percentage of total revenue, identify whether hyperscalers or component vendors are key buyers, track attach rates for 1.6T validation platforms, and compare exposure versus general electronics test cyclicality.",
+      "node_relation": "Provides validation platforms and software for 800GE/1.6T Ethernet, 224Gb/s electrical lanes, optical/copper interconnects, and AI data-center network performance testing.",
+      "sector_or_industry": "Electronic design, network emulation, and test-and-measurement equipment",
+      "serenity_tags": [
+        "adjacent_chokepoint",
+        "infrastructure_provider",
+        "validation",
+        "evidence_needed"
+      ],
+      "theme_relation": "As 800G/1.6T Ethernet, LPO, CPO, and optical scale-up/scale-out networks become harder to validate, test equipment and automation can be a second-order bottleneck for deployment and qualification cycles.",
+      "ticker": "KEYS",
+      "why_include": "Keysight’s March 2025 release states that its 1.6T and 800GE hardware platforms and ITS software support performance evaluation for AI network infrastructure and that it works with standards bodies and manufacturers of silicon, optical, and copper interconnects."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Fabrinet",
+      "confidence": 0.69,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Identify top customers, determine exposure to 800G/1.6T transceiver assembly, assess Thai capacity expansions, yield constraints, pricing power, and customer inventory risks.",
+      "node_relation": "Manufactures optical communications products for customers; FY2025 revenue was heavily weighted to optical communications, including datacom and telecom.",
+      "sector_or_industry": "Optical communications contract manufacturing and precision manufacturing services",
+      "serenity_tags": [
+        "supply_chain",
+        "second_order",
+        "manufacturing_capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI optical module demand can create not only component bottlenecks but also assembly, packaging, test, yield, and Thailand-based manufacturing capacity constraints.",
+      "ticker": "FN",
+      "why_include": "Fabrinet’s FY2025 10-K shows optical communications at 76.6% of revenue and datacom revenue of about $1.156 billion. The AI-specific link is inferred through optical datacom manufacturing exposure rather than directly disclosed AI revenue."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Arista’s 2025 annual-report materials describe R4 platforms for AI, data-center, and routed-backbone deployment and reference collaboration on Ethernet for Scale-Up Networks.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-05",
+      "source_title": "Arista 2025 Annual Report 2026 Notice and Proxy Statement - 2025 Annual Report",
+      "source_url": "https://ca.marketscreener.com/news/arista-2025-annual-report-2026-notice-and-proxy-statement-2025-annual-report-ce7e50d3d98bf125",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Current market-data lookup indicates Arista’s market capitalization is above USD 1 billion.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-06",
+      "source_title": "Finance quote lookup for Arista Networks Inc.",
+      "source_url": "web.finance:ANET:2026-06-06",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Broadcom’s AI infrastructure materials state that its portfolio extends across custom AI accelerators, Ethernet, PCI Express, and optical interconnect.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2025-04-24",
+      "source_title": "Broadcom AI Infrastructure Solutions",
+      "source_url": "https://www.broadcom.com/solutions/ai-solutions/ai-infrastructure",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Current market-data lookup indicates Broadcom’s market capitalization is above USD 1 billion.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-06",
+      "source_title": "Finance quote lookup for Broadcom Inc.",
+      "source_url": "web.finance:AVGO:2026-06-06",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Marvell describes an AI interconnect portfolio spanning SerDes, die-to-die IP, PCIe retimers, CXL, active electrical/optical cable DSPs, PAM optical DSPs, coherent DSPs, and DCI modules.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2025-01-06",
+      "source_title": "Marvell Announces Breakthrough Co-Packaged Optics Architecture for Custom AI Accelerators",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-co-packaged-optics-architecture-custom-ai-accelerators.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "A Marvell proxy filing references a generational agreement spanning custom AI accelerators, optical DSPs, DCI optical modules, Ethernet switching silicon, and more.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05",
+      "source_title": "Marvell 2025 Proxy Statement",
+      "source_url": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001104659-25-043094/0001104659-25-043094.pdf",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Current market-data lookup indicates Marvell’s market capitalization is above USD 1 billion.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-06",
+      "source_title": "Finance quote lookup for Marvell Technology Inc.",
+      "source_url": "web.finance:MRVL:2026-06-06",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Coherent’s FY2025 annual-report materials describe R&D in optical circuit switching for AI/ML and hyperscale data centers and in 100G/200G/400G/800G coherent transceivers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "Coherent 2025 Annual Report",
+      "source_url": "https://www.coherent.com/content/dam/coherent/site/en/documents/investors/annual-filings/2025/coherent-annual-report-2025.pdf",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Coherent investor-day materials highlight optical transceivers and components for AI data centers, pluggable and CPO transceivers, optical switching, and DCI roadmap exposure.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025",
+      "source_title": "Coherent Details Growth Strategy and Long-Term Financial Model at 2025 Analyst and Investor Day",
+      "source_url": "https://www.coherent.com/news/press-releases/2025-analyst-investor-day",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Current market-data lookup indicates Coherent’s market capitalization is above USD 1 billion.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-06",
+      "source_title": "Finance quote lookup for Coherent Corp.",
+      "source_url": "web.finance:COHR:2026-06-06",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Astera describes itself as providing rack-scale AI infrastructure through connectivity solutions integrating CXL, Ethernet, NVLink Fusion, PCIe, UALink, and COSMOS software.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026",
+      "source_title": "Astera Labs Investor Relations",
+      "source_url": "https://ir.asteralabs.com/investor-relations/",
+      "ticker": "ALAB"
+    },
+    {
+      "claim": "Astera announced PCIe 6 connectivity products including fabric switches, retimers, gearboxes, and active cable modules for next-generation AI and cloud infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-05-01",
+      "source_title": "Astera Labs Ramps Production of PCIe 6 Connectivity Portfolio",
+      "source_url": "https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-ramps-production-pcie-6-connectivity-portfolio",
+      "ticker": "ALAB"
+    },
+    {
+      "claim": "Current market-data lookup indicates Astera Labs’ market capitalization is above USD 1 billion.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-06",
+      "source_title": "Finance quote lookup for Astera Labs Inc.",
+      "source_url": "web.finance:ALAB:2026-06-06",
+      "ticker": "ALAB"
+    },
+    {
+      "claim": "Broadcom’s 102.4 Tb/s Tomahawk 6 Ethernet switch family supports up to 1.6TbE and is described as designed for next-generation data center, AI, ML, and cloud environments.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "",
+      "source_title": "Ethernet Switch Chip | Networking for AI | AI Clusters",
+      "source_url": "https://www.broadcom.com/products/ethernet-connectivity/switching/strataxgs/bcm78910-series",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Broadcom’s OFC 2026 AI infrastructure portfolio included 102.4T Ethernet switching, CPO, 400G/lane optical DSP, 200G/lane Ethernet retimers/AEC, PCIe Gen6 switches/retimers, and 800G AI NIC products.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-03-12",
+      "source_title": "Broadcom Showcases Industry-Leading Solutions for Scaling AI Infrastructure at OFC 2026",
+      "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Broadcom was reported with a market cap around $1.92 trillion as of May 10, 2026, comfortably above the USD 1B filter.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-05-10",
+      "source_title": "Broadcom Inc. (NASDAQ: AVGO) - Market Cap",
+      "source_url": "https://gomarketcap.com/companies/NASDAQ-AVGO/broadcom-inc",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Arista describes itself as a leader in cloud and AI networking and introduced an R4 series for AI, data-center, and routed-backbone deployment; the release cites 800GbE momentum.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-10-29",
+      "source_title": "Arista Networks Unveils Next Generation Data and AI Centers",
+      "source_url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2025/Arista-Networks-Unveils-Next-Generation-Data-and-AI-Centers/default.aspx",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Arista’s Etherlink AI networking release says its 800G/400G platforms are forward-compatible with Ultra Ethernet Consortium and can scale to massive deployments with 100,000+ accelerators.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-03-04",
+      "source_title": "Arista Introduces Intelligent Innovations for AI Networking",
+      "source_url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2025/Arista-Introduces-Intelligent-Innovations-for-AI-Networking/",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Arista’s market cap was reported around $220.78B as of June 4, 2026, above the USD 1B filter.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06-04",
+      "source_title": "Arista Networks (ANET) Market Cap & Net Worth",
+      "source_url": "https://www.tipranks.com/stocks/anet/market-cap",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Marvell announced 1.6T ZR/ZR+ pluggables and 2nm coherent DSPs for secure AI scale-across interconnects, with customer sampling expected in the second half of 2026.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-03-10",
+      "source_title": "Marvell Extends ZR/ZR+ Leadership with Industry-first 1.6T ZR/ZR+ Pluggable and 2nm Coherent DSPs for Secure AI Scale-across Interconnects",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-1-6t-zr-zr-plus-pluggable-2nm-coherent-dsp-ai-interconnects.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Marvell and Lumentum demonstrated Marvell optical connectivity solutions interoperating with Lumentum’s R300 optical circuit switch for next-generation AI scale-up infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-03-16",
+      "source_title": "Marvell and Lumentum to Demonstrate Optical Circuit Switching for Next-generation AI Scale-up Infrastructure",
+      "source_url": "https://www.businesswire.com/news/home/20260316797468/en/Marvell-and-Lumentum-to-Demonstrate-Optical-Circuit-Switching-for-Next-generation-AI-Scale-up-Infrastructure",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Marvell’s market cap was reported near $250B in early June 2026 after a sharp stock move, above the USD 1B filter.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06-03",
+      "source_title": "When Nvidia's CEO speaks, investors listen",
+      "source_url": "https://www.axios.com/2026/06/03/marvell-jensen-huang-nvidia-ai",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Lumentum’s FY2025 results release said growth was driven by cloud products supporting AI data centers, including EML chips, pump lasers, narrow-linewidth laser assemblies for data-center interconnect, and 800G modules.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-08-12",
+      "source_title": "Lumentum Announces Fourth Quarter and Full Fiscal Year 2025 Results",
+      "source_url": "https://s21.q4cdn.com/377324469/files/doc_news/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2025-Results-2025.pdf",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Lumentum was reported with a market cap of $67.19B as of June 2026, above the USD 1B filter.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-06",
+      "source_title": "Lumentum (LITE) - Market capitalization",
+      "source_url": "https://companiesmarketcap.com/lumentum/marketcap/",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Credo’s FY2025 annual report describes AECs for 100G, 200G, 400G, 800G and emerging 1.6T speeds, and optical DSPs used in AI clusters and hyperscale data centers.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2025-07-02",
+      "source_title": "Credo Technology Group Holding Ltd 2025 Annual Report",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1807794/000180779425000012/ars_10-kx2025.pdf",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Credo’s market cap was reported at $38.16B as of June 2026, above the USD 1B filter.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-06",
+      "source_title": "Credo Technology (CRDO) - Market capitalization",
+      "source_url": "https://companiesmarketcap.com/credo-technology/marketcap/",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Credo’s FY2025 10-K says its optical DSPs are used inside optical transceivers for AI clusters, hyperscale data centers, service-provider networks, enterprise networks, and 5G infrastructure, and that the company partners with Microsoft on HiWire Switch AEC.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-07-02",
+      "source_title": "Credo Technology Group Holding Ltd - 10-K Annual Report, July 2, 2025",
+      "source_url": "https://fintel.io/doc/sec-credo-technology-group-holding-ltd-1807794-10k-2025-july-02-20271-9747",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Coherent’s FY2025 annual report lists networking R&D investments in 800G/1.6T transceivers, CPO, VCSELs, EMLs, silicon photonics, ICs, OCS for AI/ML and hyperscale datacenters, and InP lasers/detectors.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-09-01",
+      "source_title": "Coherent 2025 Annual Report",
+      "source_url": "https://www.coherent.com/content/dam/coherent/site/en/documents/investors/annual-filings/2025/coherent-annual-report-2025.pdf",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Lumentum’s OFC 2025 materials describe AI/ML back-end network products including 800G and 1.6T optical transceivers and OCS, and separate InP chip work for scalable AI data centers.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2025-03-25",
+      "source_title": "Lumentum to Showcase Cutting-Edge Optical Innovations for Cloud, AI, and Networking Infrastructure at OFC 2025",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2025/Lumentum-to-Showcase-Cutting-Edge-Optical-Innovations-for-Cloud-AI-and-Networking-Infrastructure-at-OFC-2025/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Lumentum announced next-generation InP chip solutions for AI data-center scale, including more efficient 200G-per-lane optical interconnects and technology relevant to co-packaged optics.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2025-03-27",
+      "source_title": "Lumentum Showcases Next-Generation InP Chip Solutions Enabling Scalable AI Data Centers at OFC 2025",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2025/Lumentum-Showcases-Next-Generation-InP-Chip-Solutions-Enabling-Scalable-AI-Data-Centers-at-OFC-2025/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Fabrinet’s FY2025 10-K reported total revenue of $3.419 billion, with optical communications revenue of $2.619 billion, or 76.6% of total revenue; datacom revenue was about $1.156 billion.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2025-08-19",
+      "source_title": "Fabrinet Form 10-K filed August 19, 2025",
+      "source_url": "https://fabrinet.gcs-web.com/static-files/9a916b94-df74-471d-971e-a5ac4b02107c",
+      "ticker": "FN"
+    },
+    {
+      "claim": "Keysight announced a 1.6T platform and ITS software for validating high-speed Ethernet and AI data-center interconnects, including 800GE/1.6T AI network infrastructure using 224Gb/s electrical lane interfaces.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "2025-03-26",
+      "source_title": "Keysight Debuts 1.6T Platform and Software to Automate Network Interconnect Validation",
+      "source_url": "https://www.keysight.com.cn/cn/zh/about/newsroom/news-releases/2025/0326-pr25-051-keysight-debuts-1-6t-platform-and-first-of-its-kind-software-to-automate-validation-of-network-interconnect-performance.html",
+      "ticker": "KEYS"
+    },
+    {
+      "claim": "Semtech announced DirectEdge 100G-per-channel LPO solutions for 400G/800G optical modules and described live demonstrations for next-generation 800G/1.6T optical connectivity for data-center interconnects.",
+      "claim_type": "fact",
+      "confidence": 0.74,
+      "published_at": "2025-04-01",
+      "source_title": "Semtech’s DirectEdge Portfolio Enables Low-Power 400G/800G AI Data Centers",
+      "source_url": "https://www.semtech.com/company/press/directedge-portfolio-low-power-400g-800g-ai-data-centers",
+      "ticker": "SMTC"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "ANET is a core direct candidate for the AI Ethernet switching systems layer; prioritize verification of AI-specific networking revenue, 800G/1.6T mix, and cloud concentration.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.95,
+      "text": "AVGO is a core direct candidate across custom AI ASICs, Ethernet switching/routing, NICs, PCIe, and optical interconnect; its node exposure is broad but needs revenue disaggregation.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.92,
+      "text": "MRVL is a core direct candidate for AI optical DSPs, DCI modules, SerDes, PCIe/CXL connectivity, Ethernet switching silicon, and custom AI silicon.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "COHR is a core optical candidate for AI data-center photonics, transceivers, lasers, CPO/pluggable roadmap, and optical circuit switching.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "ALAB is a direct high-growth connectivity candidate for rack-scale AI systems, especially PCIe, CXL, Ethernet, UALink, NVLink Fusion-related connectivity, active cable modules, and connectivity software.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "CSCO was not included due to the five-candidate limit but remains an obvious leader to test in a broader networking systems pass, especially Silicon One, Nexus, AI PODs, optics, and hyperscaler AI infrastructure orders.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "LITE and FN were not included due to the five-candidate limit but remain important optical supply-chain candidates: Lumentum for lasers/transceivers and Fabrinet for optical module manufacturing/advanced packaging.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.9,
+      "text": "The AI networking chokepoint should be split into at least four subnodes for later scoring: Ethernet switching systems, merchant/custom networking silicon, optical DSPs/interconnect silicon, and optical modules/components/manufacturing.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Primary US-listed AI networking candidates for this node: AVGO for merchant Ethernet switching silicon and connectivity chips; ANET for AI Ethernet switching systems; MRVL for optical DSP/coherent interconnect; LITE for lasers/OCS/optical components; CRDO for AEC/optical DSP/SerDes connectivity.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "The chokepoint logic is strongest where bandwidth transitions require new silicon or scarce optical components: 800G to 1.6T Ethernet switching, 400G/lane optical DSPs, EML/laser supply, active electrical cables, and OCS for scale-up/scale-across networks.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Next pass should test additional US-listed second-order names not included due to the 5-candidate cap: COHR for transceivers/VCSELs/EMLs/CPO/OCS, FN for optical manufacturing, CLS for AI-scale 1.6TbE switch platforms and supply-chain execution, ALAB for PCIe/CXL/Ethernet rack-scale connectivity, CIEN for DCI/coherent optical systems, GLW/APH for fiber/connectors, CSCO/JNPR for competing Ethernet systems, and KEYS for test equipment.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Need a separate falsification pass on whether Ethernet share gains are actually occurring in back-end AI networks versus Nvidia InfiniBand/Spectrum-X, and whether hyperscalers are internalizing more networking silicon or optics.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.82,
+      "text": "CRDO should be tracked as a direct AI networking interconnect candidate because its optical DSPs, AECs, and Microsoft HiWire Switch AEC relationship map to rack/ToR and transceiver connectivity.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "COHR and LITE are direct optical-component candidates for 800G/1.6T AI networking; key differentiators to verify are InP/EML capacity, silicon photonics transition risk, and customer qualification depth.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.68,
+      "text": "FN is a second-order optical manufacturing capacity candidate; AI linkage is less direct and requires customer and product mix verification.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "KEYS maps to the validation chokepoint: 1.6T Ethernet, optical/copper interconnects, 224G lanes, and AI data-center network emulation may become gating items before mass deployment.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.72,
+      "text": "SMTC was not included in the 5-candidate limit but remains a follow-up candidate for LPO, PMD/TIA/laser-driver, and low-power optical analog exposure to AI data-center networking.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI data-center networking: Ethernet, optical, switching, and interconnect",
+  "node_id": "ai_data_center_networking",
+  "search_pass_count": 3,
+  "summary": "Combined focused Layer 1B searches: Expanded the US-listed universe for the AI data-center networking node to five high-directness candidates across Ethernet switching systems, custom/networking silicon, optical DSP/interconnect silicon, optical modules/components, and rack-scale connectivity. This is a research universe only, not a ranking or trading recommendation. The strongest direct exposure candidates are Arista Networks, Broadcom, Marvell Technology, Coherent, and Astera Labs. Cisco, Lumentum, Fabrinet, and other optical/component names remain coverage gaps for a later wider pass because the candidate limit is five. Expanded the US-listed universe around AI data-center networking bottlenecks. The highest-priority direct exposures in this pass are merchant Ethernet switching silicon, AI Ethernet switch systems, optical DSPs, lasers/OCS, and active electrical/optical interconnect components. This is research support only, not a trading recommendation. Expanded the US-listed universe around AI data-center networking beyond the obvious Ethernet switch and ASIC leaders. The strongest second-order mappings found in this pass are optical/component suppliers, active electrical cable and DSP silicon, optical manufacturing services, and validation/test infrastructure for 800G/1.6T Ethernet and optical interconnect. These are research candidates only, not recommendations.",
+  "theme_id": ""
+}

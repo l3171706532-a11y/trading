@@ -1,0 +1,197 @@
+{
+  "briefs": [
+    {
+      "brief_cn": "Microsoft 的卡点不是单一零部件，而是“AI 算力资本开支能否持续转化为 Azure AI、Copilot 和企业 AI 收入”。事实层面，微软 FY26 Q3 披露收入 829 亿美元、Microsoft Cloud 收入强劲，AI 业务年化收入运行率超过 370 亿美元，同比增 123%。Serenity 视角下，微软是 AI 产业链最强需求锚之一，但瓶颈控制力弱于 GPU、网络、存储、供电和冷却供应商。若 Azure AI 增速放缓、Copilot 付费渗透低于预期、AI capex 持续压低自由现金流或毛利率，则该 thesis 降级。",
+      "brief_en": "Microsoft is not a scarce component chokepoint; it is a demand-anchor and monetization test for the AI infrastructure cycle. The thesis is that large AI capex can convert into durable Azure AI, Copilot, and enterprise AI revenue. Microsoft disclosed FY26 Q3 revenue of $82.9B and said its AI business surpassed a $37B annual revenue run rate, up 123% year over year. The Serenity concern is whether the company is prebuilding capacity faster than monetization, utilization, and margin recovery can prove out.",
+      "chokepoint_thesis": "Microsoft is a hyperscale demand-anchor chokepoint: its AI cloud and Copilot monetization determine whether upstream GPU, networking, memory, power, data-center, and cooling demand is durable rather than speculative capacity prebuild.",
+      "claim_type": "hypothesis",
+      "company": "Microsoft",
+      "evidence_to_verify": [
+        "Fact: Microsoft FY26 Q3 earnings release reported revenue of $82.9B and AI business annual revenue run rate above $37B, up 123% year over year: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast",
+        "Verify Azure and other cloud services growth, Microsoft Cloud gross margin, capex, finance lease obligations, and remaining performance obligations in Microsoft FY26 Q3 10-Q and earnings call transcript.",
+        "Verify Copilot paid seats, ARPU, renewal rates, and enterprise attach rates; current disclosures remain less granular than needed for a fully proven monetization thesis.",
+        "Cached evidence note: prior candidate ranking cited roughly $190B of calendar-2026 capex; this should be rechecked against official Microsoft filings and guidance before being treated as fact."
+      ],
+      "falsification": [
+        "Azure AI growth decelerates while AI-related capex remains elevated.",
+        "Copilot usage grows but paid conversion, renewal, or ARPU fails to show durable enterprise monetization.",
+        "Gross margin or free cash flow deteriorates because GPU and data-center capacity is underutilized.",
+        "Management reduces or delays AI infrastructure deployment because demand is below internal expectations."
+      ],
+      "monitoring_items": [
+        "Azure and other cloud services growth rate, especially management commentary on AI contribution.",
+        "AI annual revenue run rate and any incremental disclosure on Copilot paid seats or enterprise usage.",
+        "Capital expenditures, finance leases, depreciation, and data-center commitments.",
+        "Cloud gross margin and free cash flow conversion.",
+        "Utilization and capacity-constraint commentary in earnings calls."
+      ],
+      "ticker": "MSFT"
+    },
+    {
+      "brief_cn": "Amazon 的 AI thesis 主要在 AWS：外部 NVIDIA GPU 供给、自研 Trainium/Graviton、Bedrock 模型平台和大客户 AI 工作负载。事实层面，Amazon Q1 2026 披露过去 12 个月落地 210 万颗以上 AI 芯片，其中超过一半为 Trainium，并宣布 2026 年开始部署 100 万颗以上 NVIDIA GPU；同时芯片业务年化收入运行率超过 200 亿美元。Serenity 关键问题是：Trainium 是否能在性能、生态和客户采用上降低对 NVIDIA 的依赖，同时不牺牲 AWS 竞争力和利润率。",
+      "brief_en": "Amazon is an AI infrastructure demand driver through AWS, NVIDIA GPU deployment, Trainium, Graviton, Bedrock, and large enterprise AI workloads. Amazon’s Q1 2026 release disclosed more than 2.1M AI chips landed over the prior 12 months, more than half Trainium, and more than 1M NVIDIA GPUs to be deployed starting in 2026. The thesis is strongest if AWS can translate AI capacity into revenue growth while custom silicon improves price-performance and margins rather than becoming a compatibility bottleneck.",
+      "chokepoint_thesis": "Amazon/AWS is a dual demand-anchor and internal-silicon chokepoint: it can pull through external GPU supply while testing whether Trainium can become a credible cloud AI accelerator for large customers.",
+      "claim_type": "hypothesis",
+      "company": "Amazon",
+      "evidence_to_verify": [
+        "Fact: Amazon Q1 2026 earnings release disclosed more than 2.1M AI chips landed over the prior 12 months, more than half Trainium, and more than 1M NVIDIA GPUs to be deployed starting in 2026: https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf",
+        "Fact: Amazon Q1 2026 release disclosed Amazon chips business annual revenue run rate exceeded $20B, inclusive of Graviton and Trainium: https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf",
+        "Verify AWS AI revenue contribution, Bedrock usage, Trainium customer wins, and AI backlog in official earnings calls and 10-Q filings.",
+        "Verify Anthropic, OpenAI, Meta, Uber, and other named AI workloads for depth of production use rather than announcement value."
+      ],
+      "falsification": [
+        "AWS growth fails to accelerate despite large AI capex and AI chip deployment.",
+        "Trainium adoption remains mostly internal or concentrated in a few strategic accounts.",
+        "Customers prefer NVIDIA-based offerings because Trainium software ecosystem, performance, or availability is insufficient.",
+        "AI infrastructure spending depresses AWS margins without visible AI revenue contribution."
+      ],
+      "monitoring_items": [
+        "AWS revenue growth, operating margin, and backlog commentary.",
+        "Trainium3 production workload disclosures and external customer adoption.",
+        "NVIDIA GPU deployment pace and capacity-constraint commentary.",
+        "Bedrock model usage, enterprise adoption, and AI service revenue run-rate hints.",
+        "Capex, depreciation, and infrastructure utilization disclosures."
+      ],
+      "ticker": "AMZN"
+    },
+    {
+      "brief_cn": "CoreWeave 是本组里最纯的 AI 云算力映射，卡点在“GPU 集群、电力/数据中心交付、融资和客户合约能否变成高利用率与自由现金流”。事实层面，公司 Q1 2026 披露收入 20.78 亿美元、收入 backlog 994 亿美元，并与 NVIDIA 扩大关系，计划到 2030 年建设超过 5GW AI factories；但同季仍录得 GAAP 净亏损 7.40 亿美元，且资本开支高。Serenity 重点不是收入增长本身，而是合约质量、客户集中度、折旧、债务成本和可持续现金回报。",
+      "brief_en": "CoreWeave is the purest public-market mapping in this chunk to AI compute capacity monetization. The chokepoint is access to GPU clusters, power, data-center delivery, and financing. CoreWeave reported Q1 2026 revenue of $2.078B and revenue backlog of $99.4B, but also a GAAP net loss of $740M and heavy property-and-equipment investment. The key Serenity question is whether backlog converts into profitable, high-utilization capacity rather than debt-funded growth with customer and depreciation risk.",
+      "chokepoint_thesis": "CoreWeave is a concentrated AI compute-capacity chokepoint: if scarce accelerated compute, power access, and large customer contracts stay tight, it can monetize capacity faster than diversified hyperscalers; if utilization or financing weakens, the thesis breaks quickly.",
+      "claim_type": "hypothesis",
+      "company": "CoreWeave",
+      "evidence_to_verify": [
+        "Fact: CoreWeave Q1 2026 release reported revenue backlog of $99.4B as of March 31, 2026: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/default.aspx",
+        "Fact: CoreWeave Q1 2026 release reported Q1 revenue of $2.078B, GAAP net loss of $740M, and purchase of property and equipment of $7.695B: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/default.aspx",
+        "Fact: CoreWeave disclosed expanded NVIDIA relationship to accelerate build-out of more than 5GW of AI factories by 2030: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/default.aspx",
+        "Verify contract duration, take-or-pay terms, cancellation rights, customer concentration, GPU depreciation schedules, and financing covenants in CoreWeave 10-Q/S-1 and debt disclosures."
+      ],
+      "falsification": [
+        "Backlog does not convert to recognized revenue on schedule because capacity, power, or data-center delivery slips.",
+        "Utilization falls or pricing weakens as hyperscalers add capacity or customers optimize workloads.",
+        "Interest expense, depreciation, or refinancing costs prevent positive free cash flow despite revenue growth.",
+        "Customer concentration or renegotiated contracts reduce revenue visibility."
+      ],
+      "monitoring_items": [
+        "Revenue backlog, remaining performance obligations, and backlog-to-revenue conversion.",
+        "GPU utilization, average contract duration, and customer concentration disclosures.",
+        "Capex, depreciation, interest expense, and free cash flow.",
+        "Power and data-center delivery milestones.",
+        "NVIDIA supply relationship and next-generation GPU deployment timing."
+      ],
+      "ticker": "CRWV"
+    },
+    {
+      "brief_cn": "nVent 的 AI thesis 是高密度 AI 机柜提高电气连接、防护、配电、机柜和液冷内容量，使其成为数据中心物理基础设施的二阶卡点。事实层面，nVent Q1 2026 披露创纪录销售、订单和 backlog；公司材料称 data center growth broad-based，white space 由 liquid cooling 带动，backlog 达 26 亿美元，有机订单约增 40%。Serenity 的证据缺口是 AI/data center 收入占比、每机柜内容量提升、液冷订单转收入节奏和毛利 mix。",
+      "brief_en": "nVent is a second-order AI infrastructure chokepoint tied to electrical connection, protection, enclosures, power distribution, and liquid cooling for high-density AI racks. Q1 2026 materials described record sales, orders, and backlog, broad-based data-center growth, liquid-cooling-led white-space growth, and approximately 40% organic order growth with $2.6B backlog. The thesis is that higher rack density raises content per rack and makes deployment bottlenecks more physical, not only semiconductor-driven.",
+      "chokepoint_thesis": "nVent is a physical deployment chokepoint for AI data centers: high-density racks increase thermal and electrical complexity, expanding demand for enclosures, connection/protection, PDUs, cable management, and liquid cooling.",
+      "claim_type": "hypothesis",
+      "company": "nVent Electric",
+      "evidence_to_verify": [
+        "Fact: nVent Q1 2026 press release reported record sales, orders, and backlog and raised 2026 guidance on data-center momentum: https://s22.q4cdn.com/268397047/files/doc_financials/2026/q1/Q1-2026-NVT-Press-Release.pdf",
+        "Fact: nVent Q1 2026 earnings materials cited approximately 40% organic order growth and $2.6B backlog, with broad-based data-center growth led by liquid cooling: https://s22.q4cdn.com/268397047/files/doc_financials/2026/q1/2026-Q1-Earnings-Deck.pdf",
+        "Fact: nVent Q1 2026 transcript stated data-center growth across gray and white space, with white-space growth led by liquid cooling, PDUs, and cable management: https://s22.q4cdn.com/268397047/files/doc_financials/2026/q1/NVT-Q1-Earnings-Transcript.pdf",
+        "Verify percentage of total revenue from data centers, AI-specific project mix, hyperscaler/customer concentration, margin contribution, and backlog conversion timing."
+      ],
+      "falsification": [
+        "Data-center orders prove lumpy and do not convert into sustained revenue growth.",
+        "Liquid-cooling growth is offset by price competition, commoditization, or lower-margin project mix.",
+        "AI rack density does not materially increase nVent content per rack versus traditional data centers.",
+        "Tariffs, input costs, or execution issues compress margins despite order growth."
+      ],
+      "monitoring_items": [
+        "Data-center revenue mix and organic growth excluding data centers.",
+        "Liquid-cooling orders, backlog, and conversion to revenue.",
+        "Gross margin and segment margin mix as infrastructure exposure grows.",
+        "Book-to-bill, backlog, and cancellation or delay commentary.",
+        "Customer concentration and exposure to hyperscaler capex cycles."
+      ],
+      "ticker": "NVT"
+    }
+  ],
+  "evidence": [
+    {
+      "company": "Microsoft",
+      "source_type": "official_company_ir",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast",
+      "used_for": [
+        "FY26 Q3 revenue",
+        "AI business annual revenue run rate",
+        "Microsoft Cloud and Azure AI monetization context"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "source_type": "official_company_ir",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf",
+      "used_for": [
+        "AI chip deployment",
+        "Trainium share of AI chips landed",
+        "NVIDIA GPU deployment beginning in 2026",
+        "Amazon chips business annual revenue run rate"
+      ]
+    },
+    {
+      "company": "CoreWeave",
+      "source_type": "official_company_ir",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/default.aspx",
+      "used_for": [
+        "Q1 2026 revenue",
+        "revenue backlog",
+        "NVIDIA relationship",
+        "GAAP net loss",
+        "capital expenditure intensity"
+      ]
+    },
+    {
+      "company": "nVent Electric",
+      "source_type": "official_company_ir",
+      "url": "https://s22.q4cdn.com/268397047/files/doc_financials/2026/q1/Q1-2026-NVT-Press-Release.pdf",
+      "used_for": [
+        "Q1 2026 record sales, orders, and backlog",
+        "data-center momentum",
+        "2026 guidance raise"
+      ]
+    },
+    {
+      "company": "nVent Electric",
+      "source_type": "official_company_ir",
+      "url": "https://s22.q4cdn.com/268397047/files/doc_financials/2026/q1/2026-Q1-Earnings-Deck.pdf",
+      "used_for": [
+        "organic order growth",
+        "backlog",
+        "data-center and liquid-cooling demand"
+      ]
+    },
+    {
+      "company": "nVent Electric",
+      "source_type": "official_company_ir",
+      "url": "https://s22.q4cdn.com/268397047/files/doc_financials/2026/q1/NVT-Q1-Earnings-Transcript.pdf",
+      "used_for": [
+        "gray-space and white-space data-center commentary",
+        "liquid cooling, PDUs, and cable management commentary"
+      ]
+    }
+  ],
+  "layer": 4,
+  "memory_update": [
+    {
+      "ticker": "MSFT",
+      "update": "Maintain as AI demand-anchor and monetization platform, not pure supply chokepoint. Next evidence gap: granular Copilot monetization, Azure AI utilization, capex-to-free-cash-flow conversion."
+    },
+    {
+      "ticker": "AMZN",
+      "update": "Maintain as AWS AI demand-anchor plus internal accelerator test. Next evidence gap: external Trainium adoption, AWS AI revenue contribution, and margin effect of custom silicon versus NVIDIA GPU deployment."
+    },
+    {
+      "ticker": "CRWV",
+      "update": "Maintain as pure AI compute-capacity vehicle with high falsifiability. Next evidence gap: contract durability, customer concentration, utilization, depreciation, financing costs, and backlog-to-cash conversion."
+    },
+    {
+      "ticker": "NVT",
+      "update": "Maintain as second-order AI physical infrastructure chokepoint. Next evidence gap: AI/data-center revenue percentage, liquid-cooling mix, content per rack, backlog conversion, and margin durability."
+    }
+  ],
+  "summary": "Layer 4 briefs for ranked candidates 5-8 focus on AI infrastructure monetization rather than pure component scarcity. Microsoft and Amazon are demand anchors whose key question is capex-to-revenue conversion; CoreWeave is a pure AI compute monetization vehicle with financing and utilization risk; nVent is a second-order physical infrastructure chokepoint tied to high-density power, enclosures, and liquid cooling.",
+  "theme_id": "AI"
+}

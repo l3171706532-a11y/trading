@@ -1,0 +1,573 @@
+{
+  "catalysts": [
+    {
+      "affected_nodes": [
+        "accelerated_compute",
+        "ai_networking",
+        "rack_scale_systems",
+        "hbm"
+      ],
+      "claim_type": "fact",
+      "description": "NVIDIA's Q1 FY2027 results showed record data-center networking revenue and continued data-center-led growth, reinforcing AI networking and rack-scale systems as major chokepoints rather than side stories.",
+      "type": "earnings"
+    },
+    {
+      "affected_nodes": [
+        "custom_ai_asic",
+        "ai_networking",
+        "serdes",
+        "advanced_packaging"
+      ],
+      "claim_type": "fact",
+      "description": "Broadcom's Q2 FY2026 AI semiconductor revenue growth confirms accelerating demand for custom AI accelerators and AI networking, supporting the custom ASIC branch of the AI funnel.",
+      "type": "earnings"
+    },
+    {
+      "affected_nodes": [
+        "hbm",
+        "advanced_memory",
+        "accelerated_compute"
+      ],
+      "claim_type": "fact",
+      "description": "SK hynix commentary and 2026 HBM market updates point to demand exceeding supply and HBM4/HBM4E timing becoming a key catalyst for memory suppliers and accelerator availability.",
+      "type": "earnings"
+    },
+    {
+      "affected_nodes": [
+        "hyperscaler_capex_conversion",
+        "data_center_power",
+        "ai_cloud_contracts_backlog",
+        "grid_interconnection_energy_supply"
+      ],
+      "claim_type": "fact",
+      "description": "Hyperscaler 2026 capex increases and large AI infrastructure commitments create demand for accelerators, HBM, networking, power gear, and data-center capacity, but also raise ROI and free-cash-flow scrutiny.",
+      "type": "capex"
+    },
+    {
+      "affected_nodes": [
+        "hbm",
+        "optical_interconnect",
+        "ai_networking",
+        "advanced_packaging_cowos_soic"
+      ],
+      "claim_type": "inference",
+      "description": "Transition from HBM3E to HBM4/HBM4E and from 800G to 1.6T networking can reshuffle supplier shares across memory, optical DSPs, switches, and advanced packaging.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "custom_ai_asic",
+        "leading_edge_foundry",
+        "hbm",
+        "ai_networking"
+      ],
+      "claim_type": "inference",
+      "description": "Long-term custom silicon agreements by hyperscalers and frontier AI labs could create durable demand for Broadcom/Marvell-style ASIC supply chains while reducing the long-term exclusivity of merchant GPU demand.",
+      "type": "customer"
+    },
+    {
+      "affected_nodes": [
+        "accelerated_compute",
+        "leading_edge_foundry",
+        "custom_ai_asic"
+      ],
+      "claim_type": "fact",
+      "description": "US-China export controls and China data-center restrictions remain downside catalysts for NVIDIA and parts of the advanced semiconductor supply chain, while also pushing domestic substitution in China.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "data_center_power",
+        "liquid_cooling_thermal_management",
+        "grid_interconnection_energy_supply"
+      ],
+      "claim_type": "fact",
+      "description": "Data-center electrical orders and thermal infrastructure backlog from Eaton, Vertiv, and similar suppliers indicate the bottleneck may be shifting from chip procurement alone to deployable powered and cooled capacity.",
+      "type": "capex"
+    },
+    {
+      "affected_nodes": [
+        "ai_networking",
+        "optical_interconnect",
+        "custom_ai_asic"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Ethernet AI fabrics, NVIDIA networking, silicon photonics, and liquid-cooled optics are competing approaches to scaling AI clusters; adoption patterns will affect Arista, NVIDIA, Broadcom, Marvell, Coherent, and Lumentum differently.",
+      "type": "technology"
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "NVIDIA reported Q1 fiscal 2027 results with data-center networking revenue at a record $14.8 billion, up 199% year over year and 35% sequentially.",
+      "claim_type": "fact",
+      "confidence": 0.96,
+      "published_at": "2026-05-20",
+      "source_title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Broadcom reported Q2 fiscal 2026 AI semiconductor revenue of $10.8 billion, up 143% year over year, driven by custom AI accelerators and AI networking.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-06-03",
+      "source_title": "Broadcom Q2 Fiscal 2026 Financial Results, SEC Exhibit 99.1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-05032026x8kxex99.htm",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "SK hynix said during Q1 2026 earnings-related coverage that HBM demand remains strong and HBM4E mass production is targeted for 2027.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04-23",
+      "source_title": "SK hynix sees strong AI-driven memory demand; targets HBM4E mass production in 2027",
+      "source_url": "https://www.ajupress.com/view/20260423104670975",
+      "ticker": "000660.KS"
+    },
+    {
+      "claim": "SK hynix has indicated that HBM demand may outpace supply for the next three years, making HBM supply allocation a key AI infrastructure bottleneck.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-04-23",
+      "source_title": "SK hynix Sees HBM Demand Outpacing Supply for Next 3 Years",
+      "source_url": "https://en.sedaily.com/news/2026/04/23/sk-hynix-sees-hbm-demand-outpacing-supply-for-next-3-years",
+      "ticker": "000660.KS"
+    },
+    {
+      "claim": "TSMC's Q1 2026 earnings transcript discussed AI-driven demand and advanced packaging capacity, including large-size CoWoS as the main supply approach.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-04-16",
+      "source_title": "TSMC Q1 2026 Earnings Call Transcript",
+      "source_url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-04/3cef85204275f94fd111485cfdf4adb3c0263c45/TSMC%201Q26%20Transcript.pdf",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Recent shareholder-meeting coverage reported TSMC management saying it will take a long time to fully meet customer demand for advanced AI chip production.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06-04",
+      "source_title": "TSMC CEO C.C. Wei says it will be a long time before we can meet customer demand",
+      "source_url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand-tells-shareholders-that-he-will-keep-prices-stable-refrain-from-implementing-price-hikes",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Amazon's Q1 2026 earnings release disclosed AI chip deployment activity, including more than 2.1 million AI chips landed over the prior 12 months and planned NVIDIA GPU deployment starting in 2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04-29",
+      "source_title": "Amazon.com Announces First Quarter 2026 Results",
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf",
+      "ticker": "AMZN"
+    },
+    {
+      "claim": "Alphabet's Q1 2026 transcript stated that growth was driven by strong demand for enterprise AI offerings and included TPU hardware sales.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-04-29",
+      "source_title": "Alphabet Q1 2026 Earnings Transcript",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_events/2026/Apr/29/2026_Q1_Earnings_Transcript.pdf",
+      "ticker": "GOOGL"
+    },
+    {
+      "claim": "Meta Q1 2026 coverage and earnings materials indicate materially higher 2026 AI infrastructure capex guidance, making Meta a major demand driver and ROI-risk test case.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-04-29",
+      "source_title": "Meta Q1 2026 Earnings Call Transcript",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/04/29/meta-meta-q1-2026-earnings-call-transcript/",
+      "ticker": "META"
+    },
+    {
+      "claim": "Arista reported Q1 2026 financial results and described itself as serving large AI, data-center, campus, and routing environments.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-05",
+      "source_title": "Arista Networks Reports First Quarter 2026 Financial Results",
+      "source_url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Networks-Inc--Reports-First-Quarter-2026-Financial-Results/default.aspx",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Arista announced XPO high-density liquid-cooled pluggable optics for next-generation AI data centers, citing rack and floor-space reductions versus traditional pluggable optics.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-05-05",
+      "source_title": "Arista Networks Q1 2026 Financial Results and Product Updates",
+      "source_url": "https://www.arista.com/ko/company/news/press-release/24017-pr-20260505",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Vertiv reported strong Q1 2026 results, raised full-year guidance, and positioned financial flexibility to support continued growth in critical digital infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-04-23",
+      "source_title": "Vertiv Reports Strong First Quarter 2026 Results",
+      "source_url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-First-Quarter-with-Diluted-EPS-Growth-of-136-Adjusted-Diluted-EPS-Growth-of-83-Raises-Full-Year-Guidance/default.aspx",
+      "ticker": "VRT"
+    },
+    {
+      "claim": "Eaton's Q1 2026 analyst presentation reported Electrical Americas data-center orders up approximately 240%, supporting data-center electrical infrastructure as a bottleneck node.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-05-01",
+      "source_title": "Eaton Q1 2026 Analyst Presentation",
+      "source_url": "https://www.eaton.com/content/dam/eaton/company/investor-relations/quarterly-earnings/filings/2026/q1/q1-2026-analyst-presentation.pdf",
+      "ticker": "ETN"
+    },
+    {
+      "claim": "Eaton reported record Q1 2026 results with accelerating sales, orders, and backlog, and raised 2026 organic growth guidance.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2026-05-01",
+      "source_title": "Eaton Reports Record First Quarter 2026 Results",
+      "source_url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-first-quarter-2026-results.html",
+      "ticker": "ETN"
+    },
+    {
+      "claim": "Microsoft's FY2026 Q2 earnings release described cloud and AI strength, with Microsoft Cloud revenue crossing $50 billion in the quarter.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-01-28",
+      "source_title": "Microsoft FY2026 Q2 Earnings Release",
+      "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q2/press-release-webcast",
+      "ticker": "MSFT"
+    }
+  ],
+  "layer": 2,
+  "memory_update": [
+    {
+      "confidence": 0.92,
+      "text": "HBM remains one of the highest-conviction AI chokepoints because accelerator output depends on HBM bandwidth, HBM3E/HBM4 qualification, TSV stacking, yield, and limited leading memory capacity.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Advanced packaging, especially CoWoS-like GPU/HBM and ASIC/HBM integration, should be tracked as a separate bottleneck from leading-edge wafer capacity.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.88,
+      "text": "AI networking has moved from secondary support layer to primary chokepoint as cluster scale increases; monitor NVIDIA networking, Arista Ethernet AI fabrics, Broadcom switching/SerDes, and optical interconnect suppliers.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Custom AI ASICs are now a distinct Serenity funnel branch alongside merchant GPUs; Broadcom has the strongest current evidence, while Marvell requires refreshed customer and revenue validation.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.87,
+      "text": "Physical data-center infrastructure, especially electrical distribution and liquid cooling, is becoming a gating layer for monetizing AI chips; Eaton and Vertiv have strong evidence lines.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.9,
+      "text": "2026 hyperscaler capex revisions and AI cloud backlog/RPO updates are the central demand catalysts to monitor for the AI theme.",
+      "type": "catalyst"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Optical component names such as Coherent and Lumentum need stronger AI-specific revenue attribution, 800G/1.6T design-win evidence, and customer qualification proof before being treated as core chokepoints.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Server integrators such as Dell and Super Micro validate deployment demand, but margin durability, working capital, and governance/accounting quality should be checked before assigning high chokepoint scores.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.85,
+      "text": "AI ROI pressure at Meta, Microsoft, Amazon, Alphabet, Oracle, and CoreWeave is the key demand-side falsification path; track whether capex converts into revenue, backlog, utilization, and free cash flow.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Export controls and China restrictions remain a recurring policy catalyst that can reduce merchant accelerator revenue while increasing demand for domestic substitution and custom silicon alternatives.",
+      "type": "catalyst"
+    }
+  ],
+  "summary": "Layer-2 Serenity funnel view: the AI theme is still organized around hyperscaler and AI-cloud capex converting into scarce compute, memory bandwidth, advanced packaging, high-speed networking, and physical data-center power/cooling. The strongest bottleneck nodes are HBM, leading-edge foundry plus advanced packaging, custom AI accelerators, AI networking fabrics, and electrical/thermal infrastructure. Demand-side evidence remains strongest at Microsoft, Amazon, Alphabet, Meta, Oracle/CoreWeave-style AI cloud buyers, and NVIDIA's data-center revenue base. Supply-side chokepoint evidence is strongest at NVIDIA, Broadcom, SK hynix, TSMC, Vertiv, Arista, and Eaton. Weakest evidence areas are second-order optical/component beneficiaries where AI exposure is plausible but company-specific revenue attribution and customer qualification need more work.",
+  "supply_chain_map": [
+    {
+      "bottleneck_score": 88,
+      "node": "hyperscaler_capex_conversion",
+      "role": "demand",
+      "why_it_matters": "Cloud and consumer-internet platforms convert AI model training, inference, Copilot/search/ads workloads, and enterprise AI demand into orders for GPUs, ASICs, HBM, servers, networking, power gear, data centers, and grid interconnection."
+    },
+    {
+      "bottleneck_score": 95,
+      "node": "accelerated_compute",
+      "role": "capacity",
+      "why_it_matters": "AI revenue cannot scale without installed accelerator capacity. NVIDIA remains the central merchant accelerator supplier, while AMD and custom ASIC programs are the key diversification paths."
+    },
+    {
+      "bottleneck_score": 91,
+      "node": "custom_ai_asic",
+      "role": "capacity",
+      "why_it_matters": "Hyperscalers are increasingly using custom silicon to reduce cost per token, improve workload-specific efficiency, and reduce dependence on merchant GPUs. This creates a parallel chokepoint around XPU design, SerDes, packaging, HBM integration, and networking IP."
+    },
+    {
+      "bottleneck_score": 97,
+      "node": "hbm",
+      "role": "input",
+      "why_it_matters": "AI accelerators are constrained by memory bandwidth and capacity. HBM requires leading DRAM process capability, TSV stacking, advanced packaging, customer qualification, and supply allocation, making it one of the clearest AI chokepoints."
+    },
+    {
+      "bottleneck_score": 94,
+      "node": "leading_edge_foundry",
+      "role": "capacity",
+      "why_it_matters": "Advanced AI GPUs and ASICs require leading-node wafer capacity, yield, and foundry execution. TSMC remains the critical manufacturing layer for much of the merchant and custom AI accelerator ecosystem."
+    },
+    {
+      "bottleneck_score": 96,
+      "node": "advanced_packaging_cowos_soic",
+      "role": "capacity",
+      "why_it_matters": "GPU/HBM and ASIC/HBM integration depends on CoWoS-like advanced packaging capacity. This node can gate accelerator shipments even when wafer starts and HBM die are available."
+    },
+    {
+      "bottleneck_score": 93,
+      "node": "ai_networking",
+      "role": "distribution",
+      "why_it_matters": "Large AI clusters require scale-up and scale-out fabrics with high bandwidth, low latency, congestion control, and reliable optical/electrical interconnect. Networking can become as important as compute as clusters scale to tens or hundreds of thousands of accelerators."
+    },
+    {
+      "bottleneck_score": 82,
+      "node": "optical_interconnect",
+      "role": "input",
+      "why_it_matters": "800G, 1.6T, silicon photonics, lasers, DSPs, and pluggable/co-packaged optical approaches become more important as rack density and cluster size rise. Company-level evidence is more mixed than for GPUs/HBM/network switches."
+    },
+    {
+      "bottleneck_score": 78,
+      "node": "ai_servers_rack_scale_systems",
+      "role": "equipment",
+      "why_it_matters": "Accelerators must be converted into deployable servers, racks, cooling loops, and validated systems. This layer is important for time-to-revenue but may have lower durable scarcity than chips, HBM, packaging, and power equipment."
+    },
+    {
+      "bottleneck_score": 92,
+      "node": "data_center_power",
+      "role": "capacity",
+      "why_it_matters": "AI data centers require utility interconnection, switchgear, UPS, transformers, power distribution, thermal systems, and backup capacity. Long lead times can delay monetization even when chips are available."
+    },
+    {
+      "bottleneck_score": 89,
+      "node": "liquid_cooling_thermal_management",
+      "role": "equipment",
+      "why_it_matters": "Higher rack densities and Blackwell/Rubin-class systems push facilities toward liquid cooling, heat rejection, and modular thermal infrastructure. Evidence is increasingly visible in Vertiv/Eaton/nVent-type order books."
+    },
+    {
+      "bottleneck_score": 90,
+      "node": "grid_interconnection_energy_supply",
+      "role": "regulation",
+      "why_it_matters": "Power availability, permitting, grid connection queues, and energy procurement can become the binding constraint for AI campuses, especially for multi-gigawatt buildouts."
+    },
+    {
+      "bottleneck_score": 84,
+      "node": "ai_cloud_contracts_backlog",
+      "role": "customer",
+      "why_it_matters": "RPO/backlog, capacity reservations, and long-term cloud contracts are public signals that AI capex is tied to customer demand rather than purely speculative buildout."
+    }
+  ],
+  "theme_id": "AI",
+  "ticker_relationships": [
+    {
+      "claim_type": "fact",
+      "evidence_quality": 95,
+      "next_evidence": "Track Q2 FY2027 data-center compute versus networking mix, Blackwell Ultra/Rubin allocation, China restrictions, HBM supply commentary, and customer concentration.",
+      "node": "accelerated_compute",
+      "relationship": "NVIDIA is the dominant merchant AI accelerator and rack-scale systems supplier; its data-center compute, networking, NVLink, InfiniBand, Spectrum-X, and Blackwell/Rubin ramps are the central supply-chain signal for AI infrastructure demand.",
+      "ticker": "NVDA"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 92,
+      "next_evidence": "Verify named customer exposure where available, AI backlog duration, networking versus XPU split, margin mix, and whether custom ASIC growth substitutes for or expands total accelerator demand.",
+      "node": "custom_ai_asic",
+      "relationship": "Broadcom maps hyperscaler custom AI accelerator demand into XPU, networking, SerDes, and rack reference platforms; recent AI semiconductor revenue disclosures strengthen the case that custom ASICs are now a primary AI supply-chain branch.",
+      "ticker": "AVGO"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 90,
+      "next_evidence": "Search official Q1/Q2 2026 earnings materials for HBM bit growth, HBM4 mass-production timing, capex, customer qualification, and long-term supply agreements.",
+      "node": "hbm",
+      "relationship": "SK hynix is a leading HBM supplier and remains one of the clearest chokepoint candidates because AI accelerator output depends on HBM3E/HBM4 supply, qualification, stacking yields, and capacity allocation.",
+      "ticker": "000660.KS"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 91,
+      "next_evidence": "Track monthly revenue, 2026 capex mix, CoWoS expansion cadence, Arizona/Taiwan capacity timing, and customer commentary from NVIDIA, AMD, Broadcom, and major ASIC customers.",
+      "node": "advanced_packaging_cowos_soic",
+      "relationship": "TSMC is the critical foundry and advanced-packaging capacity node for leading AI accelerators and ASICs; CoWoS-like capacity remains a likely gating factor for GPU/HBM integration.",
+      "ticker": "TSM"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 88,
+      "next_evidence": "Pull the latest FY2026 Q3/Q4 10-Q, capex detail, Azure AI run-rate disclosures, commercial RPO, GPU capacity constraints, and OpenAI infrastructure commitments.",
+      "node": "hyperscaler_capex_conversion",
+      "relationship": "Microsoft converts enterprise AI adoption and Azure AI services into demand for GPUs, custom accelerators, networking, data centers, and power infrastructure; cloud and AI revenue/backlog are demand validation points.",
+      "ticker": "MSFT"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 87,
+      "next_evidence": "Verify Q1/Q2 2026 capex, AWS AI revenue run-rate, Trainium deployment, NVIDIA GPU deployment, and whether AWS capacity constraints are easing or worsening.",
+      "node": "hyperscaler_capex_conversion",
+      "relationship": "Amazon/AWS is both a major AI infrastructure buyer and a custom silicon owner through Trainium/Inferentia; AWS capex and chip deployment plans influence external GPU, internal ASIC, memory, networking, and data-center demand.",
+      "ticker": "AMZN"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 86,
+      "next_evidence": "Track Google Cloud growth, TPU hardware sales, capex guidance, Gemini/search inference economics, and Broadcom/TSMC/HBM supply-chain implications.",
+      "node": "custom_ai_asic",
+      "relationship": "Alphabet is a large AI demand owner and custom silicon operator through TPUs; TPU usage can shift demand from merchant GPUs toward Broadcom/TSMC/HBM/custom rack supply chains.",
+      "ticker": "GOOGL"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 85,
+      "next_evidence": "Verify latest 2026 capex guidance, AI monetization metrics in ads/recommendations, MTIA progress, cloud commitments, and free-cash-flow pressure.",
+      "node": "hyperscaler_capex_conversion",
+      "relationship": "Meta is a large non-cloud AI infrastructure buyer whose recommendation, ads, Llama, and AI assistant workloads drive accelerator, memory, networking, and data-center demand; ROI pressure is a key falsification risk.",
+      "ticker": "META"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 87,
+      "next_evidence": "Track Q2 2026 orders, backlog, liquid cooling revenue mix, gross margin, large hyperscaler concentration, and production capacity.",
+      "node": "liquid_cooling_thermal_management",
+      "relationship": "Vertiv maps AI rack density into thermal management, power, modular systems, and critical digital infrastructure; order growth and margins can indicate whether the bottleneck is moving from chips to facilities.",
+      "ticker": "VRT"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 86,
+      "next_evidence": "Track 800G/1.6T adoption, AI customer concentration, campus versus cloud mix, supply shortages, and competitive share versus NVIDIA networking and white-box alternatives.",
+      "node": "ai_networking",
+      "relationship": "Arista is a key Ethernet AI networking supplier for cloud-scale data centers; AI cluster growth increases demand for low-latency switching, congestion control, and high-density optical/electrical interconnect.",
+      "ticker": "ANET"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 85,
+      "next_evidence": "Check Electrical Americas data-center order growth, backlog duration, lead times, pricing, transformer/switchgear capacity, and grid bottleneck commentary.",
+      "node": "data_center_power",
+      "relationship": "Eaton benefits if AI bottlenecks shift toward electrical distribution, switchgear, UPS, transformers, power management, and thermal infrastructure; data-center orders are a key evidence line.",
+      "ticker": "ETN"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 78,
+      "next_evidence": "Verify AI server backlog, revenue conversion, gross margin, GPU supply availability, enterprise versus hyperscaler mix, and services attach rate.",
+      "node": "ai_servers_rack_scale_systems",
+      "relationship": "Dell converts GPUs and accelerators into enterprise AI servers and racks. This layer validates deployment demand but may face lower durable scarcity and margin pressure versus chip/HBM/power nodes.",
+      "ticker": "DELL"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 65,
+      "next_evidence": "Prioritize SEC filings, auditor status, cash conversion, inventory quality, customer concentration, and margin sustainability before upgrading.",
+      "node": "ai_servers_rack_scale_systems",
+      "relationship": "Super Micro is a high-beta rack-scale AI server and liquid-cooling integrator; upside depends on speed and platform breadth, while accounting, governance, and execution risks require stronger verification.",
+      "ticker": "SMCI"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 72,
+      "next_evidence": "Search latest earnings call for MI-series revenue, hyperscaler adoption, ROCm progress, supply constraints, and gross-margin impact.",
+      "node": "alternative_accelerators",
+      "relationship": "AMD is a plausible beneficiary of accelerator diversification and inference optimization, but its chokepoint strength depends on MI-series adoption, software maturity, HBM allocation, and customer repeat orders.",
+      "ticker": "AMD"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 76,
+      "next_evidence": "Verify latest HBM customer count, HBM3E/HBM4 qualification, capacity allocation, DRAM/NAND pricing, and capex discipline.",
+      "node": "hbm",
+      "relationship": "Micron is a US-listed AI memory candidate with exposure to HBM, server DRAM, and enterprise SSDs; relevance depends on HBM qualification breadth, ramp speed, and pricing cycle.",
+      "ticker": "MU"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 68,
+      "next_evidence": "Search official HBM4/HBM3E qualification updates, NVIDIA/ASIC customer wins, foundry AI tape-outs, and memory margin recovery.",
+      "node": "hbm",
+      "relationship": "Samsung is a potential HBM and foundry recovery candidate, but AI chokepoint status requires proof of leading HBM qualification, yields, and share gains versus SK hynix and Micron.",
+      "ticker": "005930.KS"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 70,
+      "next_evidence": "Check latest AI custom silicon design wins, optical DSP revenue, customer concentration, and 2026/2027 AI revenue guidance.",
+      "node": "custom_ai_asic",
+      "relationship": "Marvell maps to custom silicon, optical DSPs, and data-center connectivity, making it a second custom-AI and networking beneficiary candidate; company-specific customer and revenue evidence must be refreshed.",
+      "ticker": "MRVL"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 62,
+      "next_evidence": "Search latest filings for AI datacom revenue mix, 800G/1.6T shipments, margin recovery, customer concentration, and capex needs.",
+      "node": "optical_interconnect",
+      "relationship": "Coherent is a plausible AI optical component beneficiary through lasers, transceivers, and photonics components, but AI-specific revenue attribution and customer qualification remain weaker than for semis and networking systems.",
+      "ticker": "COHR"
+    },
+    {
+      "claim_type": "hypothesis",
+      "evidence_quality": 55,
+      "next_evidence": "Verify datacom laser demand, 800G/1.6T exposure, AI customer design wins, inventory digestion, and gross margin recovery.",
+      "node": "optical_interconnect",
+      "relationship": "Lumentum may benefit from AI data-center lasers and photonics, but the evidence chain is still indirect and must be tied to order growth, datacom mix, and design wins.",
+      "ticker": "LITE"
+    },
+    {
+      "claim_type": "hypothesis",
+      "evidence_quality": 58,
+      "next_evidence": "Check cloud/data-center interconnect order growth, AI-related customer commentary, backlog, and telecom versus cloud mix.",
+      "node": "data_center_interconnect",
+      "relationship": "Ciena can benefit from AI-driven metro and data-center interconnect traffic, but it is a broader optical networking systems exposure rather than a pure AI chokepoint.",
+      "ticker": "CIEN"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 64,
+      "next_evidence": "Search latest earnings for data-center growth, AI rack content, acquisition contribution, high-speed interconnect backlog, and margin mix.",
+      "node": "high_speed_connectors",
+      "relationship": "Amphenol may benefit from dense AI racks, high-speed cables, connectors, and power interconnect, but AI-specific segment attribution needs more evidence.",
+      "ticker": "APH"
+    },
+    {
+      "claim_type": "hypothesis",
+      "evidence_quality": 52,
+      "next_evidence": "Verify data-center exposure, AI connector content, order acceleration, and pricing power.",
+      "node": "high_speed_connectors",
+      "relationship": "TE Connectivity is a second-order beneficiary of AI data-center interconnect and power connectivity, but the link is less direct than APH and less bottlenecked than HBM/networking/power equipment.",
+      "ticker": "TEL"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 70,
+      "next_evidence": "Check latest leasing spreads, AI megawatt bookings, development yields, power pipeline, and balance-sheet funding cost.",
+      "node": "data_center_capacity",
+      "relationship": "Digital Realty provides data-center capacity and interconnection, but AI exposure depends on power availability, lease economics, tenant mix, and whether returns justify capital intensity.",
+      "ticker": "DLR"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 72,
+      "next_evidence": "Verify latest public filings for RPO, customer concentration, debt terms, GPU depreciation, data-center delivery milestones, and gross-margin trajectory.",
+      "node": "ai_cloud_contracts_backlog",
+      "relationship": "CoreWeave is a pure-play AI cloud demand gauge; it can validate contracted GPU-cloud demand but carries execution, customer concentration, financing, and data-center delivery risk.",
+      "ticker": "CRWV"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 78,
+      "next_evidence": "Check latest RPO, OCI growth, capex, data-center delivery timing, and GPU supply constraints.",
+      "node": "ai_cloud_contracts_backlog",
+      "relationship": "Oracle is a contracted AI cloud capacity provider; RPO and cloud infrastructure revenue conversion are useful public signals for AI compute demand outside the largest hyperscalers.",
+      "ticker": "ORCL"
+    }
+  ]
+}

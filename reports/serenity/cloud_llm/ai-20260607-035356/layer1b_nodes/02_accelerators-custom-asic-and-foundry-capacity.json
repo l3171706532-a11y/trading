@@ -1,0 +1,556 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "NVIDIA Corporation",
+      "confidence": 0.95,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track the latest quarterly data-center revenue split, Blackwell/Rubin supply commentary, HBM supply, CoWoS or advanced packaging constraints, and hyperscaler concentration.",
+      "node_relation": "Merchant AI accelerator leader supplying GPUs, accelerator systems, networking, and AI data-center platforms.",
+      "sector_or_industry": "AI semiconductors / accelerated computing platforms",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "merchant_accelerator",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct compute-core beneficiary of AI model training and inference data-center buildout.",
+      "ticker": "NVDA",
+      "why_include": "NVIDIA has explicit data-center platform exposure to AI and accelerated computing, and its fiscal 2026 results describe record revenue driven by accelerated computing and AI. It is the obvious merchant accelerator benchmark for this node."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Broadcom Inc.",
+      "confidence": 0.94,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Validate customer concentration, number of active custom accelerator programs, AI backlog conversion, foundry allocation, package substrate/HBM constraints, and margin mix between custom accelerators and networking.",
+      "node_relation": "Custom AI accelerator and AI networking supplier for hyperscaler-scale AI infrastructure.",
+      "sector_or_industry": "Custom AI accelerators / AI networking semiconductors",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "custom_asic",
+        "ai_networking"
+      ],
+      "theme_relation": "Direct exposure to the shift from only merchant GPUs toward custom accelerator design slots and Ethernet/networking fabrics.",
+      "ticker": "AVGO",
+      "why_include": "Broadcom has unusually explicit AI semiconductor revenue disclosure: its Q2 fiscal 2026 filing said AI semiconductor revenue grew strongly, driven by custom AI accelerators and AI networking. Its OpenAI collaboration also directly maps to custom accelerator deployment."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Taiwan Semiconductor Manufacturing Company Limited",
+      "confidence": 0.93,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track N2/A16 ramp timing, CoWoS capacity additions, advanced packaging utilization, wafer pricing, AI customer allocation, and geographic expansion execution risk.",
+      "node_relation": "Advanced-node wafer capacity and CoWoS/3DFabric advanced packaging capacity owner for AI chips.",
+      "sector_or_industry": "Advanced foundry / advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "advanced_node",
+        "advanced_packaging",
+        "capacity"
+      ],
+      "theme_relation": "The manufacturing conversion layer that determines whether accelerator demand becomes shipped silicon.",
+      "ticker": "TSM",
+      "why_include": "TSMC directly sits at the advanced-node and advanced-packaging chokepoint. Its 2026 technology symposium materials describe 3DFabric and CoWoS expansion to support AI demand for more computing power and memory in a package."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Advanced Micro Devices, Inc.",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check Instinct revenue disclosure granularity, MI-series shipment cadence, hyperscaler wins, software ecosystem progress, HBM allocation, and whether custom/semi-custom AI programs emerge.",
+      "node_relation": "Merchant AI accelerator competitor through AMD Instinct GPUs plus data-center CPU platform exposure.",
+      "sector_or_industry": "AI accelerators / data-center CPUs and GPUs",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "merchant_accelerator",
+        "second_source",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct product-level exposure to AI accelerator demand and second-source diversification by hyperscalers.",
+      "ticker": "AMD",
+      "why_include": "AMD's Q1 2026 official release reported data-center revenue growth driven by EPYC demand and the continued ramp of Instinct GPU shipments, directly tying AMD to AI accelerator supply."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Marvell Technology",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify fiscal 2026 and fiscal 2027 revenue split for custom silicon versus optics/networking; identify disclosed hyperscaler customers if any; check concentration risk, tape-out timing, foundry allocation, and whether wins convert to production revenue.",
+      "node_relation": "Custom AI silicon and XPU-adjacent connectivity supplier; potentially benefits when hyperscalers allocate more AI compute capex to custom accelerators and scale-up/scale-out interconnect.",
+      "sector_or_industry": "Semiconductors: custom silicon, data-center connectivity, optical/electrical interconnect",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "custom_asic",
+        "interconnect",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct exposure to AI data-center accelerator architecture through custom AI design engagements, high-performance analog, optical DSP, silicon photonics, and custom silicon.",
+      "ticker": "MRVL",
+      "why_include": "Marvell is one of the more direct US-listed custom silicon candidates. Official company material says custom AI design activity reached over 50 opportunities across more than 10 customers, and a later NVIDIA ecosystem announcement ties Marvell to custom silicon and AI infrastructure connectivity. | Official filing language says custom AI design activity was at an all-time high, with more than 50 new opportunities across more than 10 customers. This maps directly to the proposed bottleneck in custom accelerator design slots and data-center interconnect."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Synopsys",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm AI-related EDA/IP revenue contribution is material rather than generic positioning; monitor design-start activity at TSMC/Samsung advanced nodes and adoption of 3DIC/multiphysics signoff tools.",
+      "node_relation": "EDA, verification, multiphysics signoff, and interface/foundation IP provider for advanced-node and multi-die AI chip design flows.",
+      "sector_or_industry": "Electronic design automation and semiconductor IP",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "eda",
+        "custom_asic_enablement",
+        "evidence_needed",
+        "EDA",
+        "IP",
+        "advanced_node"
+      ],
+      "theme_relation": "Second-order but structurally important exposure: as AI accelerator die sizes, chiplets, HBM interfaces, and advanced packaging complexity rise, design-cycle capacity and signoff tools can become scarce gating inputs.",
+      "ticker": "SNPS",
+      "why_include": "Synopsys has official 2026 announcements with TSMC and Samsung Foundry around certified EDA flows, silicon-proven IP, 3DIC, advanced nodes, and AI/multi-die designs. Revenue exposure to AI is less directly disclosed, so this is an enabling-bottleneck candidate rather than a pure-play accelerator vendor. | Synopsys has official 2026 announcements with TSMC and Samsung Foundry around certified EDA flows, IP, AI systems, advanced nodes, multi-die designs, 3DIC, and hybrid copper bonding validation."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Astera Labs",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track customer concentration, platform attachment rate to NVIDIA/AMD/custom accelerator racks, gross margin durability, and whether UALink/NVLink ecosystem fragmentation changes design-win economics.",
+      "node_relation": "PCIe/CXL/Ethernet/NVLink Fusion connectivity chips and modules that sit around GPUs, custom accelerators, memory expansion, and AI racks.",
+      "sector_or_industry": "Semiconductor connectivity for AI and cloud infrastructure",
+      "serenity_tags": [
+        "supply_chain",
+        "adjacent_chokepoint",
+        "connectivity",
+        "rack_scale_ai",
+        "evidence_needed"
+      ],
+      "theme_relation": "Adjacent chokepoint: even when accelerator silicon is available, GPU/XPU utilization depends on high-bandwidth, low-latency connectivity across accelerators, memory, switches, and racks.",
+      "ticker": "ALAB",
+      "why_include": "Astera describes itself as a leader in semiconductor-based connectivity for rack-scale AI infrastructure and disclosed products supporting merchant GPU platforms, PCIe fabric switches, PCIe retimers, CXL memory controllers, Ethernet scale-out switches, and custom NVLink Fusion connectivity."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Applied Materials",
+      "confidence": 0.83,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track order growth and backlog tied specifically to leading-edge foundry, DRAM/HBM, hybrid bonding, panel/wafer-level packaging, and export-control exposure.",
+      "node_relation": "Wafer-fab equipment and advanced-packaging deposition/process equipment supplier tied to leading-edge logic, DRAM/HBM, chiplets, and 3D integration.",
+      "sector_or_industry": "Semiconductor capital equipment and materials engineering",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "equipment",
+        "advanced_packaging",
+        "HBM",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order capacity exposure: if accelerator output is constrained by HBM attachment, advanced packaging, or leading-edge process steps, Applied can be a supplier into the capacity buildout rather than the chip demand itself.",
+      "ticker": "AMAT",
+      "why_include": "Official Applied Materials releases in 2026 cite AI workloads driving larger chiplet-based packages integrating GPUs, HBM stacks and I/O chips, and describe collaboration with Micron on next-generation DRAM, HBM, NAND, and advanced packaging."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Cadence Design Systems",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Separate durable EDA subscription growth from one-time AI narrative; check AI/HPC customer disclosures, backlog/RPO, China export-control exposure, and competitive positioning versus Synopsys and Siemens EDA.",
+      "node_relation": "EDA and IP supplier enabling advanced-node SoCs, chiplets, 3D-IC, thermal, power integrity, timing, and signoff workflows for AI/HPC chips.",
+      "sector_or_industry": "Electronic design automation; semiconductor IP; system design software",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "EDA",
+        "design_capacity",
+        "advanced_node",
+        "evidence_needed",
+        "design_enablement",
+        "eda"
+      ],
+      "theme_relation": "If custom accelerator demand increases, the scarce resource may include verified design flows, IP blocks, and signoff capacity before wafers can even enter advanced foundry queues.",
+      "ticker": "CDNS",
+      "why_include": "Cadence has official 2026 announcements with TSMC and NVIDIA focused on accelerating next-generation AI silicon design and agentic/accelerated chip engineering workflows. | Cadence announced collaboration with TSMC to accelerate next-generation AI silicon, including certified end-to-end EDA flows for TSMC N2 and A16 and work on 3DFabric advanced packaging."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Onto Innovation",
+      "confidence": 0.8,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify customer mix across TSMC/OSAT/memory/logic, tool lead times, exposure to HBM and panel-level packaging, and whether growth is capacity-driven rather than temporary pull-forward.",
+      "node_relation": "Metrology and inspection tools for advanced nodes and advanced packaging, including 3D metrology, macro defect inspection, and package-level process control.",
+      "sector_or_industry": "Semiconductor process control; metrology; inspection; advanced packaging lithography",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "advanced_packaging",
+        "process_control",
+        "evidence_needed"
+      ],
+      "theme_relation": "As AI accelerators grow larger, use chiplets, and attach HBM in 2.5D/3D packages, yield and inspection can become a hidden throughput constraint.",
+      "ticker": "ONTO",
+      "why_include": "Onto launched the Dragonfly G5 inspection system and said advanced packaging was expected to grow more than 30% in 2026; it also reported advanced-node growth tied to gate-all-around metrology."
+    },
+    {
+      "claim_type": "inference",
+      "company": "ASE Technology Holding",
+      "confidence": 0.79,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify customer mix, AI packaging revenue contribution, capacity additions, gross-margin sensitivity, competition with TSMC CoWoS/InFO/SOIC, and whether panel-level packaging reaches high-volume production.",
+      "node_relation": "OSAT and advanced packaging provider; relevant to chiplet, ASIC, HBM, heterogeneous integration, system-in-package, and panel-level packaging throughput.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test; advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "advanced_packaging",
+        "OSAT",
+        "HBM",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct second-order exposure to the accelerator bottleneck if the choke point shifts from only wafer starts to package integration, HBM attachment, test, yield, and throughput.",
+      "ticker": "ASX",
+      "why_include": "ASE’s official 2026 panel-level packaging announcement explicitly links heterogeneous integration performance to chiplets, ASICs, and HBM, and positions the packaging flow as relevant for AI training and inference workloads."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Amkor Technology",
+      "confidence": 0.76,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm named AI/HPC customers, technology readiness for high-end 2.5D/3D/HBM packages, utilization ramp, capex intensity, and whether economics match the strategic bottleneck narrative.",
+      "node_relation": "Outsourced advanced packaging and test capacity, including U.S. advanced packaging expansion relevant to AI/HPC chip supply chains.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test; advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "packaging_capacity",
+        "test",
+        "onshore_semiconductors",
+        "evidence_needed"
+      ],
+      "theme_relation": "If CoWoS-like and chiplet/HBM assembly capacity becomes a constraint, OSATs with advanced packaging scale and customer ties may gain strategic relevance.",
+      "ticker": "AMKR",
+      "why_include": "Amkor is expanding a semiconductor advanced packaging and test campus in Arizona and has described a growing set of advanced packaging programs critical to next-generation AI and HPC. The inference is that outsourced advanced packaging capacity may become more valuable as accelerator packages become larger and more complex."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "NVIDIA's fiscal 2026 fourth-quarter release reported record revenue and said results were driven by accelerated computing and AI; the company is a direct AI data-center accelerator platform vendor.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-03",
+      "source_title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Broadcom's Q2 fiscal 2026 filing reported AI semiconductor revenue of $10.8 billion, up 143% year over year, driven by custom AI accelerators and AI networking.",
+      "claim_type": "fact",
+      "confidence": 0.96,
+      "published_at": "2026-06-03",
+      "source_title": "Broadcom Inc. Q2 Fiscal Year 2026 Financial Results",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-05032026x8kxex99.htm",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Broadcom and OpenAI announced a strategic collaboration to deploy OpenAI-designed AI accelerators, with Broadcom providing accelerators and Ethernet solutions.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2025-10",
+      "source_title": "OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators",
+      "source_url": "https://www.broadcom.com/company/news/product-releases/63631",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "TSMC's 2026 North America Technology Symposium announcement said it continues to expand CoWoS technology to integrate more silicon in support of AI demand for more computing power and memory in a single package.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-04-22",
+      "source_title": "TSMC Debuts A13 Technology at 2026 North America Technology Symposium",
+      "source_url": "https://pr.tsmc.com/english/news/3302",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Independent industry reporting indicates AI demand is tightening advanced packaging and 3nm-to-2nm capacity, reinforcing TSMC's relevance as a capacity bottleneck candidate.",
+      "claim_type": "inference",
+      "confidence": 0.86,
+      "published_at": "2026-04-30",
+      "source_title": "AI Competition Turns into a Supply Chain Arms Race, Tightening Advanced Packaging and 3nm Capacity, Says TrendForce",
+      "source_url": "https://www.trendforce.com/presscenter/news/20260430-13028.html",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "AMD's Q1 2026 financial release reported data-center segment revenue of $5.8 billion, up 57% year over year, driven by EPYC processor demand and continued ramp of AMD Instinct GPU shipments.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-05",
+      "source_title": "AMD Reports First Quarter 2026 Financial Results",
+      "source_url": "https://www.amd.com/en/newsroom/press-releases/2026-5-5-amd-reports-first-quarter-2026-financial-results.html",
+      "ticker": "AMD"
+    },
+    {
+      "claim": "Synopsys announced 2026 collaboration with TSMC for next-generation AI systems using silicon-proven IP and certified EDA flows across advanced processes and packaging technologies.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2026-04-22",
+      "source_title": "Synopsys Partners with TSMC to Power Next-Generation AI Systems with Silicon Proven IP and Certified EDA Flows",
+      "source_url": "https://investor.synopsys.com/news/news-details/2026/Synopsys-Partners-with-TSMC-to-Power-Next-Generation-AI-Systems-with-Silicon-Proven-IP-and-Certified-EDA-Flows/default.aspx",
+      "ticker": "SNPS"
+    },
+    {
+      "claim": "Synopsys announced 2026 collaborations with Samsung Foundry on advanced nodes, AI-powered EDA tools, certified interface IP, and 3D multi-die design support.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06",
+      "source_title": "Synopsys Advances Power and Performance for AI and Multi-Die Designs on Latest Samsung Foundry Processes at SAFE Forum 2026",
+      "source_url": "https://investor.synopsys.com/news/news-details/2026/Synopsys-Advances-Power-and-Performance-for-AI-and-Multi-Die-Designs-on-Latest-Samsung-Foundry-Processes-at-SAFE-Forum-2026/default.aspx",
+      "ticker": "SNPS"
+    },
+    {
+      "claim": "Marvell reported Q2 fiscal 2026 net revenue of $2.006 billion and said custom AI design activity was at an all-time high with more than 50 opportunities across more than 10 customers.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2025-08-28",
+      "source_title": "Marvell Technology, Inc. Reports Second Quarter of Fiscal Year 2026 Financial Results",
+      "source_url": "https://investor.marvell.com/news-events/press-releases/detail/989/marvell-technology-inc-reports-second-quarter-of-fiscal-year-2026-financial-results",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Marvell announced participation in NVIDIA's AI ecosystem through NVLink Fusion and described its role as connecting high-performance analog, optical DSP, silicon photonics, and custom silicon to AI infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03-31",
+      "source_title": "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
+      "source_url": "https://www.marvell.com/company/newsroom/nvidia-ai-ecosystem-expands-marvell-joins-forces-through-nvlink-fusion.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Synopsys announced a 2026 TSMC collaboration for next-generation AI systems using certified EDA flows, multiphysics signoff, and interface/foundation IP for advanced process and packaging innovation.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-04-22",
+      "source_title": "Synopsys Partners with TSMC to Power Next-Generation AI Systems with Silicon Proven IP and Certified EDA Flows",
+      "source_url": "https://investor.synopsys.com/news/news-details/2026/Synopsys-Partners-with-TSMC-to-Power-Next-Generation-AI-Systems-with-Silicon-Proven-IP-and-Certified-EDA-Flows/default.aspx",
+      "ticker": "SNPS"
+    },
+    {
+      "claim": "Synopsys announced 2026 Samsung Foundry collaborations on advanced nodes, AI-powered EDA tools, certified interface IP, 3DIC Compiler, and validation for hybrid copper bonding 3D test chips.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-28",
+      "source_title": "Synopsys Advances Power and Performance for AI and Multi-Die Designs on Latest Samsung Foundry Processes at SAFE Forum 2026",
+      "source_url": "https://news.synopsys.com/2026-05-28-Synopsys-Advances-Power-and-Performance-for-AI-and-Multi-Die-Designs-on-Latest-Samsung-Foundry-Processes-at-SAFE-Forum-2026",
+      "ticker": "SNPS"
+    },
+    {
+      "claim": "Cadence announced a 2026 collaboration with TSMC to accelerate next-generation AI silicon design, citing the increasing scale and complexity of AI silicon.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-04-22",
+      "source_title": "Cadence Collaborates with TSMC to Accelerate Design of Next-Generation AI Silicon",
+      "source_url": "https://www.cadence.com/zh_CN/home/company/newsroom/press-releases/pr/2026/cadence-collaborates-with-tsmc-to-accelerate-design-of-next.html",
+      "ticker": "CDNS"
+    },
+    {
+      "claim": "Cadence announced 2026 accelerated engineering solutions with NVIDIA for agentic AI chip and system design.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2026-04-02",
+      "source_title": "Cadence and NVIDIA Unveil Accelerated Engineering Solutions Purpose-Built for Agentic AI Chip and System Design",
+      "source_url": "https://www.cadence.com/ja_JP/home/company/newsroom/press-releases/pr/2026/cadence-and-nvidia-unveil-accelerated-engineering-solutions.html",
+      "ticker": "CDNS"
+    },
+    {
+      "claim": "Applied Materials announced a 2026 agreement to acquire ASMPT's NEXX business, describing NEXX as a supplier of large-area advanced-packaging deposition equipment and linking AI workloads to chiplet packages integrating GPUs, HBM stacks, and I/O chips.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-05-03",
+      "source_title": "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX",
+      "source_url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-broadens-advanced-packaging-portfolio/",
+      "ticker": "AMAT"
+    },
+    {
+      "claim": "Applied Materials and Micron announced a 2026 long-term R&D partnership to accelerate AI memory innovation, including next-generation DRAM, HBM, NAND, and HBM-class advanced packaging.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2026-03-10",
+      "source_title": "Applied Materials and SK hynix Announce Long-Term R&D Partnership to Accelerate AI Memory Innovation at EPIC Center in Silicon Valley",
+      "source_url": "https://investors.appliedmaterials.com/node/28986/pdf",
+      "ticker": "AMAT"
+    },
+    {
+      "claim": "ASE announced automated 310mm panel-level packaging in 2026 and tied heterogeneous integration to high-bandwidth, low-latency interconnects across chiplets, ASICs, and HBM for AI workloads.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-26",
+      "source_title": "ASE Launches Automated 310mm Panel-Level Packaging to Accelerate AI Innovation",
+      "source_url": "https://ase.aseglobal.com/press-room/310x310/",
+      "ticker": "ASX"
+    },
+    {
+      "claim": "Onto Innovation launched Dragonfly G5 in 2026 for inspection and metrology; a leading HBM manufacturer selected the system and related 3Di technology for an HBM4 ramp, with shipments starting in Q2 2026.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-03-16",
+      "source_title": "Onto Innovation Launches Dragonfly G5 Inspection System",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Launches-Dragonfly-G5-Inspection-System/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Marvell reported that custom AI design activity was at an all-time high, with over 50 new opportunities across more than 10 customers.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025",
+      "source_title": "Marvell Technology SEC filing / fiscal 2026 quarterly results materials",
+      "source_url": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-25-000187/0001835632-25-000187.pdf",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Astera Labs says its connectivity portfolio supports merchant GPU platforms with PCIe fabric switches, PCIe retimers, CXL memory controllers, Ethernet scale-out switch connectivity, and custom NVLink Fusion connectivity.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-05",
+      "source_title": "Astera Labs Reports First Quarter 2026 Financial Results",
+      "source_url": "https://asteralabs.gcs-web.com/news-releases/news-release-details/astera-labs-reports-first-quarter-2026-financial-results/",
+      "ticker": "ALAB"
+    },
+    {
+      "claim": "Cadence announced collaboration with TSMC on certified EDA flows for advanced-node SoCs, chiplets, and 3D-IC designs, including TSMC N2, A16, and 3DFabric-related work for AI/HPC applications.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05",
+      "source_title": "Cadence Collaborates with TSMC to Accelerate Design of Next-Generation AI Silicon",
+      "source_url": "https://www.cadence.com/zh_TW/home/company/newsroom/press-releases/pr/2026/cadence-collaborates-with-tsmc-to-accelerate-design-of-next.html",
+      "ticker": "CDNS"
+    },
+    {
+      "claim": "Onto launched Dragonfly G5 for inspection and said advanced packaging was expected to show greater than 30% growth in 2026.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-04",
+      "source_title": "Onto Innovation Launches Dragonfly G5 Inspection System",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Launches-Dragonfly-G5-Inspection-System/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Onto reported 13% quarterly growth in advanced nodes and positioned the advanced-nodes business for approximately 25% full-year growth, citing customer response to new metrology and inspection systems.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-05",
+      "source_title": "Onto Innovation Reports 2026 First Quarter Results",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2026-First-Quarter-Results/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Amkor broke ground on a new semiconductor advanced packaging and test campus in Arizona and expanded the planned investment to $7 billion.",
+      "claim_type": "fact",
+      "confidence": 0.81,
+      "published_at": "2025-10",
+      "source_title": "Amkor Technology Breaks Ground on New Semiconductor Advanced Packaging and Test Campus in Arizona; Expands Investment to $7 Billion",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor management described partnerships and a growing set of advanced packaging programs as critical to next-generation AI and high-performance computing.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026-04-27",
+      "source_title": "Q1 2026 Amkor Technology Inc Earnings Call",
+      "source_url": "https://ir.amkor.com/static-files/3073d0f0-b6c9-45fb-9a7a-66eeee20ee1a",
+      "ticker": "AMKR"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.8,
+      "text": "MRVL should remain on the next-pass watchlist as a custom silicon, optical DSP, silicon photonics, and AI data-center connectivity supplier; official 2026 releases mention robust AI demand and NVIDIA NVLink Fusion participation, but it was excluded here due to the five-candidate limit.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "CDNS and ARM are credible second-order candidates for custom AI silicon design enablement: Cadence through certified EDA/IP/3D-IC flows and Arm through Neoverse CSS and AGI CPU positioning. They require separate evidence checks before promotion.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "The strongest direct evidence in this node currently clusters around AVGO custom AI accelerator revenue, NVDA merchant accelerator/data-center scale, AMD Instinct ramp, TSM advanced packaging/foundry capacity, and EDA/IP providers enabling more custom ASIC design starts.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.84,
+      "text": "This pass did not fully cover semiconductor capital equipment suppliers such as ASML, AMAT, LRCX, KLAC, and Tokyo Electron ADR exposure; those map more cleanly to the foundry capacity expansion sub-node and should be handled in a dedicated equipment pass.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.9,
+      "text": "AI revenue disclosure quality is uneven: AVGO and NVDA provide clearer AI/data-center evidence, while SNPS and other EDA/IP suppliers often provide product and ecosystem evidence rather than direct AI revenue attribution.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.86,
+      "text": "MRVL should remain in the direct custom-AI-silicon bucket, but future layers must separate custom silicon revenue from optics, switching, and generic data-center semiconductor revenue.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.83,
+      "text": "SNPS and CDNS are EDA/design-capacity candidates: they may benefit if the AI accelerator bottleneck includes design slots, verification burden, packaging-aware signoff, and advanced-node IP availability.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "AMAT is a capacity-enabling equipment candidate across leading-edge foundry, HBM-related memory, and advanced packaging, with evidence strengthened by 2026 NEXX and AI-memory/packaging announcements.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "ASX adds OSAT/advanced-packaging exposure to the node; compare its AI package capacity against TSMC internal advanced packaging and other OSATs in later layers.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "ONTO was excluded from the capped candidate list but has unusually relevant HBM4 inspection/metrology evidence. It should be considered in the next pass focused on inspection, metrology, yield, and packaging process control.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.72,
+      "text": "Additional US-listed equipment and process-control names to test later: KLAC, LRCX, FORM, TER, MKSI, AEIS, COHR, ENTG, ICHR, UCTT, and ACMR. Their inclusion requires ticker-specific evidence of AI accelerator, advanced-node, HBM, or advanced-packaging revenue exposure.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "MRVL should remain in the AI custom ASIC universe, but the dashboard should separate disclosed data-center/custom-silicon evidence from unverified hyperscaler customer assumptions.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.83,
+      "text": "ALAB is a high-purity adjacent chokepoint candidate for accelerator-cluster connectivity rather than accelerator compute itself.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "EDA and IP vendors such as CDNS/SNPS are design-slot chokepoints: increased custom accelerator tape-outs can raise demand for certified advanced-node, 3D-IC, and signoff flows before foundry capacity is consumed.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Advanced packaging bottlenecks should be tracked through both capacity owners such as AMKR/TSM/Intel Foundry and equipment/process-control suppliers such as ONTO/TER/ACMR.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.75,
+      "text": "Next Layer 1B pass should evaluate ATE and HBM/interface-IP names not included due to the five-candidate cap: TER, RMBS, SNPS, ACMR, INTC, and MU.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI accelerators, custom ASICs, and advanced foundry capacity",
+  "node_id": "accelerators_custom_asic_and_foundry_capacity",
+  "search_pass_count": 3,
+  "summary": "Combined focused Layer 1B searches: Layer 1B universe expansion for the AI accelerator/custom ASIC/foundry-capacity node identifies five US-listed or US-traded public companies with direct exposure: NVIDIA and AMD as merchant accelerator platform vendors, Broadcom as the clearest custom AI accelerator and AI networking supplier with explicit AI semiconductor revenue disclosure, TSMC as the dominant advanced-node and advanced-packaging manufacturing capacity owner, and Synopsys as an EDA/IP bottleneck enabler for custom AI/HPC silicon design flows. This is research support only, not a trading recommendation. The strongest evidence is from company releases; revenue attribution remains uneven because some companies disclose AI/data-center revenue directly while others describe AI exposure qualitatively. Expanded the US-listed universe around the node beyond merchant GPU leaders into five chokepoint-adjacent areas: custom AI silicon design, EDA/IP for advanced-node and multi-die AI chips, wafer-fab and advanced-packaging equipment, outsourced advanced packaging, and HBM/advanced-packaging inspection/metrology. These names are research candidates, not recommendations. The strongest evidence in this pass is for Marvell, Synopsys, Cadence, Applied Materials, ASE Technology, and Onto Innovation having direct product or capacity linkage to AI accelerator/custom ASIC/foundry-packaging constraints. Candidate list is capped at five, so Onto is captured in evidence and memory as a follow-up coverage gap rather than a candidate. Expanded universe for the AI accelerator/custom ASIC/advanced foundry capacity node, emphasizin",
+  "theme_id": ""
+}

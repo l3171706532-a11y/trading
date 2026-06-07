@@ -1,0 +1,278 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Coherent Corp.",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify AI/datacom revenue mix, customer concentration, InP capacity ramp timing, 1.6T shipment volumes, gross-margin impact, and whether supply is constrained by internal InP wafer/device capacity or module assembly.",
+      "node_relation": "Direct supplier of optical components, InP devices, lasers, photodiodes, 800G/1.6T transceivers, silicon-photonics-related components, and CPO-enabling photonics.",
+      "sector_or_industry": "Optical components, photonics, transceivers, InP materials/devices",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "materials",
+        "components",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI clusters need higher-speed optical links as scale-out and scale-across fabrics grow; Coherent is exposed through the optical layer rather than AI accelerators themselves.",
+      "ticker": "COHR",
+      "why_include": "Coherent directly maps to several suspected chokepoints: InP, 200G optical lanes, lasers, photodiodes, 1.6T transceivers, silicon photonics, and CPO. Its vertical stack makes it more than a generic data-center adjacency candidate."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Lumentum Holdings Inc.",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check hyperscaler-qualified product status, volume ramp timing for 1.6T DR4 OSFP, EML capacity utilization, any new North American capacity disclosures, and whether demand is component-led or module-led.",
+      "node_relation": "Direct supplier of EMLs, datacom transceivers, CW lasers and other optical components used in AI and cloud data-center interconnects up to 1.6T.",
+      "sector_or_industry": "Photonic components, EML lasers, datacom transceivers",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "components",
+        "capacity_constraint",
+        "evidence_needed"
+      ],
+      "theme_relation": "Exposure is tied to the optical component and transceiver upgrade cycle as AI clusters move from 400G/800G toward 1.6T and eventually higher speeds.",
+      "ticker": "LITE",
+      "why_include": "Lumentum is a cleaner scarce-component candidate than a generic networking name because EMLs and high-power lasers can become limiting inputs for 800G/1.6T optical modules."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Fabrinet",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Identify customer concentration, which optical OEMs use Fabrinet for 800G/1.6T, whether AI-related datacom/DCI is driving incremental revenue, and whether test/assembly capacity is tight.",
+      "node_relation": "Second-order but direct manufacturing node for optical communications products, including optical transceivers and datacenter interconnect manufacturing services.",
+      "sector_or_industry": "Advanced optical manufacturing and precision electronics manufacturing",
+      "serenity_tags": [
+        "supply_chain",
+        "manufacturing_capacity",
+        "second_order",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI networking demand creates shortages in high-speed optical module manufacturing, test, packaging, and precision assembly, Fabrinet can participate as a scaled outsourced manufacturing partner.",
+      "ticker": "FN",
+      "why_include": "Fabrinet does not own the entire optical IP stack like Coherent or Lumentum, but its optical communications revenue scale and manufacturing role make it a plausible bottleneck-adjacent capacity supplier."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Credo Technology Group Holding Ltd.",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify actual hyperscaler/customer deployments, product ASP and margin mix, AEC share versus passive copper and optics, customer concentration, and any IP/licensing constraints around AEC technology.",
+      "node_relation": "Direct supplier of active electrical cables, optical transceivers, DSPs and retimers for copper and optical Ethernet/PCIe connectivity up to 1.6T.",
+      "sector_or_industry": "High-speed connectivity semiconductors, active electrical cables, optical DSPs, retimers",
+      "serenity_tags": [
+        "supply_chain",
+        "components",
+        "bottleneck",
+        "signal_integrity",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI clusters create dense host-to-switch, rack-to-rack, and scale-out interconnect needs where AECs, retimers, DSPs, diagnostics, and low-power links can be bottleneck-relevant.",
+      "ticker": "CRDO",
+      "why_include": "Credo is a non-obvious connectivity specialist with exposure to the copper-to-optical transition, AEC adoption, optical DSPs, and AI cluster link reliability. It is not just a broad semiconductor name."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Celestica Inc.",
+      "confidence": 0.8,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check backlog and revenue contribution from AI data-center switch platforms, customer identities where disclosed, margin profile versus traditional EMS, and dependence on Broadcom Tomahawk 6 supply.",
+      "node_relation": "Second-order infrastructure provider offering AI-scale 1.6TbE data-center switch platforms based on Broadcom Tomahawk 6 silicon.",
+      "sector_or_industry": "Electronics manufacturing, cloud hardware platforms, data-center switches",
+      "serenity_tags": [
+        "supply_chain",
+        "infrastructure_provider",
+        "switching",
+        "second_order",
+        "evidence_needed"
+      ],
+      "theme_relation": "As AI clusters require 102.4T switching and 1.6TbE ports, white-box/open networking switch platform capacity and integration can become a downstream chokepoint tied to switch ASIC availability.",
+      "ticker": "CLS",
+      "why_include": "Celestica adds exposure to AI switching-system integration and manufacturing, not just the switch ASIC. Its relevance depends on adoption of open networking and Broadcom-based 1.6TbE platforms."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Coherent announced OFC 2026 demonstrations of multiple 1.6T transceivers and related optical technologies including silicon photonics PIC, high-power InP CW laser, 200G InP EML, and 200G GaAs VCSEL for AI-scale data-center networks.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-03",
+      "source_title": "Coherent Demonstrates Technologies for Next-Generation Pluggable Transceiver at OFC 2026",
+      "source_url": "https://www.coherent.com/news/press-releases/coherent-demonstrates-next-gen-pluggable-transceiver-ofc-2026",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Coherent describes InP technology as foundational for higher-speed, energy-efficient optical engines and lists products including high-power CW lasers for CPO/silicon photonics, 200G EMLs for 1.6T transceivers, and high-speed photodiodes.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03",
+      "source_title": "Coherent Demonstrates InP Technology Innovation With a Broad Range of Products",
+      "source_url": "https://www.coherent.com/news/press-releases/coherent-demonstrates-inp-technology-innovation",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Lumentum announced OFC 2026 demonstrations for scale-out, scale-up and scale-across AI infrastructure, including a 1.6T DR4 OSFP pluggable transceiver prototype using four 400G differential EML lasers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03",
+      "source_title": "Lumentum Demonstrates Industry-Leading Technologies and Products for Scale-Out, Scale-Up and Scale-Across AI Infrastructure at OFC 2026",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Demonstrates-Industry-Leading-Technologies-and-Products-for-Scale-Out-Scale-Up-and-Scale-Across-AI-Infrastructure-at-OFC-2026/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Lumentum markets datacom transceivers for AI and cloud data centers and lists a 1.6T 2xDR4 OSFP transceiver module in its data-center portfolio.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Datacom Transceivers | Lumentum",
+      "source_url": "https://www.lumentum.com/en/products/data-center/datacom-transceivers",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Fabrinet states that it manufactures optical components including active and passive optical products and produces millions of units annually, making it one of the world's largest manufacturers of optical transceivers.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "Optical Components - Fabrinet",
+      "source_url": "https://fabrinet.com/services/optical-components",
+      "ticker": "FN"
+    },
+    {
+      "claim": "Fabrinet's May 2026 10-Q shows optical communications as 76.9% of revenue for the nine months ended March 27, 2026, including datacom and datacenter interconnect categories.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-05-05",
+      "source_title": "Form 10-Q for Fabrinet filed 05/05/2026",
+      "source_url": "https://investor.fabrinet.com/static-files/5cd60ad7-3f62-428f-963e-918b711bb6aa",
+      "ticker": "FN"
+    },
+    {
+      "claim": "Credo reported FY2026 results and described its portfolio as high-speed copper and optical interconnect products up to 1.6T, including ZeroFlap AECs, optical transceivers, retimers, DSPs and diagnostics software.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-01",
+      "source_title": "Credo Technology Group Holding Ltd Reports Fourth Quarter and Fiscal Year 2026 Financial Results",
+      "source_url": "https://www.businesswire.com/news/home/20260601641616/en/Credo-Technology-Group-Holding-Ltd-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Credo said at OFC 2026 it would showcase 1.6T ZeroFlap AEC cables using 3nm DSP technology at 200G per lane and optical products for AI scale-out fabrics.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-03",
+      "source_title": "Credo to Showcase Optical Solutions for AI Scale-Out Fabrics at OFC 2026",
+      "source_url": "https://www.businesswire.com/news/home/20260312238890/en/Credo-to-Showcase-Optical-Solutions-for-AI-Scale-Out-Fabrics-at-OFC-2026",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Celestica announced DS6000-series 1.6TbE switches available to order, powered by Broadcom Tomahawk 6 switch silicon and delivering up to 102.4 Tbps of non-blocking switching capacity.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "Celestica Accelerates AI-Scale Networking: DS6000-Series 1.6TbE Switches Now Available to Order",
+      "source_url": "https://corporate.celestica.com/news-releases/news-release-details/celestica-accelerates-ai-scale-networking-ds6000-series-16tbe",
+      "ticker": "CLS"
+    },
+    {
+      "claim": "Celestica previously introduced a family of 1.6TbE data-center switches for AI/ML clusters based on Broadcom Tomahawk 6, with up to 102.4 Tbps switching capacity.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-11",
+      "source_title": "Celestica Introduces New Family of 1.6TbE Data Center Switches to Power AI/ML Clusters",
+      "source_url": "https://corporate.celestica.com/news-releases/news-release-details/celestica-introduces-new-family-16tbe-data-center-switches-power",
+      "ticker": "CLS"
+    },
+    {
+      "claim": "Market cap was above USD 1B in cached web.finance evidence as of the latest trade time on June 5, 2026 UTC.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-06-05",
+      "source_title": "Cached finance quote for COHR",
+      "source_url": "cached:web.finance/turn4finance0",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Market cap was above USD 1B in cached web.finance evidence as of the latest trade time on June 6, 2026 UTC.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-06-06",
+      "source_title": "Cached finance quote for LITE",
+      "source_url": "cached:web.finance/turn4finance1",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Market cap was above USD 1B in cached web.finance evidence as of the latest trade time on June 5, 2026 UTC.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-06-05",
+      "source_title": "Cached finance quote for FN",
+      "source_url": "cached:web.finance/turn4finance2",
+      "ticker": "FN"
+    },
+    {
+      "claim": "Market cap was above USD 1B in cached web.finance evidence as of the latest trade time on June 6, 2026 UTC.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-06-06",
+      "source_title": "Cached finance quote for CRDO",
+      "source_url": "cached:web.finance/turn4finance3",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Market cap was above USD 1B in cached web.finance evidence as of the latest trade time on June 5, 2026 UTC.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-06-05",
+      "source_title": "Cached finance quote for CLS",
+      "source_url": "cached:web.finance/turn4finance4",
+      "ticker": "CLS"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.88,
+      "text": "COHR should be tracked as a vertical photonics candidate for AI networking, with emphasis on InP, EMLs, photodiodes, 800G/1.6T transceivers, silicon photonics, and CPO.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "LITE should be tracked as an EML/laser and datacom transceiver candidate; next validation should focus on whether EML or laser capacity is truly scarce versus merely high demand.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "FN should be tracked as a second-order optical manufacturing capacity candidate rather than an optical IP owner; evidence needs customer/product-level AI exposure.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "CRDO should be tracked as a high-speed copper/optical connectivity and AEC/DSP/retimer candidate for AI cluster fabrics.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "CLS should be tracked as a 1.6TbE AI switch-platform and integration supplier tied to Broadcom Tomahawk 6 adoption.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "Next Layer 1B pass should separately evaluate US-listed test/measurement and inspection suppliers for 800G/1.6T optics, including VIAV and Keysight, plus silicon photonics foundry/platform candidates such as GFS and Tower Semiconductor.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.86,
+      "text": "This pass did not include non-US primary listings such as Innolight and Eoptolink despite strong node relevance; they should be captured in a non-US or ADR/global-listings pass.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI data-center networking, switching, optics, and interconnect",
+  "node_id": "ai_data_center_networking_and_optical_interconnect",
+  "summary": "Expanded the US-listed universe for the AI networking and optical-interconnect node toward direct scarce suppliers in 800G/1.6T optics, InP/EML photonic components, optical manufacturing, active electrical cables, retimers/DSPs, and 1.6TbE switching systems. This pass excludes already-obvious seed leaders such as Broadcom, Arista, NVIDIA, Marvell, Cisco, Amphenol, TE Connectivity, and Corning unless they appear as ecosystem dependencies. The strongest incremental candidates are Coherent, Lumentum, Fabrinet, Credo, and Celestica; all screen above USD 1B market cap based on cached finance data from June 5-6, 2026, but this is not a valuation opinion.",
+  "theme_id": "ai"
+}

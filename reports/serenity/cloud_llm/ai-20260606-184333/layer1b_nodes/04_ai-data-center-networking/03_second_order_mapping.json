@@ -1,0 +1,191 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Credo Technology Group Holding Ltd",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify customer concentration, Microsoft-related revenue durability, 800G/1.6T product mix, gross-margin trend, and whether AEC adoption expands or is displaced by optics as cluster distances grow.",
+      "node_relation": "Supplies mixed-signal/DSP connectivity chips, optical DSPs, SerDes IP, and active electrical cables used in AI, hyperscale, and Ethernet data-center networks.",
+      "sector_or_industry": "High-speed connectivity semiconductors and active electrical cables",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "customer_dependency",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI cluster scaling increases short-reach and rack-level bandwidth density, making low-power AECs, optical DSPs, and SerDes a potential hidden chokepoint.",
+      "ticker": "CRDO",
+      "why_include": "Credo directly maps to AI networking interconnect rather than generic compute: its FY2025 10-K describes optical DSPs as building blocks inside optical transceivers used in AI clusters and states that it partners with Microsoft on HiWire Switch AEC for data-center ToR architecture."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Coherent Corp",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Separate AI datacom revenue from telecom/industrial exposure, track 1.6T shipment ramp, InP/EML capacity additions, hyperscaler qualification evidence, and pricing/margin pressure from Chinese optical module vendors.",
+      "node_relation": "Provides 800G/1.6T datacom transceivers, VCSELs, EMLs, silicon photonics, ICs, InP lasers/detectors, thermoelectric coolers, and optical circuit switching technology.",
+      "sector_or_industry": "Optical components, transceivers, lasers, photonics materials",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "materials",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI campus-scale clusters can raise demand for high-speed optical links and optical switching, while compound-semiconductor capacity and customer qualification cycles may become bottlenecks.",
+      "ticker": "COHR",
+      "why_include": "Coherent’s FY2025 annual report explicitly lists R&D focus areas including 800G/1.6T transceivers, CPO, VCSELs, EMLs, silicon photonics, InP lasers, and an OCS product family for AI/ML and hyperscale datacenters."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Lumentum Holdings Inc",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Validate whether AI/cloud revenue is material versus legacy telecom, check 200G EML order conversion, customer concentration, Cloud Light integration, and whether silicon photonics changes competitive positioning at 1.6T.",
+      "node_relation": "Supplies photonic chips, EML technology, 800G/1.6T optical transceivers, laser assemblies, and optical circuit switching products for cloud and AI data-center networks.",
+      "sector_or_industry": "Optical and photonic components for cloud and networking",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "adjacent_chokepoint",
+        "evidence_needed"
+      ],
+      "theme_relation": "If 1.6T and future 200G-per-lane / 400G-per-lane optics become required for AI back-end networks, Lumentum’s photonic components and InP/EML roadmap could be a leveraged supplier node.",
+      "ticker": "LITE",
+      "why_include": "Lumentum’s 2025 disclosures highlight AI/ML back-end network products including 800G and 1.6T transceivers and OCS, plus InP chip solutions for scalable AI data centers and 200G-per-lane optical interconnects."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Fabrinet",
+      "confidence": 0.69,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Identify top customers, determine exposure to 800G/1.6T transceiver assembly, assess Thai capacity expansions, yield constraints, pricing power, and customer inventory risks.",
+      "node_relation": "Manufactures optical communications products for customers; FY2025 revenue was heavily weighted to optical communications, including datacom and telecom.",
+      "sector_or_industry": "Optical communications contract manufacturing and precision manufacturing services",
+      "serenity_tags": [
+        "supply_chain",
+        "second_order",
+        "manufacturing_capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI optical module demand can create not only component bottlenecks but also assembly, packaging, test, yield, and Thailand-based manufacturing capacity constraints.",
+      "ticker": "FN",
+      "why_include": "Fabrinet’s FY2025 10-K shows optical communications at 76.6% of revenue and datacom revenue of about $1.156 billion. The AI-specific link is inferred through optical datacom manufacturing exposure rather than directly disclosed AI revenue."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Keysight Technologies Inc",
+      "confidence": 0.76,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Quantify AI networking as a percentage of total revenue, identify whether hyperscalers or component vendors are key buyers, track attach rates for 1.6T validation platforms, and compare exposure versus general electronics test cyclicality.",
+      "node_relation": "Provides validation platforms and software for 800GE/1.6T Ethernet, 224Gb/s electrical lanes, optical/copper interconnects, and AI data-center network performance testing.",
+      "sector_or_industry": "Electronic design, network emulation, and test-and-measurement equipment",
+      "serenity_tags": [
+        "adjacent_chokepoint",
+        "infrastructure_provider",
+        "validation",
+        "evidence_needed"
+      ],
+      "theme_relation": "As 800G/1.6T Ethernet, LPO, CPO, and optical scale-up/scale-out networks become harder to validate, test equipment and automation can be a second-order bottleneck for deployment and qualification cycles.",
+      "ticker": "KEYS",
+      "why_include": "Keysight’s March 2025 release states that its 1.6T and 800GE hardware platforms and ITS software support performance evaluation for AI network infrastructure and that it works with standards bodies and manufacturers of silicon, optical, and copper interconnects."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Credo’s FY2025 10-K says its optical DSPs are used inside optical transceivers for AI clusters, hyperscale data centers, service-provider networks, enterprise networks, and 5G infrastructure, and that the company partners with Microsoft on HiWire Switch AEC.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-07-02",
+      "source_title": "Credo Technology Group Holding Ltd - 10-K Annual Report, July 2, 2025",
+      "source_url": "https://fintel.io/doc/sec-credo-technology-group-holding-ltd-1807794-10k-2025-july-02-20271-9747",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Coherent’s FY2025 annual report lists networking R&D investments in 800G/1.6T transceivers, CPO, VCSELs, EMLs, silicon photonics, ICs, OCS for AI/ML and hyperscale datacenters, and InP lasers/detectors.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-09-01",
+      "source_title": "Coherent 2025 Annual Report",
+      "source_url": "https://www.coherent.com/content/dam/coherent/site/en/documents/investors/annual-filings/2025/coherent-annual-report-2025.pdf",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Lumentum’s OFC 2025 materials describe AI/ML back-end network products including 800G and 1.6T optical transceivers and OCS, and separate InP chip work for scalable AI data centers.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2025-03-25",
+      "source_title": "Lumentum to Showcase Cutting-Edge Optical Innovations for Cloud, AI, and Networking Infrastructure at OFC 2025",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2025/Lumentum-to-Showcase-Cutting-Edge-Optical-Innovations-for-Cloud-AI-and-Networking-Infrastructure-at-OFC-2025/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Lumentum announced next-generation InP chip solutions for AI data-center scale, including more efficient 200G-per-lane optical interconnects and technology relevant to co-packaged optics.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2025-03-27",
+      "source_title": "Lumentum Showcases Next-Generation InP Chip Solutions Enabling Scalable AI Data Centers at OFC 2025",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2025/Lumentum-Showcases-Next-Generation-InP-Chip-Solutions-Enabling-Scalable-AI-Data-Centers-at-OFC-2025/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Fabrinet’s FY2025 10-K reported total revenue of $3.419 billion, with optical communications revenue of $2.619 billion, or 76.6% of total revenue; datacom revenue was about $1.156 billion.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2025-08-19",
+      "source_title": "Fabrinet Form 10-K filed August 19, 2025",
+      "source_url": "https://fabrinet.gcs-web.com/static-files/9a916b94-df74-471d-971e-a5ac4b02107c",
+      "ticker": "FN"
+    },
+    {
+      "claim": "Keysight announced a 1.6T platform and ITS software for validating high-speed Ethernet and AI data-center interconnects, including 800GE/1.6T AI network infrastructure using 224Gb/s electrical lane interfaces.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "2025-03-26",
+      "source_title": "Keysight Debuts 1.6T Platform and Software to Automate Network Interconnect Validation",
+      "source_url": "https://www.keysight.com.cn/cn/zh/about/newsroom/news-releases/2025/0326-pr25-051-keysight-debuts-1-6t-platform-and-first-of-its-kind-software-to-automate-validation-of-network-interconnect-performance.html",
+      "ticker": "KEYS"
+    },
+    {
+      "claim": "Semtech announced DirectEdge 100G-per-channel LPO solutions for 400G/800G optical modules and described live demonstrations for next-generation 800G/1.6T optical connectivity for data-center interconnects.",
+      "claim_type": "fact",
+      "confidence": 0.74,
+      "published_at": "2025-04-01",
+      "source_title": "Semtech’s DirectEdge Portfolio Enables Low-Power 400G/800G AI Data Centers",
+      "source_url": "https://www.semtech.com/company/press/directedge-portfolio-low-power-400g-800g-ai-data-centers",
+      "ticker": "SMTC"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.82,
+      "text": "CRDO should be tracked as a direct AI networking interconnect candidate because its optical DSPs, AECs, and Microsoft HiWire Switch AEC relationship map to rack/ToR and transceiver connectivity.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "COHR and LITE are direct optical-component candidates for 800G/1.6T AI networking; key differentiators to verify are InP/EML capacity, silicon photonics transition risk, and customer qualification depth.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.68,
+      "text": "FN is a second-order optical manufacturing capacity candidate; AI linkage is less direct and requires customer and product mix verification.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "KEYS maps to the validation chokepoint: 1.6T Ethernet, optical/copper interconnects, 224G lanes, and AI data-center network emulation may become gating items before mass deployment.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.72,
+      "text": "SMTC was not included in the 5-candidate limit but remains a follow-up candidate for LPO, PMD/TIA/laser-driver, and low-power optical analog exposure to AI data-center networking.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI data-center networking: Ethernet, optical, switching, and interconnect",
+  "node_id": "ai_data_center_networking",
+  "summary": "Expanded the US-listed universe around AI data-center networking beyond the obvious Ethernet switch and ASIC leaders. The strongest second-order mappings found in this pass are optical/component suppliers, active electrical cable and DSP silicon, optical manufacturing services, and validation/test infrastructure for 800G/1.6T Ethernet and optical interconnect. These are research candidates only, not recommendations.",
+  "theme_id": "ai"
+}
