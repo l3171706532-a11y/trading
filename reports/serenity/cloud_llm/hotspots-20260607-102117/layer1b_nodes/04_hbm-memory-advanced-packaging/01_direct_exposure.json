@@ -1,0 +1,221 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Micron Technology",
+      "confidence": 0.94,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify customer concentration, HBM booked-capacity language, HBM gross margin contribution, capex allocation between DRAM/HBM/NAND, and any qualification changes in the next 10-Q, earnings call, and investor deck.",
+      "node_relation": "Direct HBM supplier and one of the three global DRAM leaders; HBM4, SOCAMM2 and AI data-center SSD products map directly to the memory allocation bottleneck.",
+      "sector_or_industry": "Memory semiconductors: DRAM, HBM, NAND, AI memory and storage",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "demand",
+        "direct_supplier",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI accelerator shipments are gated by HBM4 availability, stack qualification, customer reservations, or DRAM wafer reallocation, Micron is a direct public-market way to monitor the node.",
+      "ticker": "MU",
+      "why_include": "Micron states that HBM4 36GB 12H is in high-volume production and designed for NVIDIA Vera Rubin, with volume shipments beginning in Q1 calendar 2026. That is directly tied to next-generation AI accelerator memory supply."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Amkor Technology",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check whether Amkor discloses AI advanced-packaging revenue mix, HBM/chiplet package types, customer program timing, and utilization/capex for Korea, Taiwan, and Arizona advanced-packaging lines.",
+      "node_relation": "OSAT provider with advanced packaging and test capacity relevant to AI, HPC, chiplets and heterogeneous integration; potential beneficiary if front-end wafer supply shifts pressure to packaging/test.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test; advanced packaging and test",
+      "serenity_tags": [
+        "supply_chain",
+        "advanced_packaging",
+        "bottleneck",
+        "capacity_expansion",
+        "evidence_needed"
+      ],
+      "theme_relation": "Advanced packaging is a separate cadence constraint for AI systems because logic dies and HBM stacks must be assembled and tested into qualified packages before systems can ship.",
+      "ticker": "AMKR",
+      "why_include": "Amkor’s public materials describe advanced packaging and test exposure to AI/data-center applications, and the company is expanding U.S. advanced packaging/test capacity in Arizona. Direct HBM-specific customer allocation remains to be verified."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Teradyne",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track memory-test backlog, HBM/DRAM final-test share gains, customer concentration, tester shipment lead times, and whether AI memory test demand persists beyond near-term capacity buys.",
+      "node_relation": "Supplier of memory test equipment used for flash, DRAM and HBM; test capacity and known-good-die yield are enabling constraints for HBM stack output.",
+      "sector_or_industry": "Semiconductor automated test equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "test_equipment",
+        "bottleneck",
+        "yield",
+        "evidence_needed"
+      ],
+      "theme_relation": "As HBM stacks become denser and more complex, test time, yield learning and final-package validation can become second-order bottlenecks even if wafer starts improve.",
+      "ticker": "TER",
+      "why_include": "Teradyne’s filings state that its Magnum platform addresses mass-production testing requirements for flash, DRAM and HBM memory, and that AI-related customer demand was expected to represent the bulk of Q1 2026 revenue."
+    },
+    {
+      "claim_type": "fact",
+      "company": "FormFactor",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify revenue exposure to memory probe cards versus SoC/RF, customer mix among DRAM/HBM makers, backlog duration, and whether HBM demand is incremental or offset by other memory-cycle weakness.",
+      "node_relation": "Provider of probe cards used for DRAM/HBM wafer-level testing, known-good-die screening, interposer validation and advanced-package yield optimization.",
+      "sector_or_industry": "Semiconductor probe cards, wafer test and measurement",
+      "serenity_tags": [
+        "supply_chain",
+        "probe_cards",
+        "wafer_test",
+        "yield",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM stack yield depends on qualifying multiple dies before assembly; probe cards and wafer-level test can become leverage points when customers need more known-good HBM dies.",
+      "ticker": "FORM",
+      "why_include": "FormFactor product materials explicitly reference HBM stack devices and fine-pitch interposers, and its 2026 commentary frames AI/HBM as redefining semiconductor test."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Onto Innovation",
+      "confidence": 0.81,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm size, timing and repeatability of the HBM-related order; monitor advanced-packaging revenue growth, customer concentration, and whether HBM inspection demand converts into multi-quarter backlog.",
+      "node_relation": "Inspection and metrology supplier for advanced packaging and HBM-related process control, including bump metrology and defect inspection.",
+      "sector_or_industry": "Semiconductor process control, inspection and metrology",
+      "serenity_tags": [
+        "supply_chain",
+        "inspection",
+        "metrology",
+        "advanced_packaging",
+        "yield",
+        "evidence_needed"
+      ],
+      "theme_relation": "As HBM and 2.5D/3D packaging scale, yield control and metrology intensity rise; inspection tools can be exposed to packaging capacity additions and HBM manufacturer capex.",
+      "ticker": "ONTO",
+      "why_include": "Onto reported an HBM manufacturer selection for Dragonfly 2D inspection and 3D bump metrology to support expansion, tying the company to HBM capacity growth and advanced-packaging yield control."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Micron announced HBM4 36GB 12H in high-volume production, designed for NVIDIA Vera Rubin, with volume shipment beginning in Q1 calendar 2026.",
+      "claim_type": "fact",
+      "confidence": 0.96,
+      "published_at": "2026-03-16",
+      "source_title": "Micron in High-Volume Production of HBM4 Designed for NVIDIA Vera Rubin, PCIe Gen6 SSD and SOCAMM2",
+      "source_url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Amkor describes its portfolio as including advanced packaging, wafer-level processing and system-in-package solutions targeting data centers and artificial intelligence.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04-27",
+      "source_title": "Amkor Technology Reports Financial Results for the First Quarter 2026",
+      "source_url": "https://amkortech.gcs-web.com/news-releases/news-release-details/amkor-technology-reports-financial-results-first-quarter-2026",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor announced additional Arizona land to expand its U.S. advanced packaging and test footprint, building on its announced advanced packaging and test campus.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05-19",
+      "source_title": "Amkor Technology Expands U.S. Advanced Packaging Footprint with Additional Land in Arizona",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-expands-us-advanced-packaging-footprint",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Teradyne’s annual filing states that its Magnum platform addresses mass-production test requirements for flash, DRAM and HBM memory.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-02-19",
+      "source_title": "Teradyne 2025 Form 10-K",
+      "source_url": "https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-059002/ter-20251231.htm",
+      "ticker": "TER"
+    },
+    {
+      "claim": "Teradyne published 2026 material discussing HBM memory-test challenges in the AI era.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05-18",
+      "source_title": "Electronic Design: When AI Meets HBM: Memory Test for the Terabit Era",
+      "source_url": "https://www.teradyne.com/2026/05/18/ed-when-ai-meets-hbm/",
+      "ticker": "TER"
+    },
+    {
+      "claim": "FormFactor’s HFTAP K32 probe-card page says the product supports wafer-level speed testing for next-generation known-good-die memory and devices used in the HBM stack, including fine-pitch interposers.",
+      "claim_type": "fact",
+      "confidence": 0.89,
+      "published_at": "",
+      "source_title": "HFTAP Series",
+      "source_url": "https://www.formfactor.com/product/probe-cards/dram/hftap-series/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor’s 2026 blog frames wafer test and probe cards as important in the context of AI hardware, GPUs and HBM stacks.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-03-09",
+      "source_title": "From Commodity to Enabler – Wafer Test at the Heart of the AI Era",
+      "source_url": "https://www.formfactor.com/blog/2026/from-commodity-to-enabler-wafer-test-at-the-heart-of-the-ai-era/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Onto reported selection by an HBM manufacturer for Dragonfly 2D inspection and 3D bump metrology to support expansion.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-02-19",
+      "source_title": "Onto Innovation Reports 2025 Fourth Quarter and Full Year Results",
+      "source_url": "https://s24.q4cdn.com/480160064/files/doc_news/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results-2026.pdf",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Micron, Samsung and SK hynix control the majority of global DRAM/HBM supply, and industry reporting indicates memory shortages and customer reservation behavior remain key 2026 issues.",
+      "claim_type": "fact",
+      "confidence": 0.74,
+      "published_at": "2026-04-30",
+      "source_title": "Samsung and SK hynix warn AI-driven memory shortages could last until 2027 and beyond, as HBM demand explodes",
+      "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond-as-hbm-demand-explodes-customers-already-reserving-supply-years-ahead-while-the-wider-dram-market-begins-to-tighten",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.94,
+      "text": "Add MU as the most direct US-listed HBM/AI memory candidate for node_id=hbm_memory_advanced_packaging.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Add AMKR as a US-listed OSAT/advanced-packaging and test capacity candidate; relation to HBM-specific CoWoS overflow remains an evidence check, not yet a hard fact.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Add TER as an HBM/DRAM memory-test equipment candidate with direct filing support for HBM test exposure.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Add FORM as a wafer-test/probe-card candidate for HBM known-good-die and interposer validation.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.81,
+      "text": "Add ONTO as an inspection/metrology candidate tied to HBM manufacturer expansion and advanced-packaging yield control.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "TSM remains the obvious seed-listed CoWoS leader, while SK hynix and Samsung are critical non-US or OTC/foreign-line memory leaders; this pass emphasized incremental US-listed additions rather than repeating all seed names.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "HBM, advanced DRAM allocation, and advanced packaging capacity",
+  "node_id": "hbm_memory_advanced_packaging",
+  "summary": "Expanded the US-listed universe around the HBM/advanced DRAM/advanced-packaging chokepoint beyond the seed hyperscaler and accelerator names. The highest-direct-exposure additions are Micron for HBM and AI memory supply, Amkor for outsourced advanced packaging/test capacity, Teradyne for HBM/DRAM production test, FormFactor for probe cards and known-good-die enablement, and Onto Innovation for HBM/advanced-packaging inspection and metrology. This is research support only, not a buy/sell recommendation.",
+  "theme_id": "new_hotspots"
+}

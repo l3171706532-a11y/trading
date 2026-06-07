@@ -1,0 +1,168 @@
+{
+  "deep_reports": [
+    {
+      "company": "American Electric Power",
+      "evidence_chain": [
+        "[Fact | official source] PUCO announced on 2025-07-09 that it ordered AEP Ohio to file new tariffs applying to data centers, adopted a settlement involving AEP Ohio, PUCO staff, OCC and others, and recognized unprecedented load growth requiring significant electric transmission infrastructure. Source: https://content.govdelivery.com/accounts/OHPUC/bulletins/3e8bb79",
+        "[Fact | official source] PUCO stated the tariff order was intended to safeguard non-data-center customers from cost-shifting risks tied to underused investments made for data-center load. Source: https://content.govdelivery.com/accounts/OHPUC/bulletins/3e8bb79",
+        "[Fact | official company source] AEP Ohio’s Data Center Tariff webpage describes the process: customers request a load study, pay a $10,000 to $100,000 study fee depending on requested capacity, receive a service plan, then have 60 days to sign a Letter of Agreement and Electric Service Agreement. Source: https://www.aepohio.com/company/about/rates/data-center-tariff/",
+        "[Fact | official company source] AEP Ohio states that the Letter of Agreement requires customers to reimburse 100% of buildout costs if they cancel or delay the project by more than 12 months before the target energization date. Source: https://www.aepohio.com/company/about/rates/data-center-tariff/",
+        "[Fact | official company source] AEP Ohio’s tariff page states the initial contract term equals the load ramp period, no greater than four years, plus eight years; the ramp period contract capacity floor rises from 50% in year one to 90% in year four. Source: https://www.aepohio.com/company/about/rates/data-center-tariff/",
+        "[Fact | official company source] AEP Ohio states that customers lacking specified credit strength and cash thresholds must provide a guarantee or collateral equal to 50% of total minimum charges for the full contract term. Source: https://www.aepohio.com/company/about/rates/data-center-tariff/",
+        "[Fact | official company source] AEP Ohio states monthly billing demand is subject to minimum demand-charge mechanics and cannot exceed 85% of total contract capacity. Source: https://www.aepohio.com/company/about/rates/data-center-tariff/",
+        "[Fact | official company source] AEP Ohio’s February 13, 2026 update says that, as of February 12, 2026, data centers or developers had signed binding contracts for 5,642 MW under the Data Center Tariff. Source: https://www.aepohio.com/company/news/view?releaseID=10753",
+        "[Fact | official company source] The same AEP Ohio update says 5,642 MW is in addition to 12,219 MW of data-center contracts signed before the tariff went into effect, for 17,861 MW total contracted data-center projects scheduled progressively through 2035. Source: https://www.aepohio.com/company/news/view?releaseID=10753",
+        "[Fact | official company source] AEP Ohio says early data-center requests exceeded 30,000 MW; after the first tariff step, 13,022.7 MW requested and paid for formal engineering studies; after legal and financial commitments, that fell to 5,642 MW. Source: https://www.aepohio.com/company/news/view?releaseID=10753",
+        "[Fact | official company source] AEP’s investor page, crawled in June 2026, states a five-year capital plan of $78 billion and 63 GW of new load by 2030 backed by signed agreements. Source: https://www.aep.com/investors/",
+        "[Inference] Evidence quality is relatively high for the existence of the tariff, contract process, and signed-MW figures because the strongest sources are PUCO and AEP Ohio. Evidence quality is lower for ultimate earnings impact because signed MW still must convert into energized load, approved investment, allowed returns, and timely cost recovery."
+      ],
+      "falsification_plan": [
+        "如果未来几个季度 AEP Ohio 的 signed binding MW 停滞、下降，或大量项目从合同队列中退出，则下调 thesis 强度。",
+        "如果 5,642 MW DCT 合同和 12,219 MW pre-tariff 合同未能按披露节奏转化为 energized MW，则判断从“可兑现瓶颈”降级为“排队故事”。",
+        "如果 PUCO/FERC/PJM 或州监管裁决限制数据中心相关 capex 的成本回收、allowed return 或 rate-base inclusion，则下调经济价值判断。",
+        "如果 minimum bill、exit fee、LOA reimbursement、collateral 或 ESA 条款在实际取消/延期案例中未能保护 AEP 和其他客户，则下调证据质量。",
+        "如果电网设备供应链、许可、选址、输电线路反对或施工瓶颈导致关键项目大幅延后，则下调 2026-2030 capex 转化可见度。",
+        "如果 AEP 的增长主要来自更高融资需求、权益发行或利息成本，而不是可回收 rate base 和实际负荷增长，则下调股东经济弹性。",
+        "如果数据中心客户更多采用自备电源、燃料电池、独立发电、储能或迁移到其他州/市场，导致 AEP 服务区内用电承诺减少，则下调需求侧 thesis。",
+        "如果居民或工业用户反弹推动立法或监管机构要求数据中心承担更多 upfront contribution，且该机制减少 AEP 可投资 rate-base，则重新评估商业模式映射。"
+      ],
+      "next_research_tasks": [
+        "Track quarterly changes in AEP Ohio signed binding MW, pre-tariff MW, new study requests, study-fee-paid MW, signed ESA/LOA MW, and energized MW.",
+        "Build a timeline from 2026-02-12 contracted MW to expected energization dates through 2035; separate load already energized from load only contractually scheduled.",
+        "Pull PUCO docket 24-508-EL-ATA and extract final order details: minimum demand, collateral, exit fee, cost allocation, rehearing/appeal status, and intervenor objections.",
+        "Compare AEP Ohio Schedule DCT with large-load tariff proposals or rules in Virginia, Texas/ERCOT, Duke Energy Ohio, Dominion, and other PJM/SPP/ERCOT utilities.",
+        "Map which AEP jurisdictions besides Ohio have large-load tariffs, signed agreements, or data-center-driven capex plans; separate Ohio-specific evidence from consolidated AEP evidence.",
+        "Reconcile AEP’s $78 billion 2026-2030 capital plan and 63 GW new-load disclosure with rate-base growth, allowed ROE, equity issuance needs, and debt metrics.",
+        "Identify which portions of AEP capex are transmission, distribution, generation, customer-specific facilities, and PJM/RTO-approved projects; tag each by regulatory approval status.",
+        "Monitor PUCO/FERC/PJM filings for transmission upgrade approvals, cost allocation disputes, interconnection milestones, and service-date delays.",
+        "Check whether customers must provide parent guarantees, letters of credit, cash collateral, or sponsor co-signatures; assess enforceability by customer type.",
+        "Create a dashboard series: requested MW → study-fee-paid MW → signed LOA/ESA MW → collateral posted → approved capex → construction start → energized MW → actual load factor → revenue/rate-base contribution.",
+        "Stress-test whether rising power bills or capacity charges create political backlash that could change tariff design or cost recovery.",
+        "Review AEP earnings calls and 10-K/10-Q risk factors for language changes around large-load contractual commitments, construction risk, regulatory lag, financing costs, and customer creditworthiness."
+      ],
+      "risks": [
+        "客户执行风险：signed binding contracts 仍可能出现延期、缩容、转让、退出或争议；合同强度高于普通意向书，但不等于已送电负荷。",
+        "监管风险：PUCO、FERC、PJM 或其他州监管机构可能限制、延迟或重新分配数据中心相关输配电投资的成本回收。",
+        "成本转嫁政治风险：若居民、商业或工业客户认为数据中心推高电费，可能带来听证、立法、费率设计调整或更严格的大负荷 tariff。",
+        "建设周期风险：输电、变电站、配电升级、变压器和开关设备供应链可能延误，导致 energization date 后移。",
+        "资本开支质量风险：capex 增长不自动等于股东经济价值；关键在 allowed ROE、rate-base inclusion、AFUDC、滞后回收、融资成本和稀释压力。",
+        "负荷预测风险：AI 算力需求、芯片效率、数据中心利用率、液冷/电源架构、behind-the-meter generation 或地理迁移可能改变实际用电曲线。",
+        "信用与抵押风险：collateral 与 minimum bill 机制若遇到客户破产、项目公司结构复杂、担保主体不足或法律挑战，保护力度可能弱于表面条款。",
+        "市场定价风险：AEP 已公开披露大量新负荷和资本计划，市场可能已部分定价；本报告只给研究优先级，不提供买卖建议或目标价格。"
+      ],
+      "supply_chain_position": "Theme: New Hotspots / AI infrastructure power. Demand driver: hyperscale and AI data-center electricity demand. System layer: regional power grid and utility service territory. Chokepoint node: grid interconnection, load-study queue discipline, transmission and distribution upgrade planning, customer-backed minimum billing, collateral, and cost recovery. Public-market mapping: AEP is a regulated utility with AEP Ohio as a high-signal operating subsidiary for data-center load conversion; upstream beneficiaries may include transmission equipment, transformers, switchgear, EPC, grid engineering, generation, storage, and fuel supply, but this report focuses on AEP as the regulated grid-access and cost-recovery node.",
+      "thesis_cn": "AEP 的 Serenity 卡点 thesis 不是简单押注电价或数据中心建设，而是押注大型新增负荷正在把电网接入、输电扩容、配电升级、客户信用支持和监管成本分摊变成可跟踪的产业瓶颈。缓存证据显示，截至 2026-02-12，AEP Ohio 将早期超过 30,000 MW 的数据中心用电意向，筛选为 5,642 MW 的 Schedule DCT 下已签 binding contracts；AEP Ohio 还披露另有 12,219 MW 是 tariff 生效前已签的数据中心合同，因此合计 contracted data-center projects 为 17,861 MW，并计划逐步在 2035 年前上线。官方页面显示 Schedule DCT 通过 load study fee、LOA、ESA、collateral、minimum demand charge、exit fee 等机制，把过去较松散的负荷意向转化为更强的法律和财务承诺。真正要验证的是：这些合同 MW 是否变成送电负荷、AEP 是否获得输配电和相关投资的监管批准、以及成本回收是否被 PUCO/FERC/PJM 等监管和市场机制接受。",
+      "thesis_en": "[Inference] AEP is a clean chokepoint mapping for the AI/data-center power theme because the key scarce resource is not only electricity generation, but grid access: interconnection studies, transmission upgrades, distribution buildout, customer credit support, and regulated cost recovery. Cached evidence and AEP Ohio’s February 13, 2026 update state that, as of February 12, 2026, data centers or developers signed binding contracts for 5,642 MW under AEP Ohio’s Data Center Tariff, down from more than 30,000 MW of earlier expressed interest; AEP Ohio also reported 12,219 MW of pre-tariff data-center contracts, for 17,861 MW total contracted data-center projects scheduled to come online progressively through 2035. The thesis is strongest if signed MW converts into energized MW and approved rate-base growth. It weakens if customers defer, contracts prove less enforceable than expected, regulators restrict recovery, or required grid upgrades slip materially.",
+      "ticker": "AEP",
+      "title_cn": "AEP：数据中心电力负荷从“排队申请”到“绑定合同”和“可回收电网投资”的验证标的",
+      "title_en": "AEP: A regulated-utility proxy for converting data-center load requests into binding contracts, energized load, and recoverable grid investment"
+    }
+  ],
+  "evidence": [
+    {
+      "claim_type": "fact",
+      "date": "2025-07-09",
+      "evidence_quality": "high",
+      "id": "ev_aep_puco_2025_07_09",
+      "key_points": [
+        "PUCO ordered AEP Ohio to file new tariffs applying to data centers.",
+        "PUCO adopted a settlement agreement involving AEP Ohio, PUCO staff, OCC and others.",
+        "PUCO cited unprecedented load growth and significant transmission infrastructure needs.",
+        "PUCO framed the order as protection against cost shifting to non-data-center customers."
+      ],
+      "source_type": "regulator",
+      "title": "PUCO orders AEP Ohio to create data center specific tariff",
+      "url": "https://content.govdelivery.com/accounts/OHPUC/bulletins/3e8bb79"
+    },
+    {
+      "claim_type": "fact",
+      "date": "accessed_2026-06-07",
+      "evidence_quality": "high",
+      "id": "ev_aepohio_dct_webpage",
+      "key_points": [
+        "Customers must request load studies and pay study fees.",
+        "AEP Ohio uses LOA and ESA contracts after load-study and service-plan steps.",
+        "LOA can require reimbursement of 100% of buildout costs if customers cancel or delay by more than 12 months before target energization.",
+        "Collateral and minimum-demand mechanisms are specified.",
+        "Exit-fee and capacity-assignment rules are specified."
+      ],
+      "source_type": "company_operating_subsidiary",
+      "title": "AEP Ohio Data Center Tariff webpage",
+      "url": "https://www.aepohio.com/company/about/rates/data-center-tariff/"
+    },
+    {
+      "claim_type": "fact",
+      "date": "2026-02-13",
+      "evidence_quality": "high_for_contract_and_queue_figures__medium_for_future_conversion",
+      "id": "ev_aepohio_2026_02_13_update",
+      "key_points": [
+        "As of 2026-02-12, data centers or developers signed binding contracts for 5,642 MW under the Data Center Tariff.",
+        "AEP Ohio reported 12,219 MW of data-center contracts signed before the tariff went into effect.",
+        "Total contracted data-center projects were reported at 17,861 MW, scheduled to come online progressively through 2035.",
+        "Initial expressed interest exceeded 30,000 MW; 13,022.7 MW requested and paid for formal engineering studies; 5,642 MW signed binding agreements after legal and financial commitments."
+      ],
+      "source_type": "company_operating_subsidiary",
+      "title": "AEP Ohio Updates PUCO on Data Center Load: Figures Show Tariff is Working",
+      "url": "https://www.aepohio.com/company/news/view?releaseID=10753"
+    },
+    {
+      "claim_type": "fact",
+      "date": "accessed_2026-06-07",
+      "evidence_quality": "medium_high",
+      "id": "ev_aep_investors_2026",
+      "key_points": [
+        "AEP states a five-year capital plan of $78 billion.",
+        "AEP states 63 GW of new load by 2030 backed by signed agreements.",
+        "The page frames transmission, distribution and generation investments as part of the growth setup."
+      ],
+      "source_type": "company_investor_relations",
+      "title": "AEP Investors page",
+      "url": "https://www.aep.com/investors/"
+    },
+    {
+      "claim_type": "fact_from_provided_cache",
+      "date": "2026-06-07",
+      "evidence_quality": "medium_until_verified__partly_verified_by_official_AEP_and_PUCO_sources",
+      "id": "ev_cached_brief",
+      "key_points": [
+        "Cached evidence stated AEP Ohio has an approved data-center tariff.",
+        "Cached evidence stated AEP Ohio uses binding contracts and tranche-based load-study processes.",
+        "Cached evidence stated that as of 2026-02-12, AEP Ohio had 5,642 MW of signed binding contracts versus more than 30,000 MW of earlier requests."
+      ],
+      "source_type": "provided_cached_evidence",
+      "title": "User-provided Serenity cached brief",
+      "url": "provided_in_prompt_no_external_url"
+    }
+  ],
+  "layer": 5,
+  "memory_update": [
+    {
+      "company": "American Electric Power",
+      "core_chokepoint": "data-center load conversion into regulated grid investment and recoverable rate base",
+      "highest_signal_metrics": [
+        "signed binding MW",
+        "study-fee-paid MW",
+        "LOA/ESA MW",
+        "collateral posted",
+        "energized MW",
+        "approved transmission and distribution capex",
+        "rate-base growth",
+        "allowed ROE and regulatory lag",
+        "minimum-bill and exit-fee enforcement"
+      ],
+      "key_sources": [
+        "https://content.govdelivery.com/accounts/OHPUC/bulletins/3e8bb79",
+        "https://www.aepohio.com/company/about/rates/data-center-tariff/",
+        "https://www.aepohio.com/company/news/view?releaseID=10753",
+        "https://www.aep.com/investors/"
+      ],
+      "research_boundary": "Research support only; no buy/sell recommendation, no target price, no return guarantee.",
+      "status": "layer_5_deep_report_completed",
+      "theme_id": "new_hotspots",
+      "ticker": "AEP",
+      "type": "theme_target"
+    }
+  ],
+  "summary": "Layer 5 mini deep report for one Serenity chokepoint target: American Electric Power (AEP). The report treats AEP as a regulated-utility mapping of the AI/data-center power bottleneck, not as a trading recommendation. Core thesis: AEP’s value-relevant signal is whether large data-center load moves from speculative queue requests into binding contracts, collateralized commitments, energized MW, approved grid capex, and recoverable rate base. 主题结论：AEP 是“新热点 / AI 数据中心电力约束”中较清晰的需求侧与电网接入侧映射，关键不是数据中心故事本身，而是签约 MW、送电 MW、输配电投资、监管成本回收和非数据中心客户保护机制能否连续兑现。",
+  "theme_id": "new_hotspots"
+}
