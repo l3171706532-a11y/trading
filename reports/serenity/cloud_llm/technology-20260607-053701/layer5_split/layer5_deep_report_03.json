@@ -1,0 +1,124 @@
+{
+  "deep_reports": [
+    {
+      "company": "Micron Technology",
+      "evidence_chain": [
+        "[Fact] Micron announced on March 16, 2026 that its HBM4 36GB 12H was in high-volume production, designed for NVIDIA Vera Rubin, with volume shipment begun in Q1 calendar 2026. Source: https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+        "[Fact] Micron stated its HBM4 achieves greater than 2.8TB/s bandwidth, over 11Gb/s pin speeds, 2.3x bandwidth improvement versus its HBM3E, and more than 20% power-efficiency improvement. Source: https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+        "[Fact] Micron stated that it had shipped samples of HBM4 48GB 16H to customers, implying progress toward higher-capacity HBM stacks, though not yet the same evidence strength as volume shipment. Source: https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+        "[Fact] Micron reported FY2026 Q2 revenue of $23.860B versus $13.643B in FY2026 Q1 and $8.053B in FY2025 Q2; GAAP gross margin was 74.4% and non-GAAP gross margin was 74.9%. Source: https://micron.gcs-web.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026",
+        "[Fact] FY2026 Q2 Cloud Memory Business Unit revenue was $7.749B with 74% gross margin; Core Data Center Business Unit revenue was $5.687B with 74% gross margin. Source: https://micron.gcs-web.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026",
+        "[Fact] Micron FY2026 Q2 prepared remarks stated DRAM revenue was $18.8B, up 207% year over year, and NAND revenue was $5.0B, up 169% year over year; management attributed pricing strength to tight industry conditions and favorable mix. Source: https://investors.micron.com/static-files/e089f8c0-065d-47b8-9d02-bfa863cdb357",
+        "[Inference] The combination of HBM4 volume shipment, data-center memory growth, high gross margin, and tight DRAM inventory supports the view that Micron may be moving from cyclical memory supplier toward a more strategic AI infrastructure supplier.",
+        "[Hypothesis] If NVIDIA Vera Rubin ramps as expected and Micron secures meaningful HBM4 content, the HBM segment could have a higher-quality margin profile than commodity DRAM; this requires further validation through customer allocation, HBM revenue mix, and competitor qualification data."
+      ],
+      "falsification_plan": [
+        "Downgrade the thesis if Micron fails to disclose material HBM revenue growth or if HBM remains a small, non-transparent contributor despite Vera Rubin ramp claims.",
+        "Downgrade if NVIDIA or other major accelerator customers qualify competitors more broadly and Micron loses expected allocation or pricing leverage.",
+        "Downgrade if HBM4 36GB 12H volume production does not translate into sustained shipment growth, or if 48GB 16H sampling fails to progress toward customer qualification.",
+        "Downgrade if gross margin expansion is shown to be mostly commodity price inflation rather than durable AI/HBM mix improvement.",
+        "Downgrade if industry memory supply additions in late 2026 or 2027 cause DRAM/NAND contract prices to fall faster than Micron's HBM mix can offset.",
+        "Downgrade if capex intensity rises materially without matching free-cash-flow durability, suggesting the bottleneck economics are being competed away.",
+        "Downgrade if customer platform timing slips, especially Vera Rubin production cadence, or if AI cluster demand shifts toward architectures requiring less HBM per unit of compute.",
+        "Downgrade if inventory days rise sharply while pricing weakens, indicating the current tight-supply condition is reversing."
+      ],
+      "next_research_tasks": [
+        "Pull Micron's next 10-Q/10-K and earnings-call transcript to isolate HBM-specific revenue, backlog, customer commitments, wafer allocation, and capex guidance.",
+        "Build a competitor matrix comparing Micron, SK hynix, and Samsung on HBM3E/HBM4 capacity, NVIDIA/AMD/custom ASIC qualification status, 12H/16H stack progress, and disclosed shipment timing.",
+        "Map NVIDIA Vera Rubin platform memory content: HBM capacity per GPU, number of HBM stacks, SOCAMM2 role, platform shipment cadence, and whether Micron content is standard, optional, or partial.",
+        "Track DRAM and NAND contract-price indicators separately from HBM pricing to determine whether Micron's FY2026 margin strength is structural or cyclical.",
+        "Review Micron capex, CHIPS Act incentives, Boise/New York/Japan/Taiwan manufacturing footprint, and advanced-packaging dependencies to identify expansion bottlenecks.",
+        "Quantify revenue sensitivity under three scenarios: HBM share gain, base-case qualification, and competitive share loss; keep this as a research model only, not a price target.",
+        "Check customer concentration and platform dependency: identify whether Micron's HBM4 demand is tied mostly to NVIDIA or diversified across AMD, custom ASIC, and cloud customers.",
+        "Monitor technical risk signals: yield commentary, thermal/power claims, 16H stack progress, and whether customers validate the claimed bandwidth and power advantages."
+      ],
+      "risks": [
+        "[Risk] Customer concentration and qualification risk: the HBM4 thesis depends heavily on platform acceptance by NVIDIA and other AI accelerator customers; a design-in does not guarantee durable share.",
+        "[Risk] Competitive supply response: SK hynix and Samsung remain critical HBM competitors, and HBM4 qualification progress by peers could reduce Micron's pricing power or allocation.",
+        "[Risk] Capacity overshoot: if industry capex and wafer allocation expand too quickly after the current tight-supply period, HBM and conventional DRAM pricing could normalize faster than expected.",
+        "[Risk] Mix ambiguity: Micron reports strong Cloud Memory and Core Data Center revenue, but public disclosures may not provide enough HBM-specific revenue, margin, customer concentration, or backlog detail.",
+        "[Risk] Execution complexity: HBM requires advanced stacking, thermal management, TSV, yield control, and packaging coordination; poor yield could dilute the margin advantage even if demand remains strong.",
+        "[Risk] Commodity cycle drag: conventional DRAM/NAND still matters; a downturn in non-HBM memory could pressure consolidated margins and offset AI-memory strength.",
+        "[Risk] Geopolitical and trade risk: memory supply chains, China exposure, export controls, and government incentive conditions can affect capex, shipments, and customer demand.",
+        "[Risk] Valuation/pricing risk: even if the operational thesis is correct, public-market expectations may already price in strong HBM growth; this report does not assess fair value or provide a buy/sell view."
+      ],
+      "supply_chain_position": "AI infrastructure supply-chain map: downstream demand = hyperscale AI training/inference clusters and NVIDIA Vera Rubin-class systems; system/platform layer = NVIDIA GPUs, Vera CPUs, NVL72-style systems, BlueField-4 STX architectures; memory bottleneck layer = HBM3E/HBM4 stacks, SOCAMM2 low-power high-capacity memory, high-density DRAM; storage layer = PCIe Gen6 data-center SSDs for high-throughput AI data access; manufacturing constraints = wafer allocation, DRAM process leadership, TSV/stacking, advanced packaging, yield learning, customer qualification, and capex timing; public-market mapping = Micron Technology as a U.S.-listed memory supplier with direct exposure to HBM, AI data-center DRAM, SOCAMM2, and enterprise SSDs.",
+      "thesis_cn": "Micron 的关键卡点不应只被理解为传统 DRAM/NAND 周期，而应被拆成 AI 加速器平台所需的高带宽内存、低功耗大容量内存模块和高性能数据中心存储。已核验事实显示，Micron 于 2026 年 3 月 16 日披露其 36GB 12H HBM4 已在 2026 年一季度开始量产出货，并面向 NVIDIA Vera Rubin；公司同时披露 HBM4 带宽超过 2.8TB/s、相较其 HBM3E 带宽提升 2.3 倍、能效提升超过 20%。FY2026 Q2 财报显示收入 238.60 亿美元，GAAP 毛利率 74.4%，Cloud Memory 与 Core Data Center 业务均创纪录或显著增长。Serenity 视角下，真正需要深挖的是：Micron 的 HBM4 是否获得足够客户认证和平台份额，良率与先进封装是否支持高毛利，产能分配是否能在 HBM、普通 DRAM 与 NAND 之间维持稀缺性，以及行业扩产是否会在 2026 年以后削弱价格。该结论属于研究假设/推断，不构成买卖建议。",
+      "thesis_en": "[Inference] Micron’s key chokepoint should not be framed only as a legacy DRAM/NAND cycle. It should be mapped to the AI accelerator platform stack: high-bandwidth memory, low-power high-capacity memory modules, and high-performance data-center storage. Verified facts show that on March 16, 2026, Micron disclosed that its 36GB 12H HBM4 had begun volume shipment in Q1 calendar 2026 and was designed for NVIDIA Vera Rubin; Micron also disclosed greater than 2.8TB/s bandwidth, 2.3x bandwidth improvement versus its HBM3E, and more than 20% power-efficiency improvement. FY2026 Q2 results showed $23.86B revenue, 74.4% GAAP gross margin, and record or sharply higher Cloud Memory and Core Data Center performance. Under the Serenity framework, the research question is whether Micron can convert HBM4 qualification, yield, advanced packaging execution, and capacity allocation into a durable AI bottleneck position, rather than a temporary memory pricing cycle. This is a research hypothesis/inference and not a trading recommendation.",
+      "ticker": "MU",
+      "title_cn": "Micron Technology：AI HBM4 与数据中心内存的结构性瓶颈研究",
+      "title_en": "Micron Technology: Structural AI HBM4 and Data-Center Memory Bottleneck Research"
+    }
+  ],
+  "evidence": [
+    {
+      "date": "2026-03-16",
+      "evidence_quality": "high_for_product_status_claims_from_company; medium_for_customer_allocation_and_market_share_because those details are not fully quantified",
+      "key_points": [
+        "HBM4 36GB 12H in high-volume production and designed for NVIDIA Vera Rubin.",
+        "Volume shipment began in Q1 calendar 2026.",
+        "Claimed greater than 2.8TB/s bandwidth, over 11Gb/s pin speeds, 2.3x bandwidth improvement versus Micron HBM3E, and more than 20% power-efficiency improvement.",
+        "Micron also disclosed SOCAMM2 and PCIe Gen6 SSD products in high-volume production for AI platform use cases."
+      ],
+      "publisher": "Micron Technology Investor Relations",
+      "source_type": "company_press_release",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin"
+    },
+    {
+      "date": "2026-03-18",
+      "evidence_quality": "high_for_reported_financials; medium_for_structural_bottleneck_inference",
+      "key_points": [
+        "FY2026 Q2 revenue was $23.860B.",
+        "GAAP gross margin was 74.4%; non-GAAP gross margin was 74.9%.",
+        "Cloud Memory Business Unit revenue was $7.749B with 74% gross margin.",
+        "Core Data Center Business Unit revenue was $5.687B with 74% gross margin.",
+        "FY2026 Q3 guidance was $33.5B revenue plus or minus $750M and approximately 81% gross margin."
+      ],
+      "publisher": "Micron Technology Investor Relations",
+      "source_type": "company_earnings_release",
+      "url": "https://micron.gcs-web.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026"
+    },
+    {
+      "date": "2026-03-18",
+      "evidence_quality": "high_for_management_disclosure; medium_for_forward-looking tight-supply claims",
+      "key_points": [
+        "FY2026 Q2 total revenue was described as up 75% sequentially and 196% year over year.",
+        "DRAM revenue was $18.8B and represented 79% of total revenue.",
+        "NAND revenue was $5.0B and represented 21% of total revenue.",
+        "Management attributed price increases to tight industry conditions and favorable mix.",
+        "DRAM inventory days were described as especially tight and below 120 days."
+      ],
+      "publisher": "Micron Technology Investor Relations",
+      "source_type": "company_prepared_remarks",
+      "url": "https://investors.micron.com/static-files/e089f8c0-065d-47b8-9d02-bfa863cdb357"
+    }
+  ],
+  "layer": 5,
+  "memory_update": [
+    {
+      "chokepoint": "HBM4 qualification, yield, stack capacity, wafer allocation, and AI data-center memory/storage content",
+      "claim_type": "inference",
+      "company": "Micron Technology",
+      "key_verified_facts": [
+        "Micron announced HBM4 36GB 12H volume shipment began in Q1 calendar 2026 and was designed for NVIDIA Vera Rubin.",
+        "Micron reported FY2026 Q2 revenue of $23.860B and GAAP gross margin of 74.4%.",
+        "Micron FY2026 Q2 Cloud Memory revenue was $7.749B and Core Data Center revenue was $5.687B."
+      ],
+      "last_verified_date": "2026-06-07",
+      "research_status": "mini_deep_report_completed",
+      "subtheme": "AI infrastructure memory and HBM",
+      "theme": "Technology",
+      "ticker": "MU",
+      "type": "theme_funnel_layer5_target",
+      "watch_items": [
+        "HBM revenue mix and margin disclosure",
+        "NVIDIA Vera Rubin shipment cadence and Micron content",
+        "SK hynix and Samsung HBM4 qualification progress",
+        "DRAM/NAND contract pricing and inventory days",
+        "Capex discipline and wafer allocation"
+      ]
+    }
+  ],
+  "summary": "Layer 5 mini deep report: Micron Technology is mapped as a deep-research target in the Technology theme through the AI infrastructure memory bottleneck, specifically HBM3E/HBM4, AI data-center DRAM, SOCAMM2, and high-performance data-center SSDs. The thesis is not that Micron is merely a beneficiary of a traditional DRAM upcycle, but that its HBM4 qualification, yield, stack capacity, wafer allocation, and NVIDIA Vera Rubin platform content could make it a structurally important AI supply-chain node. Evidence quality is strongest for product launch/volume-shipment claims and FY2026 Q2 financials, because they are sourced from Micron investor releases and prepared earnings remarks. Evidence remains weaker for durable HBM market share, long-term customer allocation, and normalized profitability after industry capacity additions.",
+  "theme_id": "technology_ai_infrastructure_memory_hbm_micron_mu_layer5"
+}

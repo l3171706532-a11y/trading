@@ -1,0 +1,191 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Marvell Technology",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-K/10-Q and earnings call for data-center revenue mix, AI interconnect backlog, 1.6T PAM4 DSP shipments, 51.2T switch ramp, customer concentration, and whether AI custom silicon demand is durable or lumpy.",
+      "node_relation": "Supplier of PAM4 optical DSPs, SerDes, switches, PCIe/CXL connectivity, active electrical/optical cable DSPs, coherent DSPs, and custom AI interconnect silicon used in scale-up and scale-out AI fabrics.",
+      "sector_or_industry": "Semiconductors: data-center interconnect, optical DSPs, switching, custom silicon",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "demand",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct exposure to AI data-center networking and custom accelerator connectivity; second-order exposure to hyperscaler AI cluster expansion.",
+      "ticker": "MRVL",
+      "why_include": "Marvell maps directly to the silicon layer of the node: optical DSPs, SerDes, switch silicon, active cable DSPs, and custom interconnect around AI accelerators. Its public materials specifically reference 1.6T PAM4 optical interconnect and scale-up/scale-out AI deployments."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Coherent Corp.",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify in company filings/call transcripts: datacenter revenue, 800G and 1.6T shipment cadence, InP wafer capacity/yields, customer concentration, CPO purchase orders, and gross-margin contribution from AI optics.",
+      "node_relation": "Supplier of optical communications components and modules, including high-speed datacenter optics and InP-based laser technologies relevant to 800G/1.6T and co-packaged optics.",
+      "sector_or_industry": "Optical components, lasers, transceivers, photonics materials",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "materials",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct exposure to the optical layer of AI clusters where bandwidth, power per bit, laser availability, and transceiver ramp quality can become constraints.",
+      "ticker": "COHR",
+      "why_include": "Coherent appears positioned in a scarce component layer: lasers, optical engines, transceivers, and InP capacity. Public reporting points to AI datacenter optics demand, 800G/1.6T mix, and InP capacity ramp, making it a plausible bottleneck supplier rather than only a generic optics name."
+    },
+    {
+      "claim_type": "hypothesis",
+      "company": "Lumentum Holdings",
+      "confidence": 0.76,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest annual report and earnings calls for datacenter optical revenue, EML laser capacity, 1.6T product shipments, hyperscaler/customer exposure, inventory risk, and whether AI orders are replacing or supplementing telecom demand.",
+      "node_relation": "Supplier of optical and photonic components, including lasers and high-speed optical technologies used in datacenter optical transceivers and AI connectivity.",
+      "sector_or_industry": "Optical components, lasers, photonic chips, transceivers",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "materials",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct/second-order exposure to AI optical interconnect demand, especially if EML or other laser supply becomes a limiting component for 800G/1.6T modules.",
+      "ticker": "LITE",
+      "why_include": "Lumentum is relevant because laser availability and qualification may become a chokepoint as AI datacenters move to higher-speed optics. The inclusion is strong at the component level, but still needs company-level evidence tying AI datacenter demand to revenue and margins."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Credo Technology Group",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify current revenue concentration by customer/product, AEC shipment growth, design wins with hyperscalers/OEMs, competitive pressure from passive copper and optics, and whether gross margins hold as volumes scale.",
+      "node_relation": "Supplier of SerDes IP, retimers, optical DSP-related connectivity products, and HiWire active electrical cables used for short-reach high-speed connections such as GPU-to-switch links inside AI racks.",
+      "sector_or_industry": "High-speed connectivity semiconductors and active electrical cables",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "components",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct exposure to AI cluster scale-out and in-rack connectivity where copper reach, power, reliability, and cable density can constrain cluster design.",
+      "ticker": "CRDO",
+      "why_include": "Credo is a less obvious but high-relevance supplier because AECs and SerDes connectivity address power and signal-integrity problems in dense AI racks. Its annual report explicitly describes AECs enabling reliable GPU-to-network-switch links for AI racks with liquid cooling."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Amphenol",
+      "confidence": 0.79,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Quantify AI/datacom contribution, product mix between copper/fiber/power connectors, acquisition contribution from CommScope assets, hyperscaler exposure, and whether margins improve from high-speed AI interconnect versus broader industrial mix.",
+      "node_relation": "Supplier of electrical, electronic, fiber-optic connectors, interconnect systems, and high-speed specialty cable used across IT datacom and AI-enabling systems.",
+      "sector_or_industry": "Connectors, high-speed cable, fiber-optic interconnect systems",
+      "serenity_tags": [
+        "supply_chain",
+        "components",
+        "infrastructure",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order but broad exposure to AI networking buildouts through physical interconnect, cabling, connectors, and datacenter infrastructure components.",
+      "ticker": "APH",
+      "why_include": "Amphenol is not a pure-play AI networking stock, but it maps to the physical interconnect layer. Its 2025 10-K says it serves designers, manufacturers, and operators of internet and AI-enabling systems and saw strong IT datacom growth with particular strength in AI-related applications."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Marvell publicly describes an interconnect portfolio for AI scale-up and scale-out deployments, including 1.6T PAM4 optical interconnect, SerDes, active cable DSPs, PAM optical DSPs, coherent DSPs, and switching-related technologies.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2024-03-26",
+      "source_title": "Marvell Announces Breakthrough Co-Packaged Optics Architecture for Custom AI Accelerators",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-co-packaged-optics-architecture-custom-ai-accelerators.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Marvell investor materials referenced volume shipments of next-generation 200G-per-lane 1.6T PAM4 DSPs and a ramp in 51.2 Tbps switches, with AI-driven custom silicon and interconnect demand.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-08-28",
+      "source_title": "Marvell Q2 FY26 Financial and Business Results",
+      "source_url": "https://investor.marvell.com/image/2025_8_28_Marvell_Q2_FY26_financial_business_results_FINAL.pdf",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Coherent is plausibly exposed to an AI optics bottleneck through datacenter optical demand, 800G/1.6T transceivers, InP capacity, optical circuit switches, and co-packaged optics-related components.",
+      "claim_type": "inference",
+      "confidence": 0.76,
+      "published_at": "2026-02-01",
+      "source_title": "Coherent Q2 FY 2026: AI Datacenter Demand Lifts Revenue",
+      "source_url": "https://futurumgroup.com/insights/coherent-q2-fy-2026-ai-datacenter-demand-lifts-revenue-and-margins/",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Lumentum may be relevant to the AI optical bottleneck because its portfolio includes lasers, optical engines, transceivers, and related optical components, while public reporting highlights 1.6T transceiver shipments and AI optics demand.",
+      "claim_type": "hypothesis",
+      "confidence": 0.68,
+      "published_at": "2026-03-22",
+      "source_title": "Lumentum Touts AI Optics Boom, $2B Quarterly Target, New Fab and 1.6T Transceiver Shipments",
+      "source_url": "https://www.defenseworld.net/2026/03/22/lumentum-touts-ai-optics-boom-2b-quarterly-target-new-fab-and-1-6t-transceiver-shipments.html",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Credo's 2025 annual report describes HiWire Active Electrical Cables as plug-and-play cables up to 7m that enable reliable links from GPU to network switch for AI racks with liquid cooling.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2025-07-25",
+      "source_title": "Credo Technology Group 2025 Annual Report",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1807794/000180779425000012/ars_10-kx2025.pdf",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Amphenol's 2025 10-K describes the company as a provider of interconnect solutions for internet and AI-enabling systems, and states that 2025 sales growth was driven by robust IT datacom growth with particular strength in AI-related applications.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-02-01",
+      "source_title": "Amphenol Corporation 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000820313/000110465926013549/aph-20251231x10k.htm",
+      "ticker": "APH"
+    },
+    {
+      "claim": "Amphenol announced an acquisition of CommScope connectivity and cable assets, stating that the transaction expands interconnect capabilities in IT datacom and adds fiber-optic interconnect products for AI and other datacenter applications.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-08-04",
+      "source_title": "Amphenol Corporation to Acquire Connectivity and Cable Solutions Business From CommScope",
+      "source_url": "https://investors.amphenol.com/news-and-events/news-details/2025/Amphenol-Corporation-to-Acquire-Connectivity-and-Cable-Solutions-Business-From-CommScope/default.aspx",
+      "ticker": "APH"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.88,
+      "text": "Add MRVL as a core AI interconnect silicon candidate: optical DSPs, SerDes, switches, custom silicon, active cable DSPs, and CPO architecture.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Add COHR and LITE as optical-component and laser bottleneck candidates; prioritize verification of InP/EML capacity, 800G/1.6T revenue, and hyperscaler design wins.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Add CRDO as a focused in-rack AI connectivity candidate through active electrical cables and SerDes products linking GPUs and switches.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.79,
+      "text": "Add APH as a broad physical-interconnect supplier with documented AI-related IT datacom strength and expanded fiber/cable capabilities via acquisition.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Potential next-pass candidates not included due to 5-name cap: GLW for optical fiber and AI datacenter connectivity; FN as optical manufacturing/packaging partner; CIEN for data-center interconnect and 800G/1.6T coherent pluggables; AAOI for smaller-cap 800G/1.6T transceivers; SMTC/MTSI for optical and high-speed analog components.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI networking, Ethernet/InfiniBand fabrics, switch ASICs, NICs, optics, and interconnect",
+  "node_id": "ai_networking_optical_interconnect",
+  "summary": "Expanded the AI networking/optical-interconnect universe beyond seed names toward suppliers tied to potential chokepoints: optical DSPs, 800G/1.6T optics, InP/EML lasers, active electrical cables, high-speed connectors, and fiber-optic interconnect systems. The highest-relevance additions are Marvell for AI interconnect silicon and DSPs; Coherent and Lumentum for lasers/optical components; Credo for AEC/DSP connectivity inside AI racks; and Amphenol for high-speed copper/fiber interconnect infrastructure. This is a research universe expansion only, not a recommendation.",
+  "theme_id": "technology"
+}

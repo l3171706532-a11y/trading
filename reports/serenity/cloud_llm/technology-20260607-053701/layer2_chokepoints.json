@@ -1,0 +1,1386 @@
+{
+  "catalysts": [
+    {
+      "affected_nodes": [
+        "AI workload demand: frontier training, inference, agentic AI, enterprise copilots",
+        "Hyperscaler and cloud capex",
+        "AI accelerator platforms: GPUs, custom XPUs, rack-scale AI systems",
+        "Data-center power delivery: transformers, switchgear, UPS, PDUs, grid interconnection"
+      ],
+      "claim_type": "fact",
+      "description": "Hyperscaler AI infrastructure budgets and quarterly capex guidance remain the primary demand catalyst. Evidence to track: Microsoft, Alphabet, Amazon, Meta, Oracle, and sovereign-AI spending updates; cloud capacity-constraint commentary; and changes in finance-lease commitments.",
+      "type": "capex"
+    },
+    {
+      "affected_nodes": [
+        "Leading-edge foundry capacity: 3nm/4nm/5nm and transition to 2nm",
+        "Advanced packaging: CoWoS, SoIC, 2.5D/3D integration, interposers",
+        "Semiconductor equipment: lithography, deposition, etch, clean, CMP"
+      ],
+      "claim_type": "fact",
+      "description": "TSMC quarterly results and capex commentary are direct catalysts for the advanced-node and advanced-packaging chain. Watch for 2nm ramp timing, CoWoS/advanced-packaging expansion, HPC revenue mix, and customer-demand language.",
+      "type": "earnings"
+    },
+    {
+      "affected_nodes": [
+        "High-bandwidth memory: HBM3E, HBM4, advanced DRAM stacking",
+        "Advanced packaging: CoWoS, SoIC, 2.5D/3D integration, interposers",
+        "Inspection, metrology, probe cards, memory test, system-level test"
+      ],
+      "claim_type": "fact",
+      "description": "Micron and other memory suppliers' HBM commentary are catalysts for AI memory tightness. Watch HBM revenue, qualification status, pricing, capex allocation, and whether supply remains committed ahead of production.",
+      "type": "earnings"
+    },
+    {
+      "affected_nodes": [
+        "AI accelerator platforms: GPUs, custom XPUs, rack-scale AI systems",
+        "High-bandwidth memory: HBM3E, HBM4, advanced DRAM stacking",
+        "AI networking silicon: Ethernet switches, NVLink-class fabrics, DPUs, NICs, SerDes",
+        "Liquid cooling and thermal management: cold plates, CDUs, immersion, heat exchangers"
+      ],
+      "claim_type": "fact",
+      "description": "NVIDIA Vera Rubin and successor rack-scale platforms are catalysts for higher memory bandwidth, denser networking fabrics, and tighter rack-level power/cooling requirements. The key watch item is whether next-generation platforms ramp on schedule and whether suppliers can support the required HBM, packaging, and networking content.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "Optical interconnect: 800G, 1.6T, optical DSPs, lasers, transceivers, silicon photonics",
+        "AI networking silicon: Ethernet switches, NVLink-class fabrics, DPUs, NICs, SerDes",
+        "AI servers, ODM assembly, rack integration, power shelves, cables"
+      ],
+      "claim_type": "fact",
+      "description": "The transition from 800G to 1.6T optical links is a catalyst for optical DSPs, lasers, transceivers, and silicon-photonics supply chains. Monitor customer qualifications, production yields, and whether optics shortages emerge as cluster scale increases.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "AI accelerator platforms: GPUs, custom XPUs, rack-scale AI systems",
+        "AI networking silicon: Ethernet switches, NVLink-class fabrics, DPUs, NICs, SerDes",
+        "Hyperscaler and cloud capex"
+      ],
+      "claim_type": "fact",
+      "description": "Broadcom AI semiconductor revenue and custom-accelerator/networking orders are catalysts for non-GPU AI compute architecture. Watch whether custom XPU demand broadens beyond a few hyperscale customers and whether networking stays a large share of AI semiconductor revenue.",
+      "type": "earnings"
+    },
+    {
+      "affected_nodes": [
+        "Data-center power delivery: transformers, switchgear, UPS, PDUs, grid interconnection",
+        "Energy supply: PPAs, nuclear, gas, renewables, batteries, behind-the-meter generation",
+        "Permitting, environmental review, community opposition, water access"
+      ],
+      "claim_type": "fact",
+      "description": "U.S. federal and state support for AI data-center sites, power infrastructure, and permitting can accelerate or redirect data-center buildouts. Watch DOE site-selection actions, interconnection rules, nuclear/gas generation policy, and local permitting pushback.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "AI workload demand: frontier training, inference, agentic AI, enterprise copilots",
+        "Hyperscaler and cloud capex",
+        "AI accelerator platforms: GPUs, custom XPUs, rack-scale AI systems",
+        "Energy supply: PPAs, nuclear, gas, renewables, batteries, behind-the-meter generation"
+      ],
+      "claim_type": "inference",
+      "description": "Large AI-lab and sovereign-AI compute commitments can pull forward demand for GPUs, custom silicon, HBM, optics, and power. The key risk is double-counting headline commitments that lack firm delivery schedules, financing, or power availability.",
+      "type": "customer"
+    },
+    {
+      "affected_nodes": [
+        "AI workload demand: frontier training, inference, agentic AI, enterprise copilots",
+        "AI software platforms and utilization layer",
+        "AI accelerator platforms: GPUs, custom XPUs, rack-scale AI systems"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Model-efficiency improvements, lower cost per token, and better cluster utilization can be either positive or negative catalysts. They can expand inference demand by lowering costs, but they can also reduce the number of accelerators needed per unit of workload.",
+      "type": "technology"
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Microsoft's FY2026 Q3 earnings call disclosed capital expenditures of $31.9 billion for the quarter and discussed cloud infrastructure buildout, AI investment, and memory-price impact on capex.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-05",
+      "source_title": "Microsoft Fiscal Year 2026 Third Quarter Earnings Conference Call",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+      "ticker": "MSFT"
+    },
+    {
+      "claim": "TSMC's Q1 2026 quarterly-results page provides current company-reported revenue, guidance, and official investor materials relevant to advanced-node foundry demand.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-04",
+      "source_title": "TSMC 2026 Q1 Quarterly Results",
+      "source_url": "https://investor.tsmc.com/english/quarterly-results/2026/q1",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Micron's fiscal Q2 2026 release reported strong data-center-related results and is a primary source for tracking HBM and AI memory demand.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-03-18",
+      "source_title": "Micron Technology, Inc. Reports Results for the Second Quarter of Fiscal 2026",
+      "source_url": "https://micron.gcs-web.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Broadcom's fiscal Q2 2026 release stated that Q2 semiconductor revenue from AI was $10.8 billion, up 143% year over year, driven by custom AI accelerators and AI networking.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-06-03",
+      "source_title": "Broadcom Inc. Announces Second Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend",
+      "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "NVIDIA's Rubin platform announcement identifies a rack-scale architecture spanning Vera CPU, Rubin GPU, NVLink 6, ConnectX-9, BlueField-4, and Spectrum-6 Ethernet, confirming that next-generation AI systems pull through compute, networking, and interconnect layers.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-01",
+      "source_title": "NVIDIA Kicks Off the Next Generation of AI With Rubin — Six New Chips, One Incredible AI Supercomputer",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Kicks-Off-the-Next-Generation-of-AI-With-Rubin--Six-New-Chips-One-Incredible-AI-Supercomputer/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Marvell announced an expanded 1.6T optical DSP portfolio for AI data-center connectivity, supporting the view that optical interconnect is a key AI infrastructure node.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04",
+      "source_title": "Marvell Ushers In the 1.6T Era with Expanded Optical DSP Platform Portfolio, Redefining AI Data Center End-to-End Connectivity",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-1-6t-optical-dsp-ai-data-center-connectivity.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Epoch AI analysis concluded that in 2025 advanced packaging and HBM, not advanced logic die production alone, were the primary constraints on AI chip production.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04",
+      "source_title": "Advanced packaging and HBM, not logic dies, were the bottlenecks on AI chip production in 2025",
+      "source_url": "https://epoch.ai/data-insights/ai-chip-supply-chain-constraints",
+      "ticker": ""
+    },
+    {
+      "claim": "The U.S. Department of Energy announced site selection for AI data-center and energy-infrastructure development on federal lands, confirming policy focus on the data-center power bottleneck.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-08",
+      "source_title": "DOE Announces Site Selection for AI Data Center and Energy Infrastructure Development on Federal Lands",
+      "source_url": "https://www.energy.gov/articles/doe-announces-site-selection-ai-data-center-and-energy-infrastructure-development-federal",
+      "ticker": ""
+    },
+    {
+      "claim": "Microsoft Research's AI data-center lifecycle paper frames high-density AI racks, power delivery, cooling, and operational constraints as system-level design problems for AI infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.85,
+      "published_at": "2026-03",
+      "source_title": "Rearchitecting the Datacenter Lifecycle for AI",
+      "source_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/03/AI-DC-Lifecycle-Compass.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "Arista's 2025 year-end release explicitly references data-driven client-to-cloud networking for AI and data-center environments, supporting the mapping of AI networking as a public-market technology chain node.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-02-12",
+      "source_title": "Arista Networks, Inc. Reports Fourth Quarter and Year End 2025 Financial Results",
+      "source_url": "https://www.arista.com/en/company/news/press-release/23416-pr-20260212",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "NVIDIA announced that the Vera Rubin platform was ramping into full production to power agentic AI factories worldwide.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-05-31",
+      "source_title": "NVIDIA Vera Rubin Ramps Into Full Production to Power Agentic AI Factories Worldwide",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "NVIDIA's fiscal 2026 results release stated that the Rubin platform includes six new chips and that major cloud providers would be among the first to deploy Vera Rubin-based instances.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-02-25",
+      "source_title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "TSMC's Q1 2026 quarterly-results page provides official company results and guidance relevant to leading-edge foundry and advanced-packaging demand.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-04",
+      "source_title": "TSMC 2026 Q1 Quarterly Results",
+      "source_url": "https://investor.tsmc.com/english/quarterly-results/2026/q1",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "ASML's 2025 Annual Report identifies ASML as a leading semiconductor lithography supplier and documents EUV system activity, including delivery of a full-specification TWINSCAN EXE:5200B system.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026",
+      "source_title": "ASML 2025 Annual Report",
+      "source_url": "https://www.asml.com/investors/annual-report/2025",
+      "ticker": "ASML"
+    },
+    {
+      "claim": "ASML's 2025 financial-materials commentary linked leading-edge foundry growth to strong AI demand and customer capacity builds for next nodes.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026",
+      "source_title": "Financials | ASML 2025 Annual Report",
+      "source_url": "https://www.asml.com/investors/annual-report/2025/financials",
+      "ticker": "ASML"
+    },
+    {
+      "claim": "Micron's fiscal Q2 2026 results release is a primary source for current company-reported data-center memory, capex, and AI-memory demand tracking.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-03-18",
+      "source_title": "Micron Technology, Inc. Reports Results for the Second Quarter of Fiscal 2026",
+      "source_url": "https://micron.gcs-web.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Micron's fiscal Q2 2026 prepared remarks referenced HBM4 36GB 12H and design relevance for NVIDIA Vera Rubin.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-03",
+      "source_title": "Micron Technology Fiscal Q2 2026 Earnings Call Prepared Remarks",
+      "source_url": "https://investors.micron.com/static-files/e089f8c0-065d-47b8-9d02-bfa863cdb357",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Broadcom's fiscal Q2 2026 release stated that Q2 semiconductor revenue from AI was $10.8 billion, up 143% year over year, driven by custom AI accelerators and AI networking.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-06-03",
+      "source_title": "Broadcom Inc. Announces Second Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend",
+      "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Arista's Q1 2026 release describes the company as serving large AI, data-center, campus, and routing environments and provides current financial results for AI-networking exposure tracking.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05",
+      "source_title": "Arista Networks, Inc. Reports First Quarter 2026 Financial Results",
+      "source_url": "https://s21.q4cdn.com/861911615/files/doc_news/Arista-Networks-Inc--Reports-First-Quarter-2026-Financial-Results-2026.pdf",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "AMD's 2025 Form 10-K stated that demand for data-center AI accelerator products was strong as hyperscale customers, OEMs, and ODMs deployed AMD Instinct MI350X Series GPUs.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-02-04",
+      "source_title": "Advanced Micro Devices, Inc. 2025 Form 10-K",
+      "source_url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000018/amd-20251227.htm",
+      "ticker": "AMD"
+    },
+    {
+      "claim": "AMD and Meta announced an expanded strategic partnership involving AMD GPUs and multi-generation EPYC CPU roadmap alignment.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-02-24",
+      "source_title": "AMD and Meta Announce Expanded Strategic Partnership to Deploy 6 Gigawatts of AMD GPUs",
+      "source_url": "https://www.amd.com/en/newsroom/press-releases/2026-2-24-amd-and-meta-announce-expanded-strategic-partnersh.html",
+      "ticker": "AMD"
+    },
+    {
+      "claim": "KLA's fiscal 2026 Q1 materials referenced AI-driven investment across foundry/logic, memory, and advanced packaging markets.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2025-10-29",
+      "source_title": "KLA Corporation Fiscal 2026 First Quarter Financial and Operating Results",
+      "source_url": "https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-25-000031/0000319201-25-000031.pdf",
+      "ticker": "KLAC"
+    },
+    {
+      "claim": "KLA's 2025 stockholder letter referenced HBM investments for AI and strong growth in advanced packaging within Semiconductor Process Control segments.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2025",
+      "source_title": "KLA Corporation 2025 Letter to Stockholders",
+      "source_url": "https://ir.kla.com/sec-filings/all-sec-filings/content/0001193125-25-213412/0001193125-25-213412.pdf",
+      "ticker": "KLAC"
+    },
+    {
+      "claim": "Onto Innovation's Q1 2026 release reported record quarterly revenue and stated that Dragonfly G5 was qualified at a leading 2.5D logic customer and a high-bandwidth memory customer.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-05-05",
+      "source_title": "Onto Innovation Reports 2026 First Quarter Results",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2026-First-Quarter-Results/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Onto Innovation's Q4 2025 release disclosed a volume purchase agreement estimated at more than $240 million with a leading HBM manufacturer for Dragonfly 2D inspection and 3D bump metrology through 2027 expansion plans.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-02-19",
+      "source_title": "Onto Innovation Reports 2025 Fourth Quarter and Full Year Results",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Amkor's Q1 2026 results release states that its portfolio includes advanced packaging, wafer-level processing, and system-in-package solutions targeting data centers and artificial intelligence.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04",
+      "source_title": "Amkor Technology Reports Financial Results for the First Quarter 2026",
+      "source_url": "https://amkortech.gcs-web.com/news-releases/news-release-details/amkor-technology-reports-financial-results-first-quarter-2026",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor's April 2026 Q1 financial presentation cited record AI datacenter revenue and record advanced packaging.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-04",
+      "source_title": "Amkor Q1 2026 Financial Results Presentation",
+      "source_url": "https://ir.amkor.com/static-files/819e825e-c207-468d-97b0-e3e6592d2042",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Teradyne reported record Q1 2026 results driven by AI-related demand strength across compute segments and memory, with approximately 70% of revenue tied to AI-related demand.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-04-29",
+      "source_title": "Teradyne Reports First Quarter 2026 Results",
+      "source_url": "https://investors.teradyne.com/news-events/press-releases/detail/440/teradyne-reports-first-quarter-2026-results",
+      "ticker": "TER"
+    },
+    {
+      "claim": "FormFactor's Q1 2026 release reported record DRAM revenue with increased demand in HBM applications and increased Foundry & Logic demand driven by probe cards for networking applications.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04-29",
+      "source_title": "FormFactor, Inc. Reports 2026 First Quarter Results",
+      "source_url": "https://investors.formfactor.com/news-releases/news-release-details/formfactor-inc-reports-2026-first-quarter-results/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Entegris' FY2025 Form 10-K describes Advanced Purity Solutions as offering filtration, purification, and contamination-control solutions intended to improve customer yield across semiconductor manufacturing and related high-technology processes.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-02-11",
+      "source_title": "Entegris FY2025 Form 10-K",
+      "source_url": "https://entegrisinc.gcs-web.com/static-files/99341f43-97e2-4112-9332-cb985f093169",
+      "ticker": "ENTG"
+    },
+    {
+      "claim": "Entegris' investor-relations overview describes the company as a supplier of advanced materials and process solutions for the semiconductor and other high-technology industries.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-06",
+      "source_title": "Entegris Investor Relations Overview",
+      "source_url": "https://investor.entegris.com/overview/default.aspx",
+      "ticker": "ENTG"
+    },
+    {
+      "claim": "Lam Research's advanced-packaging materials describe Lam's use of etch and deposition capabilities to address advanced packaging challenges, including AI accelerator-related packaging needs.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-02",
+      "source_title": "Lam Research Advanced Packaging Solutions",
+      "source_url": "https://www.lamresearch.com/solution/advanced-packaging/",
+      "ticker": "LRCX"
+    },
+    {
+      "claim": "Lam Research is positioned as a semiconductor equipment beneficiary of AI-driven memory, logic, and packaging capacity, but the exact AI-specific revenue contribution requires validation from filings and earnings calls.",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "published_at": "2026-02",
+      "source_title": "Lam Research Advanced Packaging Solutions",
+      "source_url": "https://www.lamresearch.com/solution/advanced-packaging/",
+      "ticker": "LRCX"
+    },
+    {
+      "claim": "Applied Materials' Q2 FY2026 earnings presentation states that leading-edge foundry-logic, DRAM, and advanced packaging enable higher AI performance per watt and are expected to drive more than 80% of 2026 WFE market growth.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "Applied Materials Q2 FY2026 Earnings Presentation",
+      "source_url": "https://ir.appliedmaterials.com/static-files/8b93db9d-50dd-42de-b440-560cf41f0071",
+      "ticker": "AMAT"
+    },
+    {
+      "claim": "Applied Materials' Q2 FY2026 release says Applied and Micron are working on next-generation DRAM, HBM, and NAND solutions to increase energy-efficient performance for AI systems.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05",
+      "source_title": "Applied Materials Announces Second Quarter 2026 Results",
+      "source_url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-second-quarter-2026-results",
+      "ticker": "AMAT"
+    },
+    {
+      "claim": "Marvell announced 1.6T ZR/ZR+ data-center interconnect pluggables and 2nm coherent DSPs for secure AI scale-across interconnects, with sampling expected in the second half of 2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03",
+      "source_title": "Marvell Extends ZR/ZR+ Leadership with Industry-first 1.6T ZR/ZR+ Pluggable and 2nm Coherent DSPs for Secure AI Scale-across Interconnects",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-1-6t-zr-zr-plus-pluggable-2nm-coherent-dsp-ai-interconnects.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Marvell's optical DSP materials identify a 3nm 1.6T PAM4 DSP platform for AI server and data-center optical interconnect use cases.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-05",
+      "source_title": "Marvell Optical DSPs: Powering the Future of AI Infrastructure",
+      "source_url": "https://www.marvell.com/solutions/data-center/optical-dsp.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Coherent's 2025 Analyst and Investor Day materials highlighted AI datacenter optical transceivers and components, pluggable and CPO transceiver roadmaps, optical switching, and DCI opportunities.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2025",
+      "source_title": "Coherent Details Growth Strategy and Long-Term Financial Model at 2025 Analyst and Investor Day",
+      "source_url": "https://www.coherent.com/news/press-releases/2025-analyst-investor-day",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Coherent's investor-relations financial-release page lists third-quarter fiscal 2026 materials and a strategic partnership with NVIDIA to develop optics technology for next-generation data-center architecture.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06",
+      "source_title": "Coherent Financial Press Releases and Webcasts",
+      "source_url": "https://www.coherent.com/company/investor-relations/financial-releases",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Lumentum's quarterly-results page states that Q1 FY2026 outperformance was broad-based across its cloud-focused business, including EML chips, pump lasers, narrow-linewidth laser assemblies for data-center interconnect, and 800G modules.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2025-11",
+      "source_title": "Lumentum Quarterly Results",
+      "source_url": "https://investor.lumentum.com/quarterly-results/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Lumentum's newsroom published AI data-center optical-switching content in May 2026, supporting the company's positioning in adaptive optical-layer infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026-05-28",
+      "source_title": "Lumentum Newsroom",
+      "source_url": "https://www.lumentum.com/en/newsroom",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Microsoft's FY2026 Q3 earnings release reported revenue of $82.9 billion for the quarter ended March 31, 2026 and continued strong Microsoft Cloud demand.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04-29",
+      "source_title": "Microsoft FY2026 Q3 Earnings Release",
+      "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q3/press-release-webcast",
+      "ticker": "MSFT"
+    },
+    {
+      "claim": "Cached Layer 2A evidence states that Microsoft's FY2026 Q3 earnings call disclosed quarterly capital expenditures of $31.9 billion and discussed cloud infrastructure buildout, AI investment, and memory-price impact on capex.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-05",
+      "source_title": "Microsoft Fiscal Year 2026 Third Quarter Earnings Conference Call",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+      "ticker": "MSFT"
+    },
+    {
+      "claim": "Alphabet's Q1 2026 earnings release provides company-reported financials and supplemental information, including Alphabet-level AI research and development activity.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-04",
+      "source_title": "Alphabet Q1 2026 Earnings Release",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q1/2026q1-alphabet-earnings-release.pdf",
+      "ticker": "GOOGL"
+    },
+    {
+      "claim": "Axios reported that Alphabet planned to raise $80 billion to support capital expenditures for scaling AI infrastructure and global compute amid unprecedented customer demand.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06-01",
+      "source_title": "Alphabet seeks $80 billion to fund AI buildout",
+      "source_url": "https://www.axios.com/2026/06/01/alphabet-80-billion-ai-buildout",
+      "ticker": "GOOGL"
+    },
+    {
+      "claim": "Amazon's Q1 2026 earnings release reported AWS segment sales increased 28% year over year to $37.6 billion.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04-29",
+      "source_title": "Amazon.com Announces First Quarter Results",
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf",
+      "ticker": "AMZN"
+    },
+    {
+      "claim": "AWS growth and Amazon's custom accelerator programs make Amazon a demand-side validator for AI compute, networking, and data-center infrastructure, but detailed AI capex and custom-silicon contribution need further primary-source validation.",
+      "claim_type": "inference",
+      "confidence": 0.73,
+      "published_at": "2026-04-29",
+      "source_title": "Amazon.com Announces First Quarter Results",
+      "source_url": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf",
+      "ticker": "AMZN"
+    },
+    {
+      "claim": "Meta's Q1 2026 results stated that 2026 capital expenditures, including principal payments on finance leases, are expected to be in the range of $125 billion to $145 billion.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-04-29",
+      "source_title": "Meta Reports First Quarter 2026 Results",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/",
+      "ticker": "META"
+    },
+    {
+      "claim": "Meta's Q1 2026 earnings-call transcript states that Q1 capital expenditures were $19.8 billion, driven by investments in servers, data centers, and network infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04",
+      "source_title": "Meta Platforms Q1 2026 Earnings Call Transcript",
+      "source_url": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q1/META-Q1-2026-Earnings-Call-Transcript.pdf",
+      "ticker": "META"
+    },
+    {
+      "claim": "Oracle's fiscal Q2 2026 results reported cloud infrastructure revenue of $4.1 billion, up 68% in USD.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-12",
+      "source_title": "Oracle Announces Fiscal Year 2026 Second Quarter Financial Results",
+      "source_url": "https://investor.oracle.com/investor-news/news-details/2025/Oracle-Announces-Fiscal-Year-2026-Second-Quarter-Financial-Results/default.aspx",
+      "ticker": "ORCL"
+    },
+    {
+      "claim": "Oracle's fiscal Q3 2026 results included forward-looking statements about large-scale AI contracts, cloud demand, future cloud revenue, and future capital expenditures.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-03",
+      "source_title": "Oracle Announces Fiscal Year 2026 Third Quarter Financial Results",
+      "source_url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx",
+      "ticker": "ORCL"
+    },
+    {
+      "claim": "Snowflake's FY2026 Q4 and full-year release describes Snowflake as the AI Data Cloud company and as a platform intended to help enterprises get more value from data.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-02-25",
+      "source_title": "Snowflake Reports Financial Results for the Fourth Quarter and Full-Year of Fiscal 2026",
+      "source_url": "https://www.snowflake.com/en/news/press-releases/snowflake-reports-financial-results-for-the-fourth-quarter-and-full-year-of-fiscal-2026/",
+      "ticker": "SNOW"
+    },
+    {
+      "claim": "Snowflake's investor-relations overview says the platform powers and provides access to the AI Data Cloud across data engineering, analytics, AI, applications, and collaboration.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05",
+      "source_title": "Snowflake Investor Relations Overview",
+      "source_url": "https://investors.snowflake.com/overview/default.aspx?lang=none",
+      "ticker": "SNOW"
+    },
+    {
+      "claim": "Cached Layer 2A evidence states that TSMC's Q1 2026 quarterly-results page provides current company-reported revenue, guidance, and investor materials relevant to advanced-node foundry demand.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-04",
+      "source_title": "TSMC 2026 Q1 Quarterly Results",
+      "source_url": "https://investor.tsmc.com/english/quarterly-results/2026/q1",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Cached Layer 2A evidence states that Micron's fiscal Q2 2026 release reported strong data-center-related results and is a primary source for tracking HBM and AI memory demand.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-03-18",
+      "source_title": "Micron Technology, Inc. Reports Results for the Second Quarter of Fiscal 2026",
+      "source_url": "https://micron.gcs-web.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Cached Layer 2A evidence states that Broadcom's fiscal Q2 2026 release reported Q2 semiconductor revenue from AI of $10.8 billion, up 143% year over year, driven by custom AI accelerators and AI networking.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-06-03",
+      "source_title": "Broadcom Inc. Announces Second Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend",
+      "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Cached Layer 2A evidence states that NVIDIA's Rubin platform announcement identifies a rack-scale architecture spanning Vera CPU, Rubin GPU, NVLink 6, ConnectX-9, BlueField-4, and Spectrum-6 Ethernet.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-01",
+      "source_title": "NVIDIA Kicks Off the Next Generation of AI With Rubin — Six New Chips, One Incredible AI Supercomputer",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Kicks-Off-the-Next-Generation-of-AI-With-Rubin--Six-New-Chips-One-Incredible-AI-Supercomputer/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Datadog's Q1 2026 release reported 32% year-over-year revenue growth to $1.006 billion and announced general availability of GPU Monitoring, MCP Server, and Bits AI Security Analyst, explicitly tying products to AI deployment, observability, and security.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-05-07",
+      "source_title": "Datadog Announces First Quarter 2026 Financial Results",
+      "source_url": "https://investors.datadoghq.com/news-releases/news-release-details/datadog-announces-first-quarter-2026-financial-results/",
+      "ticker": "DDOG"
+    },
+    {
+      "claim": "ServiceNow's Q4 and FY2025 results release highlighted AI innovation, Now Assist, Workflow Data Fabric, and a Microsoft Agent 365 integration for agentic AI orchestration and governance.",
+      "claim_type": "fact",
+      "confidence": 0.89,
+      "published_at": "2026-01",
+      "source_title": "ServiceNow Reports Fourth Quarter and Full-Year 2025 Financial Results",
+      "source_url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-Board-of-Directors-Authorizes-Additional-5B-for-Share-Repurchase-Program/default.aspx",
+      "ticker": "NOW"
+    },
+    {
+      "claim": "ServiceNow's 2026 product announcement described an AI-native experience across products, with Context Engine, Build Agent skills, and enterprise signal integration for AI queries and workflows.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-05",
+      "source_title": "ServiceNow moves beyond the sidecar AI era, giving customers a complete AI-native experience across all products and packages",
+      "source_url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-moves-beyond-the-sidecar-AI-era-giving-customers-a-complete-AI-native-experience-across-all-products-and-packages/default.aspx",
+      "ticker": "NOW"
+    },
+    {
+      "claim": "Palo Alto Networks' fiscal Q3 2026 release stated that customers are turning to the company to secure AI deployments at scale and reported Next-Generation Security ARR of $8.1 billion, up 60% year over year.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-06-02",
+      "source_title": "Palo Alto Networks Reports Fiscal Third Quarter 2026 Financial Results",
+      "source_url": "https://paloaltonetworks.gcs-web.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-third-quarter-2026-financial",
+      "ticker": "PANW"
+    },
+    {
+      "claim": "CrowdStrike's FY2026 results release reported ISO/IEC 42001:2023 certification for responsible AI-powered cybersecurity and noted recognition in cloud workload security and SaaS security posture management.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03",
+      "source_title": "CrowdStrike Reports Fourth Quarter and Fiscal Year 2026 Financial Results",
+      "source_url": "https://crowdstrike.gcs-web.com/news-releases/news-release-details/crowdstrike-reports-fourth-quarter-and-fiscal-year-2026",
+      "ticker": "CRWD"
+    },
+    {
+      "claim": "CrowdStrike's Q3 FY2026 release disclosed the acquisition of Pangea, described as a leader in AI security, supporting the mapping to AI-security platform expansion.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2025-12",
+      "source_title": "CrowdStrike Reports Third Quarter Fiscal Year 2026 Financial Results",
+      "source_url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2026-financial/",
+      "ticker": "CRWD"
+    },
+    {
+      "claim": "Zscaler's Q3 FY2026 release announced Project AI-Guardian, combining Zscaler's AI security platform with GSI consulting expertise to support enterprises in the AI-driven landscape.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-05",
+      "source_title": "Zscaler Announces Strong Third-Quarter Fiscal 2026 Results",
+      "source_url": "https://ir.zscaler.com/news-releases/news-release-details/zscaler-announces-strong-third-quarter-fiscal-2026-results",
+      "ticker": "ZS"
+    },
+    {
+      "claim": "Zscaler's Q2 FY2026 release announced AI Protect for enterprise AI implementations, with visibility and governance across AI usage.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03",
+      "source_title": "Zscaler Announces Strong Second-Quarter Fiscal 2026 Results; Raises Fiscal 2026 ARR Guidance to 24%",
+      "source_url": "https://ir.zscaler.com/news-releases/news-release-details/zscaler-announces-strong-second-quarter-fiscal-2026-results",
+      "ticker": "ZS"
+    },
+    {
+      "claim": "Vertiv announced a collaboration with Generate Capital to deliver complete bring-your-own-power-and-cooling solutions for U.S. data centers, citing grid connection delays and infrastructure capital requirements as constraints as AI and high-density compute demand increase.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-03-04",
+      "source_title": "Vertiv and Generate Capital Collaborate to Accelerate Data Center Capacity with Complete Power and Cooling Infrastructure",
+      "source_url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-and-Generate-Capital-Collaborate-to-Accelerate-Data-Center-Capacity-with-Complete-Power-and-Cooling-Infrastructure/",
+      "ticker": "VRT"
+    },
+    {
+      "claim": "Vertiv's 2026 trend report announcement stated that AI-related macro forces are shaping data-center design and operations, including power and adaptive liquid cooling.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2026-01-08",
+      "source_title": "Vertiv Expects Powering Up for AI, Digital Twins and Adaptive Liquid Cooling to Shape Data Center Design and Operations",
+      "source_url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Expects-Powering-Up-for-AI-Digital-Twins-and-Adaptive-Liquid-Cooling-to-Shape-Data-Center-Design-and-Operations/",
+      "ticker": "VRT"
+    },
+    {
+      "claim": "Eaton's Q4 2025 results and 2026 outlook release cited opportunities from digitalization and AI and described Eaton as serving data-center, utility, industrial, and other power-management markets.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026",
+      "source_title": "Eaton Reports Record Fourth Quarter 2025 Results, with Accelerating Orders and Continued Backlog Growth, and Issues Guidance on 2026 Outlook",
+      "source_url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-fourth-quarter-2025-results.html",
+      "ticker": "ETN"
+    },
+    {
+      "claim": "Eaton's Q1 2026 analyst presentation included AI-factory power architecture language, supporting the map to electrical and cooling-adjacent data-center infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.85,
+      "published_at": "2026-05",
+      "source_title": "Eaton First Quarter 2026 Analyst Presentation",
+      "source_url": "https://www.eaton.com/content/dam/eaton/company/investor-relations/quarterly-earnings/filings/2026/q1/q1-2026-analyst-presentation.pdf",
+      "ticker": "ETN"
+    },
+    {
+      "claim": "Quanta Services' Q1 2026 release stated that the company is positioned at the center of converging utility, generation, and large-load markets, which maps to grid and power infrastructure needed for data-center growth.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04-30",
+      "source_title": "Quanta Services Reports First Quarter 2026 Results",
+      "source_url": "https://investors.quantaservices.com/news-events/press-releases/detail/396/quanta-services-reports-first-quarter-2026-results",
+      "ticker": "PWR"
+    },
+    {
+      "claim": "Constellation's Q1 2026 release reported approval of a net metering application for co-location of a data center at its Freestone site and emphasized reliable clean power demand.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-05-11",
+      "source_title": "Constellation Reports First Quarter 2026 Results",
+      "source_url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-first-quarter-2026-results",
+      "ticker": "CEG"
+    },
+    {
+      "claim": "Constellation's investor-relations overview describes a 55 GW generation fleet and around-the-clock reliability, supporting its map to firm electricity supply for large-load growth.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026",
+      "source_title": "Constellation Energy Investor Relations",
+      "source_url": "https://investors.constellationenergy.com/",
+      "ticker": "CEG"
+    },
+    {
+      "claim": "NuScale's investor-relations page identifies the company as an advanced nuclear technology provider and shows 2026 updates focused on earnings and industrial advanced-nuclear partnerships, but the searched evidence did not establish a firm AI data-center deployment contract.",
+      "claim_type": "fact",
+      "confidence": 0.74,
+      "published_at": "2026",
+      "source_title": "NuScale Power Investor Relations",
+      "source_url": "https://www.nuscalepower.com/investors?hsLang=en",
+      "ticker": "SMR"
+    },
+    {
+      "claim": "Arm's FY2026 results announcement reported record full-year royalty revenue and stated that Cloud AI drove data-center royalties to more than double year over year.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-05-06",
+      "source_title": "Arm delivers record-breaking quarter and full-year results",
+      "source_url": "https://newsroom.arm.com/news/arm-q4-fye26-results",
+      "ticker": "ARM"
+    },
+    {
+      "claim": "Arm's Q3 FYE2026 announcement stated that Arm-based CPU chips support data-center architectures and always-on AI workloads with performance-per-watt advantages.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-02-04",
+      "source_title": "Arm delivers fourth consecutive billion-dollar revenue quarter, extending record-breaking momentum",
+      "source_url": "https://newsroom.arm.com/news/arm-q3-fye26-results",
+      "ticker": "ARM"
+    },
+    {
+      "claim": "Intel's foundry platform brief describes advanced process and packaging technologies for AI and HPC, supporting the thematic map to AI/HPC manufacturing and packaging, but not by itself proving external customer volume.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2025-11",
+      "source_title": "Accelerating HPC and AI with advanced process and packaging technologies",
+      "source_url": "https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-11/intel-foundry-hpc-ai-brief.pdf",
+      "ticker": "INTC"
+    },
+    {
+      "claim": "Intel's earnings-call materials discussed Intel Foundry revenue and supply pressure tied to rapid AI expansion, but the relationship to durable AI foundry share requires further proof through external customer ramps.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026",
+      "source_title": "Intel 4Q 2025 Earnings Call Comments",
+      "source_url": "https://download.intel.com/newsroom/2026/earnings/Intel-4Q2025-Earnings-Call.pdf",
+      "ticker": "INTC"
+    }
+  ],
+  "layer": 2,
+  "memory_update": [
+    {
+      "confidence": 0.82,
+      "text": "For the Technology theme, use AI infrastructure as the current dominant chain unless the next prompt specifies another subtheme such as robotics, cybersecurity, enterprise software, quantum, consumer devices, or biotech tools.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Highest-priority physical chokepoints: advanced packaging, HBM, leading-edge foundry, optical/networking, data-center power/interconnection, and liquid cooling.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Near-term catalysts should be organized around hyperscaler capex updates, TSMC capacity/capex commentary, HBM supplier earnings, NVIDIA platform roadmap/ramp timing, Broadcom custom AI/networking revenue, and DOE/grid/permitting developments.",
+      "type": "catalyst"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Need later Layer 2B/3 verification of exact supplier exposure for ABF substrates, interposers, probe cards, liquid-cooling components, power equipment, and optical component vendors before mapping to individual equities.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Need market-pricing check later: determine whether public equities already discount the bottleneck by comparing revenue growth, backlog, gross margin, capex, valuation, and estimate revisions.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.95,
+      "text": "NVDA should be treated as the top-level AI platform demand aggregator in this chunk; its Vera Rubin and Blackwell/Rubin deployments drive pull-through demand for HBM, TSMC advanced nodes, advanced packaging, networking, test, power, and cooling.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.94,
+      "text": "TSM is the primary capacity bottleneck mapping for leading-edge logic and advanced packaging; Layer 2C should separate wafer-node capacity from CoWoS/3DFabric-style packaging capacity.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.91,
+      "text": "MU is the direct U.S.-listed HBM mapping, but the full HBM node remains incomplete without SK hynix and Samsung local tickers and primary filings.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.95,
+      "text": "AVGO has primary-source evidence for AI semiconductor revenue driven by custom AI accelerators and AI networking, making it a high-priority non-GPU AI compute/networking relationship.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.88,
+      "text": "ONTO, TER, and FORM are increasingly important hidden-bottleneck mappings because AI/HBM ramps raise inspection, metrology, automated test, and probe-card intensity.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.86,
+      "text": "AMKR is the key U.S.-listed OSAT/advanced-packaging mapping in this chunk, but its true chokepoint status depends on whether it captures high-end AI heterogeneous integration programs versus lower-complexity packaging volume.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.82,
+      "text": "ASML relationship is structurally strong but needs a current primary-source bridge from AI/HBM/leading-edge capacity additions to EUV/High-NA order intake, shipment timing, and bottleneck status.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "ANET requires more granular evidence on AI-specific revenue mix, 800G/1.6T transition exposure, customer concentration, and whether optics/switch-silicon constraints affect shipments or margins.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "AMD needs shipment-level validation for MI350/MI450 and rack-scale systems; headline gigawatt or strategic partnership announcements should not be treated as realized revenue without delivery schedules and capacity evidence.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "KLAC needs segment-level validation separating AI-related advanced packaging, HBM, and leading-edge logic process-control demand from broader wafer-fab equipment cyclicality.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "In this candidate chunk, AMAT, MRVL, COHR, LITE, ENTG, and LRCX are closer to Serenity-style physical supply-chain bottlenecks than MSFT, GOOGL, AMZN, META, ORCL, and SNOW, which are mainly demand aggregators or monetization layers.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.86,
+      "text": "AMAT has the strongest explicit AI semicap evidence in this chunk because current 2026 materials tie leading-edge foundry-logic, DRAM/HBM, and advanced packaging to AI performance-per-watt and WFE growth.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.86,
+      "text": "MRVL has strong direct mapping to AI optical interconnect and custom silicon through 1.6T optical DSPs, coherent DCI products, and AI data-center connectivity positioning; future work should separate optical DSP, custom XPU, Ethernet, and DCI revenue drivers.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.78,
+      "text": "COHR and LITE are optical-component candidates where bottleneck status depends on AI datacom mix, 800G/1.6T qualification, InP/laser capacity, yields, and hyperscaler/NVIDIA-linked customer evidence.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.88,
+      "text": "MSFT, GOOGL, AMZN, META, and ORCL should be tracked as capex and cloud-demand validators; their relationship to the theme is strongest when capex commitments, capacity constraints, and AI workload monetization pull through demand to accelerators, HBM, optics, networking, power, and data-center construction.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.75,
+      "text": "SNOW belongs to the enterprise AI data layer, not the physical compute chokepoint layer; its research question is whether AI Data Cloud products create incremental consumption and retention rather than only thematic positioning.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Need primary-source validation for ENTG's AI-specific exposure: quantify revenue or management commentary tied to HBM, EUV, advanced nodes, advanced packaging, and contamination-control demand.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.79,
+      "text": "Need LRCX FY2026 earnings-call evidence distinguishing AI-related HBM/DRAM/foundry/advanced-packaging tool demand from broader wafer-fab equipment cyclicality and China/export-control exposure.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.81,
+      "text": "Need customer-level or segment-level evidence for COHR and LITE to test whether optics demand is capacity-constrained and margin-accretive, or vulnerable to hyperscaler inventory cycles and price pressure.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Need market-pricing check in a later layer: compare expected AI revenue/capex growth versus current valuation and consensus assumptions without producing buy/sell recommendations or price targets.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.78,
+      "text": "DDOG should be tracked as an AI production observability and security operations platform: useful for AI workload complexity, GPU monitoring, MCP/agent access, and LLM operations, but not a hard supply bottleneck unless AI observability becomes mission-critical and differentiated.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.76,
+      "text": "NOW should be tracked as an enterprise AI workflow and agent-governance platform, with thesis quality dependent on incremental AI ACV, attach rates, and realized workflow automation value.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.78,
+      "text": "PANW, CRWD, and ZS map to AI/cloud security enablement; their Serenity priority should depend on evidence that AI deployments create new security budget rather than merely re-labeling normal platform consolidation.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.84,
+      "text": "VRT is the strongest physical-infrastructure bottleneck candidate in this chunk because high-density AI deployment directly stresses power and cooling systems and Vertiv has explicit AI data-center power/cooling evidence.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.79,
+      "text": "ETN maps to electrical power-management infrastructure for AI data centers and should be tested through order growth, backlog duration, switchgear/transformer capacity, and AI-factory architecture disclosures.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.75,
+      "text": "PWR maps to grid interconnection and large-load execution rather than data-center equipment; its bottleneck value depends on skilled-labor scarcity, utility backlog, and large-load project conversion.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.77,
+      "text": "CEG maps to firm low-carbon power supply and potential data-center co-location; key validation is signed data-center PPAs, regulatory approval, and whether co-location economics survive policy scrutiny.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.42,
+      "text": "SMR remains speculative for AI data-center power because evidence supports advanced nuclear thematic relevance but not near-term AI data-center deployment certainty.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.82,
+      "text": "ARM has a clearer AI compute-architecture relationship than most software names in this chunk because FY2026 disclosures cite data-center royalty growth and Cloud AI, but it is still an IP/architecture lever rather than a capacity bottleneck.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.6,
+      "text": "INTC should remain hypothesis-stage until external foundry, advanced packaging, and AI/HPC customer ramps are proven with volumes, revenues, and yields rather than technology roadmaps alone.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Need primary earnings-call transcripts and segment-level data for DDOG, NOW, PANW, CRWD, and ZS to separate AI-specific incremental revenue from broader software and cybersecurity growth.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Need backlog, lead-time, capacity-expansion, and pricing evidence for VRT, ETN, and PWR to confirm whether power/cooling/grid nodes are genuine chokepoints or simply high-growth but competitive infrastructure markets.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.83,
+      "text": "Need customer-level power-contract evidence for CEG and project-level deployment evidence for SMR before assigning high-confidence AI power-supply exposure.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Need ARM customer deployment details and INTC external foundry/package revenue conversion to assess whether compute architecture optionality translates into durable economic capture.",
+      "type": "evidence_gap"
+    }
+  ],
+  "summary": "Split Layer 2 synthesis. Initial Layer 2A industry-chain map for the broad Technology theme, narrowed to the currently dominant public-market technology demand chain: AI infrastructure. The highest-chokepoint nodes are advanced packaging/HBM, leading-edge foundry capacity, rack-scale networking/optics, data-center power/interconnection, and liquid-cooling/power delivery. This is a research map only, not a securities recommendation.",
+  "supply_chain_map": [
+    {
+      "bottleneck_score": 72,
+      "node": "AI workload demand: frontier training, inference, agentic AI, enterprise copilots",
+      "role": "demand",
+      "why_it_matters": "This is the demand source pulling through accelerators, memory, networking, data-center construction, grid power, cooling, and software platforms. Hyperscaler capex and AI-service monetization determine whether the rest of the chain remains capacity-constrained."
+    },
+    {
+      "bottleneck_score": 80,
+      "node": "Hyperscaler and cloud capex",
+      "role": "customer",
+      "why_it_matters": "Microsoft, Alphabet, Amazon, Meta, Oracle, sovereign AI buyers, and AI labs aggregate demand and pre-commit to multi-year compute deployments. Their capex cadence is the key near-term catalyst for accelerator, HBM, optics, power, and construction suppliers."
+    },
+    {
+      "bottleneck_score": 86,
+      "node": "AI accelerator platforms: GPUs, custom XPUs, rack-scale AI systems",
+      "role": "capacity",
+      "why_it_matters": "Accelerators remain the visible center of the AI infrastructure chain, but their shipment ceiling depends on upstream HBM, advanced-node wafers, packaging, substrates, testing, power, and networking. Rack-scale designs increase system complexity and supplier lock-in."
+    },
+    {
+      "bottleneck_score": 88,
+      "node": "Leading-edge foundry capacity: 3nm/4nm/5nm and transition to 2nm",
+      "role": "capacity",
+      "why_it_matters": "AI GPUs and custom accelerators depend on advanced process nodes. Foundry availability is a structural constraint, though current evidence suggests packaging and HBM are often tighter than wafer starts alone."
+    },
+    {
+      "bottleneck_score": 97,
+      "node": "Advanced packaging: CoWoS, SoIC, 2.5D/3D integration, interposers",
+      "role": "capacity",
+      "why_it_matters": "High-end AI accelerators require logic die plus multiple HBM stacks in advanced packages. Long tool lead times, yield learning, customer qualification, and limited capacity make this one of the clearest chokepoints in the AI semiconductor chain."
+    },
+    {
+      "bottleneck_score": 96,
+      "node": "High-bandwidth memory: HBM3E, HBM4, advanced DRAM stacking",
+      "role": "input",
+      "why_it_matters": "HBM supply, qualification, and pricing directly gate accelerator availability and system performance. AI models are memory-bandwidth intensive, and HBM capacity expansion requires front-end DRAM, TSV stacking, packaging, testing, and customer qualification."
+    },
+    {
+      "bottleneck_score": 85,
+      "node": "ABF substrates, interposers, advanced laminate materials",
+      "role": "input",
+      "why_it_matters": "Large high-pin-count AI packages need advanced substrates and interposers. Even when GPU die and HBM are available, substrate or interposer shortages can delay final package output."
+    },
+    {
+      "bottleneck_score": 82,
+      "node": "Semiconductor equipment: lithography, deposition, etch, clean, CMP",
+      "role": "equipment",
+      "why_it_matters": "Leading-edge logic, HBM, and advanced packaging all require specialized wafer-fab and packaging equipment. Equipment lead times and export controls can slow capacity expansion."
+    },
+    {
+      "bottleneck_score": 84,
+      "node": "Inspection, metrology, probe cards, memory test, system-level test",
+      "role": "equipment",
+      "why_it_matters": "As chiplets, HBM stacks, and rack-scale systems become more complex, yield control and test insertion rise in importance. Hidden test bottlenecks can appear late in ramps when package complexity increases."
+    },
+    {
+      "bottleneck_score": 90,
+      "node": "AI networking silicon: Ethernet switches, NVLink-class fabrics, DPUs, NICs, SerDes",
+      "role": "capacity",
+      "why_it_matters": "Training and inference clusters scale only if GPUs/XPUs communicate efficiently. Larger clusters and mixture-of-experts workloads increase demand for low-latency scale-up and scale-out fabrics."
+    },
+    {
+      "bottleneck_score": 89,
+      "node": "Optical interconnect: 800G, 1.6T, optical DSPs, lasers, transceivers, silicon photonics",
+      "role": "input",
+      "why_it_matters": "AI clusters require rising bandwidth between racks and data halls. Transition from 800G to 1.6T can create bottlenecks in optical DSPs, lasers, photonics manufacturing, packaging, and qualification."
+    },
+    {
+      "bottleneck_score": 78,
+      "node": "AI servers, ODM assembly, rack integration, power shelves, cables",
+      "role": "distribution",
+      "why_it_matters": "The supply chain is shifting from board-level shipments to fully integrated racks. This raises the importance of rack integration, thermal design, power delivery, cabling, burn-in, and deployment logistics."
+    },
+    {
+      "bottleneck_score": 94,
+      "node": "Data-center power delivery: transformers, switchgear, UPS, PDUs, grid interconnection",
+      "role": "capacity",
+      "why_it_matters": "AI data centers are increasingly constrained by firm power availability and interconnection timelines. Grid equipment and utility approval can become a harder bottleneck than chips for new large campuses."
+    },
+    {
+      "bottleneck_score": 87,
+      "node": "Liquid cooling and thermal management: cold plates, CDUs, immersion, heat exchangers",
+      "role": "input",
+      "why_it_matters": "Higher rack densities require liquid cooling and more sophisticated thermal loops. Cooling design affects data-center layout, deployment speed, energy efficiency, and uptime."
+    },
+    {
+      "bottleneck_score": 91,
+      "node": "Energy supply: PPAs, nuclear, gas, renewables, batteries, behind-the-meter generation",
+      "role": "input",
+      "why_it_matters": "Large AI campuses increasingly need dedicated energy strategies. Long-dated power contracts and co-located generation can become strategic assets if grid queues lengthen."
+    },
+    {
+      "bottleneck_score": 83,
+      "node": "Permitting, environmental review, community opposition, water access",
+      "role": "regulation",
+      "why_it_matters": "Power, water, land-use approval, and permitting can delay AI data-center deployments even when compute hardware is available. This node can shift value toward sites with pre-secured power and permits."
+    },
+    {
+      "bottleneck_score": 70,
+      "node": "AI software platforms and utilization layer",
+      "role": "distribution",
+      "why_it_matters": "Software monetization, model efficiency, scheduling, and inference utilization determine whether the capex cycle produces durable returns. Weak utilization would falsify some upstream demand assumptions."
+    }
+  ],
+  "theme_id": "technology",
+  "ticker_relationships": [
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.95,
+      "next_evidence": "Track Vera Rubin production status, cloud customer deployment timing, HBM4 supply allocation, CoWoS/advanced-packaging capacity allocation, and whether customer capex converts into delivered systems rather than headline commitments.",
+      "node": "AI accelerator platforms and rack-scale AI systems",
+      "relationship": "NVIDIA is the primary platform owner in this chunk: its GPU, CPU, NVLink, DPU, NIC, and Ethernet switch roadmaps pull through leading-edge foundry wafers, HBM, advanced packaging, networking, power, cooling, and test capacity.",
+      "ticker": "NVDA"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.94,
+      "next_evidence": "Validate 2nm ramp timing, N3/N4/N5 utilization, CoWoS/3DFabric expansion, advanced-packaging revenue mix, and named customer concentration where disclosed.",
+      "node": "Leading-edge foundry and advanced packaging",
+      "relationship": "TSMC is the core manufacturing capacity owner for advanced logic nodes and advanced-packaging services required by AI accelerators, chiplets, and HBM-attached 2.5D/3D architectures.",
+      "ticker": "TSM"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.82,
+      "next_evidence": "Pull latest ASML quarterly order intake, EUV/High-NA shipment guidance, backlog by end market if available, and customer commentary from TSMC, Intel, Samsung, and SK hynix.",
+      "node": "EUV and advanced lithography equipment",
+      "relationship": "ASML maps to an upstream capacity chokepoint because leading-edge logic and next-generation memory capacity expansion depend on EUV and, increasingly, High-NA EUV tool availability, installation, and customer process readiness.",
+      "ticker": "ASML"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.91,
+      "next_evidence": "Track HBM3E/HBM4 qualification, share versus SK hynix and Samsung, committed supply for 2026/2027, capex allocation, gross-margin contribution, and any customer-specific qualification risk.",
+      "node": "HBM, DRAM, and data-center memory",
+      "relationship": "Micron is the U.S.-listed direct mapping to HBM and data-center memory; HBM capacity, qualification, yield, and pricing are key constraints for AI accelerator platforms.",
+      "ticker": "MU"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.95,
+      "next_evidence": "Monitor whether AI semiconductor revenue remains concentrated in a few hyperscale customers, whether custom XPU wins broaden, and whether networking remains a large AI revenue contributor.",
+      "node": "Custom AI accelerators and AI networking silicon",
+      "relationship": "Broadcom maps to custom AI silicon, Ethernet switching, SerDes, connectivity, and networking infrastructure used to scale AI clusters, giving it exposure to non-GPU accelerator architectures and high-bandwidth network buildouts.",
+      "ticker": "AVGO"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.88,
+      "next_evidence": "Validate cloud titan AI mix, 800G/1.6T adoption, customer concentration, supply-chain constraints in optics/switch silicon, and whether AI deployments sustain margin quality.",
+      "node": "Cloud and AI data-center networking systems",
+      "relationship": "Arista maps to high-performance Ethernet switching and cloud networking used in AI cluster scale-out; its demand relationship depends on cloud/titan AI deployments and network refresh intensity.",
+      "ticker": "ANET"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.84,
+      "next_evidence": "Track MI350/MI450 deployment evidence, OpenAI/Meta/Oracle commitments versus actual shipments, software ecosystem adoption, gross margin, HBM allocation, and rack-scale qualification milestones.",
+      "node": "Alternative AI accelerators, CPUs, and rack-scale AI systems",
+      "relationship": "AMD maps as an alternative AI compute platform supplier through Instinct GPUs, EPYC CPUs, NICs, and rack-scale systems; the relationship strengthens if hyperscalers diversify away from single-vendor GPU supply or prioritize open Ethernet-based architectures.",
+      "ticker": "AMD"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.84,
+      "next_evidence": "Separate process-control demand from general WFE cyclicality; validate advanced-packaging, HBM, leading-edge logic, and memory contributions from shareholder letters, earnings decks, and segment commentary.",
+      "node": "Process control, inspection, metrology, and yield management",
+      "relationship": "KLA maps to AI infrastructure as a process-control chokepoint: advanced nodes, HBM, chiplets, and advanced packaging increase inspection and metrology intensity, but the AI-specific revenue bridge requires more granular validation.",
+      "ticker": "KLAC"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.9,
+      "next_evidence": "Track Dragonfly qualification breadth, repeat orders from HBM customers, advanced-node metrology wins, customer concentration, and whether order growth persists through 2027 expansion plans.",
+      "node": "Advanced-packaging and HBM inspection/metrology",
+      "relationship": "Onto Innovation has direct mapping to HBM and advanced packaging through 2D inspection, 3D bump metrology, macro defect inspection, and process-control tools used in 2.5D logic and HBM manufacturing flows.",
+      "ticker": "ONTO"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.86,
+      "next_evidence": "Validate AI data-center revenue, advanced-packaging mix, capex allocation, customer program timing, utilization, and whether Amkor captures true high-end heterogeneous integration demand rather than lower-complexity packaging.",
+      "node": "OSAT, advanced packaging, wafer-level processing, and test",
+      "relationship": "Amkor maps to advanced packaging and semiconductor test capacity for data-center AI and high-performance computing; its relevance rises if customers diversify packaging capacity beyond foundry-controlled CoWoS-style bottlenecks.",
+      "ticker": "AMKR"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.9,
+      "next_evidence": "Track AI-related revenue mix, compute versus memory test demand, order lumpiness, customer concentration, and whether Q1 2026 strength represents durable capacity expansion or pull-forward.",
+      "node": "Automated semiconductor test equipment",
+      "relationship": "Teradyne maps to AI infrastructure through wafer sort, final test, memory test, product test, and system-level validation complexity for AI compute and memory devices.",
+      "ticker": "TER"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.88,
+      "next_evidence": "Track DRAM/HBM probe-card revenue, foundry/logic demand for networking applications, HBM4 test complexity, lead times, customer qualification cycles, and competitive pressure from Technoprobe and other probe suppliers.",
+      "node": "Probe cards and wafer-level test interfaces",
+      "relationship": "FormFactor maps to HBM and advanced semiconductor wafer-level test because complex DRAM/HBM stacks and networking chips require high-performance probe cards and customer-specific qualification.",
+      "ticker": "FORM"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.74,
+      "next_evidence": "Check FY2025 10-K, latest 2026 quarterly earnings, segment disclosures for Advanced Purity Solutions and Materials Solutions, customer concentration, advanced-node/HBM commentary, capex plans, and whether management explicitly ties demand to AI logic, HBM, EUV, or advanced packaging.",
+      "node": "Semiconductor materials and contamination control",
+      "relationship": "Entegris maps to ultra-clean materials, filtration, purification, specialty materials, and wafer-handling inputs that support advanced-node logic, memory, EUV process steps, CMP, and advanced packaging yield. The relationship is bottleneck-relevant because contamination-control suppliers can face long customer qualification cycles and high switching costs, but AI-specific revenue mix and customer pull-through need validation.",
+      "ticker": "ENTG"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.72,
+      "next_evidence": "Validate with FY2026 filings and earnings transcripts: WFE exposure by memory/foundry/logic, HBM-specific tool demand, advanced packaging revenue contribution, backlog, China/export-control sensitivity, and whether AI-driven DRAM/foundry spending is offset by non-AI wafer-fab cyclicality.",
+      "node": "Semiconductor wafer fabrication equipment: etch, deposition, clean, and advanced packaging",
+      "relationship": "Lam Research maps to wafer-fab equipment needed for advanced memory, logic, and packaging structures. It is a second-order AI infrastructure beneficiary because HBM, leading-edge logic, and advanced packaging require complex process steps where etch, deposition, strip, and clean tools can influence yield and capacity ramps.",
+      "ticker": "LRCX"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.86,
+      "next_evidence": "Track 2026 Semiconductor Systems growth, customer co-innovation with Micron and other memory/foundry customers, advanced packaging revenue, order momentum, export-control impact, and whether AI-driven WFE demand remains durable after current capacity additions.",
+      "node": "Semiconductor equipment and materials engineering for leading-edge logic, DRAM/HBM, and advanced packaging",
+      "relationship": "Applied Materials maps broadly to materials engineering, deposition, process control, metrology, and advanced packaging equipment. The relationship is stronger than a generic semicap read-through because Applied explicitly frames leading-edge foundry-logic, DRAM/HBM, and advanced packaging as AI performance-per-watt enablers and 2026 WFE growth drivers.",
+      "ticker": "AMAT"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.88,
+      "next_evidence": "Validate AI revenue split across custom silicon, optical DSPs, switching, and electro-optics; identify customer concentration risk; confirm 1.6T sampling-to-volume timing; compare design-win durability against Broadcom and in-house hyperscaler silicon.",
+      "node": "AI custom silicon, optical DSPs, SerDes, Ethernet/data-center interconnect",
+      "relationship": "Marvell maps to AI connectivity and custom silicon: optical DSPs for 800G/1.6T transitions, coherent DCI products, custom XPU programs, and high-speed data infrastructure silicon. Its relationship is bottleneck-plausible where AI clusters need faster optical links and hyperscalers diversify compute architecture beyond merchant GPUs.",
+      "ticker": "MRVL"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.76,
+      "next_evidence": "Check latest FY2026 financial release and investor presentations for AI datacom revenue, 800G and 1.6T mix, customer concentration, InP capacity ramp status, pricing, yields, and whether orders are binding or inventory-driven.",
+      "node": "Optical communications components, transceivers, lasers, InP/photonics capacity",
+      "relationship": "Coherent maps to AI data-center optics through transceivers, optical components, photonics materials, lasers, and related capacity. Its relationship is bottleneck-plausible because AI cluster scale increases demand for 800G/1.6T optical links and may pressure InP, laser, and high-speed transceiver manufacturing capacity.",
+      "ticker": "COHR"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.72,
+      "next_evidence": "Validate cloud/data-center revenue mix, AI optics backlog, 800G/1.6T product qualification, customer concentration, gross margin impact from mix shift, and capacity expansion plans.",
+      "node": "Photonic components, lasers, optical switching, and data-center optical supply chain",
+      "relationship": "Lumentum maps to AI data-center optical demand through components such as EML chips, pump lasers, narrow-linewidth laser assemblies, 800G modules, and optical switching. The relationship is relevant but needs validation because the company also has non-AI telecom/industrial/consumer exposure and may be more component-level than full-system bottleneck.",
+      "ticker": "LITE"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.91,
+      "next_evidence": "Track quarterly capex including finance leases, Azure AI capacity constraints, AI revenue or workload disclosures, gross margin pressure from depreciation and memory prices, and whether spend is converting into durable cloud revenue.",
+      "node": "Hyperscale AI demand aggregation: Azure, cloud infrastructure capex, enterprise copilots",
+      "relationship": "Microsoft is a primary demand validator for AI infrastructure through Azure, enterprise AI software, and large cloud capex. It does not usually own the narrow physical bottleneck, but its capex, capacity-constraint commentary, and finance-lease commitments can pull through demand for accelerators, HBM, optics, networking, power equipment, and data centers.",
+      "ticker": "MSFT"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.84,
+      "next_evidence": "Validate Q1/Q2 2026 capex and technical infrastructure disclosures, TPU roadmap and external availability, Google Cloud AI revenue contribution, capacity constraints, and financing plans for AI infrastructure.",
+      "node": "Hyperscale AI demand aggregation and custom accelerator ecosystem: Google Cloud, TPU, Search/AI infrastructure",
+      "relationship": "Alphabet maps to AI infrastructure demand through Google Cloud, Search AI, Gemini/DeepMind workloads, TPU deployment, and technical infrastructure capex. It is a demand-side validator and custom-silicon buyer, with potential read-through to HBM, foundry, packaging, networking, power, and data-center construction.",
+      "ticker": "GOOGL"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.81,
+      "next_evidence": "Track AWS AI revenue run-rate disclosures if repeated, Trainium/Inferentia adoption, capex and finance-lease commitments, AWS operating margin, data-center capacity constraints, and supplier relationships for networking, optics, HBM, and foundry.",
+      "node": "Hyperscale AI demand aggregation and custom accelerator ecosystem: AWS, Trainium, Inferentia, cloud infrastructure",
+      "relationship": "Amazon maps to AI demand through AWS cloud growth, AI services, and custom silicon adoption. It is important for validating whether AI compute demand is broadening beyond GPU clusters into custom accelerators and managed cloud inference/training services.",
+      "ticker": "AMZN"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.86,
+      "next_evidence": "Track 2026 capex range, component-cost commentary, server/data-center/network capex mix, AI monetization in ads and consumer products, depreciation pressure, and whether capex rises faster than revenue contribution.",
+      "node": "Hyperscale AI demand aggregation: AI training/inference, recommendation systems, GenAI, ad tools, data centers",
+      "relationship": "Meta maps to AI infrastructure demand through large-scale training, inference, AI-powered ad systems, recommender systems, Meta AI, and data-center/server/network capex. It is a major demand-side read-through for accelerators, HBM, networking, optics, power, and data-center capacity rather than a direct physical bottleneck supplier.",
+      "ticker": "META"
+    },
+    {
+      "claim_type": "fact",
+      "evidence_quality": 0.8,
+      "next_evidence": "Validate remaining performance obligations, OCI revenue growth, AI contract backlog quality, capex funding needs, utilization, gross margin trajectory, and dependence on a small number of AI customers or GPU suppliers.",
+      "node": "AI cloud infrastructure and enterprise cloud capacity: Oracle Cloud Infrastructure",
+      "relationship": "Oracle maps to AI infrastructure demand through OCI growth, GPU cluster/cloud capacity, enterprise workloads, and large AI cloud contracts. It is a useful non-mega-hyperscaler demand validator and may indicate how AI compute demand extends beyond Microsoft, Google, Amazon, and Meta.",
+      "ticker": "ORCL"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.69,
+      "next_evidence": "Check FY2026 product revenue growth, net revenue retention, AI Data Cloud usage metrics, Cortex/agentic AI adoption, customer-count expansion, consumption trends, and whether AI products drive new workloads or cannibalize existing warehouse spend.",
+      "node": "Enterprise AI data layer: cloud data platform, analytics, governance, application development",
+      "relationship": "Snowflake maps to enterprise AI software demand rather than physical AI infrastructure bottlenecks. Its relationship is that AI adoption requires governed enterprise data, analytics, and application infrastructure; the key question is whether Snowflake captures incremental AI workloads and platform spend instead of merely rebranding existing data-cloud demand.",
+      "ticker": "SNOW"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.78,
+      "next_evidence": "Validate management commentary from Q1 2026 earnings call and DASH 2026 disclosures on AI-native customer ARR, LLM observability adoption, GPU monitoring usage, and whether AI-specific products are driving incremental spend rather than rebranding normal observability demand.",
+      "node": "AI operations and observability",
+      "relationship": "Datadog maps to the observability, GPU monitoring, AI agent debugging, and cloud security layer that becomes more important as AI workloads move into production; its relationship is demand-enabled rather than a scarce physical supply bottleneck.",
+      "ticker": "DDOG"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.76,
+      "next_evidence": "Track 2026 subscription growth, Now Assist and AI Control Tower adoption, large customer case studies, and attach rates for AI-native packages; falsify if AI products do not show measurable incremental ACV or if customers treat AI features as bundled table stakes.",
+      "node": "Enterprise automation and AI-agent workflow orchestration",
+      "relationship": "ServiceNow maps to enterprise AI monetization through workflow automation, AI control tower, agent governance, and integrations with hyperscaler AI platforms; relationship is software platform leverage rather than supply-chain chokepoint control.",
+      "ticker": "NOW"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.8,
+      "next_evidence": "Check FY2026 earnings slides and call transcript for AI security pipeline, platformization metrics, CyberArk/identity contribution, and net-new AI security bookings versus general cybersecurity consolidation.",
+      "node": "Cloud and AI security",
+      "relationship": "Palo Alto Networks maps to securing AI deployments at enterprise scale across network, cloud, SOC, identity, and AI-security surfaces; relationship depends on whether AI-specific security becomes a durable budget line within platform consolidation.",
+      "ticker": "PANW"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.74,
+      "next_evidence": "Verify FY2027 Q1 filings and call details for AI Systems Security Assessment, Charlotte AI usage, Pangea/SGNL integration, cloud security ARR, and customer adoption of AI-agent identity protection.",
+      "node": "Endpoint, identity, cloud workload, and AI security operations",
+      "relationship": "CrowdStrike maps to AI-era security operations through endpoint telemetry, cloud workload protection, identity, generative-AI security modules, and SecOps automation; relationship is enabling infrastructure but not a physical bottleneck.",
+      "ticker": "CRWD"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.76,
+      "next_evidence": "Track Q3 FY2026 earnings call, ZenithLive investor session, AI Protect and Project AI-Guardian customer traction, and whether AI-security products expand platform spend beyond existing ZIA/ZPA/ZDX demand.",
+      "node": "Zero-trust access, cloud security, and AI data protection",
+      "relationship": "Zscaler maps to securing enterprise AI adoption through zero-trust access, inline inspection, AI Protect, AI-Guardian, and governance for data/agent traffic; relationship is strongest where AI deployments create new data access and policy-control requirements.",
+      "ticker": "ZS"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.83,
+      "next_evidence": "Validate 2026 backlog, liquid-cooling revenue mix, lead times, hyperscaler exposure, and margin sustainability; falsify if capacity expands faster than AI data-center deployment or if pricing normalizes.",
+      "node": "Data-center power and thermal management",
+      "relationship": "Vertiv maps directly to high-density AI data-center physical infrastructure, including power, cooling, liquid cooling, and bring-your-own-power-and-cooling solutions; this is one of the chunk's clearer Serenity bottleneck relationships because AI rack density can be constrained by power and thermal capacity.",
+      "ticker": "VRT"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.79,
+      "next_evidence": "Check Q1 2026 presentation and earnings transcript for data-center orders, backlog, lead times, AI-factory architecture revenue, transformer/switchgear capacity, and exposure versus Schneider, ABB, Siemens, and Vertiv.",
+      "node": "Electrical distribution, switchgear, power management, and AI factory architecture",
+      "relationship": "Eaton maps to data-center electrical infrastructure needed for AI factories, including power distribution, switchgear, cooling-adjacent electrical systems, and broader electrification; relationship is tied to data-center order growth and lead-time constraints.",
+      "ticker": "ETN"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.75,
+      "next_evidence": "Validate Investor Day and Q1 2026 disclosures for data-center and large-load contribution, utility backlog, skilled-labor constraints, margin mix, and whether AI demand is explicit or only part of broader grid modernization.",
+      "node": "Grid interconnection, transmission, utility construction, and large-load execution",
+      "relationship": "Quanta Services maps to the labor and project-execution layer of AI power buildout: grid interconnection, transmission, utility work, generation interconnect, and large-load infrastructure. The relationship is a bottleneck if craft labor and execution capacity limit time-to-power.",
+      "ticker": "PWR"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.77,
+      "next_evidence": "Track data-center PPAs, co-location approvals, nuclear uprates, Calpine integration, regulatory approvals, and realized power prices; falsify if policy blocks co-location or if AI data-center buyers shift to cheaper non-firm alternatives.",
+      "node": "Firm low-carbon power supply for AI data centers",
+      "relationship": "Constellation Energy maps to the firm-power procurement layer for AI data centers through nuclear, gas, and clean-power generation assets; relationship becomes stronger if hyperscalers prioritize 24/7 reliable low-carbon electricity and co-location approvals accelerate.",
+      "ticker": "CEG"
+    },
+    {
+      "claim_type": "speculation",
+      "evidence_quality": 0.42,
+      "next_evidence": "Require signed data-center customer agreements, NRC progress, project financing, firm construction schedules, EPC partners, and credible first-power timelines; downgrade further if deployments remain industrial-demonstration oriented or move beyond the AI investment horizon.",
+      "node": "Potential long-duration AI data-center power supply via small modular reactors",
+      "relationship": "NuScale maps speculatively to future AI data-center power demand, but timing, licensing, financing, customer commitments, and project execution remain highly uncertain; current relationship is thematic optionality rather than validated chokepoint exposure.",
+      "ticker": "SMR"
+    },
+    {
+      "claim_type": "inference",
+      "evidence_quality": 0.82,
+      "next_evidence": "Validate FY2026 data-center royalty growth, AGI CPU customer demand, hyperscaler deployments, and whether Arm's move into finished silicon creates ecosystem conflict with licensees.",
+      "node": "AI compute architecture, CPU IP, custom silicon ecosystem, and data-center CPUs",
+      "relationship": "Arm maps to AI compute diversification through Arm-based data-center CPUs, custom silicon ecosystems, AI accelerators' host CPUs, and performance-per-watt pressure in hyperscale data centers; relationship is architectural leverage rather than wafer-capacity control.",
+      "ticker": "ARM"
+    },
+    {
+      "claim_type": "hypothesis",
+      "evidence_quality": 0.6,
+      "next_evidence": "Verify 2026 foundry revenue, external customer commitments, 18A/14A yield and volume milestones, EMIB/Foveros packaging backlog, AI/HPC test-vehicle conversion, and competitiveness against TSMC, AMD, NVIDIA, and Arm-based alternatives.",
+      "node": "Domestic foundry, advanced packaging, CPUs, and AI/HPC manufacturing optionality",
+      "relationship": "Intel maps to AI infrastructure through CPUs, advanced packaging, Intel Foundry, and potential domestic leading-edge manufacturing; however, the relationship remains hypothesis-stage until external foundry wins, advanced-packaging backlog conversion, and AI accelerator competitiveness are proven.",
+      "ticker": "INTC"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "deep_reports": [
+    {
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "evidence_chain": [
+        "[Fact] TSMC official Q1 2026 quarterly results page reports Q1 2026 revenue of US$35.90B. Source: https://investor.tsmc.com/english/quarterly-results/2026/q1",
+        "[Fact] TSMC Q1 2026 management report states that 7nm-and-below technologies accounted for 74% of wafer revenue and HPC represented 61% of revenue. Source: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-04/5508a9df8981f587c73dbfaf9f577f142e22bbb1/1Q26ManagementReport.pdf",
+        "[Fact] TSMC Q1 2026 earnings release reports consolidated Q1 revenue of NT$1,134.10B, net income of NT$572.48B and EPS of NT$22.08; it also states advanced technologies accounted for 74% of total wafer revenue. Source: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-04/bd8eb0403902fdea59a2f5e390e48d010b50edc9/1Q26%20EarningsRelease_WoG.pdf",
+        "[Fact] TSMC 2025 annual report states that 2nm technology entered high-volume manufacturing in Q4 2025 with good yield and expects a fast ramp in 2026. Source: https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+        "[Fact] TSMC 2025 annual report describes ongoing development of advanced packaging and 3D chip stacking technologies including CoWoS, InFO, TSMC-SoIC and TSMC-COUPE to support customer needs. Source: https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+        "[Inference] The combination of high advanced-node revenue share, high HPC revenue share, 2nm ramp commentary and advanced-packaging technology development supports the thesis that TSMC is an upstream bottleneck for AI compute supply.",
+        "[Hypothesis] If AI accelerator demand remains constrained by package-integrated compute modules, TSMC’s CoWoS/SoIC expansion pace may be as important as wafer starts for customer allocation.",
+        "[Speculation] The market may under-separate the different constraints inside the TSMC bottleneck: leading-edge wafer capacity, advanced packaging, HBM availability, substrate supply and customer capex timing may each bind at different times."
+      ],
+      "falsification_plan": [
+        "Downgrade the thesis if TSMC quarterly reports show HPC revenue share or sequential HPC growth weakening while AI capex claims remain strong.",
+        "Downgrade the thesis if advanced-node revenue share falls materially or if 3nm/2nm utilization weakens versus management ramp expectations.",
+        "Downgrade the thesis if CoWoS/SoIC commentary indicates supply-demand balance or excess capacity earlier than expected.",
+        "Downgrade the thesis if gross margin deteriorates materially because of overseas fab cost, pricing pressure, underutilization or depreciation.",
+        "Downgrade the thesis if customer product cycles shift away from TSMC-heavy advanced packaging or if major AI customers reduce allocation commitments.",
+        "Downgrade the thesis if HBM, substrates, networking, power or data-center deployment become the dominant bottleneck and TSMC capacity is no longer the binding constraint.",
+        "Downgrade the thesis if geopolitical disruption, export controls or customer dual-sourcing materially reduce shipment visibility."
+      ],
+      "next_research_tasks": [
+        "Verify the latest TSMC quarterly deck and transcript for exact management language on CoWoS, SoIC, 2nm, capex and AI demand durability.",
+        "Separate the bottleneck into wafer capacity, CoWoS, SoIC, HBM, ABF substrates, interposers, advanced test and final system deployment; score each node by supplier count, lead time, capex intensity and customer qualification difficulty.",
+        "Track quarterly advanced-node mix: 3nm, 5nm, 7nm and 2nm ramp indicators, including yield and utilization commentary.",
+        "Track quarterly HPC revenue share and sequential growth to test whether AI demand is still flowing through TSMC rather than only through downstream headlines.",
+        "Compare TSMC advanced-packaging expansion with OSAT spillover beneficiaries and substrate/HBM suppliers to determine where the current binding constraint has migrated.",
+        "Map customer exposure across NVIDIA, AMD, Broadcom/custom ASIC customers, Apple, hyperscaler internal ASIC programs and other HPC customers.",
+        "Review capex approvals and fab construction updates for Taiwan, Arizona, Japan and Germany to assess cost, timing and margin impact.",
+        "Build a falsification dashboard with triggers for HPC mix, advanced-node mix, gross margin, capex guidance, CoWoS/SoIC capacity language, 2nm milestones and geopolitical/export-control changes."
+      ],
+      "risks": [
+        "Advanced packaging scarcity may ease faster than expected if TSMC, OSAT partners and substrate suppliers expand capacity ahead of AI accelerator demand.",
+        "2nm ramp execution risk: yield, cost, customer adoption or schedule could disappoint relative to the current fast-ramp expectation.",
+        "AI demand risk: hyperscaler capex or accelerator orders could slow if model economics, power availability, regulation or deployment returns weaken.",
+        "Margin risk: overseas fab expansion, depreciation, utility cost, labor cost and geopolitical diversification may pressure gross margin.",
+        "Customer concentration and allocation risk: AI accelerator demand is tied to a limited set of large customers and product cycles.",
+        "Technology substitution risk: chip architectures, in-house accelerators, alternative foundries, packaging architectures or photonics integration could change the bottleneck map.",
+        "Geopolitical and export-control risk: Taiwan Strait tensions, U.S.-China restrictions, or supply-chain localization policies could impair confidence, shipments or customer allocation.",
+        "HBM and substrate dependency risk: even if TSMC expands wafers and packaging, HBM supply, ABF substrates, power delivery or system-level bottlenecks may limit final accelerator output."
+      ],
+      "supply_chain_position": "Theme: Technology / AI infrastructure. Demand drivers: hyperscale AI capex, training/inference accelerators, custom ASICs, chiplet architectures, HBM integration, lower-power high-bandwidth compute. Supply-chain map: cloud AI demand -> accelerator designers such as NVIDIA, AMD, Broadcom/custom ASIC customers and internal hyperscaler silicon teams -> leading-edge foundry wafers at 5nm/3nm/2nm -> advanced packaging and 3D integration including CoWoS, SoIC, InFO and related interconnect technologies -> HBM suppliers and substrate/OSAT partners -> AI servers, racks and data centers. TSMC sits at the scarce manufacturing node where leading-edge logic fabrication and high-density package integration meet.",
+      "thesis_cn": "台积电的核心卡点不只是晶圆代工规模，而是同时掌握 AI 加速器所需的领先制程晶圆产能、先进封装能力和客户验证生态。AI GPU、ASIC、chiplet 与 HBM 集成需要 3nm/5nm、未来 2nm，以及 CoWoS、SoIC 等封装/3D 集成能力。2026 Q1 可核验事实显示，台积电美元收入为 359 亿美元，同比增长 40.6%；7nm 及以下先进制程占晶圆收入 74%；HPC 平台占收入 61%。这些数据支持其作为 AI 基建上游关键产能瓶颈的研究优先级。后续必须继续拆分真正的约束来源：晶圆、CoWoS/SoIC、HBM 供应、ABF/基板、或客户自身部署节奏。",
+      "thesis_en": "[Inference] TSMC’s chokepoint is not merely foundry scale, but its combined control of leading-edge wafer capacity, advanced packaging, and customer-validated manufacturing ecosystems required for AI accelerators. AI GPUs, custom ASICs, chiplets, and HBM-integrated systems depend on 3nm/5nm, future 2nm, and CoWoS/SoIC-class packaging and 3D integration. Verifiable Q1 2026 facts show US$35.9B revenue, up 40.6% year over year; 7nm-and-below technologies represented 74% of wafer revenue; and HPC represented 61% of revenue. These support TSMC’s priority as an upstream capacity bottleneck for AI infrastructure. The next research question is whether the binding constraint is wafers, CoWoS/SoIC, HBM supply, substrates, or customer deployment timing.",
+      "ticker": "TSM",
+      "title_cn": "台积电：AI 基建上游的领先制程与先进封装卡点",
+      "title_en": "TSMC: Leading-Edge Logic and Advanced Packaging Chokepoint for AI Infrastructure"
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "TSMC Q1 2026 revenue was US$35.90B.",
+      "claim_type": "fact",
+      "source_title": "TSMC 2026 Q1 Quarterly Results",
+      "source_url": "https://investor.tsmc.com/english/quarterly-results/2026/q1"
+    },
+    {
+      "claim": "TSMC Q1 2026 advanced technologies, defined as 7nm and below, accounted for 74% of wafer revenue.",
+      "claim_type": "fact",
+      "source_title": "TSMC 1Q26 Management Report",
+      "source_url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-04/5508a9df8981f587c73dbfaf9f577f142e22bbb1/1Q26ManagementReport.pdf"
+    },
+    {
+      "claim": "TSMC Q1 2026 HPC platform represented 61% of revenue.",
+      "claim_type": "fact",
+      "source_title": "TSMC 1Q26 Management Report",
+      "source_url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-04/5508a9df8981f587c73dbfaf9f577f142e22bbb1/1Q26ManagementReport.pdf"
+    },
+    {
+      "claim": "TSMC Q1 2026 earnings release reported NT$1,134.10B consolidated revenue, NT$572.48B net income and NT$22.08 diluted EPS.",
+      "claim_type": "fact",
+      "source_title": "TSMC Reports First Quarter 2026 Earnings",
+      "source_url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-04/bd8eb0403902fdea59a2f5e390e48d010b50edc9/1Q26%20EarningsRelease_WoG.pdf"
+    },
+    {
+      "claim": "TSMC 2nm technology entered high-volume manufacturing in Q4 2025 with good yield and expects a fast ramp in 2026.",
+      "claim_type": "fact",
+      "source_title": "TSMC 2025 Annual Report Website",
+      "source_url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html"
+    },
+    {
+      "claim": "TSMC develops advanced packaging and 3D chip stacking technologies including CoWoS, InFO, TSMC-SoIC and TSMC-COUPE.",
+      "claim_type": "fact",
+      "source_title": "TSMC 2025 Annual Report Website",
+      "source_url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html"
+    },
+    {
+      "claim": "TSMC is a core upstream AI infrastructure chokepoint because AI accelerators require both leading-edge logic wafers and advanced package integration.",
+      "claim_type": "inference",
+      "source_title": "Derived from TSMC official Q1 2026 results and 2025 annual report",
+      "source_url": "https://investor.tsmc.com/english/quarterly-results/2026/q1"
+    }
+  ],
+  "layer": 5,
+  "memory_update": [
+    {
+      "chokepoint_thesis": "TSMC is the scarce manufacturing capacity owner for leading-edge logic and advanced packaging that enables AI accelerator and chiplet/HBM architectures.",
+      "claim_type": "inference",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "key_monitoring_items": [
+        "HPC revenue share",
+        "Advanced-node revenue share",
+        "2nm ramp milestones",
+        "CoWoS and SoIC capacity commentary",
+        "Gross margin and overseas fab cost",
+        "AI customer allocation",
+        "HBM and substrate bottleneck migration",
+        "Geopolitical and export-control risk"
+      ],
+      "layer": 5,
+      "research_boundary": "Research support only; no buy, sell, target price or return forecast.",
+      "theme": "Technology",
+      "ticker": "TSM",
+      "type": "deep_research_target"
+    }
+  ],
+  "summary": "Layer 5 mini deep report: TSMC is selected as the deep-research target because its leading-edge wafer capacity and advanced-packaging stack sit near the upstream bottleneck for AI accelerators, chiplets, and HBM-integrated compute systems. This is a research prioritization output only, not a trading recommendation.",
+  "theme_id": "technology_ai_infrastructure_leading_edge_foundry_advanced_packaging_tsmc"
+}

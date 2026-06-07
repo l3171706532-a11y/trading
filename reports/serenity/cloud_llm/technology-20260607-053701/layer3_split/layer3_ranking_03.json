@@ -1,0 +1,177 @@
+{
+  "evidence": [
+    {
+      "claim": "Cached Layer 2 evidence identifies data-center power delivery, transformers, switchgear, UPS, PDUs, grid interconnection, and energy supply as key AI infrastructure nodes.",
+      "claim_type": "fact",
+      "relevance": "Supports prioritizing Eaton, Quanta Services, and Constellation Energy above less direct compute-IP or speculative power candidates.",
+      "source": "provided_cached_layer2",
+      "source_url": null
+    },
+    {
+      "claim": "Cached Layer 2 evidence cites Microsoft FY2026 Q3 capex of $31.9 billion and cloud infrastructure buildout commentary as a current hyperscaler demand catalyst.",
+      "claim_type": "fact",
+      "relevance": "Supports durable AI data-center infrastructure demand, especially for electrical equipment, grid work, and power supply.",
+      "source": "provided_cached_layer2",
+      "source_title": "Microsoft Fiscal Year 2026 Third Quarter Earnings Conference Call",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3"
+    },
+    {
+      "claim": "Cached Layer 2 evidence cites a U.S. Department of Energy announcement on AI data-center and energy-infrastructure development on federal lands.",
+      "claim_type": "fact",
+      "relevance": "Supports policy focus on the data-center power bottleneck and strengthens the research case for grid and energy-infrastructure candidates.",
+      "source": "provided_cached_layer2",
+      "source_title": "DOE Announces Site Selection for AI Data Center and Energy Infrastructure Development on Federal Lands",
+      "source_url": "https://www.energy.gov/articles/doe-announces-site-selection-ai-data-center-and-energy-infrastructure-development-federal"
+    },
+    {
+      "claim": "Cached Layer 2 evidence cites Microsoft Research's AI data-center lifecycle paper as framing high-density AI racks, power delivery, cooling, and operational constraints as system-level design problems.",
+      "claim_type": "fact",
+      "relevance": "Supports the view that power delivery and physical infrastructure are not peripheral, but core constraints in AI infrastructure scaling.",
+      "source": "provided_cached_layer2",
+      "source_title": "Rearchitecting the Datacenter Lifecycle for AI",
+      "source_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/03/AI-DC-Lifecycle-Compass.pdf"
+    },
+    {
+      "claim": "Candidate chunk labels Eaton, Quanta Services, Constellation Energy, Arm Holdings, Intel, and NuScale Power as inferred, hypothetical, or speculative mappings to AI infrastructure nodes and explicitly marks evidence as needed.",
+      "claim_type": "fact",
+      "relevance": "Used as the bounded universe for Layer 3 ranking and as a constraint against adding external candidates.",
+      "source": "provided_candidate_chunk",
+      "source_url": null
+    }
+  ],
+  "layer": 3,
+  "memory_update": [
+    {
+      "content": "For the Technology theme's AI infrastructure funnel, prioritize direct, near-term, physically constrained power and grid nodes over speculative long-duration power technologies and indirect compute-IP exposure.",
+      "type": "ranking_preference"
+    },
+    {
+      "content": "For ETN and PWR, next evidence pass should focus on backlog composition, data-center order exposure, lead times, capacity expansion, and customer/project specificity.",
+      "type": "research_next_step"
+    },
+    {
+      "content": "For CEG, next evidence pass should focus on hyperscaler PPAs, contract duration, pricing uplift, nuclear asset availability, regulatory constraints, and merchant power sensitivity.",
+      "type": "research_next_step"
+    },
+    {
+      "content": "ARM and INTC should not be treated as core bottleneck names without stronger evidence that AI infrastructure demand is translating into measurable royalty uplift, design wins, foundry utilization, or advanced-packaging customer traction.",
+      "type": "risk_flag"
+    },
+    {
+      "content": "SMR remains speculative until project-level financing, regulatory milestones, customer offtake, and deployment timelines demonstrate relevance to AI data-center power needs.",
+      "type": "risk_flag"
+    }
+  ],
+  "ranked_candidates": [
+    {
+      "company": "Eaton",
+      "main_evidence_gap": "Need company-specific validation from latest filings and earnings materials: data-center order growth, electrical backlog, lead times, segment margins, capacity expansion, hyperscaler exposure, and whether AI-related demand is incremental rather than general electrification demand.",
+      "rank": 1,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "ETN",
+      "total_score": 29,
+      "why_prioritized": "Eaton is the cleanest candidate in this chunk for the AI data-center electrical-infrastructure bottleneck. The demand driver is durable because AI clusters require more power density, electrical distribution, switchgear, UPS, PDUs, and interconnection infrastructure. The bottleneck is tangible: data-center buildouts can be delayed by power delivery, equipment lead times, and grid readiness. Public-market mapping is also relatively pure versus broader industrial names because Eaton has direct exposure to electrical equipment and power management."
+    },
+    {
+      "company": "Quanta Services",
+      "main_evidence_gap": "Need evidence separating AI/data-center-driven utility work from broader grid modernization. Key checks: backlog mix, large data-center-related awards, utility customer commentary, labor availability, margin effects, and whether project timing is accelerating or slipping.",
+      "rank": 2,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "PWR",
+      "total_score": 29,
+      "why_prioritized": "Quanta maps to the grid-interconnection, transmission, utility construction, and project-execution layer. This is a plausible chokepoint because AI data centers require physical power infrastructure, skilled labor, utility coordination, and long-cycle grid upgrades. Its role is less component-specific than Eaton's but potentially more exposed to the practical time-to-power constraint that can determine whether AI data-center capacity comes online."
+    },
+    {
+      "company": "Constellation Energy",
+      "main_evidence_gap": "Need concrete contract evidence: hyperscaler PPAs, data-center-specific power agreements, nuclear asset utilization, pricing uplift, regulatory approvals, duration of offtake contracts, and sensitivity to merchant power prices.",
+      "rank": 3,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 3,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 4
+      },
+      "ticker": "CEG",
+      "total_score": 27,
+      "why_prioritized": "Constellation is relevant because AI data centers need large-scale, reliable, firm power, and hyperscalers increasingly care about low-carbon supply. Existing nuclear generation is scarce and hard to replicate quickly, giving this node potential chokepoint characteristics. However, the link between AI demand and company economics depends on power contracts, regulatory treatment, market pricing, plant availability, and whether hyperscaler demand translates into durable premium offtake."
+    },
+    {
+      "company": "Arm Holdings",
+      "main_evidence_gap": "Need proof that AI infrastructure adoption materially lifts royalty rates, licensing revenue, or high-value data-center compute penetration. Key checks: data-center royalty mix, custom silicon design wins, attach to AI accelerator platforms, and whether valuation already prices this in.",
+      "rank": 4,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 3,
+        "mispricing_potential": 2,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 4
+      },
+      "ticker": "ARM",
+      "total_score": 24,
+      "why_prioritized": "Arm has strategic relevance to AI compute diversification and custom-silicon ecosystems, especially where hyperscalers use Arm-based CPUs or Arm-adjacent architectures. Supplier scarcity is high because Arm's IP position is unique. However, it is not a direct capacity bottleneck in the same way as power equipment, HBM, advanced packaging, or grid interconnection. Its royalty and licensing model makes the AI link real but more indirect."
+    },
+    {
+      "company": "Intel",
+      "main_evidence_gap": "Need strict validation of foundry customer commitments, advanced-packaging utilization, AI accelerator competitiveness, process-node milestones, gross-margin trajectory, external foundry revenue, and whether customers are using Intel because of capability rather than subsidy or optionality.",
+      "rank": 5,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 3,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2
+      },
+      "ticker": "INTC",
+      "total_score": 24,
+      "why_prioritized": "Intel has several theoretically relevant AI-infrastructure exposures: foundry, advanced packaging, CPUs, domestic semiconductor capacity, and AI accelerators. The mispricing potential could be high if a turnaround creates credible AI supply-chain relevance. However, the current Serenity priority is constrained by uncertainty around competitiveness, customer traction, capacity utilization, execution, and whether Intel is a true chokepoint rather than a challenged alternative supplier."
+    },
+    {
+      "company": "NuScale Power",
+      "main_evidence_gap": "Need project-level evidence: signed data-center or utility agreements, financing, regulatory milestones, construction timeline, customer commitments, cost per MWh, deployment schedule, and proof that SMRs can affect AI power availability within a practical timeframe.",
+      "rank": 6,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 3,
+        "evidence_quality": 1,
+        "falsifiability": 2,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 2,
+        "supplier_scarcity": 3
+      },
+      "ticker": "SMR",
+      "total_score": 20,
+      "why_prioritized": "NuScale is thematically connected to long-duration AI data-center power demand through small modular reactors, but the connection is speculative. The public-market purity is high because the company is directly tied to SMR technology, yet the Serenity score is limited by commercialization timing, regulatory risk, financing risk, project execution uncertainty, and the lack of near-term evidence that SMRs will solve AI data-center power constraints in the relevant investment horizon."
+    }
+  ],
+  "summary": "Within this candidate chunk, the highest Serenity research priority is the AI data-center power-infrastructure sub-chain rather than speculative power generation or broad compute-IP exposure. Eaton ranks first because it maps directly to electrical distribution, switchgear, power management, and data-center power bottlenecks with relatively high public-market purity and clearer evidence paths. Quanta Services ranks second as the grid-interconnection and utility-construction execution layer, where labor, permitting, and transmission timelines can become real chokepoints. Constellation Energy ranks third because firm low-carbon power is strategically relevant to hyperscale AI demand, but the linkage is less direct and more contract-, regulation-, and power-market dependent. Arm, Intel, and NuScale are lower priority in this specific chunk because their AI exposure is either less bottleneck-like, more diffuse, more turnaround-dependent, or too speculative on timing.",
+  "theme_id": "technology_ai_infrastructure_power_grid_compute_architecture_2026_layer3"
+}

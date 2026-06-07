@@ -1,0 +1,208 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Broadcom Inc.",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track fiscal 2026 AI revenue split between custom accelerators and AI networking, Tomahawk/Jericho switch ASIC traction, customer concentration, Ethernet-vs-InfiniBand adoption, and hyperscaler custom silicon deployments.",
+      "node_relation": "Supplies AI networking silicon, including Ethernet AI switches, and custom accelerator-related silicon for hyperscale AI infrastructure.",
+      "sector_or_industry": "Semiconductors; networking silicon; custom AI accelerators; Ethernet switch ASICs",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "hyperscaler_dependency",
+        "switch_asic",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct AI infrastructure beneficiary; maps to the Ethernet switch ASIC and custom silicon layer that may become more important as clusters scale out and hyperscalers design custom AI systems.",
+      "ticker": "AVGO",
+      "why_include": "Broadcom explicitly reported AI semiconductor growth driven by custom AI accelerators and Ethernet AI switches. This makes it one of the clearest public mappings to the AI networking chokepoint, especially if Ethernet gains share in AI scale-out and scale-up fabrics."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Arista Networks, Inc.",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify disclosed AI networking revenue, backend AI cluster wins, 800G/1.6T platform ramps, exposure to top cloud customers, and competitive positioning versus NVIDIA networking and white-box switch ecosystems.",
+      "node_relation": "Provides high-speed Ethernet switching platforms, EOS software, and AI/data-center networking systems for cloud and AI centers.",
+      "sector_or_industry": "Cloud and AI networking equipment; Ethernet switching; network operating systems",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "ethernet",
+        "systems_vendor",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct beneficiary if large AI training and inference clusters increasingly standardize on high-performance Ethernet fabrics rather than only proprietary interconnects.",
+      "ticker": "ANET",
+      "why_include": "Arista is a leading public pure-play for cloud and AI Ethernet networking. Its disclosures reference AI centers, data centers, high-speed Ethernet switching, and work on Ethernet scale-up networking."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Coherent Corp.",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track 800G and 1.6T revenue contribution, customer qualifications, gross margin recovery, CPO roadmap milestones, optical circuit switch commercialization, and whether AI datacom demand offsets cyclical telecom weakness.",
+      "node_relation": "Supplies datacom transceivers and components, including 800G/1.6T transceivers, silicon photonics, lasers, ICs, and optical circuit switch development for AI/ML and hyperscale data centers.",
+      "sector_or_industry": "Optical communications; photonics components; lasers; optical transceivers",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "optical_modules",
+        "silicon_photonics",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct optical-layer beneficiary if AI clusters require more optical links per accelerator and transition toward higher-speed pluggables, CPO, silicon photonics, and optical switching.",
+      "ticker": "COHR",
+      "why_include": "Coherent’s annual report directly ties R&D to networking datacom, 800G/1.6T transceivers, CPO, silicon photonics, and optical circuit switching for AI/ML and hyperscale data centers."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Credo Technology Group Holding Ltd.",
+      "confidence": 0.8,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm hyperscaler customer concentration, AEC design wins, 800G/1.6T adoption, margin durability, dependence on a small number of customers, and competitive pressure from optical modules or passive copper.",
+      "node_relation": "Provides high-speed, energy-efficient connectivity products including active electrical cables, SerDes, retimers/DSPs, and emerging optical interconnect products for AI, cloud, and hyperscale data centers.",
+      "sector_or_industry": "High-speed connectivity semiconductors; active electrical cables; SerDes IP; optical/copper interconnect",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "active_electrical_cables",
+        "serdes",
+        "less_obvious",
+        "evidence_needed"
+      ],
+      "theme_relation": "Less obvious second-order AI networking supplier; could benefit from short-reach rack and cluster connectivity where copper AECs reduce power/cost versus optical links for certain distances.",
+      "ticker": "CRDO",
+      "why_include": "Credo’s 2025 filing describes product families including ICs, active electrical cables, and SerDes chiplets serving hyperscale data centers and AI/ML infrastructure. It is more of a connectivity component supplier than a headline AI chip name."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Corning Incorporated",
+      "confidence": 0.76,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track Optical Communications enterprise growth, Gen AI product adoption, capacity expansion, data-center customer wins, pricing/lead-time evidence, and whether AI data-center fiber demand is material relative to Corning’s broader revenue base.",
+      "node_relation": "Supplies optical fiber, high-density cables, connector assemblies, and data-center connectivity products used in AI data-center buildouts.",
+      "sector_or_industry": "Optical fiber, glass, cable, and data-center connectivity infrastructure",
+      "serenity_tags": [
+        "supply_chain",
+        "adjacent_chokepoint",
+        "fiber",
+        "connectivity_density",
+        "less_obvious",
+        "evidence_needed"
+      ],
+      "theme_relation": "Adjacent chokepoint candidate: as AI clusters require dense fiber interconnects inside and between data centers, fiber/cable/connectivity capacity may become a less obvious bottleneck below the transceiver layer.",
+      "ticker": "GLW",
+      "why_include": "Corning launched GlassWorks AI products for AI data-center infrastructure, citing high-density cables, shuffle solutions, optical hardware, and connector assemblies. This maps to the physical fiber-density layer rather than the more obvious GPU or switch layers."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Broadcom reported fiscal 2025 semiconductor revenue growth driven by custom AI accelerators and Ethernet AI switches.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-12-11",
+      "source_title": "Broadcom Inc. Announces Fourth Quarter and Fiscal Year 2025 Financial Results and Quarterly Dividend",
+      "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-fourth-quarter-and-fiscal-year-2025",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Arista’s 2025 annual report describes its strategy around AI Centers, Data Centers, EOS, Network Data Lake, and leadership in high-speed Ethernet switching.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026",
+      "source_title": "Arista Networks 2026 Proxy Statement and 2025 Annual Report",
+      "source_url": "https://s21.q4cdn.com/861911615/files/doc_financials/2025/ar/Arista-2026-Proxy-Statement-2025-Annual-Report-Bookmarked.pdf",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Arista announced next-generation R4 Series platforms for AI, data-center, and routed backbone deployment in 2025.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2025-10-29",
+      "source_title": "Arista Press Releases 2025",
+      "source_url": "https://www.arista.com/en/company/news/press-release/pr-2025",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Coherent’s 2025 annual report lists AI-relevant networking R&D areas including 800G/1.6T transceivers, CPO, VCSELs, EMLs, silicon photonics, ICs, isolators, thermoelectric coolers, and optical circuit switching for AI/ML and hyperscale data centers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026",
+      "source_title": "Coherent 2025 Annual Report",
+      "source_url": "https://www.coherent.com/content/dam/coherent/site/en/documents/investors/annual-filings/2025/coherent-annual-report-2025.pdf",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Credo’s 2025 annual report says its products include ICs, active electrical cables, and SerDes chiplets, and that the markets it serves are driven largely by hyperscale data centers and AI/ML infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-07-02",
+      "source_title": "Credo Technology Group Holding Ltd. 2025 Annual Report",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1807794/000180779425000012/ars_10-kx2025.pdf",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Corning launched GlassWorks AI solutions for AI data-center infrastructure, including high-density cables, shuffle solutions, optical hardware, and MMC-based connector assemblies.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2025",
+      "source_title": "Corning Launches GlassWorks AI Solutions",
+      "source_url": "https://investor.corning.com/news-and-events/news/news-details/2025/Corning-Launches-GlassWorks-AI-Solutions-a-One-Stop-Shop-for-AI-Data-Center-Infrastructure-Needs/default.aspx",
+      "ticker": "GLW"
+    },
+    {
+      "claim": "Corning reported Optical Communications enterprise sales growth tied to demand for new Gen AI products in its quarterly results materials.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2025",
+      "source_title": "Corning Financials and Filings - Quarterly Results",
+      "source_url": "https://investor.corning.com/investor-relations/financials/quarterly-results/default.aspx",
+      "ticker": "GLW"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "AVGO should remain a core AI networking candidate because its public disclosures explicitly tie growth to Ethernet AI switches and custom AI accelerators.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "ANET is a clean public-market mapping for AI Ethernet systems and software; next pass should verify AI networking revenue and hyperscaler concentration.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "COHR is a strong optical-layer candidate with direct 800G/1.6T, CPO, silicon photonics, and optical circuit switch exposure.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "CRDO is a less obvious AI connectivity supplier through active electrical cables, SerDes, retimers/DSPs, and short-reach cluster interconnect exposure.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "GLW should be tracked as an adjacent physical-connectivity chokepoint: fiber density, cables, connectors, and data-center optical infrastructure may become constrained as AI data centers scale.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Potential next-pass candidates not included due to the 5-name limit: MRVL for optical DSP/custom silicon/silicon photonics; LITE for EML lasers, pump lasers, 800G transceivers and CPO components; FN for outsourced optical manufacturing; CIEN for coherent DCI; NVDA for InfiniBand, Spectrum-X Ethernet, NVLink and AI networking systems.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "The strongest sub-nodes to track are: Ethernet switch ASICs, high-speed switching systems, 800G/1.6T optical transceivers, laser components, silicon photonics, active electrical cables, SerDes/DSPs, and high-density fiber/connectors.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "AI cluster networking, Ethernet/InfiniBand, optical modules, fiber and silicon photonics",
+  "node_id": "ai_cluster_networking_optics",
+  "summary": "Expanded the public-market universe for the AI cluster networking and optics node. The strongest direct exposures found in this pass are Ethernet switching systems, merchant/custom networking silicon, optical transceivers/components, active electrical cables/SerDes, and high-density fiber/connectivity infrastructure. The working hypothesis is that as AI clusters scale, east-west traffic, accelerator utilization, power per bit, and deployment density make networking and optical connectivity a second-order bottleneck behind compute. Candidate inclusion is for research tracking only, not a buy/sell recommendation.",
+  "theme_id": "AI"
+}

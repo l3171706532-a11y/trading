@@ -1,0 +1,218 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "confidence": 0.95,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track quarterly capex, advanced-packaging capacity additions, CoWoS utilization, customer concentration, lead times, and whether packaging expansion keeps pace with AI accelerator demand.",
+      "node_relation": "Direct capacity chokepoint: leading advanced-node foundry plus CoWoS, InFO, SoIC and related advanced-packaging technologies used for high-performance AI accelerator integration.",
+      "sector_or_industry": "Semiconductor foundry and advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "capacity",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerator availability depends on advanced-node wafer starts plus 2.5D/3D packaging capacity, not only chip design.",
+      "ticker": "TSM",
+      "why_include": "TSMC is the clearest US-listed proxy for advanced-node manufacturing and advanced packaging capacity. Its 2025 annual report explicitly links strong AI demand to advanced process capacity and describes CoWoS, InFO and SoIC as technologies supporting customer needs."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Micron Technology",
+      "confidence": 0.92,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM revenue mix, HBM3E/HBM4 qualification status, capacity allocation, gross margin sustainability, wafer trade-offs versus commodity DRAM, and customer prepayment or long-term supply agreements.",
+      "node_relation": "Direct HBM and data-center memory supplier; HBM supply is a core constraint for AI accelerator platforms.",
+      "sector_or_industry": "Memory semiconductors: DRAM, HBM, NAND",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "memory_bandwidth",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI training and inference systems require high-bandwidth memory stacks; scarcity can shift value toward memory suppliers and away from branded accelerator-only narratives.",
+      "ticker": "MU",
+      "why_include": "Micron’s 2025 Form 10-K states it shifted DRAM supply toward data center and hyperscale cloud markets to meet strong AI-fueled demand, emphasizing HBM products."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Amkor Technology",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify the exact share of revenue from AI/HPC advanced packaging, customer qualifications for 2.5D/CoWoS-like flows, capex by site, utilization, margin impact, and whether Amkor participates in the most constrained AI accelerator packaging steps.",
+      "node_relation": "Second-order but direct advanced-packaging capacity supplier; provides outsourced packaging and test services that can absorb spillover demand when internal foundry packaging capacity is constrained.",
+      "sector_or_industry": "Outsourced semiconductor assembly, packaging and test",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI accelerator growth strains 2.5D/advanced packaging, OSAT vendors with advanced packaging investments can become capacity-relief nodes.",
+      "ticker": "AMKR",
+      "why_include": "Amkor’s 2025 10-K links artificial intelligence, data centers, cloud computing and networking infrastructure to demand for more semiconductors and advanced packaging in the computing end market."
+    },
+    {
+      "claim_type": "fact",
+      "company": "KLA Corporation",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track advanced-packaging revenue growth, HBM-related process-control orders, share in CoWoS/HBM inspection steps, backlog durability, and customer concentration among TSMC, memory makers and OSATs.",
+      "node_relation": "Critical yield-learning supplier for advanced nodes, reticles, wafer inspection, metrology and advanced packaging; relevant to HBM and AI packaging defect control.",
+      "sector_or_industry": "Semiconductor process control, inspection and metrology equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "inspection_metrology",
+        "evidence_needed"
+      ],
+      "theme_relation": "When advanced packaging and HBM stacks become more complex, inspection/metrology intensity can rise because yield losses at packaging or interconnect stages become more expensive.",
+      "ticker": "KLAC",
+      "why_include": "KLA’s fiscal 2025 stockholder letter referenced HBM investments for AI and reported strong growth in advanced packaging, supported by wafer inspection, reticle inspection and metrology portfolios."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Lam Research",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Confirm exposure by product line to HBM, DRAM node migration, through-silicon vias, advanced packaging, hybrid bonding or related etch/deposition steps; track memory WFE orders and customer capex from Micron, SK hynix, Samsung and TSMC.",
+      "node_relation": "Equipment supplier for etch, deposition and related process steps used in advanced memory, interconnects and packaging structures.",
+      "sector_or_industry": "Semiconductor wafer-fabrication and packaging equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "semicap_equipment",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM and advanced-node capacity expansion require specialized wafer-fab equipment; equipment lead times and process intensity can determine how fast supply can expand.",
+      "ticker": "LRCX",
+      "why_include": "Lam is a major wafer-fabrication equipment supplier, and public filings/descriptions link its technologies to transistors, interconnects, advanced memory and packaging structures. Its AI-node exposure is strong but must be mapped to specific HBM and advanced-packaging process steps."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "TSMC’s 2025 annual report states that AI-related demand remained strong and that TSMC is developing advanced packaging and 3D chip stacking technologies including CoWoS, InFO and SoIC to support customer needs.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026",
+      "source_title": "TSMC 2025 Annual Report Website",
+      "source_url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "TSMC reported annual capacity exceeding 17 million 12-inch equivalent wafers in 2025 and noted 3nm capacity planning in Japan to meet strong AI-driven demand.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026",
+      "source_title": "TSMC 2025 Annual Report Website",
+      "source_url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Micron’s 2025 Form 10-K says it shifted a portion of DRAM supply to data center and hyperscale cloud markets to meet strong AI-fueled demand, with emphasis on HBM products.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2025-10-03",
+      "source_title": "Micron Technology, Inc. 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Micron’s 2025 shareholder materials state that combined revenue from HBM, high-capacity DIMMs and low-power server DRAM reached $10 billion, more than five times the prior fiscal year.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025",
+      "source_title": "Micron Technology 2025 shareholder materials",
+      "source_url": "https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Amkor’s 2025 10-K states that AI, higher networking speed, data centers and cloud computing are driving demand for more semiconductors and advanced packaging in the computing end market.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026",
+      "source_title": "Amkor Technology 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000014/amkr-20251231.htm",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor reported that its computing end market increased 16% in 2025 versus 2024, primarily driven by AI-related PC devices and networking infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026",
+      "source_title": "Amkor Technology 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000014/amkr-20251231.htm",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "KLA’s fiscal 2025 stockholder letter referenced HBM investments for AI and described strong growth in advanced packaging, supported by wafer inspection, reticle inspection and metrology portfolios.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025",
+      "source_title": "KLA 2025 Letter to Stockholders",
+      "source_url": "https://ir.kla.com/sec-filings/all-sec-filings/content/0001193125-25-213412/0001193125-25-213412.pdf",
+      "ticker": "KLAC"
+    },
+    {
+      "claim": "KLA’s Lumina advanced-packaging inspection material describes inspection and metrology capabilities for advanced packaging, including AI filtering to reduce false alarms.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2025-01-21",
+      "source_title": "KLA Lumina: Inspection and Metrology for Advanced Packaging",
+      "source_url": "https://www.kla.com/wp-content/uploads/Lumina-Rev1.0-Jan-21-2025-DIGITAL.pdf",
+      "ticker": "KLAC"
+    },
+    {
+      "claim": "Lam Research is plausibly exposed to the AI/HBM/advanced-packaging node because its equipment supports transistors, interconnects, advanced memory and packaging structures, but the exact HBM/CoWoS revenue linkage requires product-line confirmation.",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "published_at": "",
+      "source_title": "Lam Research overview referencing FY2025 annual report",
+      "source_url": "https://en.wikipedia.org/wiki/Lam_Research",
+      "ticker": "LRCX"
+    },
+    {
+      "claim": "SK hynix said 2025 record annual and quarterly results were driven by AI memory competitiveness and high-value products including HBM, reinforcing that HBM remains a core AI supply-chain constraint even though SK hynix is not currently included as a standard US-listed common-stock candidate in this pass.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026",
+      "source_title": "SK hynix Posts Record Annual Financial Results in 2025",
+      "source_url": "https://news.skhynix.com/sk-hynix-announces-fy25-financial-results/",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.92,
+      "text": "Add MU as a direct US-listed HBM and data-center memory candidate for the accelerators_hbm_advanced_packaging node.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Add AMKR as a US-listed outsourced advanced packaging/test candidate; relation is strongest if evidence confirms AI/HPC package qualification and capacity utilization.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Add KLAC as a process-control and advanced-packaging inspection/metrology candidate for HBM and AI packaging yield learning.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Add LRCX as a semiconductor equipment candidate tied to advanced memory and packaging structures; mark as inference until HBM-specific process-step exposure is verified.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Important non-US or less accessible public-market chokepoints remain outside the 5-name US-listed candidate limit: SK hynix and Samsung for HBM, ASE Technology for OSAT/advanced packaging, Ibiden/Unimicron for substrates, and Disco/Advantest/Tokyo Electron for packaging/test/equipment.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI accelerators, HBM, advanced-node foundry and advanced packaging",
+  "node_id": "accelerators_hbm_advanced_packaging",
+  "summary": "Expanded the US-listed universe around the AI accelerator/HBM/advanced-packaging chokepoint. The most relevant public-market mappings for this pass are: leading advanced-node foundry and CoWoS/SoIC capacity, HBM memory supply, outsourced advanced packaging/test, process equipment enabling DRAM/HBM and advanced packaging, and inspection/metrology tools required for yield learning. This is research support only, not a buy/sell recommendation.",
+  "theme_id": "AI"
+}

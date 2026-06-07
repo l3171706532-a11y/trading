@@ -1,0 +1,227 @@
+{
+  "coverage_gaps": [
+    "Need a later layer to build a company universe across U.S., Taiwan, Japan, Korea, Europe, and potentially A-share/H-share suppliers instead of only U.S. mega-cap seeds.",
+    "Need current valuation and market-pricing checks, but this Layer 1A intentionally avoids buy/sell recommendations, target prices, or return forecasts.",
+    "Need primary-source validation for HBM suppliers, optical-module suppliers, substrate/interposer vendors, and advanced packaging equipment vendors beyond the pilot universe.",
+    "Need to distinguish demand aggregators from bottleneck owners: hyperscalers may drive demand but may not capture the highest incremental margin if scarce suppliers have stronger bargaining power.",
+    "Need falsification tests for each node: capex cuts, AI workload efficiency improvements, oversupply, customer insourcing, export controls, regulatory delays, grid bottlenecks, and commoditization.",
+    "Need region-specific regulation review for export controls, nuclear licensing, grid permitting, cybersecurity procurement, and data-sovereignty requirements."
+  ],
+  "evidence": [
+    {
+      "claim": "IEA reported that global data-centre electricity demand grew 17% in 2025, while AI-focused data centres grew faster than overall global electricity demand.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-05",
+      "source_title": "Data centre electricity use surged in 2025, even with tightening bottlenecks driving a scramble for solutions",
+      "source_url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+      "ticker": ""
+    },
+    {
+      "claim": "NVIDIA reported fiscal 2026 revenue of $215.9 billion, up 65% year over year, and cited strong demand across accelerated computing and AI; data-center compute and networking growth were key drivers.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-05-12",
+      "source_title": "NVIDIA SEC filing, 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000036/nvda-20260512.htm",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "TSMC’s 2025 annual report states that it is developing advanced packaging and 3D chip stacking technologies, including CoWoS, InFO, SoIC, and COUPE, to support customer needs for large-scale interconnectivity and lower power consumption.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-05",
+      "source_title": "TSMC 2025 Annual Report Website",
+      "source_url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Microsoft’s 2025 annual report states that investments in cloud and AI infrastructure and devices will continue to increase operating costs and may decrease operating margins.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2025",
+      "source_title": "Microsoft 2025 Annual Report",
+      "source_url": "https://www.microsoft.com/investor/reports/ar25/index.html",
+      "ticker": "MSFT"
+    },
+    {
+      "claim": "Arista’s 2025 annual report describes the company as serving large AI, data-center, campus, and routing environments and segments customers to include Cloud and AI Titans.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "Arista 2026 Proxy Statement and 2025 Annual Report",
+      "source_url": "https://s21.q4cdn.com/861911615/files/doc_financials/2025/ar/Arista-2026-Proxy-Statement-2025-Annual-Report-Bookmarked.pdf",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "CISA released a Software Acquisition Guide Supplier Response Web Tool in August 2025 to help IT buyers and software suppliers strengthen cybersecurity practices across the software procurement lifecycle.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2025-08-26",
+      "source_title": "CISA Unveils Tool to Boost Procurement of Software Supply Chain Security",
+      "source_url": "https://www.cisa.gov/news-events/news/cisa-unveils-tool-boost-procurement-software-supply-chain-security",
+      "ticker": ""
+    },
+    {
+      "claim": "Broadcom’s investor materials for OFC 2026 highlight AI infrastructure scaling products including 3.5D XPU and high-capacity Ethernet switching, indicating exposure to custom AI accelerator and networking infrastructure themes.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2026-05",
+      "source_title": "Broadcom Showcases Industry-Leading Solutions for Scaling AI Infrastructure at OFC 2026",
+      "source_url": "https://investors.broadcom.com/node/64036/pdf",
+      "ticker": "AVGO"
+    }
+  ],
+  "layer": "1A",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Technology should be decomposed as an AI infrastructure stack linking software demand, cloud deployment, semiconductors, networking, cybersecurity, and physical power/cooling/grid constraints.",
+      "type": "theme_relation"
+    },
+    {
+      "confidence": 0.88,
+      "text": "AI accelerator exposure should be analyzed together with HBM, foundry, advanced packaging, substrates, and test capacity because the bottleneck can migrate across these layers.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Data-center power and cooling are first-order technology supply-chain nodes, not merely utilities exposure, because AI deployment can be constrained by time-to-power and thermal capacity.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.86,
+      "text": "AI networking and optical interconnect deserve separate coverage from compute accelerators because cluster economics depend on utilization, latency, bandwidth, and congestion control.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Cybersecurity and software supply-chain assurance should be treated as an enabling constraint for cloud and AI adoption, especially where procurement, SBOM, identity, and secure-by-design requirements matter.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Next layers should add non-U.S. public suppliers in Taiwan, Japan, Korea, Europe, and China to avoid a pilot-universe bias toward U.S. mega-cap demand aggregators.",
+      "type": "coverage_gap"
+    }
+  ],
+  "summary": "Layer 1A decomposes Technology into six researchable chokepoint lanes rather than a single mega-cap software or semiconductor story: AI compute accelerators plus HBM and advanced packaging; semiconductor equipment and process capacity; AI networking and optical interconnect; cloud AI platforms and automation software; cybersecurity and software supply-chain assurance; and data-center power, cooling, and grid infrastructure. The highest-quality funnel should first map where demand is real and measurable, then test whether value accrues to scarce physical capacity, qualification-heavy components, or software/control layers with high switching costs. This is research support only and does not provide buy/sell recommendations.",
+  "supply_chain_nodes": [
+    {
+      "bottleneck_hypothesis": "The practical bottleneck may shift over time among GPUs/custom accelerators, HBM, advanced packaging, substrate/interposer supply, and test, but value should concentrate where customers cannot quickly qualify alternative suppliers.",
+      "claim_type": "hypothesis",
+      "confidence": 0.86,
+      "node": "AI accelerators, HBM, advanced-node foundry, and 2.5D/3D advanced packaging",
+      "node_id": "ai_accelerators_hbm_advanced_packaging",
+      "public_asset_hunting_notes": "Map accelerator designers, foundries, memory makers, OSATs, substrate suppliers, equipment vendors, and test providers. Prioritize evidence of booked capacity, customer prepayments, capex plans, packaging revenue, HBM generation mix, and qualification with hyperscalers or accelerator vendors.",
+      "role": "capacity",
+      "search_queries": [
+        "AI accelerator HBM advanced packaging capacity bottleneck 2026 annual report",
+        "CoWoS advanced packaging capacity AI demand TSMC annual report 2025 2026",
+        "HBM supply AI accelerator demand SK hynix Samsung Micron 2026 earnings",
+        "AI semiconductor substrate interposer test capacity public companies"
+      ],
+      "why_it_matters": "This is the core compute layer behind large-scale AI training and inference. Accelerator demand pulls through foundry wafers, HBM, CoWoS-style packaging, substrates, interposers, thermal materials, and test capacity."
+    },
+    {
+      "bottleneck_hypothesis": "The deeper chokepoint may be not only EUV lithography, but a cluster of process-control, deposition, etch, inspection, packaging, bonding, metrology, and test tools required to improve yield and throughput.",
+      "claim_type": "inference",
+      "confidence": 0.82,
+      "node": "Semiconductor equipment for leading-edge logic, memory, advanced packaging, and test",
+      "node_id": "semiconductor_equipment_process_tools",
+      "public_asset_hunting_notes": "Screen equipment vendors by exposure to leading-edge logic, HBM, hybrid bonding, wafer-level packaging, advanced inspection, and test. Look for order intake, backlog, shipment timing, customer concentration, China/export-control sensitivity, and whether revenue is tied to capacity additions rather than cyclical replacement.",
+      "role": "equipment",
+      "search_queries": [
+        "SEMI semiconductor equipment sales 2025 2026 AI advanced packaging",
+        "advanced packaging equipment hybrid bonding metrology test public companies",
+        "semiconductor equipment backlog EUV deposition etch inspection AI demand",
+        "foundry capex AI semiconductor equipment suppliers annual report"
+      ],
+      "why_it_matters": "Semiconductor capacity cannot expand without specialized tools, process know-how, field service, and long qualification cycles. Equipment demand is second-order exposure to AI compute growth and may be less dependent on which accelerator vendor wins."
+    },
+    {
+      "bottleneck_hypothesis": "As clusters scale, bottlenecks may migrate from accelerator availability to network bandwidth, low-latency switching, congestion control, optical modules, power per bit, and software-defined fabric management.",
+      "claim_type": "hypothesis",
+      "confidence": 0.84,
+      "node": "AI networking, Ethernet/InfiniBand fabrics, switch ASICs, NICs, optics, and interconnect",
+      "node_id": "ai_networking_optical_interconnect",
+      "public_asset_hunting_notes": "Map switch vendors, merchant silicon, custom ASIC providers, NIC/DPU suppliers, optical module makers, DSP/SerDes vendors, cable/connector suppliers, and network operating-system providers. Seek evidence of 400G/800G/1.6T adoption, AI cluster design wins, hyperscaler revenue mix, and backlog.",
+      "role": "infrastructure",
+      "search_queries": [
+        "AI networking Ethernet InfiniBand switch ASIC 800G optical bottleneck 2026",
+        "Arista annual report 2025 AI networking cloud titans Ethernet",
+        "Broadcom AI networking custom accelerator Ethernet annual report 2025",
+        "800G 1.6T optical transceiver AI data center suppliers public companies"
+      ],
+      "why_it_matters": "Large AI clusters are constrained not just by compute chips but by how efficiently accelerators communicate. Networking quality affects GPU utilization, training time, inference latency, and the economics of scale-out data centers."
+    },
+    {
+      "bottleneck_hypothesis": "The key bottleneck may be enterprise deployment friction rather than model capability: clean data, workflow integration, governance, security, cost controls, and domain-specific ROI proof.",
+      "claim_type": "inference",
+      "confidence": 0.78,
+      "node": "Cloud AI platforms, enterprise automation software, data platforms, copilots, and agentic workflows",
+      "node_id": "cloud_ai_platforms_automation_software",
+      "public_asset_hunting_notes": "Separate cloud demand aggregators from true software control points. Track AI-related cloud growth, remaining performance obligations, seat expansion, usage-based revenue, net retention, customer concentration, gross margin pressure from infrastructure costs, and whether AI features increase switching costs or only raise compute expense.",
+      "role": "distribution",
+      "search_queries": [
+        "cloud AI infrastructure annual report capex Azure AWS Google Cloud 2025 2026",
+        "enterprise AI automation software agents revenue growth annual report",
+        "AI software data platform workflow automation customer ROI filings 2026",
+        "copilot agentic automation software adoption enterprise security governance"
+      ],
+      "why_it_matters": "Software is the demand translation layer: cloud platforms package compute into usable services, while automation and AI applications determine whether enterprise AI spending becomes durable recurring revenue."
+    },
+    {
+      "bottleneck_hypothesis": "Security spending may concentrate around platforms that reduce operational complexity, provide evidence for procurement/compliance, and secure machine identities, cloud workloads, software dependencies, and AI-enabled development pipelines.",
+      "claim_type": "hypothesis",
+      "confidence": 0.77,
+      "node": "Cybersecurity, identity, cloud security, secure-by-design software, and software supply-chain assurance",
+      "node_id": "cybersecurity_software_supply_chain",
+      "public_asset_hunting_notes": "Map identity, endpoint, SASE, cloud workload protection, SIEM/SOAR, vulnerability management, application security, secrets management, SBOM, and software composition analysis vendors. Look for federal guidance alignment, procurement requirements, breach-driven demand, platform consolidation, and customer retention.",
+      "role": "regulation",
+      "search_queries": [
+        "CISA secure by design software supply chain procurement SBOM 2025 2026",
+        "cloud security AI cybersecurity identity software supply chain public companies",
+        "secure software development framework SBOM vulnerability management vendors annual report",
+        "AI adoption cybersecurity cloud workload security machine identity demand"
+      ],
+      "why_it_matters": "AI and cloud adoption expand attack surfaces across identities, APIs, endpoints, data pipelines, model supply chains, third-party software, and critical infrastructure. Security can become both a compliance requirement and a prerequisite for cloud/AI deployment."
+    },
+    {
+      "bottleneck_hypothesis": "For U.S. and global AI infrastructure, the binding constraint may increasingly be time-to-power: grid interconnection, transformers, substations, transmission construction, liquid cooling, UPS, backup generation, and firm clean-energy procurement.",
+      "claim_type": "hypothesis",
+      "confidence": 0.88,
+      "node": "Data-center power, cooling, electrical equipment, grid interconnection, backup power, and firm energy",
+      "node_id": "data_center_power_cooling_grid",
+      "public_asset_hunting_notes": "Screen electrical equipment makers, power-management suppliers, cooling specialists, data-center infrastructure vendors, grid construction firms, utilities, nuclear/fuel-cycle companies, generators, and EPC firms. Require evidence of backlog, data-center customer mix, capacity expansion, utility interconnection approvals, project execution risk, and regulatory timelines.",
+      "role": "infrastructure",
+      "search_queries": [
+        "IEA data centre electricity demand AI 2025 2026 power bottleneck",
+        "data center power cooling switchgear transformer backlog public companies AI",
+        "AI data center grid interconnection nuclear power SMR uranium utility demand",
+        "liquid cooling UPS electrical equipment data center annual report 2026"
+      ],
+      "why_it_matters": "AI clusters convert semiconductor demand into physical electricity, thermal, land, water, and grid constraints. Even if chips are available, data-center deployment can stall without power, cooling, switchgear, transformers, transmission, and permits."
+    }
+  ],
+  "theme_id": "technology_software_semiconductors_cloud_cybersecurity_infrastructure_automation",
+  "theme_map": {
+    "demand_drivers": [
+      "Hyperscaler and AI-lab capital spending for training and inference clusters",
+      "Enterprise migration from pilot AI projects to production copilots, agents, workflow automation, and data-platform modernization",
+      "Cloud infrastructure demand from compute-intensive applications, including generative AI, analytics, simulation, cybersecurity, and developer tooling",
+      "Semiconductor demand for GPUs, custom accelerators, CPUs, HBM, high-speed networking silicon, advanced substrates, and packaging capacity",
+      "Data-center electrical load growth requiring power equipment, cooling, backup power, grid interconnection, transmission, and potentially nuclear or other firm power",
+      "Regulatory and customer pressure for secure-by-design software, SBOMs, zero trust, identity, endpoint, cloud security, and critical-infrastructure cyber resilience"
+    ],
+    "public_market_search_strategy": "Build the universe by supply-chain role, not by popularity. Start with public companies and funds exposed to each node, then classify them as demand aggregators, scarce capacity owners, equipment enablers, high-switching-cost software platforms, regulated infrastructure providers, or theme-adjacent names. For each candidate, require at least one hard evidence path: filing disclosure, segment revenue change, customer concentration or design-win evidence, capacity expansion, backlog/order commentary, regulatory approval, certification, or capex-linked demand signal. Avoid making the funnel a single-ticker exercise; compare each public asset against substitutes and against the bottleneck it claims to control.",
+    "supply_side_constraints": [
+      "Advanced-node foundry capacity, CoWoS/2.5D/3D packaging capacity, HBM supply, substrates, and high-end test capacity",
+      "Long lead-time semiconductor equipment, especially lithography, deposition, etch, inspection, advanced packaging, and test tools",
+      "High-speed Ethernet/InfiniBand/optical interconnect, DSPs, switch ASICs, NICs, retimers, coherent optics, lasers, connectors, and thermal limits inside AI clusters",
+      "Power availability, grid interconnection queues, transformers, switchgear, UPS systems, liquid cooling, backup generation, and water constraints for large data centers",
+      "Enterprise adoption friction for AI software: data quality, integration complexity, governance, security, cost management, and measurable ROI",
+      "Cybersecurity labor shortage, vulnerability remediation backlogs, regulatory compliance, third-party software dependency risk, and customer certification cycles"
+    ]
+  }
+}

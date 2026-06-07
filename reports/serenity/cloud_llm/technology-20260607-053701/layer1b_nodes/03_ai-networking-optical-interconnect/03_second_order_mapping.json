@@ -1,0 +1,213 @@
+{
+  "candidates": [
+    {
+      "claim_type": "inference",
+      "company": "Marvell Technology",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-K/10-Q segment disclosures for data-center revenue mix, customer concentration, AI optical DSP demand, 1.6T timing, gross margin impact, and whether custom silicon or electro-optics is driving incremental growth.",
+      "node_relation": "Supplier of PAM4 DSPs, SerDes, AEC DSPs, optical interconnect silicon, and broader data-center connectivity silicon used in AI scale-up and scale-out fabrics.",
+      "sector_or_industry": "Data infrastructure semiconductors",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "demand",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct exposure to the migration from accelerator bottlenecks toward bandwidth, power-per-bit, 800G/1.6T optics, AECs, and AI cluster interconnect efficiency.",
+      "ticker": "MRVL",
+      "why_include": "Marvell is a direct silicon supplier to the optical/AEC layer. Its 2025 OFC disclosure specifically tied 800G and 1.6T AEC DSPs to rack-scale AI server architecture, bandwidth growth, reach extension, and hyperscaler supply-chain robustness."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Credo Technology Group",
+      "confidence": 0.92,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify whether the very high fiscal 2025 customer concentration is tied to a durable hyperscaler/platform design win or a temporary ramp; track 800G/1.6T AEC attach rates, optical DSP design wins, and PILOT software adoption.",
+      "node_relation": "Supplier of SerDes/DSP technology, optical DSPs, PCIe retimers, SerDes chiplets, and HiWire active electrical cables for 100G/200G/400G/800G and emerging 1.6T data-center links.",
+      "sector_or_industry": "High-speed connectivity semiconductors and active electrical cables",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "power_per_bit",
+        "customer_concentration"
+      ],
+      "theme_relation": "Direct exposure to low-power short-reach connectivity inside AI racks and between GPU servers, switches, optical modules, and hyperscale network architectures.",
+      "ticker": "CRDO",
+      "why_include": "Credo is unusually relevant to the chokepoint because its product set sits exactly at the copper/optical boundary where AI racks need higher bandwidth, longer reach than passive copper, lower power than optics, and telemetry-managed links."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Astera Labs",
+      "confidence": 0.9,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track 2026 product mix across Aries, Taurus, Scorpio, and Leo; verify customer concentration; look for adoption in new AI accelerator platforms, Ethernet scale-out designs, and PCIe 6/CXL deployments.",
+      "node_relation": "Provider of PCIe/CXL retimers, Ethernet smart cable modules, CXL memory controllers, smart fabric switches, and software-defined connectivity management for cloud and AI infrastructure.",
+      "sector_or_industry": "AI infrastructure connectivity semiconductors",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "software_defined_fabric",
+        "hyperscaler_dependency"
+      ],
+      "theme_relation": "Direct exposure to the software-defined fabric-management and accelerator-connectivity side of AI clusters, especially where data, memory, and network bottlenecks constrain GPU utilization.",
+      "ticker": "ALAB",
+      "why_include": "Astera is a direct mapping to the node because it frames its own platform around cloud/AI connectivity bottlenecks across PCIe, Ethernet, and CXL, with COSMOS software for configuration, monitoring, optimization, and troubleshooting."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Fabrinet",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Identify key customers behind optical communications growth, confirm whether datacenter interconnect/datacom growth is AI-driven rather than telecom-only, and monitor margins/yields as 800G/1.6T complexity rises.",
+      "node_relation": "Contract manufacturer and precision optical/electro-optical manufacturing partner with large revenue exposure to optical communications, datacom, datacenter interconnect, and HPC-related products.",
+      "sector_or_industry": "Optical communications manufacturing services",
+      "serenity_tags": [
+        "second_order",
+        "manufacturing_capacity",
+        "optical_modules",
+        "customer_concentration"
+      ],
+      "theme_relation": "Second-order exposure to AI optical module and datacenter interconnect capacity: if hyperscalers ramp 800G/1.6T optics, manufacturing throughput, yield, and customer demand at optical EMS providers can become a hidden chokepoint.",
+      "ticker": "FN",
+      "why_include": "Fabrinet is less obvious than chip or switch vendors but sits in the outsourced manufacturing layer for optical communications. Its March 2026 quarter showed optical communications at 73.2% of revenue, with datacom and datacenter interconnect categories disclosed separately."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Coherent",
+      "confidence": 0.88,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check shipment mix and margin contribution from 800G versus 1.6T, customer qualification status, InP/VCSEL/EML capacity constraints, CPO timing, and whether optical circuit switching becomes commercially material.",
+      "node_relation": "Supplier of 800G/1.6T datacom transceivers, CPO-related technology, VCSELs, EMLs, silicon photonics, ICs, optical circuit switching, coherent transceivers, laser devices, isolators, and thermoelectric coolers.",
+      "sector_or_industry": "Optical components, lasers, photonics, and transceivers",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "optics",
+        "materials_components"
+      ],
+      "theme_relation": "Direct exposure to high-speed optical links and photonics components that may become bottlenecks as AI clusters scale beyond the practical limits of copper and conventional pluggable optics.",
+      "ticker": "COHR",
+      "why_include": "Coherent is a broad photonics and optical-component supplier with explicit FY2025 R&D focus on 800G/1.6T transceivers, co-packaged optics, optical circuit switching for AI/ML and hyperscale datacenters, and components that support future 3.2T/6.4T links."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Marvell announced 800G and 1.6T Alaska A PAM4 DSP demonstrations for AECs at OFC 2025; it described AECs as useful for in-rack scale-up fabrics as bandwidth increases and said 800G AEC DSP technology can provide 7-meter copper connectivity for rack-scale AI server architecture.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2025-04-01",
+      "source_title": "Marvell Extends Connectivity Leadership with AEC Ecosystem Demonstrations at OFC 2025",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-extends-connectivity-leadership-with-aec-ecosystem-demonstrations-at-ofc-2025.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "Credo's FY2025 10-K says its connectivity solutions target optical and electrical Ethernet and PCIe applications across 100G, 200G, 400G, 800G and emerging 1.6T markets; product families include ICs, AECs, and SerDes chiplets.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2025-07-02",
+      "source_title": "Credo Technology Group Holding Ltd - 10-K Annual Report - July 2, 2025",
+      "source_url": "https://fintel.io/doc/sec-credo-technology-group-holding-ltd-1807794-10k-2025-july-02-20271-9747",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Credo's FY2025 10-K describes HiWire AECs as designed for 100G, 200G, 400G, 800G and emerging 1.6T speeds, including cables up to 7 meters to enable reliable links from GPU to network switch for AI racks with liquid cooling.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2025-07-02",
+      "source_title": "Credo Technology Group Holding Ltd - 10-K Annual Report - July 2, 2025",
+      "source_url": "https://fintel.io/doc/sec-credo-technology-group-holding-ltd-1807794-10k-2025-july-02-20271-9747",
+      "ticker": "CRDO"
+    },
+    {
+      "claim": "Astera's 2025 10-K says its products include Aries PCIe/CXL Smart DSP Retimers, Taurus Ethernet Smart Cable Modules, Leo CXL Memory Connectivity Controllers, and Scorpio Smart Fabric Switches, designed to address data, network, and memory bottlenecks in cloud and AI infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-02-20",
+      "source_title": "Astera Labs, Inc. - 10-K Annual Report - February 20, 2026",
+      "source_url": "https://fintel.io/doc/sec-astera-labs-inc-1736297-10k-2026-february-20-20504-5396",
+      "ticker": "ALAB"
+    },
+    {
+      "claim": "Astera reported 2025 revenue of $852.5 million, up from $396.3 million in 2024, with the increase primarily attributed to higher demand for Aries, Scorpio, and Taurus products plus a richer mix of hardware modules and Scorpio products.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-02-20",
+      "source_title": "Astera Labs, Inc. - 10-K Annual Report - February 20, 2026",
+      "source_url": "https://fintel.io/doc/sec-astera-labs-inc-1736297-10k-2026-february-20-20504-5396",
+      "ticker": "ALAB"
+    },
+    {
+      "claim": "Fabrinet's March 2026 quarter disclosed optical communications revenue of $888.7 million, representing 73.2% of total revenue; disclosed optical categories included telecom, datacom, and datacenter interconnect.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-05-05",
+      "source_title": "Fabrinet Form 10-Q filed May 5, 2026",
+      "source_url": "https://fabrinet.gcs-web.com/static-files/5cd60ad7-3f62-428f-963e-918b711bb6aa",
+      "ticker": "FN"
+    },
+    {
+      "claim": "Fabrinet defines datacenter interconnect modules as opto-electronic modules used to connect two or more geographically separated data centers, and defines HPC products as systems built from interconnected processors, accelerators, high-speed memory, and low-latency networking.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-05-05",
+      "source_title": "Fabrinet Form 10-Q filed May 5, 2026",
+      "source_url": "https://fabrinet.gcs-web.com/static-files/5cd60ad7-3f62-428f-963e-918b711bb6aa",
+      "ticker": "FN"
+    },
+    {
+      "claim": "Coherent's FY2025 annual report says networking R&D included 800G/1.6T datacom transceivers, CPO, VCSELs, EMLs, silicon photonics, ICs, isolators, thermoelectric coolers, and components supporting future 3.2T and 6.4T links.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2025-08-20",
+      "source_title": "Coherent 2025 Annual Report",
+      "source_url": "https://www.coherent.com/content/dam/coherent/site/en/documents/investors/annual-filings/2025/coherent-annual-report-2025.pdf",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Coherent's FY2025 annual report says it is developing an optical circuit switch product family for AI/ML and hyperscale datacenters based on digital liquid-crystal technology.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2025-08-20",
+      "source_title": "Coherent 2025 Annual Report",
+      "source_url": "https://www.coherent.com/content/dam/coherent/site/en/documents/investors/annual-filings/2025/coherent-annual-report-2025.pdf",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Lumentum's FY2025 results showed Cloud & Networking revenue of $1.4108 billion, up 30.0% year over year, indicating it is also a relevant optical-networking candidate, though not selected in the top-five candidate list for this pass.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-08-12",
+      "source_title": "Lumentum Announces Fourth Quarter and Full Fiscal Year 2025 Results",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2025/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2025-Results/default.aspx",
+      "ticker": "LITE"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.92,
+      "text": "Add MRVL, CRDO, ALAB, FN, and COHR as priority US-listed candidates for the AI networking and optical-interconnect node.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.9,
+      "text": "The node should be split into sublayers for future passes: switch/NIC silicon, AEC/copper short-reach, optical DSPs, optical transceiver/component suppliers, optical manufacturing services, and fabric observability/software.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.84,
+      "text": "LITE, CIEN, APH, TEL, MTSI, ONDS/POET-class smaller photonics names, and private/foreign optical module suppliers were not fully expanded in this five-name pass and should be covered in a dedicated optics/components pass.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Customer mapping remains incomplete: hyperscaler design wins, customer concentration, and whether revenue is tied to AI training clusters, inference clusters, telecom, or general datacenter refresh need primary-source confirmation.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI networking, Ethernet/InfiniBand fabrics, switch ASICs, NICs, optics, and interconnect",
+  "node_id": "ai_networking_optical_interconnect",
+  "summary": "Expanded the US-listed universe for the AI networking and optical-interconnect node beyond the seed list. The most relevant second-order mappings are: high-speed DSP/SerDes and custom interconnect silicon, AEC copper interconnects, PCIe/CXL/Ethernet retimers and smart fabric modules, optical transceiver/component suppliers, and outsourced optical-manufacturing capacity. This is a research universe only, not a buy/sell recommendation.",
+  "theme_id": "technology"
+}

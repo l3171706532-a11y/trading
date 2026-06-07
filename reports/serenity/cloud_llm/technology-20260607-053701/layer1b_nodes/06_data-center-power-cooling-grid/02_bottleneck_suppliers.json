@@ -1,0 +1,223 @@
+{
+  "candidates": [
+    {
+      "claim_type": "hypothesis",
+      "company": "Powell Industries",
+      "confidence": 0.72,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check FY2025 10-K segment/customer disclosures, Q1/Q2 FY2026 calls, backlog mix by end market, lead times for switchgear, hyperscaler/colocation references, and capacity expansion commentary.",
+      "node_relation": "Supplier of electrical energy distribution, control, and monitoring equipment; possible beneficiary if AI data-center projects face switchgear and power-distribution bottlenecks.",
+      "sector_or_industry": "Electrical equipment / switchgear / power control systems",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "equipment_vendor",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI infrastructure buildouts require medium-voltage electrical equipment, substations, switchgear, and project-specific engineered systems before compute capacity can come online.",
+      "ticker": "POWL",
+      "why_include": "Powell reported a large backlog in its FY2025 10-K, and its product category overlaps with the electrical-chain items frequently cited as data-center bottlenecks. Direct data-center customer mix needs verification, so this remains a chokepoint hypothesis rather than a confirmed pure-play."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Modine Manufacturing",
+      "confidence": 0.86,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Quantify data-center cooling revenue, backlog, margin contribution, liquid-cooling versus air-cooling mix, customer concentration, and manufacturing capacity.",
+      "node_relation": "Provider of data-center cooling systems; directly tied to heat-removal constraints created by higher-density AI servers.",
+      "sector_or_industry": "Thermal management / data-center cooling",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "cooling",
+        "demand"
+      ],
+      "theme_relation": "AI racks increase facility power density and thermal load, pushing demand toward specialized air and liquid cooling solutions.",
+      "ticker": "MOD",
+      "why_include": "Modine’s FY2025 disclosures state that Climate Solutions growth was primarily driven by higher sales of data-center cooling and HVAC&R products, giving clearer revenue linkage to the node than many diversified industrial names."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Caterpillar",
+      "confidence": 0.84,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track power-generation backlog, large reciprocating engine capacity expansion, data-center versus oil/gas demand split, emissions permitting risk, and whether orders are backup-only or prime-power deployments.",
+      "node_relation": "Supplier of large generator sets and power-generation equipment for backup power and increasingly prime/behind-the-meter data-center power.",
+      "sector_or_industry": "Industrial power generation / engines / generator sets",
+      "serenity_tags": [
+        "infrastructure",
+        "backup_power",
+        "onsite_generation",
+        "bottleneck"
+      ],
+      "theme_relation": "When grid interconnection is slow, hyperscalers and data-center developers may procure onsite generation to shorten time-to-power.",
+      "ticker": "CAT",
+      "why_include": "Caterpillar has official and media-documented evidence that data-center demand is driving power-generation growth, including references to gigawatts of natural-gas generator sets for data centers."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Bloom Energy",
+      "confidence": 0.78,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify signed hyperscaler or colocation contracts, MW/GW backlog, deployment timing, gross margin, natural-gas/hydrogen assumptions, permitting, uptime record, and financing structure.",
+      "node_relation": "Onsite fuel-cell power supplier positioned as an alternative to waiting for grid upgrades and interconnection queues.",
+      "sector_or_industry": "Distributed power / solid-oxide fuel cells",
+      "serenity_tags": [
+        "regulated_input",
+        "onsite_generation",
+        "grid_interconnection",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI data centers seeking rapid firm power may adopt behind-the-meter generation or colocated power systems where utility timelines are too slow.",
+      "ticker": "BE",
+      "why_include": "Bloom’s own 2025 data-center power materials argue that onsite power is being adopted amid AI-related grid constraints, and its 2025 10-K references expanding AI data-center power programs. Execution, economics, fuel supply, and customer concentration require deeper diligence."
+    },
+    {
+      "claim_type": "fact",
+      "company": "EMCOR Group",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check remaining performance obligations, data-center backlog percentage, labor availability, margin sustainability, project delay exposure, and whether AI data-center work is concentrated with a few customers.",
+      "node_relation": "Mechanical/electrical contractor for complex infrastructure projects, including data-center electrical and mechanical construction.",
+      "sector_or_industry": "Electrical and mechanical construction / facilities services",
+      "serenity_tags": [
+        "infrastructure",
+        "construction_capacity",
+        "supply_chain",
+        "bottleneck"
+      ],
+      "theme_relation": "Even if equipment is available, AI data-center capacity can be constrained by skilled labor, project execution, electrical installation, mechanical systems, commissioning, and schedule risk.",
+      "ticker": "EME",
+      "why_include": "EMCOR’s FY2025 filing commentary cites significant growth in network and communications, predominantly from data-center construction contracts, tying the company to the buildout and execution layer of the node."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "IEA reported that electricity demand from data centres grew 17% in 2025 and that capex by five large technology companies exceeded $400 billion in 2025 with a further increase expected in 2026.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-05",
+      "source_title": "Data centre electricity use surged in 2025, even with tightening bottlenecks driving a scramble for solutions - IEA",
+      "source_url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+      "ticker": ""
+    },
+    {
+      "claim": "IEA states that traditional data centres commonly use 10-25 MW, while hyperscale AI centres can exceed 100 MW, supporting the time-to-power bottleneck framing.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "Artificial Intelligence - Topics - IEA",
+      "source_url": "https://www.iea.org/topics/artificial-intelligence",
+      "ticker": ""
+    },
+    {
+      "claim": "Powell Industries’ FY2025 10-K showed approximately $1.4 billion of backlog, making it a candidate for further work on engineered electrical equipment exposure.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2025-11",
+      "source_title": "Powell Industries 2025 10-K: $1.4B backlog, Remsdaq deal",
+      "source_url": "https://www.stocktitan.net/sec-filings/POWL/10-k-powell-industries-inc-files-annual-report-a88bd123464e.html",
+      "ticker": "POWL"
+    },
+    {
+      "claim": "Modine’s FY2025 10-K says Climate Solutions sales increased primarily due to higher sales of data-center cooling and HVAC&R products.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025",
+      "source_title": "Modine Manufacturing Co. FY2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000155837025008058/mod-20250331x10k.htm",
+      "ticker": "MOD"
+    },
+    {
+      "claim": "Modine’s FY2025 annual report states that its served data-center cooling markets experienced exceptionally strong growth in fiscal 2025.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05",
+      "source_title": "Modine 2025 Annual Report",
+      "source_url": "https://s205.q4cdn.com/270741342/files/doc_financials/2025/ar/Modine-2025-Annual-Report-Final.pdf",
+      "ticker": "MOD"
+    },
+    {
+      "claim": "Caterpillar said it is delivering gigawatts of natural-gas generator sets to data centers, enabling power generation to begin in less than a year from initial order.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04",
+      "source_title": "Caterpillar | The World Needs More Energy",
+      "source_url": "https://www.caterpillar.com/en/news/caterpillarNews/2026/world-needs-more-energy.html",
+      "ticker": "CAT"
+    },
+    {
+      "claim": "Caterpillar’s Q1 2026 earnings transcript stated that power generation growth is expected from increasing energy demand supporting data-center buildout related to cloud computing and generative AI.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-04",
+      "source_title": "Caterpillar Q1 2026 Earnings Call: Complete Transcript",
+      "source_url": "https://www.benzinga.com/insights/news/26/04/52171005/caterpillar-q1-2026-earnings-call-complete-transcript",
+      "ticker": "CAT"
+    },
+    {
+      "claim": "Bloom Energy’s 2025 Data Center Power Report says AI and grid constraints are pushing data centers toward onsite power as a primary energy source.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2025-06-17",
+      "source_title": "Onsite Generation Expected to Fully Power 27% of Data Center Facilities by 2030 - Bloom Energy",
+      "source_url": "https://www.bloomenergy.com/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/",
+      "ticker": "BE"
+    },
+    {
+      "claim": "Bloom Energy’s 2025 10-K references higher consulting and advisory costs related to expanding its portfolio of AI data-center power programs.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-02-09",
+      "source_title": "Bloom Energy Corporation - 10-K - Annual Report - February 9, 2026",
+      "source_url": "https://fintel.io/doc/sec-bloom-energy-corp-1664703-10k-2026-february-09-20493-6386",
+      "ticker": "BE"
+    },
+    {
+      "claim": "EMCOR’s 2025 annual report commentary says U.S. electrical construction and facilities services revenue growth was significantly driven by network and communications, predominantly from several data-center construction contracts.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-02-26",
+      "source_title": "EMCOR Group, Inc. - 10-K - Annual Report - February 26, 2026",
+      "source_url": "https://fintel.io/doc/sec-emcor-group-inc-105634-10k-2026-february-26-20510-5758",
+      "ticker": "EME"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.72,
+      "text": "Add POWL as a switchgear/electrical distribution candidate, but keep claim_type at hypothesis until data-center revenue/backlog mix is verified.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Add MOD as a direct data-center cooling candidate with stronger filing-level evidence of data-center cooling growth.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Add CAT as a backup and prime onsite generation candidate; monitor whether data-center demand is durable and whether capacity expansion catches up with backlog.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Add BE as an onsite power candidate where grid interconnection is the chokepoint; requires contract-quality and economics diligence.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Add EME as a mechanical/electrical construction capacity candidate tied to data-center execution bottlenecks.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "Next pass should test additional US-listed/ADR electrical and cooling suppliers such as NVT, SBGSY, SIEGY, CARR, JCI, GNRC, CMI, and AOSL/semiconductor power names if within node scope.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Data-center power, cooling, electrical equipment, grid interconnection, backup power, and firm energy",
+  "node_id": "data_center_power_cooling_grid",
+  "summary": "Layer 1B expansion found five US-listed candidates outside the seed set that plausibly map to AI data-center time-to-power constraints: switchgear/electrical distribution, data-center cooling, backup/prime generation, onsite fuel-cell power, and mechanical/electrical construction. Market-cap filter notes use cached web.finance outputs from 2026-06-06 UTC where available. This is research universe expansion only, not a buy/sell recommendation.",
+  "theme_id": "technology"
+}
