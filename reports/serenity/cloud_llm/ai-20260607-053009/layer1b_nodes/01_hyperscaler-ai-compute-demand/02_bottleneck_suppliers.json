@@ -1,0 +1,182 @@
+{
+  "candidates": [
+    {
+      "claim_type": "fact",
+      "company": "CoreWeave",
+      "confidence": 0.91,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify remaining performance obligations, customer concentration, contracted power, active MW, capex funding, gross margin by contract vintage, and whether large commitments convert into deployed utilization on schedule.",
+      "node_relation": "Direct supplier of rented AI compute capacity to model developers, enterprises and hyperscaler-adjacent customers.",
+      "sector_or_industry": "AI cloud infrastructure / GPU cloud",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "capacity_constraint",
+        "evidence_needed"
+      ],
+      "theme_relation": "Captures AI compute demand when customers outsource GPU cluster deployment rather than build all capacity internally.",
+      "ticker": "CRWV",
+      "why_include": "SEC filing describes CoreWeave as an AI-focused cloud platform with $5.1B of 2025 revenue and integrated advanced infrastructure/software. This is a direct public-market mapping for the node, but debt load, customer concentration, GPU availability, power procurement and utilization must be stress-tested."
+    },
+    {
+      "claim_type": "fact",
+      "company": "Nebius Group",
+      "confidence": 0.86,
+      "market_cap_filter_note": "unknown",
+      "next_evidence": "Check disclosed customer contracts, committed revenue, financing terms, GPU procurement, actual energized capacity, concentration risk, and whether contracted power sites have permitting/interconnection certainty.",
+      "node_relation": "Direct provider of AI cloud compute capacity, with active and contracted power capacity expansion across multiple geographies.",
+      "sector_or_industry": "AI cloud infrastructure / full-stack AI cloud",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "capacity_constraint",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potential beneficiary of hyperscalers and AI labs using neocloud capacity to bridge GPU, data-center and power constraints.",
+      "ticker": "NBIS",
+      "why_include": "The company’s 2025 Form 20-F states that its primary business is a full-stack AI cloud platform and discloses approximately 170 MW of active power capacity as of December 31, 2025 plus more than 2 GW of contracted power after announced footprint expansion. This directly maps to AI compute capacity scarcity."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Comfort Systems USA",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Break down backlog by data centers versus other technology work, electrical versus mechanical margin, customer concentration, labor availability, cancellation clauses, and percentage of backlog expected to convert within 12 months.",
+      "node_relation": "Second-order deployment enabler for AI data centers through mechanical/electrical systems, prefabrication, piping, controls and service work.",
+      "sector_or_industry": "Mechanical, electrical and modular construction services",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "infrastructure",
+        "backlog",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI capex is constrained by the ability to build and energize facilities, specialty contractors with data-center exposure can become bottleneck suppliers.",
+      "ticker": "FIX",
+      "why_include": "The 2025 10-K reports backlog of $11.94B as of December 31, 2025, nearly double the prior year, and states demand was especially strong in the technology sector, particularly data centers. The relation is strong but still needs confirmation of AI-specific mix and profitability."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Modine Manufacturing",
+      "confidence": 0.8,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Quantify data-center revenue, hyperscaler versus colocation exposure, liquid-cooling mix, backlog, capacity additions, competitive position versus Vertiv/Eaton/nVent, and whether margins reflect scarce-supplier economics.",
+      "node_relation": "Supplier of data-center cooling products including air and liquid cooling components needed for high-density AI clusters.",
+      "sector_or_industry": "Thermal management / data-center cooling",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "cooling",
+        "components",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI racks raise heat density, shifting deployment constraints toward liquid cooling, chillers, CDUs and integrated thermal systems.",
+      "ticker": "MOD",
+      "why_include": "Modine’s 2025 annual report describes data-center cooling solutions including air- and liquid-cooled chillers, CRAC/CRAH units, fan walls and CDUs, and says fiscal 2025 data-center cooling markets experienced exceptionally strong growth. This maps to the cooling constraint around AI cluster density."
+    },
+    {
+      "claim_type": "hypothesis",
+      "company": "Bloom Energy",
+      "confidence": 0.74,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify signed AI data-center contracts, MW backlog, deployment timelines, financing structures, fuel supply, interconnection/permitting requirements, customer concentration, and whether gross margins improve as production capacity scales.",
+      "node_relation": "Potential provider of fast-to-deploy onsite power for data centers when grid interconnection is a bottleneck.",
+      "sector_or_industry": "Distributed onsite power / fuel cells",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "regulated_input",
+        "power",
+        "evidence_needed"
+      ],
+      "theme_relation": "If hyperscaler and AI-cloud deployment is delayed by utility power availability, modular onsite generation becomes a workaround or bridge capacity.",
+      "ticker": "BE",
+      "why_include": "Bloom’s 2026 filings and investor materials explicitly discuss AI data-center customers, onsite power and energy constraints. The chokepoint relevance is high, but the thesis depends on execution, financing, fuel economics, emissions/permitting constraints and whether hyperscalers adopt fuel cells at large scale."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "CoreWeave’s 2025 Form 10-K says the company is an AI-focused cloud platform and reports revenue of $5.1B for the year ended December 31, 2025.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-03-02",
+      "source_title": "CoreWeave 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001769628/000176962826000104/crwv-20251231.htm",
+      "ticker": "CRWV"
+    },
+    {
+      "claim": "Nebius Group’s 2025 Form 20-F states that its primary business is a full-stack AI cloud platform and discloses approximately 170 MW of active power capacity as of December 31, 2025, with later expansion bringing total contracted power to more than 2 GW.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "Nebius Group N.V. 2025 Form 20-F",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm",
+      "ticker": "NBIS"
+    },
+    {
+      "claim": "Comfort Systems USA’s 2025 Form 10-K reports backlog of $11.94B as of December 31, 2025 and says demand was especially strong in the technology sector, particularly data centers.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-02",
+      "source_title": "Comfort Systems USA 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001035983/000110465926017530/fix-20251231x10k.htm",
+      "ticker": "FIX"
+    },
+    {
+      "claim": "Modine’s 2025 Form 10-K describes data-center cooling solutions including air- and liquid-cooled chillers, CRAC/CRAH units, fan walls and CDUs; it also says Climate Solutions sales growth was primarily driven by higher sales of data-center cooling and HVAC&R products.",
+      "claim_type": "fact",
+      "confidence": 0.89,
+      "published_at": "2025",
+      "source_title": "Modine Manufacturing 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000155837025008058/mod-20250331x10k.htm",
+      "ticker": "MOD"
+    },
+    {
+      "claim": "Bloom Energy’s March 2026 SEC filing states that onsite power needs have expanded its customer base to include AI data-center customers and says the company is expanding Fremont annual production capacity from 1 GW to 2 GW, expected by the end of 2026.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03-27",
+      "source_title": "Bloom Energy SEC filing dated March 27, 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001664703/000162828026021732/be-20260327.htm",
+      "ticker": "BE"
+    },
+    {
+      "claim": "Bloom Energy’s 2025 10-K includes forward-looking statements about its ability to be successful in the AI data-center market, AI adoption, demand for data centers and onsite power competitive position.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-02-09",
+      "source_title": "Bloom Energy Corporation 2025 Form 10-K",
+      "source_url": "https://fintel.io/doc/sec-bloom-energy-corp-1664703-10k-2026-february-09-20493-6386",
+      "ticker": "BE"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.88,
+      "text": "CRWV and NBIS are direct public AI-cloud capacity plays for the hyperscaler/AI compute-demand node; monitor customer concentration, contracted power, funding and utilization rather than treating revenue growth alone as proof of bottleneck capture.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "FIX and MOD are second-order infrastructure suppliers tied to the physical conversion of AI capex into deployable clusters; backlog, data-center mix and margin resilience are the key evidence gates.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.74,
+      "text": "BE is a higher-risk chokepoint candidate because onsite power is highly relevant to grid-constrained AI data centers, but commercial adoption, permitting, financing and fuel economics need stronger validation.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.77,
+      "text": "Additional names for later passes: Powell Industries, nVent, Bel Fuse, Bloom-adjacent electrical integrators, transformer/switchgear vendors, data-center REITs, colocation providers, and private neoclouds such as Lambda where public-market mappings are indirect.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Hyperscaler, AI cloud and sovereign AI compute demand",
+  "node_id": "hyperscaler_ai_compute_demand",
+  "summary": "Expanded the universe around scarce capacity and deployment bottlenecks for hyperscaler, AI-cloud and sovereign compute demand. The strongest incremental candidates are direct AI-cloud capacity providers and second-order physical-infrastructure suppliers tied to power, cooling, mechanical/electrical construction and onsite generation. This pass intentionally avoids buy/sell conclusions and treats each name as a research candidate requiring customer, backlog, margin and deployment-timing verification.",
+  "theme_id": "ai"
+}

@@ -1,6 +1,6 @@
 # Serenity Skill Repository Digest
 
-Generated: 2026-06-06 14:27:29 UTC
+Generated: 2026-06-07 05:30:09 UTC
 
 Purpose: provide cached methodology context for cloud-side Serenity / chokepoint research runs.
 
@@ -1877,7 +1877,7 @@ This repo packages his public work into one self-contained research artifact:
 **period-by-period distillation**, and a ready-to-use **agent skill** that
 applies his analytical lens to US-stock ideas.
 
-Built from **5,828 tweets** spanning **2025-07-02 → 2026-06-06** plus **4 X
+Built from **5,840 tweets** spanning **2025-07-02 → 2026-06-07** plus **4 X
 Articles** published in **2026-01 → 2026-05**.
 
 > ⚠️ **Not financial advice. Decision-support only.** This skill never trades and
@@ -1980,7 +1980,7 @@ description: >
 > back to the cached copy — and if you do, say explicitly that the data may be
 > stale.
 
-A reusable analytical lens distilled from **5,828 tweets (2025-07 to 2026-06)
+A reusable analytical lens distilled from **5,840 tweets (2025-07 to 2026-06)
 plus 4 long-form X Articles (2026-01 to 2026-05)** by **Serenity /
 [@aleabitoreddit](https://x.com/aleabitoreddit)** — an AI-and-semiconductor
 *supply-chain* analyst and trader (~500k followers, ~40k subscribers, ex-Reddit/WSB). Use it to
@@ -2234,13 +2234,13 @@ dated example from the corpus. A runnable checklist is at the bottom.
 ### yan_labs_serenity_archive / data/ticker_stats.txt
 
 ```text
-Total tweets: 5833
+Total tweets: 5843
 Distinct $tickers: 669
 
 ticker  mentions  first_seen  last_seen
 NBIS        690   2025-07-21  2026-06-03
-SIVE        569   2025-12-23  2026-06-06
-AXTI        540   2025-12-22  2026-05-31
+SIVE        570   2025-12-23  2026-06-07
+AXTI        541   2025-12-22  2026-06-07
 NVDA        515   2025-07-28  2026-06-06
 LITE        509   2025-10-25  2026-06-04
 IREN        442   2025-08-31  2026-06-03
@@ -2249,25 +2249,25 @@ GOOGL       351   2025-07-03  2026-06-05
 MSFT        338   2025-07-28  2026-06-01
 META        315   2025-07-28  2026-06-04
 AMZN        290   2025-07-28  2026-06-05
-TSM         285   2025-09-09  2026-06-05
+TSM         286   2025-09-09  2026-06-07
 COHR        280   2025-12-01  2026-06-03
 MRVL        269   2025-08-25  2026-06-06
 CIFR        210   2025-09-03  2026-06-01
 CRWV        201   2025-07-21  2026-06-03
-AVGO        191   2025-09-09  2026-06-04
+AVGO        192   2025-09-09  2026-06-07
 HOOD        191   2025-07-02  2026-06-04
 MU          183   2025-09-25  2026-06-05
 RKLB        179   2025-07-03  2026-05-25
 SOI         174   2026-03-11  2026-06-05
-IQE         165   2026-01-18  2026-06-04
+IQE         166   2026-01-18  2026-06-07
 SNDK        164   2025-11-25  2026-06-01
 TSEM        152   2026-02-11  2026-06-06
-INTC        146   2025-09-23  2026-06-03
+INTC        147   2025-09-23  2026-06-07
 ORCL        143   2025-09-10  2026-05-28
 POET        143   2025-12-11  2026-06-03
 RDDT        141   2025-09-14  2026-06-06
 HIMS        137   2025-07-07  2026-05-30
-AMD         134   2025-09-11  2026-06-03
+AMD         135   2025-09-11  2026-06-07
 AEHR        125   2026-01-16  2026-06-02
 JBL         122   2025-12-01  2026-06-05
 WULF        115   2025-09-03  2026-06-01
@@ -2277,7 +2277,7 @@ EWY          99   2026-01-25  2026-06-03
 ALAB         97   2025-07-21  2026-04-19
 MTSI         87   2026-01-10  2026-06-04
 SMCI         87   2025-09-09  2026-05-26
-RPI          85   2026-02-16  2026-06-05
+RPI          86   2026-02-16  2026-06-07
 CRDO         81   2025-07-21  2026-03-20
 SNAP         79   2025-08-23  2026-05-30
 VLN          72   2026-01-09  2026-05-13
@@ -2401,6 +2401,7 @@ FIG          11   2025-09-16  2026-05-30
 GRAB         11   2025-09-24  2025-10-18
 KEYS         11   2026-03-17  2026-04-30
 VCX          11   2026-03-25  2026-05-17
+AMAT         10   2026-01-24  2026-06-07
 ASHM         10   2026-01-03  2026-01-12
 DGXX         10   2025-10-29  2026-05-17
 GDRZF        10   2026-01-04  2026-05-23
@@ -2411,7 +2412,6 @@ NET          10   2025-10-13  2026-02-27
 OPEN         10   2025-07-23  2025-10-25
 POWL         10   2026-04-09  2026-05-24
 USAR         10   2026-01-26  2026-04-04
-AMAT          9   2026-01-24  2026-05-14
 APH           9   2026-01-23  2026-05-30
 CIEN          9   2026-01-06  2026-04-08
 FLKR          9   2026-01-25  2026-02-27

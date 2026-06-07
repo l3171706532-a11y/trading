@@ -1,0 +1,323 @@
+{
+  "evidence": [
+    {
+      "claim": "AI/data-center load growth is a durable demand driver for U.S. electricity infrastructure, with cached Layer 2 evidence from EIA, NERC, FERC, and PJM indicating rising electricity demand, reliability concerns, and large-load policy proceedings.",
+      "claim_type": "fact",
+      "source_note": "Provided cached Layer 2 evidence",
+      "source_urls": [
+        "https://www.eia.gov/todayinenergy/detail.php?id=65844",
+        "https://www.eia.gov/todayinenergy/detail.php?id=67344",
+        "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf",
+        "https://ferc.gov/news-events/news/ferc-orders-action-co-location-issues-related-data-centers-running-ai",
+        "https://insidelines.pjm.com/pjm-files-price-collar-expedited-interconnection-as-part-of-large-load-plan/"
+      ]
+    },
+    {
+      "claim": "Transformer, switchgear, substation, EPC labor, gas-turbine, and interconnection constraints are treated as higher-priority Serenity bottlenecks than broad demand-side data-center ownership because they can gate much larger downstream capex.",
+      "claim_type": "inference",
+      "source_note": "Inferred from provided Layer 2 bottleneck framework and cached evidence on transformer deficits, PJM capacity shortfall, and GE Vernova gas-power backlog.",
+      "source_urls": [
+        "https://pv-magazine-usa.com/2025/08/14/grid-transformers-face-significant-supply-deficits-says-wood-mackenzie/",
+        "https://services.pjm.com/annualreport2025/markets/",
+        "https://www.gevernova.com/sites/default/files/gev_webcast_pressrelease_04222026.pdf"
+      ]
+    },
+    {
+      "claim": "Powell Industries received the highest Layer 3 priority because the candidate chunk maps it directly to custom-engineered power distribution, control, and switchgear, and cached evidence noted approximately $1.4 billion of backlog as of September 30, 2025.",
+      "claim_type": "fact",
+      "source_note": "Provided cached Layer 2 evidence",
+      "source_urls": [
+        "https://www.stocktitan.net/sec-filings/POWL/10-k-powell-industries-inc-files-annual-report-a88bd123464e.html"
+      ]
+    }
+  ],
+  "layer": 3,
+  "memory_update": [
+    {
+      "content": "For the Energy / AI data-center power theme, prioritize public companies closest to physical power-delivery chokepoints: switchgear, transformers, substations, grid EPC, mission-critical electrical/mechanical construction, gas turbines, and dispatchable firm power.",
+      "type": "ranking_rule"
+    },
+    {
+      "content": "Current Layer 3 priority order for this chunk: POWL, HUBB, PWR, GEV, FIX, EME, STRL, ETN, IESC, VST, NVT, D, CMI, EQIX, DLR.",
+      "type": "candidate_priority"
+    },
+    {
+      "content": "For top candidates, track backlog, book-to-bill, lead times, order mix, data-center/utility exposure, margin durability, capacity additions, cancellations, labor availability, and regulatory/rate-case outcomes.",
+      "type": "falsification_plan"
+    }
+  ],
+  "ranked_candidates": [
+    {
+      "company": "Powell Industries",
+      "main_evidence_gap": "Need current segment-level backlog, book-to-bill, gross margin sustainability, data-center versus industrial mix, delivery lead times, and evidence that pricing power persists rather than normalizes as capacity expands.",
+      "rank": 1,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 5,
+        "mispricing_potential": 4,
+        "public_market_purity": 5,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4
+      },
+      "ticker": "POWL",
+      "total_score": 36,
+      "why_prioritized": "Powell maps directly to engineered electrical distribution, control, and switchgear, which sit near the physical power-delivery bottleneck for data centers, industrial electrification, substations, and grid infrastructure. The Serenity priority is high because the company is relatively pure to custom electrical infrastructure and backlog/lead-time evidence can quickly validate or falsify the thesis."
+    },
+    {
+      "company": "Hubbell",
+      "main_evidence_gap": "Need latest utility T&D order growth, backlog, margin bridge, transformer/substation component exposure, data-center-adjacent revenue mix, and customer concentration or utility procurement-cycle sensitivity.",
+      "rank": 2,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 5,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4
+      },
+      "ticker": "HUBB",
+      "total_score": 34,
+      "why_prioritized": "Hubbell has strong exposure to utility grid infrastructure, substations, grid hardening, and electrical solutions needed for load growth. It ranks highly because the demand driver is durable and tied to utility capex, but public-market purity is slightly lower than Powell due to broader electrical-product diversification."
+    },
+    {
+      "company": "Quanta Services",
+      "main_evidence_gap": "Need current backlog mix, data-center and utility grid capex exposure, transmission versus distribution margins, labor availability, project timing, and whether large-load acceleration is visible in awards rather than only in narrative.",
+      "rank": 3,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 5,
+        "evidence_quality": 3,
+        "falsifiability": 5,
+        "mispricing_potential": 4,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4
+      },
+      "ticker": "PWR",
+      "total_score": 34,
+      "why_prioritized": "Quanta is a key public-market mapping to transmission, distribution, substation, and utility infrastructure execution capacity. In Serenity terms, grid EPC and specialty labor are bottleneck layers because equipment availability alone does not create energized load without permitting, field execution, and interconnection work."
+    },
+    {
+      "company": "GE Vernova",
+      "main_evidence_gap": "Need updated gas-turbine slot availability, pricing, cancellation risk, grid-equipment margins, renewables drag, warranty exposure, and proof that AI/data-center load translates into profitable conversion rather than only order intake.",
+      "rank": 4,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 5,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 5
+      },
+      "ticker": "GEV",
+      "total_score": 34,
+      "why_prioritized": "GE Vernova is central to two high-severity chokepoints: gas-turbine equipment for dispatchable generation and electrification/grid equipment. Cached evidence notes growth in Gas Power backlog and slot reservation agreements, plus data-center-supporting Electrification orders, making it a high-priority evidence trail despite broader business complexity."
+    },
+    {
+      "company": "Comfort Systems USA",
+      "main_evidence_gap": "Need current backlog by end market, mission-critical and data-center revenue share, margin durability, labor constraints, customer concentration, modular capacity utilization, and whether growth is from new awards or pull-forward.",
+      "rank": 5,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4
+      },
+      "ticker": "FIX",
+      "total_score": 33,
+      "why_prioritized": "Comfort Systems is prioritized as a mission-critical mechanical, electrical, plumbing, and modular construction capacity play. Skilled execution is a real-world bottleneck for turning permitted and powered data-center projects into operational capacity, and project backlog and margin data provide concrete falsification signals."
+    },
+    {
+      "company": "EMCOR Group",
+      "main_evidence_gap": "Need latest backlog composition, data-center and high-tech manufacturing exposure, electrical versus mechanical contribution, labor inflation, project execution risk, and margin normalization indicators.",
+      "rank": 6,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4
+      },
+      "ticker": "EME",
+      "total_score": 32,
+      "why_prioritized": "EMCOR provides electrical and mechanical construction, specialty contracting, and facilities services. It ranks near Comfort Systems because data-center and grid-related buildout requires complex project execution, but its broader facilities and construction base slightly reduces purity."
+    },
+    {
+      "company": "Sterling Infrastructure",
+      "main_evidence_gap": "Need updated E-Infrastructure backlog, hyperscale customer exposure, electrical/mechanical service depth, project duration, geographic concentration, permitting dependency, and margin sustainability.",
+      "rank": 7,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 5,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4
+      },
+      "ticker": "STRL",
+      "total_score": 32,
+      "why_prioritized": "Sterling maps to pre-interconnection and campus-level site development for large data-center and industrial projects. It is prioritized because site readiness, electrical/mechanical work, and civil infrastructure can become gating items before grid connection or load ramp."
+    },
+    {
+      "company": "Eaton",
+      "main_evidence_gap": "Need current electrical backlog, data-center order growth, switchgear lead times, capacity-expansion timing, segment margins, and whether hyperscale demand is incremental versus already embedded in expectations.",
+      "rank": 8,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 5,
+        "evidence_quality": 3,
+        "falsifiability": 5,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4
+      },
+      "ticker": "ETN",
+      "total_score": 32,
+      "why_prioritized": "Eaton is a broad electrical-equipment and power-management candidate tied to data-center power distribution, switchgear, grid infrastructure, and facility power management. It scores strongly on bottleneck relevance but lower on purity because the company is diversified and the provided candidate chunk marks the evidence as still requiring validation."
+    },
+    {
+      "company": "IES Holdings",
+      "main_evidence_gap": "Need end-market disclosure, project awards, data-center revenue share, backlog conversion, margin by segment, labor availability, and customer concentration.",
+      "rank": 9,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 4,
+        "risk_clarity": 3,
+        "supplier_scarcity": 4
+      },
+      "ticker": "IESC",
+      "total_score": 30,
+      "why_prioritized": "IES Holdings is a specialized electrical and technology systems contractor that could benefit from high-density data-center electrical installation needs. It has attractive chokepoint logic but needs stronger evidence on actual data-center mix, backlog quality, and whether execution capacity is scarce enough to sustain margins."
+    },
+    {
+      "company": "Vistra",
+      "main_evidence_gap": "Need region-level capacity-market exposure, data-center PPA or bilateral contract evidence, nuclear/gas fleet availability, hedge book sensitivity, regulatory constraints, and clarity on whether incremental value accrues to shareholders or is competed/regluated away.",
+      "rank": 10,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 5,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 4,
+        "risk_clarity": 3,
+        "supplier_scarcity": 3
+      },
+      "ticker": "VST",
+      "total_score": 30,
+      "why_prioritized": "Vistra is a firm-power and dispatchable-generation mapping. It benefits conceptually if AI/data-center load increases scarcity value for reliable generation in constrained markets, including nuclear and gas assets. It ranks below equipment and EPC bottlenecks because commodity power pricing, regulation, hedging, and market design add complexity."
+    },
+    {
+      "company": "nVent Electric",
+      "main_evidence_gap": "Need data-center and utility revenue mix, order growth, backlog, enclosure and connection-product lead times, competitive differentiation, and margin evidence tied specifically to power infrastructure.",
+      "rank": 11,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "NVT",
+      "total_score": 29,
+      "why_prioritized": "nVent has relevant exposure to electrical connection, protection, enclosures, power utilities, and data-center infrastructure. It is a good component-level mapping, but Serenity priority is lower than switchgear, EPC, and gas-turbine names because component scarcity and pricing power need more validation."
+    },
+    {
+      "company": "Dominion Energy",
+      "main_evidence_gap": "Need latest Virginia load forecast, data-center interconnection queue, approved versus requested capex, rate-case outcomes, allowed ROE, customer cost-allocation decisions, and generation/transmission deliverability timelines.",
+      "rank": 12,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2
+      },
+      "ticker": "D",
+      "total_score": 28,
+      "why_prioritized": "Dominion is a regulated-utility expression of Northern Virginia data-center load growth and PJM large-load constraints. It has strong demand durability, but the bottleneck economics are mediated by regulation, rate cases, cost allocation, capital structure, and customer affordability."
+    },
+    {
+      "company": "Cummins",
+      "main_evidence_gap": "Need power-systems backlog, data-center generator revenue share, lead times, emissions/permitting constraints, margin contribution, and evidence that on-site or backup power demand is accelerating beyond cyclical engine demand.",
+      "rank": 13,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "CMI",
+      "total_score": 27,
+      "why_prioritized": "Cummins has relevant exposure to backup and on-site power systems for mission-critical facilities, including data centers. It ranks lower because the company is diversified and backup generation may be a necessary dependency but not always the hardest or most scarce chokepoint versus grid equipment, interconnection, and turbine capacity."
+    },
+    {
+      "company": "Equinix",
+      "main_evidence_gap": "Need powered capacity additions, xScale leasing, power procurement constraints, return on invested capital for AI-related capacity, occupancy, pricing, and whether interconnection advantages offset power scarcity.",
+      "rank": 14,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 2,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "EQIX",
+      "total_score": 29,
+      "why_prioritized": "Equinix is a high-quality demand-side mapping to data-center capacity, interconnection, and power availability. However, Serenity ranking favors upstream bottleneck suppliers over data-center asset owners because EQIX may be constrained by power access rather than directly controlling the scarce equipment or construction chokepoints."
+    },
+    {
+      "company": "Digital Realty Trust",
+      "main_evidence_gap": "Need preleasing, powered-shell delivery timing, development yields, capex funding cost, power availability by market, AI workload mix, and whether hyperscale pricing offsets higher power and construction costs.",
+      "rank": 15,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 2,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "DLR",
+      "total_score": 29,
+      "why_prioritized": "Digital Realty is a direct data-center capacity and hyperscale-demand mapping, but it ranks last in this chunk because the Serenity method prioritizes suppliers controlling bottleneck layers over asset owners exposed to the bottleneck. DLR benefits from demand but may also face power, interconnection, financing, and construction constraints."
+    }
+  ],
+  "summary": "Layer 3 ranking prioritizes companies closest to hard-to-bypass power-delivery, grid-equipment, mission-critical construction, and dispatchable-power bottlenecks created by AI/data-center load growth. Highest-priority candidates combine durable demand, physical chokepoint exposure, relatively pure public-market mapping, and clear falsification through backlog, book-to-bill, lead times, project awards, and utility/data-center capex disclosures. This is research prioritization only, not a buy/sell recommendation.",
+  "theme_id": "energy_ai_data_center_power_chokepoints"
+}

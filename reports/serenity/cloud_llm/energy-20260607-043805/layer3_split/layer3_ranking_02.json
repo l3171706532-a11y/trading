@@ -1,0 +1,369 @@
+{
+  "evidence": [
+    {
+      "claim": "NERC's 2025 Long-Term Reliability Assessment states that new AI and digital-economy data centers account for most of the projected increase in North American electricity demand over the next 10 years, with Texas, PJM, and WECC reporting steep increases from data centers and large loads.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "note": "Provided in cached Layer 2 evidence.",
+      "source_title": "2025 Long-Term Reliability Assessment",
+      "source_url": "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf",
+      "used_for": [
+        "demand_durability",
+        "firm_power_priority",
+        "regulated_utility_relevance"
+      ]
+    },
+    {
+      "claim": "EIA's high-demand scenario assumes faster data-center-driven load growth, with natural gas as the primary incremental source of available power generation and a modeled 79% higher 2027 ERCOT wholesale price versus the February 2026 STEO baseline.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "note": "Provided in cached Layer 2 evidence.",
+      "source_title": "Fossil generation could rise with faster-than-expected growth in data center power demand",
+      "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=67344",
+      "used_for": [
+        "natural_gas_midstream_relevance",
+        "firm_power_scarcity",
+        "mispricing_checks"
+      ]
+    },
+    {
+      "claim": "EIA forecast natural gas consumption for power generation to reach a summer record in 2027, citing new data centers and large manufacturing facilities, particularly in Texas and Virginia, as drivers of commercial demand.",
+      "claim_type": "fact",
+      "confidence": 0.89,
+      "note": "Provided in cached Layer 2 evidence.",
+      "source_title": "Natural gas for power generation flat this summer, record high expected in 2027",
+      "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=67725",
+      "used_for": [
+        "midstream_gas_scoring",
+        "gas_power_demand_durability"
+      ]
+    },
+    {
+      "claim": "PJM's 2025 annual report states that the 2027/2028 Base Residual Auction fell short of PJM's Reliability Requirement by 6,517 MW, the first such shortfall since the auction was created in 2007, as forecasted demand growth outpaced new generation resources.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "note": "Provided in cached Layer 2 evidence.",
+      "source_title": "Markets - PJM Annual Report 2025",
+      "source_url": "https://services.pjm.com/annualreport2025/markets/",
+      "used_for": [
+        "firm_capacity_bottleneck",
+        "regulated_generation_relevance",
+        "large_load_policy_risk"
+      ]
+    },
+    {
+      "claim": "FERC launched a review of co-location issues involving AI-enabled data centers and generating facilities in PJM, focusing on tariff clarity, reliability, and fair consumer cost allocation.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "note": "Provided in cached Layer 2 evidence.",
+      "source_title": "FERC Orders Action on Co-Location Issues Related to Data Centers Running AI",
+      "source_url": "https://ferc.gov/news-events/news/ferc-orders-action-co-location-issues-related-data-centers-running-ai",
+      "used_for": [
+        "risk_clarity",
+        "falsifiability",
+        "utility_and_generator_policy_risk"
+      ]
+    },
+    {
+      "claim": "PJM filed proposals in February 2026 to extend a capacity-auction price collar and create an expedited interconnection track for qualifying new generation as part of a large-load plan driven largely by data-center growth.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "note": "Provided in cached Layer 2 evidence.",
+      "source_title": "PJM Files Price Collar, Expedited Interconnection as Part of Large Load Plan",
+      "source_url": "https://insidelines.pjm.com/pjm-files-price-collar-expedited-interconnection-as-part-of-large-load-plan/",
+      "used_for": [
+        "policy_catalysts",
+        "firm_power_and_grid_falsifiability"
+      ]
+    },
+    {
+      "claim": "Nuclear restart, uprate, and long-term clean-power contracts with hyperscalers could reprice firm low-carbon power scarcity, but execution depends on regulatory, operational, and fuel-cycle constraints.",
+      "claim_type": "hypothesis",
+      "confidence": 0.65,
+      "note": "Provided in cached Layer 2 catalysts; treated as hypothesis requiring company-specific validation.",
+      "source_title": "Cached Layer 2 catalyst set",
+      "source_url": "provided_cached_evidence",
+      "used_for": [
+        "CEG",
+        "LEU",
+        "BWXT",
+        "CCJ"
+      ]
+    }
+  ],
+  "layer": 3,
+  "memory_update": [
+    {
+      "content": "CEG appeared twice in the candidate chunk; active ranking keeps only the substantive Constellation Energy candidate and excludes the dedupe_note row.",
+      "type": "deduplication"
+    },
+    {
+      "content": "For this Energy funnel, prioritize hard-to-bypass firm-power, nuclear fuel-cycle, and scarce infrastructure exposures over generic renewable generation or broad midstream exposure unless project-level contract/interconnection evidence upgrades the latter.",
+      "type": "ranking_rule"
+    },
+    {
+      "content": "Next evidence pass should validate CEG large-load PPAs or co-location contracts, LEU HALEU production and DOE milestones, BWXT commercial nuclear exposure, CCJ fuel-cycle contract economics, and SO/PCG rate-case or IRP filings tied to load growth.",
+      "type": "watchlist_focus"
+    },
+    {
+      "content": "Main falsifiers: AI/data-center load forecasts soften; FERC/PJM/state cost-allocation rules limit private capture of scarcity rents; nuclear restart/uprate or HALEU timelines slip; gas generation additions reduce firm-power scarcity; renewable/storage/interconnection solutions reduce bottleneck severity.",
+      "type": "risk_frame"
+    }
+  ],
+  "ranked_candidates": [
+    {
+      "company": "Constellation Energy",
+      "main_evidence_gap": "Need company-specific validation of incremental large-load contracts, contract duration/pricing, nuclear uprate or restart economics, customer concentration, and whether market expectations already fully price firm-power scarcity.",
+      "rank": 1,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 5,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 5,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4
+      },
+      "ticker": "CEG",
+      "total_score": 34,
+      "why_prioritized": "Hypothesis: CEG is the cleanest public-market mapping in this chunk to scarce firm, carbon-free power if hyperscalers and large loads increasingly sign long-duration nuclear or clean-power contracts. Nuclear generation is hard to replicate quickly, has high regulatory and operating barriers, and aligns with cached evidence that AI/data-center load is driving reliability and firm-capacity concerns."
+    },
+    {
+      "company": "Centrus Energy",
+      "main_evidence_gap": "Need updated contract backlog, HALEU production scale, DOE funding milestones, regulatory status, margin structure, customer commitments, and proof that commercial demand is not merely policy-option value.",
+      "rank": 2,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 4,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 4,
+        "risk_clarity": 3,
+        "supplier_scarcity": 5
+      },
+      "ticker": "LEU",
+      "total_score": 33,
+      "why_prioritized": "Fact/inference: LEU maps directly to uranium enrichment and HALEU, a potential upstream nuclear-fuel chokepoint. Serenity priority is high because fuel-cycle scarcity may be harder to bypass than generic nuclear-generation exposure, especially if advanced reactor and strategic nuclear-fuel policies continue to require domestic or allied supply."
+    },
+    {
+      "company": "BWX Technologies",
+      "main_evidence_gap": "Need segmentation of defense versus commercial nuclear exposure, advanced-reactor revenue visibility, fuel-fabrication capacity, customer contracts, and evidence that incremental AI/data-center power demand translates into BWXT-specific orders.",
+      "rank": 3,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 5
+      },
+      "ticker": "BWXT",
+      "total_score": 32,
+      "why_prioritized": "Hypothesis: BWXT has scarce nuclear engineering, fuel, component, and defense-nuclear capabilities that could matter if nuclear supply chains become strategic bottlenecks. It ranks below LEU because its direct commercial AI-load linkage and commercial SMR/HALEU revenue conversion need more validation."
+    },
+    {
+      "company": "Cameco",
+      "main_evidence_gap": "Need current contracting cycle data, realized pricing versus spot/term uranium prices, production ramp risks, conversion/enrichment exposure, and evidence that nuclear fuel scarcity is not already reflected in valuation.",
+      "rank": 4,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4
+      },
+      "ticker": "CCJ",
+      "total_score": 30,
+      "why_prioritized": "Hypothesis: CCJ is a relatively pure public-market mapping to uranium and broader nuclear-fuel-cycle tightness. It benefits if nuclear generation and fuel security become more durable themes, though its link to near-term data-center power scarcity is less direct than CEG or LEU."
+    },
+    {
+      "company": "Southern Company",
+      "main_evidence_gap": "Need IRP updates, state commission filings, data-center load forecasts by service territory, rate-base growth evidence, allowed returns, nuclear operating performance, and customer cost-allocation outcomes.",
+      "rank": 5,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "SO",
+      "total_score": 28,
+      "why_prioritized": "Hypothesis: SO has exposure to Southeast load growth, regulated generation, grid investment, and nuclear baseload. It is relevant because data-center and industrial load growth may raise the value of regulated firm power and grid capex, but its public-market purity is diluted by regulated-utility economics and cost-allocation constraints."
+    },
+    {
+      "company": "PG&E",
+      "main_evidence_gap": "Need rate-case evidence, wildfire liability trajectory, data-center and electrification load forecasts, T&D capex approval visibility, equity financing needs, and proof of incremental returns rather than merely higher system costs.",
+      "rank": 6,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2
+      },
+      "ticker": "PCG",
+      "total_score": 26,
+      "why_prioritized": "Hypothesis: PCG offers regulated-grid capex exposure to electrification, transmission/distribution hardening, and California load needs. It is a research candidate, but Serenity priority is capped by wildfire liabilities, regulatory complexity, and less direct exposure to AI-load-specific bottlenecks."
+    },
+    {
+      "company": "Williams Companies",
+      "main_evidence_gap": "Need regional pipeline constraint evidence, contracted expansions, power-plant interconnect demand, data-center-adjacent gas load, FERC pipeline approvals, and spread/utilization evidence.",
+      "rank": 7,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "WMB",
+      "total_score": 28,
+      "why_prioritized": "Hypothesis: WMB maps to natural-gas transmission, which can become a regional chokepoint if gas-fired generation expands to support AI/data-center load. It scores well on public-market purity to gas transport but needs project-level evidence tying its footprint to incremental power demand."
+    },
+    {
+      "company": "Energy Transfer",
+      "main_evidence_gap": "Need segment-level sensitivity to power-generation gas demand, contracted pipeline expansions, regional basis constraints, LNG/feedgas linkage, and capex return visibility.",
+      "rank": 8,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "ET",
+      "total_score": 27,
+      "why_prioritized": "Hypothesis: ET could benefit if gas-fired generation, LNG feedgas, and regional transport constraints increase midstream utilization and expansion needs. It ranks below WMB because its business mix is broader and the AI-load-to-cash-flow mapping is less pure without asset-specific evidence."
+    },
+    {
+      "company": "Cheniere Energy",
+      "main_evidence_gap": "Need evidence that LNG export growth tightens domestic gas supply for power generation or creates company-specific contract upside, plus capacity expansion, permitting, and utilization data.",
+      "rank": 9,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 2,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "LNG",
+      "total_score": 27,
+      "why_prioritized": "Hypothesis: LNG is a pure mapping to liquefaction/export infrastructure and global gas demand, but Serenity relevance to the AI-load power bottleneck is indirect. It matters more if LNG export capacity, feedgas, or permitting constraints create durable pricing power."
+    },
+    {
+      "company": "NextEra Energy",
+      "main_evidence_gap": "Need interconnection-ready project backlog, hyperscaler PPAs, storage economics, grid-equipment availability, utility rate-case evidence, and proof that renewable/storage growth captures scarcity economics rather than commodity development margins.",
+      "rank": 10,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 2,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 2
+      },
+      "ticker": "NEE",
+      "total_score": 25,
+      "why_prioritized": "Hypothesis: NEE may benefit from renewables, storage, and regulated utility investment, but Serenity priority is limited because solar/storage additions still depend on interconnection, transmission, transformers, and contracted demand. The company is large and diversified, reducing purity to a specific chokepoint."
+    },
+    {
+      "company": "AES Corporation",
+      "main_evidence_gap": "Need project-level PPA counterparties, contracted returns, interconnection queue status, financing costs, construction timelines, and evidence of data-center-specific demand.",
+      "rank": 11,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2
+      },
+      "ticker": "AES",
+      "total_score": 25,
+      "why_prioritized": "Hypothesis: AES has potential contracted renewable and storage exposure for corporate and data-center customers. It remains below higher-priority firm-power and fuel-cycle names because project economics, balance-sheet risk, and interconnection status must be checked at the asset level."
+    },
+    {
+      "company": "Kinder Morgan",
+      "main_evidence_gap": "Need power-demand-linked pipeline expansions, contracted capacity, regional deliverability constraints, permitting status, and evidence of incremental returns from AI/data-center-driven gas generation.",
+      "rank": 12,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 2,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3
+      },
+      "ticker": "KMI",
+      "total_score": 25,
+      "why_prioritized": "Hypothesis: KMI is relevant to natural-gas transport needs for power generation and LNG, but the candidate evidence is currently generic. It needs regional and contractual proof before being upgraded as a true AI-load or gas-generation chokepoint beneficiary."
+    },
+    {
+      "company": "First Solar",
+      "main_evidence_gap": "Need bookings, ASP, tax-credit durability, domestic-content advantage, utility-scale project pull-through, and evidence that module supply is scarce rather than oversupplied.",
+      "rank": 13,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 3,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 2,
+        "public_market_purity": 4,
+        "risk_clarity": 3,
+        "supplier_scarcity": 3
+      },
+      "ticker": "FSLR",
+      "total_score": 24,
+      "why_prioritized": "Hypothesis: FSLR has domestic utility-scale solar manufacturing exposure and may benefit from demand for new generation. However, in this Serenity funnel, solar modules are not the core bottleneck versus interconnection, transformers, dispatchable power, and transmission access."
+    },
+    {
+      "company": "Enphase Energy",
+      "main_evidence_gap": "Need proof of commercial/grid-edge demand tied to load flexibility, storage attach-rate improvement, inventory normalization, policy stability, and margin recovery.",
+      "rank": 14,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 2,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2
+      },
+      "ticker": "ENPH",
+      "total_score": 21,
+      "why_prioritized": "Hypothesis: ENPH has grid-edge, inverter, battery, and distributed-energy exposure, but its direct relevance to AI-load firm-power and grid-infrastructure chokepoints is weak. Residential solar cyclicality and policy sensitivity reduce Serenity priority in this chunk."
+    }
+  ],
+  "summary": "Within this Energy candidate chunk, the highest Serenity research priority goes to companies closest to hard-to-bypass firm-power and nuclear-fuel chokepoints with clearer large-load relevance: Constellation Energy, Centrus Energy, BWX Technologies, Cameco, and Southern Company. Regulated utilities and renewable developers remain researchable but generally score lower because benefits depend on rate-case, IRP, interconnection, and project-level contract evidence. Midstream gas names are relevant if gas-fired generation demand and regional pipeline constraints intensify, but the public-market mapping is less pure without basin- or project-specific evidence. Residential/distributed solar exposure ranks lowest in this chunk because its link to the AI-load bottleneck is indirect and more cyclically/policy sensitive.",
+  "theme_id": "energy_ai_load_firm_power_grid_chokepoints_candidate_chunk"
+}
