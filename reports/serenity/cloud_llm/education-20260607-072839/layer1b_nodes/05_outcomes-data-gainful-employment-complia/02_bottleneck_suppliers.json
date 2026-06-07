@@ -1,0 +1,205 @@
+{
+  "candidates": [
+    {
+      "claim_type": "inference",
+      "company": "Equifax",
+      "confidence": 0.82,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check Equifax 10-K and Workforce Solutions disclosures for education, student lending, credential, government, or program-outcome use cases; look for partnerships with higher-ed analytics, lenders, or government agencies.",
+      "node_relation": "Owns Equifax Workforce Solutions and The Work Number, a major employment and income verification data asset that can serve as a second-order input for wage, employment, credit, and post-program outcome verification.",
+      "sector_or_industry": "Credit bureau / workforce data / income and employment verification",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "regulated_input",
+        "data_asset",
+        "evidence_needed"
+      ],
+      "theme_relation": "If education providers, lenders, regulators, and employers require more trusted proof of earnings and employment outcomes, employment/income verification databases become important infrastructure.",
+      "ticker": "EFX",
+      "why_include": "The chokepoint is trusted outcomes measurement; Equifax has one of the strongest public-company links to verified income and employment data, although direct monetization from education ROI compliance still needs proof."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Microsoft",
+      "confidence": 0.76,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify whether LinkedIn Talent Insights, LinkedIn Learning, Microsoft Learn credentials, or LinkedIn Economic Graph data are being sold or used directly by universities, governments, or workforce boards for program ROI measurement.",
+      "node_relation": "Microsoft owns LinkedIn, whose Talent Insights product uses profile, skills, job, and labor-market data; Microsoft also issues professional credentials through Microsoft Learn.",
+      "sector_or_industry": "Enterprise software / LinkedIn labor-market data / professional credentials",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "data_asset",
+        "credentials",
+        "evidence_needed"
+      ],
+      "theme_relation": "Labor-market and skills data can help universities and workforce-training providers align programs with employer demand and demonstrate skills-to-jobs relevance.",
+      "ticker": "MSFT",
+      "why_include": "LinkedIn's skills graph and job-market data are a scarce, large-scale input for credential transparency and workforce alignment; however, Microsoft is diversified, so education-outcomes exposure is small relative to total company scale."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Workday",
+      "confidence": 0.74,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Look for Workday product documentation or customer case studies explicitly referencing Financial Value Transparency, Gainful Employment, program outcome reporting, earnings data integrations, or student-success analytics.",
+      "node_relation": "Provides Workday Student and higher-education cloud systems that combine student information, finance, HR, reporting, and analytics; also offers Skills Cloud for workforce skill data.",
+      "sector_or_industry": "Cloud HCM / finance / student information systems",
+      "serenity_tags": [
+        "supply_chain",
+        "infrastructure_provider",
+        "student_data",
+        "analytics",
+        "evidence_needed"
+      ],
+      "theme_relation": "Institutions need clean student, program, financial, and workforce data pipelines to comply with transparency rules and improve retention, completion, and career outcomes.",
+      "ticker": "WDAY",
+      "why_include": "Workday is a public higher-ed cloud-system provider with plausible leverage to the data-integration layer behind ROI and outcomes reporting, though its exact FVT/GE compliance modules require confirmation."
+    },
+    {
+      "claim_type": "inference",
+      "company": "Salesforce",
+      "confidence": 0.7,
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Search Salesforce Education Cloud implementations for integrations with SIS, LMS, labor-market data, employment verification, College Scorecard, FVT/GE disclosures, or program-level ROI dashboards.",
+      "node_relation": "Salesforce Education Cloud supports student success workflows, learner/institution data, advising, admissions, analytics, and AI-powered predictions.",
+      "sector_or_industry": "CRM / Education Cloud / analytics",
+      "serenity_tags": [
+        "supply_chain",
+        "infrastructure_provider",
+        "student_success",
+        "analytics",
+        "evidence_needed"
+      ],
+      "theme_relation": "A higher-ed CRM/student-success layer can become a control plane for recruitment, retention, advising, learner engagement, and outcome reporting when institutions face more scrutiny over program value.",
+      "ticker": "CRM",
+      "why_include": "Salesforce has direct higher-ed software exposure and analytics capabilities, but its role in regulated gainful-employment reporting is likely indirect unless paired with SIS, LMS, labor-market, and earnings data."
+    },
+    {
+      "claim_type": "hypothesis",
+      "company": "Coursera",
+      "confidence": 0.68,
+      "market_cap_filter_note": "below_1b_exception",
+      "next_evidence": "Compare Coursera's self-reported learner outcomes with audited placement, wage, completion, employer-hiring, and university-partner data; check whether degree/certificate partners use Coursera data in FVT/GE or similar disclosures.",
+      "node_relation": "Operates a credential and online-learning platform with university and industry partners; publishes learner outcomes and micro-credential impact research focused on career outcomes, skills, and employer acceptance.",
+      "sector_or_industry": "Online learning / micro-credentials / workforce training",
+      "serenity_tags": [
+        "demand",
+        "credentials",
+        "outcomes_measurement",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "Credential platforms that can demonstrate measurable career outcomes may benefit from institutional and employer demand for ROI transparency, although self-reported outcomes need independent validation.",
+      "ticker": "COUR",
+      "why_include": "Coursera is unusually relevant to the chokepoint because its business model depends on proving skills and career ROI for online credentials; included despite sub-USD 1B market cap because node relevance is direct."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "The Department of Education's FVT/GE rule addresses programs that leave students with unaffordable debt relative to earnings or no earnings gain versus high-school-only benchmarks; the rule became effective July 1, 2024.",
+      "claim_type": "fact",
+      "confidence": 0.96,
+      "published_at": "2023-10-10",
+      "source_title": "Final Regulations: Financial Value Transparency and Gainful Employment | Federal Student Aid Knowledge Center",
+      "source_url": "https://fsapartners.ed.gov/knowledge-center/library/federal-registers/2023-10-10/final-regulations-financial-value-transparency-and-gainful-employment",
+      "ticker": ""
+    },
+    {
+      "claim": "The CFPB lists The Work Number as operated by Equifax Workforce Solutions and says it provides employment and income information, including verification information such as employment, salary, education, and professional license verification.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2025-01-22",
+      "source_title": "The Work Number | Consumer Financial Protection Bureau",
+      "source_url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/consumer-reporting-companies/companies-list/work-number/",
+      "ticker": "EFX"
+    },
+    {
+      "claim": "LinkedIn Talent Insights uses member skills data and job-post data to reflect labor-market conditions; Microsoft Learn offers Microsoft-verified credentials that can be shared on LinkedIn.",
+      "claim_type": "fact",
+      "confidence": 0.85,
+      "published_at": "",
+      "source_title": "Data in Talent Insights | LinkedIn Recruiter Help",
+      "source_url": "https://www.linkedin.com/help/recruiter/answer/a187044/data-in-talent-insights?lang=en",
+      "ticker": "MSFT"
+    },
+    {
+      "claim": "Microsoft Learn describes Microsoft-verified credentials across certifications and applied skills for technical and business professionals.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Professional and Technical Credentials and Certifications | Microsoft Learn",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/",
+      "ticker": "MSFT"
+    },
+    {
+      "claim": "Workday describes its higher-education offering as a single cloud-based system for finance, HR, and student information, and describes Skills Cloud as using AI and analytics to transform workforce skills data.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "Higher Education Software Solutions & Student Information Systems | Workday",
+      "source_url": "https://www.workday.com/en-us/solutions/industries/education.html",
+      "ticker": "WDAY"
+    },
+    {
+      "claim": "Salesforce Education Cloud positions its student-success software as an integrated platform for advising, engagement, analytics, and AI-powered predictions.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "",
+      "source_title": "Student Success Software for Higher Ed | Salesforce",
+      "source_url": "https://www.salesforce.com/education/student-success-software//",
+      "ticker": "CRM"
+    },
+    {
+      "claim": "Coursera's 2025 Learner Outcomes Report says it worked with 350-plus university and industry partners and surveyed more than 52,000 learners on career advancement, skills, and personal outcomes.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2025",
+      "source_title": "2025 Learner Outcomes Report | Coursera",
+      "source_url": "https://www.coursera.org/explore/learner-outcomes",
+      "ticker": "COUR"
+    },
+    {
+      "claim": "Coursera's 2025 Micro-Credentials Impact Report frames micro-credentials around skill gaps, career outcomes, and employer demand, based on data from more than 2,000 students and employers.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2025",
+      "source_title": "2025 Micro-Credentials Impact Report | Coursera",
+      "source_url": "https://www.coursera.org/enterprise/resources/ebooks/micro-credentials-report-2025",
+      "ticker": "COUR"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.82,
+      "text": "EFX is the strongest data-asset candidate for the node because The Work Number links to verified employment and income data, a scarce input for earnings/outcomes measurement.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "MSFT is a second-order labor-market and credential transparency candidate through LinkedIn Talent Insights, LinkedIn Learning, and Microsoft Learn credentials; exposure is diluted by company scale.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "WDAY and CRM represent higher-ed operating-system layers where student records, advising, analytics, admissions, and engagement data can be integrated for program ROI and compliance workflows.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.68,
+      "text": "COUR is a below-USD 1B exception because credential ROI and learner outcomes are central to its value proposition; independent validation is the key evidence gap.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Several very relevant node suppliers appear private or not cleanly US-listed, including Lightcast, EAB, Ellucian, Parchment/Instructure if no longer public, National Student Clearinghouse, and many GE/FVT compliance consultants.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Program ROI, outcomes data, gainful-employment compliance, and credential transparency",
+  "node_id": "outcomes_data_gainful_employment_compliance",
+  "summary": "Expanded the universe around the outcomes-data and gainful-employment-compliance chokepoint. The most relevant public-market exposures are not pure-play compliance vendors; they are data owners, higher-ed cloud systems, CRM/student-success platforms, labor-market/skills graphs, and credential platforms that help institutions connect programs to earnings, employability, skills, and student-success metrics. The node is regulated because the U.S. Department of Education's Financial Value Transparency and Gainful Employment framework uses debt-to-earnings and earnings-premium measures, creating demand for better program-level ROI data, labor-market alignment, and auditable student/outcome records.",
+  "theme_id": "education_online_learning_universities_workforce_training_student_loans"
+}
