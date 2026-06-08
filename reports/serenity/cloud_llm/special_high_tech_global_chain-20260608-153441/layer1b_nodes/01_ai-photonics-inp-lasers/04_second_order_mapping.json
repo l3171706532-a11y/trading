@@ -1,0 +1,168 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Lumentum Holdings Inc.",
+      "confidence": 0.87,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "How much of revenue and backlog is specifically tied to AI datacenter CW lasers, EMLs, ELSFP modules, or CPO-related demand versus broader telecom, industrial, and legacy optical components.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-K/10-Q segment disclosures, conference-call language on cloud/datacom mix, customer concentration, capacity expansion timing, and whether CW/ELS products are shipping in production volumes or still design-in/ramp-stage.",
+      "node_relation": "Direct reference supplier of continuous-wave lasers and external laser-source modules used in silicon-photonics transceivers and co-packaged optics architectures.",
+      "sector_or_industry": "Optical components, photonics, lasers",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference_anchor",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI data-center bandwidth demand pushes optical interconnect architectures toward higher-density light sources; Lumentum is a visible anchor for the external-light-source and CW-laser part of the supply chain.",
+      "ticker": "LITE",
+      "why_include": "Company product pages explicitly describe CW lasers for advanced data-center optics, silicon photonics transceivers, CPO architectures, and AI/cloud data centers. This makes LITE a useful reference anchor for what the node looks like in a scaled public-market company.",
+      "why_underfollowed": "Not underfollowed; included as the obvious reference lane so smaller upstream suppliers can be mapped against a known direct laser/source-light beneficiary."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "AXT, Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether InP substrate demand is actually capacity-constrained, whether datacenter/silicon-photonics customers are growing as a percentage of sales, and whether AXTI has customer qualifications for 800G/1.6T/CPO-related optical supply chains.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Pull the latest 10-K and 10-Q revenue mix, management commentary on InP orders and capacity, customer concentration, Tongmei listing/China facility risk, raw-material affiliate economics, and any explicit qualification wins for datacenter optical or silicon-photonics customers.",
+      "node_relation": "Supplier of compound semiconductor substrate wafers including indium phosphide, which can serve as a foundational input for high-speed optical devices used in silicon photonics, lasers, and datacenter connectivity.",
+      "sector_or_industry": "Compound semiconductor substrates and materials",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "materials",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI cluster scaling increases demand for high-speed optical data transmission, the substrate layer may become constrained before downstream module suppliers can fully scale.",
+      "ticker": "AXTI",
+      "why_include": "AXT states that it develops and manufactures InP, GaAs, and Ge substrates and that its end markets include data-center connectivity and silicon photonics. Its partial ownership of raw-material suppliers creates a possible vertical-integration angle relevant to chokepoint analysis.",
+      "why_underfollowed": "The company is categorized as a compound semiconductor substrate/materials supplier rather than an AI infrastructure company, so its exposure can be hidden one or two steps upstream from optical modules and hyperscaler capex."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Veeco Instruments Inc.",
+      "confidence": 0.84,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether the recent InP laser equipment orders are one-time pull-forward demand or the start of a sustained capacity cycle tied to 800G, 1.6T, silicon photonics, and CPO.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify order backlog, customer concentration, delivery cadence, tool gross margins, repeat-order potential, and whether management quantifies photonics as a distinct growth vector in filings or earnings calls.",
+      "node_relation": "Adjacent upstream equipment supplier: MOCVD, ion-beam deposition/coating, and wet-processing tools used to manufacture InP lasers and optical components.",
+      "sector_or_industry": "Semiconductor and compound semiconductor manufacturing equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "equipment",
+        "evidence_needed"
+      ],
+      "theme_relation": "If InP laser production becomes a scaling bottleneck for silicon photonics and CPO, the tools required to expand laser manufacturing capacity become a second-order chokepoint.",
+      "ticker": "VECO",
+      "why_include": "Veeco announced more than $250 million of equipment orders for manufacturing InP lasers, driven by silicon-photonics momentum, with deliveries beginning in 2026 and accelerating in 2027. This directly links VECO to the capacity-build layer behind InP lasers.",
+      "why_underfollowed": "VECO is often screened as a broad semiconductor-equipment or memory/compound-semi tool vendor, so the AI-photonics exposure may be obscured inside a mixed equipment portfolio."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Lumentum markets CW lasers as stable, narrow-linewidth light sources for advanced data-center optics, including silicon-photonics transceivers and CPO architectures for next-generation AI and cloud data centers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "CW Lasers | Lumentum",
+      "source_url": "https://www.lumentum.com/en/products/data-center/cw-lasers",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Lumentum markets an external laser-source module for CPO systems in AI and cloud data centers, describing centralized serviceable light sources for silicon-photonics optical engines.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "External Laser Source Module with Ultra-High-Power Laser | Lumentum",
+      "source_url": "https://www.lumentum.com/en/products/external-laser-source-els-module-ultra-high-power-laser",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "AXT states that it develops and manufactures high-performance compound and single-element semiconductor substrate wafers including InP, GaAs, and Ge, with end markets including data-center connectivity and silicon photonics.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04-30",
+      "source_title": "AXT, Inc. Announces First Quarter 2026 Financial Results",
+      "source_url": "https://investors.axt.com/Investors/news/news-details/2026/AXT-Inc--Announces-First-Quarter-2026-Financial-Results/default.aspx",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "AXT says it has partial ownership in ten companies in China producing raw materials for its manufacturing process, supporting the vertical-integration angle but also requiring China supply-chain risk review.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04-30",
+      "source_title": "AXT, Inc. Announces First Quarter 2026 Financial Results",
+      "source_url": "https://investors.axt.com/Investors/news/news-details/2026/AXT-Inc--Announces-First-Quarter-2026-Financial-Results/default.aspx",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "Veeco announced more than $250 million in equipment orders for manufacturing InP lasers, driven by silicon-photonics momentum, with deliveries beginning in 2026 and accelerating in 2027.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-05-06",
+      "source_title": "Veeco Announces $250 Million+ in Equipment Orders for Manufacturing Indium Phosphide Lasers",
+      "source_url": "https://ir.veeco.com/news-and-events/news-details/2026/Veeco-Announces-250-Million-in-Equipment-Orders-for-Manufacturing-Indium-Phosphide-Lasers/default.aspx",
+      "ticker": "VECO"
+    },
+    {
+      "claim": "Veeco stated that a global optical-communications laser manufacturer ordered multiple Lumina MOCVD and Spector ion-beam sputtering systems to fabricate InP lasers for datacom optical communications.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03-05",
+      "source_title": "Veeco Books Multi-System Lumina and Spector Orders for Manufacturing Indium-Phosphide Based Optical Components",
+      "source_url": "https://ir.veeco.com/news-and-events/news-details/2026/Veeco-Books-Multi-System-Lumina-and-Spector-Orders-for-Manufacturing-Indium-Phosphide-InP-based-Optical-Components/default.aspx",
+      "ticker": "VECO"
+    },
+    {
+      "claim": "The strongest underfollowed mapping for this node may sit one layer upstream of optical modules: InP substrates and InP laser manufacturing tools, where qualification cycles and capacity expansion may be harder to accelerate than investor narratives imply.",
+      "claim_type": "hypothesis",
+      "confidence": 0.68,
+      "published_at": "2026-06-06",
+      "source_title": "Serenity, the Bottleneck Hunter | Johnson Lee",
+      "source_url": "https://johnsonlee.io/2026/06/06/serenity-methodology-cannot-be-skill.en/",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.83,
+      "text": "LITE should remain a reference-lane anchor for CW lasers and external light sources in silicon photonics/CPO, but its high attention and large market cap make it less suitable for the underfollowed discovery lane.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "AXTI is a high-priority underfollowed candidate for the InP substrate layer; later layers must verify true datacenter/silicon-photonics revenue contribution, customer qualification evidence, and China/raw-material risk.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "VECO is a high-priority adjacent chokepoint candidate because recent InP laser equipment orders directly connect it to capacity expansion for silicon-photonics and datacom laser manufacturing.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "Additional Layer 1B searches should test AAOI, SMTC, COHR, AEHR, POET, LWLG, IPGP, and optical-test vendors for direct evidence of datacenter optics, InP devices, CPO, silicon photonics, reliability testing, or external-light-source exposure.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI photonics inputs: InP substrates, continuous-wave lasers, external light sources, and silicon-photonics materials",
+  "node_id": "ai_photonics_inp_lasers",
+  "summary": "Layer 1B expands the universe around the AI photonics input node. The reference lane is Lumentum as a visible direct supplier of CW lasers and external laser-source modules for silicon photonics and CPO. The underfollowed discovery lane is AXTI for InP substrate exposure and VECO for upstream manufacturing equipment used to scale InP laser production. This is research support only, not a buy/sell recommendation.",
+  "theme_id": "high_tech_global_supply_chain"
+}

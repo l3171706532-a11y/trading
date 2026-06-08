@@ -1,0 +1,196 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "L3Harris Technologies",
+      "confidence": 0.86,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Track whether L3Harris/Aerojet capacity expansion orders mention named suppliers of ammonium perchlorate, nozzles, insulation, cases, energetics, fuzes, or test systems.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Search LHX filings, Aerojet supplier disclosures, DPA Title III awards, and DoD contract announcements for subtier supplier names tied to SRM capacity expansion.",
+      "node_relation": "One of the two main incumbent U.S. solid rocket motor suppliers; demand-path anchor for subtier energetics, nozzles, materials, fuzing, testing, and missile components.",
+      "sector_or_industry": "Aerospace & defense",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "reference_anchor",
+        "bottleneck"
+      ],
+      "theme_relation": "Defense appropriations and missile replenishment flow through SRM producers before reaching subtier suppliers.",
+      "ticker": "LHX",
+      "why_include": "Included as a context anchor, not the main underfollowed target. CNAS identifies the SRM supply chain as a bottleneck and names L3Harris and Northrop Grumman as the two main SRM suppliers.",
+      "why_underfollowed": "Not underfollowed; its value here is mapping customer pull-through to lower-attention subtier suppliers."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "NewMarket Corporation",
+      "confidence": 0.9,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether AMPAC margin, backlog, customer concentration, or segment disclosure becomes material enough to affect NEU consolidated economics.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Pull NEU 2025 10-K, 2026 quarterly filings, AMPAC press releases, Utah incentive documents, and DoD industrial-base references to quantify AMPAC revenue contribution and capacity timing.",
+      "node_relation": "Parent of American Pacific Corporation, a supplier of ammonium perchlorate and other critical materials for solid rocket propulsion.",
+      "sector_or_industry": "Specialty chemicals / petroleum additives with defense chemicals subsidiary",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "materials",
+        "defense_spending"
+      ],
+      "theme_relation": "If missile and space-launch solid rocket motor demand rises, ammonium perchlorate capacity and supplier qualification may become a direct physical chokepoint.",
+      "ticker": "NEU",
+      "why_include": "AMPAC announced a NewMarket-approved investment of up to $100 million to expand ammonium perchlorate production at Cedar City, Utah by more than 50%, explicitly tied to U.S. and allied defense programs and civil space launch systems.",
+      "why_underfollowed": "NEU is commonly screened as a petroleum-additives/specialty-chemicals company, so the defense energetic-material exposure may be hidden inside a non-defense industry label."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Karman Holdings Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Customer/program concentration behind the SRM nozzle expansion, whether nozzles are qualified on tactical missile, hypersonic, or space-launch programs, and whether funded capacity meaningfully increases revenue.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review KRMN S-1/10-K, DPA award documents, customer concentration disclosures, Systima/ISP acquisition details, and program references to identify which missile or hypersonic platforms use its nozzles or propellant systems.",
+      "node_relation": "Produces critical system solutions for launch vehicles, spacecraft, missile defense, hypersonic and UAS customers; Systima facility received DPA Title III funding to expand solid rocket motor nozzle capacity.",
+      "sector_or_industry": "Space and defense components / propulsion systems",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "components",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "SRM nozzles are adjacent to energetics: even if propellant supply improves, nozzle production can still constrain motor throughput and qualification.",
+      "ticker": "KRMN",
+      "why_include": "Karman announced that its Systima facility received $5 million in Defense Production Act Title III funding to expand SRM nozzle production, specifically supporting munitions industrial-base resiliency and domestic production.",
+      "why_underfollowed": "As a newly public space/defense component company, KRMN may be mapped by investors as a broad space supplier rather than a specific missile-production chokepoint."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Ducommun Incorporated",
+      "confidence": 0.68,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Which missile programs drove the 20% missile-franchise growth, whether work relates directly to SRM-enabled systems, and whether customers include LHX, NOC, RTX, Lockheed, or emerging SRM entrants.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check DCO annual report, investor deck, contract announcements, customer concentration, and segment/program disclosures for named missile systems, margins, backlog, qualification status, and sole/limited-source positions.",
+      "node_relation": "Supplier of engineered electronic and structural solutions for aerospace, defense, and space; reported strong growth in its missile franchise.",
+      "sector_or_industry": "Aerospace & defense engineered products and electronics manufacturing",
+      "serenity_tags": [
+        "supply_chain",
+        "components",
+        "underfollowed",
+        "missile_inputs",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order missile-production beneficiary where defense appropriations may flow into qualified electronics, structures, assemblies, and component manufacturing rather than headline SRM energetics.",
+      "ticker": "DCO",
+      "why_include": "Ducommun disclosed that its defense business grew in 2025, driven partly by a missile franchise that increased 20% year over year; this makes it a plausible subtier missile-production input candidate.",
+      "why_underfollowed": "DCO is often classified as a diversified aerospace components/electronics manufacturer, so missile-specific growth may be obscured inside broader commercial aerospace and defense categories."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "CNAS describes the solid rocket motor supply chain as a known bottleneck and states that L3Harris and Northrop Grumman are currently the two main SRM suppliers.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": "LHX"
+    },
+    {
+      "claim": "American Pacific Corporation announced that parent NewMarket approved up to $100 million to expand ammonium perchlorate production at Cedar City by more than 50%, with completion anticipated in 2026.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2025-06-11",
+      "source_title": "Press Release - $100 Million Capacity Expansion - American Pacific",
+      "source_url": "https://www.ampac.us/press-release-100-million-capacity-expansion/",
+      "ticker": "NEU"
+    },
+    {
+      "claim": "NewMarket's SEC-filed 2025 annual report says 2025 included a major expansion of ammonium perchlorate capacity at AMPAC to meet customer needs.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05",
+      "source_title": "NewMarket Corporation 2025 Annual Report",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001282637/000119312526102979/d44963dars.pdf",
+      "ticker": "NEU"
+    },
+    {
+      "claim": "Karman announced that Systima received $5 million in DPA Title III funding to expand solid rocket motor nozzle production capacity.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2025-10-20",
+      "source_title": "Pentagon Awards Systima, Part of Karman Space & Defense, $5 Million to Expand Solid Rocket Motor Nozzle Production Capacity",
+      "source_url": "https://karman-sd.com/news/5-million-to-expand-solid-rocket-motor-nozzle-production-capacity/",
+      "ticker": "KRMN"
+    },
+    {
+      "claim": "Karman's SEC-filed annual report states that its acquisition of Industrial Solid Propulsion expands capabilities in small-diameter solid propellant and related propulsion areas.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-05",
+      "source_title": "Karman Holdings Annual Report",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2040127/000114036126013924/edge20063633x772_ars.pdf",
+      "ticker": "KRMN"
+    },
+    {
+      "claim": "Ducommun's 2026 proxy states management grew defense business by 14% in 2025, with missile franchise growth of 20% year over year.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-04",
+      "source_title": "Ducommun Incorporated 2026 Proxy Statement",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/30305/000130817926000067/dco014947-def14a.htm",
+      "ticker": "DCO"
+    },
+    {
+      "claim": "Ducommun describes itself as a provider of electronic, engineered, and structural solutions for aerospace, defense, and industrial markets.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026-06",
+      "source_title": "Electronics and Aerostructures | Ducommun",
+      "source_url": "https://www.ducommun.com/",
+      "ticker": "DCO"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "NEU should be promoted as the strongest underfollowed discovery candidate for the SRM energetics node because AMPAC has direct ammonium perchlorate capacity-expansion evidence and the exposure is hidden inside a specialty-chemicals parent.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "KRMN is a direct adjacent chokepoint candidate through SRM nozzle production and DPA Title III funding; next layer should determine customer/program exposure and whether capacity expansion is economically material.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.68,
+      "text": "DCO is a second-order missile-production input hypothesis with evidence of missile-franchise growth but insufficient public mapping yet to the SRM energetics bottleneck specifically.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "For SRM bottleneck research, separate energetic chemicals from adjacent throughput constraints: nozzles, insulation, cases, fuzing/safe-arm devices, test systems, precision electronics, and qualified structural assemblies.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Need a dedicated follow-up search for public pure-play or semi-pure suppliers of SRM insulation, carbon-carbon nozzle throats, igniters, safe-and-arm devices, test stands, and energetic-material handling equipment; several likely suppliers are private or buried inside larger conglomerates.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Solid rocket motor energetics and missile-production inputs",
+  "node_id": "solid_rocket_motor_energetics",
+  "summary": "Expanded the public-market universe around solid rocket motor energetics and missile-production inputs with a two-lane lens. Reference lane is represented by L3Harris as a demand-path anchor in the SRM prime/subprime layer. Underfollowed discovery lane prioritizes companies that sit one step below obvious missile primes: NewMarket via AMPAC ammonium perchlorate, Karman via SRM nozzles and qualified propulsion components, and Ducommun via missile-defense electronics/structures. The strongest direct chokepoint evidence is NEU/AMPAC; KRMN has direct SRM nozzle capacity evidence; DCO is a broader missile-production input hypothesis needing program-level mapping.",
+  "theme_id": "politics_policy_regulation_tariffs_defense_election_government_spending"
+}
