@@ -1,6 +1,6 @@
 # Serenity Skill Repository Digest
 
-Generated: 2026-06-08 08:41:41 UTC
+Generated: 2026-06-08 11:41:42 UTC
 
 Purpose: provide cached methodology context for cloud-side Serenity / chokepoint research runs.
 
@@ -1877,7 +1877,7 @@ This repo packages his public work into one self-contained research artifact:
 **period-by-period distillation**, and a ready-to-use **agent skill** that
 applies his analytical lens to US-stock ideas.
 
-Built from **5,852 tweets** spanning **2025-07-02 → 2026-06-07** plus **4 X
+Built from **5,857 tweets** spanning **2025-07-02 → 2026-06-08** plus **4 X
 Articles** published in **2026-01 → 2026-05**.
 
 > ⚠️ **Not financial advice. Decision-support only.** This skill never trades and
@@ -1980,7 +1980,7 @@ description: >
 > back to the cached copy — and if you do, say explicitly that the data may be
 > stale.
 
-A reusable analytical lens distilled from **5,852 tweets (2025-07 to 2026-06)
+A reusable analytical lens distilled from **5,857 tweets (2025-07 to 2026-06)
 plus 4 long-form X Articles (2026-01 to 2026-05)** by **Serenity /
 [@aleabitoreddit](https://x.com/aleabitoreddit)** — an AI-and-semiconductor
 *supply-chain* analyst and trader (~500k followers, ~40k subscribers, ex-Reddit/WSB). Use it to
@@ -2234,14 +2234,14 @@ dated example from the corpus. A runnable checklist is at the bottom.
 ### yan_labs_serenity_archive / data/ticker_stats.txt
 
 ```text
-Total tweets: 5852
-Distinct $tickers: 669
+Total tweets: 5857
+Distinct $tickers: 678
 
 ticker  mentions  first_seen  last_seen
 NBIS        691   2025-07-21  2026-06-07
-SIVE        572   2025-12-23  2026-06-07
+SIVE        573   2025-12-23  2026-06-08
 AXTI        541   2025-12-22  2026-06-07
-NVDA        518   2025-07-28  2026-06-07
+NVDA        520   2025-07-28  2026-06-08
 LITE        509   2025-10-25  2026-06-04
 IREN        444   2025-08-31  2026-06-07
 AAOI        424   2025-12-11  2026-06-07
@@ -2259,20 +2259,20 @@ HOOD        191   2025-07-02  2026-06-04
 MU          185   2025-09-25  2026-06-07
 RKLB        179   2025-07-03  2026-05-25
 SOI         175   2026-03-11  2026-06-07
-IQE         167   2026-01-18  2026-06-07
+IQE         169   2026-01-18  2026-06-08
 SNDK        164   2025-11-25  2026-06-01
 TSEM        152   2026-02-11  2026-06-06
 INTC        148   2025-09-23  2026-06-07
+POET        145   2025-12-11  2026-06-08
 ORCL        143   2025-09-10  2026-05-28
-POET        143   2025-12-11  2026-06-03
 RDDT        141   2025-09-14  2026-06-06
 HIMS        137   2025-07-07  2026-05-30
 AMD         135   2025-09-11  2026-06-07
-AEHR        125   2026-01-16  2026-06-02
+AEHR        127   2026-01-16  2026-06-08
 JBL         122   2025-12-01  2026-06-05
 WULF        115   2025-09-03  2026-06-01
 CRCL        113   2025-07-03  2026-06-04
-TSLA        106   2025-08-25  2026-05-26
+TSLA        107   2025-08-25  2026-06-08
 EWY         101   2026-01-25  2026-06-07
 ALAB         97   2025-07-21  2026-04-19
 MTSI         88   2026-01-10  2026-06-07
@@ -2285,7 +2285,7 @@ AAPL         68   2026-02-17  2026-05-30
 OSS          67   2025-11-05  2026-05-23
 LPTH         61   2026-01-14  2026-05-25
 PLTR         60   2025-07-28  2026-04-25
-VPG          56   2026-01-20  2026-05-31
+VPG          57   2026-01-20  2026-06-08
 IBKR         55   2025-09-16  2026-05-20
 WLAC         55   2025-10-08  2026-03-17
 BMNR         53   2025-09-14  2026-03-07
@@ -2350,35 +2350,35 @@ GLW          23   2026-02-04  2026-05-10
 GRRR         23   2025-09-18  2025-11-24
 DELL         22   2025-09-16  2026-05-29
 ONTO         22   2026-01-22  2026-06-03
+XFAB         22   2026-05-27  2026-06-08
 NOK          21   2026-02-18  2026-06-06
 CORZ         20   2025-11-02  2026-01-17
+EOSE         20   2025-10-04  2026-06-08
 TGT          20   2025-09-18  2026-01-11
 TSSI         20   2025-07-03  2026-01-20
-XFAB         20   2026-05-27  2026-06-06
 ASX          19   2026-01-24  2026-06-06
 LULU         19   2025-09-10  2026-05-15
 TER          19   2026-01-22  2026-05-12
 DUOL         18   2025-08-23  2026-03-17
-EOSE         18   2025-10-04  2026-02-27
+NVTS         18   2025-09-17  2026-06-08
 SSYS         18   2026-01-15  2026-02-03
 NOC          17   2025-10-18  2026-05-01
 SOL          17   2025-09-12  2026-02-07
 TTD          17   2025-12-04  2026-04-20
 VRT          17   2025-11-20  2026-05-09
-NVTS         16   2025-09-17  2026-06-01
+WOLF         17   2026-01-18  2026-06-08
 RTX          16   2026-01-03  2026-05-23
+VICR         16   2026-01-15  2026-06-08
 AEVA         15   2026-02-09  2026-05-24
 CAMT         15   2026-01-22  2026-04-30
 DPRO         15   2026-01-16  2026-03-26
 PL           15   2025-07-03  2026-06-05
 SIMO         15   2026-02-15  2026-05-23
-WOLF         15   2026-01-18  2026-05-27
 ALMU         14   2026-01-14  2026-05-06
 ASST         14   2026-02-17  2026-05-19
 BE           14   2025-10-04  2026-03-28
 CSCO         14   2026-01-01  2026-05-12
 SEI          14   2025-10-07  2025-12-15
-VICR         14   2026-01-15  2026-05-24
 VNP          14   2026-01-18  2026-04-09
 WMT          14   2025-11-20  2026-02-10
 AMC          13   2025-09-10  2026-04-06
@@ -2402,6 +2402,7 @@ GRAB         11   2025-09-24  2025-10-18
 KEYS         11   2026-03-17  2026-04-30
 VCX          11   2026-03-25  2026-05-17
 AMAT         10   2026-01-24  2026-06-07
+AMSC         10   2026-04-22  2026-06-08
 ASHM         10   2026-01-03  2026-01-12
 DGXX         10   2025-10-29  2026-05-17
 GDRZF        10   2026-01-04  2026-05-23
@@ -2420,7 +2421,6 @@ MOD           9   2025-12-01  2026-02-24
 MPWR          9   2025-12-01  2026-02-24
 RBRK          9   2025-10-11  2025-10-20
 SKYT          9   2026-01-02  2026-03-24
-AMSC          8   2026-04-22  2026-05-05
 BA            8   2026-01-03  2026-03-24
 BZAI          8   2025-10-15  2026-05-13
 CPSH          8   2026-01-18  2026-02-21
@@ -3111,139 +3111,6 @@ Before committing:
 - Use `skill/data: incremental tweet update (+<n>) <UTC ISO timestamp>` when the
   skill or references also change.
 - Do not create empty commits.
-```
-
-### yan_labs_serenity_archive / serenity-aleabitoreddit/references/theses.md
-
-```text
-# Serenity's Per-Ticker Theses
-
-Each ticker merged across all six period-analyses into one entry: sector/role,
-his thesis, conviction tier and how it EVOLVED (with dates), key evidence, and
-his latest known stance (as of June 2026). **Stance reversals are flagged with
-⚠️.** Organized by sub-sector.
-
-> All prices, market caps, and percentages are Serenity's own citations from his
-> tweets — self-reported and unverified. Theses are dated; confirm current
-> reality before acting. "Latest stance" = his last known view in the corpus,
-> through ~2026-06-02.
-
-## Table of contents
-
-- [Optical / CPO / photonics](#optical--cpo--photonics)
-- [Compound semi, substrates & materials](#compound-semi-substrates--materials)
-- [Neocloud / AI datacenter](#neocloud--ai-datacenter)
-- [Memory / HBM / NAND](#memory--hbm--nand)
-- [AI compute & hyperscalers](#ai-compute--hyperscalers)
-- [Power / grid](#power--grid)
-- [Test / equipment / packaging](#test--equipment--packaging)
-- [Defense / space](#defense--space)
-- [Fintech / crypto / internet](#fintech--crypto--internet)
-- [Other high-conviction & notable](#other-high-conviction--notable)
-
----
-
-## Optical / CPO / photonics
-
-### LITE (Lumentum) — optical transceivers, OCS for Google TPU
-- **Thesis:** OCS (Optical Circuit Switch) near-monopoly for Google TPU; ~8-12%
-  of TPU BOM. In NVDA Blackwell, AMZN Trainium, MSFT Maia too. CW/DFB lasers are
-  THE CPO bottleneck and LITE is "sold out into 2028."
-- **Tier evolution:** High-conviction core (Dec 2025, "316% YTD, might be 1000%+
-  by 2027", entry ~$316.5) → ⚠️ **briefly downgraded/reduced ~$385 early Jan
-  2026** after finding an unpublished InP-supply vulnerability ("good long but
-  not as high conviction as NBIS") → back to structural long, but framed as
-  "late-stage for pure-play CPO entry" — SIVE is "what LITE looked like at the
-  start."
-- **Key evidence:** OFC 2026: CEO "sold out until end of 2027," "under-shipping
-  25-30%," "the thing that keeps me up at night most is Substrates" (validates
-  AXTI). NVDA $2B investment (Mar 31). Ayar removed LITE from partner page (Apr)
-  → NVDA likely locked up most capacity.
-- **Latest stance (May 2026):** Held, structural long, "50%+ upside still there"
-  but lower-priority vs. SIVE for new money.
-
-### COHR (Coherent) — diversified photonics (laser/substrate/transceiver)
-- **Thesis:** "Safer compounder" of the photonics group; diversified, vertically
-  integrated for some epiwafer/EML/CW capacity. Japan $550B plan includes COHR
-  for synthetic-diamond substrates.
-- **Tier:** Consistent "Buy" / #3 photonics pick behind AXTI and LITE. Less
-  upside, lower risk.
-- **Key evidence:** NVDA $2B investment (Mar 31). CEO confirmed CPO is a **2026**
-  timeline, not 2027 (May 7) — accelerant for the whole chain. +18.9% in his
-  Apr 10-24 tracker.
-- **Latest stance:** Held, part of core photonics basket ("surf and turf"
-  complete-chain player). Majority capacity likely allocated to NVDA.
-
-### AAOI (Applied Optoelectronics) — "Made in America" transceivers
-- **Thesis:** Only fully vertically integrated US transceiver maker (Sugar Land,
-  TX fab: laser fab + design + assembly). Three hyperscalers (AMZN/MSFT/ORCL)
-  buying every unit. "Made in America" geopolitical premium over COHR/LITE/China.
-  Does both pluggables AND ELSFP (CPO optionality) — not displaced by CPO.
-- **Tier evolution:** Small-moderate position for risk management (Dec 2025-Jan,
-  entry "high 20s/low 30s") → ⚠️ **briefly trimmed photonic exposure ~Jan 9**
-  after Japan export controls (Sumitomo second-order capacity risk) → **tripled
-  position after blowout earnings Feb 27** ("the next SNDK," "early ALAB/CRDO") →
-  one of his largest photonics positions.
-- **Key evidence:** Feb 27 guidance: $378M/month transceiver revenue target by
-  mid-2027 = ~$4.35B ARR, 900%+ growth, sold out, ~40% GM. $200M 1.6T order (Mar
-  6), $53M 800G order (Mar 23). Earnings confirmed positive (May 7). $250-500M
-  ATM = short-term ceiling (~$100); later May 28 framing notes a $600M ATM as a
-  short-term overhang.
-- **Latest stance:** High conviction. "Could be $30B+ in a year" if it executes
-  as the largest US 1.6T laser fab. May 27 calibration: he now says the original
-  AMZN/MSFT specific-optical-transceiver qualification idea was less precise
-  than he first thought; the ramp proved more interchangeable and
-  mass-producible. He treats that as a process calibration, not a thesis break,
-  because the broader LITE/AAOI/COHR/AXTI photonics bottleneck call still played
-  out. May 28 update says he is even more bullish at ~$13B market cap than at
-  $2B/$6B because of recent laser bottlenecks, possible long-term supply
-  agreements with NVDA or AMD, and a projected $471M H1 2027 ramp; he calls it
-  his favorite US-based photonics long stock that he owns. Treat as a high-
-  conviction reaffirmation, not an automatic entry signal.
-  May 30 update keeps AAOI in his current best risk/reward group at roughly
-  $12B market cap, mainly on H1 2027 capacity-ramp revenue projections; a later
-  reply floated a random one-year $70B market-cap target. Treat as aggressive
-  forward valuation color, not execution proof. June 1 update reiterates AAOI
-  as his favorite US-market photonics exposure, recalls initial low-sizing
-  entry around $28 and higher-conviction post-earnings entry around ~$70, and
-  says a ~$12B market cap would not look like much premium if AAOI reaches
-  ~$5.7B ARR entering H2 2027. Treat the $5.7B ARR framing as his forward model,
-  not company guidance until independently verified. Later June 1 market-
-  structure note says AAOI and SIVE were being algorithmically pulled around by
-  LITE performance despite individual fundamentals improving; for AAOI he cites
-  AMD / NVDA discussions as the kind of name-specific evidence algorithms
-  ignore. June 2 reply adds that some CPO-related names are not yet reflecting
-  the thesis in balance sheets because CPO has not scaled, says he has high
-  conviction in FOCI as a related player, and frames MSSCorps as a lottery ticket
-  around inspection-monopoly optionality.
-  Later June 1 update says AAOI was +20.1% that day, repeats the "next SNDK"
-  framing, and puts the likely massive photonics-player inflection around H1
-  entering H2 2027 while calling H2 2026 "a tad early." June 5 follow-up says
-  he has been averaging up since roughly $28 and that AAOI could still double
-  or triple if execution holds, citing persistent 800G / 1.6T optical-
-  transceiver demand. Treat this as another high-conviction reaffirmation of
-  the demand-and-execution case, not as independent proof that the upside path
-  will be realized. A later June 5 reply goes further and calls AAOI his
-  current favorite US long, says he personally keeps averaging on dips around
-  $150-$170, and links that confidence to JBL's 1.6T LRO mass-production path
-  with SIVE around H1 2027. Treat that as a stronger position-management and
-  timing update, not as new company guidance or proof that the JBL / SIVE
-  timing bridge is locked in.
-
-### SIVE / SIVEF (Sivers Semiconductors) — CW/DFB merchant laser for CPO
-- **Thesis:** Primary pure-play merchant DFB/CW laser supplier for the CPO
-  supercycle. Light source designed into AMD CPO (via GFS), MRVL Celestial,
-  Jabil 1.6T LRO, Apple SiPh (high-confidence, unconfirmed), Ayar Labs,
-  Lightmatter, O-Net, and defense (Golden Dome via ALLSPACE/York). Volume
-  de-risked by Win Semi as the tier-1 foundry. "SIVE is what LITE looked like at
-  the start" (LITE ran 3,600-3,800%+ from that point).
-- **Tier evolution:** Initiated as **#1 / HIGHEST CONVICTION** new position (Mar
-  14, ~$140M MC) and stayed there. Disclosed buying ~0.5-1% of the company.
-- **Key evidence:** +73.78% single day after CPO cheat sheet; Jabil LRO confirmed
-  at OFC; MRVL dropped POET → likely buys lasers direct from SIVE (more positive,
-  Apr 27); NASDAQ Stockholm listing (Apr 15); crossed $1B MC (Apr 29); MSCI
-  Small Cap inclusion (May 13); NASDAQ Stockholm/OMX index inclusion plu
-...TRUNCATED...
 ```
 
 ### yan_labs_serenity_archive / serenity-aleabitoreddit/references/track-record.md

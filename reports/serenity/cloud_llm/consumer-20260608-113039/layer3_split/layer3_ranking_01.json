@@ -1,0 +1,368 @@
+{
+  "evidence": [
+    {
+      "claim": "U.S. Census reported Q1 2026 adjusted retail ecommerce sales of $326.7 billion, up 2.7% from Q4 2025 and up 9.8% year over year; ecommerce accounted for 16.9% of total retail sales.",
+      "claim_type": "fact",
+      "confidence": 0.98,
+      "source_title": "Monthly Retail Trade - Quarterly Retail E-Commerce Sales Report",
+      "source_url": "https://www.census.gov/retail/eCommerce.html",
+      "used_for": [
+        "SPSC",
+        "LQDT",
+        "GXO",
+        "RSKD"
+      ]
+    },
+    {
+      "claim": "NRF and Happy Returns projected 2025 U.S. retail merchandise returns of $849.9 billion, estimated online returns at 19.3% of online sales, and identified return fraud as 9% of returns.",
+      "claim_type": "fact",
+      "confidence": 0.96,
+      "source_title": "2025 Retail Returns Landscape",
+      "source_url": "https://nrf.com/research/2025-retail-returns-landscape",
+      "used_for": [
+        "LQDT",
+        "GXO",
+        "SPSC",
+        "RSKD"
+      ]
+    },
+    {
+      "claim": "Mastercard Economics Institute's 2026 travel report frames the travel economy around macro forces, AI's influence on travel, and changing traveler priorities.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "source_title": "The travel economy in 2026: How travelers adapt to uncertainty",
+      "source_url": "https://www.mastercard.com/us/en/news-and-trends/stories/2026/travel-report-2026.html",
+      "used_for": [
+        "SABR"
+      ]
+    },
+    {
+      "claim": "The Federal Reserve's May 2026 Financial Stability Report noted that credit-card delinquency rates edged down after rising since early 2022.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "source_title": "Financial Stability Report, May 2026",
+      "source_url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20260508.pdf",
+      "used_for": [
+        "BFH",
+        "RSKD"
+      ]
+    },
+    {
+      "claim": "Cached Layer 1 context identified Liquidity Services as an online surplus asset marketplace with possible exposure to retail liquidation and returns disposition.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "source_title": "Cached Layer 1 universe",
+      "source_url": "cached_serenity_layer1_context",
+      "used_for": [
+        "LQDT"
+      ]
+    },
+    {
+      "claim": "Cached Layer 1 context identified GXO Logistics as a contract logistics provider with potential reverse-logistics exposure.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "source_title": "Cached Layer 1 universe",
+      "source_url": "cached_serenity_layer1_context",
+      "used_for": [
+        "GXO"
+      ]
+    },
+    {
+      "claim": "Cached Layer 1 context proposed SPS Commerce as a possible hidden retail supplier-connectivity node if its products handle return authorizations, vendor compliance, chargebacks, or inventory reconciliation.",
+      "claim_type": "hypothesis",
+      "confidence": 0.74,
+      "source_title": "Cached Layer 1 universe",
+      "source_url": "cached_serenity_layer1_context",
+      "used_for": [
+        "SPSC"
+      ]
+    },
+    {
+      "claim": "Layer 2 inferred that Q2 2026 earnings commentary from retailers, ecommerce platforms, 3PLs, liquidation marketplaces, and fraud vendors can validate or falsify return rates, return fraud, instant refunds, warehouse utilization, recovery values, and merchant demand for approval-rate optimization.",
+      "claim_type": "inference",
+      "confidence": 0.8,
+      "source_title": "Cached Layer 2 catalysts",
+      "source_url": "cached_serenity_layer2_context",
+      "used_for": [
+        "LQDT",
+        "GXO",
+        "RSKD",
+        "SPSC"
+      ]
+    },
+    {
+      "claim": "Layer 2 inferred that credit-card issuers, private-label lenders, BNPL platforms, and merchant-financing providers can validate or falsify the consumer-credit enablement node through loss-rate, delinquency, partner-win, and approval-rate commentary.",
+      "claim_type": "inference",
+      "confidence": 0.78,
+      "source_title": "Cached Layer 2 catalysts",
+      "source_url": "cached_serenity_layer2_context",
+      "used_for": [
+        "BFH",
+        "RSKD"
+      ]
+    }
+  ],
+  "layer": 3,
+  "memory_update": [
+    {
+      "layer": 3,
+      "note": "For the next layer, prioritize primary-source verification of LQDT retail-return exposure, SPSC returns/vendor-compliance product evidence, RSKD checkout approval and chargeback economics, GXO reverse-logistics mix, and BFH merchant-enablement versus credit-cycle exposure.",
+      "theme_id": "consumer_hidden_infrastructure_returns_credit_travel_home_repair_supplier_connectivity",
+      "top_priority_tickers": [
+        "LQDT",
+        "SPSC",
+        "RSKD",
+        "GXO",
+        "BFH"
+      ],
+      "type": "ranking_result"
+    },
+    {
+      "layer": 3,
+      "tests": [
+        {
+          "test": "Downgrade if RSCG growth is not tied to retail/ecommerce sellers, buyer-network expansion, or improved recovery values.",
+          "ticker": "LQDT"
+        },
+        {
+          "test": "Downgrade if product materials and customer cases show only generic EDI/order exchange with no return authorization, chargeback, vendor compliance, or item-level reverse-flow relevance.",
+          "ticker": "SPSC"
+        },
+        {
+          "test": "Downgrade if GMV covered, NRR, or gross margin weakens while chargeback guarantee economics deteriorate.",
+          "ticker": "RSKD"
+        },
+        {
+          "test": "Downgrade if reverse logistics is immaterial, lower-margin, or not separable from general contract logistics growth.",
+          "ticker": "GXO"
+        },
+        {
+          "test": "Downgrade if partner wins and Bread Pay growth fail to offset legacy private-label credit deterioration.",
+          "ticker": "BFH"
+        }
+      ],
+      "theme_id": "consumer_hidden_infrastructure_returns_credit_travel_home_repair_supplier_connectivity",
+      "type": "falsification_plan"
+    }
+  ],
+  "ranked_candidates": [
+    {
+      "attention_level": "low_attention",
+      "company": "Liquidity Services Inc.",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether RSCG GMV, take rate, seller concentration, buyer growth, and warehouse capacity utilization improve specifically when ecommerce return volumes rise, versus being diluted by government or industrial surplus cycles.",
+      "main_evidence_gap": "Need primary-source segmentation showing how much revenue, GMV, seller activity, and margin are directly linked to retail/ecommerce returns rather than non-consumer surplus cycles.",
+      "market_cap_bucket": "small_cap",
+      "rank": 1,
+      "scores": {
+        "bottleneck_severity": 4.0,
+        "demand_durability": 4.3,
+        "evidence_quality": 3.8,
+        "falsifiability": 4.5,
+        "mispricing_potential": 4.4,
+        "public_market_purity": 4.5,
+        "risk_clarity": 4.2,
+        "supplier_scarcity": 3.6,
+        "underfollowed_discovery": 4.7
+      },
+      "ticker": "LQDT",
+      "total_score": 38.0,
+      "why_prioritized": "Liquidity Services is the cleanest underfollowed candidate in this chunk for the returns/reverse-commerce node. The macro demand driver is supported by NRF evidence that U.S. retail returns are a very large economic problem, while the company’s asset-recovery and liquidation-marketplace role maps directly to the disposition and recovery-value layer. The thesis is measurable through RSCG GMV, take rate, seller wins, buyer-network growth, warehouse utilization, and mix between retail returns versus government/industrial surplus.",
+      "why_underfollowed": "It is usually screened as a surplus asset or liquidation marketplace rather than as ecommerce and retail returns infrastructure, so it may be missed by consumer ecommerce, retail technology, and reverse-logistics screens."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "SPS Commerce",
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Whether SPS products explicitly handle return authorizations, chargebacks, vendor compliance around returned goods, item-level inventory reconciliation, or integrations with returns-management platforms.",
+      "main_evidence_gap": "Need product documentation, customer case studies, earnings commentary, or customer references proving that returns economics and reverse-flow data are material to SPS’s growth, not merely adjacent.",
+      "market_cap_bucket": "small_cap",
+      "rank": 2,
+      "scores": {
+        "bottleneck_severity": 3.9,
+        "demand_durability": 4.4,
+        "evidence_quality": 3.2,
+        "falsifiability": 4.2,
+        "mispricing_potential": 4.1,
+        "public_market_purity": 4.1,
+        "risk_clarity": 3.8,
+        "supplier_scarcity": 4.0,
+        "underfollowed_discovery": 4.4
+      },
+      "ticker": "SPSC",
+      "total_score": 36.1,
+      "why_prioritized": "SPS Commerce scores highly because the retail supplier-connectivity chokepoint is durable and likely becomes more important as ecommerce, returns, vendor compliance, item data, and inventory reconciliation become more complex. The company appears to offer relatively pure public-market exposure to retail trading-partner network software. However, the specific returns-adjacent thesis remains a hypothesis until product-level evidence confirms return authorization, chargeback, vendor compliance, and returned-goods workflows.",
+      "why_underfollowed": "Its standard label is EDI or retail supply-chain software, which can obscure its role as a possible data-network layer behind ecommerce returns, vendor compliance, and item-level retail reconciliation."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "Riskified Ltd.",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Net revenue retention, gross merchandise volume covered, chargeback guarantee economics, merchant concentration, and whether fraud-loss pressure rises as merchants loosen approval rules.",
+      "main_evidence_gap": "Need evidence that merchant demand is accelerating because of ecommerce return fraud, approval-rate pressure, or credit tightening, rather than general fraud-software replacement cycles.",
+      "market_cap_bucket": "small_cap",
+      "rank": 3,
+      "scores": {
+        "bottleneck_severity": 4.0,
+        "demand_durability": 4.2,
+        "evidence_quality": 3.5,
+        "falsifiability": 4.4,
+        "mispricing_potential": 4.2,
+        "public_market_purity": 4.3,
+        "risk_clarity": 3.6,
+        "supplier_scarcity": 3.5,
+        "underfollowed_discovery": 4.3
+      },
+      "ticker": "RSKD",
+      "total_score": 36.0,
+      "why_prioritized": "Riskified is a pure small-cap way to test the fraud/risk-intelligence node behind ecommerce conversion. If merchants need to raise checkout approval rates while controlling chargebacks, fraud decisioning becomes an operational bottleneck. The thesis is highly falsifiable through GMV covered, net revenue retention, merchant concentration, gross margin, and chargeback guarantee economics.",
+      "why_underfollowed": "It is usually categorized as fraud software or SaaS rather than as consumer checkout infrastructure, consumer-credit enablement, or a hidden merchant-conversion layer."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "GXO Logistics Inc.",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Percent of revenue, new business wins, margin profile, and automation intensity tied specifically to reverse logistics rather than forward fulfillment.",
+      "main_evidence_gap": "Need company-level disclosure or customer evidence separating reverse logistics from general warehousing, ecommerce fulfillment, and industrial logistics.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 4,
+      "scores": {
+        "bottleneck_severity": 4.1,
+        "demand_durability": 4.1,
+        "evidence_quality": 3.4,
+        "falsifiability": 4.1,
+        "mispricing_potential": 3.9,
+        "public_market_purity": 3.5,
+        "risk_clarity": 3.8,
+        "supplier_scarcity": 3.4,
+        "underfollowed_discovery": 4.0
+      },
+      "ticker": "GXO",
+      "total_score": 34.3,
+      "why_prioritized": "GXO maps to the physical bottleneck in ecommerce fulfillment and reverse logistics: warehouse capacity, automation, labor orchestration, and returns processing. It is less pure than Liquidity Services because reverse logistics is only one part of broader contract logistics, but the evidence path is concrete through new business wins, automation intensity, reverse-logistics revenue mix, utilization, and margin performance.",
+      "why_underfollowed": "It is often screened as a contract logistics company rather than as a returns-infrastructure and ecommerce recovery-cost beneficiary."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "Bread Financial Holdings",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether Bread Pay and partner wins are growing faster than legacy private-label balances, and whether credit losses in lower-score private-label accounts are stabilizing.",
+      "main_evidence_gap": "Need clearer separation between technology/merchant-enablement growth and legacy private-label credit exposure, especially under different consumer credit-loss scenarios.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 5,
+      "scores": {
+        "bottleneck_severity": 3.7,
+        "demand_durability": 3.8,
+        "evidence_quality": 3.8,
+        "falsifiability": 4.3,
+        "mispricing_potential": 4.0,
+        "public_market_purity": 4.0,
+        "risk_clarity": 4.0,
+        "supplier_scarcity": 3.3,
+        "underfollowed_discovery": 4.1
+      },
+      "ticker": "BFH",
+      "total_score": 35.0,
+      "why_prioritized": "Bread Financial is a hidden consumer-credit enablement candidate. The company is economically exposed to retail conversion, private-label cards, co-brand cards, and installment/merchant financing, while market attention often focuses on credit-cycle risk. The thesis is testable through partner wins, Bread Pay growth, receivables mix, delinquencies, net charge-offs, funding cost, and loss normalization.",
+      "why_underfollowed": "It is usually viewed as a consumer lender and credit-card risk name, which can obscure its role as white-label retail-financing infrastructure and merchant-conversion software."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Sabre Corporation",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether AI travel agents, NDC/direct-connect adoption, and supplier direct distribution reduce GDS economics or instead increase the need for neutral aggregation, servicing, payments, and compliance rails.",
+      "main_evidence_gap": "Need hard evidence from airline/hotel contracts, NDC volume economics, agency demand, and AI-agent partnerships showing whether Sabre is gaining or losing control of the distribution layer.",
+      "market_cap_bucket": "small_cap",
+      "rank": 6,
+      "scores": {
+        "bottleneck_severity": 4.0,
+        "demand_durability": 4.0,
+        "evidence_quality": 3.6,
+        "falsifiability": 4.2,
+        "mispricing_potential": 4.0,
+        "public_market_purity": 4.0,
+        "risk_clarity": 3.3,
+        "supplier_scarcity": 3.8,
+        "underfollowed_discovery": 3.7
+      },
+      "ticker": "SABR",
+      "total_score": 34.6,
+      "why_prioritized": "Sabre is directly tied to travel distribution rails, including inventory connectivity, servicing, and travel booking workflows. It is a useful candidate because AI travel agents and NDC/direct-connect adoption create a clear chokepoint question: do new interfaces bypass the GDS or increase the need for neutral aggregation and servicing infrastructure? The thesis is highly falsifiable but balance-sheet and legacy-distribution risk lower risk clarity.",
+      "why_underfollowed": "It is known within travel technology, but its small-cap status, leverage, and legacy-GDS controversy can cause it to be excluded from broad consumer, software, or AI-agent screens."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "SiteOne Landscape Supply",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether repair/upgrade and maintenance sales remain resilient versus new residential construction; track organic daily sales, gross margin, private-label growth, acquisition cadence, and branch productivity.",
+      "main_evidence_gap": "Need stronger evidence separating recurring maintenance and repair/upgrade demand from cyclical new construction, weather, and discretionary outdoor-living projects.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 7,
+      "scores": {
+        "bottleneck_severity": 3.5,
+        "demand_durability": 3.9,
+        "evidence_quality": 3.8,
+        "falsifiability": 4.1,
+        "mispricing_potential": 3.4,
+        "public_market_purity": 4.0,
+        "risk_clarity": 4.0,
+        "supplier_scarcity": 3.6,
+        "underfollowed_discovery": 3.5
+      },
+      "ticker": "SITE",
+      "total_score": 33.8,
+      "why_prioritized": "SiteOne provides relatively pure public-market exposure to contractor-oriented landscape distribution, outdoor maintenance, irrigation, and repair/upgrade demand. It is less hidden than top-ranked names, but it remains useful as a mid-cap specialty-distribution candidate tied to repair/remodel rather than only new housing starts.",
+      "why_underfollowed": "It is often bucketed as landscape distribution rather than as a consumer-housing repair/remodel capacity and contractor-productivity node."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Open Text Corporation",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether Business Network revenue is growing, defensible, and material enough to matter relative to OpenText's broader portfolio, debt load, and other enterprise software segments.",
+      "main_evidence_gap": "Need segment-level revenue, growth, margin, customer concentration, and retail/consumer vertical mix for Business Network.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 8,
+      "scores": {
+        "bottleneck_severity": 3.7,
+        "demand_durability": 4.1,
+        "evidence_quality": 3.3,
+        "falsifiability": 3.6,
+        "mispricing_potential": 3.5,
+        "public_market_purity": 2.6,
+        "risk_clarity": 3.2,
+        "supplier_scarcity": 3.9,
+        "underfollowed_discovery": 3.3
+      },
+      "ticker": "OTEX",
+      "total_score": 31.2,
+      "why_prioritized": "OpenText’s Business Network asset is relevant to EDI, B2B integration, trading-partner connectivity, supplier digitization, order/invoice exchange, and compliance. However, the public-market purity is weaker because the company is diversified across broader enterprise information management, security, content, and cloud assets. It is useful as a reference leader but not the cleanest underfollowed candidate.",
+      "why_underfollowed": "The retail-supplier connectivity asset may be hidden inside a broader enterprise software portfolio, making the consumer-supply-chain chokepoint less visible in standard screens."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Watsco, Inc.",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Track whether replacement HVAC volumes, refrigerant/regulatory product transitions, contractor technology adoption, and acquired distributor integration remain favorable versus new-construction cyclicality.",
+      "main_evidence_gap": "Need updated evidence on replacement mix, regulatory transition economics, contractor adoption of digital tools, and whether valuation already reflects the quality of the chokepoint.",
+      "market_cap_bucket": "large_cap",
+      "rank": 9,
+      "scores": {
+        "bottleneck_severity": 3.8,
+        "demand_durability": 4.2,
+        "evidence_quality": 4.1,
+        "falsifiability": 4.0,
+        "mispricing_potential": 2.7,
+        "public_market_purity": 4.0,
+        "risk_clarity": 4.1,
+        "supplier_scarcity": 3.7,
+        "underfollowed_discovery": 2.2
+      },
+      "ticker": "WSO",
+      "total_score": 32.8,
+      "why_prioritized": "Watsco is a high-quality reference anchor for contractor-network control, HVAC replacement demand, regulatory product transitions, and distribution density. It ranks below smaller/nicher names because it is not underfollowed and is less likely to be a discovery candidate, but it helps calibrate what strong evidence looks like for the home repair/remodel distributor node.",
+      "why_underfollowed": "Not meaningfully underfollowed; included mainly as a reference pattern for contractor-network control and replacement-demand exposure in public filings."
+    }
+  ],
+  "summary": "Layer 3 ranks this candidate chunk by Serenity research priority, emphasizing hidden consumer infrastructure nodes rather than obvious consumer brands. Highest priority goes to small/mid-cap names where demand is tied to durable consumer-system friction, the company sits near a measurable bottleneck, public-market exposure is reasonably pure, and the evidence path is testable. The top candidates are Liquidity Services, SPS Commerce, Riskified, GXO Logistics, Bread Financial, Sabre, and SiteOne. Reference anchors such as Watsco and OpenText remain useful for pattern matching but rank lower because they are either less underfollowed, less pure to the specific consumer chokepoint, or more diversified.",
+  "theme_id": "consumer_hidden_infrastructure_returns_credit_travel_home_repair_supplier_connectivity"
+}

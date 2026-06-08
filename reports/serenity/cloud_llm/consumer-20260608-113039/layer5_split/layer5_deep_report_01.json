@@ -1,0 +1,141 @@
+{
+  "deep_reports": [
+    {
+      "attention_level": "low_attention",
+      "company": "Liquidity Services Inc.",
+      "discovery_lane": "underfollowed",
+      "evidence_chain": [
+        "[fact] Liquidity Services reports multiple operating/reportable segments including GovDeals, Retail Supply Chain Group and Capital Assets Group in its FY2025 annual reporting. Source: Liquidity Services FY2025 annual report / Form 10-K, https://investors.liquidityservices.com/static-files/5bce319c-3b64-46e4-a77e-5560a376ab64 and SEC archive URL provided in brief: https://www.sec.gov/Archives/edgar/data/1235468/000119312525289159/lqdt-20250930.htm",
+        "[fact] FY2025 annual-report search context indicates RSCG revenue of approximately $330.3M, up 41.8%, RSCG GMV of approximately $418.4M, up 30.5%, and RSCG segment margin of about 22.6%. Source: SEC/annual report search context via StockTitan summary, https://www.stocktitan.net/sec-filings/LQDT/10-k-liquidity-services-inc-files-annual-report-44c28853148a.html",
+        "[fact] A segment-disclosure data source states that FY2025 and FY2024 transactions with a single RSCG external customer represented approximately 13% and 12% of consolidated revenues, respectively; no single customer exceeded 10% in FY2023. This supports the need to monitor customer concentration. Source: edgar.tools segment disclosure page, https://app.edgar.tools/companies/LQDT/disclosures/segments",
+        "[fact] In Q1 FY2026, company/news context stated RSCG revenue decreased 6%, but segment direct profit rose 16% to a quarterly record of $21.5M, attributed to strong multi-channel buyer participation and margin improvements. Source: Nasdaq/press release search context, https://www.nasdaq.com/press-release/liquidity-services-announces-first-quarter-fiscal-year-2026-financial-results-2026-02",
+        "[fact] In Q2 FY2026, company release context stated consolidated GMV was $389.9M, up 6% year over year, and RSCG GMV increased 10%; another release snippet stated RSCG revenue increased 1% and RSCG segment direct profit increased 29%. Source: Liquidity Services Q2 FY2026 release, https://investors.liquidityservices.com/news-releases/news-release-details/liquidity-services-announces-second-quarter-fiscal-year-2026-0",
+        "[fact] The Q2 FY2026 release explicitly referred to RSCG’s seasonal peak in post-holiday retail returns, which is a direct textual link between RSCG and retail-return flow. Source: Liquidity Services Q2 FY2026 release, https://investors.liquidityservices.com/news-releases/news-release-details/liquidity-services-announces-second-quarter-fiscal-year-2026-0",
+        "[fact] Company risk language in Q2 FY2026 context includes risks around sourcing sufficient assets, competition/disintermediation by buyers or sellers, Amazon vendor contracts for purchased inventory, product-mix variability in RSCG, retailer warehouse investments reducing return volumes sent to LQDT, data/privacy/cybersecurity, and system stability. Source: Liquidity Services Q2 FY2026 release, https://liquidityservices.com/press-releases/liquidity-services-announces-second-quarter-fiscal-year-2026-0?hsLang=en",
+        "[fact] As of the latest tool-supplied market data, LQDT market capitalization was approximately $1.21B, placing it in a small-cap bucket. Source: finance tool result for LQDT, latest trade time June 6, 2026 UTC.",
+        "[inference] The improving FY2025 RSCG GMV/revenue and FY2026 RSCG direct-profit signals suggest the RSCG business may be benefiting from buyer-network liquidity and mix/operating leverage, but current evidence does not yet isolate how much is driven by retail/ecommerce returns versus broader surplus programs.",
+        "[hypothesis] If retailers increasingly outsource post-return and overstock disposition instead of internalizing it, LQDT/RSCG could become a bottleneck-like infrastructure provider. If retailers instead build in-house reverse-logistics and resale capabilities, the chokepoint power declines."
+      ],
+      "falsification_plan": [
+        "Downgrade the consumer-return thesis if RSCG GMV growth slows or reverses while broader U.S. retail/ecommerce return volumes remain elevated.",
+        "Downgrade if RSCG segment direct profit or implied take rate falls for multiple quarters, especially if management attributes weakness to lower recovery values, unfavorable product mix or weaker buyer demand.",
+        "Downgrade if RSCG growth is mainly purchase-model revenue with worse inventory risk rather than scalable consignment/marketplace economics.",
+        "Downgrade if seller concentration remains high or worsens, and incremental RSCG growth comes from one or two large vendors rather than broader retailer/brand adoption.",
+        "Downgrade if FY2026/FY2027 consolidated GMV growth is mostly from GovDeals real estate, government surplus, CAG industrial cycles or acquisitions, while RSCG stagnates.",
+        "Downgrade if management indicates retailers are increasingly keeping high-value returns in-house and sending LQDT lower-value, harder-to-liquidate product mix.",
+        "Downgrade if buyer registrations, buyer participation, auction conversion, recovery values or inventory aging metrics weaken, even when return supply is abundant.",
+        "Upgrade only if RSCG shows sustained GMV growth, expanding direct profit, healthier consignment economics, broader seller base, robust buyer participation and explicit evidence tying volume to retail/ecommerce returns or retail surplus programs."
+      ],
+      "hidden_signal_to_verify": "The hidden signal is not consolidated GMV alone. The evidence to track is RSCG-specific GMV growth, RSCG revenue growth, segment direct profit, implied take rate, consignment versus purchase mix, seller/customer concentration, number and quality of retail sellers, buyer registrations and buyer participation, recovery values, inventory aging, warehouse utilization, and whether management explicitly ties RSCG volume to post-holiday retail returns, ecommerce returns, retailer surplus or new retail client programs.",
+      "market_cap_bucket": "small_cap",
+      "next_research_tasks": [
+        "Pull the FY2025 10-K, Q1 FY2026 10-Q, Q2 FY2026 10-Q and earnings-call transcripts; build a quarter-by-quarter RSCG model with GMV, revenue, direct profit, direct-profit margin and implied revenue/GMV take rate.",
+        "Separate RSCG purchase-model revenue from consignment GMV where disclosures allow; mark each quarter as asset-light, purchase-heavy or mixed.",
+        "Track seller/customer concentration disclosures, especially any explicit Amazon-related purchase commitments or vendor-contract language.",
+        "Search calls and filings for keywords: retail returns, ecommerce returns, post-holiday returns, overstock, surplus, seller onboarding, buyer registrations, recovery value, inventory aging, warehouse utilization, consignment, purchase programs.",
+        "Compare RSCG seasonality against U.S. retail return seasonality, especially December-to-March post-holiday periods, to test whether the segment truly maps to consumer return cycles.",
+        "Benchmark LQDT against private or public reverse-logistics/liquidation competitors such as B-Stock, Optoro, GXO/return logistics units, eBay/wholesale resale channels and retailer-owned resale programs.",
+        "Check whether retailer inventory aging, markdown rates and ecommerce penetration are creating more disposition demand or whether inventories are becoming cleaner, which would reduce liquidation supply.",
+        "Review warehouse footprint and any consolidation charges to see whether margin improvement is operating leverage or merely temporary cost actions.",
+        "Create a dashboard alert for RSCG direct profit growth versus RSCG revenue growth; this is the key signal for buyer-network liquidity and mix improvement.",
+        "Interview/source-check secondary buyers, liquidation resellers or marketplace users if possible to validate whether LQDT auctions are seeing better inventory quality, better sell-through or stronger competition."
+      ],
+      "risks": [
+        "Segment purity risk: consolidated growth may be driven by GovDeals, CAG, acquisitions or industrial/public-sector cycles rather than consumer return infrastructure.",
+        "Customer concentration risk: RSCG has disclosed meaningful concentration with at least one large external customer in recent years; loss, renegotiation or mix changes could distort the thesis.",
+        "Take-rate and margin risk: liquidation supply can rise faster than buyer demand, lowering recovery values, take rates or direct profit margins.",
+        "Purchase-model inventory risk: when LQDT buys inventory rather than running asset-light consignment, it bears pricing, aging, product quality and liquidation-value risk.",
+        "Retailer insourcing risk: large retailers or ecommerce platforms may invest in their own return warehouses, resale platforms or recommerce partnerships, reducing volume sent to LQDT.",
+        "Buyer-network cyclicality: resale buyers may become less aggressive if consumer demand weakens, credit tightens, export channels narrow, tariffs change or used-goods recovery values fall.",
+        "Operational risk: warehouse consolidation, fulfillment costs, product handling, fraud, shipping costs and inventory aging can offset GMV growth.",
+        "Technology/platform risk: marketplace availability, mobile commerce execution, cybersecurity, marketing technology and customer-service scale are necessary to sustain buyer liquidity.",
+        "Narrative mismatch risk: even if RSCG improves, public-market attention may continue valuing LQDT as a mixed auction platform, not as consumer reverse-logistics infrastructure."
+      ],
+      "supply_chain_position": "Consumer reverse-logistics and liquidation node: downstream retail/ecommerce return volumes and surplus inventory flow into retailer/brand disposition programs; LQDT/RSCG provides marketplace, auction, buyer-network, consignment, purchase-program, recovery-value and operational services; secondary buyers, resellers, exporters and discount channels absorb inventory. Adjacent but less consumer-pure LQDT segments include GovDeals for public-sector surplus and CAG for capital/industrial assets.",
+      "thesis_cn": "假设：美国零售和电商退货、过剩库存与季节性清仓压力上升后，品牌和零售商需要更高效的残值回收、拍卖撮合、多渠道买家网络和仓储/处置基础设施。Liquidity Services 的 Retail Supply Chain Group（RSCG）是该链条里较直接的上市映射。如果 RSCG 的 GMV、直接利润、买家需求、寄售占比、仓库效率和卖方广度持续改善，则公司可能不是简单的剩余资产拍卖平台，而是消费退货/过剩库存处置的基础设施节点。该判断目前属于 inference，而非已完全验证的 fact。",
+      "thesis_en": "Hypothesis/inference: rising U.S. retail and ecommerce returns, excess inventory, and seasonal markdown pressure increase demand for scalable recovery-value optimization, liquidation marketplaces, multi-channel buyer networks, and disposition infrastructure. Liquidity Services’ Retail Supply Chain Group (RSCG) is one of the cleaner public-market mappings to this node. If RSCG GMV, direct profit, buyer demand, consignment mix, warehouse efficiency, and seller breadth keep improving, LQDT may be more than a surplus-asset auction company: it may be a consumer returns and excess-inventory infrastructure provider. This remains an inference, not a fully proven fact.",
+      "ticker": "LQDT",
+      "title_cn": "LQDT：被政府/工业拍卖标签遮住的美国零售退货清仓基础设施",
+      "title_en": "LQDT: Retail Returns Liquidation Infrastructure Hidden Behind a Government/Industrial Auction Label",
+      "why_underfollowed": "The market may miss the signal because LQDT is commonly screened as an online auction, surplus asset, government surplus or industrial liquidation company. GovDeals and CAG can dominate the perception of the business, while RSCG is hidden inside segment disclosures and has a different demand driver: retail returns, overstock, purchase-model inventory, consignment programs and buyer-network depth. This creates a classification mismatch versus consumer ecommerce, retail-tech, reverse logistics and resale infrastructure screens."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "LQDT has a small-cap market capitalization around $1.21B as of latest available tool data.",
+      "claim_type": "fact",
+      "source": "Finance tool result for LQDT; latest trade time June 6, 2026 UTC."
+    },
+    {
+      "claim": "Liquidity Services FY2025 annual reporting identifies reportable segments including GovDeals, Retail Supply Chain Group and Capital Assets Group.",
+      "claim_type": "fact",
+      "source": "Liquidity Services FY2025 annual report / Form 10-K: https://investors.liquidityservices.com/static-files/5bce319c-3b64-46e4-a77e-5560a376ab64 ; SEC archive URL from brief: https://www.sec.gov/Archives/edgar/data/1235468/000119312525289159/lqdt-20250930.htm"
+    },
+    {
+      "claim": "FY2025 RSCG revenue, GMV and segment margin improved materially according to annual-report search context.",
+      "claim_type": "fact_from_search_context",
+      "source": "StockTitan 10-K summary/search context: https://www.stocktitan.net/sec-filings/LQDT/10-k-liquidity-services-inc-files-annual-report-44c28853148a.html"
+    },
+    {
+      "claim": "RSCG has customer concentration that must be monitored.",
+      "claim_type": "fact_from_search_context",
+      "source": "edgar.tools segment disclosure page: https://app.edgar.tools/companies/LQDT/disclosures/segments"
+    },
+    {
+      "claim": "Q1 FY2026 RSCG revenue decreased but direct profit increased, suggesting mix or operating-efficiency improvement.",
+      "claim_type": "fact_from_search_context_and_inference",
+      "source": "Nasdaq Q1 FY2026 release context: https://www.nasdaq.com/press-release/liquidity-services-announces-first-quarter-fiscal-year-2026-financial-results-2026-02"
+    },
+    {
+      "claim": "Q2 FY2026 release context links RSCG to post-holiday retail returns and reports RSCG GMV growth.",
+      "claim_type": "fact_from_search_context",
+      "source": "Liquidity Services Q2 FY2026 release: https://investors.liquidityservices.com/news-releases/news-release-details/liquidity-services-announces-second-quarter-fiscal-year-2026-0"
+    },
+    {
+      "claim": "The chokepoint thesis depends on RSCG, not consolidated GMV, because GovDeals and CAG can obscure consumer-linked performance.",
+      "claim_type": "inference",
+      "source": "Derived from segment structure and Serenity/chokepoint methodology; supported by company segment disclosures above."
+    }
+  ],
+  "layer": 5,
+  "memory_update": [
+    {
+      "company": "Liquidity Services Inc.",
+      "core_thesis": "RSCG may be a hidden consumer returns and surplus-inventory liquidation infrastructure node if segment-specific GMV, direct profit, buyer liquidity and seller breadth continue improving.",
+      "discovery_lane": "underfollowed",
+      "falsification_triggers": [
+        "RSCG stagnation while GovDeals/CAG drive consolidated growth",
+        "RSCG take-rate or direct-profit margin compression",
+        "Worsening seller concentration",
+        "Retailers insourcing reverse logistics and sending lower-value mix to LQDT",
+        "Buyer participation or recovery values weakening despite elevated return supply"
+      ],
+      "key_metrics_to_monitor": [
+        "RSCG GMV",
+        "RSCG revenue",
+        "RSCG segment direct profit",
+        "RSCG implied take rate",
+        "consignment versus purchase mix",
+        "seller/customer concentration",
+        "buyer registrations and buyer participation",
+        "recovery values",
+        "inventory aging",
+        "warehouse utilization",
+        "management commentary tying volume to retail/ecommerce returns"
+      ],
+      "status": "layer_5_mini_deep_report_complete",
+      "theme_id": "consumer_reverse_logistics_liquidation_infrastructure_lqdt",
+      "ticker": "LQDT",
+      "type": "theme_candidate",
+      "upgrade_triggers": [
+        "Sustained RSCG GMV growth above consolidated GMV growth",
+        "RSCG direct profit growing faster than RSCG revenue",
+        "Improving consignment mix or lower purchase-model inventory risk",
+        "Broader retail seller base and lower customer concentration",
+        "Explicit disclosure linking growth to retail/ecommerce returns or post-holiday returns"
+      ]
+    }
+  ],
+  "summary": "Layer 5 mini deep report on Liquidity Services Inc. as an underfollowed small-cap consumer reverse-logistics/liquidation infrastructure candidate. This is research support only, not a buy/sell recommendation. Core conclusion: the consumer-return chokepoint thesis is plausible but still segment-specific and must be proven through RSCG GMV, RSCG direct profit, mix shift, seller diversity, buyer liquidity, and evidence that growth is tied to retail/ecommerce returns rather than GovDeals or industrial cycles.",
+  "theme_id": "consumer_reverse_logistics_liquidation_infrastructure_lqdt"
+}
