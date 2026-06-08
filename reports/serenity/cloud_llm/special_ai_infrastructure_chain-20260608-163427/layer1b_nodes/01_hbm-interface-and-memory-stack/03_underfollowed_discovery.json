@@ -1,0 +1,200 @@
+{
+  "candidates": [
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Rambus Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Confirm whether HBM-related royalties, controller IP licenses, or customer design wins are becoming a larger percentage of revenue versus legacy memory-interface licensing.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-K/10-Q segment disclosures, customer-concentration notes, licensing duration, backlog/RPO if disclosed, and conference-call language specifically mentioning HBM3E, HBM4, AI accelerators, or custom ASIC customers.",
+      "node_relation": "Provides memory-interface IP, including HBM controller/interface IP, that sits between AI accelerator designers and HBM memory integration.",
+      "sector_or_industry": "Semiconductor IP / memory-interface technology",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "ip_toll_road",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI accelerators require more HBM bandwidth and more complex memory controllers, interface IP and controller validation can act as toll-road layers around the HBM stack rather than direct DRAM manufacturing exposure.",
+      "ticker": "RMBS",
+      "why_include": "Rambus explicitly lists HBM among its memory-interface IP standards. This makes it a direct US-listed candidate for the node hypothesis that HBM value may accrue not only to memory makers but also to interface/controller IP suppliers.",
+      "why_underfollowed": "It is not a memory manufacturer or GPU vendor, so many AI/HBM screens may miss it if they focus only on Micron, SK hynix, Samsung, NVIDIA, AMD, or TSMC. Its industry label can appear as semiconductor IP rather than AI infrastructure."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "FormFactor, Inc.",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Look for memory probe-card revenue growth, HBM-related customer concentration, capacity additions, lead times, and whether HBM test intensity is improving pricing/margins.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review latest 10-K/10-Q and earnings-call transcript for DRAM/HBM demand, advanced packaging test, customer-specific memory programs, utilization, and any supply constraints in MEMS/probe-card manufacturing.",
+      "node_relation": "Supplies probe-card and wafer-test technology for DRAM/HBM, including full-wafer contact testing and HBM-stack-related electrical verification.",
+      "sector_or_industry": "Semiconductor test / probe cards / wafer-level test",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "test_gate",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM requires high-yield known-good-die and package-level validation. If HBM stack complexity rises, probe cards and wafer-level test can become a second-order bottleneck around memory yield and packaging compatibility.",
+      "ticker": "FORM",
+      "why_include": "FormFactor’s own product materials reference HBM full-wafer testing and HBM-stack/interposer-related probe-card use cases, making it a plausible direct tooling beneficiary of HBM complexity.",
+      "why_underfollowed": "It is a niche test-equipment/probe-card supplier rather than a branded AI semiconductor company. The HBM exposure is likely hidden inside semiconductor capital equipment and DRAM test categories."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Amkor Technology, Inc.",
+      "confidence": 0.66,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify whether Amkor has actual HBM-adjacent production revenue, named AI accelerator customers, capacity reserved for advanced packaging, or only broad marketing exposure to heterogeneous integration.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-K/10-Q, CHIPS Act disclosures, customer announcements, capex plans, and earnings-call comments for 2.5D, HDFO, interposer, HBM, AI accelerator packaging, and lead-customer commitments.",
+      "node_relation": "Provides semiconductor packaging and test services; its AI packaging materials describe integration of chiplets and high-bandwidth memory in heterogeneous packaging.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test / advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM is not useful to AI accelerators unless logic dies, HBM stacks, interposers/substrates, and package/test flows can be integrated at yield. Amkor is a second-order packaging/test infrastructure candidate tied to that constraint.",
+      "ticker": "AMKR",
+      "why_include": "Amkor is US-listed and has explicit AI / high-performance packaging language around chiplets and HBM. It is not the primary CoWoS bottleneck holder, but it may benefit from demand for geographically diversified advanced packaging and test capacity.",
+      "why_underfollowed": "Compared with TSMC, NVIDIA, and Micron, Amkor is a less obvious way to map HBM into public equities. Its HBM relevance is embedded in OSAT, advanced packaging, and test-service categories rather than memory manufacturing."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Rambus says its interconnect and memory-interface IP includes digital controller IP for PCIe, CXL, HBM, GDDR, and DDR standards.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "Interface IP - Rambus",
+      "source_url": "https://www.rambus.com/interface-ip/",
+      "ticker": "RMBS"
+    },
+    {
+      "claim": "A market-cap source reported Rambus market capitalization around $15.71 billion as of June 2026, placing it above the preferred small/mid-cap band but below mega-cap status.",
+      "claim_type": "fact",
+      "confidence": 0.75,
+      "published_at": "2026-06",
+      "source_title": "Market capitalization of Rambus (RMBS)",
+      "source_url": "https://companiesmarketcap.com/rambus/marketcap/",
+      "ticker": "RMBS"
+    },
+    {
+      "claim": "FormFactor describes DRAM probe-card products for full-wafer contact testing of DRAM and HBM core die.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "Probe Cards - Design and Manufacturing | FormFactor, Inc.",
+      "source_url": "https://www.formfactor.com/our-technology-products/dram/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor’s HFTAP K32 materials state that the architecture is used to verify electrical performance and yield for devices used in the HBM stack, including fine-pitch interposers.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "HFTAP Series | FormFactor, Inc.",
+      "source_url": "https://www.formfactor.com/product/probe-cards/dram/hftap-series/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "A market-cap source reported FormFactor market capitalization around $9.1 billion as of June 5, 2026.",
+      "claim_type": "fact",
+      "confidence": 0.75,
+      "published_at": "2026-06-05",
+      "source_title": "FormFactor (FORM) Market Cap & Net Worth",
+      "source_url": "https://stockanalysis.com/stocks/form/market-cap/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Amkor’s AI application page says advanced IC packaging can combine logic, memory, chiplets, and HBM designs for heterogeneous packaging solutions.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Artificial Intelligence / Machine Learning - Amkor Technology",
+      "source_url": "https://amkor.com/applications/artificial-intelligence/",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor says it provides semiconductor packaging and test services, including a new US advanced packaging and test facility.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "",
+      "source_title": "Semiconductor Packaging & Test Services | Amkor Technology",
+      "source_url": "https://amkor.com/",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "A market-cap source reported Amkor Technology market capitalization around $16.1 billion as of June 5, 2026.",
+      "claim_type": "fact",
+      "confidence": 0.75,
+      "published_at": "2026-06-05",
+      "source_title": "Amkor Technology (AMKR) Market Cap & Net Worth",
+      "source_url": "https://stockanalysis.com/stocks/amkr/market-cap/",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Teradyne describes HBM as integral to AI processors and markets the Magnum 7H as a universal HBM test platform, supporting the broader premise that HBM test is its own equipment gate.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Magnum 7H, a cutting-edge universal HBM test platform | Teradyne",
+      "source_url": "https://www.teradyne.com/products/magnum-7h/",
+      "ticker": ""
+    },
+    {
+      "claim": "External context from ForcedAlpha described HBM as an acute AI infrastructure bottleneck and argued that HBM supply is gated by packaging capacity and interface/IP toll-road layers, but this is treated as framework evidence rather than primary proof.",
+      "claim_type": "fact",
+      "confidence": 0.62,
+      "published_at": "2026-02-14",
+      "source_title": "The AI Infrastructure Bottleneck Framework — Constraint Relay Race Investment Map",
+      "source_url": "https://forcedalpha.com/research/ai-infrastructure/",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.82,
+      "text": "RMBS should remain on the HBM interface/IP watchlist despite being above the ideal small/mid-cap band because its HBM controller/interface IP exposure is unusually direct.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "FORM is a high-priority underfollowed HBM test-gate candidate: probe cards, wafer-level HBM testing, and HBM-stack/interposer verification fit the Serenity chokepoint lens.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.66,
+      "text": "AMKR is a second-order HBM packaging/test infrastructure candidate; evidence is currently less pure than RMBS or FORM and needs validation through customer/program disclosures.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.7,
+      "text": "Need a follow-up pass on micro/small-cap speculative shadows such as memory-patent licensors, specialty substrate/interposer suppliers, and HBM validation software vendors; current pass stayed above the USD 300M preference and avoided OTC-heavy litigation names.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.86,
+      "text": "The HBM node should be split in later layers into: memory manufacturers, interface/controller IP, wafer/probe test, burn-in/final test, interposer/substrate compatibility, OSAT/advanced packaging, and EDA/validation software.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "HBM memory stack, interface IP, and memory-controller ecosystem",
+  "node_id": "hbm_interface_and_memory_stack",
+  "summary": "Layer 1B expansion for the HBM interface / memory-stack node found three US-listed names with plausible direct or second-order exposure beyond obvious memory manufacturers. The cleanest underfollowed chokepoint candidates are Rambus for HBM / memory-interface IP and FormFactor for HBM wafer/probe-card test enablement. Amkor is included as a larger but still sub-mega-cap packaging/test infrastructure candidate because HBM adoption increases the importance of heterogeneous integration and advanced packaging. Micron, SK hynix, Samsung, NVIDIA, AMD, and TSMC remain reference anchors but are intentionally not used to fill this underfollowed discovery list.",
+  "theme_id": "ai_infrastructure_supply_chain"
+}

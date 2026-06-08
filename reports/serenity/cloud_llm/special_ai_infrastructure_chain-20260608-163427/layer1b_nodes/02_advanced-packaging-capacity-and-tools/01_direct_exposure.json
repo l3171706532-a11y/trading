@@ -1,0 +1,178 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "confidence": 0.9,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Track CoWoS and SoIC capacity expansion cadence, utilization, lead times, outsourcing to OSAT partners, and capex allocated to packaging versus front-end wafer capacity.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Use TSMC 2025 annual report, 2026 earnings-call transcripts, capex commentary, and supplier purchase-order disclosures to identify which tool/test/inspection vendors are gaining from packaging capacity expansion.",
+      "node_relation": "Reference capacity leader for AI advanced packaging, including CoWoS, InFO, SoIC and related 3D packaging technologies.",
+      "sector_or_industry": "Foundry and advanced packaging",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference_leader"
+      ],
+      "theme_relation": "AI accelerators combine logic dies and HBM through advanced packaging; TSMC is the visible capacity anchor whose constraints can create demand pull for tools, inspection, substrates and test suppliers.",
+      "ticker": "TSM",
+      "why_include": "TSMC explicitly reports continued development of CoWoS, InFO, TSMC-SoIC and other advanced packaging technologies to support customer needs, and external reporting identifies CoWoS capacity as central to AI-chip supply.",
+      "why_underfollowed": "Not underfollowed; included only as the capacity anchor to map second-order suppliers."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Camtek Ltd.",
+      "confidence": 0.86,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Order growth from OSATs/foundries/HBM manufacturers, shipment mix into advanced packaging, product adoption of Hawk and other platforms, gross margin durability, and customer concentration.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Pull Camtek 20-F, quarterly earnings releases and call transcripts; verify whether advanced-packaging/HBM-related demand is translating into backlog, revenue growth and repeat orders.",
+      "node_relation": "Inspection and metrology vendor for advanced packaging, chiplets, HBM, compound semiconductors and related high-reliability semiconductor manufacturing steps.",
+      "sector_or_industry": "Semiconductor inspection and metrology equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "yield",
+        "inspection",
+        "evidence_needed"
+      ],
+      "theme_relation": "As AI packages grow denser and integrate chiplets plus HBM, more inspection/metrology steps may be required to protect packaging yield and reliability.",
+      "ticker": "CAMT",
+      "why_include": "Camtek’s annual-report disclosure says its systems inspect wafers for advanced packaging, chiplets and HBM, and states that new packaging technologies such as chiplets and HBM require more inspection and metrology steps.",
+      "why_underfollowed": "Camtek is a niche equipment supplier rather than an obvious AI chip owner; its exposure is one step upstream of headline GPU demand and is expressed through yield-control equipment rather than accelerator revenue."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Aehr Test Systems",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Commercial AI-processor orders, backlog quality, customer concentration, repeat buys, shipment timing, whether AI offsets cyclicality in silicon-carbide and other legacy end markets, and adoption of FOX/SONOMA platforms.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Pull Aehr 10-K, 10-Qs, order announcements and earnings-call transcripts; verify AI processor revenue contribution, backlog conversion, and whether packaged-part burn-in demand is sustained beyond initial qualification orders.",
+      "node_relation": "Wafer-level and packaged-part burn-in/test systems for high-reliability semiconductors, including AI processors and high-power devices.",
+      "sector_or_industry": "Semiconductor burn-in and test equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "test",
+        "burn_in",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI accelerators and ASICs require longer qualification, higher power burn-in, or more known-good-die screening before/after advanced packaging, burn-in/test capacity can become a second-order chokepoint.",
+      "ticker": "AEHR",
+      "why_include": "Aehr’s fiscal 2025 materials state it expanded into packaged-part qualification and production burn-in for AI processors through the Incal Technology acquisition and offers both wafer-level and packaged-part burn-in/test solutions.",
+      "why_underfollowed": "Aehr is a small semiconductor test-equipment company whose AI exposure is indirect and customer-order driven, making it easier to miss versus GPU, HBM or foundry leaders."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "TSMC’s 2025 annual report says it is developing advanced packaging and 3D chip stacking technologies, including CoWoS, InFO and TSMC-SoIC, to support customer needs.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "TSMC 2025 Annual Report Website",
+      "source_url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "CompaniesMarketCap reported TSMC had a market capitalization above $2 trillion as of June 2026, supporting the mega-cap classification.",
+      "claim_type": "fact",
+      "confidence": 0.85,
+      "published_at": "2026-06",
+      "source_title": "TSMC (TSM) - Market capitalization",
+      "source_url": "https://companiesmarketcap.com/tsmc/marketcap/",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Camtek’s annual-report filing says its systems inspect wafers for advanced packaging, chiplets and HBM, and that chiplets and HBM require more inspection and metrology steps.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04",
+      "source_title": "CAMTEK LTD - 2026 SEC Filing",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1109138/000117891326001561/zk2634678.htm",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "StatMuse reported Camtek market capitalization of approximately $7.5 billion in June 2026, supporting the mid-cap bucket used here.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06",
+      "source_title": "Camtek Market Cap | StatMuse Money",
+      "source_url": "https://www.statmuse.com/money/ask/camtek-market-cap",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Aehr reported that it expanded into packaged-part qualification and production burn-in for AI processors through the Incal Technology acquisition and now offers wafer-level and packaged-part reliability burn-in/test solutions.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-07",
+      "source_title": "Aehr Test Systems Reports Fiscal 2025 Fourth Quarter and Full Year Financial Results",
+      "source_url": "https://www.aehr.com/2025/07/aehr-test-systems-reports-fiscal-2025-fourth-quarter-and-full-year-financial-results-expands-total-addressable-market-and-diversifies-customer-base/",
+      "ticker": "AEHR"
+    },
+    {
+      "claim": "StockAnalysis reported Aehr Test Systems market capitalization above $3 billion in early June 2026, supporting inclusion above the preferred $300 million to $1 billion minimum screen and the above-$1 billion filter note.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06",
+      "source_title": "Aehr Test Systems (AEHR) Stock Price & Overview",
+      "source_url": "https://stockanalysis.com/stocks/aehr/",
+      "ticker": "AEHR"
+    },
+    {
+      "claim": "The cached Serenity methodology emphasizes starting from the broad demand wave, mapping supply-chain layers, locating chokepoints with long qualification or tight supplier counts, and returning to public-market candidates with evidence and falsification checks.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-06-08",
+      "source_title": "Serenity.skill cached methodology context provided in prompt",
+      "source_url": "https://github.com/muxuuu/serenity-skill",
+      "ticker": ""
+    },
+    {
+      "claim": "For this node, the most useful two-lane funnel is TSMC as the reference capacity anchor, then equipment/test/inspection suppliers whose revenue can scale with advanced-packaging throughput and yield-control needs.",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "published_at": "2026-02-14",
+      "source_title": "The AI Infrastructure Bottleneck Framework — Constraint Relay Race Investment Map",
+      "source_url": "https://forcedalpha.com/research/ai-infrastructure/",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Keep TSM as the reference advanced-packaging capacity anchor, not as the alpha-hunt focus, because it frames CoWoS/SoIC capacity and supplier demand.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Add CAMT to the underfollowed discovery lane for advanced-packaging/HBM inspection and metrology exposure; verify backlog and customer mix in later layers.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Add AEHR to the underfollowed discovery lane for AI-processor wafer-level and packaged-part burn-in/test exposure; verify order durability and revenue contribution.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Layer 1B still needs a follow-up pass for US-listed or ADR names in substrates, thermal interface materials, sockets/contactors, probe cards, OSAT capacity and advanced-packaging lithography/metrology beyond CAMT and AEHR.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Advanced packaging capacity, bonding, substrates, inspection, and test",
+  "node_id": "advanced_packaging_capacity_and_tools",
+  "summary": "Layer 1B expands the US-listed universe for the advanced-packaging capacity node. The reference lane is TSMC because its CoWoS, SoIC and other 3DFabric packaging technologies sit directly between AI accelerator wafer output and finished GPU/ASIC modules. The underfollowed lane focuses on smaller public suppliers tied to throughput, yield and qualification: Camtek for inspection/metrology in advanced packaging, chiplets and HBM; and Aehr Test Systems for wafer-level and packaged-part burn-in/test of AI processors. This is research support only, not a trading recommendation.",
+  "theme_id": "ai_infrastructure_supply_chain"
+}

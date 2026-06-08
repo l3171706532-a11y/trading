@@ -1,0 +1,176 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Micron Technology",
+      "confidence": 0.9,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether Micron's HBM qualification wins translate into sustained share gains versus SK Hynix and Samsung, and whether HBM mix improves through-cycle profitability rather than just cyclically lifting DRAM revenue.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track Micron 10-Q/10-K HBM revenue commentary, customer design-in announcements, capex allocation to HBM, and comments on HBM4 supply commitments.",
+      "node_relation": "Direct HBM manufacturer and US-listed reference supplier for AI accelerator memory stacks.",
+      "sector_or_industry": "Memory semiconductors / DRAM / HBM",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference_leader"
+      ],
+      "theme_relation": "Micron's HBM3E and HBM4 products are positioned for AI and HPC workloads; it is an obvious reference name for HBM supply, qualification, and pricing signals.",
+      "ticker": "MU",
+      "why_include": "Micron is one of the few public memory manufacturers with explicit HBM product exposure for AI data centers. Its HBM4 page states a 2048-pin bus interface and greater than 2.8 TB/s bandwidth per stack, directly tying it to next-generation AI/HPC memory requirements.",
+      "why_underfollowed": "Not underfollowed; included as a reference anchor to benchmark HBM demand, qualification cycles, and customer-platform ramps."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Rambus",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether HBM3E/HBM4 controller, PHY, and patent-license economics are volume-linked, royalty-linked, or mostly fixed-license; and whether AI accelerator design starts are creating incremental IP revenue rather than merely renewing legacy memory licenses.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest Rambus 10-K/10-Q segment disclosures, HBM4/HBM3E controller IP design-win announcements, SK Hynix/Micron/Samsung license renewal terms, and customer concentration around AI accelerator SoC makers.",
+      "node_relation": "HBM memory-interface IP, controller/PHY, and memory-patent licensing layer around AI accelerators and memory suppliers.",
+      "sector_or_industry": "Semiconductor IP / memory interface IP",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "interface_ip",
+        "evidence_needed"
+      ],
+      "theme_relation": "If HBM content and interface complexity rise with AI accelerator generations, Rambus may function as an IP and validation toll-road rather than a commodity memory producer.",
+      "ticker": "RMBS",
+      "why_include": "Rambus explicitly lists HBM among its memory-interface IP standards and offers HBM controller/PHY products. External research context also flags Rambus as a possible HBM interface-IP toll-road with licenses across major memory manufacturers, though the current revenue sensitivity to HBM specifically still requires filing-level verification.",
+      "why_underfollowed": "Compared with HBM manufacturers and GPU vendors, Rambus is less obvious because it sits in the IP/controller/PHY layer. The market may classify it as a general semiconductor IP/licensing company rather than a narrow HBM scaling beneficiary."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "FormFactor",
+      "confidence": 0.86,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether HBM probe-card revenue is recurring and supply-constrained, whether customer concentration is tied to leading HBM suppliers, and whether probe-card ASPs/margins expand with HBM complexity.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review latest FormFactor 10-Q, earnings-call transcript, DRAM probe-card revenue, HBM-specific backlog commentary, customer/geographic concentration, and capex/lead-time signals.",
+      "node_relation": "HBM and DRAM probe-card supplier; enables wafer-level electrical testing of high-bandwidth memory and advanced AI-related semiconductor devices.",
+      "sector_or_industry": "Semiconductor test equipment / probe cards",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "test",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM ramping can increase probe-card demand because stacked memory requires tighter testing and yield control before integration into costly AI accelerator packages.",
+      "ticker": "FORM",
+      "why_include": "FormFactor disclosed record DRAM probe-card revenue driven by high-bandwidth-memory revenue in 2024, and recent earnings summaries again attribute record DRAM probe-card revenue to HBM demand. This makes it a direct test-enablement candidate rather than a generic semiconductor equipment name.",
+      "why_underfollowed": "FormFactor is less discussed than HBM memory makers because it is one step removed from the accelerator bill of materials. It is classified as probe-card/test equipment, so its AI linkage may be hidden unless investors track DRAM probe-card mix and HBM customer ramps."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Micron markets HBM for AI and HPC; its HBM4 product page states a 2048-pin bus interface, greater than 11.0 Gbps speeds, and greater than 2.8 TB/s bandwidth per stack.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "HBM4 | Micron Technology Inc.",
+      "source_url": "https://www.micron.com/products/memory/hbm/hbm4",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Micron says HBM powers high-speed model execution and hot KV cache in AI infrastructure, while other memory types support orchestration and long-context expansion.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-06",
+      "source_title": "Micron Powers AI Everywhere at COMPUTEX 2026",
+      "source_url": "https://investors.micron.com/news-releases/news-release-details/micron-powers-ai-everywhere-computex-2026",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Rambus lists HBM among its memory-interface IP standards, alongside PCIe, CXL, GDDR, and DDR.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "Interface IP - Rambus",
+      "source_url": "https://www.rambus.com/interface-ip/",
+      "ticker": "RMBS"
+    },
+    {
+      "claim": "Rambus has a dedicated HBM controller IP page and discusses HBM4 memory-controller technology.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "HBM Controller IP - Rambus",
+      "source_url": "https://www.rambus.com/interface-ip/ddrn-phys/hbm3/",
+      "ticker": "RMBS"
+    },
+    {
+      "claim": "Rambus announced a Micron license agreement giving Micron rights to use Rambus patents for specified integrated circuit products, including memory integrated circuit products.",
+      "claim_type": "fact",
+      "confidence": 0.75,
+      "published_at": "2013",
+      "source_title": "Rambus and Micron Sign License Agreement",
+      "source_url": "https://www.rambus.com/rambus-and-micron-sign-license-agreement/",
+      "ticker": "RMBS"
+    },
+    {
+      "claim": "FormFactor's Q2 2024 release said it set an all-time record for DRAM probe-card revenue, driven by sequential doubling of high-bandwidth-memory revenue.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2024-07-31",
+      "source_title": "Form 8-K for FormFactor Inc. filed 07/31/2024",
+      "source_url": "https://investors.formfactor.com/static-files/f0d34215-ff50-4d7b-86cb-20fc9f99a3eb",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "A Q1 2026 earnings summary reports that FormFactor's DRAM probe-card revenue reached record levels due to customers prioritizing HBM and DDR5 designs.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-05",
+      "source_title": "FormFactor, Inc. Q1 2026 Earnings Call Summary",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-inc-q1-2026-earnings-001809274.html",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "The supplied external context argues that HBM is an acute AI infrastructure bottleneck and that the underappreciated angle may include interface IP, controller validation, packaging compatibility, and memory test rather than only HBM manufacturers.",
+      "claim_type": "hypothesis",
+      "confidence": 0.72,
+      "published_at": "2026-02-14",
+      "source_title": "The AI Infrastructure Bottleneck Framework — Constraint Relay Race Investment Map",
+      "source_url": "https://forcedalpha.com/research/ai-infrastructure/",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.88,
+      "text": "Keep MU as the US-listed HBM reference anchor, but do not let it crowd out smaller toll-road and test-enablement names in later layers.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Promote RMBS to Layer 2 evidence work for HBM interface IP, controller/PHY, and patent-license sensitivity; the key unknown is how directly HBM volume/content converts into revenue.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Promote FORM to Layer 2 evidence work for HBM probe-card exposure; filings and earnings calls already show explicit HBM-linked DRAM probe-card revenue signals.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.74,
+      "text": "Need a later pass on non-US or ADR/OTC equipment and inspection names such as Advantest, Teradyne, Camtek, and HBM advanced-packaging metrology suppliers; not included here due to the three-candidate cap and direct US-listed focus.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "HBM memory stack, interface IP, and memory-controller ecosystem",
+  "node_id": "hbm_interface_and_memory_stack",
+  "summary": "Layer 1B expands the US-listed universe for the HBM/interface/test node. The clean two-lane map is: Micron as the US-listed reference HBM manufacturer and customer-validation anchor; Rambus as the more direct interface-IP and memory-controller toll-road candidate; FormFactor as the underfollowed HBM probe-card/test-enablement candidate. This is research support only, not a buy/sell recommendation.",
+  "theme_id": "ai_infrastructure_supply_chain"
+}

@@ -1,0 +1,188 @@
+{
+  "candidates": [
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Rambus Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Break out current revenue sensitivity to HBM controller IP, patent licensing, and customer contracts after Rambus sold parts of its PHY/IP business; verify whether HBM4 adoption increases attach rate, ASP, or royalty base.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review latest 10-K/10-Q segment disclosures, IP licensing revenue, customer concentration, active HBM4 controller IP design wins, and whether Micron/Samsung/SK hynix licenses are current and economically material.",
+      "node_relation": "Provides HBM memory controller IP and broader memory-interface technology used to connect AI/HPC processors to high-bandwidth memory.",
+      "sector_or_industry": "Semiconductor IP and memory-interface technology",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "interface_ip",
+        "evidence_needed"
+      ],
+      "theme_relation": "If HBM content per AI accelerator rises, the interface and controller layer may act as a toll-road adjacent to memory makers and AI accelerator vendors.",
+      "ticker": "RMBS",
+      "why_include": "Rambus explicitly markets HBM4, HBM3E/3, and HBM2E/2 controller IP for AI/ML, graphics, and HPC applications. External context also flags Rambus as an HBM interface/patent licensing angle tied to SK hynix, Micron, and Samsung, but the exact current royalty exposure needs primary-source verification.",
+      "why_underfollowed": "It is not an HBM manufacturer or GPU vendor, so screens that focus on memory capex or accelerator unit growth can miss the interface-IP royalty/control-point layer."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "FormFactor Inc.",
+      "confidence": 0.8,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether HBM test complexity is driving incremental probe-card ASP, replacement cadence, utilization, or share gains versus standard DRAM probe cards.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest earnings call transcripts for HBM/DRAM probe-card demand, customer concentration among HBM makers, gross-margin mix, backlog, and any explicit AI accelerator or advanced-packaging revenue commentary.",
+      "node_relation": "Supplies DRAM/HBM wafer-level probe card technologies used to test known-good die, HBM stack components, interposers, and advanced-package interconnect integrity.",
+      "sector_or_industry": "Semiconductor wafer probe cards and test measurement",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "memory_test",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM stack yields and advanced-package reliability depend on testing memory die and package interconnects before final integration with AI accelerators.",
+      "ticker": "FORM",
+      "why_include": "FormFactor’s HFTAP and DRAM probe-card materials explicitly reference wafer-level testing for next-generation known-good-die memory and devices used in HBM stacks, including fine-pitch interposers and complete-package performance.",
+      "why_underfollowed": "Probe cards are a second-order consumable/equipment layer that may be hidden inside broad semiconductor equipment labels rather than obvious AI/HBM categories."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Cohu, Inc.",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether the HBM Neon win converts into repeat production orders, broader memory-customer adoption, and meaningful revenue contribution versus a niche tool sale.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review order backlog, customer adoption beyond the initial HBM metrology selection, management commentary on HBM/AI datacenter device test, and competitive position against larger memory-test equipment vendors.",
+      "node_relation": "Provides inspection/metrology and thermal handling/interface solutions for HBM, GPU, CPU, and AI datacenter devices under test.",
+      "sector_or_industry": "Semiconductor test handlers, inspection, metrology, and automation",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "memory_test",
+        "inspection_metrology",
+        "evidence_needed"
+      ],
+      "theme_relation": "As HBM devices become more complex and tightly integrated into AI accelerator packages, inspection, metrology, thermal handling, and test automation can become yield and qualification constraints.",
+      "ticker": "COHU",
+      "why_include": "Cohu announced its Neon inspection/metrology platform was selected by a leading US memory and storage customer for HBM devices used in HPC and generative AI; Cohu also states it has a leading position in thermal handlers and interface solutions controlling temperatures for GPU, HBM, and high-end CPU devices under test.",
+      "why_underfollowed": "Cohu is usually classified as back-end semiconductor test/automation rather than AI infrastructure, so HBM exposure can be obscured by cyclical automotive, industrial, and general semiconductor test demand."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Rambus offers HBM4, HBM3E/3, and HBM2E/2 controller IP for AI/ML, graphics, and HPC applications.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "HBM Controller IP - Rambus",
+      "source_url": "https://www.rambus.com/interface-ip/ddrn-phys/hbm3/",
+      "ticker": "RMBS"
+    },
+    {
+      "claim": "Rambus and Micron signed a license agreement giving Micron rights to use Rambus patents for specified integrated circuit products, including memory integrated circuit products.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2013-12-09",
+      "source_title": "Rambus and Micron Sign License Agreement",
+      "source_url": "https://www.rambus.com/rambus-and-micron-sign-license-agreement/",
+      "ticker": "RMBS"
+    },
+    {
+      "claim": "FormFactor’s HFTAP probe card architecture is described as enabling wafer-level testing for next-generation known-good-die memory and devices used in HBM stacks, including fine-pitch interposers.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "HFTAP Series | FormFactor, Inc.",
+      "source_url": "https://www.formfactor.com/product/probe-cards/dram/hftap-series/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor’s Altius vertical MEMS probe card was introduced for advanced packaging technologies, including at-speed performance validation of HBM and integrity testing of high-density interconnects.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "FormFactor Introduces the Altius Vertical MEMS Probe Card for Advanced Packaging Technologies",
+      "source_url": "https://investors.formfactor.com/news-releases/news-release-details/formfactor-introduces-altiustm-vertical-mems-probe-card-advanced",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Cohu announced that its Neon inspection/metrology platform was selected by a leading US memory and data storage customer for HBM devices used in HPC and generative AI applications.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "Cohu Enters HBM Memory Market with Neon Inspection Metrology Platform",
+      "source_url": "https://cohu.gcs-web.com/news-releases/news-release-details/cohu-enters-hbm-memory-market-neon-inspection-metrology-platform",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "Cohu states it has a leading position in thermal handlers and interface solutions controlling temperatures of GPU, HBM, and high-end CPU devices under test.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Computing and Network Expertise | Cohu",
+      "source_url": "https://www.cohu.com/expertise-computing",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "As of June 8, 2026, web finance data showed Rambus at roughly $17.3B market capitalization, placing it outside the preferred $300M-$10B hunt but still within the allowed $10B-$30B unusually direct exposure exception.",
+      "claim_type": "fact",
+      "confidence": 0.75,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance snapshot for RMBS",
+      "source_url": "web.finance://RMBS/2026-06-08",
+      "ticker": "RMBS"
+    },
+    {
+      "claim": "As of June 8, 2026, web finance data showed FormFactor at roughly $9.8B market capitalization, inside the preferred upper range for underfollowed small/mid-cap discovery.",
+      "claim_type": "fact",
+      "confidence": 0.75,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance snapshot for FORM",
+      "source_url": "web.finance://FORM/2026-06-08",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "As of June 8, 2026, web finance data showed Cohu at roughly $2.5B market capitalization, inside the preferred $300M-$10B underfollowed discovery range.",
+      "claim_type": "fact",
+      "confidence": 0.75,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance snapshot for COHU",
+      "source_url": "web.finance://COHU/2026-06-08",
+      "ticker": "COHU"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.78,
+      "text": "RMBS should remain in the HBM interface/IP universe as a direct but now larger-cap toll-road candidate; later layers must verify post-PHY-sale economics and actual HBM-linked revenue sensitivity.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "FORM is a strong underfollowed HBM test-enablement candidate because probe cards and known-good-die validation sit one step away from obvious HBM makers and AI accelerators.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "COHU is a lower-attention HBM inspection/metrology and thermal handler candidate; survival in later layers depends on evidence that the HBM Neon platform and AI datacenter test exposure are revenue-material.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "Need a later pass on non-US or OTC-adjacent reference competitors such as Advantest, Tokyo Electron, Disco, Lasertec, SK hynix, Samsung Electronics, Micron, Cadence, Synopsys, and substrate/advanced-packaging suppliers to benchmark US-listed candidates.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "HBM memory stack, interface IP, and memory-controller ecosystem",
+  "node_id": "hbm_interface_and_memory_stack",
+  "summary": "Expanded the HBM interface/test ecosystem around three US-listed candidates. The strongest direct fits for this underfollowed pass are Rambus as a memory-interface IP and patent/licensing toll-road, FormFactor as a DRAM/HBM wafer probe and known-good-die enablement supplier, and Cohu as an HBM inspection/metrology and semiconductor test automation supplier. These are not buy/sell recommendations; they are Layer 1B research candidates requiring deeper verification of revenue materiality, customer concentration, competitive positioning, and whether HBM/AI exposure is already priced.",
+  "theme_id": "ai_infrastructure_supply_chain"
+}

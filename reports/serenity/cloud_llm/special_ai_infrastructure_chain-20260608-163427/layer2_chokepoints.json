@@ -1,0 +1,1287 @@
+{
+  "catalysts": [
+    {
+      "affected_nodes": [
+        "hyperscaler_and_sovereign_ai_capex",
+        "ai_accelerators_gpus_and_custom_asics",
+        "advanced_packaging_cowos_soic_2_5d_3d_integration",
+        "hbm_memory_stack_and_hbm3e_hbm4_transition",
+        "datacenter_optical_networking_800g_1_6t",
+        "utility_interconnection_queue_and_permitting"
+      ],
+      "claim_type": "inference",
+      "description": "Hyperscaler AI capex and sovereign AI programs continue to translate into multi-year demand for accelerators, advanced packaging, HBM, optics, liquid cooling, and power infrastructure.",
+      "type": "capex"
+    },
+    {
+      "affected_nodes": [
+        "direct_liquid_cooling_cold_plates_cdus_manifolds_and_service",
+        "rack_power_conversion_vrm_power_modules_and_busbars",
+        "switchgear_ups_pdus_and_datacenter_electrical_distribution",
+        "rack_scale_architecture_nvlink_ethernet_switching_and_cabling"
+      ],
+      "claim_type": "fact",
+      "description": "Rack-scale liquid-cooled systems make power density and cooling capacity central design constraints, shifting attention from server shipments alone to CDUs, cold plates, manifolds, facility loops, power shelves, and serviceability.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "datacenter_optical_networking_800g_1_6t",
+        "silicon_photonics_external_light_source_and_inp_substrates",
+        "optical_module_contract_manufacturing_and_qualification"
+      ],
+      "claim_type": "fact",
+      "description": "The transition from 800G to 1.6T optical connectivity increases importance of DSPs, lasers, silicon photonics, InP substrates, optical engines, module assembly, and optical test.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "leading_edge_foundry_wafers",
+        "advanced_packaging_cowos_soic_2_5d_3d_integration",
+        "hbm_memory_stack_and_hbm3e_hbm4_transition",
+        "advanced_packaging_test_probe_cards_metrology_and_known_good_die"
+      ],
+      "claim_type": "inference",
+      "description": "Foundry and memory earnings calls should be monitored for CoWoS/advanced-packaging capacity, HBM mix, HBM4 qualification, customer prepayments, utilization, and package-level test constraints.",
+      "type": "earnings"
+    },
+    {
+      "affected_nodes": [
+        "hbm_interface_ip_phy_and_memory_controller_layer",
+        "advanced_packaging_test_probe_cards_metrology_and_known_good_die",
+        "datacenter_optical_networking_800g_1_6t",
+        "direct_liquid_cooling_cold_plates_cdus_manifolds_and_service",
+        "rack_power_conversion_vrm_power_modules_and_busbars",
+        "switchgear_ups_pdus_and_datacenter_electrical_distribution"
+      ],
+      "claim_type": "inference",
+      "description": "Customer qualification wins for HBM, 1.6T optics, liquid-cooling subsystems, power modules, and AI data-center switchgear can convert low-attention suppliers from hypotheses into evidence-backed bottleneck candidates.",
+      "type": "customer"
+    },
+    {
+      "affected_nodes": [
+        "utility_interconnection_queue_and_permitting",
+        "onsite_power_generation_microgrids_gas_turbines_fuel_cells_and_storage",
+        "large_power_transformers_and_high_voltage_equipment",
+        "switchgear_ups_pdus_and_datacenter_electrical_distribution"
+      ],
+      "claim_type": "inference",
+      "description": "Grid interconnection reform, utility tariffs for large loads, ratepayer-protection rules, emissions permits, and microgrid legislation can accelerate or block AI campus deployment.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "large_power_transformers_and_high_voltage_equipment",
+        "switchgear_ups_pdus_and_datacenter_electrical_distribution",
+        "utility_interconnection_queue_and_permitting"
+      ],
+      "claim_type": "inference",
+      "description": "Transformer, switchgear, and high-voltage equipment backlog growth is a key catalyst because these nodes can determine when already-funded data centers become usable compute capacity.",
+      "type": "capex"
+    },
+    {
+      "affected_nodes": [
+        "hbm_memory_stack_and_hbm3e_hbm4_transition",
+        "hbm_interface_ip_phy_and_memory_controller_layer",
+        "advanced_packaging_test_probe_cards_metrology_and_known_good_die",
+        "advanced_packaging_cowos_soic_2_5d_3d_integration"
+      ],
+      "claim_type": "inference",
+      "description": "HBM3E-to-HBM4 transitions can change supply-chain pressure across memory vendors, interface IP, probe cards, thermal test, advanced packaging, and accelerator board design.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "utility_interconnection_queue_and_permitting",
+        "large_power_transformers_and_high_voltage_equipment",
+        "onsite_power_generation_microgrids_gas_turbines_fuel_cells_and_storage"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Reports of cancelled or delayed data-center projects due to unavailable grid capacity, transformers, or permits would be negative for near-term GPU deployment but positive for research focus on power-chain chokepoints.",
+      "type": "news"
+    },
+    {
+      "affected_nodes": [
+        "silicon_photonics_external_light_source_and_inp_substrates",
+        "datacenter_optical_networking_800g_1_6t",
+        "optical_module_contract_manufacturing_and_qualification"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Hyperscaler adoption of external light source or co-packaged/silicon-photonics architectures would raise the bottleneck score of InP substrates, lasers, photonics packaging, and optical test.",
+      "type": "customer"
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "NVIDIA describes GB200 NVL72 as connecting 36 Grace CPUs and 72 Blackwell GPUs in a rack-scale, liquid-cooled design, making rack power and liquid cooling first-order AI infrastructure nodes.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "",
+      "source_title": "GB200 NVL72 | NVIDIA",
+      "source_url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "NVIDIA contributed parts of the GB200 NVL72 system design to the OCP ecosystem, including rack architecture, liquid-cooling and thermal-environment specifications, and NVLink cable cartridge volumetrics.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2024-10-15",
+      "source_title": "NVIDIA Contributes Blackwell Platform Design to Open Hardware Ecosystem",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Contributes-Blackwell-Platform-Design-to-Open-Hardware-Ecosystem-Accelerating-AI-Infrastructure-Innovation/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "TSMC's 2026 shareholder-meeting agenda discusses advanced packaging technologies including CoWoS, InFO, and SoIC and states that TSMC expanded investment plans in response to very strong multi-year AI-related demand.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "TSMC 2026 AGM Agenda",
+      "source_url": "https://investor.tsmc.com/sites/ir/shareholders-meeting/2026-06-04/2026AGM_Agenda_wmn.pdf",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Recent coverage of TSMC's June 2026 shareholder meeting reported that management said AI-chip demand will take a long time to fully satisfy, reinforcing foundry and advanced-packaging capacity as key monitored nodes.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06-04",
+      "source_title": "TSMC CEO C.C. Wei says, 'It will be a long time before we can meet customer demand'",
+      "source_url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand-tells-shareholders-that-he-will-keep-prices-stable-refrain-from-implementing-price-hikes",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Micron positions HBM3E as a high-bandwidth memory product supporting AI training and inference, reinforcing HBM as a central input node for AI infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "High-bandwidth memory (HBM) | Micron Technology",
+      "source_url": "https://www.micron.com/products/memory/hbm",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Marvell announced an expanded 1.6T optical DSP platform portfolio for AI data-center connectivity, explicitly tying the 800G-to-1.6T transition to AI data-center networking.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04",
+      "source_title": "Marvell Ushers In the 1.6T Era with Expanded Optical DSP Platform Portfolio",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-1-6t-optical-dsp-ai-data-center-connectivity.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "LightCounting reported in 2026 that AI capex is flowing down the supply chain to PAM4 and coherent DSP vendors and that it increased forecasts for both 800G and 1.6T optical-transceiver shipments.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-02",
+      "source_title": "AI Capex Flows Down the Supply Chain to DSP Vendors",
+      "source_url": "https://www.lightcounting.com/newsletter/en/february-2026-pam4-and-coherent-dsps-updated-april-2026-381",
+      "ticker": ""
+    },
+    {
+      "claim": "World Economic Forum analysis in May 2026 described grid connectivity as a strategic bottleneck for AI transformation and noted that high-power-density AI data centers are challenging loads for grid planning and interconnection frameworks.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-05",
+      "source_title": "If electricity and data are the 'new oil', is grid connectivity the strategic bottleneck in the AI transformation?",
+      "source_url": "https://www.weforum.org/stories/2026/05/electricity-data-grid-connectivity-strategic-bottleneck-ai-transformation/",
+      "ticker": ""
+    },
+    {
+      "claim": "A 2026 arXiv paper on AI data-center flexibility frames large-load interconnection as an emerging and complex grid challenge, supporting the inclusion of interconnection and load flexibility as supply-chain nodes.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-04",
+      "source_title": "To Defer or To Shift? The Role of AI Data Center Flexibility on Grid Interconnection",
+      "source_url": "https://arxiv.org/abs/2604.05376",
+      "ticker": ""
+    },
+    {
+      "claim": "A 2026 arXiv paper on direct-to-chip liquid cooling states that AI workload growth is increasing data-center power densities and the need for advanced thermal management.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-04",
+      "source_title": "Generative Design for Direct-to-Chip Liquid Cooling for Data Centers",
+      "source_url": "https://arxiv.org/abs/2604.10941",
+      "ticker": ""
+    },
+    {
+      "claim": "Based on the Serenity cached methodology context, AI photonics bottleneck value may hide one or two layers upstream in InP substrates, external light-source components, lasers, and silicon-photonics supply rather than only in branded optical-module vendors.",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Skill Repository Digest and External Search Context",
+      "source_url": "provided_cached_serenity_context",
+      "ticker": ""
+    },
+    {
+      "claim": "Based on the ForcedAlpha AI infrastructure framework supplied in context, HBM, advanced packaging, and power infrastructure form a relay of constraints rather than a single bottleneck.",
+      "claim_type": "inference",
+      "confidence": 0.74,
+      "published_at": "2026-02-14",
+      "source_title": "The AI Infrastructure Bottleneck Framework — Constraint Relay Race Investment Map",
+      "source_url": "https://forcedalpha.com/research/ai-infrastructure/",
+      "ticker": ""
+    },
+    {
+      "claim": "NVIDIA GB200 NVL72 uses a rack-scale, liquid-cooled architecture, supporting the Layer 2A premise that AI infrastructure demand propagates into power, cooling, rack-scale interconnect, and system-integration nodes.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "",
+      "source_title": "GB200 NVL72 | NVIDIA",
+      "source_url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "NVIDIA contributed Blackwell platform design elements to the open hardware ecosystem, including rack architecture and liquid-cooling specifications, reinforcing the move from chip-only analysis toward rack-scale AI infrastructure supply chains.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2024-10-15",
+      "source_title": "NVIDIA Contributes Blackwell Platform Design to Open Hardware Ecosystem",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Contributes-Blackwell-Platform-Design-to-Open-Hardware-Ecosystem-Accelerating-AI-Infrastructure-Innovation/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "TSMC's 2026 AGM agenda discusses advanced-packaging technologies including CoWoS, InFO, and SoIC and states that investment plans expanded in response to strong multi-year AI-related demand.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "TSMC 2026 AGM Agenda",
+      "source_url": "https://investor.tsmc.com/sites/ir/shareholders-meeting/2026-06-04/2026AGM_Agenda_wmn.pdf",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Micron positions HBM3E as high-bandwidth memory for AI training and inference, supporting HBM as a core AI infrastructure supply-chain node.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "High-bandwidth memory (HBM) | Micron Technology",
+      "source_url": "https://www.micron.com/products/memory/hbm",
+      "ticker": "MU"
+    },
+    {
+      "claim": "The provided external research context identifies Rambus as a potential HBM memory-interface toll-road, but this should be treated as an inference until license economics, product exposure, and HBM-specific revenue sensitivity are verified in primary filings.",
+      "claim_type": "inference",
+      "confidence": 0.62,
+      "published_at": "2026-02-14",
+      "source_title": "The AI Infrastructure Bottleneck Framework — Constraint Relay Race Investment Map | ForcedAlpha",
+      "source_url": "https://forcedalpha.com/research/ai-infrastructure/",
+      "ticker": "RMBS"
+    },
+    {
+      "claim": "The provided external Serenity-methodology context describes AXTI as an InP substrate chokepoint thesis in AI photonics, but the direct AI datacenter revenue linkage still requires filing-level verification.",
+      "claim_type": "hypothesis",
+      "confidence": 0.48,
+      "published_at": "2026-06-06",
+      "source_title": "Serenity, the Bottleneck Hunter | Johnson Lee",
+      "source_url": "https://johnsonlee.io/2026/06/06/serenity-methodology-cannot-be-skill.en/",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "A Serenity-tracker source frames AXTI as an InP substrate chokepoint for AI photonics, but because this is thesis-tracker context rather than company-primary evidence, the relationship remains speculative_shadow until checked against AXTI filings and customer disclosures.",
+      "claim_type": "hypothesis",
+      "confidence": 0.42,
+      "published_at": "",
+      "source_title": "Serenity Tracker — @aleabitoreddit's AI supply-chain chokepoint theses, for retail",
+      "source_url": "https://semiconstocks.com/",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "External Serenity-methodology context lists AAOI among obscure AI supply-chain names being reinterpreted through AI photonics and related supply chains, but this is not sufficient proof of material AI datacenter revenue.",
+      "claim_type": "hypothesis",
+      "confidence": 0.38,
+      "published_at": "2026-06-06",
+      "source_title": "Serenity, the Bottleneck Hunter | Johnson Lee",
+      "source_url": "https://johnsonlee.io/2026/06/06/serenity-methodology-cannot-be-skill.en/",
+      "ticker": "AAOI"
+    },
+    {
+      "claim": "External Serenity-methodology context lists SIVE among niche AI photonics / external-light-source-related candidates, but named customer, product, revenue, and production-timing evidence remain unverified.",
+      "claim_type": "hypothesis",
+      "confidence": 0.35,
+      "published_at": "2026-06-06",
+      "source_title": "Serenity, the Bottleneck Hunter | Johnson Lee",
+      "source_url": "https://johnsonlee.io/2026/06/06/serenity-methodology-cannot-be-skill.en/",
+      "ticker": "SIVE"
+    },
+    {
+      "claim": "External Serenity-methodology context includes AEHR in a set of lesser-known supply-chain names associated with testing and AI infrastructure bottleneck research, but the specific AI datacenter revenue mechanism remains to be proven.",
+      "claim_type": "hypothesis",
+      "confidence": 0.36,
+      "published_at": "2026-06-06",
+      "source_title": "Serenity, the Bottleneck Hunter | Johnson Lee",
+      "source_url": "https://johnsonlee.io/2026/06/06/serenity-methodology-cannot-be-skill.en/",
+      "ticker": "AEHR"
+    },
+    {
+      "claim": "Marvell announced an expanded 1.6T optical DSP platform portfolio for AI datacenter connectivity, supporting the theme premise that 800G-to-1.6T migration is an AI infrastructure supply-chain node.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04",
+      "source_title": "Marvell Ushers In the 1.6T Era with Expanded Optical DSP Platform Portfolio",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-1-6t-era-expanded-optical-dsp-platform-portfolio.html",
+      "ticker": "MARVL"
+    },
+    {
+      "claim": "Modine's fiscal 2025 annual-report evidence states that Climate Solutions sales increased primarily because of higher data-center cooling and HVAC&R sales, including significant organic growth to hyperscale and colocation customers.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025",
+      "source_title": "Modine Manufacturing 2025 Annual Report",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000155837025009026/mod-20250331xars.pdf",
+      "ticker": "MOD"
+    },
+    {
+      "claim": "Modine announced Airedale by Modine Cooling AI, an AI-enhanced cooling-control system for high-density data centers, indicating explicit product positioning around data-center cooling efficiency.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-04-24",
+      "source_title": "Airedale by Modine Cooling AI Control System Brings Efficiency Gains to High-Density Data Centers",
+      "source_url": "https://investors.modine.com/news/news-details/2025/Airedale-by-Modine-Cooling-AI-Control-System-Brings-Unprecedented-Efficiency-Gains-to-High-Density-Data-Centers/default.aspx",
+      "ticker": "MOD"
+    },
+    {
+      "claim": "nVent's data-solutions materials describe a data-center portfolio covering liquid cooling, racks, power distribution and connection, cable pathway, and bracing, and reference collaboration with NVIDIA on AI-ready liquid-cooling solutions.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "nVent Data Centers and Networking",
+      "source_url": "https://www.nvent.com/en-kr/data-solutions",
+      "ticker": "NVT"
+    },
+    {
+      "claim": "nVent announced modular data-center liquid-cooling solutions designed for current and next-generation AI chips.",
+      "claim_type": "fact",
+      "confidence": 0.74,
+      "published_at": "2025-11-17",
+      "source_title": "nVent unveils modular liquid cooling solutions for AI data centers",
+      "source_url": "https://www.investing.com/news/company-news/nvent-unveils-modular-liquid-cooling-solutions-for-ai-data-centers-93CH-4363590",
+      "ticker": "NVT"
+    },
+    {
+      "claim": "Semtech announced sampling of 200G/channel PMD building blocks for 1.6T multimode optical infrastructure in AI data centers, including VCSEL driver and TIA components.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-09-29",
+      "source_title": "Semtech Advances 1.6T Multimode Innovation for AI Infrastructure",
+      "source_url": "https://www.semtech.com/company/press/semtech-advances-1.6t-multimode-innovation-for-ai-infrastructure",
+      "ticker": "SMTC"
+    },
+    {
+      "claim": "Semtech's annual-report evidence states that its optical and copper connectivity solutions address demand for higher bandwidth and performance at lower power for global hyperscale data-center customers.",
+      "claim_type": "fact",
+      "confidence": 0.74,
+      "published_at": "2025-03-25",
+      "source_title": "Semtech Corporation 2025 Form 10-K",
+      "source_url": "https://fintel.io/doc/sec-semtech-corp-88941-10k-2025-march-25-20172-1146",
+      "ticker": "SMTC"
+    },
+    {
+      "claim": "Celestica's 2025 annual-report evidence states that it enables critical data-center infrastructure for AI, cloud, and hybrid cloud, and that CCS products include networking switches, optical systems, data-center racks, servers, and storage used for AI workloads.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026",
+      "source_title": "Celestica 2025 Form 20-F/Annual Report",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000011/cls-20251231.htm",
+      "ticker": "CLS"
+    },
+    {
+      "claim": "Sanmina's fiscal 2025 annual-report coverage states that the company acquired ZT Systems' data-center infrastructure manufacturing business, excluding certain R&D functions, to expand in the Cloud and Artificial Intelligence ecosystem.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2025",
+      "source_title": "Sanmina Annual Report for Fiscal Year Ending September 27, 2025",
+      "source_url": "https://www.marketscreener.com/news/sanmina-annual-report-for-fiscal-year-ending-september-27-2025-form-10-k-ce7d5fdddb88ff2c",
+      "ticker": "SANM"
+    },
+    {
+      "claim": "Sanmina's 2025 filing coverage cites ongoing strength in Communications Networks and Cloud and AI Infrastructure end-markets.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "2025-11-13",
+      "source_title": "Sanmina 2025 Form 10-K",
+      "source_url": "https://last10k.com/sec-filings/sanm/0000897723-25-000042.htm",
+      "ticker": "SANM"
+    },
+    {
+      "claim": "IES Holdings' fiscal 2025 10-K evidence describes its Communications segment as a provider of network infrastructure solutions for data centers and other mission-critical environments and says demand in the data-center market remains strong.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-11-21",
+      "source_title": "IES Holdings 2025 Form 10-K",
+      "source_url": "https://fintel.io/doc/sec-ies-holdings-inc-1048268-10k-2025-november-21-20413-7639",
+      "ticker": "IESC"
+    },
+    {
+      "claim": "IES Holdings reported that large data-center projects benefited results and that Communications segment backlog at September 30, 2025 increased by more than 90% compared with September 30, 2024.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2025",
+      "source_title": "IES Holdings Reports Fiscal 2025 Fourth Quarter and Full Year Results",
+      "source_url": "https://investors.ies-corporate.com/node/18946/pdf",
+      "ticker": "IESC"
+    },
+    {
+      "claim": "IES Holdings' Q1 fiscal 2026 filing states that Communications revenue increased 51.1% year over year, with continued strong data-center demand as the primary driver.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-01-30",
+      "source_title": "IES Holdings Form 10-Q for quarter ended December 31, 2025",
+      "source_url": "https://investors.ies-corporate.com/static-files/1f286fc0-4132-4a66-98d8-1860bd15778e",
+      "ticker": "IESC"
+    },
+    {
+      "claim": "Atkore's fiscal 2025 annual-report evidence describes products including electrical conduit and fittings and references use in construction of buildings, infrastructure, renewable power systems, and data centers.",
+      "claim_type": "fact",
+      "confidence": 0.66,
+      "published_at": "2025",
+      "source_title": "Atkore 2025 Annual Report",
+      "source_url": "https://s202.q4cdn.com/690266772/files/doc_financials/2025/q4/ATKR-2025-Annual-Report-Filed.pdf",
+      "ticker": "ATKR"
+    },
+    {
+      "claim": "Bel Fuse's 2025 results show Power Solutions and Protection and Connectivity Solutions as product groups, with Power Solutions and Protection sales increasing year over year in the cited release.",
+      "claim_type": "fact",
+      "confidence": 0.64,
+      "published_at": "2026-02-17",
+      "source_title": "Bel Reports Fourth Quarter and Full Year 2025 Results",
+      "source_url": "https://ir.belfuse.com/node/18126/pdf",
+      "ticker": "BELFB"
+    },
+    {
+      "claim": "Vicor sells into power-systems markets including enterprise and high-performance computing, telecommunications and network infrastructure, and other electronics markets.",
+      "claim_type": "fact",
+      "confidence": 0.62,
+      "published_at": "2026",
+      "source_title": "Vicor Corporation Reports Results for the Fourth Quarter and Year Ended December 31, 2025",
+      "source_url": "https://www.nasdaq.com/press-release/vicor-corporation-reports-results-fourth-quarter-and-year-ended-december-31-2025-2026",
+      "ticker": "VICR"
+    },
+    {
+      "claim": "APi Group reported 2025 revenue growth driven by inspection, service, monitoring, project revenue, acquisitions, and pricing, supporting a facility-services relationship but not yet proving AI/data-center-specific exposure.",
+      "claim_type": "fact",
+      "confidence": 0.58,
+      "published_at": "2026-02",
+      "source_title": "APi Group Reports Record Fourth Quarter and Full Year 2025 Financial Results",
+      "source_url": "https://www.nasdaq.com/press-release/api-group-reports-record-fourth-quarter-and-full-year-2025-financial-results-2026-02",
+      "ticker": "APG"
+    },
+    {
+      "claim": "Quanta's 2025 annual-report evidence references growth opportunities from multi-year capital deployment by data-center customers and work related to power for a large data-center campus in Indiana.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026",
+      "source_title": "Quanta Services 2025 Annual Report",
+      "source_url": "https://investors.quantaservices.com/sec-filings/all-sec-filings/content/0001193125-26-150305/0001193125-26-150305.pdf",
+      "ticker": "PWR"
+    },
+    {
+      "claim": "NVIDIA describes GB200 NVL72 as a rack-scale, liquid-cooled system connecting 36 Grace CPUs and 72 Blackwell GPUs, making rack power and cooling relevant AI-infrastructure nodes.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "",
+      "source_title": "GB200 NVL72 | NVIDIA",
+      "source_url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+      "ticker": ""
+    },
+    {
+      "claim": "NVIDIA contributed GB200 NVL72 design elements to OCP, including rack architecture and liquid-cooling/thermal-environment specifications, reinforcing the rack-scale supply-chain mapping used for this chunk.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2024-10-15",
+      "source_title": "NVIDIA Contributes Blackwell Platform Design to Open Hardware Ecosystem",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Contributes-Blackwell-Platform-Design-to-Open-Hardware-Ecosystem-Accelerating-AI-Infrastructure-Innovation/default.aspx",
+      "ticker": ""
+    },
+    {
+      "claim": "Vertiv states that AI-related macro forces and technology trends are shaping data-center design and operations, including adaptive liquid cooling and power considerations.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-01-08",
+      "source_title": "Vertiv Expects Powering Up for AI, Digital Twins and Adaptive Liquid Cooling to Shape Data Centre Design and Operations",
+      "source_url": "https://www.vertiv.com/en-emea/about/news-and-insights/news-releases/2026/vertiv-expects-powering-up-for-ai-digital-twins-and-adaptive-liquid-cooling-to-shape-data-center-design-and-operations/",
+      "ticker": "VRT"
+    },
+    {
+      "claim": "Eaton reported Q1 2026 order and backlog strength, including Electrical Americas order acceleration driven by data-center momentum.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026",
+      "source_title": "Eaton Reports Record First Quarter 2026 Results, with Accelerating Growth in Sales, Orders and Backlog, and Raises 2026 Organic Growth Guidance",
+      "source_url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-first-quarter-2026-results.html",
+      "ticker": "ETN"
+    },
+    {
+      "claim": "Micron positions HBM3E and HBM products as high-bandwidth memory supporting AI training, inference, and advanced AI accelerator workloads.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "High-bandwidth memory (HBM) | Micron Technology",
+      "source_url": "https://www.micron.com/products/memory/hbm",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Micron’s HBM4 product page describes a wider interface and more than 2.8 TB/s bandwidth per stack, supporting more demanding AI workloads and simulations.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "HBM4 | Micron Technology",
+      "source_url": "https://www.micron.com/products/memory/hbm/hbm4",
+      "ticker": "MU"
+    },
+    {
+      "claim": "TSMC’s 2026 AGM agenda discusses advanced packaging technologies including CoWoS, InFO, and SoIC, and states that investment plans expanded in response to very strong multi-year AI-related demand.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "TSMC 2026 AGM Agenda",
+      "source_url": "https://investor.tsmc.com/sites/ir/shareholders-meeting/2026-06-04/2026AGM_Agenda_wmn.pdf",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "NVIDIA describes GB200 NVL72 as a rack-scale, liquid-cooled design connecting 36 Grace CPUs and 72 Blackwell GPUs.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "",
+      "source_title": "GB200 NVL72 | NVIDIA",
+      "source_url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "NVIDIA’s DGX GB rack documentation describes rack components including NVLink cable backplane, power shelves, bus bar, and liquid-cooling manifolds.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03",
+      "source_title": "Hardware — NVIDIA DGX GB Rack Scale Systems User Guide",
+      "source_url": "https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "Broadcom and OpenAI announced a collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators, with Broadcom tied to custom accelerators and Ethernet-based AI data-center networking.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-10-13",
+      "source_title": "OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators",
+      "source_url": "https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Broadcom markets AI infrastructure solutions including AI networking, connectivity, and custom accelerator products.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "AI Clusters | AI Servers | AI Infrastructure | Broadcom",
+      "source_url": "https://www.broadcom.com/solutions/ai-solutions/ai-infrastructure",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Arista’s 2025 annual report/proxy materials describe AI networking opportunities across scale-out, scale-up, and scale-across networking using standards-based Ethernet.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-05",
+      "source_title": "Arista 2026 Proxy Statement and 2025 Annual Report",
+      "source_url": "https://s21.q4cdn.com/861911615/files/doc_financials/2025/ar/Arista-2026-Proxy-Statement-2025-Annual-Report-Bookmarked.pdf",
+      "ticker": "ANET"
+    },
+    {
+      "claim": "Flex’s data-center materials describe power, cooling, rack integration, assembly, and infrastructure solutions for AI and cloud-computing-driven deployment needs.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "",
+      "source_title": "Data Center Power, Infrastructure, and Cooling Solutions | Flex",
+      "source_url": "https://flex.com/data-center",
+      "ticker": "FLEX"
+    },
+    {
+      "claim": "Flex announced scalable power solutions for next-generation AI infrastructure at COMPUTEX 2026 and referenced its intent to spin off the Cloud and Power Infrastructure portfolio.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026",
+      "source_title": "Flex Showcases Scalable Power Solutions for Next-Generation AI Infrastructure at COMPUTEX 2026",
+      "source_url": "https://investors.flex.com/news/news-details/2026/Flex-Showcases-Scalable-Power-Solutions-for-Next-Generation-AI-Infrastructure-at-COMPUTEX-2026/default.aspx",
+      "ticker": "FLEX"
+    },
+    {
+      "claim": "Jabil’s data-center page describes manufacturing for cloud and AI data-center infrastructure and highlights related server, liquid-cooling, and infrastructure initiatives.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "",
+      "source_title": "Data Center | Jabil",
+      "source_url": "https://www.jabil.com/industries/data-center.html",
+      "ticker": "JBL"
+    },
+    {
+      "claim": "Jabil announced J-422G servers for scalable AI and data-center performance, building on a planned multi-year $500 million investment in U.S. manufacturing for cloud and AI data-center infrastructure customers.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2025",
+      "source_title": "Jabil Launches J-422G Servers for Scalable AI and Data Center Performance",
+      "source_url": "https://investors.jabil.com/news/news-details/2025/Jabil-Launches-J-422G-Servers-for-Scalable-AI-and-Data-Center-Performance/default.aspx",
+      "ticker": "JBL"
+    },
+    {
+      "claim": "Raspberry Pi investor materials describe industrial and embedded computing markets, OEM relationships, global distribution, and low-power computing applications, but do not verify material AI data-center infrastructure exposure.",
+      "claim_type": "fact",
+      "confidence": 0.62,
+      "published_at": "",
+      "source_title": "Investor relations | Raspberry Pi",
+      "source_url": "https://investors.raspberrypi.com/",
+      "ticker": "RPI"
+    },
+    {
+      "claim": "Raspberry Pi’s investor reports page lists Annual Report 2025 and Annual Report 2024 as available documents for follow-up validation.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "",
+      "source_title": "Reports | Investor relations | Raspberry Pi",
+      "source_url": "https://investors.raspberrypi.com/reports",
+      "ticker": "RPI"
+    }
+  ],
+  "layer": 2,
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Track AI infrastructure as a physical constraint relay: demand capex -> accelerators -> leading-edge wafers -> HBM -> advanced packaging -> test/inspection -> optics -> rack power/cooling -> data-center electrical systems -> grid interconnection.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Highest-confidence chokepoint nodes for Layer 2A are advanced packaging, HBM stack/interface/test, 800G/1.6T optics, direct liquid cooling, large power transformers, switchgear, and utility interconnection.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Low-attention value may hide in probe cards, metrology, wafer-level burn-in, HBM interface IP, InP substrates, lasers, optical DSPs, contract optical manufacturing, cold plates, CDUs, power modules, busbars, switchgear, transformers, permitting specialists, and commissioning services.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Key catalysts to monitor: hyperscaler capex updates, TSMC CoWoS/3DFabric capacity commentary, HBM3E/HBM4 qualification, 1.6T optical deployment, liquid-cooled rack rollouts, utility interconnection reform, transformer lead-time updates, and onsite-power/microgrid policy.",
+      "type": "catalyst"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Layer 2B should verify which public suppliers have material revenue exposure, named customer wins, capacity constraints, backlog visibility, customer qualification, and pricing power at each bottleneck node.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Do not over-map the theme to high-attention leaders only. Need to separately validate underfollowed suppliers in test, photonics materials, power conversion, switchgear, transformers, liquid cooling, and commissioning.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.72,
+      "text": "FORM maps most directly to the HBM / advanced-packaging test-gate node via probe cards and known-good-die validation, but the next layer must verify HBM mix, backlog, customer concentration, and margin accretion from primary filings.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.68,
+      "text": "RMBS maps to the HBM interface-IP / PHY / memory-controller toll-road node; current support is inferential and must be upgraded only if HBM3E/HBM4 design wins, license economics, or volume-linked sensitivity are verified.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.58,
+      "text": "COHU maps to HBM inspection, metrology, thermal handling, and advanced-package test automation; survival in Layer 3 depends on repeat orders and material revenue contribution.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.47,
+      "text": "AXTI remains a speculative_shadow InP substrate / specialty-material candidate for AI photonics and external-light-source architectures; primary filing verification is mandatory because current evidence is thesis-context-heavy.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.42,
+      "text": "AEHR remains a speculative_shadow reliability / wafer-level burn-in candidate; the key gating evidence is direct AI, photonics, accelerator, or advanced-packaging test demand beyond legacy cyclical drivers.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.52,
+      "text": "AMKR maps to the OSAT / heterogeneous integration / advanced-packaging capacity layer, but AI materiality is not yet proven from the provided evidence.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.44,
+      "text": "AAOI maps to datacenter optical networking and potential 800G/1.6T transceiver demand; it remains speculative until datacenter AI revenue mix, customers, capacity, and margins are verified.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.35,
+      "text": "SIVE maps to external-light-source / photonics components as a niche speculative_shadow candidate; evidence must show named customers, volume timing, revenue scale, and funding runway.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.5,
+      "text": "FN maps to optical-module contract manufacturing and qualification, where AI optical volume may appear through branded customer ramps rather than direct AI labeling.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.53,
+      "text": "COHR maps to optics, lasers, and compound-semiconductor components as a reference-to-underfollowed hybrid; direct AI datacenter mix and laser supply tightness need primary verification.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Layer 2B still lacks live filing-level verification for FORM, COHU, AEHR, AMKR, AAOI, SIVE, FN, and COHR. Do not upgrade these beyond current claim labels until filings, transcripts, customer announcements, or product disclosures confirm AI/HBM/800G/1.6T/ELS materiality.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Market-pricing checks are still missing for the chunk: market capitalization, revenue growth expectations, valuation, short interest, analyst coverage, and whether each name is already crowded by AI-photonics or HBM narratives.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "MOD has explicit data-center cooling exposure supported by annual-report evidence and Airedale by Modine product announcements; keep as a stronger underfollowed cooling candidate but verify revenue mix, backlog, capacity, and liquid-cooling share.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.8,
+      "text": "NVT maps to AI data-center liquid cooling, racks, power distribution, and connection products; evidence includes data-solutions materials and liquid-cooling product launch, but organic growth and customer materiality need filing-level verification.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.88,
+      "text": "CLS has one of the cleanest explicit relationships in this chunk to AI/cloud data-center infrastructure through CCS products including switches, optical systems, racks, servers, and storage for AI workloads.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.86,
+      "text": "IESC has strong underfollowed services exposure: fiscal 2025 filings cite data-center demand, record Communications backlog, and Q1 FY2026 revenue growth driven by data centers.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.78,
+      "text": "SMTC maps to 1.6T AI data-center optics via PMD, VCSEL driver, TIA, and optical/copper connectivity; next work should quantify revenue and design-win durability.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.74,
+      "text": "SANM relationship upgraded from hypothesis to fact for cloud/AI infrastructure manufacturing because fiscal 2025 materials cite ZT Systems data-center infrastructure manufacturing acquisition and cloud/AI infrastructure end-market strength.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.58,
+      "text": "VICR remains a plausible rack/board power candidate, but gathered evidence only proves exposure to enterprise/HPC and network infrastructure markets, not specific AI accelerator platform wins.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.55,
+      "text": "BELFB remains a messy-label component hypothesis; evidence supports power/protection/connectivity segments but not yet direct AI data-center content, customer wins, or component content per rack.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.56,
+      "text": "ATKR has data-center construction-component relevance through conduit/fittings/cable-management products, but AI-specific materiality is unproven and pricing/commodity cyclicality must be checked before it survives later layers.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.42,
+      "text": "APG has broad inspection/service/monitoring evidence but lacks explicit gathered proof of data-center or AI-data-center revenue; keep only as a low-confidence facility-services hypothesis.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.7,
+      "text": "PWR should remain a reference anchor for grid interconnection and transmission rather than the main underfollowed alpha lane; evidence supports data-center customer power opportunities but the company is already high-attention and large-cap.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.82,
+      "text": "VRT remains a reference anchor for AI data-center thermal and power infrastructure; relationship is evidence-backed, but alpha relevance requires backlog, liquid-cooling revenue, capacity, and valuation checks.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.84,
+      "text": "ETN remains a reference anchor for data-center electrical distribution and switchgear demand; official Q1 2026 disclosure supports data-center-driven order/backlog momentum.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.88,
+      "text": "MU is a reference HBM supplier for AI accelerator memory stacks; HBM3E/HBM4 transition should be tracked through revenue allocation, qualification, supply commitments, and margin evidence.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.9,
+      "text": "TSM is the advanced-packaging/foundry benchmark for the theme; CoWoS/InFO/SoIC capacity disclosures should be used to relay constraints toward substrates, OSATs, test, and tooling candidates.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.92,
+      "text": "NVDA is not an underfollowed target but is the architecture anchor: rack-scale liquid cooling, power shelves, busbars, NVLink cabling, and HBM content define downstream supplier research nodes.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.86,
+      "text": "AVGO is a reference anchor for custom AI ASICs and Ethernet networking; OpenAI collaboration evidence supports demand mapping for advanced packaging, optics, and networking supply-chain nodes.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.8,
+      "text": "ANET is a reference anchor for AI Ethernet networking; use it to monitor scale-up/scale-out Ethernet adoption and related optical-component demand rather than as the primary underfollowed hunt.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.76,
+      "text": "FLEX upgraded from Layer-1 hypothesis to evidence-backed underfollowed relationship for AI/cloud data-center power, cooling, rack integration, and infrastructure manufacturing; still needs segment economics and customer validation.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.74,
+      "text": "JBL upgraded from Layer-1 hypothesis to evidence-backed underfollowed relationship for AI/cloud data-center EMS, servers, infrastructure, liquid-cooling, and power-management adjacency; still needs revenue/margin/customer validation.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.55,
+      "text": "RPI should remain speculative_shadow only: official evidence supports embedded/industrial/OEM computing exposure, not material AI infrastructure supply-chain exposure.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.86,
+      "text": "For FLEX and JBL, later layers must verify whether AI infrastructure is material to consolidated revenue and margins rather than merely a product-page or press-release exposure.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.9,
+      "text": "For all high-attention reference names, Layer 2C should add market-pricing checks: valuation, expected growth embedded in consensus, analyst coverage, short interest where relevant, and whether bottleneck narratives are already crowded.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.88,
+      "text": "This chunk is reference-heavy; the next Serenity pass should deliberately branch from NVDA/TSM/MU/AVGO/ANET/VRT/ETN toward smaller component, tool, test, substrate, cooling, power-module, busbar, CDU, and service suppliers.",
+      "type": "evidence_gap"
+    }
+  ],
+  "summary": "Split Layer 2 synthesis. AI infrastructure supply chain mapped as a constraint relay: demand begins with hyperscaler and sovereign AI capex, but scarce value can hide several layers upstream in HBM, advanced packaging, test/inspection, optical networking, rack power, liquid cooling, grid interconnection, transformers, permits, and specialty materials. High-attention GPU leaders should be treated as demand signals, not the only investable nodes. The most likely bottleneck zones for Layer 2A monitoring are: advanced packaging capacity, HBM interface/test gates, photonics and 800G/1.6T optics, direct liquid cooling, power conversion/switchgear, utility interconnection, and transformer/high-voltage equipment lead times.",
+  "supply_chain_map": [
+    {
+      "bottleneck_score": 55,
+      "node": "hyperscaler_and_sovereign_ai_capex",
+      "role": "demand",
+      "why_it_matters": "This is the top-level demand source for GPUs, custom ASICs, HBM, optical networking, data-center shells, power, cooling, and grid capacity. It should be used as a demand pulse, not as the final research endpoint."
+    },
+    {
+      "bottleneck_score": 72,
+      "node": "ai_accelerators_gpus_and_custom_asics",
+      "role": "capacity",
+      "why_it_matters": "Accelerators convert AI demand into concrete requirements for leading-edge wafers, HBM stacks, substrates, CoWoS-like packaging, board power, networking, and liquid cooling. The node is high attention, but it sets the bill of materials for lower-attention suppliers."
+    },
+    {
+      "bottleneck_score": 78,
+      "node": "leading_edge_foundry_wafers",
+      "role": "capacity",
+      "why_it_matters": "Advanced logic supply remains a gating input for GPU and ASIC ramps. However, public attention is high, so Serenity-style research should look through this node into packaging, test, materials, and power delivery."
+    },
+    {
+      "bottleneck_score": 94,
+      "node": "advanced_packaging_cowos_soic_2_5d_3d_integration",
+      "role": "capacity",
+      "why_it_matters": "AI accelerators require integration of logic die, chiplets, HBM stacks, interposers, substrates, and final package test. This is one of the clearest physical chokepoints because finished GPU/ASIC supply can be constrained even when logic die and memory are available."
+    },
+    {
+      "bottleneck_score": 93,
+      "node": "hbm_memory_stack_and_hbm3e_hbm4_transition",
+      "role": "input",
+      "why_it_matters": "HBM is central to accelerator performance and capacity. Supply is gated by DRAM process, TSV stacking, yield, thermal behavior, packaging availability, and customer qualification. Underfollowed exposure may sit in interface IP, probe cards, inspection, handlers, and burn-in rather than only HBM manufacturers."
+    },
+    {
+      "bottleneck_score": 82,
+      "node": "hbm_interface_ip_phy_and_memory_controller_layer",
+      "role": "input",
+      "why_it_matters": "Memory-interface IP, PHYs, controllers, and patent-license positions can act as toll-road nodes across HBM suppliers and accelerator platforms. This layer is less visible than HBM manufacturing but can be difficult to replace once designed in."
+    },
+    {
+      "bottleneck_score": 88,
+      "node": "advanced_packaging_test_probe_cards_metrology_and_known_good_die",
+      "role": "equipment",
+      "why_it_matters": "As packages combine expensive logic die and HBM stacks, test before and after integration becomes more valuable. Bottleneck value may hide in probe cards, thermal handlers, inspection/metrology, wafer-level burn-in, and reliability screening."
+    },
+    {
+      "bottleneck_score": 80,
+      "node": "substrates_interposers_abf_glass_and_organic_package_materials",
+      "role": "input",
+      "why_it_matters": "Large AI packages raise demand for high-layer-count substrates, interposers, bridge technologies, and potentially glass substrates. Supplier qualification and yield learning cycles can make this node a slow-moving capacity gate."
+    },
+    {
+      "bottleneck_score": 90,
+      "node": "datacenter_optical_networking_800g_1_6t",
+      "role": "capacity",
+      "why_it_matters": "AI clusters require high-bandwidth, low-latency data movement inside racks, between racks, and across campuses. The shift from 400G/800G toward 1.6T can push bottlenecks into DSPs, lasers, silicon photonics, InP substrates, optical engines, module assembly, and test."
+    },
+    {
+      "bottleneck_score": 87,
+      "node": "silicon_photonics_external_light_source_and_inp_substrates",
+      "role": "input",
+      "why_it_matters": "If AI networking architectures shift toward silicon photonics or external light sources, scarce upstream materials and laser supply may become hidden chokepoints. Low-attention value can hide in InP substrates, epitaxy, specialty crucibles, laser bars, and photonics design wins."
+    },
+    {
+      "bottleneck_score": 76,
+      "node": "optical_module_contract_manufacturing_and_qualification",
+      "role": "distribution",
+      "why_it_matters": "Branded optical vendors may receive attention, but contract manufacturers, module assemblers, test houses, and qualification labs can become practical throughput gates for 800G/1.6T ramps."
+    },
+    {
+      "bottleneck_score": 81,
+      "node": "rack_scale_architecture_nvlink_ethernet_switching_and_cabling",
+      "role": "input",
+      "why_it_matters": "Rack-scale systems such as liquid-cooled NVL72-style architectures make the rack the unit of compute. That increases importance of high-speed copper/optical cabling, switching, retimers, backplanes, cable cartridges, and installation skill."
+    },
+    {
+      "bottleneck_score": 86,
+      "node": "direct_liquid_cooling_cold_plates_cdus_manifolds_and_service",
+      "role": "capacity",
+      "why_it_matters": "High-density AI racks push beyond traditional air-cooling assumptions. Bottlenecks may hide in cold plates, coolant distribution units, pumps, manifolds, quick-disconnects, facility water loops, leak detection, and maintenance procedures."
+    },
+    {
+      "bottleneck_score": 84,
+      "node": "rack_power_conversion_vrm_power_modules_and_busbars",
+      "role": "input",
+      "why_it_matters": "Higher rack densities increase the value of efficient power conversion from grid voltage to board-level accelerator power. Underfollowed suppliers may sit in power modules, busbars, connectors, power shelves, and high-density conversion architectures."
+    },
+    {
+      "bottleneck_score": 86,
+      "node": "switchgear_ups_pdus_and_datacenter_electrical_distribution",
+      "role": "equipment",
+      "why_it_matters": "AI campuses need reliable medium-voltage and low-voltage distribution. Bottleneck value may sit in switchgear, breakers, UPS, PDUs, control panels, protection relays, and electrical systems integrators rather than only utilities or chip suppliers."
+    },
+    {
+      "bottleneck_score": 95,
+      "node": "utility_interconnection_queue_and_permitting",
+      "role": "regulation",
+      "why_it_matters": "Grid connection, studies, restudies, cost allocation, local opposition, environmental approval, and utility tariffs can delay usable AI capacity even after chips and buildings are available."
+    },
+    {
+      "bottleneck_score": 94,
+      "node": "large_power_transformers_and_high_voltage_equipment",
+      "role": "equipment",
+      "why_it_matters": "Transformer and high-voltage equipment lead times can exceed data-center shell construction timelines. Scarcity can hide in qualified transformer makers, bushings, cores, copper, steel, testing, logistics, and utility-approved supplier lists."
+    },
+    {
+      "bottleneck_score": 88,
+      "node": "onsite_power_generation_microgrids_gas_turbines_fuel_cells_and_storage",
+      "role": "capacity",
+      "why_it_matters": "When grid interconnection is slow, AI data-center developers may use onsite generation, behind-the-meter power, batteries, microgrids, or dedicated PPAs. This shifts bottlenecks toward turbines, engines, fuel supply, emissions permits, grid protection, and project finance."
+    },
+    {
+      "bottleneck_score": 74,
+      "node": "construction_epc_commissioning_and_critical_facility_operations",
+      "role": "capacity",
+      "why_it_matters": "AI data centers require scarce construction labor, electrical engineers, commissioning specialists, liquid-cooling technicians, and operations procedures. This is a lower-attention service bottleneck with potential pricing power during buildout waves."
+    },
+    {
+      "bottleneck_score": 70,
+      "node": "software_orchestration_cluster_scheduling_and_power_aware_operations",
+      "role": "customer",
+      "why_it_matters": "As physical bottlenecks intensify, software that improves GPU utilization, workload placement, cooling efficiency, power flexibility, and failure recovery can unlock capacity without new grid or chip supply."
+    }
+  ],
+  "theme_id": "special_ai_infrastructure_chain",
+  "ticker_relationships": [
+    {
+      "claim_type": "fact",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.72,
+      "hidden_signal_to_verify": "Whether HBM-related probe-card demand is recurring, supply-constrained, and margin-accretive; verify DRAM/HBM mix, backlog, customer concentration, lead times, and whether revenue is tied to multiple HBM suppliers.",
+      "next_evidence": "Pull latest FORM 10-K/10-Q, investor presentation, and earnings-call transcript; search specifically for HBM, DRAM probe cards, advanced packaging, leading-edge logic probe, customer concentration, backlog, lead times, and gross-margin commentary.",
+      "node": "advanced_packaging_test_probe_cards_metrology_and_known_good_die",
+      "relationship": "Probe-card and wafer-test supplier potentially exposed to the higher test complexity of DRAM/HBM and known-good-die validation before expensive AI accelerator / advanced-package integration.",
+      "ticker": "FORM"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.68,
+      "hidden_signal_to_verify": "Whether HBM3E/HBM4 controller, PHY, and patent-license economics are volume-linked or mostly fixed-license; verify design wins, customer concentration, license renewal terms, and HBM-specific revenue sensitivity.",
+      "next_evidence": "Verify Rambus product pages, 10-K revenue segmentation, patent-license disclosures, memory-interface customer references, and any HBM4/HBM3E controller or PHY design-win language in recent transcripts.",
+      "node": "hbm_interface_ip_phy_and_memory_controller_layer",
+      "relationship": "Potential HBM interface-IP and patent-license toll-road linked to memory-controller, PHY, and high-speed interface requirements around HBM3E/HBM4 AI accelerator systems.",
+      "ticker": "RMBS"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.58,
+      "hidden_signal_to_verify": "Whether the announced HBM inspection/metrology win converts into repeat production orders, broader customer adoption, and meaningful revenue contribution versus a niche platform sale.",
+      "next_evidence": "Pull COHU press releases and earnings transcripts for HBM inspection/metrology wins, follow-on orders, customer type, production timing, backlog conversion, and management language on AI datacenter or advanced-packaging test demand.",
+      "node": "advanced_packaging_test_probe_cards_metrology_and_known_good_die",
+      "relationship": "Back-end semiconductor test, inspection, metrology, thermal handling, and automation supplier that could benefit if HBM and AI datacenter devices require more inspection, thermal testing, and package-level validation.",
+      "ticker": "COHU"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0.47,
+      "hidden_signal_to_verify": "Verify current InP revenue, customer concentration, capacity, yield, China-related operating risk, AI datacenter optical exposure, and whether demand is from AI-relevant transceivers or older telecom cycles.",
+      "next_evidence": "Check AXTI 10-K/10-Q segment disclosures, substrate capacity, InP revenue commentary, customer concentration, China operations risk, raw-material integration, and any direct references to datacenter optics, silicon photonics, or external laser sources.",
+      "node": "silicon_photonics_external_light_source_and_inp_substrates",
+      "relationship": "Speculative upstream InP substrate and specialty-material supplier candidate for AI optical networking, silicon photonics, and external-light-source architectures.",
+      "ticker": "AXTI"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0.42,
+      "hidden_signal_to_verify": "Verify AI datacenter customer wins, photonics or accelerator test demand, backlog durability, customer concentration, and whether revenue is diversifying beyond prior cyclical drivers.",
+      "next_evidence": "Review AEHR latest 10-K/10-Q and transcripts for wafer-level burn-in applications beyond SiC, references to AI processors, photonics, silicon photonics, high-power devices, advanced packaging, backlog, and customer concentration.",
+      "node": "ai_accelerator_reliability_and_burn_in",
+      "relationship": "Speculative wafer-level burn-in and reliability-test supplier that could matter if AI accelerators, photonics devices, SiC devices, or advanced-packaged semiconductors require more pre-package reliability screening.",
+      "ticker": "AEHR"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.52,
+      "hidden_signal_to_verify": "Verify actual HBM-adjacent production revenue, named AI accelerator customers, advanced-packaging capex, utilization, CHIPS Act-related capacity, and whether AI is material rather than marketing language.",
+      "next_evidence": "Pull AMKR filings, capex disclosures, advanced-packaging product descriptions, Arizona / CHIPS Act updates, customer concentration, AI accelerator references, and utilization commentary.",
+      "node": "advanced_packaging_cowos_soic_2_5d_3d_integration",
+      "relationship": "OSAT / advanced-packaging and test candidate that may participate in heterogeneous integration, chiplet packaging, final test, and geographic diversification of advanced-packaging capacity for AI semiconductors.",
+      "ticker": "AMKR"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0.44,
+      "hidden_signal_to_verify": "Verify AI datacenter transceiver revenue, hyperscaler customer concentration, margin sustainability, capacity constraints, and exposure to 800G/1.6T or external-light-source architectures.",
+      "next_evidence": "Check AAOI filings and transcripts for datacenter revenue mix, 800G/1.6T product timing, hyperscaler concentration, backlog, manufacturing capacity, gross margins, and whether recent growth is AI-driven or telecom/cable-cycle-driven.",
+      "node": "datacenter_optical_networking_800g_1_6t",
+      "relationship": "Speculative small-cap optical component and datacenter transceiver supplier candidate tied to AI datacenter bandwidth growth, 800G/1.6T migration, and hyperscaler optical module demand.",
+      "ticker": "AAOI"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0.35,
+      "hidden_signal_to_verify": "Verify named AI datacenter customers, production timing, revenue scale, laser or optical-engine content, funding runway, and whether design wins convert to volume.",
+      "next_evidence": "Review Sivers filings, customer announcements, photonics product pages, design-win disclosures, funding runway, order backlog, and any named datacenter, AI, silicon-photonics, or external-laser-source relationships.",
+      "node": "silicon_photonics_external_light_source_and_inp_substrates",
+      "relationship": "Highly speculative niche photonics supplier candidate potentially linked to optical engines, lasers, external light source, or silicon-photonics-related architectures for AI networking.",
+      "ticker": "SIVE"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.5,
+      "hidden_signal_to_verify": "Verify datacenter optical revenue mix, customer concentration, 800G/1.6T production ramps, manufacturing capacity, and margin pass-through.",
+      "next_evidence": "Check FN annual report, customer concentration, optical communications segment commentary, datacenter revenue mix, AI-related production ramps, customer inventory risk, and manufacturing-capacity expansion.",
+      "node": "optical_module_contract_manufacturing_and_qualification",
+      "relationship": "Optical communications manufacturing-services layer that may benefit indirectly from branded optical component and transceiver vendors ramping AI datacenter volume.",
+      "ticker": "FN"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.53,
+      "hidden_signal_to_verify": "Verify AI datacenter optical revenue, laser supply constraints, margin impact from datacenter mix, customer concentration, and exposure to external light-source architectures.",
+      "next_evidence": "Pull COHR filings and transcripts for datacenter transceiver / laser revenue, 800G/1.6T or 200G/lane commentary, silicon photonics exposure, capacity constraints, gross-margin impact, and customer concentration.",
+      "node": "optics_photonics_components_and_lasers",
+      "relationship": "Reference-to-underfollowed hybrid for AI optical networking components, lasers, compound semiconductor materials, and possible external-light-source architectures.",
+      "ticker": "COHR"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.52,
+      "hidden_signal_to_verify": "Verify AI accelerator platform wins, customer concentration, advanced-products revenue mix, litigation/IP status, backlog, and whether rack-scale architectures increase Vicor content per accelerator or rack.",
+      "next_evidence": "Pull VICR 2025 10-K and 2026 10-Q filings; search earnings-call transcripts for AI, GPU, accelerator, data center, advanced products, backlog, and customer concentration.",
+      "node": "rack_power_conversion_vrm_power_modules_and_ai_accelerator_board_power",
+      "relationship": "Potential supplier of high-density power-conversion modules for enterprise/high-performance computing, telecom/network infrastructure, and AI-adjacent rack or board power architectures.",
+      "ticker": "VICR"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.48,
+      "hidden_signal_to_verify": "Verify data-center and AI-related revenue mix, design wins, component content per rack, capacity, backlog, customer concentration, and margin sensitivity in Power Solutions and Connectivity Solutions.",
+      "next_evidence": "Review BELFB 2025 10-K segment disclosures and 2026 quarterly filings; search investor materials for data center, AI, cloud, power shelf, networking, magnetic components, fuses, and connectors.",
+      "node": "rack_power_components_connectivity_magnetics_and_circuit_protection",
+      "relationship": "Possible niche supplier of power, protection, magnetic, and connectivity components used one layer below branded data-center electrical and networking equipment.",
+      "ticker": "BELFB"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.78,
+      "hidden_signal_to_verify": "Verify AI/data-center revenue growth, modular liquid-cooling ramp, hyperscaler materiality, backlog, product margins, and whether data-center demand remains organic rather than acquisition-driven.",
+      "next_evidence": "Pull NVT 2025 10-K and 2026 10-Q; check data-center sales, organic growth, orders/backlog, liquid-cooling launch timing, NVIDIA collaboration details, and customer-concentration disclosures.",
+      "node": "data_center_enclosures_power_distribution_racks_and_liquid_cooling",
+      "relationship": "Supplier relationship to AI data-center densification through liquid cooling, racks, power distribution, connection, cable pathway, and bracing products.",
+      "ticker": "NVT"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.82,
+      "hidden_signal_to_verify": "Verify data-center cooling revenue, liquid-cooling product mix versus air/chiller exposure, backlog, capacity additions, customer concentration, and margin sustainability.",
+      "next_evidence": "Review MOD fiscal 2025 10-K/annual report, latest FY2026 filings, data-center order commentary, Scott Springfield integration, and Climate Solutions margins.",
+      "node": "data_center_cooling_thermal_management_and_liquid_cooling_control",
+      "relationship": "Thermal-management and data-center cooling supplier exposed to hyperscale and colocation growth, with Airedale by Modine positioned around high-density data-center cooling controls and systems.",
+      "ticker": "MOD"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.74,
+      "hidden_signal_to_verify": "Verify datacenter product revenue, 1.6T design wins, customer concentration, competitive position against optical DSP/PMD peers, inventory risk, and debt/balance-sheet constraints.",
+      "next_evidence": "Pull SMTC FY2025 10-K, 2026 quarterly reports, optical-networking product releases, and transcripts for 1.6T, LPO, hyperscaler, AI data center, PMD, TIA, VCSEL, and design-win commentary.",
+      "node": "optics_signal_integrity_1_6t_pmd_vcsel_driver_tia_and_linear_pluggable_optics",
+      "relationship": "Potential optical-connectivity component supplier for AI data centers via 1.6T PMD building blocks, VCSEL drivers, TIAs, and optical/copper connectivity products used in hyperscale data-center networking.",
+      "ticker": "SMTC"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.86,
+      "hidden_signal_to_verify": "Verify AI/data-center segment growth, CCS segment profitability, customer concentration, working-capital needs, durability of hyperscaler programs, and rack-scale networking exposure.",
+      "next_evidence": "Review CLS 2025 10-K, 2026 filings, CCS segment disclosures, customer concentration, capex plans, and customer/platform announcements such as AI/ML data-center switching.",
+      "node": "data_center_system_integration_networking_switches_optical_systems_racks_servers_and_storage",
+      "relationship": "EMS, design, manufacturing, and hardware-platform supplier for hyperscale data-center infrastructure, including networking switches, optical systems, racks, servers, and storage used for AI workloads and cloud computing.",
+      "ticker": "CLS"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.72,
+      "hidden_signal_to_verify": "Verify cloud/AI infrastructure revenue mix, ZT integration risk, customer relationships, debt/leverage, backlog, margins, and whether AI hardware complexity improves economics.",
+      "next_evidence": "Pull SANM fiscal 2025 10-K and latest 2026 filings; isolate Communications Networks and Cloud/AI Infrastructure revenue, ZT acquisition terms, integration milestones, and margin guidance.",
+      "node": "cloud_ai_infrastructure_ems_and_data_center_manufacturing",
+      "relationship": "Second-order EMS supplier with explicit strategic expansion into cloud and AI infrastructure through the acquisition of ZT Systems' data-center infrastructure manufacturing business.",
+      "ticker": "SANM"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.5,
+      "hidden_signal_to_verify": "Verify data-center customer exposure, project backlog, pricing cyclicality, commodity sensitivity, competitive pricing pressure, and whether AI campus builds are material to revenue.",
+      "next_evidence": "Review ATKR 2025 10-K and 2026 filings for data-center references, Electrical segment volume/pricing, customer vertical mix, backlog if disclosed, and commodity-spread margin sensitivity.",
+      "node": "electrical_raceway_conduit_cable_management_and_data_center_construction_components",
+      "relationship": "Indirect electrical-infrastructure component supplier for data-center construction through conduit, fittings, cable-management, and safety/infrastructure products.",
+      "ticker": "ATKR"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.83,
+      "hidden_signal_to_verify": "Verify data-center project exposure, backlog conversion, labor constraints, customer concentration, project timing, margin normalization, and whether large data-center projects are AI/hyperscaler-driven.",
+      "next_evidence": "Review IESC FY2025 10-K, Q1 FY2026 10-Q, Communications segment revenue/backlog, customer concentration, and commentary on data-center project scope changes and duration.",
+      "node": "data_center_network_infrastructure_electrical_installation_and_mission_critical_services",
+      "relationship": "Electrical and technology infrastructure contractor for data centers and other mission-critical environments, with explicit data-center demand and record Communications backlog in fiscal 2025.",
+      "ticker": "IESC"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.36,
+      "hidden_signal_to_verify": "Verify data-center revenue, inspection/safety service demand, recurring maintenance exposure, project backlog, customer vertical mix, and margin profile.",
+      "next_evidence": "Search APG 2025 annual report and latest calls for data center, hyperscale, mission critical, inspection, monitoring, service revenue, backlog, and customer vertical disclosure.",
+      "node": "facility_safety_inspection_monitoring_and_infrastructure_services",
+      "relationship": "Possible second-order beneficiary from complex data-center facility buildout through safety, inspection, service, monitoring, and infrastructure services, but direct AI/data-center exposure is not yet proven in gathered evidence.",
+      "ticker": "APG"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.66,
+      "hidden_signal_to_verify": "Verify AI data-center-related utility transmission demand, backlog mix, permitting constraints, labor constraints, acquisition contribution, and margin durability.",
+      "next_evidence": "Review PWR 2025 annual report and 2026 filings for data-center campus power projects, electric power backlog, substation/transmission demand, utility interconnection commentary, and labor/capacity constraints.",
+      "node": "grid_interconnection_transmission_substations_and_data_center_power_availability",
+      "relationship": "Reference infrastructure-services anchor for the grid, transmission, substation, and interconnection bottleneck that can gate AI data-center energization.",
+      "ticker": "PWR"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.82,
+      "hidden_signal_to_verify": "Track AI-specific backlog, liquid-cooling adoption, margins, capacity, order conversion, customer concentration, and whether valuation already embeds bottleneck expectations.",
+      "next_evidence": "Latest 10-Q/10-K, earnings-call transcript, backlog/order disclosures, liquid-cooling product revenue if disclosed, and capacity expansion commentary.",
+      "node": "direct_liquid_cooling_cold_plates_cdus_manifolds_and_service",
+      "relationship": "Reference leader for critical digital infrastructure, data-center power, thermal management, and liquid-cooling adoption as AI rack density rises.",
+      "ticker": "VRT"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.84,
+      "hidden_signal_to_verify": "Verify data-center orders, switchgear lead times, capacity additions, backlog durability, pricing, margin expansion, and whether AI-driven demand is already priced.",
+      "next_evidence": "Electrical Americas order/backlog disclosures, datacenter-specific order growth, lead-time commentary, capex/capacity disclosures, and management discussion of hyperscaler demand.",
+      "node": "switchgear_ups_pdus_and_datacenter_electrical_distribution",
+      "relationship": "Reference leader for electrical equipment and power-management demand driven by data-center buildouts, especially switchgear, power distribution, and electrical backlog.",
+      "ticker": "ETN"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.9,
+      "hidden_signal_to_verify": "Whether HBM qualification wins translate into sustained share gains and through-cycle profitability; verify HBM revenue, supply commitments, capex allocation, customer design-ins, and HBM4 transition timing.",
+      "next_evidence": "Micron earnings slides/transcripts, HBM revenue and allocation commentary, capex split, customer qualification language, and gross-margin bridge.",
+      "node": "hbm_memory_stack_and_hbm3e_hbm4_transition",
+      "relationship": "US-listed reference HBM supplier; HBM3E/HBM4 products connect directly to AI accelerator training and inference bandwidth constraints.",
+      "ticker": "MU"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.9,
+      "hidden_signal_to_verify": "Track CoWoS and advanced-packaging capacity additions, lead times, customer allocation, capex, pricing, yields, and whether bottleneck pressure migrates to substrates, test, hybrid bonding, or OSAT partners.",
+      "next_evidence": "TSMC annual/AGM materials, quarterly earnings calls, capex guidance, advanced-packaging capacity comments, and supplier/OSAT partnership disclosures.",
+      "node": "advanced_packaging_cowos_soic_2_5d_3d_integration",
+      "relationship": "Reference leader for AI accelerator foundry and advanced-packaging capacity; CoWoS/InFO/SoIC capacity and allocation are upstream signals for GPU, ASIC, HBM, substrate, and test bottlenecks.",
+      "ticker": "TSM"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.93,
+      "hidden_signal_to_verify": "Use platform roadmaps, HBM content, networking architecture, rack power, liquid-cooling requirements, OCP specifications, and reference designs to infer supplier demand without treating NVDA itself as the alpha target.",
+      "next_evidence": "NVIDIA platform docs, OCP design contributions, DGX GB rack user guides, partner system datasheets, and future Rubin/Blackwell Ultra rack BOM changes.",
+      "node": "rack_scale_architecture_nvlink_ethernet_switching_and_cabling",
+      "relationship": "Primary architecture and demand anchor; GB200/NVL rack-scale systems define second-order demand for HBM, advanced packaging, NVLink/cabling, power shelves, busbars, liquid-cooling manifolds, and serviceability.",
+      "ticker": "NVDA"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.86,
+      "hidden_signal_to_verify": "Track custom AI ASIC revenue, networking silicon demand, optical attach rates, advanced-packaging needs, customer concentration, and hyperscaler program timing.",
+      "next_evidence": "Broadcom AI revenue disclosures, official customer announcements, Ethernet/XPU roadmap materials, earnings-call customer-count commentary, and packaging capacity references.",
+      "node": "custom_ai_asic_reference_and_datacenter_networking_reference",
+      "relationship": "Reference leader for custom AI accelerators, Ethernet/networking silicon, and optical/network connectivity; helps benchmark demand for ASIC packaging, high-speed I/O, optics, and scale-up/scale-out networking.",
+      "ticker": "AVGO"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.8,
+      "hidden_signal_to_verify": "Track AI cluster networking revenue, Ethernet adoption, scale-up Ethernet standards progress, optical attach rates, customer concentration, and supply constraints in related optical components.",
+      "next_evidence": "Arista annual report, earnings transcripts, AI networking revenue commentary, UEC/standards updates, hyperscaler customer concentration, and inventory/order-cycle indicators.",
+      "node": "ai_cluster_ethernet_networking",
+      "relationship": "Reference leader for cloud and AI data-center Ethernet networking; signals adoption of Ethernet scale-out/scale-up architectures and related optical attach-rate demand.",
+      "ticker": "ANET"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.76,
+      "hidden_signal_to_verify": "Verify data-center infrastructure revenue, rack or power manufacturing exposure, customer concentration, margin profile, working capital intensity, AI incrementality, and spin-off segment economics.",
+      "next_evidence": "Cloud and Power Infrastructure segment disclosures, Form 10/transaction documents if available, latest earnings call, customer program commentary, 1MW+ PDU traction, and capex/capacity plans.",
+      "node": "data_center_system_integration_and_power_manufacturing",
+      "relationship": "Underfollowed EMS/infrastructure hardware participant with official disclosures around AI/cloud data-center power, cooling, rack integration, scalable infrastructure, and planned Cloud and Power Infrastructure spin-off.",
+      "ticker": "FLEX"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.74,
+      "hidden_signal_to_verify": "Verify cloud/datacenter customer programs, hardware category exposure, optics/server/liquid-cooling/power split, margins, working capital, capacity utilization, and customer concentration.",
+      "next_evidence": "Jabil segment disclosures, latest 10-K/10-Q, AI data-center investment updates, Hanley Energy integration commentary, Mikros/liquid-cooling contribution, and hyperscaler customer concentration.",
+      "node": "data_center_system_integration_electronics_manufacturing_services_and_liquid_cooling",
+      "relationship": "Underfollowed EMS and supply-chain participant with official AI/cloud data-center manufacturing exposure, server products, liquid-cooling acquisition history, and power-management acquisition activity.",
+      "ticker": "JBL"
+    },
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0.35,
+      "hidden_signal_to_verify": "Verify whether there is any material AI infrastructure, robotics, edge inference, industrial automation, accelerator-adjacent, or data-center relevance; otherwise remove from later layers.",
+      "next_evidence": "Annual Report 2025, OEM design-win detail, product roadmap, AI/robotics/industrial automation customer examples, revenue by end-market, and explicit edge-AI or data-center disclosures.",
+      "node": "edge_ai_and_automation_shadow",
+      "relationship": "Speculative shadow relationship only. Official materials support industrial embedded computing, OEM relationships, and low-power computing, but current evidence does not verify material AI data-center infrastructure exposure.",
+      "ticker": "RPI"
+    }
+  ]
+}

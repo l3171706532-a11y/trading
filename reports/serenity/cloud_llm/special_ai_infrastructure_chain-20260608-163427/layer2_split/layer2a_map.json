@@ -1,0 +1,381 @@
+{
+  "catalysts": [
+    {
+      "affected_nodes": [
+        "hyperscaler_and_sovereign_ai_capex",
+        "ai_accelerators_gpus_and_custom_asics",
+        "advanced_packaging_cowos_soic_2_5d_3d_integration",
+        "hbm_memory_stack_and_hbm3e_hbm4_transition",
+        "datacenter_optical_networking_800g_1_6t",
+        "utility_interconnection_queue_and_permitting"
+      ],
+      "claim_type": "inference",
+      "description": "Hyperscaler AI capex and sovereign AI programs continue to translate into multi-year demand for accelerators, advanced packaging, HBM, optics, liquid cooling, and power infrastructure.",
+      "type": "capex"
+    },
+    {
+      "affected_nodes": [
+        "direct_liquid_cooling_cold_plates_cdus_manifolds_and_service",
+        "rack_power_conversion_vrm_power_modules_and_busbars",
+        "switchgear_ups_pdus_and_datacenter_electrical_distribution",
+        "rack_scale_architecture_nvlink_ethernet_switching_and_cabling"
+      ],
+      "claim_type": "fact",
+      "description": "Rack-scale liquid-cooled systems make power density and cooling capacity central design constraints, shifting attention from server shipments alone to CDUs, cold plates, manifolds, facility loops, power shelves, and serviceability.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "datacenter_optical_networking_800g_1_6t",
+        "silicon_photonics_external_light_source_and_inp_substrates",
+        "optical_module_contract_manufacturing_and_qualification"
+      ],
+      "claim_type": "fact",
+      "description": "The transition from 800G to 1.6T optical connectivity increases importance of DSPs, lasers, silicon photonics, InP substrates, optical engines, module assembly, and optical test.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "leading_edge_foundry_wafers",
+        "advanced_packaging_cowos_soic_2_5d_3d_integration",
+        "hbm_memory_stack_and_hbm3e_hbm4_transition",
+        "advanced_packaging_test_probe_cards_metrology_and_known_good_die"
+      ],
+      "claim_type": "inference",
+      "description": "Foundry and memory earnings calls should be monitored for CoWoS/advanced-packaging capacity, HBM mix, HBM4 qualification, customer prepayments, utilization, and package-level test constraints.",
+      "type": "earnings"
+    },
+    {
+      "affected_nodes": [
+        "hbm_interface_ip_phy_and_memory_controller_layer",
+        "advanced_packaging_test_probe_cards_metrology_and_known_good_die",
+        "datacenter_optical_networking_800g_1_6t",
+        "direct_liquid_cooling_cold_plates_cdus_manifolds_and_service",
+        "rack_power_conversion_vrm_power_modules_and_busbars",
+        "switchgear_ups_pdus_and_datacenter_electrical_distribution"
+      ],
+      "claim_type": "inference",
+      "description": "Customer qualification wins for HBM, 1.6T optics, liquid-cooling subsystems, power modules, and AI data-center switchgear can convert low-attention suppliers from hypotheses into evidence-backed bottleneck candidates.",
+      "type": "customer"
+    },
+    {
+      "affected_nodes": [
+        "utility_interconnection_queue_and_permitting",
+        "onsite_power_generation_microgrids_gas_turbines_fuel_cells_and_storage",
+        "large_power_transformers_and_high_voltage_equipment",
+        "switchgear_ups_pdus_and_datacenter_electrical_distribution"
+      ],
+      "claim_type": "inference",
+      "description": "Grid interconnection reform, utility tariffs for large loads, ratepayer-protection rules, emissions permits, and microgrid legislation can accelerate or block AI campus deployment.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "large_power_transformers_and_high_voltage_equipment",
+        "switchgear_ups_pdus_and_datacenter_electrical_distribution",
+        "utility_interconnection_queue_and_permitting"
+      ],
+      "claim_type": "inference",
+      "description": "Transformer, switchgear, and high-voltage equipment backlog growth is a key catalyst because these nodes can determine when already-funded data centers become usable compute capacity.",
+      "type": "capex"
+    },
+    {
+      "affected_nodes": [
+        "hbm_memory_stack_and_hbm3e_hbm4_transition",
+        "hbm_interface_ip_phy_and_memory_controller_layer",
+        "advanced_packaging_test_probe_cards_metrology_and_known_good_die",
+        "advanced_packaging_cowos_soic_2_5d_3d_integration"
+      ],
+      "claim_type": "inference",
+      "description": "HBM3E-to-HBM4 transitions can change supply-chain pressure across memory vendors, interface IP, probe cards, thermal test, advanced packaging, and accelerator board design.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "utility_interconnection_queue_and_permitting",
+        "large_power_transformers_and_high_voltage_equipment",
+        "onsite_power_generation_microgrids_gas_turbines_fuel_cells_and_storage"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Reports of cancelled or delayed data-center projects due to unavailable grid capacity, transformers, or permits would be negative for near-term GPU deployment but positive for research focus on power-chain chokepoints.",
+      "type": "news"
+    },
+    {
+      "affected_nodes": [
+        "silicon_photonics_external_light_source_and_inp_substrates",
+        "datacenter_optical_networking_800g_1_6t",
+        "optical_module_contract_manufacturing_and_qualification"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Hyperscaler adoption of external light source or co-packaged/silicon-photonics architectures would raise the bottleneck score of InP substrates, lasers, photonics packaging, and optical test.",
+      "type": "customer"
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "NVIDIA describes GB200 NVL72 as connecting 36 Grace CPUs and 72 Blackwell GPUs in a rack-scale, liquid-cooled design, making rack power and liquid cooling first-order AI infrastructure nodes.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "",
+      "source_title": "GB200 NVL72 | NVIDIA",
+      "source_url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "NVIDIA contributed parts of the GB200 NVL72 system design to the OCP ecosystem, including rack architecture, liquid-cooling and thermal-environment specifications, and NVLink cable cartridge volumetrics.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2024-10-15",
+      "source_title": "NVIDIA Contributes Blackwell Platform Design to Open Hardware Ecosystem",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Contributes-Blackwell-Platform-Design-to-Open-Hardware-Ecosystem-Accelerating-AI-Infrastructure-Innovation/default.aspx",
+      "ticker": "NVDA"
+    },
+    {
+      "claim": "TSMC's 2026 shareholder-meeting agenda discusses advanced packaging technologies including CoWoS, InFO, and SoIC and states that TSMC expanded investment plans in response to very strong multi-year AI-related demand.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "TSMC 2026 AGM Agenda",
+      "source_url": "https://investor.tsmc.com/sites/ir/shareholders-meeting/2026-06-04/2026AGM_Agenda_wmn.pdf",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Recent coverage of TSMC's June 2026 shareholder meeting reported that management said AI-chip demand will take a long time to fully satisfy, reinforcing foundry and advanced-packaging capacity as key monitored nodes.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06-04",
+      "source_title": "TSMC CEO C.C. Wei says, 'It will be a long time before we can meet customer demand'",
+      "source_url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand-tells-shareholders-that-he-will-keep-prices-stable-refrain-from-implementing-price-hikes",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Micron positions HBM3E as a high-bandwidth memory product supporting AI training and inference, reinforcing HBM as a central input node for AI infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "High-bandwidth memory (HBM) | Micron Technology",
+      "source_url": "https://www.micron.com/products/memory/hbm",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Marvell announced an expanded 1.6T optical DSP platform portfolio for AI data-center connectivity, explicitly tying the 800G-to-1.6T transition to AI data-center networking.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04",
+      "source_title": "Marvell Ushers In the 1.6T Era with Expanded Optical DSP Platform Portfolio",
+      "source_url": "https://www.marvell.com/company/newsroom/marvell-1-6t-optical-dsp-ai-data-center-connectivity.html",
+      "ticker": "MRVL"
+    },
+    {
+      "claim": "LightCounting reported in 2026 that AI capex is flowing down the supply chain to PAM4 and coherent DSP vendors and that it increased forecasts for both 800G and 1.6T optical-transceiver shipments.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-02",
+      "source_title": "AI Capex Flows Down the Supply Chain to DSP Vendors",
+      "source_url": "https://www.lightcounting.com/newsletter/en/february-2026-pam4-and-coherent-dsps-updated-april-2026-381",
+      "ticker": ""
+    },
+    {
+      "claim": "World Economic Forum analysis in May 2026 described grid connectivity as a strategic bottleneck for AI transformation and noted that high-power-density AI data centers are challenging loads for grid planning and interconnection frameworks.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-05",
+      "source_title": "If electricity and data are the 'new oil', is grid connectivity the strategic bottleneck in the AI transformation?",
+      "source_url": "https://www.weforum.org/stories/2026/05/electricity-data-grid-connectivity-strategic-bottleneck-ai-transformation/",
+      "ticker": ""
+    },
+    {
+      "claim": "A 2026 arXiv paper on AI data-center flexibility frames large-load interconnection as an emerging and complex grid challenge, supporting the inclusion of interconnection and load flexibility as supply-chain nodes.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-04",
+      "source_title": "To Defer or To Shift? The Role of AI Data Center Flexibility on Grid Interconnection",
+      "source_url": "https://arxiv.org/abs/2604.05376",
+      "ticker": ""
+    },
+    {
+      "claim": "A 2026 arXiv paper on direct-to-chip liquid cooling states that AI workload growth is increasing data-center power densities and the need for advanced thermal management.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-04",
+      "source_title": "Generative Design for Direct-to-Chip Liquid Cooling for Data Centers",
+      "source_url": "https://arxiv.org/abs/2604.10941",
+      "ticker": ""
+    },
+    {
+      "claim": "Based on the Serenity cached methodology context, AI photonics bottleneck value may hide one or two layers upstream in InP substrates, external light-source components, lasers, and silicon-photonics supply rather than only in branded optical-module vendors.",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Skill Repository Digest and External Search Context",
+      "source_url": "provided_cached_serenity_context",
+      "ticker": ""
+    },
+    {
+      "claim": "Based on the ForcedAlpha AI infrastructure framework supplied in context, HBM, advanced packaging, and power infrastructure form a relay of constraints rather than a single bottleneck.",
+      "claim_type": "inference",
+      "confidence": 0.74,
+      "published_at": "2026-02-14",
+      "source_title": "The AI Infrastructure Bottleneck Framework — Constraint Relay Race Investment Map",
+      "source_url": "https://forcedalpha.com/research/ai-infrastructure/",
+      "ticker": ""
+    }
+  ],
+  "layer": "2A",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Track AI infrastructure as a physical constraint relay: demand capex -> accelerators -> leading-edge wafers -> HBM -> advanced packaging -> test/inspection -> optics -> rack power/cooling -> data-center electrical systems -> grid interconnection.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Highest-confidence chokepoint nodes for Layer 2A are advanced packaging, HBM stack/interface/test, 800G/1.6T optics, direct liquid cooling, large power transformers, switchgear, and utility interconnection.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Low-attention value may hide in probe cards, metrology, wafer-level burn-in, HBM interface IP, InP substrates, lasers, optical DSPs, contract optical manufacturing, cold plates, CDUs, power modules, busbars, switchgear, transformers, permitting specialists, and commissioning services.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Key catalysts to monitor: hyperscaler capex updates, TSMC CoWoS/3DFabric capacity commentary, HBM3E/HBM4 qualification, 1.6T optical deployment, liquid-cooled rack rollouts, utility interconnection reform, transformer lead-time updates, and onsite-power/microgrid policy.",
+      "type": "catalyst"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Layer 2B should verify which public suppliers have material revenue exposure, named customer wins, capacity constraints, backlog visibility, customer qualification, and pricing power at each bottleneck node.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Do not over-map the theme to high-attention leaders only. Need to separately validate underfollowed suppliers in test, photonics materials, power conversion, switchgear, transformers, liquid cooling, and commissioning.",
+      "type": "evidence_gap"
+    }
+  ],
+  "summary": "AI infrastructure supply chain mapped as a constraint relay: demand begins with hyperscaler and sovereign AI capex, but scarce value can hide several layers upstream in HBM, advanced packaging, test/inspection, optical networking, rack power, liquid cooling, grid interconnection, transformers, permits, and specialty materials. High-attention GPU leaders should be treated as demand signals, not the only investable nodes. The most likely bottleneck zones for Layer 2A monitoring are: advanced packaging capacity, HBM interface/test gates, photonics and 800G/1.6T optics, direct liquid cooling, power conversion/switchgear, utility interconnection, and transformer/high-voltage equipment lead times.",
+  "supply_chain_map": [
+    {
+      "bottleneck_score": 55,
+      "node": "hyperscaler_and_sovereign_ai_capex",
+      "role": "demand",
+      "why_it_matters": "This is the top-level demand source for GPUs, custom ASICs, HBM, optical networking, data-center shells, power, cooling, and grid capacity. It should be used as a demand pulse, not as the final research endpoint."
+    },
+    {
+      "bottleneck_score": 72,
+      "node": "ai_accelerators_gpus_and_custom_asics",
+      "role": "capacity",
+      "why_it_matters": "Accelerators convert AI demand into concrete requirements for leading-edge wafers, HBM stacks, substrates, CoWoS-like packaging, board power, networking, and liquid cooling. The node is high attention, but it sets the bill of materials for lower-attention suppliers."
+    },
+    {
+      "bottleneck_score": 78,
+      "node": "leading_edge_foundry_wafers",
+      "role": "capacity",
+      "why_it_matters": "Advanced logic supply remains a gating input for GPU and ASIC ramps. However, public attention is high, so Serenity-style research should look through this node into packaging, test, materials, and power delivery."
+    },
+    {
+      "bottleneck_score": 94,
+      "node": "advanced_packaging_cowos_soic_2_5d_3d_integration",
+      "role": "capacity",
+      "why_it_matters": "AI accelerators require integration of logic die, chiplets, HBM stacks, interposers, substrates, and final package test. This is one of the clearest physical chokepoints because finished GPU/ASIC supply can be constrained even when logic die and memory are available."
+    },
+    {
+      "bottleneck_score": 93,
+      "node": "hbm_memory_stack_and_hbm3e_hbm4_transition",
+      "role": "input",
+      "why_it_matters": "HBM is central to accelerator performance and capacity. Supply is gated by DRAM process, TSV stacking, yield, thermal behavior, packaging availability, and customer qualification. Underfollowed exposure may sit in interface IP, probe cards, inspection, handlers, and burn-in rather than only HBM manufacturers."
+    },
+    {
+      "bottleneck_score": 82,
+      "node": "hbm_interface_ip_phy_and_memory_controller_layer",
+      "role": "input",
+      "why_it_matters": "Memory-interface IP, PHYs, controllers, and patent-license positions can act as toll-road nodes across HBM suppliers and accelerator platforms. This layer is less visible than HBM manufacturing but can be difficult to replace once designed in."
+    },
+    {
+      "bottleneck_score": 88,
+      "node": "advanced_packaging_test_probe_cards_metrology_and_known_good_die",
+      "role": "equipment",
+      "why_it_matters": "As packages combine expensive logic die and HBM stacks, test before and after integration becomes more valuable. Bottleneck value may hide in probe cards, thermal handlers, inspection/metrology, wafer-level burn-in, and reliability screening."
+    },
+    {
+      "bottleneck_score": 80,
+      "node": "substrates_interposers_abf_glass_and_organic_package_materials",
+      "role": "input",
+      "why_it_matters": "Large AI packages raise demand for high-layer-count substrates, interposers, bridge technologies, and potentially glass substrates. Supplier qualification and yield learning cycles can make this node a slow-moving capacity gate."
+    },
+    {
+      "bottleneck_score": 90,
+      "node": "datacenter_optical_networking_800g_1_6t",
+      "role": "capacity",
+      "why_it_matters": "AI clusters require high-bandwidth, low-latency data movement inside racks, between racks, and across campuses. The shift from 400G/800G toward 1.6T can push bottlenecks into DSPs, lasers, silicon photonics, InP substrates, optical engines, module assembly, and test."
+    },
+    {
+      "bottleneck_score": 87,
+      "node": "silicon_photonics_external_light_source_and_inp_substrates",
+      "role": "input",
+      "why_it_matters": "If AI networking architectures shift toward silicon photonics or external light sources, scarce upstream materials and laser supply may become hidden chokepoints. Low-attention value can hide in InP substrates, epitaxy, specialty crucibles, laser bars, and photonics design wins."
+    },
+    {
+      "bottleneck_score": 76,
+      "node": "optical_module_contract_manufacturing_and_qualification",
+      "role": "distribution",
+      "why_it_matters": "Branded optical vendors may receive attention, but contract manufacturers, module assemblers, test houses, and qualification labs can become practical throughput gates for 800G/1.6T ramps."
+    },
+    {
+      "bottleneck_score": 81,
+      "node": "rack_scale_architecture_nvlink_ethernet_switching_and_cabling",
+      "role": "input",
+      "why_it_matters": "Rack-scale systems such as liquid-cooled NVL72-style architectures make the rack the unit of compute. That increases importance of high-speed copper/optical cabling, switching, retimers, backplanes, cable cartridges, and installation skill."
+    },
+    {
+      "bottleneck_score": 86,
+      "node": "direct_liquid_cooling_cold_plates_cdus_manifolds_and_service",
+      "role": "capacity",
+      "why_it_matters": "High-density AI racks push beyond traditional air-cooling assumptions. Bottlenecks may hide in cold plates, coolant distribution units, pumps, manifolds, quick-disconnects, facility water loops, leak detection, and maintenance procedures."
+    },
+    {
+      "bottleneck_score": 84,
+      "node": "rack_power_conversion_vrm_power_modules_and_busbars",
+      "role": "input",
+      "why_it_matters": "Higher rack densities increase the value of efficient power conversion from grid voltage to board-level accelerator power. Underfollowed suppliers may sit in power modules, busbars, connectors, power shelves, and high-density conversion architectures."
+    },
+    {
+      "bottleneck_score": 86,
+      "node": "switchgear_ups_pdus_and_datacenter_electrical_distribution",
+      "role": "equipment",
+      "why_it_matters": "AI campuses need reliable medium-voltage and low-voltage distribution. Bottleneck value may sit in switchgear, breakers, UPS, PDUs, control panels, protection relays, and electrical systems integrators rather than only utilities or chip suppliers."
+    },
+    {
+      "bottleneck_score": 95,
+      "node": "utility_interconnection_queue_and_permitting",
+      "role": "regulation",
+      "why_it_matters": "Grid connection, studies, restudies, cost allocation, local opposition, environmental approval, and utility tariffs can delay usable AI capacity even after chips and buildings are available."
+    },
+    {
+      "bottleneck_score": 94,
+      "node": "large_power_transformers_and_high_voltage_equipment",
+      "role": "equipment",
+      "why_it_matters": "Transformer and high-voltage equipment lead times can exceed data-center shell construction timelines. Scarcity can hide in qualified transformer makers, bushings, cores, copper, steel, testing, logistics, and utility-approved supplier lists."
+    },
+    {
+      "bottleneck_score": 88,
+      "node": "onsite_power_generation_microgrids_gas_turbines_fuel_cells_and_storage",
+      "role": "capacity",
+      "why_it_matters": "When grid interconnection is slow, AI data-center developers may use onsite generation, behind-the-meter power, batteries, microgrids, or dedicated PPAs. This shifts bottlenecks toward turbines, engines, fuel supply, emissions permits, grid protection, and project finance."
+    },
+    {
+      "bottleneck_score": 74,
+      "node": "construction_epc_commissioning_and_critical_facility_operations",
+      "role": "capacity",
+      "why_it_matters": "AI data centers require scarce construction labor, electrical engineers, commissioning specialists, liquid-cooling technicians, and operations procedures. This is a lower-attention service bottleneck with potential pricing power during buildout waves."
+    },
+    {
+      "bottleneck_score": 70,
+      "node": "software_orchestration_cluster_scheduling_and_power_aware_operations",
+      "role": "customer",
+      "why_it_matters": "As physical bottlenecks intensify, software that improves GPU utilization, workload placement, cooling efficiency, power flexibility, and failure recovery can unlock capacity without new grid or chip supply."
+    }
+  ],
+  "theme_id": "ai_infrastructure_supply_chain"
+}
