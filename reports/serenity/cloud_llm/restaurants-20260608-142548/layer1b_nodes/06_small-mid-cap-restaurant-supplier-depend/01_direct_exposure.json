@@ -1,0 +1,212 @@
+{
+  "candidates": [
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "GEN Restaurant Group, Inc.",
+      "confidence": 0.86,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Whether Sysco purchasing terms, Pacific Global Distribution purchases, and food-and-beverage cost ratios are improving or deteriorating as new units open.",
+      "market_cap_bucket": "micro_cap",
+      "market_cap_filter_note": "below_300m_exception",
+      "next_evidence": "Pull latest GENK 10-K/10-Q; extract food and beverage costs as percentage of revenue, purchases from Sysco, purchases from Pacific Global Distribution, related-party footnotes, and any supplier agreement term changes.",
+      "node_relation": "Direct restaurant operator with disclosed reliance on Sysco for a significant portion of food products and disclosed reliance on Pacific Global Distribution, a related-party-linked supplier.",
+      "sector_or_industry": "Restaurants / Korean BBQ casual dining",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "related_party",
+        "evidence_needed"
+      ],
+      "theme_relation": "Restaurant unit economics may be unusually sensitive to distributor economics, food-cost inflation, supplier terms, and governance risk around related-party procurement.",
+      "ticker": "GENK",
+      "why_include": "GENK is the most direct fit for the node: restaurant-level growth depends on scaling procurement, and filings disclose both a material food distributor relationship and a related-party procurement angle.",
+      "why_underfollowed": "Very small public float/market cap, niche Korean BBQ concept, and messy restaurant-expansion story may obscure the procurement and related-party dimensions."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Nathan's Famous, Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether the majority-supplier dependencies create margin fragility during beef, potato, labor, freight, or contract repricing cycles.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "300m_to_1b",
+      "next_evidence": "Review latest 10-K supplier-risk language, gross margin by segment, branded product program volumes, licensing economics, and any named manufacturing/distribution counterparties.",
+      "node_relation": "Small-cap restaurant/brand operator with disclosed historical reliance on one supplier for the majority of hot dogs and another supplier for the majority of frozen crinkle-cut fries for the restaurant system.",
+      "sector_or_industry": "Restaurants / branded foodservice licensing",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "supplier_concentration",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "NATH is less a pure restaurant traffic story and more a branded product, licensing, and procurement-quality story where supplier reliability can affect both restaurants and foodservice distribution.",
+      "ticker": "NATH",
+      "why_include": "NATH directly matches the supplier-concentration screen and has a cleaner disclosed dependency than many restaurant operators.",
+      "why_underfollowed": "It is often categorized as a tiny legacy hot-dog brand rather than a foodservice procurement and branded-distribution platform."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Dine Brands Global, Inc.",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether centralized purchasing produces measurable restaurant-level margin support or whether franchisee health deteriorates despite procurement scale.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "300m_to_1b",
+      "next_evidence": "Compare franchisee disclosures, systemwide sales, commodity inflation commentary, CSCS-related purchasing rights, and any supplier certification or distribution changes in the latest 10-K.",
+      "node_relation": "Restaurant franchisor whose Applebee's and IHOP systems use Centralized Supply Chain Services as sole authorized purchasing organization and purchasing agent for U.S. goods, equipment, and distribution services.",
+      "sector_or_industry": "Restaurants / franchisor / casual and family dining",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "procurement_scale",
+        "franchise_system",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "DIN is a scaled procurement-efficiency case: the combined supply-chain requirements of Applebee's and IHOP may create cost savings, supplier compliance leverage, and operational consistency, but also concentrate procurement execution risk.",
+      "ticker": "DIN",
+      "why_include": "DIN provides a reference case for how a small-cap franchisor can use centralized procurement as part of the unit-economics story rather than relying only on brand traffic.",
+      "why_underfollowed": "Investor attention tends to focus on Applebee's traffic, IHOP comps, debt, and refranchising, while the purchasing-agent structure is a less visible operating lever."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Rave Restaurant Group, Inc.",
+      "confidence": 0.56,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Whether distributor agreements create royalty-like purchasing economics, margin protection, or hidden dependence on a small number of distributors.",
+      "market_cap_bucket": "micro_cap",
+      "market_cap_filter_note": "below_300m_exception",
+      "next_evidence": "Pull the latest RAVE 10-K directly from SEC; search for named distributors, purchasing rebates, supply-chain revenue, franchisee purchasing obligations, related-party vendors, and concentration disclosures.",
+      "node_relation": "Micro-cap franchisor that discloses facilitating food, equipment, and supply distribution to domestic and international restaurants through third-party distributor agreements.",
+      "sector_or_industry": "Restaurants / franchisor / pizza concepts",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "franchise_system",
+        "speculative_shadow",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potentially relevant as a tiny franchisor where distributor economics, supply-chain terms, and franchisee purchasing arrangements could influence system economics.",
+      "ticker": "RAVE",
+      "why_include": "RAVE fits the obscure public-company discovery lane, but the evidence currently shows distribution arrangements rather than a clearly material supplier concentration.",
+      "why_underfollowed": "Very small market cap, legacy Pizza Inn/Pie Five perception, and limited institutional coverage make it easy to miss if screening only larger restaurant chains."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "GENK's 10-K disclosure says the company relies on Sysco Los Angeles for a significant portion of food products and also relies on Pacific Global Distribution.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-03-10",
+      "source_title": "Form 10-K for GEN Restaurant Group INC filed 03/10/2025",
+      "source_url": "https://investor.genkoreanbbq.com/static-files/067c523d-a947-4f39-b76d-7a8568386d6a",
+      "ticker": "GENK"
+    },
+    {
+      "claim": "External supplier-mapping context states GENK entered a three-year Sysco Los Angeles purchase agreement in Q4 2023 and that Pacific Global Distribution purchases were related-party-linked through ownership by a director's family member.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "",
+      "source_title": "GENK Suppliers | Null Exposure",
+      "source_url": "https://www.nullexposure.com/suppliers/genk",
+      "ticker": "GENK"
+    },
+    {
+      "claim": "Nathan's Famous discloses that its hot dogs are primarily manufactured by Smithfield Foods and that it has historically relied on one supplier for most hot dogs and another for most frozen crinkle-cut fries for the restaurant system.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2024-06-12",
+      "source_title": "Nathan's Famous, Inc. - 10K - Annual Report - June 12, 2024",
+      "source_url": "https://fintel.io/doc/sec-nathans-famous-inc-69733-10k-2024-june-12-19886-1249",
+      "ticker": "NATH"
+    },
+    {
+      "claim": "Dine Brands discloses that CSCS is the sole authorized purchasing organization and purchasing agent for goods, equipment, and distribution services for Applebee's and IHOP restaurants in the United States.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-03-05",
+      "source_title": "Dine Brands Global, Inc. - 10K - Annual Report - March 5, 2025",
+      "source_url": "https://fintel.io/doc/sec-dine-brands-global-inc-49754-10k-2025-march-05-20152-1254",
+      "ticker": "DIN"
+    },
+    {
+      "claim": "Rave Restaurant Group discloses that it facilitates food, equipment, and supply distribution to its domestic and international restaurant system through agreements with third-party distributors.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2024-09-26",
+      "source_title": "Rave Restaurant Group, Inc. - 10K - Annual Report - September 26, 2024",
+      "source_url": "https://fintel.io/doc/sec-rave-restaurant-group-inc-718332-10k-2024-september-26-19992-8162",
+      "ticker": "RAVE"
+    },
+    {
+      "claim": "Current quote data observed on 2026-06-08 showed GENK with a market capitalization of approximately $10.2 million, making it a below-$300 million speculative exception.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance quote snapshot",
+      "source_url": "web.finance:GENK:2026-06-08",
+      "ticker": "GENK"
+    },
+    {
+      "claim": "Current quote data observed on 2026-06-08 showed NATH with a market capitalization of approximately $420 million, within the preferred $300 million to $1 billion discovery range.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance quote snapshot",
+      "source_url": "web.finance:NATH:2026-06-08",
+      "ticker": "NATH"
+    },
+    {
+      "claim": "Current quote data observed on 2026-06-08 showed DIN with a market capitalization of approximately $372 million, within the preferred $300 million to $1 billion discovery range.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance quote snapshot",
+      "source_url": "web.finance:DIN:2026-06-08",
+      "ticker": "DIN"
+    },
+    {
+      "claim": "Current quote data observed on 2026-06-08 showed RAVE with a market capitalization of approximately $42 million, making it a below-$300 million speculative exception.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance quote snapshot",
+      "source_url": "web.finance:RAVE:2026-06-08",
+      "ticker": "RAVE"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.84,
+      "text": "GENK should remain a high-priority Layer 2 diligence target for this node because it combines restaurant expansion, named distributor reliance, and related-party procurement risk.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "NATH is a clean small-cap supplier-concentration case tied to hot dogs and fries; it may be better mapped as branded foodservice plus restaurant procurement rather than a simple QSR operator.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "Centralized purchasing organizations and sole purchasing-agent structures can convert a restaurant brand thesis into a procurement-scale thesis, as seen in DIN's CSCS disclosure.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.58,
+      "text": "RAVE remains weakly evidenced: verify whether third-party distributor agreements are economically material or merely standard franchisor operating infrastructure before advancing beyond Layer 1.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Small/mid-cap restaurant operators with supplier concentration or related-party procurement",
+  "node_id": "small_mid_cap_restaurant_supplier_dependency",
+  "summary": "Layer 1B expands the universe around restaurant operators where procurement structure, supplier concentration, distribution agreements, or related-party vendors may matter as much as brand-level traffic. The strongest direct underfollowed lead is GENK because filings disclose both a major Sysco relationship and a related-party supplier. NATH is a cleaner small-cap procurement-concentration case around hot dogs and fries. DIN is a larger small-cap reference/underfollowed hybrid because its purchasing organization structure makes supply-chain scale a key part of the thesis. RAVE is a micro-cap speculative shadow candidate: relevant because it discloses third-party distribution arrangements, but current evidence is weaker and needs direct 10-K verification.",
+  "theme_id": "restaurants"
+}

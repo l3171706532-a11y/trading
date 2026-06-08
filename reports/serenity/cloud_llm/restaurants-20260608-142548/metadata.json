@@ -1,0 +1,1554 @@
+{
+  "args": {
+    "limit_themes": 1,
+    "max_briefs": 8,
+    "max_candidates": 60,
+    "max_candidates_per_node": 15,
+    "max_deep_reports": 3,
+    "max_layer1_nodes": 6,
+    "theme_id": [
+      "restaurants"
+    ],
+    "themes": "config/serenity_themes.csv",
+    "universe": "config/us_serenity_pilot_universe.csv"
+  },
+  "external_search": {
+    "enabled": true,
+    "error_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_errors.jsonl",
+    "evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+    "max_queries": 5,
+    "max_results_per_query": 4,
+    "twitter_enabled": true
+  },
+  "layer1a": {
+    "coverage_gaps": [
+      "Need a verified public-company universe by node, including market cap, exchange, analyst coverage, and foodservice revenue purity.",
+      "Need primary-source filing checks for named restaurant operators and suppliers; current evidence includes secondary sources and snippets rather than full 10-K verification.",
+      "Need to distinguish private suppliers from investable public suppliers; Ventura Foods and Golden State Foods appear relevant but may not be public-market candidates.",
+      "Need updated commodity input analysis for potatoes, coffee, edible oils, dairy, resin, paper, beef, chicken, and wage/labor costs.",
+      "Need to verify whether distribution agreements are exclusive, material, cancellable, or ordinary-course procurement relationships.",
+      "Need to compare restaurant demand exposure versus grocery/retail exposure for upstream suppliers to avoid false theme mapping.",
+      "Need market-pricing checks: valuation, short interest, revisions, margin expectations, and whether the supplier story is already obvious."
+    ],
+    "evidence": [
+      {
+        "claim": "The supplied external search context states that French fries generate an average restaurant-level contribution margin of 81%, and argues that restaurants pay for consistency and logistics reliability in fry sourcing.",
+        "claim_type": "fact",
+        "confidence": 0.72,
+        "published_at": "2026-03-10T07:49:55.000Z",
+        "source_title": "The French Fry Coup - Global Markets by Karim Al-Mansour",
+        "source_url": "https://karimalmansour.substack.com/p/the-french-fry-coup",
+        "ticker": ""
+      },
+      {
+        "claim": "The supplied external search context states that Lamb Weston has maintained relationships with McDonald's and Yum Brands, and that McDonald's represents 15% of annual revenue.",
+        "claim_type": "fact",
+        "confidence": 0.7,
+        "published_at": "2026-03-10T07:49:55.000Z",
+        "source_title": "The French Fry Coup - Global Markets by Karim Al-Mansour",
+        "source_url": "https://karimalmansour.substack.com/p/the-french-fry-coup",
+        "ticker": "LW"
+      },
+      {
+        "claim": "The supplied external search context identifies Ventura Foods as a $3B supplier of oils, sauces, dressings, condiments, mayonnaise, margarine, butter blends, dry seasonings, and mixes to top restaurant chains and food distributors.",
+        "claim_type": "fact",
+        "confidence": 0.82,
+        "published_at": "2026-04-13T00:00:00.000Z",
+        "source_title": "Ventura Foods Dials up Flavor to Fuel Growth at $3 Billion Supplier - Orange County Business Journal",
+        "source_url": "https://www.ocbj.com/food/ventura-foods-dials-up-flavor-to-fuel-growth-at-3-billion-supplier/",
+        "ticker": ""
+      },
+      {
+        "claim": "The supplied external search context states that Ventura Foods' biggest client is Sysco, described as the largest U.S. food distributor with $81.4B in annual revenue, and that Ventura makes Sysco-branded products.",
+        "claim_type": "fact",
+        "confidence": 0.78,
+        "published_at": "2026-04-13T00:00:00.000Z",
+        "source_title": "Ventura Foods Dials up Flavor to Fuel Growth at $3 Billion Supplier - Orange County Business Journal",
+        "source_url": "https://www.ocbj.com/food/ventura-foods-dials-up-flavor-to-fuel-growth-at-3-billion-supplier/",
+        "ticker": "SYY"
+      },
+      {
+        "claim": "The supplied external search context states that GEN Restaurant Group entered a three-year purchase agreement with Sysco Los Angeles in Q4 2023 for certain food products.",
+        "claim_type": "fact",
+        "confidence": 0.7,
+        "published_at": "",
+        "source_title": "GENK Suppliers | Null Exposure",
+        "source_url": "https://www.nullexposure.com/suppliers/genk",
+        "ticker": "GENK"
+      },
+      {
+        "claim": "The supplied external search context states that US Foods provided certain food products to GENK and in 2023 accounted for approximately 36.0% of total food and beverage costs.",
+        "claim_type": "fact",
+        "confidence": 0.68,
+        "published_at": "",
+        "source_title": "GENK Suppliers | Null Exposure",
+        "source_url": "https://www.nullexposure.com/suppliers/genk",
+        "ticker": "GENK"
+      },
+      {
+        "claim": "The supplied external search context states that GENK relied on Pacific Global Distribution for restaurant supplies such as tableware, napkins, soda, and sauces, and that PGD is owned by a director's family member.",
+        "claim_type": "fact",
+        "confidence": 0.67,
+        "published_at": "",
+        "source_title": "GENK Suppliers | Null Exposure",
+        "source_url": "https://www.nullexposure.com/suppliers/genk",
+        "ticker": "GENK"
+      },
+      {
+        "claim": "The supplied external search context describes Westrock Coffee as an integrated coffee, tea, and extract solutions provider serving retailers, foodservice operators, and consumer brands.",
+        "claim_type": "fact",
+        "confidence": 0.74,
+        "published_at": "2026-04-16T07:32:07.000Z",
+        "source_title": "Long Term Value Investor Analysis of Westrock Coffee Company – WEST – Save Invest Compound",
+        "source_url": "https://saveinvestcompound.com/long-term-value-investor-analysis-of-westrock-coffee-company-west/",
+        "ticker": "WEST"
+      },
+      {
+        "claim": "The supplied external search context states that Westrock Coffee has rapid revenue growth but negative margins and cash flow, with heavy debt and capital intensity.",
+        "claim_type": "fact",
+        "confidence": 0.68,
+        "published_at": "2026-04-16T07:32:07.000Z",
+        "source_title": "Long Term Value Investor Analysis of Westrock Coffee Company – WEST – Save Invest Compound",
+        "source_url": "https://saveinvestcompound.com/long-term-value-investor-analysis-of-westrock-coffee-company-west/",
+        "ticker": "WEST"
+      }
+    ],
+    "layer": "1A",
+    "memory_update": [
+      {
+        "confidence": 0.86,
+        "text": "Restaurants theme should be researched as a chain of operational dependencies: restaurant demand -> menu consistency -> approved suppliers -> distributors -> commodity/input constraints -> restaurant-level margin sensitivity.",
+        "type": "theme_relation"
+      },
+      {
+        "confidence": 0.78,
+        "text": "Frozen potato products and fries are a priority node because major QSR systems may face high switching costs around signature fry consistency and logistics reliability.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.82,
+        "text": "Sauces, oils, dressings, condiments, and seasonings are an underfollowed restaurant supply-chain node, often hidden behind private-label restaurant and distributor brands.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.8,
+        "text": "Broadline foodservice distributors can act as chokepoints or information sources for small/mid-cap restaurant supplier dependency.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.72,
+        "text": "B2B coffee, tea, extract, and private-label beverage platforms are a speculative restaurant-adjacent discovery lane with possible growth but meaningful commodity, leverage, and execution risks.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.9,
+        "text": "Next layer should build a public-company universe across frozen potato suppliers, specialty foodservice inputs, distributors, B2B coffee/extract providers, packaging/disposables, and small/mid-cap restaurant operators with named supplier disclosures.",
+        "type": "coverage_gap"
+      }
+    ],
+    "summary": "Layer 1A decomposes the broad Restaurants theme into supply-chain chokepoints rather than starting with restaurant tickers. The most useful discovery lanes appear to be: 1) high-margin, operationally critical menu inputs such as frozen fries, sauces, dressings, oils, coffee, and private-label beverage systems; 2) distributors and contracted procurement relationships that influence restaurant-level margins and availability; 3) underfollowed B2B suppliers hidden behind branded restaurant chains, franchise systems, and broadline distributors; and 4) small/mid-cap restaurant operators where supplier concentration or food-cost sensitivity can reveal second-order exposure. This is an initial decomposition using the supplied external search context and cached Serenity methodology; later layers should verify filings, customer concentration, contracts, gross-margin sensitivity, capacity utilization, analyst coverage, and market cap.",
+    "supply_chain_nodes": [
+      {
+        "bottleneck_hypothesis": "A small number of scaled frozen potato suppliers may hold durable operational leverage with major QSR systems because switching risks menu inconsistency and supply disruption.",
+        "claim_type": "hypothesis",
+        "confidence": 0.78,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Look for USD 300M-10B suppliers with concentrated QSR exposure, operational leverage, or temporarily depressed margins. Larger suppliers can serve as reference leaders if exposure is unusually pure.",
+        "node": "Frozen potato products and French fry supply",
+        "node_id": "frozen_potato_fries",
+        "public_asset_hunting_notes": "Start with public frozen potato processors and then map customer concentration, QSR exposure, capacity utilization, potato crop/geographic exposure, plant automation, and whether any volume losses were self-inflicted or cyclical.",
+        "role": "input",
+        "search_queries": [
+          "\"frozen potato products\" \"customer concentration\" \"10-K\"",
+          "\"French fries\" \"McDonald's\" supplier public company",
+          "\"frozen potato\" \"Yum Brands\" supplier",
+          "\"potato processing\" \"foodservice\" public company"
+        ],
+        "underfollowed_angle": "This node may be overlooked when investors focus on restaurant traffic and same-store sales rather than upstream inputs that protect signature menu consistency.",
+        "why_it_matters": "Fries are a high-volume, brand-defining menu item for many quick-service restaurants. Consistency, logistics reliability, and multi-location availability can matter more than spot input cost."
+      },
+      {
+        "bottleneck_hypothesis": "Scaled suppliers that can customize products, meet food-safety requirements, and serve top restaurant chains may be hidden beneficiaries of restaurant menu innovation and private-label expansion.",
+        "claim_type": "hypothesis",
+        "confidence": 0.82,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Search across specialty ingredients, packaged foods, co-manufacturing, and foodservice labels. Do not limit the screen to GICS restaurant or distributor categories.",
+        "node": "Sauces, oils, dressings, condiments, mayonnaise, butter blends, and seasonings",
+        "node_id": "sauces_oils_dressings_condiments",
+        "public_asset_hunting_notes": "Map private and public suppliers serving top chains and distributors. For public candidates, screen filings for foodservice segment exposure, private-label manufacturing, customer concentration, co-manufacturing capacity, and margin sensitivity to oils and dairy inputs.",
+        "role": "input",
+        "search_queries": [
+          "\"foodservice\" sauces dressings condiments \"public company\"",
+          "\"private label\" \"Sysco\" dressings manufacturer",
+          "\"restaurant chains\" \"sauces\" \"supplier\" \"10-K\"",
+          "\"oils dressings sauces\" \"foodservice\" supplier"
+        ],
+        "underfollowed_angle": "Many flavor and condiment suppliers sit behind distributor brands or restaurant private-label programs, so the end consumer rarely sees the supplier name.",
+        "why_it_matters": "Flavor systems are low-visibility but operationally critical for restaurant differentiation, private-label programs, and menu consistency across chains and franchisees."
+      },
+      {
+        "bottleneck_hypothesis": "Supplier and distributor agreements can quietly determine restaurant food-cost structure, reliability, and operating flexibility; public restaurant filings may reveal material supplier dependence before the market prices it.",
+        "claim_type": "hypothesis",
+        "confidence": 0.8,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Useful for both large-cap reference distributors and small-cap restaurant operators. For small-cap restaurants, mark this as risk or upside depending on purchasing scale, pricing terms, and alternative suppliers.",
+        "node": "Broadline distributors and contracted restaurant procurement",
+        "node_id": "broadline_distribution_procurement",
+        "public_asset_hunting_notes": "Screen small/mid-cap restaurant 10-Ks for distributor agreements, percentage of food and beverage costs routed through Sysco or US Foods, minimum purchase commitments, and termination risk.",
+        "role": "distribution",
+        "search_queries": [
+          "\"entered into\" \"purchase agreement\" \"Sysco\" restaurant \"10-K\"",
+          "\"US Foods\" \"food and beverage costs\" restaurant \"10-K\"",
+          "\"material supplier\" \"Sysco\" \"restaurant\"",
+          "\"food distributor\" \"supplier concentration\" restaurant public company"
+        ],
+        "underfollowed_angle": "The hidden opportunity may be not only in the distributors themselves, but in restaurant operators whose margins are unusually exposed to a single distributor contract.",
+        "why_it_matters": "Distributors such as broadline foodservice providers can become the practical gatekeepers for restaurant supply, especially for smaller chains that lack direct procurement scale."
+      },
+      {
+        "bottleneck_hypothesis": "Integrated coffee and extract suppliers may benefit from private-label and foodservice demand, but the node is exposed to commodity cost volatility, debt, and execution risk.",
+        "claim_type": "hypothesis",
+        "confidence": 0.72,
+        "discovery_lane": "speculative_shadow",
+        "market_cap_hunting_notes": "Small/mid-cap names may offer pure exposure but require strict balance-sheet and cash-flow screening. Treat unprofitable growth platforms as high-risk until profitability inflects.",
+        "node": "B2B coffee, tea, extracts, and private-label beverage solutions",
+        "node_id": "b2b_coffee_tea_extract_solutions",
+        "public_asset_hunting_notes": "Look for public companies with B2B foodservice coffee/extract exposure rather than consumer coffee brands only. Verify customer mix, capex intensity, leverage, hedging, and whether gross margin expands with scale.",
+        "role": "input",
+        "search_queries": [
+          "\"coffee extract solutions\" \"foodservice\" public company",
+          "\"private label coffee\" \"restaurant\" supplier public",
+          "\"B2B coffee\" \"10-K\" foodservice",
+          "\"coffee\" \"commodity volatility\" \"gross margin\" \"10-K\""
+        ],
+        "underfollowed_angle": "Coffee supply-chain platforms may be misclassified as consumer staples or commodity processors even when their real value proposition is customized B2B supply-chain service.",
+        "why_it_matters": "Coffee and beverage platforms serve restaurants, retailers, and consumer brands while supporting customization, private-label margin capture, and supply-chain traceability."
+      },
+      {
+        "bottleneck_hypothesis": "Packaging and disposables suppliers may become second-order beneficiaries if delivery, takeout, catering, and multi-unit fast-casual formats grow, but the node requires proof of pricing power because many products are commoditized.",
+        "claim_type": "hypothesis",
+        "confidence": 0.66,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Favor niche packaging suppliers with foodservice-specific SKUs, regulatory compliance, or customer qualification over generic commodity packaging businesses.",
+        "node": "Restaurant supplies, packaging, tableware, napkins, cups, and disposables",
+        "node_id": "restaurant_supplies_packaging_disposables",
+        "public_asset_hunting_notes": "Map public packaging and disposables companies to restaurant/end-market exposure, resin or paper input sensitivity, sustainability regulation, customer concentration, and distributor-channel dependence.",
+        "role": "input",
+        "search_queries": [
+          "\"restaurant supplies\" \"tableware\" \"napkins\" public company",
+          "\"foodservice packaging\" \"customer concentration\" \"10-K\"",
+          "\"disposables\" \"restaurant\" \"delivery\" supplier public",
+          "\"packaging\" \"quick service restaurant\" \"10-K\""
+        ],
+        "underfollowed_angle": "This lane is often hidden inside packaging, paper, resin, or industrial distributor classifications instead of restaurant supply-chain screens.",
+        "why_it_matters": "Non-food supplies are necessary for restaurant operations and delivery/takeout execution, but they often receive less attention than food inputs or labor costs."
+      },
+      {
+        "bottleneck_hypothesis": "Some obscure restaurant equities may be better understood as procurement and unit-economics stories than brand stories; supplier concentration can either create purchasing efficiency or expose margin fragility.",
+        "claim_type": "hypothesis",
+        "confidence": 0.76,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Focus on USD 300M-10B restaurant operators first; micro-caps only if disclosure is unusually clean. Treat related-party procurement as a governance risk until independently verified.",
+        "node": "Small/mid-cap restaurant operators with supplier concentration or related-party procurement",
+        "node_id": "small_mid_cap_restaurant_supplier_dependency",
+        "public_asset_hunting_notes": "Screen small/mid-cap restaurant filings for named suppliers, distributor agreements, percentage of food costs from top suppliers, related-party vendors, and changes in food and beverage cost ratios.",
+        "role": "customer",
+        "search_queries": [
+          "\"restaurant\" \"related party\" supplier \"10-K\"",
+          "\"restaurant\" \"supplier concentration\" \"food and beverage costs\"",
+          "\"restaurant group\" \"Sysco\" \"purchase agreement\"",
+          "\"small cap restaurant\" \"material supplier\""
+        ],
+        "underfollowed_angle": "A restaurant company with limited sell-side coverage may disclose supplier relationships that point to overlooked public or private upstream beneficiaries.",
+        "why_it_matters": "Restaurant operators themselves can reveal hidden upstream dependencies. Supplier concentration, related-party vendors, and multi-year distributor agreements can materially affect gross margin, governance risk, and scalability."
+      }
+    ],
+    "theme_id": "restaurants_foodservice_franchise_delivery_coffee_fast_casual_2026_06_08",
+    "theme_map": {
+      "demand_drivers": [
+        "Quick-service and fast-casual operators need consistent high-volume inputs to protect menu consistency, franchise execution, and brand reputation.",
+        "Restaurants continue to use high-margin add-ons and signature items such as fries, sauces, dressings, coffee, beverages, and condiments to support ticket size and contribution margin.",
+        "Franchise and multi-unit restaurant systems outsource complexity to suppliers that can meet scale, food-safety, logistics, private-label, and customization requirements.",
+        "Foodservice distributors aggregate restaurant demand and can create hidden supplier dependencies because smaller restaurant chains often buy through contracted distributor arrangements.",
+        "Coffee, tea, extracts, sauces, and private-label products can benefit from restaurant and retailer demand for differentiated flavor, customization, and margin control."
+      ],
+      "discovery_lanes": {
+        "low_attention_search_queries": [
+          "\"restaurant supplier concentration\" \"10-K\" \"Sysco\" small cap restaurant",
+          "\"foodservice\" \"private label\" sauces dressings oils public company",
+          "\"frozen potato\" \"customer concentration\" \"McDonald's\" \"10-K\"",
+          "\"coffee extract solutions\" foodservice private label public company",
+          "\"restaurant supplies\" tableware napkins sauces related party \"10-K\"",
+          "\"franchise\" \"approved supplier\" \"foodservice\" \"public company\"",
+          "\"broadline distributor\" \"purchase agreement\" restaurant \"10-K\"",
+          "\"restaurant\" \"food and beverage costs\" \"US Foods\" \"Sysco\""
+        ],
+        "reference_leaders": [
+          "McDonald's and other global QSR systems as demand anchors for signature menu inputs",
+          "Yum Brands portfolio as a demand anchor for fried-food and sauce-heavy menus",
+          "Subway, Burger King, Papa John's, and other top chains as demand anchors for sauces, oils, dressings, and condiments",
+          "Sysco and US Foods as foodservice distribution reference nodes",
+          "Large public restaurant operators and franchisors for comparable procurement and food-cost disclosure"
+        ],
+        "underfollowed_supply_chain": [
+          "Frozen potato processors and specialty potato input suppliers",
+          "Private-label sauces, dressings, oils, condiments, mayonnaise, butter blends, and seasoning manufacturers",
+          "B2B coffee, tea, extract, and private-label beverage suppliers",
+          "Restaurant-focused distributors and contracted procurement platforms",
+          "Packaging, tableware, napkins, cups, disposables, and restaurant supplies vendors",
+          "Small/mid-cap restaurant operators with supplier concentration, related-party procurement, or unusually high distributor dependence"
+        ]
+      },
+      "public_market_search_strategy": "Use a two-lane funnel. Lane 1 maps reference leaders such as major restaurant chains, franchise operators, broadline distributors, and obvious public foodservice suppliers to understand demand and procurement patterns. Lane 2 hunts for underfollowed public companies one or two steps upstream: frozen potato processors, sauces/oils/dressings suppliers, B2B coffee/extract platforms, restaurant-specific distributors, packaging/tableware suppliers, POS/delivery-enablement vendors, and small-cap restaurant operators with unusual supplier concentration. Prioritize filings over promotional materials: 10-K customer concentration, supplier concentration, purchase agreements, related-party suppliers, food-cost percentages, distributor contracts, capacity additions, commodity hedging, and segment gross margin.",
+      "supply_side_constraints": [
+        "Switching costs can be high when a supplier supports a signature product across thousands of restaurant locations.",
+        "Foodservice suppliers need consistency, logistics reliability, food-safety compliance, customer qualification, and scale capacity, which can limit easy substitution.",
+        "Commodity input volatility, especially in coffee, oils, potatoes, dairy, protein, and packaging, can pressure suppliers and restaurant operators if pricing pass-through lags.",
+        "Operationally leveraged food manufacturing can be vulnerable when volume falls or when management exits lower-margin customer relationships.",
+        "Distribution agreements can create concentration risk for restaurants and can also create volume visibility for broadline distributors or private-label suppliers."
+      ]
+    }
+  },
+  "metas": [
+    {
+      "created_at": "2026-06-08 14:28:39 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_07672171d8b021e9016a26d13d10f4819b848fc1099f9162e7",
+      "status": "completed",
+      "step": "layer1a_theme_map",
+      "usage": {
+        "input_tokens": 11324,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4926,
+        "output_tokens_details": {
+          "reasoning_tokens": 50
+        },
+        "total_tokens": 16250
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-08 14:33:10 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0c44e5cd64f67f51016a26d23ac944819095c0dab3298f6067",
+      "status": "completed",
+      "step": "layer1b_node_frozen_potato_fries_direct_exposure",
+      "usage": {
+        "input_tokens": 37304,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4689,
+        "output_tokens_details": {
+          "reasoning_tokens": 1779
+        },
+        "total_tokens": 41993
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 14:35:22 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_07a77668eebf6510016a26d2b52e7881968a1a5702f5f80e57",
+      "status": "completed",
+      "step": "layer1b_node_frozen_potato_fries_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 30665,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5011,
+        "output_tokens_details": {
+          "reasoning_tokens": 1564
+        },
+        "total_tokens": 35676
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 14:37:11 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_034e172be888e3db016a26d338ce048193b5977dd788c910aa",
+      "status": "completed",
+      "step": "layer1b_node_frozen_potato_fries_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 28033,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4299,
+        "output_tokens_details": {
+          "reasoning_tokens": 1092
+        },
+        "total_tokens": 32332
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 14:38:59 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_01dacccb86b98b37016a26d3a595e8819599c1d10c5d53fc5f",
+      "status": "completed",
+      "step": "layer1b_node_frozen_potato_fries_second_order_mapping",
+      "usage": {
+        "input_tokens": 30247,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4161,
+        "output_tokens_details": {
+          "reasoning_tokens": 1232
+        },
+        "total_tokens": 34408
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 14:41:18 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 24,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0831494e47effd65016a26d420c8c8819793ce4c9a53ff2f03",
+      "status": "completed",
+      "step": "layer1b_node_sauces_oils_dressings_condiments_direct_exposure",
+      "usage": {
+        "input_tokens": 40331,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4494,
+        "output_tokens_details": {
+          "reasoning_tokens": 997
+        },
+        "total_tokens": 44825
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 14:43:05 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 24,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_06ed7a6cf9930ad1016a26d49cfbe88198814a8f6f3b6fb75a",
+      "status": "completed",
+      "step": "layer1b_node_sauces_oils_dressings_condiments_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 23707,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4282,
+        "output_tokens_details": {
+          "reasoning_tokens": 982
+        },
+        "total_tokens": 27989
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 14:45:11 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 24,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0df1626f88c9d13b016a26d50752d0819a9a09912a889db224",
+      "status": "completed",
+      "step": "layer1b_node_sauces_oils_dressings_condiments_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 44179,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4880,
+        "output_tokens_details": {
+          "reasoning_tokens": 1671
+        },
+        "total_tokens": 49059
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 14:49:03 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 24,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0f7ce387e0d436a8016a26d6092fc4819b8d9c8cb56ff09ec0",
+      "status": "completed",
+      "step": "layer1b_node_sauces_oils_dressings_condiments_second_order_mapping",
+      "usage": {
+        "input_tokens": 23439,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4132,
+        "output_tokens_details": {
+          "reasoning_tokens": 1041
+        },
+        "total_tokens": 27571
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 14:51:05 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "message"
+      ],
+      "response_id": "resp_014749af8bc30e58016a26d67adb0081999e03b6932feb07aa",
+      "status": "completed",
+      "step": "layer1b_node_broadline_distribution_procurement_direct_exposure",
+      "usage": {
+        "input_tokens": 32809,
+        "input_tokens_details": {
+          "cached_tokens": 3712
+        },
+        "output_tokens": 4009,
+        "output_tokens_details": {
+          "reasoning_tokens": 1005
+        },
+        "total_tokens": 36818
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 14:52:41 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0b7dd32015197895016a26d6e81ac481988e1ebe0b7bc209f2",
+      "status": "completed",
+      "step": "layer1b_node_broadline_distribution_procurement_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 11474,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 3794,
+        "output_tokens_details": {
+          "reasoning_tokens": 1041
+        },
+        "total_tokens": 15268
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 14:54:05 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0be2e99a2ce22c89016a26d74726d88197ab60b87f5c9b5436",
+      "status": "completed",
+      "step": "layer1b_node_broadline_distribution_procurement_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 14683,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3522,
+        "output_tokens_details": {
+          "reasoning_tokens": 643
+        },
+        "total_tokens": 18205
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 14:55:44 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0a0ccf264f73a6e8016a26d79b2a1c8193896610f70b7d63dd",
+      "status": "completed",
+      "step": "layer1b_node_broadline_distribution_procurement_second_order_mapping",
+      "usage": {
+        "input_tokens": 30138,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3985,
+        "output_tokens_details": {
+          "reasoning_tokens": 979
+        },
+        "total_tokens": 34123
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 14:57:44 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_027466436c9a7fb5016a26d80d54d48194b0eff3d6a5255a61",
+      "status": "completed",
+      "step": "layer1b_node_b2b_coffee_tea_extract_solutions_direct_exposure",
+      "usage": {
+        "input_tokens": 23642,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4463,
+        "output_tokens_details": {
+          "reasoning_tokens": 588
+        },
+        "total_tokens": 28105
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 14:59:31 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_01a52639a9b8225a016a26d87658908196a06ead5230fc45e9",
+      "status": "completed",
+      "step": "layer1b_node_b2b_coffee_tea_extract_solutions_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 28685,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4422,
+        "output_tokens_details": {
+          "reasoning_tokens": 900
+        },
+        "total_tokens": 33107
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 15:02:33 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_06097580d35b7080016a26d8e1f73c8190bf539a7150784cb5",
+      "status": "completed",
+      "step": "layer1b_node_b2b_coffee_tea_extract_solutions_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 19765,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 8855,
+        "output_tokens_details": {
+          "reasoning_tokens": 6552
+        },
+        "total_tokens": 28620
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 15:04:34 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "web_search_call",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_00e3e676e334b310016a26d997cbf08193963a61a41e9e6e97",
+      "status": "completed",
+      "step": "layer1b_node_b2b_coffee_tea_extract_solutions_second_order_mapping",
+      "usage": {
+        "input_tokens": 29747,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4687,
+        "output_tokens_details": {
+          "reasoning_tokens": 1307
+        },
+        "total_tokens": 34434
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 15:06:52 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_098a684d8fd9c351016a26da1e83b08198970db14c02e08ae3",
+      "status": "completed",
+      "step": "layer1b_node_restaurant_supplies_packaging_disposables_direct_exposure",
+      "usage": {
+        "input_tokens": 35988,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4459,
+        "output_tokens_details": {
+          "reasoning_tokens": 1005
+        },
+        "total_tokens": 40447
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 15:09:08 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0d470d54447de46d016a26da99e2dc8194940ececcdcd40b0a",
+      "status": "completed",
+      "step": "layer1b_node_restaurant_supplies_packaging_disposables_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 45157,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4581,
+        "output_tokens_details": {
+          "reasoning_tokens": 1175
+        },
+        "total_tokens": 49738
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 15:11:01 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_00474526ece58a7c016a26db2245508190a9889f672cfc921f",
+      "status": "completed",
+      "step": "layer1b_node_restaurant_supplies_packaging_disposables_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 36041,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4706,
+        "output_tokens_details": {
+          "reasoning_tokens": 1291
+        },
+        "total_tokens": 40747
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 15:13:14 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_053809b3c1979974016a26db94c9348193a2aac86e8f6a6ec3",
+      "status": "completed",
+      "step": "layer1b_node_restaurant_supplies_packaging_disposables_second_order_mapping",
+      "usage": {
+        "input_tokens": 42260,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4274,
+        "output_tokens_details": {
+          "reasoning_tokens": 1145
+        },
+        "total_tokens": 46534
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 15:14:57 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 24,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0ac3f13f04d2ccb4016a26dc263c78819092560de898a559b8",
+      "status": "completed",
+      "step": "layer1b_node_small_mid_cap_restaurant_supplier_dependency_direct_exposure",
+      "usage": {
+        "input_tokens": 17158,
+        "input_tokens_details": {
+          "cached_tokens": 3712
+        },
+        "output_tokens": 3898,
+        "output_tokens_details": {
+          "reasoning_tokens": 821
+        },
+        "total_tokens": 21056
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 15:15:58 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 24,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_09667705bcc67749016a26dc7f320081968d7164264da59598",
+      "status": "completed",
+      "step": "layer1b_node_small_mid_cap_restaurant_supplier_dependency_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 9991,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 2520,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 12511
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-08 15:17:46 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 24,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_065353c9006d177b016a26dcbc0a548196a5291bb1b61fe062",
+      "status": "completed",
+      "step": "layer1b_node_small_mid_cap_restaurant_supplier_dependency_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 50318,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4407,
+        "output_tokens_details": {
+          "reasoning_tokens": 1524
+        },
+        "total_tokens": 54725
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 15:19:27 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 24,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0af18e67be2504ef016a26dd2993f081969ccf7182b53a1205",
+      "status": "completed",
+      "step": "layer1b_node_small_mid_cap_restaurant_supplier_dependency_second_order_mapping",
+      "usage": {
+        "input_tokens": 11163,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3847,
+        "output_tokens_details": {
+          "reasoning_tokens": 855
+        },
+        "total_tokens": 15010
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 15:22:38 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0a3d604cc17c7f90016a26ddb441288197a8e4a48b484cff2d",
+      "status": "completed",
+      "step": "layer1c_merge_universe",
+      "usage": {
+        "input_tokens": 15509,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 7404,
+        "output_tokens_details": {
+          "reasoning_tokens": 113
+        },
+        "total_tokens": 22913
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-08 15:24:53 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0bbbb54869259346016a26de672f7c81978f94a227eff308a4",
+      "status": "completed",
+      "step": "layer2a_map",
+      "usage": {
+        "input_tokens": 13636,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5113,
+        "output_tokens_details": {
+          "reasoning_tokens": 78
+        },
+        "total_tokens": 18749
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-08 15:26:24 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0ceeeeb3a63c509a016a26ded3d844819b8fac1880f093e882",
+      "status": "completed",
+      "step": "layer2b_relationships_01",
+      "usage": {
+        "input_tokens": 13981,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4165,
+        "output_tokens_details": {
+          "reasoning_tokens": 65
+        },
+        "total_tokens": 18146
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-08 15:27:34 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0ea96c25c5a52954016a26df2ec9488195ad24c9af2a0c2af1",
+      "status": "completed",
+      "step": "layer2b_relationships_02",
+      "usage": {
+        "input_tokens": 11623,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 2989,
+        "output_tokens_details": {
+          "reasoning_tokens": 112
+        },
+        "total_tokens": 14612
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-08 15:29:49 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0353f143edc9d0b7016a26df95676c8197986b6371341f92c4",
+      "status": "completed",
+      "step": "layer3_ranking_01",
+      "usage": {
+        "input_tokens": 14529,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4779,
+        "output_tokens_details": {
+          "reasoning_tokens": 86
+        },
+        "total_tokens": 19308
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-08 15:32:02 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0acb76917948ec46016a26e026e434819983dfa008fad9d4c9",
+      "status": "completed",
+      "step": "layer4_briefs_01",
+      "usage": {
+        "input_tokens": 10229,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4131,
+        "output_tokens_details": {
+          "reasoning_tokens": 47
+        },
+        "total_tokens": 14360
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-08 15:33:51 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0d6764ab5ba0d050016a26e09293088198ab093a6aedd79e5d",
+      "status": "completed",
+      "step": "layer4_briefs_02",
+      "usage": {
+        "input_tokens": 10157,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4076,
+        "output_tokens_details": {
+          "reasoning_tokens": 82
+        },
+        "total_tokens": 14233
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-08 15:35:50 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_012212cbdd2d8d7d016a26e0ed4c04819891138057995f87ca",
+      "status": "completed",
+      "step": "layer5_deep_report_01",
+      "usage": {
+        "input_tokens": 43500,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5268,
+        "output_tokens_details": {
+          "reasoning_tokens": 527
+        },
+        "total_tokens": 48768
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 15:37:35 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "web_search_call",
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_091ad201dc716f99016a26e1651908819bbd89a28a6caaf19d",
+      "status": "completed",
+      "step": "layer5_deep_report_02",
+      "usage": {
+        "input_tokens": 38094,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4347,
+        "output_tokens_details": {
+          "reasoning_tokens": 508
+        },
+        "total_tokens": 42441
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": true
+    },
+    {
+      "created_at": "2026-06-08 15:38:55 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/restaurants-20260608-142548/search_evidence.jsonl",
+      "external_search_rows": 25,
+      "model": "gpt-5.5",
+      "output_types": [
+        "reasoning",
+        "message"
+      ],
+      "response_id": "resp_0df5a3a1d7d069cc016a26e1ccaeec819398dfe7e70fd0b4d1",
+      "status": "completed",
+      "step": "layer5_deep_report_03",
+      "usage": {
+        "input_tokens": 10000,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3477,
+        "output_tokens_details": {
+          "reasoning_tokens": 62
+        },
+        "total_tokens": 13477
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    }
+  ],
+  "theme": {
+    "name": "Restaurants",
+    "query": "restaurants food service franchise delivery coffee fast casual dining underfollowed small mid cap obscure suppliers second order beneficiaries hidden customer supplier dependency low analyst coverage",
+    "theme_id": "restaurants"
+  }
+}

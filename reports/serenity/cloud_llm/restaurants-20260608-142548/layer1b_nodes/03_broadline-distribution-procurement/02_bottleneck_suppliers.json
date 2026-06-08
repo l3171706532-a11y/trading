@@ -1,0 +1,201 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Sysco Corp.",
+      "confidence": 0.9,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Look for restaurant 10-K language disclosing percentage of food and beverage cost routed through Sysco, minimum purchase obligations, termination rights, and distributor switching constraints.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Pull Sysco 10-K customer concentration disclosures, restaurant operator 10-K supplier-risk language, and private-label supplier references such as Ventura Foods.",
+      "node_relation": "Primary broadline distributor and procurement gatekeeper for restaurants, foodservice operators, hospitality, healthcare, and institutional customers.",
+      "sector_or_industry": "Foodservice distribution / broadline distributor",
+      "serenity_tags": [
+        "supply_chain",
+        "distribution",
+        "bottleneck",
+        "reference",
+        "evidence_needed"
+      ],
+      "theme_relation": "Restaurants depend on Sysco-like broadline distributors for product availability, logistics reliability, private-label inputs, and purchasing scale.",
+      "ticker": "SYY",
+      "why_include": "Sysco is the obvious benchmark for the node. External context states Ventura Foods identifies Sysco as its biggest client and says it manufactures Sysco-branded products that flow into restaurant back-of-house kitchens.",
+      "why_underfollowed": "Not underfollowed as a stock, but useful as a context anchor for mapping hidden supplier dependencies and private-label manufacturing relationships one layer upstream."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "US Foods Holding Corp.",
+      "confidence": 0.85,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Identify public restaurant companies with high single-distributor concentration, especially where US Foods supplies more than 25%-30% of food and beverage costs.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Search small-cap restaurant filings for phrases including 'US Foods', 'food and beverage costs', 'primary distributor', 'material supplier', and 'purchase agreement'.",
+      "node_relation": "Major broadline foodservice distributor; potential supplier concentration point for smaller and emerging restaurant chains.",
+      "sector_or_industry": "Foodservice distribution / broadline distributor",
+      "serenity_tags": [
+        "supply_chain",
+        "distribution",
+        "bottleneck",
+        "reference",
+        "evidence_needed"
+      ],
+      "theme_relation": "US Foods can affect restaurant food-cost structure, substitution flexibility, service reliability, and procurement leverage.",
+      "ticker": "USFD",
+      "why_include": "External context reports that GEN Restaurant Group had US Foods provide certain food products and that US Foods accounted for about 36.0% of GENK's 2023 total food and beverage costs.",
+      "why_underfollowed": "US Foods itself is not obscure, but the underfollowed angle is discovering smaller restaurant operators whose margin structure is unusually exposed to USFD procurement terms."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "GEN Restaurant Group Inc.",
+      "confidence": 0.72,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Whether the Sysco agreement improves purchasing scale and margins or instead creates concentration, minimum-purchase, pricing, or termination risk.",
+      "market_cap_bucket": "micro_cap",
+      "market_cap_filter_note": "below_300m_exception",
+      "next_evidence": "Verify GENK FY2024 10-K supplier footnotes, the Sysco Los Angeles agreement terms, US Foods concentration decline or persistence, related-party PGD purchases, and food-cost margin trend.",
+      "node_relation": "Restaurant operator potentially exposed to distributor concentration and contracted procurement terms rather than a supplier itself.",
+      "sector_or_industry": "Restaurant operator / Korean barbecue casual dining",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "underfollowed",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "GENK is a candidate for hidden margin sensitivity: distributor agreements, related-party supply vendors, and concentration in food inputs may affect unit economics.",
+      "ticker": "GENK",
+      "why_include": "External context states GENK entered a three-year purchase agreement with Sysco Los Angeles in Q4 2023 and previously had US Foods account for about 36.0% of total food and beverage costs in 2023. It also reports purchases from Pacific Global Distribution, a related-party vendor.",
+      "why_underfollowed": "Very small public restaurant operator with supplier-risk clues likely buried in filings rather than highlighted in sector coverage."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Lamb Weston Holdings Inc.",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether restaurant-chain volume commitments, customer concentration, plant utilization, potato crop constraints, and distribution availability translate into pricing power or margin pressure.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check Lamb Weston 10-K customer concentration, capacity utilization, potato input-cost disclosures, chain exposure, contract-renewal commentary, and any customer exits or share shifts.",
+      "node_relation": "Contracted and operationally embedded food input supplier to quick-service restaurants; sits upstream of restaurant procurement and distribution decisions.",
+      "sector_or_industry": "Frozen potato products / restaurant food supplier",
+      "serenity_tags": [
+        "supply_chain",
+        "regulated_inputs",
+        "bottleneck",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Restaurant chains depend on consistent fry supply and product specifications; switching suppliers can create operational and brand-consistency risk.",
+      "ticker": "LW",
+      "why_include": "External context argues that fries are a high-contribution-margin restaurant item and that Lamb Weston has maintained sticky relationships with major chains including McDonald's and Yum Brands. This makes it a second-order procurement chokepoint candidate rather than a broadline distributor.",
+      "why_underfollowed": "Often classified as a packaged-food or agricultural processor rather than as a restaurant procurement bottleneck, so restaurant-margin sensitivity may be missed by screens focused only on restaurant tickers."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Ventura Foods describes Sysco as its biggest client and says it manufactures Sysco-branded products distributed to foodservice operators, including restaurants.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04-13",
+      "source_title": "Ventura Foods Dials up Flavor to Fuel Growth at $3 Billion Supplier - Orange County Business Journal",
+      "source_url": "https://www.ocbj.com/food/ventura-foods-dials-up-flavor-to-fuel-growth-at-3-billion-supplier/",
+      "ticker": "SYY"
+    },
+    {
+      "claim": "External search context reports GENK entered a three-year purchase agreement with Sysco Los Angeles in Q4 2023 for food products.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "",
+      "source_title": "GENK Suppliers | Null Exposure",
+      "source_url": "https://www.nullexposure.com/suppliers/genk",
+      "ticker": "GENK"
+    },
+    {
+      "claim": "External search context reports US Foods supplied certain food products to GENK and represented approximately 36.0% of GENK's 2023 total food and beverage costs.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "",
+      "source_title": "GENK Suppliers | Null Exposure",
+      "source_url": "https://www.nullexposure.com/suppliers/genk",
+      "ticker": "USFD"
+    },
+    {
+      "claim": "Lamb Weston may function as a second-order restaurant procurement chokepoint because the external context describes sticky relationships with McDonald's and Yum Brands and emphasizes the operational risk of disrupting fry supply.",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "published_at": "2026-03-10",
+      "source_title": "The French Fry Coup - Global Markets by Karim Al-Mansour",
+      "source_url": "https://karimalmansour.substack.com/p/the-french-fry-coup",
+      "ticker": "LW"
+    },
+    {
+      "claim": "As of June 8, 2026 intraday finance data, Sysco's market capitalization was approximately $36.9 billion.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance quote for SYY",
+      "source_url": "web_finance:turn0finance0",
+      "ticker": "SYY"
+    },
+    {
+      "claim": "As of June 8, 2026 intraday finance data, US Foods' market capitalization was approximately $19.3 billion.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance quote for USFD",
+      "source_url": "web_finance:turn0finance1",
+      "ticker": "USFD"
+    },
+    {
+      "claim": "As of June 8, 2026 finance data, GENK's market capitalization was approximately $10.2 million, making it a below-$300 million speculative exception.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance quote for GENK",
+      "source_url": "web_finance:turn0finance3",
+      "ticker": "GENK"
+    },
+    {
+      "claim": "As of June 8, 2026 intraday finance data, Lamb Weston's market capitalization was approximately $6.0 billion.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance quote for LW",
+      "source_url": "web_finance:turn0finance5",
+      "ticker": "LW"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.86,
+      "text": "SYY and USFD should be retained as reference anchors for the broadline distribution/procurement node, but not treated as the main underfollowed alpha lane.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.74,
+      "text": "GENK is a high-risk speculative shadow candidate where the investable signal is not distribution revenue, but supplier concentration and procurement-contract sensitivity inside restaurant unit economics.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "LW belongs in the second-order procurement lane because frozen potato supply may be operationally sticky for quick-service restaurant chains even if it is not a broadline-distributor pure play.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Next Layer 1C searches should systematically screen small and mid-cap restaurant 10-Ks for 'Sysco', 'US Foods', 'Performance Food Group', 'primary distributor', 'food and beverage costs', 'purchase agreement', and 'material supplier'.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Broadline distributors and contracted restaurant procurement",
+  "node_id": "broadline_distribution_procurement",
+  "summary": "Expanded the universe around broadline foodservice distribution and contracted restaurant procurement. The two-lane structure separates obvious reference distributors, which define the node economics, from underfollowed restaurant operators and input suppliers where procurement dependency may create hidden margin risk or second-order upside. Strongest direct node anchors are Sysco and US Foods. More underfollowed discovery candidates are GEN Restaurant Group, because filings reportedly disclose a material Sysco agreement and prior US Foods concentration, and Lamb Weston, because restaurant chains appear operationally dependent on consistent frozen-potato supply even where relationships are not purely contractual.",
+  "theme_id": "restaurants"
+}
