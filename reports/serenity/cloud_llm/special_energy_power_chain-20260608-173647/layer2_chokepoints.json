@@ -1,0 +1,1571 @@
+{
+  "catalysts": [
+    {
+      "affected_nodes": [
+        "ai_data_center_and_large_load_demand",
+        "medium_voltage_switchgear_and_power_control_rooms",
+        "distribution_and_large_power_transformers",
+        "qualified_electrical_construction_labor_and_commissioning",
+        "data_center_power_distribution_ups_backup_and_thermal_stack"
+      ],
+      "claim_type": "fact",
+      "description": "Hyperscaler and data-center capex translating into utility service requests, substation awards, medium-voltage switchgear orders, transformer procurement, backup generation, and electrical-construction backlog.",
+      "type": "capex"
+    },
+    {
+      "affected_nodes": [
+        "substations_and_grid_electrical_hardware",
+        "medium_voltage_switchgear_and_power_control_rooms",
+        "distribution_and_large_power_transformers",
+        "electrical_balance_of_system_conduit_raceway_cable_management"
+      ],
+      "claim_type": "inference",
+      "description": "Electrical equipment earnings releases showing order growth, backlog growth, book-to-bill, capacity expansion, and margin behavior can validate whether the bottleneck is converting into revenue rather than just narrative.",
+      "type": "earnings"
+    },
+    {
+      "affected_nodes": [
+        "distribution_and_large_power_transformers",
+        "utility_procurement_certification_and_standardization",
+        "utility_load_forecasting_and_resource_adequacy"
+      ],
+      "claim_type": "fact",
+      "description": "DOE reliability, transformer supply-chain, and grid-component standardization initiatives can accelerate or reshape procurement, especially for distribution transformers and utility equipment.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "grid_interconnection_queue_and_transmission_planning",
+        "power_market_capacity_auctions_and_cost_allocation",
+        "regulated_utility_and_independent_power_assets"
+      ],
+      "claim_type": "inference",
+      "description": "FERC, RTO/ISO, and state proceedings on large-load interconnection, transmission cost allocation, and capacity-market rules can change economics for data centers, utilities, generators, and ratepayers.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "nuclear_operating_assets_life_extensions_and_uprates",
+        "dispatchable_generation_gas_turbines_and_reciprocating_engines",
+        "regulated_utility_and_independent_power_assets",
+        "ai_data_center_and_large_load_demand"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Long-term power purchase agreements, behind-the-meter generation deals, nuclear-linked PPAs, or colocated generation contracts by hyperscalers would reprice scarce clean firm power and interconnection-ready assets.",
+      "type": "customer"
+    },
+    {
+      "affected_nodes": [
+        "data_center_power_distribution_ups_backup_and_thermal_stack",
+        "battery_energy_storage_and_grid_flexibility",
+        "electrical_balance_of_system_conduit_raceway_cable_management"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Adoption of high-voltage DC architectures, advanced UPS, liquid cooling, and flexible load controls could shift bottleneck value inside the data-center power stack from conventional AC distribution toward specialized power electronics and controls.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "dispatchable_generation_gas_turbines_and_reciprocating_engines",
+        "distribution_and_large_power_transformers",
+        "substations_and_grid_electrical_hardware",
+        "medium_voltage_switchgear_and_power_control_rooms"
+      ],
+      "claim_type": "fact",
+      "description": "Gas turbine slot reservations, power-equipment capacity additions, transformer factory expansions, and M&A for grid equipment suppliers can indicate which bottlenecks are severe enough to trigger industry investment.",
+      "type": "capex"
+    },
+    {
+      "affected_nodes": [
+        "nuclear_fuel_cycle_uranium_conversion_enrichment_haleu",
+        "nuclear_operating_assets_life_extensions_and_uprates"
+      ],
+      "claim_type": "fact",
+      "description": "DOE HALEU contracts, advanced-reactor fuel awards, enrichment licensing, and domestic fuel-cycle funding are catalysts for the nuclear fuel node; failure to scale would falsify part of the SMR/advanced-reactor supply-chain thesis.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "ai_data_center_and_large_load_demand",
+        "grid_interconnection_queue_and_transmission_planning",
+        "distribution_and_large_power_transformers",
+        "medium_voltage_switchgear_and_power_control_rooms"
+      ],
+      "claim_type": "fact",
+      "description": "Reports of data-center project delays, cancellations, or reprioritization caused by unavailable power, transformers, switchgear, batteries, or transmission access would confirm the critical-path nature of electrical infrastructure.",
+      "type": "news"
+    },
+    {
+      "affected_nodes": [
+        "qualified_electrical_construction_labor_and_commissioning",
+        "substations_and_grid_electrical_hardware",
+        "grid_interconnection_queue_and_transmission_planning"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Specialty electrical contractors reporting backlog growth specifically tied to data centers, substations, grid modernization, and commissioning would validate qualified labor as a bottleneck, not merely a pass-through construction theme.",
+      "type": "earnings"
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "IEA Electricity 2026 identifies AI, data centers, advanced manufacturing, and broad electrification as important drivers of rising electricity demand.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026",
+      "source_title": "IEA Electricity 2026 - Demand",
+      "source_url": "https://www.iea.org/reports/electricity-2026/demand",
+      "ticker": ""
+    },
+    {
+      "claim": "IEA Energy and AI states that global data-center investment nearly doubled since 2022 and reached about half a trillion dollars in 2024; it also notes that building new transmission lines can take four to eight years in advanced economies and that wait times for critical components such as transformers and cables have doubled in the past three years.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2025",
+      "source_title": "IEA Energy and AI - Executive Summary",
+      "source_url": "https://www.iea.org/reports/energy-and-ai/executive-summary%C2%A0",
+      "ticker": ""
+    },
+    {
+      "claim": "NERC's 2025 Long-Term Reliability Assessment highlights rising resource-adequacy risks as electricity demand grows from data centers, industrialization, electrification, and DER adoption.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-01",
+      "source_title": "NERC 2025 Long-Term Reliability Assessment",
+      "source_url": "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "DOE's supply-chain page states that distribution transformer lead times increased from three to six months in 2019 to 12 to 30 months in 2023, driven by supply, labor, and material constraints.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "DOE Supply Chain and Market Analysis",
+      "source_url": "https://www.energy.gov/oe/supply-chain-and-market-analysis",
+      "ticker": ""
+    },
+    {
+      "claim": "DOE's reliability materials describe federal efforts to identify at-risk regions and guide interventions as the grid faces explosive load growth from AI and reindustrialization.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026",
+      "source_title": "DOE Reliability",
+      "source_url": "https://www.energy.gov/topics/reliability",
+      "ticker": ""
+    },
+    {
+      "claim": "Eaton reported first-quarter 2026 record results, with 12-month rolling average order acceleration in Electrical Americas up 42%, driven by data-center momentum.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026",
+      "source_title": "Eaton Reports Record First Quarter 2026 Results",
+      "source_url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-first-quarter-2026-results.html",
+      "ticker": "ETN"
+    },
+    {
+      "claim": "Eaton's Q1 2026 analyst presentation reported total backlog growth of 44% in Electrical Americas and approximately 240% growth in Electrical Americas data-center orders.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026",
+      "source_title": "Eaton First Quarter 2026 Earnings Release / Analyst Presentation",
+      "source_url": "https://www.eaton.com/content/dam/eaton/company/investor-relations/quarterly-earnings/filings/2026/q1/q1-2026-analyst-presentation.pdf",
+      "ticker": "ETN"
+    },
+    {
+      "claim": "Powell Industries reported fiscal Q2 2026 backlog of $1.8 billion as of March 31, 2026, up 33%, and described ongoing data-center and AI-capacity growth as supportive for commercial and electric-utility end markets.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-05",
+      "source_title": "Powell Industries Announces Second Quarter Fiscal 2026 Results",
+      "source_url": "https://powellindustriesinc.gcs-web.com/news-releases/news-release-details/powell-industries-announces-second-quarter-fiscal-2026-results",
+      "ticker": "POWL"
+    },
+    {
+      "claim": "Powell's fiscal Q2 2026 8-K reported that after quarter end the company received a mega data-center order exceeding $400 million.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-05-04",
+      "source_title": "Powell Industries Form 8-K, Second Quarter Fiscal 2026 Results",
+      "source_url": "https://powellindustriesinc.gcs-web.com/static-files/519298b4-32ce-4837-b268-b6a6cb9ed36b",
+      "ticker": "POWL"
+    },
+    {
+      "claim": "GE Vernova's Q1 2026 release cited strong demand for grid equipment and noted completion of its acquisition of the remaining 50% stake in Prolec GE, a grid equipment supplier.",
+      "claim_type": "fact",
+      "confidence": 0.89,
+      "published_at": "2026-04-22",
+      "source_title": "GE Vernova Reports First Quarter 2026 Financial Results and Raises 2026 Guidance",
+      "source_url": "https://www.gevernova.com/sites/default/files/gev_webcast_pressrelease_04222026.pdf",
+      "ticker": "GEV"
+    },
+    {
+      "claim": "Centrus announced that DOE exercised an option to extend its HALEU production contract through June 30, 2026.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2025",
+      "source_title": "Centrus Energy Secures Contract Extension from Department of Energy to Continue HALEU Production",
+      "source_url": "https://www.centrusenergy.com/news/centrus-energy-secures-contract-extension-from-department-of-energy-to-continue-haleu-production/",
+      "ticker": "LEU"
+    },
+    {
+      "claim": "DOE reported that Centrus produced 900 kilograms of HALEU, describing HALEU as a crucial fuel source needed by most advanced reactor designs.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2025",
+      "source_title": "Centrus Reaches 900 Kilogram Mark for HALEU Production",
+      "source_url": "https://www.energy.gov/node/4851599",
+      "ticker": "LEU"
+    },
+    {
+      "claim": "FERC's 2025 State of the Markets report tracks interconnection queue and transmission trends, making it a useful source for validating whether generation and transmission additions are keeping pace with load growth.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03",
+      "source_title": "FERC 2025 State of the Markets",
+      "source_url": "https://www.ferc.gov/sites/default/files/2026-03/26_State-of-the-Market_0324_1430.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "Media reports in 2026 cited data-center delays or cancellations linked to power infrastructure and component shortages, including transformers, switchgear, and batteries.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "2026-04",
+      "source_title": "Half of planned US data center builds have been delayed or canceled",
+      "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/half-of-planned-us-data-center-builds-have-been-delayed-or-canceled-growth-limited-by-shortages-of-power-infrastructure-and-parts-from-china-the-ai-build-out-flips-the-breakers",
+      "ticker": ""
+    },
+    {
+      "claim": "Low-attention suppliers in substation connectors, line hardware, conduit, raceway, enclosures, testing, and specialty electrical labor may offer hidden bottleneck exposure because the market often categorizes them as general industrials or construction suppliers rather than core AI-power infrastructure.",
+      "claim_type": "hypothesis",
+      "confidence": 0.74,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Layer 1 Universe and Methodology Context",
+      "source_url": "cached_serenity_layer1_context",
+      "ticker": ""
+    },
+    {
+      "claim": "IEA Electricity 2026 identifies AI, data centers, advanced manufacturing, and broad electrification as important drivers of rising electricity demand.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026",
+      "source_title": "IEA Electricity 2026 - Demand",
+      "source_url": "https://www.iea.org/reports/electricity-2026/demand",
+      "ticker": ""
+    },
+    {
+      "claim": "IEA Energy and AI states that global data-center investment nearly doubled since 2022 and reached about half a trillion dollars in 2024; it also notes that building new transmission lines can take four to eight years in advanced economies and that wait times for critical components such as transformers and cables have doubled in the prior three years.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2025",
+      "source_title": "IEA Energy and AI - Executive Summary",
+      "source_url": "https://www.iea.org/reports/energy-and-ai/executive-summary%C2%A0",
+      "ticker": ""
+    },
+    {
+      "claim": "NERC's 2025 Long-Term Reliability Assessment highlights rising resource-adequacy risks as electricity demand grows from data centers, industrialization, electrification, and DER adoption.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-01",
+      "source_title": "NERC 2025 Long-Term Reliability Assessment",
+      "source_url": "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "DOE's supply-chain page states that distribution transformer lead times increased from three to six months in 2019 to 12 to 30 months in 2023, driven by supply, labor, and material constraints.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "DOE Supply Chain and Market Analysis",
+      "source_url": "https://www.energy.gov/oe/supply-chain-and-market-analysis",
+      "ticker": ""
+    },
+    {
+      "claim": "DOE reliability materials describe federal efforts to identify at-risk regions and guide interventions as the grid faces explosive load growth from AI and reindustrialization.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026",
+      "source_title": "DOE Reliability",
+      "source_url": "https://www.energy.gov/topics/reliability",
+      "ticker": ""
+    },
+    {
+      "claim": "Eaton reported first-quarter 2026 record results, with 12-month rolling average order acceleration in Electrical Americas up 42%, driven by data-center momentum.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026",
+      "source_title": "Eaton Reports Record First Quarter 2026 Results",
+      "source_url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-first-quarter-2026-results.html",
+      "ticker": "ETN"
+    },
+    {
+      "claim": "Eaton's Q1 2026 analyst presentation reported total backlog growth of 44% in Electrical Americas and approximately 240% growth in Electrical Americas data-center orders.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026",
+      "source_title": "Eaton First Quarter 2026 Earnings Release / Analyst Presentation",
+      "source_url": "https://www.eaton.com/content/dam/eaton/company/news-insights/investor-relations/quarterly-earnings/2026/q1-2026-earnings-release-and-analyst-presentation.pdf",
+      "ticker": "ETN"
+    },
+    {
+      "claim": "Cached Layer 1 candidate evidence identifies Powell Industries as a custom-engineered electrical power distribution and control equipment company with exposure to medium-voltage switchgear, integrated power control rooms, e-houses, substations, bus duct, and data-center electrical distribution.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Layer 1 Candidate Chunk",
+      "source_url": "cached_layer1_candidate_chunk",
+      "ticker": "POWL"
+    },
+    {
+      "claim": "Cached Layer 1 candidate evidence identifies GE Vernova as a reference leader across gas turbines, grid equipment, power conversion, and electrification, useful for benchmarking dispatchable generation and grid equipment scarcity.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Layer 1 Candidate Chunk",
+      "source_url": "cached_layer1_candidate_chunk",
+      "ticker": "GEV"
+    },
+    {
+      "claim": "Cached Layer 1 candidate evidence identifies Centrus Energy as having potential chokepoint exposure to HALEU and enrichment services needed for advanced reactors and parts of the nuclear fuel chain.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Layer 1 Candidate Chunk",
+      "source_url": "cached_layer1_candidate_chunk",
+      "ticker": "LEU"
+    },
+    {
+      "claim": "Cached Layer 1 candidate evidence identifies Preformed Line Products as a niche supplier of grid hardware used for transmission, distribution, substation, OPGW/ADSS, and utility infrastructure buildouts.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Layer 1 Candidate Chunk",
+      "source_url": "cached_layer1_candidate_chunk",
+      "ticker": "PLPC"
+    },
+    {
+      "claim": "Cached Layer 1 candidate evidence frames MYR Group as a possible second-order beneficiary if qualified labor, procurement, testing, commissioning, substation construction, and utility interconnect work constrain project timing.",
+      "claim_type": "inference",
+      "confidence": 0.74,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Layer 1 Candidate Chunk",
+      "source_url": "cached_layer1_candidate_chunk",
+      "ticker": "MYRG"
+    },
+    {
+      "claim": "Cached Layer 1 candidate evidence frames IES Holdings as a potential beneficiary if electrical construction labor, systems integration, and project execution become bottlenecks alongside switchgear and transformers.",
+      "claim_type": "hypothesis",
+      "confidence": 0.66,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Layer 1 Candidate Chunk",
+      "source_url": "cached_layer1_candidate_chunk",
+      "ticker": "IESC"
+    },
+    {
+      "claim": "Cached Layer 1 candidate evidence identifies Vertiv as a reference leader for data-center power and cooling systems, useful for validating AI-related critical infrastructure demand.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Layer 1 Candidate Chunk",
+      "source_url": "cached_layer1_candidate_chunk",
+      "ticker": "VRT"
+    },
+    {
+      "claim": "Cached Layer 1 candidate evidence identifies Constellation Energy as a reference nuclear power asset with potential value from clean baseload electricity demand and data-center power procurement.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Layer 1 Candidate Chunk",
+      "source_url": "cached_layer1_candidate_chunk",
+      "ticker": "CEG"
+    },
+    {
+      "claim": "Cached Layer 1 candidate evidence identifies Hubbell as a reference leader for utility grid components, transmission, substation, and grid-modernization demand.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Layer 1 Candidate Chunk",
+      "source_url": "cached_layer1_candidate_chunk",
+      "ticker": "HUBB"
+    },
+    {
+      "claim": "IEA Electricity 2026 identifies AI, data centers, advanced manufacturing and broader electrification as important drivers of rising electricity demand.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026",
+      "source_title": "IEA Electricity 2026 - Demand",
+      "source_url": "https://www.iea.org/reports/electricity-2026/demand",
+      "ticker": ""
+    },
+    {
+      "claim": "IEA Energy and AI states that global data-center investment nearly doubled since 2022 and reached about half a trillion dollars in 2024; it also notes that building new transmission lines can take four to eight years in advanced economies and that wait times for critical components such as transformers and cables have doubled in the past three years.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2025",
+      "source_title": "IEA Energy and AI - Executive Summary",
+      "source_url": "https://www.iea.org/reports/energy-and-ai/executive-summary%C2%A0",
+      "ticker": ""
+    },
+    {
+      "claim": "NERC's 2025 Long-Term Reliability Assessment highlights rising resource-adequacy risks as electricity demand grows from data centers, industrialization, electrification and DER adoption.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-01",
+      "source_title": "NERC 2025 Long-Term Reliability Assessment",
+      "source_url": "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "DOE states that distribution transformer lead times increased from three to six months in 2019 to 12 to 30 months in 2023, driven by supply, labor and material constraints.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "DOE Supply Chain and Market Analysis",
+      "source_url": "https://www.energy.gov/oe/supply-chain-and-market-analysis",
+      "ticker": ""
+    },
+    {
+      "claim": "DOE reliability materials describe federal efforts to identify at-risk regions and guide interventions as the grid faces explosive load growth from AI and reindustrialization.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026",
+      "source_title": "DOE Reliability",
+      "source_url": "https://www.energy.gov/topics/reliability",
+      "ticker": ""
+    },
+    {
+      "claim": "Eaton reported first-quarter 2026 record results, with 12-month rolling average order acceleration in Electrical Americas up 42%, driven by data-center momentum.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026",
+      "source_title": "Eaton Reports Record First Quarter 2026 Results",
+      "source_url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-first-quarter-2026-results.html",
+      "ticker": "ETN"
+    },
+    {
+      "claim": "Eaton's Q1 2026 analyst presentation reported total backlog growth of 44% in Electrical Americas and approximately 240% growth in Electrical Americas data-center orders.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026",
+      "source_title": "Eaton First Quarter 2026 Earnings Release / Analyst Presentation",
+      "source_url": "https://www.eaton.com/content/dam/eaton/company/news-insights/news-releases/2026/eaton-reports-record-first-quarter-2026-results.html",
+      "ticker": "ETN"
+    },
+    {
+      "claim": "Cached Layer 2A catalyst map states that reports of data-center project delays, cancellations or reprioritization caused by unavailable power, transformers, switchgear, batteries or transmission access would confirm the critical-path nature of electrical infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Layer 2A Supply-Chain Map",
+      "source_url": "cached_serenity_layer_2a_input",
+      "ticker": ""
+    },
+    {
+      "claim": "Cached Layer 2A catalyst map identifies DOE HALEU contracts, advanced-reactor fuel awards, enrichment licensing and domestic fuel-cycle funding as catalysts for the nuclear fuel node.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Layer 2A Supply-Chain Map",
+      "source_url": "cached_serenity_layer_2a_input",
+      "ticker": ""
+    },
+    {
+      "claim": "The external X-search context returned login/search-shell pages rather than usable company-specific primary evidence; it should not be treated as proof for any ticker relationship.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-08",
+      "source_title": "External search context gathered before model call",
+      "source_url": "https://x.com/search",
+      "ticker": ""
+    },
+    {
+      "claim": "IEA Energy and AI states that global data-center investment nearly doubled since 2022 and reached about half a trillion dollars in 2024; it also notes that new transmission lines can take four to eight years in advanced economies and that wait times for critical components such as transformers and cables have doubled in the past three years.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2025",
+      "source_title": "IEA Energy and AI - Executive Summary",
+      "source_url": "https://www.iea.org/reports/energy-and-ai/executive-summary%C2%A0",
+      "ticker": ""
+    },
+    {
+      "claim": "DOE's supply-chain materials state that distribution-transformer lead times increased from three to six months in 2019 to 12 to 30 months in 2023, driven by supply, labor, and material constraints.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "DOE Supply Chain and Market Analysis",
+      "source_url": "https://www.energy.gov/oe/supply-chain-and-market-analysis",
+      "ticker": ""
+    },
+    {
+      "claim": "Comfort Systems USA's FY2025 Form 10-K describes the company as a provider of mechanical and electrical contracting services, including HVAC, plumbing, piping, controls, off-site construction, monitoring, fire protection, and electrical installation/service across commercial, industrial, and institutional markets.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-02",
+      "source_title": "Comfort Systems USA FY2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926017530/fix-20251231x10k.htm",
+      "ticker": "FIX"
+    },
+    {
+      "claim": "Comfort Systems USA's FY2025 Form 10-K reported that demand increased especially strongly in the technology sector, electrical-segment revenue rose 61.9% to $2.43 billion, and backlog at December 31, 2025 was $11.94 billion, up 99.3% from December 31, 2024.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-02",
+      "source_title": "Comfort Systems USA FY2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001035983/000110465926017530/fix-20251231x10k.htm",
+      "ticker": "FIX"
+    },
+    {
+      "claim": "Stem's FY2025 Form 10-K describes managed services for design, procurement, commissioning, operation, and optimization of energy storage and hybrid systems enabled by PowerTrack Optimizer software; the filing also states that the financial statements assume going-concern status and reports cash of $48.9 million, accumulated deficit of $1.49 billion, and negative working capital at December 31, 2025.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-03",
+      "source_title": "Stem FY2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001758766/000175876626000016/stem-20251231.htm",
+      "ticker": "STEM"
+    },
+    {
+      "claim": "Enphase's FY2025 Form 10-K filing is available as a Form 10-K for the year ended December 31, 2025, filed February 17, 2026; the filing frames Enphase around distributed energy systems and grid participation.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-02",
+      "source_title": "Enphase Energy FY2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001463101/000146310126000013/enph-20251231.htm",
+      "ticker": "ENPH"
+    },
+    {
+      "claim": "SolarEdge's FY2025 Form 10-K describes the company as a global smart energy technology company and notes the launch of the next-generation SolarEdge Nexis residential product portfolio with initial units delivered near the end of 2025.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-02",
+      "source_title": "SolarEdge Technologies FY2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001419612/000117891326000632/zk2634374.htm",
+      "ticker": "SEDG"
+    },
+    {
+      "claim": "Generac's 2025 sustainability materials discuss megatrends of lower power quality and higher power demand and refer to rising demand for backup power across data centers, telecom, and critical applications; they also cite ecobee Grid Resiliency enrollment scale.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026",
+      "source_title": "Generac 2025 Sustainability and Impact Report",
+      "source_url": "https://www.generac.com/globalassets/footer/about/sustainability/generac_sustainability_report.pdf",
+      "ticker": "GNRC"
+    },
+    {
+      "claim": "AZZ's FY2025 annual report describes the company as a provider of hot-dip galvanizing and metal-coatings services for critical infrastructure; this supports a second-order infrastructure durability mapping but not yet a quantified utility/transmission revenue mix.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2025",
+      "source_title": "AZZ FY2025 Annual Report",
+      "source_url": "https://www.azz.com/wp-content/uploads/2025/05/AZZ-Webready-2025-Annual-Report.pdf",
+      "ticker": "AZZ"
+    },
+    {
+      "claim": "EnerSys FY2025 sustainability materials describe the company as powering mission-critical systems across defense, secure communications, and other essential systems, supporting the critical-power mapping but requiring segment-materiality verification.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2025",
+      "source_title": "EnerSys Sustainability Report FY2025",
+      "source_url": "https://www.enersys.com/en/about-us/sustainability/sustainability-report/",
+      "ticker": "ENS"
+    },
+    {
+      "claim": "CBAK Energy's FY2025 Form 10-K reports annual capacity of 1.0 GWh for legacy model 26650 cells at the Dalian manufacturing center and states that gross profit margin declined to 9.4% in 2025 from 24% in 2024, aligned with a drop in sales of batteries for residential energy supply and UPS applications.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-03",
+      "source_title": "CBAK Energy FY2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001117171/000121390026036952/ea0283349-10k_cbak.htm",
+      "ticker": "CBAT"
+    },
+    {
+      "claim": "Tetra Tech's investor site lists a 2025 annual report; external search context identifies Tetra Tech as maintaining a strong position in environmental, water, consulting, and engineering markets, which supports a permitting/water/engineering mapping but not a pure grid-hardware mapping.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "2025",
+      "source_title": "Tetra Tech Annual Reports",
+      "source_url": "https://investor.tetratech.com/financials/annual-reports/default.aspx/1000/",
+      "ticker": "TTEK"
+    },
+    {
+      "claim": "AECOM's FY2025 annual report describes planning, consulting, advisory, architectural and engineering design, construction management, and program management services across transportation, facilities, environmental, energy, water, and government end markets; AECOM reported $23.4 billion of design backlog for FY2025.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2025",
+      "source_title": "AECOM FY2025 Annual Report",
+      "source_url": "https://aecom.com/about-aecom/annual-report/",
+      "ticker": "ACM"
+    },
+    {
+      "claim": "Jacobs FY2025 annual-report materials refer to prior Critical Mission Solutions work spanning areas including clean energy transition and nuclear decommissioning and cleanup, supporting a broad technical-services mapping rather than a pure-play power-chain mapping.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2025",
+      "source_title": "Jacobs Solutions FY2025 Annual Report",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/52988/000119312525325113/d32330dars.pdf",
+      "ticker": "J"
+    },
+    {
+      "claim": "APi Group FY2025 annual-report search context identifies transmission and distribution services as installation and maintenance services for electrical transmission and distribution, with demand drivers including grid modernization, renewable-power buildout, rate-case dynamics, and infrastructure spending.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026",
+      "source_title": "APi Group FY2025 Annual Report and 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2015845/000201584526000021/a2025annualreport-form10xk.pdf",
+      "ticker": "APG"
+    },
+    {
+      "claim": "IEA Electricity 2026 identifies AI, data centers, advanced manufacturing, and broad electrification as important drivers of rising electricity demand.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026",
+      "source_title": "IEA Electricity 2026 - Demand",
+      "source_url": "https://www.iea.org/reports/electricity-2026/demand",
+      "ticker": ""
+    },
+    {
+      "claim": "IEA Energy and AI states that global data-center investment nearly doubled since 2022 and reached about half a trillion dollars in 2024; it also notes that building new transmission lines can take four to eight years in advanced economies and that wait times for critical components such as transformers and cables have doubled in the past three years.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2025",
+      "source_title": "IEA Energy and AI - Executive Summary",
+      "source_url": "https://www.iea.org/reports/energy-and-ai/executive-summary%C2%A0",
+      "ticker": ""
+    },
+    {
+      "claim": "NERC's 2025 Long-Term Reliability Assessment highlights rising resource-adequacy risks as electricity demand grows from data centers, industrialization, electrification, and distributed energy-resource adoption.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-01",
+      "source_title": "NERC 2025 Long-Term Reliability Assessment",
+      "source_url": "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "DOE's supply-chain page states that distribution transformer lead times increased from three to six months in 2019 to 12 to 30 months in 2023, driven by supply, labor, and material constraints.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "",
+      "source_title": "DOE Supply Chain and Market Analysis",
+      "source_url": "https://www.energy.gov/oe/supply-chain-and-market-analysis",
+      "ticker": ""
+    },
+    {
+      "claim": "DOE reliability materials describe federal efforts to identify at-risk regions and guide interventions as the grid faces explosive load growth from AI and reindustrialization.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026",
+      "source_title": "DOE Reliability",
+      "source_url": "https://www.energy.gov/topics/reliability",
+      "ticker": ""
+    },
+    {
+      "claim": "Cached Layer 2A context states that gas turbine slot reservations, power-equipment capacity additions, transformer factory expansions, and M&A for grid equipment suppliers can indicate which bottlenecks are severe enough to trigger industry investment.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Layer 2A Supply-Chain Map",
+      "source_url": "provided_cached_layer_2a_context",
+      "ticker": ""
+    },
+    {
+      "claim": "Cached Layer 2A context states that long-term power purchase agreements, behind-the-meter generation deals, nuclear-linked PPAs, or colocated generation contracts by hyperscalers would reprice scarce clean firm power and interconnection-ready assets.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Serenity Layer 2A Supply-Chain Map",
+      "source_url": "provided_cached_layer_2a_context",
+      "ticker": ""
+    },
+    {
+      "claim": "WSC may have second-order exposure to power, grid, and data-center construction through temporary modular space and site infrastructure, but the provided context contains no primary-source proof that this is a material demand driver.",
+      "claim_type": "speculation",
+      "confidence": 0.24,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Layer 1 Candidate Chunk",
+      "source_url": "provided_cached_candidate_chunk",
+      "ticker": "WSC"
+    },
+    {
+      "claim": "FLS may be relevant to power, nuclear, and cooling systems through flow-control equipment, but materiality, qualification-driven pricing power, and order conversion require verification from company disclosures and project evidence.",
+      "claim_type": "hypothesis",
+      "confidence": 0.44,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Layer 1 Candidate Chunk",
+      "source_url": "provided_cached_candidate_chunk",
+      "ticker": "FLS"
+    },
+    {
+      "claim": "GTLS may have second-order exposure to dispatchable power through LNG, gas, hydrogen, and specialty process equipment, but the link to power-load growth is not established in the provided evidence.",
+      "claim_type": "hypothesis",
+      "confidence": 0.4,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Layer 1 Candidate Chunk",
+      "source_url": "provided_cached_candidate_chunk",
+      "ticker": "GTLS"
+    },
+    {
+      "claim": "WFRD may indirectly benefit if gas-fired power demand raises upstream natural-gas activity, but this is several steps removed from the electrical-infrastructure bottleneck and lacks direct evidence in the provided context.",
+      "claim_type": "speculation",
+      "confidence": 0.26,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Layer 1 Candidate Chunk",
+      "source_url": "provided_cached_candidate_chunk",
+      "ticker": "WFRD"
+    },
+    {
+      "claim": "KMI may benefit if power-plant and data-center load growth creates pipeline expansions, compression projects, contracts, and approved returns; the provided context classifies it as a reference rather than underfollowed name.",
+      "claim_type": "hypothesis",
+      "confidence": 0.42,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Layer 1 Candidate Chunk",
+      "source_url": "provided_cached_candidate_chunk",
+      "ticker": "KMI"
+    },
+    {
+      "claim": "WMB may benefit if power-generation demand increases contracted pipeline volumes and expansion backlog; the provided context classifies it as a reference leader for the gas-infrastructure node.",
+      "claim_type": "hypothesis",
+      "confidence": 0.42,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Layer 1 Candidate Chunk",
+      "source_url": "provided_cached_candidate_chunk",
+      "ticker": "WMB"
+    },
+    {
+      "claim": "AMSC may be relevant to grid power electronics, resilience, and specialty electrical systems, but the provided context does not verify scalable orders, utility validation, or margin contribution.",
+      "claim_type": "speculation",
+      "confidence": 0.28,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Layer 1 Candidate Chunk",
+      "source_url": "provided_cached_candidate_chunk",
+      "ticker": "AMSC"
+    },
+    {
+      "claim": "EOSE may provide long-duration storage optionality for grid reliability, but the provided context flags high financial, manufacturing, product-reliability, and unit-economics risks.",
+      "claim_type": "speculation",
+      "confidence": 0.26,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Layer 1 Candidate Chunk",
+      "source_url": "provided_cached_candidate_chunk",
+      "ticker": "EOSE"
+    },
+    {
+      "claim": "NNE is a speculative microreactor and advanced-nuclear candidate; the provided context says licensing, technology readiness, customer contracts, fuel supply, and funding must be verified before later-layer survival.",
+      "claim_type": "speculation",
+      "confidence": 0.18,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Layer 1 Candidate Chunk",
+      "source_url": "provided_cached_candidate_chunk",
+      "ticker": "NNE"
+    },
+    {
+      "claim": "OKLO is a speculative advanced nuclear developer relevant to theme sentiment and possible future clean firm power, but the provided context says NRC licensing, fuel access, project financing, customer contracts, and construction timelines must be verified.",
+      "claim_type": "speculation",
+      "confidence": 0.28,
+      "published_at": "2026-06-08",
+      "source_title": "Cached Layer 1 Candidate Chunk",
+      "source_url": "provided_cached_candidate_chunk",
+      "ticker": "OKLO"
+    }
+  ],
+  "layer": 2,
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "Energy and Power Chain should be tracked as an end-to-end system: large-load demand -> load forecasting/resource adequacy -> interconnection/transmission -> substations -> transformers/switchgear -> electrical labor/commissioning -> dispatchable and clean firm generation -> power-market cost allocation.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Highest current bottleneck candidates are distribution/large power transformers, medium-voltage switchgear, interconnection/transmission, qualified electrical construction labor, and dispatchable generation slots.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.83,
+      "text": "Nuclear fuel-cycle exposure, especially HALEU enrichment and qualification, is a separate policy-driven bottleneck tied to advanced reactors and SMR optionality rather than near-term data-center energization.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.87,
+      "text": "Electrical equipment earnings with explicit data-center order growth, backlog growth, book-to-bill, capacity expansion, and margin durability should be monitored as primary catalysts.",
+      "type": "catalyst"
+    },
+    {
+      "confidence": 0.78,
+      "text": "FERC/RTO proceedings on large-load interconnection, capacity auctions, and cost allocation are likely to determine how much data-center power demand is monetized by utilities, IPPs, generators, and equipment suppliers.",
+      "type": "catalyst"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Need source-backed mapping of low-attention public companies to specific grid hardware SKUs, substation components, distributor channels, testing/certification gates, and utility-approved-vendor status.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Need to distinguish true bottleneck revenue from general construction cyclicality for specialty electrical contractors and balance-of-system suppliers.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Need regional mapping of data-center load growth by RTO/ISO, transformer/switchgear lead times, generation retirements, and transmission constraints to avoid overgeneralizing national demand.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.89,
+      "text": "Do not let Eaton, GE Vernova, Vertiv, Constellation, and other high-attention leaders dominate the map; use them as demand validators while continuing to search for underfollowed suppliers one or two nodes upstream or downstream.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Project delays, canceled data-center builds, or procurement prepayments caused by unavailable power equipment should be treated as positive evidence for bottleneck severity but negative evidence for immediate load realization.",
+      "type": "catalyst"
+    },
+    {
+      "confidence": 0.82,
+      "text": "POWL maps directly to the medium-voltage switchgear, integrated power-control-room, e-house, substation, bus duct, and data-center electrical distribution bottleneck; verify backlog conversion, customer concentration, and execution margin before upgrading.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.93,
+      "text": "ETN should remain the reference validation ticker for Electrical Americas backlog, data-center electrical order growth, and electrification demand; do not treat it as underfollowed.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.78,
+      "text": "GEV should remain the reference validation ticker for gas-turbine scarcity plus grid equipment demand; use its backlog and lead-time commentary to validate or falsify dispatchable-generation bottlenecks.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.76,
+      "text": "LEU maps to the nuclear fuel-cycle/HALEU bottleneck, but evidence must focus on DOE support, licensing, commercial demand, capacity milestones, and funding rather than generic nuclear enthusiasm.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.68,
+      "text": "PLPC is a second-order underfollowed grid hardware candidate; the key question is whether substation/HV/EHV and Delta Star-related exposure are material enough to matter.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.58,
+      "text": "MYRG and IESC belong in the electrical labor/execution bottleneck lane, but both need backlog and project-mix verification to avoid confusing broad construction cyclicality with AI/grid power infrastructure exposure.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.72,
+      "text": "VRT, CEG, and HUBB are reference or semi-reference names used to price the market's view of data-center infrastructure, clean firm power, and utility grid hardware; they should not crowd out smaller supplier discovery.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Need primary-source SEC filings, earnings presentations, transcripts, and investor decks for POWL, PLPC, MYRG, IESC, HUBB, VRT, GEV, LEU, and CEG before Layer 3 scoring; current mapping relies partly on cached Layer 1 evidence.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Need live market-cap, valuation, analyst-coverage, short-interest, and earnings-revision checks to separate true underfollowed candidates from already-consensus winners.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Need falsification tracking for lead-time normalization, backlog cancellations, customer capex digestion, fixed-price contract margin compression, capacity additions, commodity pressure, and regulatory delay.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.58,
+      "text": "PWR should remain a reference benchmark for grid execution and qualified electrical labor, not an underfollowed alpha candidate, until backlog, labor and margin evidence show a stronger chokepoint premium.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.46,
+      "text": "BWXT is a priority underfollowed nuclear-supply-chain hypothesis because generalists may classify it as defense/government nuclear exposure, but its commercial nuclear/SMR/materiality evidence must be verified before promotion.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.55,
+      "text": "CCJ is best used as a nuclear fuel-cycle reference leader and pricing benchmark rather than an underfollowed discovery name.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.52,
+      "text": "SMR should remain in the speculative_shadow lane because project financing, customer commitments, licensing, cost and construction timelines are the decisive survival tests.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.5,
+      "text": "VST, NRG, ETR, SO, NEE and BEPC are mostly power-asset or regulated/contracted generation mappings; they validate demand and power-market tightness but are less direct physical bottleneck suppliers than transformers, switchgear, construction labor or nuclear fuel/components.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.42,
+      "text": "FLNC remains an underfollowed storage/flexibility hypothesis, but margin quality, warranty risk, battery sourcing and backlog conversion are gating evidence items.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Need primary-source SEC filings and latest earnings materials for every ticker in this chunk; current company-specific evidence is sparse except for broader grid-demand context and Eaton electrical backlog references from cached Layer 2A evidence.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Need current market-cap, valuation, analyst coverage and price-performance checks to distinguish true underfollowed names from already-consensus AI power beneficiaries.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Need regional evidence for power-asset names: PJM/ERCOT/Southeast/Gulf Coast load growth, capacity-market outcomes, hedging, rate cases, IRPs and large-load contracts.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Need nuclear-specific evidence for BWXT, CCJ and SMR: DOE awards, NRC licensing, HALEU/fuel-cycle constraints, signed customer contracts, component qualification and project financing.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.86,
+      "text": "FIX should be promoted within this candidate chunk as the clearest visible execution-bottleneck mapping: data-center/technology-sector mechanical and electrical contracting demand, FY2025 technology-sector strength, electrical-segment growth, and backlog growth are directly disclosed.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.62,
+      "text": "ENS remains an underfollowed critical-power candidate: industrial battery label may obscure mission-critical backup exposure, but data-center/telecom/utility segment materiality must be proven before ranking it above core grid hardware names.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.58,
+      "text": "AZZ is a second-order grid-buildout candidate through galvanizing/metal coatings for critical infrastructure; the key survival test is whether utility/transmission/electrical infrastructure is a material volume and pricing driver.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.57,
+      "text": "GNRC has plausible backup-power and distributed-resilience exposure, including telecom and potential data-center demand, but residential generator cyclicality and outage-driven demand make it less pure than grid hardware or data-center electrical contractors.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.6,
+      "text": "ENPH and SEDG are real distributed-energy power-electronics companies, but their relationship to the Energy and Power Chain is grid-edge flexibility rather than AI data-center critical-path power infrastructure; both require market-pricing and residential-solar-cycle checks.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.55,
+      "text": "TTEK, ACM, J, and APG are services/execution reference or underfollowed candidates. They may benefit from permitting, engineering, water, fire/safety, and infrastructure maintenance bottlenecks, but each needs end-market/backlog materiality verification.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.74,
+      "text": "STEM, SEDG, and CBAT should remain speculative_shadow until financial-quality gates are passed. STEM has going-concern and working-capital concerns; CBAT has low gross margin and customer/product-validation risk; SEDG needs proof of durable recovery from prior solar-channel stress.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Need current market-cap, valuation, analyst-coverage, short-interest, and earnings-revision checks for every ticker before classifying them as truly underfollowed or already consensus.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Need latest 2026 quarterly reports and transcripts for FIX, ENS, GNRC, AZZ, ENPH, SEDG, STEM, CBAT, TTEK, ACM, J, and APG to confirm whether FY2025 evidence continued into 2026.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.92,
+      "text": "Candidate chunk visible to the model was truncated after APi Group; later Layer 2B calls should verify whether additional tickers were omitted from this chunk before final scoring.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.5,
+      "text": "FLS is the strongest underfollowed candidate in this chunk for deeper Layer 2C work because its pumps, valves, seals, and flow-control exposure could touch power generation, nuclear, cooling, LNG, and aftermarket reliability, but company-specific materiality is still unverified.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.43,
+      "text": "GTLS remains a plausible underfollowed second-order gas/LNG/fuel-infrastructure candidate, but it should not be promoted until backlog and orders show linkage to power generation, backup fuel, grid reliability, or data-center load growth.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.56,
+      "text": "KMI and WMB should be treated as reference benchmarks for the gas-infrastructure lane, not primary underfollowed discoveries; their main function is to test whether power demand is flowing into contracted midstream projects.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.62,
+      "text": "AMSC, EOSE, NNE, and OKLO belong in the speculative shadow lane until primary evidence validates commercial scalability, customer validation, financing, regulatory milestones, and margin/unit economics.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.58,
+      "text": "WSC and WFRD are indirect second-order exposures and should be deprioritized unless filings or transcripts explicitly show power, grid, data-center, or gas-fired generation demand as a measurable driver.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Need primary-source verification for all company-level claims using latest 10-K, 10-Q, earnings transcripts, investor presentations, project announcements, customer disclosures, FERC/NRC/DOE records, and backlog/order data.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Need current market-cap, valuation, analyst-coverage, short-interest, and ownership checks before confirming which names are genuinely underfollowed versus already priced as AI power beneficiaries.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.83,
+      "text": "Need falsification triggers per ticker: lack of theme-specific revenue disclosure, no backlog conversion, customer cancellations, inability to finance capacity, licensing delays, gross-margin deterioration, or management commentary showing demand is unrelated to power-load growth.",
+      "type": "evidence_gap"
+    }
+  ],
+  "summary": "Split Layer 2 synthesis. Layer 2A maps the Energy and Power Chain as a multi-bottleneck system driven by AI/data-center load growth, electrification, reindustrialization, grid reliability constraints, and clean-firm-power procurement. The highest-friction nodes appear to be grid interconnection/transmission, transformer and switchgear capacity, qualified electrical construction labor, dispatchable generation availability, nuclear fuel-cycle readiness, and power-market/regulatory cost allocation. Mega-cap leaders validate the demand cycle, but Serenity-style bottleneck value may hide in smaller electrical equipment makers, grid hardware suppliers, substation components, specialty EPC/labor, distributors, testing/certification, and regulated power assets with scarce interconnection or baseload attributes.",
+  "supply_chain_map": [
+    {
+      "bottleneck_score": 86,
+      "node": "ai_data_center_and_large_load_demand",
+      "role": "demand",
+      "why_it_matters": "AI data centers, advanced manufacturing, electrification, heat pumps, and industrial reshoring are turning power availability into a gating input for digital and industrial capex. This node drives demand into every downstream power-chain layer."
+    },
+    {
+      "bottleneck_score": 83,
+      "node": "utility_load_forecasting_and_resource_adequacy",
+      "role": "regulation",
+      "why_it_matters": "Utilities and reliability coordinators must forecast large-load additions before generation, transmission, and capacity-market procurement can be built. Forecast errors can create regional shortages or stranded capacity."
+    },
+    {
+      "bottleneck_score": 95,
+      "node": "grid_interconnection_queue_and_transmission_planning",
+      "role": "capacity",
+      "why_it_matters": "Interconnection studies, transmission upgrades, network-cost allocation, and local substation constraints determine whether new data centers, renewables, storage, and generation can connect on schedule."
+    },
+    {
+      "bottleneck_score": 92,
+      "node": "bulk_transmission_lines_and_right_of_way",
+      "role": "capacity",
+      "why_it_matters": "Long transmission build cycles can delay both generation deliverability and large-load service. This is a regulated bottleneck with permitting, siting, landowner, and cost-allocation friction."
+    },
+    {
+      "bottleneck_score": 90,
+      "node": "substations_and_grid_electrical_hardware",
+      "role": "equipment",
+      "why_it_matters": "Substations, breakers, relays, protection systems, bushings, connectors, bus duct, and high-voltage hardware convert broad power demand into tangible equipment orders. Low-attention suppliers can hide here because these products are often classified as utility hardware rather than AI infrastructure."
+    },
+    {
+      "bottleneck_score": 98,
+      "node": "distribution_and_large_power_transformers",
+      "role": "equipment",
+      "why_it_matters": "Transformers are long-lead, utility-qualified assets exposed to load growth, grid replacement, data-center service, and renewable interconnection. Lead times, domestic capacity, core steel availability, and utility standardization remain key constraints."
+    },
+    {
+      "bottleneck_score": 96,
+      "node": "medium_voltage_switchgear_and_power_control_rooms",
+      "role": "equipment",
+      "why_it_matters": "Medium-voltage switchgear, e-houses, integrated power control rooms, and protection equipment sit on the critical path between utility service and data-center/industrial load energization."
+    },
+    {
+      "bottleneck_score": 73,
+      "node": "electrical_balance_of_system_conduit_raceway_cable_management",
+      "role": "input",
+      "why_it_matters": "Conduit, raceway, enclosures, cable management, connectors, grounding, and protection hardware are second-order components that can benefit from project volume even when they are not viewed as primary bottlenecks."
+    },
+    {
+      "bottleneck_score": 88,
+      "node": "qualified_electrical_construction_labor_and_commissioning",
+      "role": "capacity",
+      "why_it_matters": "Electrical contractors, substation builders, testing technicians, protection engineers, and commissioning teams can bottleneck delivery even when equipment is available. This node favors underfollowed specialty construction and services firms."
+    },
+    {
+      "bottleneck_score": 91,
+      "node": "dispatchable_generation_gas_turbines_and_reciprocating_engines",
+      "role": "equipment",
+      "why_it_matters": "Data centers and utilities increasingly need firm capacity to manage reliability risk. Gas turbines, aeroderivatives, reciprocating engines, fuel supply, emissions permitting, and service networks can become scarce."
+    },
+    {
+      "bottleneck_score": 79,
+      "node": "gas_pipeline_capacity_and_fuel_delivery",
+      "role": "input",
+      "why_it_matters": "New gas-fired generation is constrained not only by turbine availability but also by pipeline capacity, interconnects, permitting, fuel contracting, and local emissions rules."
+    },
+    {
+      "bottleneck_score": 84,
+      "node": "nuclear_operating_assets_life_extensions_and_uprates",
+      "role": "capacity",
+      "why_it_matters": "Existing nuclear plants provide scarce clean firm power and can monetize demand through PPAs, capacity markets, uprates, license extensions, and potentially restarts."
+    },
+    {
+      "bottleneck_score": 89,
+      "node": "nuclear_fuel_cycle_uranium_conversion_enrichment_haleu",
+      "role": "input",
+      "why_it_matters": "Advanced reactors and some SMR designs depend on qualified fuel supply, especially HALEU. The bottleneck is not just reactor demand but enrichment capacity, licensing, DOE procurement, cylinder logistics, and customer qualification."
+    },
+    {
+      "bottleneck_score": 78,
+      "node": "battery_energy_storage_and_grid_flexibility",
+      "role": "capacity",
+      "why_it_matters": "Storage, demand response, flexible interconnection, and controllable data-center load can reduce grid upgrade needs, but may not eliminate the need for firm capacity and transmission."
+    },
+    {
+      "bottleneck_score": 87,
+      "node": "data_center_power_distribution_ups_backup_and_thermal_stack",
+      "role": "equipment",
+      "why_it_matters": "UPS, busway, power distribution units, backup generation, thermal management, and liquid cooling translate AI capex into building-level power infrastructure demand."
+    },
+    {
+      "bottleneck_score": 70,
+      "node": "power_component_distribution_channels",
+      "role": "distribution",
+      "why_it_matters": "Electrical distributors and integrators can capture value when scarce components are allocated, bundled, or standardized for utilities and data-center projects. This is a possible low-attention chokepoint because distributors may be classified as broad industrial wholesalers."
+    },
+    {
+      "bottleneck_score": 85,
+      "node": "utility_procurement_certification_and_standardization",
+      "role": "regulation",
+      "why_it_matters": "Utilities require vendor qualification, interoperability, safety standards, cybersecurity compliance, testing, and equipment standardization. Certification gates can slow substitution even when nominal manufacturing capacity exists."
+    },
+    {
+      "bottleneck_score": 82,
+      "node": "power_market_capacity_auctions_and_cost_allocation",
+      "role": "regulation",
+      "why_it_matters": "Capacity-market results, tariffs, cost-allocation rules, and large-load interconnection tariffs determine who pays for upgrades and whether data-center power demand flows to generators, utilities, equipment suppliers, or customers."
+    },
+    {
+      "bottleneck_score": 80,
+      "node": "regulated_utility_and_independent_power_assets",
+      "role": "customer",
+      "why_it_matters": "Utilities, IPPs, and regulated power assets are both customers for equipment and sellers of power. Assets with available interconnection, firm capacity, or favorable regulation can become strategic counterparties for hyperscalers."
+    }
+  ],
+  "theme_id": "special_energy_power_chain",
+  "ticker_relationships": [
+    {
+      "claim_type": "fact",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.82,
+      "hidden_signal_to_verify": "Whether backlog and the large data-center order convert to revenue and margin without capacity, labor, customer-concentration, or fixed-price execution problems.",
+      "next_evidence": "Verify latest 10-Q/10-K backlog, segment revenue, gross margin, customer concentration, data-center order detail, capacity expansion, and management commentary on switchgear/power-control-room lead times.",
+      "node": "medium_voltage_switchgear_and_power_control_rooms",
+      "relationship": "Pure-play-ish public exposure to custom-engineered electrical power distribution and control equipment, including switchgear, integrated power control rooms, e-houses, substations, bus duct, and data-center electrical distribution. In the Serenity map, POWL sits close to the physical bottleneck between large-load demand and energized facilities.",
+      "ticker": "POWL"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.93,
+      "hidden_signal_to_verify": "Whether Electrical Americas orders/backlog convert into shipments without margin dilution from capacity ramp, labor, copper/steel costs, or long-cycle execution.",
+      "next_evidence": "Track Electrical Americas orders, backlog, book-to-bill, data-center order growth, capacity additions, decremental/incremental margins, and commentary on project timing.",
+      "node": "data_center_power_distribution_and_electrical_americas",
+      "relationship": "Reference leader validating category demand across electrical power distribution, circuit protection, switchgear, busway, data-center electrical orders, utility power distribution, and broader electrification. ETN is not the main underfollowed alpha target but anchors the demand and pricing check for smaller suppliers.",
+      "ticker": "ETN"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.78,
+      "hidden_signal_to_verify": "Whether gas-turbine lead times, grid backlog, service margins, and equipment pricing remain tight or normalize as capacity and competitors respond.",
+      "next_evidence": "Verify latest GEV backlog by segment, gas power equipment orders, grid orders, turbine slot commentary, service margin trends, and any comments on data-center or utility large-load demand.",
+      "node": "dispatchable_generation_gas_turbines_and_grid_electrification",
+      "relationship": "Reference leader for the combined scarcity theme across gas turbines, grid equipment, power conversion, and electrification. Useful for testing whether AI/data-center load growth is pushing utilities and hyperscalers toward dispatchable generation and grid hardware procurement.",
+      "ticker": "GEV"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.76,
+      "hidden_signal_to_verify": "Whether DOE support, contracts, enrichment capacity, licensing, and commercial HALEU demand scale fast enough to support the thesis.",
+      "next_evidence": "Verify DOE HALEU awards, NRC/licensing status, enrichment capacity milestones, customer contracts, cash burn, funding needs, and timing mismatch between advanced-reactor demand and commercial revenue.",
+      "node": "nuclear_fuel_cycle_uranium_enrichment_haleu",
+      "relationship": "Potential nuclear fuel-cycle chokepoint tied to enrichment services and HALEU supply needed for advanced reactors and parts of the future nuclear power chain. Relationship is strategically important but more policy- and execution-dependent than near-term electrical equipment demand.",
+      "ticker": "LEU"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.68,
+      "hidden_signal_to_verify": "Whether Energy Products, substation hardware, and the Delta Star acquisition materially increase exposure to HV/EHV substation demand versus remaining a small mixed-infrastructure business.",
+      "next_evidence": "Verify latest annual report segment/product disclosures, acquisition contribution, utility customer mix, order trends, margin sensitivity to materials, and whether substation/HV hardware is a meaningful revenue driver.",
+      "node": "transmission_distribution_components_and_substation_connectors",
+      "relationship": "Underfollowed second-order grid hardware supplier with exposure to transmission, distribution, substation connectors, OPGW/ADSS, and utility infrastructure buildouts. The company is one or two steps away from the obvious AI data-center demand driver, making it a candidate for hidden grid capex exposure.",
+      "ticker": "PLPC"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.76,
+      "hidden_signal_to_verify": "Whether order growth, backlog conversion, liquid-cooling adoption, and competitive pricing remain strong after hyperscaler capex digestion.",
+      "next_evidence": "Track orders, backlog, hyperscaler/customer concentration, liquid-cooling revenue mix, pricing, lead times, and evidence of competition or normalization in data-center infrastructure.",
+      "node": "data_center_power_stack_thermal_management_and_backup_power",
+      "relationship": "Reference leader for data-center power and cooling systems. VRT helps validate whether AI load growth is becoming real orders for critical digital infrastructure, thermal management, UPS, and backup-power-adjacent systems.",
+      "ticker": "VRT"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.61,
+      "hidden_signal_to_verify": "Whether backlog growth is specifically tied to grid modernization, data centers, substations, and large electrical interconnect projects rather than broad construction demand.",
+      "next_evidence": "Verify backlog composition, transmission/distribution mix, commercial-and-industrial electrical work, data-center references, labor availability, fixed-price exposure, and margin history during rapid backlog growth.",
+      "node": "qualified_electrical_construction_labor_and_substation_execution",
+      "relationship": "Second-order beneficiary candidate where qualified electrical labor, procurement, testing, commissioning, substation construction, and utility interconnect work may constrain project timing. The thesis is that execution capacity, not just hardware, becomes a bottleneck.",
+      "ticker": "MYRG"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.74,
+      "hidden_signal_to_verify": "Whether nuclear PPA economics, regulatory treatment, capacity-market revenue, uprates, and restart/extension projects justify the market narrative.",
+      "next_evidence": "Verify latest PPA disclosures, nuclear fleet output, capacity-market exposure, regulatory treatment, uprate/restart economics, and hyperscaler contract terms where disclosed.",
+      "node": "nuclear_power_assets_and_clean_firm_power_procurement",
+      "relationship": "Reference clean baseload generation asset for testing whether power scarcity is monetized through nuclear PPAs, capacity-market revenue, uprates, restarts, and life-extension economics. Not underfollowed, but important for pricing the value of scarce clean firm power.",
+      "ticker": "CEG"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.49,
+      "hidden_signal_to_verify": "Whether data-center/high-tech work is large enough to matter, whether backlog is power-distribution related, and whether margins are protected under fixed-price contracts.",
+      "next_evidence": "Verify segment revenue, backlog if disclosed, customer/project mix, data-center or high-tech facility exposure, fixed-price contract risk, labor constraints, and whether margin expansion is structural or cyclical.",
+      "node": "data_center_electrical_execution_and_systems_installation",
+      "relationship": "Hypothesis candidate for electrical contracting, infrastructure, and technology systems installation exposure. Potentially benefits if data-center electrical labor, systems integration, and project execution become bottlenecks alongside switchgear and transformers.",
+      "ticker": "IESC"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.72,
+      "hidden_signal_to_verify": "Whether Utility Solutions growth is broad-based utility capex or concentrated in a few high-growth verticals, and whether pricing/capacity benefits persist.",
+      "next_evidence": "Verify Utility Solutions organic growth, backlog/order commentary, substation/transmission exposure, price-cost dynamics, acquisitions, and management comments on grid modernization and data-center-related utility demand.",
+      "node": "utility_grid_hardware_substation_components_and_transmission_distribution",
+      "relationship": "Reference-to-semi-reference leader for utility grid components, transmission/distribution hardware, substation products, and grid-modernization demand. Less hidden than PLPC but still useful as a benchmark for smaller grid hardware suppliers.",
+      "ticker": "HUBB"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.58,
+      "hidden_signal_to_verify": "Whether backlog, margins, book-to-bill, craft-labor availability and project mix confirm execution services remain a bottleneck rather than pass-through construction exposure.",
+      "next_evidence": "Check latest Form 10-K/10-Q, earnings call and investor presentation for utility/grid backlog, data-center or large-load language, labor constraints, margin expansion and customer concentration.",
+      "node": "qualified_electrical_construction_labor_and_commissioning",
+      "relationship": "Reference leader for transmission, distribution, substation, renewable interconnection and large-load grid execution services; useful benchmark for whether skilled electrical labor and field execution are chokepoints.",
+      "ticker": "PWR"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.42,
+      "hidden_signal_to_verify": "Whether commercial nuclear, SMR, microreactor, fuel and component exposure are material versus defense/government program mix.",
+      "next_evidence": "Review BWXT latest 10-K, segment disclosures, investor day materials, DOE/NRC program references, customer awards and backlog to separate defense nuclear exposure from commercial nuclear power-chain exposure.",
+      "node": "nuclear_components_and_qualified_nuclear_supply_chain",
+      "relationship": "Potential qualified nuclear manufacturing and services chokepoint, with possible second-order exposure to commercial nuclear life extensions, SMRs, microreactors, fuel handling and specialized nuclear components.",
+      "ticker": "BWXT"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.5,
+      "hidden_signal_to_verify": "Whether contracting, production, conversion/fuel-services exposure and uranium price sensitivity remain favorable.",
+      "next_evidence": "Check Cameco annual report, quarterly MD&A, contract book disclosures, production guidance, conversion/fuel-services commentary and uranium spot/term price indicators.",
+      "node": "nuclear_fuel_cycle_uranium_conversion_and_fuel_services",
+      "relationship": "Reference leader for uranium mining and nuclear fuel-cycle scarcity; useful for validating nuclear contracting, conversion/fuel-service tightness and uranium price sensitivity.",
+      "ticker": "CCJ"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0.36,
+      "hidden_signal_to_verify": "Whether signed projects, customer financing, licensing, cost estimates and construction timelines survive scrutiny.",
+      "next_evidence": "Verify NRC licensing status, signed customer agreements, project cancellations or delays, cost estimates, DOE support, customer financing and actual construction milestones.",
+      "node": "SMR_development_and_nuclear_generation_optionality",
+      "relationship": "Speculative direct exposure to small modular reactor project development; more useful as a sentiment and project-financing reference than as a proven bottleneck supplier.",
+      "ticker": "SMR"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.44,
+      "hidden_signal_to_verify": "Whether power-price upside, capacity-market revenue and customer contracts offset regulatory, fuel and market-cycle risks.",
+      "next_evidence": "Check latest earnings, hedge disclosures, PJM/ERCOT exposure, capacity-auction revenue, nuclear/gas generation margins and any data-center or corporate PPA contracts.",
+      "node": "merchant_power_assets_dispatchable_generation_and_nuclear_generation",
+      "relationship": "Reference power-asset owner for tight power markets, capacity prices, dispatchable generation, nuclear exposure and potential data-center power procurement.",
+      "ticker": "VST"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.39,
+      "hidden_signal_to_verify": "Whether regional generation exposure, retail margins, hedging and power-price sensitivity create durable upside or mostly cyclical earnings.",
+      "next_evidence": "Review NRG segment mix, regional generation fleet, retail customer economics, hedge book, capacity-market exposure, gas price sensitivity and any large-load/data-center contracting commentary.",
+      "node": "merchant_power_assets_retail_power_and_dispatchable_generation",
+      "relationship": "Potential underfollowed beneficiary of tight regional power markets and retail/generation positioning, but less pure as a physical bottleneck than equipment, grid execution or fuel-cycle suppliers.",
+      "ticker": "NRG"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.0,
+      "hidden_signal_to_verify": "N/A",
+      "next_evidence": "Use the consolidated CEG record from the main universe if needed; do not double-count this duplicate entry.",
+      "node": "duplicate_removed",
+      "relationship": "Deduplicated audit marker only in this candidate chunk; not counted as a separate Layer 2B relationship for ranking.",
+      "ticker": "CEG"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.38,
+      "hidden_signal_to_verify": "Whether IRPs, load forecasts, rate cases and contracted industrial/data-center demand translate into allowed returns.",
+      "next_evidence": "Check Entergy IRPs, load-growth disclosures, state rate-case filings, large-load interconnection requests, capex plan, allowed ROE outcomes and affordability/regulatory pushback.",
+      "node": "regulated_utility_assets_southern_load_growth_and_nuclear_generation",
+      "relationship": "Potential regulated utility beneficiary if Gulf/South industrial, LNG, manufacturing and data-center load growth translate into approved rate-base investment, grid capex and generation demand.",
+      "ticker": "ETR"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.4,
+      "hidden_signal_to_verify": "Whether incremental load growth results in attractive rate-base growth without regulatory lag, cost overruns or customer affordability pushback.",
+      "next_evidence": "Review Southern Company IRP updates, Georgia/Alabama/Mississippi rate cases, capital plan, Vogtle nuclear economics, data-center/industrial load disclosures and customer bill pressure.",
+      "node": "regulated_utility_assets_southeast_load_growth_generation_and_grid_capex",
+      "relationship": "Reference regulated utility for Southeast load growth, grid capex, new generation investment and nuclear baseload; benchmark for regulated-asset economics versus merchant power upside.",
+      "ticker": "SO"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.4,
+      "hidden_signal_to_verify": "Whether interconnection, transmission constraints, power prices, tax policy and rate cases support growth.",
+      "next_evidence": "Check FPL load growth, rate-base growth, NextEra Energy Resources backlog, interconnection delays, renewable PPA pricing, storage margins, tax-credit exposure and transmission constraints.",
+      "node": "regulated_utility_assets_renewable_power_grid_and_storage",
+      "relationship": "Reference for regulated utility load growth, renewable development, transmission and storage; less likely to be an underfollowed chokepoint but useful as a benchmark for renewables/storage economics.",
+      "ticker": "NEE"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.35,
+      "hidden_signal_to_verify": "Whether corporate PPA demand, project pipeline, financing costs and interconnection access create attractive incremental returns.",
+      "next_evidence": "Review Brookfield Renewable corporate PPA disclosures, project backlog, development returns, debt maturity profile, power-price escalators, interconnection status and hyperscaler/customer references.",
+      "node": "contracted_renewable_power_assets_and_corporate_power_procurement",
+      "relationship": "Potential beneficiary of corporate clean-power procurement and long-duration contracted generation, but exposure is financing-cost and project-return dependent rather than a hard equipment bottleneck.",
+      "ticker": "BEPC"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.33,
+      "hidden_signal_to_verify": "Whether gross margins, backlog quality, battery supply, warranty risk and software attachment support a bottleneck thesis.",
+      "next_evidence": "Check Fluence latest 10-Q/10-K, backlog, order intake, gross-margin bridge, warranty reserves, battery sourcing, customer concentration, software attach rate and project execution issues.",
+      "node": "battery_energy_storage_and_grid_flexibility",
+      "relationship": "Underfollowed small-cap candidate for grid-scale battery storage systems, controls and energy software that could benefit from grid flexibility needs created by load growth and renewable integration.",
+      "ticker": "FLNC"
+    },
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 42,
+      "hidden_signal_to_verify": "Whether liquidity, bookings, software gross margins, customer retention, storage assets under management, and path to profitability are credible enough for the company to survive as a grid-software candidate.",
+      "next_evidence": "Review STEM FY2025 10-K, latest 10-Q, debt maturities, cash burn, PowerTrack/Athena customer disclosures, backlog/bookings, software-only revenue mix, and customer-renewal metrics.",
+      "node": "energy_software_and_storage_optimization",
+      "relationship": "Speculative exposure to software-enabled storage optimization and managed services for hybrid solar/storage assets; could matter if grid-flexibility software becomes a bottleneck, but the company relationship is currently dominated by liquidity, profitability, and going-concern risk rather than confirmed chokepoint control.",
+      "ticker": "STEM"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 58,
+      "hidden_signal_to_verify": "Whether demand recovery, battery attach rates, grid-services software, tariff/supply-chain shifts, and virtual-power-plant participation can become material versus cyclic residential solar weakness.",
+      "next_evidence": "Check FY2025 10-K and latest earnings for U.S. manufacturing mix, battery revenue, grid-services revenue, installer/channel inventory, sell-through, margin stabilization, and tariff/warranty cost disclosures.",
+      "node": "distributed_energy_inverters_batteries_and_grid_edge_management",
+      "relationship": "Grid-edge distributed energy exposure through microinverters, batteries, EV charging, cloud monitoring, load control, and grid-services framing. Relationship to the Energy and Power Chain is real but indirect: it is more residential/distributed flexibility than AI data-center critical-path power infrastructure.",
+      "ticker": "ENPH"
+    },
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 41,
+      "hidden_signal_to_verify": "Whether channel inventory, liquidity, gross margins, customer concentration, new product adoption, and end-market demand stabilize enough to make power-electronics exposure investable for further research.",
+      "next_evidence": "Review FY2025 10-K, Q1/Q2 2026 results, inventory days, gross margin, cash and convertible-debt position, European channel commentary, and SolarEdge Nexis adoption.",
+      "node": "solar_inverters_power_electronics_and_distributed_storage",
+      "relationship": "Power-electronics and inverter exposure to distributed generation/storage, but currently a speculative recovery candidate due to prior channel inventory, losses, and margin pressure. Relevant as a power-electronics recovery check, not yet as a confirmed bottleneck supplier.",
+      "ticker": "SEDG"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 55,
+      "hidden_signal_to_verify": "Whether commercial/industrial, telecom, data-center backup, grid-services, and distributed-energy demand outweigh residential outage-cycle volatility.",
+      "next_evidence": "Verify latest GNRC 10-K/10-Q segment data, C&I backlog, data-center shipment disclosures, ecobee/grid-services scale, residential channel inventory, and margin by product line.",
+      "node": "backup_generation_distributed_power_and_resilience",
+      "relationship": "Backup generators and distributed power products may benefit from rising outages, lower power quality, telecom/critical-infrastructure backup, and possible data-center backup demand. The relationship is plausible but mixed because residential-generator cyclicality can swamp commercial/industrial and grid-services signals.",
+      "ticker": "GNRC"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 52,
+      "hidden_signal_to_verify": "Whether utility/transmission/electrical-infrastructure customer mix is material, whether volumes/pricing improve with grid buildout, and whether galvanizing capacity is constrained.",
+      "next_evidence": "Check AZZ FY2025 annual report, FY2026 quarterly filings, segment customer mix, AVAIL JV exposure, transmission/electrical steel end-market language, pricing, capacity utilization, and acquisition integration.",
+      "node": "transmission_materials_galvanizing_and_infrastructure_durability",
+      "relationship": "Second-order infrastructure supplier potentially exposed to transmission, utility, and electrical infrastructure through hot-dip galvanizing and coatings for steel components. The hidden angle is that a metal-coatings industry label may obscure grid-buildout leverage.",
+      "ticker": "AZZ"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 57,
+      "hidden_signal_to_verify": "Whether data-center, telecom, utility, and critical-power demand is growing faster than legacy industrial and motive-power applications.",
+      "next_evidence": "Review EnerSys FY2025 annual report, FY2026 quarterly reports, Energy Systems segment growth, reserve-power customer mix, data-center/telecom disclosures, lithium versus lead-acid mix, pricing, backlog, and margin trend.",
+      "node": "critical_power_batteries_backup_power_and_stored_energy_systems",
+      "relationship": "Industrial battery and stored-energy supplier with plausible exposure to data-center, telecom, utility, defense, and other mission-critical backup applications. Relationship is potentially underfollowed because the company is usually categorized as industrial batteries rather than data-center/critical-power infrastructure.",
+      "ticker": "ENS"
+    },
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 31,
+      "hidden_signal_to_verify": "Whether the company has credible grid-storage or UPS customers, scale, positive margins, balance-sheet quality, differentiated technology, and reliable controls.",
+      "next_evidence": "Review CBAT FY2025 10-K, latest 20-F/10-Q equivalents if applicable, customer concentration, model 40135 validation status, sodium battery disclosures, gross margin, inventory write-downs, internal-control deficiencies, and related-party risks.",
+      "node": "battery_storage_manufacturing_speculative_shadow",
+      "relationship": "Speculative micro-cap battery manufacturer with claimed exposure to residential energy supply, UPS, and other high-power battery markets, but current evidence does not validate it as a grid-storage chokepoint. Financial quality, gross margin, customer validation, and governance/internal-control risk are key gates.",
+      "ticker": "CBAT"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 50,
+      "hidden_signal_to_verify": "Whether power, transmission, utility, water-for-data-centers, and permitting work are material to backlog, revenue growth, and margins.",
+      "next_evidence": "Review TTEK FY2025 annual report, segment backlog, water and high-end consulting exposure, utility/transmission project wins, data-center water references, and public-sector permitting demand.",
+      "node": "permitting_engineering_water_and_regulatory_execution",
+      "relationship": "Engineering, consulting, water, environmental, and permitting exposure could benefit from power, transmission, data-center water, and regulatory execution bottlenecks. The relationship is indirect and depends on whether energy/power/data-center-adjacent work is material in backlog and margins.",
+      "ticker": "TTEK"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "reference",
+      "evidence_quality": 54,
+      "hidden_signal_to_verify": "Whether power/grid backlog is material enough versus broader transportation, water, public infrastructure, facilities, and environmental work.",
+      "next_evidence": "Check AECOM FY2025 annual report, design backlog by end market, energy/water/facilities mix, data-center or utility project awards, and book-to-burn trends.",
+      "node": "infrastructure_engineering_program_management_and_advisory",
+      "relationship": "Broad infrastructure professional-services benchmark for planning, engineering design, construction management, program management, and advisory work. Useful as a reference leader for infrastructure execution, but not a pure power-chain bottleneck unless energy/grid backlog is demonstrably material.",
+      "ticker": "ACM"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "reference",
+      "evidence_quality": 49,
+      "hidden_signal_to_verify": "Whether nuclear, power, grid, clean-energy, and energy-transition work is material, margin-accretive, and growing in backlog after portfolio changes.",
+      "next_evidence": "Review Jacobs FY2025 10-K, segment reporting after separation activity, nuclear/clean-energy backlog, Department of Energy or nuclear decommissioning contracts, and margin mix.",
+      "node": "technical_services_nuclear_energy_and_project_management",
+      "relationship": "Broad technical-services and engineering exposure with possible nuclear, clean-energy, remediation, and infrastructure program-management relevance. The relationship is plausible but buried inside a diversified services portfolio and affected by portfolio changes.",
+      "ticker": "J"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 82,
+      "hidden_signal_to_verify": "Whether data-center mechanical/electrical backlog remains material, whether labor availability constrains growth, and whether fixed-price contracts or project delays affect margins.",
+      "next_evidence": "Track Q1/Q2 2026 backlog, technology-sector backlog mix, mechanical versus electrical margin, modular operations, labor availability, project concentration, and contract-risk disclosures.",
+      "node": "data_center_mechanical_electrical_cooling_and_execution_labor",
+      "relationship": "Directly mapped to data-center and technology-sector mechanical/electrical execution demand. FIX appears to be one of the best-supported relationships in this chunk because its 2025 filings report strong technology-sector demand, large electrical revenue growth, and significant backlog growth tied to technology-sector projects.",
+      "ticker": "FIX"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 43,
+      "hidden_signal_to_verify": "Whether data-center, utility, energy-infrastructure, inspection, and fire-protection customers are large enough to affect APG growth and margins.",
+      "next_evidence": "Review APG FY2025 annual report, Safety Services and Specialty Services customer mix, recurring revenue percentage, data-center/fire-suppression exposure, utility services exposure, acquisitions, and margin profile.",
+      "node": "safety_specialty_services_fire_protection_and_infrastructure_services",
+      "relationship": "Potential second-order beneficiary of data-center, utility, and energy-infrastructure buildout through specialty services, life-safety, inspection, fire protection, and infrastructure maintenance. Evidence is weaker in this call because the visible candidate chunk is truncated and company-specific power/data-center materiality has not been fully verified.",
+      "ticker": "APG"
+    },
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 18,
+      "hidden_signal_to_verify": "Whether utility, data-center and power-project construction is a measurable demand driver.",
+      "next_evidence": "Check WSC 10-K/10-Q segment disclosures, earnings-call mentions of data centers, utilities, power, grid, energy infrastructure, and customer-end-market mix; look for backlog or rental-rate strength tied to mega-project construction rather than broad nonresidential construction.",
+      "node": "construction_support_for_grid_power_and_data_center_projects",
+      "relationship": "Potential provider of modular space and temporary infrastructure for large construction sites related to utilities, substations, data centers, generation projects, and industrial power buildouts. Relationship is indirect: WSC would benefit only if theme-driven projects create measurable incremental demand for temporary workspace, storage, sanitation, and site logistics.",
+      "ticker": "WSC"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 42,
+      "hidden_signal_to_verify": "Whether power, nuclear and cooling-related orders are material and whether qualification requirements create pricing power.",
+      "next_evidence": "Verify FLS revenue by end market, aftermarket mix, nuclear qualification references, power backlog, order growth, book-to-bill, and margin commentary in recent filings and investor presentations; search for customer/project awards tied to nuclear uprates, gas plants, LNG, cooling-water systems, or data-center thermal infrastructure.",
+      "node": "thermal_power_components_nuclear_flow_control_and_cooling_systems",
+      "relationship": "Potential supplier of pumps, valves, seals, actuation, and flow-control equipment into power generation, nuclear, cooling, LNG, and industrial energy systems. The bottleneck angle is qualification and reliability: mission-critical pumps/valves can have long validation cycles and failure-cost asymmetry, but materiality to AI-era power demand remains unverified.",
+      "ticker": "FLS"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 38,
+      "hidden_signal_to_verify": "Whether gas-generation, LNG, hydrogen or backup-fuel infrastructure demand is materially linked to power-load growth.",
+      "next_evidence": "Check GTLS backlog and orders by end market; isolate power generation, LNG infrastructure, natural-gas processing, hydrogen, and backup-fuel systems; verify whether management explicitly links demand to data centers, grid reliability, peak power, or gas-fired generation additions.",
+      "node": "gas_lng_hydrogen_and_backup_fuel_infrastructure",
+      "relationship": "Potential second-order supplier of cryogenic tanks, heat exchangers, process equipment, liquefaction, LNG, hydrogen, and specialty gas infrastructure that could support dispatchable generation fuel systems or energy-security projects. Relationship is plausible but not yet proven as an AI/data-center power chokepoint.",
+      "ticker": "GTLS"
+    },
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 16,
+      "hidden_signal_to_verify": "Whether power-sector gas demand changes upstream customer capex or services demand in a measurable way.",
+      "next_evidence": "Verify WFRD geographic and commodity exposure, customer capex sensitivity, natural-gas basin exposure, and management commentary on gas demand from power; compare with EIA gas-power demand forecasts and upstream producer capex plans before treating it as theme-linked.",
+      "node": "upstream_gas_supply_chain_and_energy_services",
+      "relationship": "Speculative indirect exposure to higher natural-gas production or drilling activity if dispatchable gas-fired power demand increases. This sits two or more steps away from the grid/data-center bottleneck and may be dominated by oilfield cycle variables rather than power-chain demand.",
+      "ticker": "WFRD"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "reference",
+      "evidence_quality": 45,
+      "hidden_signal_to_verify": "Whether announced power-plant/data-center load translates into pipeline expansions, compression projects, contracts and approved returns.",
+      "next_evidence": "Check KMI project backlog, natural-gas transport volumes, power-sector customer commentary, expansion capex, contract tenor, FERC filings, and any announced pipelines or compressor projects tied to power plants or data-center load zones.",
+      "node": "natural_gas_pipeline_capacity_compression_and_contracting_for_dispatchable_generation",
+      "relationship": "Reference midstream operator for testing whether AI/data-center and electrification load growth converts into pipeline expansions, compressor additions, long-term transport contracts, and higher contracted returns. Not underfollowed, but useful as a benchmark for the gas-infrastructure leg of the theme.",
+      "ticker": "KMI"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "reference",
+      "evidence_quality": 45,
+      "hidden_signal_to_verify": "Whether power-generation demand materially increases contracted pipeline volumes, expansion backlog and return opportunities.",
+      "next_evidence": "Review WMB natural-gas transmission backlog, power-generation demand commentary, Northeast/Southeast corridor constraints, customer contracts, FERC filings, and expansion projects; compare valuation and consensus assumptions against KMI and other midstream peers.",
+      "node": "natural_gas_transmission_gathering_and_power_generation_fuel_supply",
+      "relationship": "Reference leader for natural-gas infrastructure exposure, especially if power-load growth increases contracted transmission volumes or expansion opportunities. Useful for validating whether the market is already pricing gas-pipeline beneficiaries or whether smaller suppliers/contractors may offer cleaner underfollowed exposure.",
+      "ticker": "WMB"
+    },
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 24,
+      "hidden_signal_to_verify": "Whether grid products have scalable orders, utility/customer validation and margin contribution.",
+      "next_evidence": "Verify AMSC revenue mix between grid and wind, customer concentration, order backlog, utility deployments, gross margin, repeat orders, product certifications, and whether grid revenue is tied to substations, transmission stability, renewables integration, or data-center-related load growth.",
+      "node": "niche_grid_power_electronics_resilience_and_utility_power_quality",
+      "relationship": "Speculative niche grid-technology candidate that may supply grid systems, power electronics, controls, or resilience products relevant to power quality, transmission constraints, or utility modernization. Commercial scalability and margin contribution must be proven before treating it as a chokepoint supplier.",
+      "ticker": "AMSC"
+    },
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 20,
+      "hidden_signal_to_verify": "Whether manufacturing scale, customer orders, financing, product reliability and unit economics are credible.",
+      "next_evidence": "Check EOSE cash runway, debt and DOE-loan status if applicable, factory scale-up, shipped MWh, backlog quality, cancellations, warranty reserves, field reliability, gross margin trajectory, and whether customers are utilities/IPPs with financeable projects rather than nonbinding pipeline.",
+      "node": "long_duration_storage_for_grid_reliability_and_flexibility",
+      "relationship": "Speculative long-duration storage candidate for grid reliability, renewable firming, and flexible capacity. The thematic need is real at the grid level, but company-specific survival depends on manufacturing execution, financing, product reliability, customer acceptance, and unit economics.",
+      "ticker": "EOSE"
+    },
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 12,
+      "hidden_signal_to_verify": "Whether licensing, technology readiness, customer contracts, fuel supply and funding are real enough for later-layer survival.",
+      "next_evidence": "Check NRC pre-application/licensing status, reactor design maturity, fuel strategy, cash burn, customer agreements versus MOUs, engineering partners, construction timeline, regulatory milestones, and insider/promotional risk; compare with qualified nuclear fuel and component suppliers.",
+      "node": "microreactor_development_and_advanced_nuclear_sentiment",
+      "relationship": "Speculative advanced nuclear shadow candidate. It is thematically adjacent to future firm clean power for data centers and remote loads, but may reflect market sentiment more than near-term supply-chain chokepoint value until licensing, technology readiness, fuel access, funding, and customer contracts are verified.",
+      "ticker": "NNE"
+    },
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 24,
+      "hidden_signal_to_verify": "Whether NRC licensing, fuel access, project financing, customer contracts and construction timelines support commercial deployment.",
+      "next_evidence": "Verify current NRC licensing timeline, fuel supply/HALEU access, site control, customer contracts, project financing, planned MW deployment schedule, construction partners, cash runway, and whether valuation already discounts commercial success.",
+      "node": "advanced_reactor_development_and_future_clean_firm_power_supply",
+      "relationship": "Speculative advanced nuclear developer tied to future data-center and industrial demand for clean firm power. Relationship to the current bottleneck is more long-duration optionality than near-term equipment supply, with survival depending on NRC licensing, fuel availability, financing, construction execution, and real customer contracts.",
+      "ticker": "OKLO"
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "evidence": [
+    {
+      "claim": "AI, data centers, advanced manufacturing, and broad electrification are important drivers of rising electricity demand.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "source_title": "IEA Electricity 2026 - Demand",
+      "source_url": "https://www.iea.org/reports/electricity-2026/demand",
+      "used_for": [
+        "demand_durability",
+        "theme_context"
+      ]
+    },
+    {
+      "claim": "Global data-center investment nearly doubled since 2022 and reached about half a trillion dollars in 2024; building new transmission lines can take four to eight years in advanced economies; wait times for critical components such as transformers and cables have doubled in the past three years.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "source_title": "IEA Energy and AI - Executive Summary",
+      "source_url": "https://www.iea.org/reports/energy-and-ai/executive-summary%C2%A0",
+      "used_for": [
+        "bottleneck_severity",
+        "demand_durability",
+        "services_and_permitting_candidates"
+      ]
+    },
+    {
+      "claim": "NERC's 2025 Long-Term Reliability Assessment highlights rising resource-adequacy risks as electricity demand grows from data centers, industrialization, electrification, and DER adoption.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "source_title": "NERC 2025 Long-Term Reliability Assessment",
+      "source_url": "https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf",
+      "used_for": [
+        "demand_durability",
+        "grid_and_generation_context"
+      ]
+    },
+    {
+      "claim": "DOE's supply-chain page states that distribution transformer lead times increased from three to six months in 2019 to 12 to 30 months in 2023, driven by supply, labor, and material constraints.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "source_title": "DOE Supply Chain and Market Analysis",
+      "source_url": "https://www.energy.gov/oe/supply-chain-and-market-analysis",
+      "used_for": [
+        "bottleneck_severity",
+        "grid_component_context"
+      ]
+    },
+    {
+      "claim": "The company-level hidden signals, market-cap buckets, attention levels, and initial candidate classifications used in this Layer 3 ranking came from the provided candidate chunk rather than independent source verification in this call.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "source_title": "Provided candidate chunk",
+      "source_url": "provided_cached_evidence",
+      "used_for": [
+        "company_candidate_metadata",
+        "initial_discovery_lane",
+        "hidden_signal_to_verify"
+      ]
+    }
+  ],
+  "layer": 3,
+  "memory_update": [
+    {
+      "reason": "Best combination of underfollowed discovery, plausible hidden bottleneck exposure, and testable evidence paths within this candidate chunk.",
+      "tickers": [
+        "FIX",
+        "FLS",
+        "GTLS",
+        "TTEK",
+        "APG"
+      ],
+      "type": "promote_for_layer4"
+    },
+    {
+      "reason": "Useful benchmarks for midstream fuel infrastructure and engineering services, but lower underfollowed-discovery or public-market-purity scores.",
+      "tickers": [
+        "KMI",
+        "WMB",
+        "ACM",
+        "J"
+      ],
+      "type": "keep_as_reference_context"
+    },
+    {
+      "reason": "Theme linkage is indirect or speculative; requires stronger customer, backlog, margin, or balance-sheet evidence before promotion.",
+      "tickers": [
+        "WSC",
+        "WFRD",
+        "CBAT"
+      ],
+      "type": "shadow_only_until_verified"
+    },
+    {
+      "items": [
+        "For FIX, verify data-center mechanical/electrical backlog, cooling work, labor constraints, and fixed-price contract risk.",
+        "For FLS, verify power, nuclear, cooling, and flow-control order mix plus qualification-driven pricing power.",
+        "For GTLS, verify whether LNG, hydrogen, cryogenic, or backup-fuel infrastructure orders are linked to power-load growth.",
+        "For TTEK and APG, verify whether permitting, utility, critical-infrastructure, data-center, inspection, and safety services are material to growth and margins.",
+        "For KMI and WMB, verify whether data-center or power-generation demand is creating identifiable pipeline expansions, compression projects, or contracted returns."
+      ],
+      "type": "next_verification_tasks"
+    }
+  ],
+  "ranked_candidates": [
+    {
+      "attention_level": "medium_attention",
+      "company": "Comfort Systems USA, Inc.",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether data-center mechanical/electrical backlog is material and whether labor availability and fixed-price contracts affect margins.",
+      "main_evidence_gap": "Need primary-source confirmation from recent filings, earnings transcripts, investor presentations, or backlog disclosures that data-center mechanical/electrical and cooling work is a material growth and margin driver rather than incidental construction exposure.",
+      "market_cap_bucket": "large_cap",
+      "rank": 1,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 4
+      },
+      "ticker": "FIX",
+      "total_score": 32,
+      "why_prioritized": "Ranked first because the candidate sits near a practical execution bottleneck: mechanical/electrical contracting, cooling installation, and labor-intensive buildout for high-power data centers. The broad demand driver is supported by cached IEA/NERC evidence on data-center and electrification-driven load growth, while Layer 2 identifies qualified electrical construction labor and commissioning as a likely bottleneck. The company-specific link remains a hypothesis, but it is directly testable through backlog mix, data-center revenue commentary, labor constraints, fixed-price contract exposure, and margin performance.",
+      "why_underfollowed": "Usually classified as a building systems or mechanical contractor rather than as a data-center power and thermal execution chokepoint."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Flowserve Corporation",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether power, nuclear and cooling-related orders are material and whether qualification requirements create pricing power.",
+      "main_evidence_gap": "Need segment-level order, backlog, and customer evidence showing that power generation, nuclear, cooling, or grid-adjacent infrastructure is large enough to change growth or margins.",
+      "market_cap_bucket": "large_cap",
+      "rank": 2,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 4
+      },
+      "ticker": "FLS",
+      "total_score": 31,
+      "why_prioritized": "High priority because pumps, valves, and flow-control equipment can be required in thermal power, nuclear, industrial cooling, and process systems, all of which may benefit from durable power-load growth. Supplier qualification, safety requirements, and installed-base service needs could create a real chokepoint if power and nuclear orders are material. This remains a hypothesis until order mix and end-market exposure are verified.",
+      "why_underfollowed": "Usually tracked as an industrial flow-control company rather than as a power, nuclear, and cooling infrastructure supplier."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Chart Industries, Inc.",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether gas-generation, LNG, hydrogen or backup-fuel infrastructure demand is materially linked to power-load growth.",
+      "main_evidence_gap": "Need recent order/backlog detail showing that power generation, grid reliability, backup-fuel infrastructure, or data-center-related gas systems are material contributors.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 3,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 4
+      },
+      "ticker": "GTLS",
+      "total_score": 31,
+      "why_prioritized": "Ranks highly because cryogenic, LNG, hydrogen, and specialty gas infrastructure could become second-order enablers if dispatchable generation and backup-fuel systems expand to support data-center and industrial load growth. The candidate has a plausible hidden supply-chain signal and is more underfollowed than obvious electrical-equipment leaders. However, the power-chain thesis depends on proving a measurable link between load growth and orders for Chart's specific equipment.",
+      "why_underfollowed": "Often viewed through LNG, industrial gas, and hydrogen cycles rather than AI-era dispatchable power and backup-fuel infrastructure."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Tetra Tech, Inc.",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether power, transmission, utility, water-for-data-centers and permitting work are material to backlog and margins.",
+      "main_evidence_gap": "Need primary-source disclosure that power, transmission, utility, and data-center-adjacent water/permitting work are material enough to affect growth and profitability.",
+      "market_cap_bucket": "large_cap",
+      "rank": 4,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 2,
+        "risk_clarity": 4,
+        "supplier_scarcity": 2,
+        "underfollowed_discovery": 3
+      },
+      "ticker": "TTEK",
+      "total_score": 28,
+      "why_prioritized": "Prioritized as a services and permitting bottleneck candidate. Grid, transmission, utility, environmental review, and water infrastructure planning can be gating factors for large-load projects. The broad theme is supported by cached IEA evidence that transmission build times are long and component wait times have worsened. The company-specific exposure is not yet proven, so the thesis should be tested through backlog mix, power/transmission revenue, water-for-data-centers exposure, and margin contribution.",
+      "why_underfollowed": "Usually viewed as environmental, water, and engineering consulting rather than as a power-chain permitting and execution bottleneck."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "APi Group Corporation",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether data-center, utility and energy-infrastructure customers are large enough to affect growth and margins.",
+      "main_evidence_gap": "Need disclosure tying growth, backlog, recurring inspection revenue, or margin expansion to data centers, utilities, power infrastructure, or critical-energy facilities.",
+      "market_cap_bucket": "large_cap",
+      "rank": 5,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 3,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 2,
+        "risk_clarity": 3,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 4
+      },
+      "ticker": "APG",
+      "total_score": 28,
+      "why_prioritized": "Scores well on underfollowed discovery because fire protection, inspection, life-safety, and specialty services are required for critical facilities but rarely appear in AI power-chain narratives. The linkage is plausible for data centers and energy infrastructure, yet company-specific evidence remains thin. This is a good Serenity-style hidden-node candidate if filings or customer commentary prove meaningful critical-infrastructure exposure.",
+      "why_underfollowed": "Safety and inspection services are rarely discussed as AI power-chain beneficiaries despite being required in data centers and critical infrastructure."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Kinder Morgan, Inc.",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether announced power-plant/data-center load translates into pipeline expansions, compression projects, contracts and approved returns.",
+      "main_evidence_gap": "Need project-level evidence that data-center or power-generation demand is driving incremental pipeline expansions, compression, firm transportation contracts, or regulated returns.",
+      "market_cap_bucket": "large_cap",
+      "rank": 6,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 2,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 2
+      },
+      "ticker": "KMI",
+      "total_score": 28,
+      "why_prioritized": "Useful reference candidate for the dispatchable-generation fuel-supply node. If AI/data-center and industrial load growth drives new gas-fired generation, pipeline capacity, compression, and contracted expansions could matter. It scores lower on underfollowed discovery because it is a well-known midstream company, but the specific data-center and power-load linkage may still be under-modeled.",
+      "why_underfollowed": "Not obscure, but data-center and power-load linkage may be under-modeled inside traditional midstream analysis."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "The Williams Companies, Inc.",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether power-generation demand materially increases contracted pipeline volumes, expansion backlog and return opportunities.",
+      "main_evidence_gap": "Need company-specific evidence that incremental growth projects are linked to power-sector load growth, data centers, or new gas-fired generation rather than general gas demand.",
+      "market_cap_bucket": "large_cap",
+      "rank": 7,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 2,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 2
+      },
+      "ticker": "WMB",
+      "total_score": 28,
+      "why_prioritized": "Included as a reference candidate for natural-gas pipeline infrastructure tied to dispatchable generation. The theme link is plausible if power-generation demand increases contracted volumes or expansion backlog. However, the name is not obscure and the public-market story is broader than data-center power demand, so it ranks behind more hidden execution and component candidates.",
+      "why_underfollowed": "Not strongly underfollowed, but the power-generation and data-center load linkage may be less visible than conventional midstream volume analysis."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "AECOM",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether power/grid backlog is material enough versus broader transportation, water and public infrastructure work.",
+      "main_evidence_gap": "Need power/grid-specific backlog, revenue, and margin disclosure to show the theme is material relative to AECOM's broader infrastructure portfolio.",
+      "market_cap_bucket": "large_cap",
+      "rank": 8,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 2,
+        "public_market_purity": 2,
+        "risk_clarity": 4,
+        "supplier_scarcity": 2,
+        "underfollowed_discovery": 1
+      },
+      "ticker": "ACM",
+      "total_score": 25,
+      "why_prioritized": "Useful as a broad engineering and infrastructure services benchmark, especially for permitting, grid planning, and public infrastructure execution. It ranks below Tetra Tech because it appears less underfollowed and less pure to the power-chain chokepoint in this chunk. The thesis is testable but likely diluted by transportation, water, and broader public infrastructure exposure.",
+      "why_underfollowed": "Not strongly underfollowed; included as a broad services benchmark rather than a pure chokepoint."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Jacobs Solutions Inc.",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether nuclear/power/grid work is material, margin-accretive and growing in backlog.",
+      "main_evidence_gap": "Need evidence from filings or presentations that nuclear, power, grid, or energy infrastructure work is material and growing faster than the broader business.",
+      "market_cap_bucket": "large_cap",
+      "rank": 9,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 3,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 2,
+        "public_market_purity": 2,
+        "risk_clarity": 4,
+        "supplier_scarcity": 2,
+        "underfollowed_discovery": 2
+      },
+      "ticker": "J",
+      "total_score": 25,
+      "why_prioritized": "A credible reference for technical services, nuclear services, and infrastructure project management, but the power-chain exposure is likely buried inside broader professional-services segments. It remains worth tracking if nuclear life-extension, grid, or energy program work becomes visible in backlog or margin commentary.",
+      "why_underfollowed": "Power-chain exposure may be buried inside broad technical-services segments."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "WillScot Holdings Corporation",
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Whether utility, data-center and power-project construction is a measurable demand driver.",
+      "main_evidence_gap": "Need customer, end-market, or regional demand evidence showing that grid, power, or data-center construction sites are a measurable contributor to utilization, pricing, or growth.",
+      "market_cap_bucket": "large_cap",
+      "rank": 10,
+      "scores": {
+        "bottleneck_severity": 1,
+        "demand_durability": 3,
+        "evidence_quality": 1,
+        "falsifiability": 3,
+        "mispricing_potential": 3,
+        "public_market_purity": 1,
+        "risk_clarity": 3,
+        "supplier_scarcity": 1,
+        "underfollowed_discovery": 3
+      },
+      "ticker": "WSC",
+      "total_score": 19,
+      "why_prioritized": "Retained only as a speculative second-order construction-support candidate. Temporary modular space and site infrastructure could benefit from large data-center, grid, utility, or power-project construction, but this is far from the critical power chokepoint and may be too diffuse to matter.",
+      "why_underfollowed": "Theme exposure, if any, is hidden and indirect through construction-site demand rather than power equipment."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Weatherford International plc",
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Whether power-sector gas demand changes upstream customer capex or services demand in a measurable way.",
+      "main_evidence_gap": "Need evidence that power-sector gas demand is causing measurable upstream capex, customer activity, or service demand specific to Weatherford rather than a generic oilfield-services cycle.",
+      "market_cap_bucket": "large_cap",
+      "rank": 11,
+      "scores": {
+        "bottleneck_severity": 1,
+        "demand_durability": 3,
+        "evidence_quality": 1,
+        "falsifiability": 3,
+        "mispricing_potential": 2,
+        "public_market_purity": 1,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2,
+        "underfollowed_discovery": 2
+      },
+      "ticker": "WFRD",
+      "total_score": 17,
+      "why_prioritized": "Low priority because the connection from AI/data-center load growth to upstream energy services is indirect. Gas demand for dispatchable power could eventually affect upstream capex, but this candidate is several steps removed from the immediate power-chain bottlenecks such as transformers, switchgear, interconnection, turbines, and electrical labor.",
+      "why_underfollowed": "Energy services may be ignored in AI power discussions, but the connection is indirect and needs proof."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "CBAK Energy Technology, Inc.",
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Whether the company has credible grid-storage customers, scale, margins, balance-sheet quality and differentiated technology.",
+      "main_evidence_gap": "Need hard evidence of credible grid-storage customers, revenue scale, margin durability, differentiated battery technology, and acceptable balance-sheet quality.",
+      "market_cap_bucket": "micro_cap",
+      "rank": 12,
+      "scores": {
+        "bottleneck_severity": 1,
+        "demand_durability": 2,
+        "evidence_quality": 1,
+        "falsifiability": 3,
+        "mispricing_potential": 3,
+        "public_market_purity": 2,
+        "risk_clarity": 1,
+        "supplier_scarcity": 1,
+        "underfollowed_discovery": 2
+      },
+      "ticker": "CBAT",
+      "total_score": 17,
+      "why_prioritized": "Lowest-priority shadow-list candidate. Battery storage is relevant to grid flexibility and data-center resilience, but this specific company has not yet been validated as a credible power-chain bottleneck. Micro-cap status, weak evidence quality, possible balance-sheet risk, and unclear customer quality prevent promotion beyond speculative monitoring.",
+      "why_underfollowed": "Low mindshare and likely low institutional coverage, but evidence quality is currently too weak for priority inclusion beyond a shadow list."
+    }
+  ],
+  "summary": "Within this candidate chunk, the highest Serenity research priority goes to underfollowed or semi-hidden execution bottlenecks that sit between AI/data-center load growth and physical power delivery: mechanical/electrical contracting, qualified cooling and facility execution, flow-control components for power and nuclear, cryogenic/gas infrastructure equipment, permitting/engineering, and critical-facility safety services. Reference midstream names remain useful context but score lower on underfollowed discovery. Speculative shadow names are retained only as low-priority verification targets because their linkage to the power-chain bottleneck is indirect or evidence-poor.",
+  "theme_id": "energy_and_power_chain"
+}

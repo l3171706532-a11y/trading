@@ -1,0 +1,181 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Vertiv Holdings Co",
+      "confidence": 0.9,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Track whether smaller suppliers are winning components, subsystems, commissioning work, or service roles inside Vertiv-like architectures rather than selling standalone HVAC or battery products.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Use Vertiv annual report product taxonomy and customer commentary as the reference checklist for later candidate validation: power train, thermal train, controls software, commissioning, maintenance, and safety.",
+      "node_relation": "Reference leader for integrated data-center power, thermal management, UPS, switchgear, BESS, monitoring, services, and liquid-cooling infrastructure.",
+      "sector_or_industry": "Critical digital infrastructure, data-center power and thermal systems",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference_leader",
+        "integration_stack"
+      ],
+      "theme_relation": "Direct exposure to AI data-center power-density and cooling-density problems; useful as the benchmark for what hyperscale customers appear to require from an integrated reliability stack.",
+      "ticker": "VRT",
+      "why_include": "Vertiv's investor materials describe a portfolio spanning critical power, UPS, power distribution, switchgear, BESS, monitoring/management software, thermal systems, liquid-cooling services, and electrical reliability services. This makes it the best public reference map for the node.",
+      "why_underfollowed": "Not underfollowed; included only as a context anchor so smaller suppliers can be compared against a known end-to-end architecture."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Modine Manufacturing Company",
+      "confidence": 0.86,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Segment-level order growth, backlog mix, customer concentration, gross-margin durability, capacity expansion for data-center products, and whether liquid-cooling wins are incremental rather than cannibalizing legacy chiller demand.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Pull recent 10-Q/earnings-call transcripts for data-center revenue mix, bookings, backlog duration, capex, and any hyperscaler or colocation customer references.",
+      "node_relation": "Supplier of data-center cooling solutions including chillers, condensers, fan walls, and liquid-cooling solutions for high-density computing.",
+      "sector_or_industry": "Thermal management, HVAC, heat exchangers, data-center cooling",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "thermal_management"
+      ],
+      "theme_relation": "Direct beneficiary candidate for AI/HPC heat-density increases where liquid cooling, hybrid cooling, low-water-use cooling, and heat rejection become site-level constraints.",
+      "ticker": "MOD",
+      "why_include": "Modine's 2026 10-K states that AI, machine learning, and high-performance computing trends increase heat loads and create need for high-density cooling solutions such as hybrid and liquid cooling. Its 2025 annual report also lists data-center cooling products including chillers, fan walls, condensers, and liquid-cooling solutions.",
+      "why_underfollowed": "Historically classified as an industrial thermal/HVAC manufacturer rather than a pure AI-infrastructure company; the data-center exposure can be hidden inside Climate Solutions and broader thermal-management labels."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Aspen Aerogels, Inc.",
+      "confidence": 0.55,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Evidence that PyroThin or related aerogel barriers are designed into stationary BESS containers used by data-center developers, hyperscalers, colocation providers, microgrid integrators, or battery OEMs supplying those customers.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "300m_to_1b",
+      "next_evidence": "Verify stationary-storage revenue, named ESS customers, UL/fire-testing certifications, product qualification cycles, and whether recent manufacturing disruptions affect supply reliability.",
+      "node_relation": "Potential second-order supplier for battery energy storage fire-safety and thermal-runaway mitigation using aerogel thermal barriers.",
+      "sector_or_industry": "Specialty materials, aerogel insulation, battery thermal barriers",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "fire_safety",
+        "evidence_needed"
+      ],
+      "theme_relation": "If data centers deploy more behind-the-meter BESS for peak shaving, backup, or grid-interconnection relief, fire propagation barriers and thermal safety materials may become certification and insurance gates.",
+      "ticker": "ASPN",
+      "why_include": "Aspen's filings and product materials state that its PyroThin thermal barriers are used for EV and energy storage system battery safety. The direct data-center linkage is not yet proven, but the material sits near a possible safety/certification chokepoint for grid-scale or site-level storage.",
+      "why_underfollowed": "Screened under specialty materials and EV battery supply chain rather than data-center infrastructure; potential data-center exposure may be hidden behind BESS safety, thermal runaway, and insurance/certification requirements."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Vertiv investor materials describe an end-to-end critical digital infrastructure portfolio and specifically list critical power, UPS, power distribution, switchgear, BESS, monitoring and management, software, liquid-cooling services, thermal services, and electrical reliability services.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "Vertiv Holdings Co. - Financials - Annual Reports",
+      "source_url": "https://investors.vertiv.com/financials/annual-reports/",
+      "ticker": "VRT"
+    },
+    {
+      "claim": "Vertiv's 2025 shareholder letter says its advantage is understanding interactions between power, thermal management, and compute, enabling system designs that optimize data-center performance.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "Vertiv Holdings Co. - 2025 Shareholder Letter",
+      "source_url": "https://investors.vertiv.com/financials/annual-reports/2026-Shareholder-Letter/",
+      "ticker": "VRT"
+    },
+    {
+      "claim": "Modine's 2026 10-K says AI, machine learning, and high-performance computing increase heat loads and the need for high-density cooling solutions such as hybrid and liquid cooling.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-06-01",
+      "source_title": "Modine Manufacturing Co. 2026 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000067347/000110465926066795/mod-20260331x10k.htm",
+      "ticker": "MOD"
+    },
+    {
+      "claim": "Modine announced the purchase of TMG Core intellectual property and assets to add single- and two-phase liquid immersion cooling technology for high-density data-center applications.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2024-01-02",
+      "source_title": "Modine Invests in Liquid Immersion Cooling Technology to Support High-Density Data Center Applications",
+      "source_url": "https://investors.modine.com/news/news-details/2024/Modine-Invests-in-Liquid-Immersion-Cooling-Technology-to-Support-High-Density-Data-Center-Applications/default.aspx",
+      "ticker": "MOD"
+    },
+    {
+      "claim": "Aspen Aerogels' 2026 10-K says its Advanced Thermal Barrier Center supports PyroThin thermal barriers that help optimize safety and performance of battery packs for EV and energy storage system markets.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03-13",
+      "source_title": "Aspen Aerogels, Inc. 2026 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1145986/000119312526106453/aspn-20251231.htm",
+      "ticker": "ASPN"
+    },
+    {
+      "claim": "Aspen's BESS fire-protection materials could become relevant to data-center site-level storage, but this requires verification of actual stationary-storage customers serving data-center or microgrid deployments.",
+      "claim_type": "hypothesis",
+      "confidence": 0.55,
+      "published_at": "",
+      "source_title": "Aspen Aerogels - Fire Protection for Battery Energy Storage Systems",
+      "source_url": "https://www.aerogel.com/industries/battery-energy-storage-systems-bess/",
+      "ticker": "ASPN"
+    },
+    {
+      "claim": "Web finance snapshot on 2026-06-08 showed Modine market capitalization of approximately $14.44 billion, placing it above the preferred small/mid-cap hunting range but still below mega-cap reference leaders.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance quote - Modine Manufacturing Co.",
+      "source_url": "web.finance:turn3finance0",
+      "ticker": "MOD"
+    },
+    {
+      "claim": "Web finance snapshot on 2026-06-08 showed Aspen Aerogels market capitalization of approximately $471.6 million, inside the Serenity discovery range but requiring speculative-risk labeling.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance quote - Aspen Aerogels Inc.",
+      "source_url": "web.finance:turn3finance2",
+      "ticker": "ASPN"
+    },
+    {
+      "claim": "Web finance snapshot on 2026-06-08 showed Vertiv market capitalization of approximately $118.3 billion, supporting its classification as a high-attention reference leader rather than an underfollowed discovery candidate.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-06-08",
+      "source_title": "Web finance quote - Vertiv Holdings Co.",
+      "source_url": "web.finance:turn3finance3",
+      "ticker": "VRT"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.86,
+      "text": "MOD should remain on the data_center_thermal_storage_controls watchlist despite market cap above the ideal range because filings directly connect AI/HPC heat loads to hybrid and liquid cooling demand.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.55,
+      "text": "ASPN is a speculative second-order candidate for BESS fire-safety and thermal-runaway barriers; survival in later layers requires proof of stationary ESS design-ins tied to data centers, microgrids, or hyperscaler suppliers.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Power-control and medium-voltage distribution candidates such as POWL require a separate focused pass; initial search evidence showed Powell announced a post-quarter data-center order exceeding $400 million, but it was not included due to the three-candidate limit.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Liquid cooling, heat rejection, battery storage, power controls, inverters, fire safety, and energy management software",
+  "node_id": "data_center_thermal_storage_controls",
+  "summary": "Layer 1B expansion for the site-level data-center reliability stack finds one high-attention reference leader and two less obvious public-market mappings. Vertiv remains the context anchor for integrated power, cooling, BESS, services, and monitoring. Modine is a cleaner thermal-management discovery candidate because its filings explicitly tie AI/HPC heat loads to hybrid and liquid cooling demand. Aspen Aerogels is a small-cap speculative shadow candidate: its direct evidence is strongest in EV and energy-storage-system battery thermal barriers, while the data-center link depends on whether BESS safety and fire-propagation mitigation become a procurement bottleneck for behind-the-meter data-center storage.",
+  "theme_id": "energy_power_chain"
+}
