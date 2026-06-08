@@ -1,0 +1,223 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Murata Manufacturing Co., Ltd.",
+      "confidence": 0.86,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether recent Murata product launches and order-book commentary explicitly tie high-capacitance/high-voltage MLCC demand to AI servers rather than broad automotive or consumer recovery.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check Murata FY2026 earnings materials, AI-server power module commentary, product data sheets for 0402 47uF X5R/X6S MLCCs, and customer qualification language.",
+      "node_relation": "Reference MLCC leader; evidence context says Murata is a major MLCC supplier and has advanced high-capacitance 0402-size MLCC products relevant to dense AI-server power stabilization.",
+      "sector_or_industry": "Electronic components / MLCCs / fine ceramics",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference_leader"
+      ],
+      "theme_relation": "AI servers require high counts of capacitors for power delivery, decoupling, and stabilization around accelerators, memory, networking, and voltage-regulation systems.",
+      "ticker": "MRAAY",
+      "why_include": "Needed as the reference leader for validating whether the AI-server MLCC bottleneck is real before moving upstream to dielectric powders.",
+      "why_underfollowed": "Not underfollowed; included as a context anchor because many upstream claims depend on Murata-class thin-layer MLCC demand."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "hypothesis",
+      "company": "Taiyo Yuden Co., Ltd.",
+      "confidence": 0.62,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "AI-server-specific MLCC revenue, high-capacitance/high-voltage product mix, allocation tightness, and whether Taiyo Yuden sources high-end BaTiO3 powder externally or in-house.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Pull latest Taiyo Yuden earnings deck, segment commentary, product roadmaps, and any distributor/OEM notes mentioning AI server MLCC demand.",
+      "node_relation": "MLCC manufacturer with public OTC access; official IR/product pages reference MLCCs and AI-society positioning, making it a plausible direct beneficiary if AI-server MLCC mix tightens.",
+      "sector_or_industry": "Electronic components / MLCCs",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potential second supplier beneficiary if AI-server board designs require more high-performance MLCCs and if hyperscaler/server OEM demand pulls capacity away from consumer/auto cycles.",
+      "ticker": "TYOYY",
+      "why_include": "Taiyo Yuden is less discussed than Murata/TDK but sits in the same MLCC supply layer and has US OTC access.",
+      "why_underfollowed": "It is usually categorized as a Japanese passive-component supplier rather than an AI infrastructure name, so AI-server exposure may be buried under broad electronics-cycle coverage."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Yageo Corporation",
+      "confidence": 0.71,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether Yageo’s AI-related passives are qualified in high-volume accelerator/server platforms and whether MLCC demand is constrained by external dielectric powder supply.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check Yageo/KEMET AI product briefs, order-book commentary, customer concentration, capacity expansion, and gross-margin change in ceramic capacitor lines.",
+      "node_relation": "Yageo is a passive-component supplier with MLCC products and acquired KEMET; distributor/product-highlight evidence explicitly frames Yageo Group products for AI hardware power needs.",
+      "sector_or_industry": "Passive components / MLCCs / resistors / capacitors / inductors",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "components",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potential AI-server passive-component beneficiary across MLCCs, inductors, resistors, and power-delivery passives rather than a pure BaTiO3 powder supplier.",
+      "ticker": "YAGOY",
+      "why_include": "It is a US OTC-accessible passive-components company with direct MLCC exposure and explicit AI-hardware marketing via Yageo/KEMET materials.",
+      "why_underfollowed": "Despite size, it is less central in US AI equity narratives than GPU/HBM/networking names and may be screened as a generic passive-component cyclical."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Vishay Intertechnology, Inc.",
+      "confidence": 0.47,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Whether Vishay MLCCs meet AI-server density, capacitance, voltage, and qualification requirements, and whether revenue has any accelerator/server OEM exposure.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review Vishay 10-K, capacitor segment filings, MLCC datasheets, distributor design-win notes, and conference-call mentions of AI servers/data centers.",
+      "node_relation": "US-listed passive-component supplier with official high-voltage MLCC and ceramic capacitor product lines; direct AI-server MLCC socket evidence is not yet established.",
+      "sector_or_industry": "Discrete semiconductors and passive components / ceramic capacitors",
+      "serenity_tags": [
+        "supply_chain",
+        "components",
+        "underfollowed",
+        "evidence_needed",
+        "speculative_shadow"
+      ],
+      "theme_relation": "Possible second-order beneficiary if AI-server power architecture increases demand for high-voltage/high-reliability ceramic capacitors and if Japanese/Korean/Taiwanese leaders face allocation limits.",
+      "ticker": "VSH",
+      "why_include": "Vishay is a rare NYSE-listed US-accessible passive-component name with MLCC products, which makes it useful as a shadow candidate for AI-server capacitor scarcity.",
+      "why_underfollowed": "It is typically viewed as a broad industrial/auto components cyclical, not an AI-server bottleneck supplier."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Murata Manufacturing is publicly traded on OTC as MRAAY and is described as an electronic components company focused on fine ceramics; recent third-party market data placed market capitalization around the large-cap range.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-05",
+      "source_title": "Murata Manufacturing Co Stock Price, News & Analysis",
+      "source_url": "https://www.stocktitan.net/overview/MRAAY",
+      "ticker": "MRAAY"
+    },
+    {
+      "claim": "Provided search context states Murata’s core business is MLCCs and highlights a 0402-size 47uF MLCC mass-production milestone aimed at high-density power stabilization near ICs.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "2026-05-31T08:04:19.000Z",
+      "source_title": "Murata: The Stock You Missed If You Only Bought GPUs and HBM in the AI Rally",
+      "source_url": "https://damnang2.substack.com/p/murata-the-stock-you-missed-if-you",
+      "ticker": "MRAAY"
+    },
+    {
+      "claim": "Taiyo Yuden has US OTC ticker TYOYY according to a public investing-data source; search snippets also link the company to MLCC demand commentary.",
+      "claim_type": "fact",
+      "confidence": 0.67,
+      "published_at": "2025-11",
+      "source_title": "Mizuho upgrades Taiyo Yuden stock to Buy on MLCC demand and margin expansion",
+      "source_url": "https://www.investing.com/news/analyst-ratings/mizuho-upgrades-taiyo-yuden-stock-to-buy-on-mlcc-demand-and-margin-expansion-93CH-4284877",
+      "ticker": "TYOYY"
+    },
+    {
+      "claim": "Taiyo Yuden official IR/product page includes language around supporting AI society and high-performance MLCCs.",
+      "claim_type": "fact",
+      "confidence": 0.68,
+      "published_at": "2026-04",
+      "source_title": "TAIYO YUDEN CO., LTD. Stock and Bond Information",
+      "source_url": "https://www.yuden.co.jp/ap/ir/stock_bond/index.html",
+      "ticker": "TYOYY"
+    },
+    {
+      "claim": "Yageo Corporation has a US OTC ADR ticker YAGOY according to Citigroup depositary receipt documentation.",
+      "claim_type": "fact",
+      "confidence": 0.73,
+      "published_at": "2025-08",
+      "source_title": "Yageo Corporation Depositary Receipt Notice",
+      "source_url": "https://depositaryreceiptsuat.citi.com/adr/guides/bookPdf.aspx?cusip=984326819&effectDt=2025-08-01&secId=YAGN3",
+      "ticker": "YAGOY"
+    },
+    {
+      "claim": "DigiKey product-highlight evidence says Yageo Group supports AI-driven hardware power needs and references KEMET MLCC products.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "",
+      "source_title": "Passive Solutions for Artificial Intelligence - YAGEO Group",
+      "source_url": "https://www.digikey.com/en/product-highlight/y/yageo/artificial-intelligence",
+      "ticker": "YAGOY"
+    },
+    {
+      "claim": "Vishay official product pages list high-voltage ceramic capacitors and MLCC products.",
+      "claim_type": "fact",
+      "confidence": 0.79,
+      "published_at": "",
+      "source_title": "High Voltage Ceramic Capacitors | Vishay",
+      "source_url": "https://www.vishay.com/en/capacitors/ceramic/high-voltage/",
+      "ticker": "VSH"
+    },
+    {
+      "claim": "Vishay may have second-order exposure to AI-server capacitor demand through high-voltage/high-reliability MLCCs, but explicit AI-server socket or customer evidence was not found in this pass.",
+      "claim_type": "hypothesis",
+      "confidence": 0.46,
+      "published_at": "",
+      "source_title": "VJ….W1HV High Voltage MLCC Commercial Series | Vishay",
+      "source_url": "https://www.vishay.com/en/product/28580",
+      "ticker": "VSH"
+    },
+    {
+      "claim": "Provided search context states Sakai Chemical is presented as a leading merchant supplier of MLCC dielectric powders, with claimed 25-28% barium titanate share and nano-hydrothermal BaTiO3 capability.",
+      "claim_type": "fact",
+      "confidence": 0.64,
+      "published_at": "2026-06-01T15:08:42.000Z",
+      "source_title": "Sakai Chemical: The Upstream Play to AI Server MLCCs",
+      "source_url": "https://stfbutnou.substack.com/p/sakai-chemical-the-upstream-play",
+      "ticker": ""
+    },
+    {
+      "claim": "Nippon Chemical Industrial official product evidence says high-purity barium carbonate is used as a raw material for barium titanate mainly used in MLCCs.",
+      "claim_type": "fact",
+      "confidence": 0.75,
+      "published_at": "",
+      "source_title": "High purity Barium Carbonate - Nippon Chemical Industrial",
+      "source_url": "https://www.nippon-chem.co.jp/en_products/search/index.php/item?cell003=Barium+Compounds&cell004=&id=13&label=1&name=High+purity+Barium+Carbonate",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.84,
+      "text": "MRAAY should remain the reference MLCC leader for this node; it is too large/high-attention for the underfollowed lane but necessary for triangulating AI-server MLCC demand.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.68,
+      "text": "TYOYY and YAGOY are the most plausible US OTC-accessible underfollowed MLCC/passive-component candidates found in this pass.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.47,
+      "text": "VSH is a NYSE-listed speculative shadow candidate: confirmed MLCC product exposure, but AI-server qualification and revenue relevance remain unproven.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "The strongest upstream BaTiO3 powder evidence points to Sakai Chemical, Nippon Chemical Industrial, and private Vibrantz/Ferro; clean US-listed exposure to sub-100nm barium titanate powder remains a coverage gap.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Layer 2 should separate MLCC makers from dielectric-powder suppliers and require evidence that AI-server demand is incremental rather than merely a recovery in automotive/consumer MLCC cycles.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "AI-server MLCCs and upstream barium titanate dielectric powders",
+  "node_id": "ai_server_mlcc_and_dielectric_powders",
+  "summary": "Layer 1B expansion for the AI-server MLCC / dielectric powder node found that the cleanest public-market exposure is still in non-US primary listings with US OTC access. The obvious context anchor is Murata, while the underfollowed lane should track Taiyo Yuden, Yageo, and Vishay as plausible MLCC/passive-component beneficiaries. The true upstream powder chokepoint appears to sit at Sakai Chemical, Nippon Chemical, and private Vibrantz/Ferro, but US-listed investable exposure to high-end sub-100nm BaTiO3 powder remains weak or indirect. No buy/sell recommendation is implied.",
+  "theme_id": "ai"
+}

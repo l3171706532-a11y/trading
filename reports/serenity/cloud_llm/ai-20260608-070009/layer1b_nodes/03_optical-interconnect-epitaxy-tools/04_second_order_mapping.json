@@ -1,0 +1,197 @@
+{
+  "candidates": [
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Veeco Instruments Inc.",
+      "confidence": 0.88,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether the $250M+ order flow converts into backlog/revenue and whether follow-on orders repeat after 2027 delivery acceleration.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-Q/10-K backlog, segment commentary, customer concentration language, and management comments on Lumina MOCVD and Spector IBD demand for InP lasers.",
+      "node_relation": "Supplies process equipment used in InP laser manufacturing, including MOCVD, ion-beam deposition and wet-processing tools.",
+      "sector_or_industry": "Semiconductor process equipment; compound-semiconductor deposition, ion-beam deposition and wafer processing",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "equipment",
+        "compound_semiconductor",
+        "underfollowed"
+      ],
+      "theme_relation": "AI data-center bandwidth growth pushes 800G/1.6T optical-transceiver demand, which pushes InP laser capacity additions and therefore tool demand.",
+      "ticker": "VECO",
+      "why_include": "Veeco directly disclosed more than $250M of equipment orders for manufacturing InP lasers, with a substantial portion tied to leading manufacturers of 800G and 1.6T optical transceivers for hyperscale data centers.",
+      "why_underfollowed": "It is usually screened as a diversified semiconductor equipment supplier, not as a pure AI optical-interconnect bottleneck name. The AI linkage is one layer upstream from transceiver vendors and two layers upstream from hyperscaler demand."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "AXT, Inc.",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether InP revenue growth is durable, customer-qualified outside China, and large enough to offset legacy handset, telecom, and raw-material cyclicality.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track quarterly InP revenue growth, export-permit disclosures, backlog, gross margin recovery, customer concentration, and any capacity-expansion or qualification commentary.",
+      "node_relation": "Supplies compound-semiconductor substrates, including indium phosphide wafers used in optical and optoelectronic devices.",
+      "sector_or_industry": "Compound semiconductor substrate wafers; InP, GaAs and germanium materials",
+      "serenity_tags": [
+        "materials",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "InP substrate availability is an upstream dependency for high-speed optical components and lasers used in AI data-center transceivers.",
+      "ticker": "AXTI",
+      "why_include": "AXT management stated that customers were using its InP substrates for high-speed optical components for AI interconnects and next-generation lasers for data-center transceivers. Later company quarterly material also cited strong InP demand from data-center applications.",
+      "why_underfollowed": "The company is a materials/substrate supplier with a messy end-market mix and China manufacturing/export-permit complexity, so it may be overlooked by investors focused on optical modules or laser vendors."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "hypothesis",
+      "company": "POET Technologies Inc.",
+      "confidence": 0.62,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Whether Foxconn/Luxshare or other partners move from design collaboration to volume purchase orders, revenue, yield data and repeat programs.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "300m_to_1b",
+      "next_evidence": "Check latest revenue, cash runway, customer purchase commitments, sampling-to-production timelines, and whether POET discloses named module customers or hyperscaler pull-through.",
+      "node_relation": "Develops optical engines and photonic integrated solutions for 800G, 1.6T and higher-speed optical modules; adjacent to laser integration and module architecture chokepoints rather than epitaxy-tool supply.",
+      "sector_or_industry": "Photonic integrated circuits and optical engines",
+      "serenity_tags": [
+        "photonics",
+        "components",
+        "speculative_shadow",
+        "evidence_needed",
+        "customer_dependency"
+      ],
+      "theme_relation": "If AI clusters require more optical interconnects and lower-power module architectures, POET could benefit through optical-engine design wins and partnerships.",
+      "ticker": "POET",
+      "why_include": "POET announced that Foxconn Interconnect Technology selected its optical engines for 800G and 1.6T pluggable modules targeting cutting-edge AI applications and high-speed data-center networks.",
+      "why_underfollowed": "It is smaller and more speculative than established laser/module vendors, with the key question being conversion from design wins and partnerships into material production revenue."
+    },
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Lumentum Holdings Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether Lumentum’s 1.6T and EML laser demand creates identifiable capex or supplier orders that benefit upstream names such as VECO, AXTI, or other MOCVD/substrate vendors.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review latest earnings-call references to InP laser capacity, datacom growth, capex, supplier constraints and customer concentration.",
+      "node_relation": "Reference demand anchor for InP lasers and high-speed optical technologies used in AI data-center networks.",
+      "sector_or_industry": "Optical components, photonic solutions, lasers and transceivers",
+      "serenity_tags": [
+        "demand",
+        "reference",
+        "laser",
+        "customer_anchor",
+        "supply_chain"
+      ],
+      "theme_relation": "Lumentum’s AI optical product roadmap helps validate demand for upstream InP epitaxy, laser capacity, substrate and tool-chain suppliers.",
+      "ticker": "LITE",
+      "why_include": "Lumentum publicly demonstrated AI infrastructure optical technologies at OFC 2026, including a 1.6T DR4 OSFP pluggable transceiver prototype using four 400G differential EML lasers.",
+      "why_underfollowed": "Not underfollowed; included only as a reference/context anchor because it sits closer to visible optical demand and can signal upstream pull for InP tools and substrates."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Veeco announced more than $250M of orders from multiple customers for Spector IBD, Lumina MOCVD and WaferEtch systems supporting InP laser manufacturing, with a substantial portion tied to 800G and 1.6T optical transceiver manufacturers for hyperscale data centers.",
+      "claim_type": "fact",
+      "confidence": 0.94,
+      "published_at": "2026-05-05",
+      "source_title": "Veeco Announces $250 Million+ in Equipment Orders for Manufacturing Indium Phosphide Lasers",
+      "source_url": "https://ir.veeco.com/news-and-events/news-details/2026/Veeco-Announces-250-Million-in-Equipment-Orders-for-Manufacturing-Indium-Phosphide-Lasers/default.aspx",
+      "ticker": "VECO"
+    },
+    {
+      "claim": "AXT management said customers were using its InP substrates for high-speed optical components for AI interconnects and that AXT was working with customers building next-generation lasers for data-center transceivers.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2024-05-02",
+      "source_title": "AXT, Inc. Announces First Quarter 2024 Financial Results",
+      "source_url": "https://investors.axt.com/Investors/news/news-details/2024/AXT-Inc.-Announces-First-Quarter-2024-Financial-Results/default.aspx",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "AXT’s Q3 2025 materials described a strong uptick in InP demand from data-center applications and reported that InP revenue grew more than 250% sequentially in that quarter.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2025-10-30",
+      "source_title": "AXT Investors - Financials - Quarterly Results",
+      "source_url": "https://investors.axt.com/Investors/financials/quarterly-results/default.aspx",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "POET announced that Foxconn Interconnect Technology selected POET optical engines for 800G and 1.6T optical transceiver modules aimed at AI applications and high-speed data-center networks.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2024-05-14",
+      "source_title": "POET Announces Design Win and Collaboration with Foxconn Interconnect Technology for High-speed AI Systems",
+      "source_url": "https://www.poet-technologies.com/news/2024-may-14",
+      "ticker": "POET"
+    },
+    {
+      "claim": "POET describes its optical engines as datacom links for AI clusters and hyperscale data centers, with 800G, 1.6T and 3.2T designs under development.",
+      "claim_type": "fact",
+      "confidence": 0.74,
+      "published_at": "",
+      "source_title": "About Us | POET Technologies",
+      "source_url": "https://www.poet-technologies.com/about-us",
+      "ticker": "POET"
+    },
+    {
+      "claim": "Lumentum said its OFC 2026 AI infrastructure showcase included a 1.6T DR4 OSFP pluggable transceiver prototype using four 400G differential EML lasers.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03-24",
+      "source_title": "Lumentum Demonstrates Industry-Leading Technologies and Products for Scale-Out, Scale-Up and Scale-Across AI Infrastructure at OFC 2026",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Demonstrates-Industry-Leading-Technologies-and-Products-for-Scale-Out-Scale-Up-and-Scale-Across-AI-Infrastructure-at-OFC-2026/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "The broad upstream thesis is that AI clusters drive optical-connectivity demand, which propagates to lasers, InP substrates, epitaxy and deposition tools; this was also reflected in the supplied cached Aixtron source describing the toolmaker layer behind the optical bottleneck.",
+      "claim_type": "hypothesis",
+      "confidence": 0.78,
+      "published_at": "2026-05-18",
+      "source_title": "Aixtron: The Toolmaker Behind the Optical Bottleneck",
+      "source_url": "https://jpthoughtsandgrowth.substack.com/p/aixtron-the-toolmaker-behind-the",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.9,
+      "text": "VECO should remain a priority underfollowed candidate for the optical_interconnect_epitaxy_tools node because it has direct company-disclosed InP laser equipment orders tied to 800G/1.6T hyperscale transceiver manufacturing.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "AXTI should be tracked as a substrate-side candidate, but later layers must stress-test export-permit risk, China manufacturing concentration, revenue materiality and whether InP demand is durable beyond a short inventory cycle.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.68,
+      "text": "POET belongs in the speculative_shadow lane: named design-win evidence exists, but survival requires proof of volume production, customer purchase commitments and material revenue.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "For this node, the most actionable US-listed upstream chain appears to be: hyperscaler AI bandwidth demand -> 800G/1.6T transceivers -> EML/CW lasers and optical engines -> InP substrates and epitaxy -> MOCVD/IBD/wet-process tools.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.74,
+      "text": "Aixtron appears highly relevant to MOCVD/compound-semiconductor epitaxy but was not included in the candidate list because this pass prioritized US-listed/common-share accessibility; verify whether US OTC ADR treatment is acceptable for future Serenity universe passes.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Optical interconnect and compound-semiconductor epitaxy tool chain: lasers, photonics, InP/GaAs epitaxy, and MOCVD/deposition tools",
+  "node_id": "optical_interconnect_epitaxy_tools",
+  "summary": "Layer 1B expansion found a compact US-listed universe around the optical-interconnect upstream chokepoint. The strongest underfollowed mapping is not the visible optical-module layer alone, but the production inputs needed for 800G/1.6T: InP laser manufacturing tools, InP/GaAs substrates, and optical-engine integration. VECO is the cleanest US-listed equipment candidate in this pass because it disclosed more than $250M of InP-laser manufacturing equipment orders tied to 800G/1.6T hyperscale data-center transceivers. AXTI is a direct substrate candidate with company statements linking InP substrate demand to AI interconnects, but export-permit/geopolitical risk must be tracked. POET is a smaller speculative optical-engine candidate with design-win evidence but needs volume/revenue verification. LITE is included as a high-attention reference anchor for InP laser demand and customer-pull verification rather than the primary underfollowed alpha lane.",
+  "theme_id": "ai"
+}

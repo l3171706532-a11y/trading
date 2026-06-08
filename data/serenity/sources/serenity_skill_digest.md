@@ -1,6 +1,6 @@
 # Serenity Skill Repository Digest
 
-Generated: 2026-06-07 08:41:31 UTC
+Generated: 2026-06-08 07:00:08 UTC
 
 Purpose: provide cached methodology context for cloud-side Serenity / chokepoint research runs.
 
@@ -1877,7 +1877,7 @@ This repo packages his public work into one self-contained research artifact:
 **period-by-period distillation**, and a ready-to-use **agent skill** that
 applies his analytical lens to US-stock ideas.
 
-Built from **5,840 tweets** spanning **2025-07-02 → 2026-06-07** plus **4 X
+Built from **5,852 tweets** spanning **2025-07-02 → 2026-06-07** plus **4 X
 Articles** published in **2026-01 → 2026-05**.
 
 > ⚠️ **Not financial advice. Decision-support only.** This skill never trades and
@@ -1980,7 +1980,7 @@ description: >
 > back to the cached copy — and if you do, say explicitly that the data may be
 > stale.
 
-A reusable analytical lens distilled from **5,840 tweets (2025-07 to 2026-06)
+A reusable analytical lens distilled from **5,852 tweets (2025-07 to 2026-06)
 plus 4 long-form X Articles (2026-01 to 2026-05)** by **Serenity /
 [@aleabitoreddit](https://x.com/aleabitoreddit)** — an AI-and-semiconductor
 *supply-chain* analyst and trader (~500k followers, ~40k subscribers, ex-Reddit/WSB). Use it to
@@ -2234,17 +2234,17 @@ dated example from the corpus. A runnable checklist is at the bottom.
 ### yan_labs_serenity_archive / data/ticker_stats.txt
 
 ```text
-Total tweets: 5844
+Total tweets: 5852
 Distinct $tickers: 669
 
 ticker  mentions  first_seen  last_seen
-NBIS        690   2025-07-21  2026-06-03
-SIVE        570   2025-12-23  2026-06-07
+NBIS        691   2025-07-21  2026-06-07
+SIVE        572   2025-12-23  2026-06-07
 AXTI        541   2025-12-22  2026-06-07
-NVDA        515   2025-07-28  2026-06-06
+NVDA        518   2025-07-28  2026-06-07
 LITE        509   2025-10-25  2026-06-04
-IREN        442   2025-08-31  2026-06-03
-AAOI        423   2025-12-11  2026-06-06
+IREN        444   2025-08-31  2026-06-07
+AAOI        424   2025-12-11  2026-06-07
 GOOGL       351   2025-07-03  2026-06-05
 MSFT        338   2025-07-28  2026-06-01
 META        315   2025-07-28  2026-06-04
@@ -2253,16 +2253,16 @@ TSM         286   2025-09-09  2026-06-07
 COHR        280   2025-12-01  2026-06-03
 MRVL        269   2025-08-25  2026-06-06
 CIFR        210   2025-09-03  2026-06-01
-CRWV        201   2025-07-21  2026-06-03
+CRWV        202   2025-07-21  2026-06-07
 AVGO        192   2025-09-09  2026-06-07
 HOOD        191   2025-07-02  2026-06-04
-MU          183   2025-09-25  2026-06-05
+MU          185   2025-09-25  2026-06-07
 RKLB        179   2025-07-03  2026-05-25
-SOI         174   2026-03-11  2026-06-05
-IQE         166   2026-01-18  2026-06-07
+SOI         175   2026-03-11  2026-06-07
+IQE         167   2026-01-18  2026-06-07
 SNDK        164   2025-11-25  2026-06-01
 TSEM        152   2026-02-11  2026-06-06
-INTC        147   2025-09-23  2026-06-07
+INTC        148   2025-09-23  2026-06-07
 ORCL        143   2025-09-10  2026-05-28
 POET        143   2025-12-11  2026-06-03
 RDDT        141   2025-09-14  2026-06-06
@@ -2273,13 +2273,13 @@ JBL         122   2025-12-01  2026-06-05
 WULF        115   2025-09-03  2026-06-01
 CRCL        113   2025-07-03  2026-06-04
 TSLA        106   2025-08-25  2026-05-26
-EWY          99   2026-01-25  2026-06-03
+EWY         101   2026-01-25  2026-06-07
 ALAB         97   2025-07-21  2026-04-19
-MTSI         87   2026-01-10  2026-06-04
+MTSI         88   2026-01-10  2026-06-07
 SMCI         87   2025-09-09  2026-05-26
 RPI          86   2026-02-16  2026-06-07
 CRDO         81   2025-07-21  2026-03-20
-SNAP         79   2025-08-23  2026-05-30
+SNAP         80   2025-08-23  2026-06-07
 VLN          72   2026-01-09  2026-05-13
 AAPL         68   2026-02-17  2026-05-30
 OSS          67   2025-11-05  2026-05-23
@@ -2291,10 +2291,10 @@ WLAC         55   2025-10-08  2026-03-17
 BMNR         53   2025-09-14  2026-03-07
 ETOR         53   2025-08-23  2026-03-26
 XLU          53   2026-02-19  2026-05-22
+SLNH         52   2025-09-27  2026-06-07
 FLNC         51   2025-10-04  2026-06-01
 LPK          51   2026-04-03  2026-06-02
 FN           50   2026-02-25  2026-05-22
-SLNH         50   2025-09-27  2026-05-21
 ARM          49   2026-01-22  2026-06-01
 WYFI         49   2025-09-08  2026-05-21
 AVAV         47   2026-01-02  2026-03-26
@@ -2318,6 +2318,7 @@ COIN         35   2025-07-02  2026-06-04
 LASR         35   2026-01-23  2026-05-25
 APLD         34   2025-09-17  2026-05-21
 ASTS         34   2025-09-10  2026-04-20
+BKKT         34   2025-07-03  2026-06-07
 CVX          34   2026-01-03  2026-05-22
 GLXY         34   2025-09-27  2026-02-21
 LWLG         34   2026-03-11  2026-05-21
@@ -2326,7 +2327,6 @@ TE           34   2025-10-19  2026-05-20
 UBER         34   2025-11-24  2026-03-01
 CLSK         33   2025-09-03  2026-05-21
 KRKNF        33   2025-10-29  2026-03-14
-BKKT         32   2025-07-03  2026-05-19
 OKLO         32   2025-08-25  2025-12-15
 HPS          31   2026-04-07  2026-06-01
 MP           31   2025-09-17  2026-05-22
@@ -3391,6 +3391,8 @@ his views.**
 > A suite of **Claude / Codex agent skills** distilled from [@aleabitoreddit](https://x.com/aleabitoreddit) ("Serenity")'s **entire public archive** — ~11 months, 6,120 posts, 750 tickers (2025-07-02 → 2026-05-30).
 > Track her, analyze *like* her, and anticipate where her attention is moving — grounded in real data, not vibes.
 
+**📊 Live dashboard / 实时看板:** **[Lifetime attention tracker · 全周期注意力看板](https://lanfuli.github.io/follow-aleabito-skill/reports/aleabito-60d-dashboard.html)** — built on top of these skills · 基于这套技能制作
+
 **🌐 Language / 语言:** **[English](#english)** · **[中文](#中文)**
 
 `claude-skill` · `agent-skill` · `aleabito` · `serenity` · `investing` · `stock-research` · `supply-chain` · `first-principles` · `x-api`
@@ -3448,6 +3450,11 @@ ticker=SIVE  Δ=10  recent=93  prev=83
 ```
 Then ask your agent: *"Analyze $SIVE like Serenity"* → `serenity-method` produces the 5-block analysis. All output is **中文 by default, English on request**.
 
+### Live dashboard
+A self-contained, interactive **lifetime research dashboard** built on top of these skills — spanning her entire public archive, it maps attention momentum, mention structure (posts vs. replies vs. quotes), recent moves, and research priority across the tracked tickers, with linked price trends.
+
+👉 **[Open the live dashboard](https://lanfuli.github.io/follow-aleabito-skill/reports/aleabito-60d-dashboard.html)** — no login, no external dependencies. For tracking & research only, not investment advice.
+
 ### How it was built
 The skills are distilled from her complete public history, pulled with `follow-aleabito`'s archive backfill (X API full-archive search). The empirical patterns in `serenity-radar/references/patterns.md` (theme-rotation logic, selection signature, catalyst playbook, conviction tells) are mined directly from those 6,120 posts — including the November-2025 drawdown (IREN −38% / NBIS −35%) she held through, which is why the radar's signals aren't overfit to a single up-only window.
 
@@ -3503,6 +3510,11 @@ node skills/follow-aleabito/scripts/analyze-mentions.js --incremental --include-
 node skills/serenity-radar/scripts/radar.js --window 14 --top 12
 ```
 然后对你的 agent 说:*"用 Serenity 的方法分析 $SIVE"* → `serenity-method` 会产出五段式分析。所有输出**默认中文,可按需出英文**。
+
+### 实时看板
+一个基于这套技能制作、自包含的交互式 **全周期(lifetime)研究看板**——覆盖她的全部公开历史,把注意力动量、提及结构(发帖 vs. 回复 vs. 引用)、近期变化和研究优先级在所有跟踪标的上可视化,并联动价格趋势。
+
+👉 **[打开实时看板](https://lanfuli.github.io/follow-aleabito-skill/reports/aleabito-60d-dashboard.html)** —— 无需登录、无外部依赖;仅作跟踪与研究用途,不构成投资建议。
 
 ### 数据怎么来的
 这些技能蒸馏自她的**全部公开历史**,用 `follow-aleabito` 的全档案回填(X API 全档案搜索)抓取。`serenity-radar/references/patterns.md` 里的经验模式(主题轮动逻辑、选股签名、催化剂打法、重仓信号)直接从这 6,120 条帖子里挖出——其中包含她扛过的 2025 年 11 月回撤(IREN −38% / NBIS −35%),这也是雷达信号没有过拟合到"单边上涨窗口"的原因。
