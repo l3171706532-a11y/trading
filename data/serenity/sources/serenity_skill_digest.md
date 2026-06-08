@@ -1,6 +1,6 @@
 # Serenity Skill Repository Digest
 
-Generated: 2026-06-08 07:00:08 UTC
+Generated: 2026-06-08 08:41:41 UTC
 
 Purpose: provide cached methodology context for cloud-side Serenity / chokepoint research runs.
 
