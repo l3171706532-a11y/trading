@@ -1,21 +1,21 @@
 # Serenity Knowledge Graph
 
-Generated: 2026-06-08 15:56:13 UTC
+Generated: 2026-06-08 16:26:25 UTC
 
 This graph turns the funnel into a loop: evidence updates entities, entities expose gaps, gaps generate the next search questions.
 
 ## Stats
 
-- Nodes: 2747
-- Edges: 4215
+- Nodes: 2903
+- Edges: 4404
 - Feedback queries: 240
 
 ## Node Types
 
-- evidence: 1058
-- supply_chain_node: 930
-- claim: 466
-- public_company: 182
+- evidence: 1085
+- supply_chain_node: 1014
+- claim: 495
+- public_company: 198
 - bottleneck_hypothesis: 105
 - theme: 4
 - discourse: 1
@@ -23,13 +23,13 @@ This graph turns the funnel into a loop: evidence updates entities, entities exp
 
 ## Relation Types
 
-- supports_theme_context: 1173
-- participates_in_node: 852
+- supports_theme_context: 1205
+- participates_in_node: 912
 - supports_or_mentions: 837
-- has_claim: 466
-- has_supply_chain_relationship: 274
-- mapped_to_theme: 234
-- maps_chain_node: 166
+- has_claim: 495
+- has_supply_chain_relationship: 298
+- mapped_to_theme: 263
+- maps_chain_node: 181
 - may_have_bottleneck: 105
 - decomposes_to: 103
 - applied_to: 4
@@ -40,33 +40,33 @@ This graph turns the funnel into a loop: evidence updates entities, entities exp
 - AI `theme:ai`: 1737
 - Energy `theme:energy`: 1637
 - Technology `theme:technology`: 1529
-- High-Tech Global Supply Chain `theme:special_high_tech_global_chain`: 490
-- The HBM Supply Chain: One Layer Beneath the Producers `evidence:https_outperformers_co_p_tss3`: 166
-- Effects of Supply Chain Bottlenecks on Prices using Textual Analysis `evidence:https_www_andersonmonken_com_publication_sup_feds_2021`: 130
-- SEC Data in JSON Format: Working with Structured Filings `evidence:https_fundamentalshub_com_blog_sec_data_json_format`: 129
-- Seungukeeee/bottleneck_indicators `evidence:https_github_com_seungukeeee_bottleneck_indicators`: 129
-- X search: JSON supply chain bottleneck SEC earnings `evidence:https_x_com_search_q_json_20supply_20chain_20bottleneck_20sec_20earnings_src_typed_query_f_live`: 129
-- Effects of Supply Chain Bottlenecks on Prices using Textual Analysis `evidence:https_www_federalreserve_gov_econres_notes_feds_notes_effects_of_supply_chain_bottlenecks_on_pri`: 128
-- Sakai Chemical: The Upstream Play to AI Server MLCCs `evidence:https_stfbutnou_substack_com_p_sakai_chemical_the_upstream_play`: 113
-- Document `evidence:https_www_sec_gov_archives_edgar_data_1306830_000130683026000093_q120268_kex991a_htm`: 88
+- High-Tech Global Supply Chain `theme:special_high_tech_global_chain`: 925
+- The HBM Supply Chain: One Layer Beneath the Producers `evidence:https_outperformers_co_p_tss3`: 174
+- Effects of Supply Chain Bottlenecks on Prices using Textual Analysis `evidence:https_www_andersonmonken_com_publication_sup_feds_2021`: 144
+- SEC Data in JSON Format: Working with Structured Filings `evidence:https_fundamentalshub_com_blog_sec_data_json_format`: 143
+- Seungukeeee/bottleneck_indicators `evidence:https_github_com_seungukeeee_bottleneck_indicators`: 143
+- X search: JSON supply chain bottleneck SEC earnings `evidence:https_x_com_search_q_json_20supply_20chain_20bottleneck_20sec_20earnings_src_typed_query_f_live`: 143
+- Effects of Supply Chain Bottlenecks on Prices using Textual Analysis `evidence:https_www_federalreserve_gov_econres_notes_feds_notes_effects_of_supply_chain_bottlenecks_on_pri`: 142
+- Sakai Chemical: The Upstream Play to AI Server MLCCs `evidence:https_stfbutnou_substack_com_p_sakai_chemical_the_upstream_play`: 121
+- Document `evidence:https_www_sec_gov_archives_edgar_data_1306830_000130683026000093_q120268_kex991a_htm`: 95
+- Ultra Clean (UCTT) Q1 2026 Earnings Transcript | The Motley Fool `evidence:https_www_fool_com_earnings_call_transcripts_2026_04_28_ultra_clean_uctt_q1_2026_earnings_transc`: 94
+- Document `evidence:https_www_sec_gov_archives_edgar_data_1609804_000162828026031402_a2026q1earningsreleasev2_htm`: 94
+- X search: UTC supply chain bottleneck SEC earnings `evidence:https_x_com_search_q_utc_20supply_20chain_20bottleneck_20sec_20earnings_src_typed_query_f_live`: 94
 - POWL Powell Industries `ticker:powl`: 87
-- Ultra Clean (UCTT) Q1 2026 Earnings Transcript | The Motley Fool `evidence:https_www_fool_com_earnings_call_transcripts_2026_04_28_ultra_clean_uctt_q1_2026_earnings_transc`: 87
-- Document `evidence:https_www_sec_gov_archives_edgar_data_1609804_000162828026031402_a2026q1earningsreleasev2_htm`: 87
-- X search: UTC supply chain bottleneck SEC earnings `evidence:https_x_com_search_q_utc_20supply_20chain_20bottleneck_20sec_20earnings_src_typed_query_f_live`: 87
 - VRT Vertiv Holdings Co `ticker:vrt`: 86
 - NVT nVent Electric plc `ticker:nvt`: 84
 - NVDA NVIDIA `ticker:nvda`: 81
 - TSM Taiwan Semiconductor Manufacturing Company `ticker:tsm`: 78
+- Mega-Cap AI Earnings: Scale Deployment, Capacity Rationing, and Custom Silicon — Atlas Peak Research `evidence:https_www_atlaspeakresearch_com_report_74645c`: 72
+- Super Micro (SMCI) Q3 2026 Earnings Transcript | The Motley Fool `evidence:https_www_fool_com_earnings_call_transcripts_2026_05_05_super_micro_smci_q3_2026_earnings_transc`: 72
+- X search: AI supply chain bottleneck SEC earnings `evidence:https_x_com_search_q_ai_20supply_20chain_20bottleneck_20sec_20earnings_src_typed_query_f_live`: 72
 - ETN Eaton Corporation `ticker:etn`: 69
 - GEV GE Vernova Inc. `ticker:gev`: 67
 - The Only Pure-Play Transmission Hardware Stock Nobody Is Talking About `evidence:https_lanin_substack_com_p_the_invisible_bom_plpc_is_the_hardware`: 66
-- Mega-Cap AI Earnings: Scale Deployment, Capacity Rationing, and Custom Silicon — Atlas Peak Research `evidence:https_www_atlaspeakresearch_com_report_74645c`: 66
-- Super Micro (SMCI) Q3 2026 Earnings Transcript | The Motley Fool `evidence:https_www_fool_com_earnings_call_transcripts_2026_05_05_super_micro_smci_q3_2026_earnings_transc`: 66
-- X search: AI supply chain bottleneck SEC earnings `evidence:https_x_com_search_q_ai_20supply_20chain_20bottleneck_20sec_20earnings_src_typed_query_f_live`: 66
 - AMZN Amazon `ticker:amzn`: 65
 - MSFT Microsoft `ticker:msft`: 64
 - PWR Quanta Services `ticker:pwr`: 62
-- AVGO Broadcom `ticker:avgo`: 58
+- Will Mounting Supply Chain Strains Hamstring the AI Investment Boom? - Liberty Street Economics `evidence:https_libertystreeteconomics_newyorkfed_org_2026_05_will_mounting_supply_chain_strains_hamstring`: 61
 
 ## Feedback Queries
 
