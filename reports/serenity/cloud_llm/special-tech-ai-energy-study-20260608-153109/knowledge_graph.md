@@ -1,20 +1,20 @@
 # Serenity Knowledge Graph
 
-Generated: 2026-06-08 18:46:32 UTC
+Generated: 2026-06-08 18:56:33 UTC
 
 This graph turns the funnel into a loop: evidence updates entities, entities expose gaps, gaps generate the next search questions.
 
 ## Stats
 
-- Nodes: 3399
-- Edges: 5175
+- Nodes: 3432
+- Edges: 5274
 - Feedback queries: 240
 
 ## Node Types
 
 - supply_chain_node: 1248
-- evidence: 1199
-- claim: 605
+- evidence: 1229
+- claim: 608
 - public_company: 224
 - bottleneck_hypothesis: 115
 - theme: 6
@@ -23,10 +23,10 @@ This graph turns the funnel into a loop: evidence updates entities, entities exp
 
 ## Relation Types
 
-- supports_theme_context: 1369
+- supports_theme_context: 1415
 - participates_in_node: 1108
-- supports_or_mentions: 923
-- has_claim: 605
+- supports_or_mentions: 973
+- has_claim: 608
 - has_supply_chain_relationship: 373
 - mapped_to_theme: 342
 - maps_chain_node: 220
@@ -42,7 +42,7 @@ This graph turns the funnel into a loop: evidence updates entities, entities exp
 - Technology `theme:technology`: 1529
 - High-Tech Global Supply Chain `theme:special_high_tech_global_chain`: 1124
 - AI Infrastructure Supply Chain `theme:special_ai_infrastructure_chain`: 990
-- special_energy_power_chain `theme:special_energy_power_chain`: 293
+- Energy and Power Chain `theme:special_energy_power_chain`: 396
 - X search: JSON supply chain bottleneck SEC earnings `evidence:https_x_com_search_q_json_20supply_20chain_20bottleneck_20sec_20earnings_src_typed_query_f_live`: 215
 - The HBM Supply Chain: One Layer Beneath the Producers `evidence:https_outperformers_co_p_tss3`: 196
 - Effects of Supply Chain Bottlenecks on Prices using Textual Analysis `evidence:https_www_andersonmonken_com_publication_sup_feds_2021`: 181
@@ -53,20 +53,20 @@ This graph turns the funnel into a loop: evidence updates entities, entities exp
 - Sakai Chemical: The Upstream Play to AI Server MLCCs `evidence:https_stfbutnou_substack_com_p_sakai_chemical_the_upstream_play`: 121
 - X search: AI supply chain bottleneck SEC earnings `evidence:https_x_com_search_q_ai_20supply_20chain_20bottleneck_20sec_20earnings_src_typed_query_f_live`: 120
 - Document `evidence:https_www_sec_gov_archives_edgar_data_1306830_000130683026000093_q120268_kex991a_htm`: 109
+- POWL Powell Industries `ticker:powl`: 108
 - Mega-Cap AI Earnings: Scale Deployment, Capacity Rationing, and Custom Silicon — Atlas Peak Research `evidence:https_www_atlaspeakresearch_com_report_74645c`: 108
 - Ultra Clean (UCTT) Q1 2026 Earnings Transcript | The Motley Fool `evidence:https_www_fool_com_earnings_call_transcripts_2026_04_28_ultra_clean_uctt_q1_2026_earnings_transc`: 108
 - Super Micro (SMCI) Q3 2026 Earnings Transcript | The Motley Fool `evidence:https_www_fool_com_earnings_call_transcripts_2026_05_05_super_micro_smci_q3_2026_earnings_transc`: 108
 - Document `evidence:https_www_sec_gov_archives_edgar_data_1609804_000162828026031402_a2026q1earningsreleasev2_htm`: 108
-- VRT Vertiv Holdings Co `ticker:vrt`: 105
-- POWL Powell Industries `ticker:powl`: 100
+- VRT Vertiv Holdings Co `ticker:vrt`: 107
+- NVT nVent Electric plc `ticker:nvt`: 97
 - Will Mounting Supply Chain Strains Hamstring the AI Investment Boom? - Liberty Street Economics `evidence:https_libertystreeteconomics_newyorkfed_org_2026_05_will_mounting_supply_chain_strains_hamstring`: 97
-- NVT nVent Electric plc `ticker:nvt`: 96
+- ETN Eaton Corporation `ticker:etn`: 96
 - Serenity, the Bottleneck Hunter | Johnson Lee `evidence:https_johnsonlee_io_2026_06_06_serenity_methodology_cannot_be_skill_en`: 95
 - NVDA NVIDIA `ticker:nvda`: 93
 - TSM Taiwan Semiconductor Manufacturing Company `ticker:tsm`: 88
-- ETN Eaton Corporation `ticker:etn`: 87
 - Document `evidence:https_www_sec_gov_archives_edgar_data_1837240_000183724026000023_q2268_k_ex991_htm`: 85
-- Inside the Mind of Serenity (@aleabitoreddit) - Singularity Research `evidence:https_singularityresearchfund_substack_com_p_inside_the_mind_of_serenity_aleabitoreddit`: 79
+- GEV GE Vernova Inc. `ticker:gev`: 80
 
 ## Feedback Queries
 

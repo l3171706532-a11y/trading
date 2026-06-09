@@ -99,3 +99,18 @@ fatal: unable to access 'https://github.com/l3171706532-a11y/trading.git/': The 
 ## 2026-06-08 18:52:12 UTC
 
 最终高中生可读综合研报生成完成。
+
+## 2026-06-08 18:52:15 UTC
+
+最终 GitHub 推送失败，需要人工处理：Traceback (most recent call last):
+  File "/opt/trading/scripts/publish_reports_to_github.py", line 185, in <module>
+    main()
+  File "/opt/trading/scripts/publish_reports_to_github.py", line 178, in main
+    result = commit_and_push(publish_dir, args.branch, args.no_push)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/trading/scripts/publish_reports_to_github.py", line 159, in commit_and_push
+    run(["git", "push", "-u", "origin", branch], cwd=publish_dir, timeout=240)
+  File "/opt/trading/scripts/publish_reports_to_github.py", line 72, in run
+    raise RuntimeError(f"{' '.join(command)} failed: {output[-1600:]}")
+RuntimeError: git push -u origin main failed: remote: Permission to l3171706532-a11y/trading.git denied to l3171706532-a11y.
+fatal: unable to access 'https://github.com/l3171706532-a11y/trading.git/': The requested URL returned error: 403
