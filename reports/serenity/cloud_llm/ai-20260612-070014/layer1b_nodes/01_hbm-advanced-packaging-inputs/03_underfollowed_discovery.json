@@ -1,0 +1,206 @@
+{
+  "candidates": [
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "FormFactor, Inc.",
+      "confidence": 0.86,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Check whether HBM-related probe cards are a durable, margin-accretive revenue driver or a cyclical capex burst tied to a few DRAM customers.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Pull latest 10-Q/10-K segment disclosures, earnings-call transcript, customer concentration notes, capacity expansion commentary, and any mention of HBM revenue growth versus non-HBM DRAM.",
+      "node_relation": "Supplier of advanced probe-card architectures used in wafer-level and stack-die testing for HBM and other advanced-package components.",
+      "sector_or_industry": "Semiconductor test equipment / probe cards",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "test_gate"
+      ],
+      "theme_relation": "AI accelerator growth increases HBM stack volume and test intensity; known-good-die and advanced-package testing become more valuable when defective dies can spoil high-cost multi-die packages.",
+      "ticker": "FORM",
+      "why_include": "FormFactor explicitly markets HBM probe-card solutions and its April 2026 release stated that record DRAM revenue was driven by increased demand in HBM applications. This puts it directly in a testing gate below HBM producers rather than in the obvious memory-producer lane.",
+      "why_underfollowed": "It is usually categorized as semiconductor test/probe-card equipment, not as an AI infrastructure company. The chokepoint is a qualification/test-intensity layer one step below HBM output, which can be missed by AI-screening based on GPUs, memory producers, or foundries."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Camtek Ltd.",
+      "confidence": 0.88,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify the share of revenue tied to HBM, chiplets, CoWoS-like processes, and OSAT customers; also test whether recent orders are repeat capacity ramps or one-time pull-ins.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review Camtek 2026 Form 20-F, Q1/Q2 2026 transcripts, backlog/order disclosures, geographic/customer concentration, and product mix for Eagle/Hawk platforms.",
+      "node_relation": "Inspection and metrology systems used by OSATs, HBM manufacturers, and advanced-packaging customers for CoWoS-like AI packaging flows.",
+      "sector_or_industry": "Semiconductor inspection and metrology equipment",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "inspection"
+      ],
+      "theme_relation": "If AI packages require more CoWoS-like capacity and HBM integration, inspection/metrology steps can scale with advanced-package complexity and yield sensitivity.",
+      "ticker": "CAMT",
+      "why_include": "Camtek announced a $31 million multi-system OSAT order mainly for CoWoS-like packaging supporting AI applications, with Q1 2026 OSAT orders exceeding $90 million. Its Q1 2026 release also guided to a stronger second half based on order momentum.",
+      "why_underfollowed": "The company is not a mega-cap AI leader and its exposure is embedded in metrology/inspection tools sold to packaging and memory customers. It may be discovered by semiconductor-equipment investors but remains less obvious to general AI investors."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Kulicke & Soffa Industries, Inc.",
+      "confidence": 0.72,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Determine whether advanced-packaging/TCB revenue is now material enough to offset legacy bonding cyclicality and whether HBM or chiplet customers are moving from evaluations to production orders.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check FY2025/FY2026 filings and earnings calls for advanced-packaging revenue contribution, TCB backlog, customer qualification status, gross margin by tool family, and exposure to OSAT/foundry/IDM capex.",
+      "node_relation": "Supplier of thermocompression bonding and advanced-packaging assembly solutions for heterogeneous integration, CPO, high-performance computing, and HBM-related multi-die applications.",
+      "sector_or_industry": "Semiconductor assembly equipment / bonding tools",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "equipment",
+        "evidence_needed"
+      ],
+      "theme_relation": "Advanced AI packages require increasingly precise die-to-die and die-to-substrate interconnect processes; bonding equipment can benefit if HBM, chiplets, and 2.5D/3D packages expand faster than conventional assembly.",
+      "ticker": "KLIC",
+      "why_include": "Kulicke & Soffa stated that its advanced-packaging solutions support high-performance computing, CPO, and heterogeneous integration, and specifically referenced deployment in high-bandwidth memory, enterprise logic, and chiplet applications. The company also said TCB demand had become supply-chain limited near term in its 2023 announcement.",
+      "why_underfollowed": "The company is often associated with mature wire-bonding/assembly cycles, so its advanced-packaging optionality may be hidden under a legacy equipment label. This is a classic messy-label candidate for a Serenity underfollowed pass."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Amkor Technology, Inc.",
+      "confidence": 0.84,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Verify whether new advanced-packaging capacity is booked by AI customers, whether economics are attractive versus capital intensity, and whether Amkor is gaining share in high-end AI packaging rather than lower-margin legacy OSAT work.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review latest 10-K/10-Q, Arizona advanced-packaging project updates, customer disclosures, capex plans, and advanced-packaging revenue mix.",
+      "node_relation": "Reference OSAT anchor providing 2.5D heterogeneous packaging, HBM integration, interposer-based packaging, and related test/assembly capacity.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test / advanced packaging",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference",
+        "advanced_packaging"
+      ],
+      "theme_relation": "AI accelerators depend on HBM placed near logic dies through advanced 2.5D/heterogeneous packaging; OSAT capacity and execution are downstream chokepoints connecting foundry output to finished AI packages.",
+      "ticker": "AMKR",
+      "why_include": "Amkor is useful as a context anchor because its own technical material describes 2.5D packaging as integrating HBM and SerDes microchips through interposers, and states that AI/deep learning/cloud performance needs heterogeneous packaging with HBM and high-speed SerDes.",
+      "why_underfollowed": "Not treated as underfollowed in this pass; included as a reference OSAT capacity anchor to map demand pull-through into equipment, inspection, and test suppliers such as CAMT, FORM, and KLIC."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "FormFactor markets probe-card solutions for HBM test challenges, including HBM wafer and stack-die testing, and says its architectures can handle thousands of dies in a single touchdown.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Mission Central: High Bandwidth Memory a Key Component of Advanced Packaging | FormFactor, Inc.",
+      "source_url": "https://www.formfactor.com/videos/high-bandwidth-memory-a-key-component-of-advanced-packaging/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor's April 29, 2026 release stated that it delivered record DRAM revenue with increased demand in HBM applications and sustained non-HBM demand.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-04-29",
+      "source_title": "Form 8-K for FormFactor Inc. filed 04/29/2026",
+      "source_url": "https://investors.formfactor.com/static-files/e38be9e3-381d-41a7-8385-14976d50e6b7",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Camtek announced on March 30, 2026 that it received a $31 million multi-system order from a leading OSAT mainly for CoWoS-like packaging supporting AI applications, with Q1 2026 OSAT orders exceeding $90 million.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "2026-03-30",
+      "source_title": "Camtek Receives $31 Million Multi-System Order From a Leading OSAT",
+      "source_url": "https://www.camtek.com/news-and-events/camtek-receives-31-million-multi-system-order-from-a-leading-osat/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Camtek reported Q1 2026 revenue of $121.7 million and expected second-half 2026 revenue to grow more than 25% versus first-half 2026 based on backlog and pipeline.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-05-12",
+      "source_title": "Camtek Announces Results for the First Quarter of 2026",
+      "source_url": "https://www.camtek.com/news-and-events/camtek-announces-results-for-the-first-quarter-of-2026/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Kulicke & Soffa said its high-performance advanced-packaging solutions support high-performance computing, CPO, and heterogeneous integration, and referenced HBM, enterprise logic, and chiplet applications as markets transitioning from flip-chip technology.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2023-11-15",
+      "source_title": "Kulicke & Soffa Announces Multiple Advanced Packaging Orders Supporting Long-Term AI Opportunities",
+      "source_url": "https://investor.kns.com/2023-11-15-Kulicke-Soffa-Announces-Multiple-Advanced-Packaging-Orders-Supporting-Long-Term-AI-Opportunities?asPDF=1",
+      "ticker": "KLIC"
+    },
+    {
+      "claim": "Kulicke & Soffa stated that demand for its thermocompression bonding solutions had increased dramatically and that recent market demand had made the TCB business supply-chain limited near term.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2023-11-15",
+      "source_title": "Kulicke & Soffa Announces Multiple Advanced Packaging Orders Supporting Long-Term AI Opportunities",
+      "source_url": "https://investor.kns.com/2023-11-15-Kulicke-Soffa-Announces-Multiple-Advanced-Packaging-Orders-Supporting-Long-Term-AI-Opportunities?asPDF=1",
+      "ticker": "KLIC"
+    },
+    {
+      "claim": "Amkor's technical article describes 2.5D packaging as integrating HBM and SerDes microchips using micro-bump joining to an interposer and states that AI, deep learning, cloud computing, and supercomputers require heterogeneous packaging with HBM and high-speed SerDes ICs.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2018-12",
+      "source_title": "Amkor’s 2.5D Package and HDFO – Advanced",
+      "source_url": "https://amkor.com/wp-content/uploads/2018/12/Amkor_2.5D_Package_and_HDFO_Technical_Article_EN.pdf",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "External search context supplied to this run states that the HBM producers remain in structural undersupply through 2027 and that the more interesting layer is sub-$50 billion suppliers whose revenue depends on HBM and advanced packaging but may have thinner analyst coverage; this supports the chosen underfollowed lane but should be revalidated in later layers.",
+      "claim_type": "fact",
+      "confidence": 0.74,
+      "published_at": "2026-06-03",
+      "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+      "source_url": "https://outperformers.co/p/tss3",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.86,
+      "text": "FORM should be tracked as an HBM test-gate candidate: direct probe-card exposure to HBM wafer/stack testing, with 2026 company release citing record DRAM revenue from HBM demand.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.88,
+      "text": "CAMT should be tracked as an advanced-packaging inspection/metrology candidate: March 2026 OSAT orders for CoWoS-like AI packaging provide direct evidence of pull-through from AI packaging capacity.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "KLIC should be tracked as a lower-attention advanced-packaging bonding-tool hypothesis: TCB/heterogeneous-integration exposure is plausible but requires updated revenue-mix verification.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "AMKR is a reference OSAT anchor for this node, useful for mapping demand from 2.5D/HBM package capacity into equipment, inspection, bonding, and test suppliers rather than as the primary underfollowed target.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Later layers should verify which subsegments remain genuinely underfollowed versus already priced: HBM probe cards, CoWoS-like inspection/metrology, TCB/hybrid bonding tools, temporary bond/debond, substrate materials, interposers, thermal interface materials, and test sockets.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "HBM and advanced-packaging inputs below the memory producers",
+  "node_id": "hbm_advanced_packaging_inputs",
+  "summary": "Layer 1B expanded the US-listed universe around HBM and advanced-packaging inputs using an underfollowed discovery lens. The best fit for this pass is not the memory producers or AI accelerator leaders, but suppliers of inspection/metrology, probe-card test gates, thermocompression/heterogeneous-integration tools, and OSAT capacity. The list intentionally includes one reference OSAT anchor and three lower-attention equipment/test suppliers where HBM, CoWoS-like, 2.5D/3D packaging, or known-good-die testing can create second-order demand pull-through. Several links are strong enough for Layer 1 inclusion, but later layers must verify revenue mix, customer concentration, durability of orders/backlog, and whether the market has already fully discovered the exposure.",
+  "theme_id": "ai"
+}

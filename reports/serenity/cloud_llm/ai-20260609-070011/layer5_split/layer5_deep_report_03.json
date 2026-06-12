@@ -1,0 +1,170 @@
+{
+  "deep_reports": [
+    {
+      "attention_level": "medium_attention",
+      "company": "FormFactor, Inc.",
+      "discovery_lane": "underfollowed",
+      "evidence_chain": [
+        "[Fact | Company filing] FormFactor’s 2025 Form 10-K describes probe cards for many semiconductor types, including DRAM memory and HBM, and states that fiscal 2024 DRAM product revenue growth was driven partly by HBM designs used in generative AI applications. Source: https://fintel.io/doc/sec-formfactor-inc-1039399-10k-2025-february-21-20140-5305",
+        "[Fact | Company filing] In FormFactor’s fiscal 2025 10-K, the company reported total fiscal 2025 revenue of $784.993 million and described record revenue levels led by DRAM growth, including HBM, as well as AI infrastructure demand and silicon-photonics positioning. Source: https://investors.formfactor.com/static-files/f533947f-8aa6-4043-9dde-35c31aac81f0",
+        "[Fact | Earnings-call summary] Q1 2026 call coverage reported record DRAM probe-card revenue driven by HBM demand, with a second customer ramping adoption of Smart Matrix technology and Q2 2026 guidance for revenue of $240 million plus or minus $5 million. Source: https://www.fool.com/earnings/call-transcripts/2026/04/29/formfactor-form-q1-2026-earnings-transcript/",
+        "[Fact | Earnings-call summary] A Q1 2026 summary reported that HBM probe-card business grew more than 50% year over year and that Q2 growth benefited from a second customer adopting Smart Matrix technology for HBM4. Source: https://finance.yahoo.com/markets/stocks/articles/formfactor-inc-q1-2026-earnings-001809274.html",
+        "[Fact | Investor presentation] FormFactor’s investor presentation frames probe cards as critical to advanced packaging, including GPU plus HBM architectures. Source: https://investors.formfactor.com/static-files/ed785242-eb88-40ce-8a1f-7feae215a47f",
+        "[Inference | Supply-chain logic] Known-good-die and advanced-package economics imply that failures become more expensive after HBM stacks, logic die, interposers/substrates, and packaging are combined; therefore, higher-value pre-package testing can gain importance as package complexity rises.",
+        "[Hypothesis | Chokepoint test] If HBM4/HBM4E requires materially more complex probe-card capability or more frequent card replacement than prior HBM generations, FormFactor could have a content-per-device tailwind.",
+        "[Evidence gap] Current public evidence supports HBM-related demand but does not yet fully quantify FormFactor’s HBM revenue, HBM4/HBM4E share, content per stack, exact customer mix, lead times, or margin uplift by product family."
+      ],
+      "falsification_plan": [
+        "Downgrade if company filings or calls show HBM-related probe-card revenue is immaterial or not growing through HBM4/HBM4E transitions.",
+        "Downgrade if DRAM probe-card revenue rises but gross margin, utilization, or backlog fail to improve, suggesting cyclicality rather than chokepoint leverage.",
+        "Downgrade if management stops referencing HBM4/HBM4E, Smart Matrix adoption, advanced packaging, or known-good-die test intensity as growth drivers.",
+        "Downgrade if customer concentration disclosures reveal overdependence on one memory customer without evidence of broader adoption.",
+        "Downgrade if competitors report stronger HBM4/HBM4E wins or if FormFactor loses share at leading HBM producers.",
+        "Downgrade if HBM producers reduce capex/ramp plans or if AI accelerator demand shifts away from architectures requiring high HBM test intensity.",
+        "Downgrade if higher revenue is accompanied by persistent product-mix pressure, lower probe-card margins, or rising capital intensity without returns."
+      ],
+      "hidden_signal_to_verify": "Whether HBM4/HBM4E and advanced AI packages increase probe-card content per accelerator/HBM stack, drive repeat probe-card refresh demand, improve utilization, and sustain higher gross margins rather than producing only a cyclical DRAM upswing.",
+      "market_cap_bucket": "mid_cap",
+      "next_research_tasks": [
+        "Pull the latest FormFactor 10-K, 10-Q, and earnings-call transcript; extract DRAM/HBM revenue, Probe Cards segment gross margin, customer concentration, geographic revenue, backlog/order commentary, and utilization language.",
+        "Compare FormFactor commentary with HBM producer capex and ramp disclosures from SK hynix, Samsung, and Micron, especially HBM4/HBM4E timing and qualification language.",
+        "Map probe-card competitors for HBM and advanced packaging; identify whether FormFactor has differentiated Smart Matrix adoption, customer wins, or share gains.",
+        "Search patents, product briefs, and technical presentations for Smart Matrix, HBM, known-good-die, fine-pitch probing, thermal control, and advanced-packaging probe requirements.",
+        "Build a monitoring table for each quarter: DRAM probe-card revenue, foundry/logic revenue, systems revenue, gross margin, HBM references, HBM4 references, customer concentration, and capex.",
+        "Check whether the market is already pricing the story by comparing valuation, sell-side estimate revisions, short interest, and investor-presentation emphasis before and after Q1 2026.",
+        "Interview or source industry commentary from semiconductor test engineers, HBM packaging specialists, or probe-card buyers to verify whether HBM4/HBM4E materially increases probe-card complexity and replacement frequency."
+      ],
+      "risks": [
+        "[Cyclical risk] Probe-card demand may remain tied to the memory cycle; HBM strength could be offset by conventional DRAM, NAND, logic, or broader semiconductor inventory weakness.",
+        "[Evidence risk] Management commentary may confirm HBM demand but not prove structural content-per-device growth or durable pricing power.",
+        "[Customer-concentration risk] HBM exposure likely depends on a small set of memory customers; loss, delay, dual-sourcing, or share shift at one large customer could materially weaken the thesis.",
+        "[Competitive risk] Other probe-card suppliers may capture HBM4/HBM4E sockets, limiting FormFactor’s leverage despite overall HBM market growth.",
+        "[Margin risk] Higher HBM demand may come with ramp costs, product-mix pressure, pricing concessions, or capacity investments that prevent gross-margin expansion.",
+        "[Technology-transition risk] Customers could change test architectures, internalize more test capability, or use designs that reduce external probe-card content.",
+        "[Market-pricing risk] Because FORM already has medium attention and recent HBM commentary is visible, the market may have partially priced the HBM probe-card story.",
+        "[Geopolitical/export risk] Semiconductor supply-chain restrictions, customer location exposure, or memory producer capex changes could affect demand timing."
+      ],
+      "supply_chain_position": "AI demand -> hyperscaler/custom accelerator demand -> GPU/custom ASIC + HBM stacks -> wafer sort / known-good-die testing -> advanced probe cards and test interfaces -> FormFactor DRAM/HBM probe cards and adjacent systems. Reference leaders include Nvidia/Broadcom at accelerator/custom silicon, SK hynix/Samsung/Micron at HBM, and TSMC/OSAT/advanced-packaging players at CoWoS/chiplet packaging; FORM sits one step below the obvious producers at the test-interface layer.",
+      "thesis_cn": "【推rmFactor 的 AI 逻辑不在 GPU 芯片本身，而在晶圆测试与探针卡环节。HBM、已知良品裸片、chiplet 和先进封装提高了封装失败成本；如果每一代 HBM4/HBM4E 与 AI 加速器封装都需要更多、更复杂、更高端的测试接触和更短的探针卡更新周期，FormFactor 的高端 DRAM/HBM 探针卡收入、产能利用率和毛利率有机会受益。当前证据显示公司 DRAM 探针卡受 HBM 需求推动，并且 2025 年报和 2026 年 Q1 业绩电话会摘要均提到 HBM/AI 相关增长；但尚需进一步验证 HBM4/HBM4E 的单位内容量、客户份额和竞争格局。",
+      "thesis_en": "[Inference] FormFactor’s AI exposure is not the GPU itself but the wafer-test and probe-card layer. HBM, known-good-die economics, chiplets, and advanced packaging raise the cost of yield failures. If HBM4/HBM4E and AI accelerator packages require more complex, higher-value, and more frequently refreshed probe-card content, FormFactor’s advanced DRAM/HBM probe-card revenue, utilization, and margins could benefit. Current evidence supports HBM-driven DRAM probe-card strength and AI/advanced-packaging exposure, but the key upgrade requires proof of HBM4/HBM4E content growth, customer share, and competitive positioning.",
+      "ticker": "FORM",
+      "title_cn": "FormFactor：AI HBM 与先进封装测试强度上升的隐性探针卡受益者",
+      "title_en": "FormFactor: Hidden Probe-Card Exposure to Rising AI HBM and Advanced-Packaging Test Intensity",
+      "why_underfollowed": "FormFactor may be missed because it is classified as a semiconductor test/probe-card supplier rather than an AI chip, HBM producer, foundry, or packaging leader. Its AI relevance is indirect and operational: more complex HBM and advanced packages can increase the economic value of wafer-level testing and known-good-die screening. This makes the thesis less visible in media narratives but more testable through segment revenue, product mix, customer concentration, utilization, and gross margin."
+    }
+  ],
+  "evidence": [
+    {
+      "claim_quality": "fact",
+      "date": "2026-02-20",
+      "source_type": "company_filing",
+      "supports": [
+        "FormFactor reports Probe Cards and Systems businesses.",
+        "Fiscal 2025 revenue was $784.993 million.",
+        "Company discussion links record revenue and DRAM growth to HBM and AI infrastructure demand."
+      ],
+      "title": "FormFactor 2025 Form 10-K / Annual Report",
+      "url": "https://investors.formfactor.com/static-files/f533947f-8aa6-4043-9dde-35c31aac81f0"
+    },
+    {
+      "claim_quality": "fact",
+      "date": "2025-02-21",
+      "source_type": "company_filing",
+      "supports": [
+        "FormFactor sells probe cards for DRAM memory including HBM.",
+        "Fiscal 2024 DRAM revenue growth was partly driven by HBM designs used in generative AI applications.",
+        "DRAM increased as a percentage of Probe Card sales in fiscal 2024 versus fiscal 2023."
+      ],
+      "title": "FormFactor 2024 Form 10-K / Annual Report",
+      "url": "https://fintel.io/doc/sec-formfactor-inc-1039399-10k-2025-february-21-20140-5305"
+    },
+    {
+      "claim_quality": "fact_from_secondary_transcript_summary",
+      "date": "2026-04-29",
+      "source_type": "earnings_call_summary",
+      "supports": [
+        "DRAM probe cards achieved record revenue driven by HBM demand.",
+        "Second customer ramping adoption of Smart Matrix technology.",
+        "Q2 2026 revenue guidance was $240 million plus or minus $5 million."
+      ],
+      "title": "FormFactor Q1 2026 Earnings Transcript Summary",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/04/29/formfactor-form-q1-2026-earnings-transcript/"
+    },
+    {
+      "claim_quality": "fact_from_secondary_summary",
+      "date": "2026-04-29",
+      "source_type": "earnings_call_summary",
+      "supports": [
+        "HBM probe-card business reportedly grew more than 50% year over year.",
+        "Q2 growth reportedly benefited from a second customer adopting Smart Matrix for HBM4.",
+        "Foundry/logic growth tied partly to networking and data-center CPU demand linked to AI inference."
+      ],
+      "title": "FormFactor Q1 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-inc-q1-2026-earnings-001809274.html"
+    },
+    {
+      "claim_quality": "fact",
+      "date": "2026-05",
+      "source_type": "company_presentation",
+      "supports": [
+        "Company frames probe cards as critical to advanced packaging.",
+        "Presentation explicitly references GPU plus HBM advanced-package context."
+      ],
+      "title": "FormFactor Investor Presentation",
+      "url": "https://investors.formfactor.com/static-files/ed785242-eb88-40ce-8a1f-7feae215a47f"
+    },
+    {
+      "claim_quality": "external_research_context",
+      "date": "2026-06-03",
+      "source_type": "external_research_context",
+      "supports": [
+        "HBM producers are described as structurally undersupplied through 2027.",
+        "External research supports the Serenity lens of searching one layer below obvious HBM producers for suppliers and bottlenecks."
+      ],
+      "title": "The HBM Supply Chain: One Layer Beneath the Producers",
+      "url": "https://outperformers.co/p/tss3"
+    },
+    {
+      "claim_quality": "method_context",
+      "date": "2026-05-05",
+      "source_type": "external_research_context",
+      "supports": [
+        "AI infrastructure bottlenecks often reside in narrow supplier layers beneath visible GPUs, HBM, packaging, optics, and power infrastructure.",
+        "Supports the underfollowed chokepoint research method, but not a company-specific proof for FORM."
+      ],
+      "title": "The world is built out of a few narrow places: why I built AI Bottlenecks",
+      "url": "https://whatllm.org/blog/ai-supply-chain-bottlenecks"
+    }
+  ],
+  "layer": 5,
+  "memory_update": [
+    {
+      "claim_type": "inference",
+      "company": "FormFactor, Inc.",
+      "core_claim": "FormFactor may benefit from rising HBM and advanced-package test intensity through high-end probe cards, but the structural content-per-device and HBM4/HBM4E share claims still require verification.",
+      "discovery_lane": "underfollowed",
+      "downgrade_triggers": [
+        "HBM-related revenue proves immaterial.",
+        "Margins fail to improve despite HBM demand.",
+        "Competitors win most HBM4/HBM4E probe-card opportunities.",
+        "Customer concentration worsens without broader adoption.",
+        "HBM capex or AI accelerator demand slows materially."
+      ],
+      "layer": 5,
+      "next_check_date": "2026-07-30",
+      "notes": "Research support only; no buy/sell recommendation, target price, or return forecast.",
+      "status": "active_deep_research_candidate",
+      "theme": "AI",
+      "ticker": "FORM",
+      "upgrade_triggers": [
+        "Quantified HBM/HBM4/HBM4E probe-card revenue growth.",
+        "Evidence of multiple HBM customer ramps beyond one dominant customer.",
+        "Sustained Probe Cards segment margin and utilization improvement.",
+        "Competitive evidence that FormFactor is winning key HBM4/HBM4E sockets.",
+        "Management or customer commentary confirming higher test intensity/content per HBM generation."
+      ]
+    }
+  ],
+  "summary": "Layer 5 mini deep report for one underfollowed AI infrastructure target: FormFactor, Inc. (FORM). Core view: FORM is not an obvious AI chip producer; it sits in wafer-level test/probe cards, where HBM, known-good-die economics, and chiplet/advanced packaging may raise test intensity. The thesis is an inference, not yet a fully proven chokepoint claim. Evidence quality is moderate: company filings and Q1 2026 call summaries directly support HBM-related DRAM probe-card strength and AI/advanced-packaging exposure, but the key hidden signal still needs quantification: whether HBM4/HBM4E and advanced-package ramps structurally increase probe-card content, utilization, and margins rather than merely riding a memory cycle.",
+  "theme_id": "AI"
+}

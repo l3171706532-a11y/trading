@@ -1,0 +1,128 @@
+{
+  "deep_reports": [
+    {
+      "attention_level": "medium_attention",
+      "company": "AXT Inc.",
+      "discovery_lane": "underfollowed",
+      "evidence_chain": [
+        "[Fact] AXT describes itself as a material-science company manufacturing high-performance compound and single-element semiconductor substrate wafers including InP, GaAs, and Ge; source: AXT Q1 2026 earnings release page and investor materials.",
+        "[Fact] AXT’s Q1 2026 earnings summary on StockAnalysis says Q1 2026 revenue and gross margin improved, led by InP demand for AI/data centers; it also states capacity expansion is underway, profitability is expected in Q2, InP backlog reached about/above $100M, and export-permit timing remains a key risk.",
+        "[Fact] MarketBeat’s Q1 2026 earnings-call highlights state Q1 2026 revenue was $26.9M versus $23.0M in Q4 2025 and $19.4M in the year-ago period, and that management tied stronger InP demand to AI-related data-center upgrades and optical-component growth.",
+        "[Fact] MarketBeat also reports management commentary that InP backlog climbed to over $100M and that AXT was running ahead of its plan to double InP capacity from Q4 2025 levels.",
+        "[Fact] AXT’s Q1 2026 SEC 10-Q states China added InP substrates to its export-control list on February 4, 2025; Tongmei received initial permits on June 11, 2025 for certain customers in Europe and Japan; the company continues to receive permits but still has backlog awaiting permits, and timing remains uncertain.",
+        "[Fact] The Q1 2026 10-Q states InP export permits are a significant challenge and may create a mismatch between purchase orders and GAAP revenue recognition, potentially materially affecting results.",
+        "[Fact] The current finance snapshot from the browsing tool shows AXTI market capitalization around $4.18B on June 10, 2026 UTC, placing it in the small-cap bucket under this framework.",
+        "[Inference] The Serenity chokepoint logic is plausible because qualified substrate supply combines customer qualification, material quality, crystal growth know-how, yield learning, and export permissions; these are harder to flex quickly than headline optical-module demand.",
+        "[Hypothesis] If downstream optical transceiver/laser vendors are unable to qualify enough alternative InP substrate supply quickly, AXTI’s backlog, pricing, mix, and gross margin should show chokepoint-like behavior.",
+        "[Evidence gap] No sourced material in this packet proves that a majority of AXTI’s InP backlog is tied to named AI datacom customers or to 800G/1.6T EML programs."
+      ],
+      "falsification_plan": [
+        "Check each 2026 quarter for explicit InP end-market split. Falsify or downgrade if management indicates backlog is mainly telecom, China laser, non-datacom photonics, or inventory prebuild.",
+        "Track InP revenue versus backlog conversion. Downgrade if backlog remains high but shipments do not convert because permits are structurally delayed or denied.",
+        "Track gross margin alongside InP revenue. Downgrade if revenue rises but gross margin weakens, implying commodity supply or ramp inefficiency rather than bottleneck pricing/mix.",
+        "Track capex, tool installation, utilization, and yield commentary. Downgrade if the planned 2026/2027 capacity expansion slips materially or yields fail to scale.",
+        "Search customer-side evidence from optical-component makers, transceiver vendors, laser vendors, and photonics foundries. Upgrade only if multiple downstream customers point to InP substrate tightness or AXTI qualification in AI-oriented EML/photonic programs.",
+        "Monitor permit geography. Downgrade if U.S.-bound or hyperscaler-linked exports remain blocked or materially uncertain beyond management’s expected timeframe.",
+        "Compare peers and substitutes. Downgrade if alternative InP substrate suppliers expand qualified supply fast enough to remove scarcity."
+      ],
+      "hidden_signal_to_verify": "The hidden signal is whether AXTI’s record InP backlog and planned capacity expansion are being pulled by AI datacenter optical-interconnect customers, especially 800G/1.6T datacom EML or photonic-component demand, rather than by telecom normalization, China domestic laser demand, speculative inventory, or unrelated sensing/industrial applications.",
+      "market_cap_bucket": "small_cap",
+      "next_research_tasks": [
+        "Primary-source task: read the full AXTI Q1 2026 earnings-call transcript and extract every management statement on InP backlog, AI/data-center demand, customer mix, export permits, capacity, yields, and pricing.",
+        "SEC task: build a table from AXTI 10-K/10-Q filings for quarterly revenue, product mix if disclosed, gross margin, inventory, customer concentration, export-permit language, and Tongmei-related commitments.",
+        "Customer-verification task: search filings/calls from Coherent, Lumentum, Applied Optoelectronics, Fabrinet, Innolight/Eoptolink if available, Broadcom optical components, and other 800G/1.6T suppliers for mentions of InP, EML, substrate tightness, wafer qualification, or supplier constraints.",
+        "Permit task: track China MOFCOM/export-control updates and AXTI filing language for permits by destination: Europe, Japan, UK, Canada, U.S., and China domestic shipments.",
+        "Capacity task: verify Tongmei capex, tools installed, 6-inch InP progress, yield learning, and whether the claimed 2026/2027 doubling schedule is physically achievable.",
+        "Market-pricing task: compare AXTI valuation, short interest, sell-side coverage, and revenue expectations against the amount of backlog that can realistically ship under permit constraints; do not convert this into a trading recommendation.",
+        "Upgrade trigger: evidence that AI datacom/800G/1.6T customers are the dominant driver of backlog, permits are converting, capacity ramps on schedule, and InP gross margin improves.",
+        "Downgrade trigger: evidence that backlog is non-AI, permits bottleneck revenue, capacity/yields slip, or pricing/margins fail to reflect scarcity."
+      ],
+      "risks": [
+        "[Falsification risk] InP backlog may be mostly telecom recovery, China domestic laser demand, inventory prebuild, or other photonics demand rather than AI datacom.",
+        "[Execution risk] InP capacity additions may slip, yields may not scale, or incremental capacity may dilute margins if demand quality is weaker than assumed.",
+        "[Regulatory risk] China export permits remain uncertain; revenue conversion could lag orders even if demand is real.",
+        "[Customer risk] Downstream optical-component customers may qualify alternative substrate vendors, dual-source more aggressively, or change designs in ways that reduce AXTI’s leverage.",
+        "[Cycle risk] Optical components can be volatile; hyperscaler optical demand may pause after inventory builds or architecture transitions.",
+        "[Pricing risk] Revenue growth without gross-margin improvement would suggest volume demand rather than true chokepoint pricing power.",
+        "[Structure/governance risk] Tongmei, China operations, export controls, financing/listing history, and geopolitical exposure add complexity relative to cleaner U.S.-listed AI infrastructure suppliers.",
+        "[Market-pricing risk] AXTI has already gained attention after the backlog/capacity narrative; underfollowed does not necessarily mean undiscounted."
+      ],
+      "supply_chain_position": "AI compute clusters -> high-speed Ethernet/InfiniBand links -> 800G/1.6T optical transceivers and potential co-packaged optics -> EML lasers / photonic components -> epitaxial wafers and device fabrication -> InP substrate wafers -> crystal growth / raw material purification. AXTI/Tongmei sits at the compound-semiconductor substrate layer, upstream of optical-component vendors and two steps upstream of hyperscaler AI capex.",
+      "thesis_cn": "AI 数据中心 800G/1.6T 光互连扩张，会增加 EML 激光器和光子器件对合格 InP 衬底的需求；若 AXTI/Tongmei 的 InP backlog 主要来自 AI datacom 客户，并且出口许可与扩产顺利转化为收入，AXTI 可能成为光模块上游一层的稀缺公开市场映射。AXT 披露其业务包括 InP、GaAs 和 Ge 衬底；公司 Q1 2026 材料和第三方转录摘要均指向 InP 需求受 AI/data-center 拉动、InP backlog 超过 1 亿美元、正在推进 InP 产能翻倍；SEC 10-Q 披露 InP 衬底被纳入中国出口许可，且许可时点不可控。目前尚未看到足够强的客户/终端拆分证据，无法确认 backlog 主要来自 AI datacom，而不是电信复苏、中国激光器、库存预建、传感或其他光子应用。",
+      "thesis_en": "[Hypothesis] Expansion of 800G/1.6T AI data-center optical links may increase demand for qualified InP substrates used in EML lasers and photonic components. If AXTI/Tongmei’s InP backlog is mainly tied to AI datacom customers, and if export permits plus capacity expansion convert into shipments, AXTI could be a scarce public-market mapping to the substrate layer one step upstream of optical modules. [Fact] AXT discloses InP/GaAs/Ge substrate products; Q1 2026 company/third-party earnings materials point to AI/data-center-driven InP demand, more than $100M InP backlog, and InP capacity expansion; the SEC 10-Q discloses China export permits as a material gating issue for InP substrates. [Evidence gap] The decisive proof is still missing: a reliable customer/end-market split showing backlog is primarily AI datacom rather than telecom recovery, China laser demand, inventory prebuild, sensing, or other photonics use cases.",
+      "ticker": "AXTI",
+      "title_cn": "AXTI：AI 光互连上游 InP 衬底的隐蔽卡点假设",
+      "title_en": "AXTI: Hidden InP Substrate Chokepoint Hypothesis Upstream of AI Optical Interconnects",
+      "why_underfollowed": "AXTI is not naturally screened as an AI infrastructure name. It is usually classified as a compound-semiconductor materials/substrate supplier, while the visible AI beneficiaries sit downstream in GPUs, switches, optical modules, lasers, and transceivers. The AI signal is therefore hidden one or two layers upstream. The market may also discount or avoid it because the story is messy: China-based Tongmei manufacturing, export permits, STAR Market history/structure, non-AI end markets, cyclicality in telecom and consumer/industrial photonics, and a stock that has already attracted some momentum attention after backlog disclosures."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "AXT manufactures InP, GaAs, and Ge semiconductor substrate wafers.",
+      "claim_type": "fact",
+      "source_title": "AXT, Inc. Announces First Quarter 2026 Financial Results",
+      "url": "https://investors.axt.com/Investors/news/news-details/2026/AXT-Inc--Announces-First-Quarter-2026-Financial-Results/default.aspx"
+    },
+    {
+      "claim": "Q1 2026 summary indicates InP demand for AI/data centers, capacity expansion, record roughly $100M InP backlog, and export-permit timing risk.",
+      "claim_type": "fact",
+      "source_title": "AXT, Inc. Earnings Call Transcripts - StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/axti/transcripts/"
+    },
+    {
+      "claim": "Q1 2026 revenue was reported at $26.9M, up from $23.0M in Q4 2025 and $19.4M year over year; management tied InP demand to AI-related data-center upgrades and optical-component growth.",
+      "claim_type": "fact",
+      "source_title": "AXT Q1 Earnings Call Highlights - MarketBeat",
+      "url": "https://www.marketbeat.com/instant-alerts/axt-q1-earnings-call-highlights-2026-04-30/"
+    },
+    {
+      "claim": "China added InP substrates to its export-control list on February 4, 2025; Tongmei received initial InP export permits for certain Europe/Japan customers on June 11, 2025; AXTI still has backlog awaiting permits and cannot predict timing.",
+      "claim_type": "fact",
+      "source_title": "AXT Inc. Q1 2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926017054/axti20260331_10q.htm"
+    },
+    {
+      "claim": "The SEC 10-Q states export-permit timing may create mismatch between InP purchase orders and GAAP revenue recognition and may materially affect the business.",
+      "claim_type": "fact",
+      "source_title": "AXT Inc. Q1 2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926017054/axti20260331_10q.htm"
+    },
+    {
+      "claim": "AXTI market capitalization was about $4.18B in the finance snapshot used on June 10, 2026 UTC.",
+      "claim_type": "fact",
+      "source_title": "Browsing finance tool snapshot",
+      "url": "finance:AXTI:2026-06-10"
+    },
+    {
+      "claim": "Qualified InP substrates could be a chokepoint for AI optical interconnects because substrate quality, qualification, yield, capacity, and export permissions are difficult to flex quickly.",
+      "claim_type": "hypothesis",
+      "source_title": "Serenity methodology inference from gathered company evidence",
+      "url": "cached_serenity_methodology_context"
+    }
+  ],
+  "layer": 5,
+  "memory_update": [
+    {
+      "entity": "AXTI",
+      "falsification_evidence": [
+        "Backlog disclosed or inferable as mostly non-AI.",
+        "Permits remain structurally delayed or denied.",
+        "Capacity expansion slips or yields fail.",
+        "Alternative suppliers remove substrate tightness.",
+        "Gross margin weakens despite InP revenue growth."
+      ],
+      "key_thesis": "Underfollowed AI optical-interconnect substrate chokepoint hypothesis: AXTI/Tongmei may benefit if InP backlog is primarily tied to 800G/1.6T AI datacom customers and if export permits/capacity expansion convert into revenue.",
+      "key_uncertainty": "Backlog composition is not yet proven; must distinguish AI datacom from telecom recovery, China laser demand, inventory prebuild, and other photonics applications.",
+      "status": "active_watchlist_research_only",
+      "type": "layer5_deep_report",
+      "upgrade_evidence": [
+        "Explicit management or customer-side evidence that AI datacom/800G/1.6T is the dominant InP backlog driver.",
+        "Permits convert into shipments without structural delay.",
+        "InP revenue and gross margin improve together.",
+        "Tongmei capacity/yield milestones are achieved."
+      ]
+    }
+  ],
+  "summary": "Layer 5 mini deep report on AXT Inc. / AXTI as an underfollowed AI supply-chain chokepoint candidate. Core hypothesis: 800G/1.6T AI data-center optical interconnect growth may tighten qualified indium phosphide substrate supply for EML lasers and photonic components; AXTI/Tongmei is one of the few public-market mappings to that upstream substrate layer. Evidence supports an InP-AI-data-center link, a record InP backlog, capacity expansion, and export-permit risk. The decisive missing proof remains backlog composition: how much is truly AI datacom versus telecom recovery, China laser demand, inventory prebuild, or other photonics applications. This is research only, not a buy/sell recommendation.",
+  "theme_id": "AI_optical_interconnect_InP_substrates_AXTI_layer5"
+}

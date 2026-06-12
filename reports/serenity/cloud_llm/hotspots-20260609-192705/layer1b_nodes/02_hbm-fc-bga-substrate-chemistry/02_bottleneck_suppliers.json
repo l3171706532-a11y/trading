@@ -1,0 +1,218 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "confidence": 0.82,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Track whether substrate yield, substrate allocation, CoWoS capacity, or outsourced packaging partnerships are cited as limiting AI accelerator shipments.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check TSMC earnings-call transcripts, capex commentary, CoWoS capacity disclosures, and customer commentary from NVIDIA, AMD, Broadcom, and HBM producers.",
+      "node_relation": "Reference anchor for AI accelerator advanced packaging demand and capacity; not the underfollowed alpha lane.",
+      "sector_or_industry": "Foundry and advanced packaging",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference_anchor",
+        "evidence_needed"
+      ],
+      "theme_relation": "TSMC's CoWoS and related advanced-packaging ramps are a demand signal for FC-BGA substrates, HBM integration, inspection, metrology, and OSAT capacity.",
+      "ticker": "TSM",
+      "why_include": "Included only as a context anchor because the node's economics depend on AI accelerator package complexity and advanced-packaging capacity. Provided context and external evidence identify TSMC-linked packaging capacity as a critical path for AI chips.",
+      "why_underfollowed": "Not underfollowed; mega-cap reference name that should not crowd out the supplier lane."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Amkor Technology",
+      "confidence": 0.72,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify customer mix and whether AI/HPC advanced packaging revenue, FCBGA capacity utilization, substrate procurement constraints, or TSMC-linked outsourcing become material to revenue and margins.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review latest 10-K/10-Q, Arizona campus milestones, CHIPS Act disclosures, customer references, capex allocation, and management commentary on AI/HPC advanced packaging demand.",
+      "node_relation": "Advanced packaging and FCBGA package capacity proxy rather than a pure substrate, film, or chemistry supplier.",
+      "sector_or_industry": "Outsourced semiconductor assembly, test, and advanced packaging",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "capacity_constraint",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI accelerator packaging capacity remains tight, OSATs with high-performance FCBGA and advanced-packaging capability can become second-order beneficiaries, especially where domestic packaging capacity is policy-supported.",
+      "ticker": "AMKR",
+      "why_include": "Amkor directly offers FCBGA packaging and has announced a major Arizona advanced packaging and test campus intended to serve AI, HPC, mobile, communications, and automotive applications. It is not the scarce build-up-film or surface-chemistry supplier, but it is close to the same advanced-package substrate/capacity chokepoint.",
+      "why_underfollowed": "Less discussed than AI chip designers, HBM producers, and TSMC; its exposure is embedded in packaging capacity and execution rather than a clean AI-chip revenue line."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Onto Innovation",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Look for order growth, backlog, or margin expansion specifically tied to panel-level packaging, advanced IC substrates, AI/HPC, 2.5D/3D architectures, or packaging software/process control.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest investor presentations, segment revenue commentary, annual report risk factors, customer concentration, and whether advanced-packaging tools are taking share from legacy metrology/inspection lines.",
+      "node_relation": "Inspection/metrology and process-control equipment tied to advanced IC substrates, panel-level packaging, and 2.5D/3D AI architectures.",
+      "sector_or_industry": "Semiconductor inspection, metrology, lithography, and process-control equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "equipment",
+        "yield",
+        "evidence_needed"
+      ],
+      "theme_relation": "If the binding constraint in advanced-package substrates is yield rather than simple throughput, metrology and inspection vendors can become bottleneck-adjacent beneficiaries.",
+      "ticker": "ONTO",
+      "why_include": "Onto states that its Firefly G3 system provides automated inspection and 3D metrology for advanced IC substrates and panel-level packaging, including demanding applications such as HPC, AI, cloud computing, and machine/deep learning.",
+      "why_underfollowed": "Covered by semiconductor equipment investors but less visible than lithography, GPU, HBM, and foundry leaders; exposure is through yield-control tools that sit one step below headline AI-chip demand."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Camtek Ltd.",
+      "confidence": 0.8,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Confirm whether HBM/HI orders are recurring, which customers are scaling, whether inspection intensity per AI package is rising, and whether revenue growth depends on a narrow group of tier-1 customers.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review Camtek annual reports, HBM/HI order announcements, backlog, customer concentration, and product-level commentary for Hawk or other advanced-packaging inspection platforms.",
+      "node_relation": "Advanced packaging, HBM, heterogeneous integration, and hybrid-bonding inspection/metrology proxy.",
+      "sector_or_industry": "Semiconductor inspection and metrology equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "equipment",
+        "yield",
+        "evidence_needed"
+      ],
+      "theme_relation": "Camtek is a plausible yield-control beneficiary if HBM and AI accelerator packages require higher-throughput inspection of bumps, surfaces, interconnects, and package-level defects.",
+      "ticker": "CAMT",
+      "why_include": "Camtek markets advanced-packaging inspection/metrology systems and has announced an order for 28 systems from a tier-1 manufacturer for HBM and heterogeneous-integration applications.",
+      "why_underfollowed": "More visible to semiconductor equipment specialists than to generalist AI investors; the link is indirect through inspection intensity and yield needs, not through GPU/HBM ownership."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Provided external evidence states that HBM producers are structurally undersupplied through 2027 and that one layer beneath them includes FC-BGA substrates, Ajinomoto build-up film, and MEC copper-adhesion surface chemistry.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06-03T13:01:07.000Z",
+      "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+      "source_url": "https://outperformers.co/p/tss3",
+      "ticker": ""
+    },
+    {
+      "claim": "Provided external evidence states that the substrate node's binding constraint is yield rather than throughput, and that Ajinomoto and MEC Company are dominant scarce suppliers under substrate makers.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026-06-03T13:01:07.000Z",
+      "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+      "source_url": "https://outperformers.co/p/tss3",
+      "ticker": ""
+    },
+    {
+      "claim": "Amkor offers FCBGA packaging and says FCBGA combines flip-chip interconnect with ultra-advanced substrate technology for electrical performance.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "FCBGA Laminate Packaging | Amkor Semiconductor Solutions",
+      "source_url": "https://amkor.com/packaging/laminate/fcbga/",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor announced a new Arizona advanced semiconductor packaging and test campus with scalable production lines for AI, high-performance computing, mobile communications, and automotive applications.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2025-10-06",
+      "source_title": "Amkor Technology Breaks Ground on New Semiconductor Advanced Packaging and Test Campus in Arizona; Expands Investment to $7 Billion",
+      "source_url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Onto Innovation says its Firefly G3 provides automated inspection and 3D metrology for advanced IC substrates and panel-level packaging, including HPC, AI, cloud computing, and machine/deep-learning applications.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Panel Level Packaging Inspection System | Onto Innovation",
+      "source_url": "https://ontoinnovation.com/products/firefly-g3/",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Onto says its Packaging Applications Center of Excellence supports panel-level packaging innovations for 2.5D/3D AI architectures.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "",
+      "source_title": "Semiconductor Manufacturing Software & Solutions | Onto Innovation",
+      "source_url": "https://ontoinnovation.com/",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Camtek says advanced packaging requires high-level inspection and metrology to ensure yields of each die and the whole package.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "Advanced Packaging - Camtek",
+      "source_url": "https://www.camtek.com/markets/advanced-packaging/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Camtek announced an order for 28 systems from a tier-1 manufacturer for HBM and heterogeneous-integration inspection and metrology applications.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2023-10-26",
+      "source_title": "Camtek Receives Order for 28 Systems from a tier-1 manufacturer for High Bandwidth Memory (HBM) and Heterogenous Integration (HI) Applications",
+      "source_url": "https://www.camtek.com/news-and-events/camtek-receives-order-for-28-systems-from-a-tier-1-manufacturer-for-high-bandwidth-memory-hbm-and-heterogenous-integration-hi-applications/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Camtek's Hawk platform is described as designed for advanced packaging applications including chiplets, HBM, and hybrid bonding.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "",
+      "source_title": "Hawk - Camtek",
+      "source_url": "https://www.camtek.com/products/hawk/",
+      "ticker": "CAMT"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.82,
+      "text": "No clean US-listed pure-play equivalent was identified for the highest-scarcity materials named in the provided evidence: Ajinomoto build-up film and MEC copper-adhesion surface chemistry. Treat US-listed names as adjacent proxies unless direct supplier/customer evidence emerges.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.72,
+      "text": "AMKR is a second-order advanced-packaging capacity proxy for the FC-BGA/AI accelerator package node, but evidence must separate AI/HPC advanced-packaging exposure from broader OSAT cyclicality.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "ONTO is a plausible underfollowed yield-control proxy because it explicitly targets advanced IC substrates, panel-level packaging, and AI/HPC applications with inspection/metrology tools.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "CAMT is a plausible mid-cap advanced-packaging inspection/metrology proxy with explicit HBM and heterogeneous-integration order evidence, but customer concentration and order cyclicality require verification.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.77,
+      "text": "For US-listed equities, the node maps better to advanced-packaging yield-control tools and capacity infrastructure than to direct ownership of the scarce insulating film or copper surface-chemistry suppliers.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "HBM and AI accelerator advanced-package substrates, insulating films, and surface chemistry",
+  "node_id": "hbm_fc_bga_substrate_chemistry",
+  "summary": "Expanded the US-listed universe around the AI accelerator advanced-packaging substrate node. The cleanest pure-play bottleneck names cited in the provided evidence are not normal US-listed investable equities: Ajinomoto for build-up film, MEC Company for copper adhesion chemistry, and Asian substrate makers such as Ibiden, Unimicron, Kinsus, AT&S, and Shinko. Within US-listed equities, the most plausible mapping shifts to adjacent chokepoints: advanced packaging capacity, panel or substrate inspection and metrology, and 2.5D/3D AI package yield-control equipment. This pass keeps TSM as the reference demand/capacity anchor and prioritizes AMKR, ONTO, and CAMT as underfollowed or less-obvious public-market proxies. No buy/sell recommendation is made.",
+  "theme_id": "new_hotspots"
+}

@@ -1,0 +1,1415 @@
+{
+  "args": {
+    "limit_themes": 1,
+    "max_briefs": 8,
+    "max_candidates": 60,
+    "max_candidates_per_node": 15,
+    "max_deep_reports": 3,
+    "max_layer1_nodes": 6,
+    "theme_id": [
+      "hotspots"
+    ],
+    "themes": "config/serenity_themes.csv",
+    "universe": "config/us_serenity_pilot_universe.csv"
+  },
+  "external_search": {
+    "enabled": true,
+    "error_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_errors.jsonl",
+    "evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+    "max_queries": 5,
+    "max_results_per_query": 4,
+    "twitter_enabled": true
+  },
+  "layer1a": {
+    "coverage_gaps": [
+      "Need primary-source verification for all Substack-derived claims through company filings, backlog disclosures, investor presentations, exchange filings, or regulator documents.",
+      "Need current market-cap, liquidity, analyst-coverage, and valuation checks before any candidate can move from Layer 1A theme map to Layer 1B/2 candidate screening.",
+      "Need a global listed-company screen for sulphuric-acid producers, smelter-acid exporters, copper SX-EW users, Indonesian HPAL nickel operators, and fertilizer companies with captive versus merchant acid exposure.",
+      "Need evidence separating AI power beneficiaries with real order/backlog pull-through from companies merely using AI/data-center language in investor materials.",
+      "Need policy-source confirmation for FERC large-load interconnection reform status, China sulphuric-acid export ban details, Russia sulphur export restriction status, and any Strait of Hormuz disruption assumption.",
+      "Need customer-level and molecule-level evidence for niche API suppliers, including DMF filings, regulatory inspection status, customer concentration, and revenue mix.",
+      "Need India refractory market share and capex evidence from annual reports, industry bodies, steel/cement capacity plans, and import/export data.",
+      "Need caution around auto supplier rift claims because the supplied external context is media-like and partially truncated; treat as a rumor seed until primary evidence appears."
+    ],
+    "evidence": [
+      {
+        "claim": "A 2026 external search result reported that PLP's order backlog grew 22% in 2025 to USD 232.8 million and framed transmission hardware as an underfollowed layer of the AI power/grid story.",
+        "claim_type": "fact",
+        "confidence": 0.66,
+        "published_at": "2026-04-13",
+        "source_title": "The Only Pure-Play Transmission Hardware Stock Nobody Is Talking About",
+        "source_url": "https://lanin.substack.com/p/the-invisible-bom-plpc-is-the-hardware",
+        "ticker": ""
+      },
+      {
+        "claim": "The same supplied search context suggests transmission hardware procurement may lead EPC line construction activity, making backlog a potential early signal for grid buildout beneficiaries.",
+        "claim_type": "hypothesis",
+        "confidence": 0.61,
+        "published_at": "2026-04-13",
+        "source_title": "The Only Pure-Play Transmission Hardware Stock Nobody Is Talking About",
+        "source_url": "https://lanin.substack.com/p/the-invisible-bom-plpc-is-the-hardware",
+        "ticker": ""
+      },
+      {
+        "claim": "Kpler reported that China announced a full sulphuric-acid export ban through August 2026, replacing a prior annual quota, and that China was the world's largest acid exporter.",
+        "claim_type": "fact",
+        "confidence": 0.86,
+        "published_at": "2026-06-04",
+        "source_title": "Sulphur & sulphuric acid in 2026: The feedstock crisis cascading through copper, nickel & fertilisers",
+        "source_url": "https://www.kpler.com/blog/sulphur-sulphuric-acid-in-2026-the-feedstock-crisis-cascading-through-copper-nickel-fertilisers",
+        "ticker": ""
+      },
+      {
+        "claim": "Kpler linked sulphuric-acid disruption to downstream copper SX-EW in Chile, HPAL nickel in Indonesia, and fertilizer or industrial acid demand in Saudi Arabia and India.",
+        "claim_type": "fact",
+        "confidence": 0.85,
+        "published_at": "2026-06-04",
+        "source_title": "Sulphur & sulphuric acid in 2026: The feedstock crisis cascading through copper, nickel & fertilisers",
+        "source_url": "https://www.kpler.com/blog/sulphur-sulphuric-acid-in-2026-the-feedstock-crisis-cascading-through-copper-nickel-fertilisers",
+        "ticker": ""
+      },
+      {
+        "claim": "The supplied Kpler context states that Indonesian HPAL capacity imports roughly 75-80% of its sulphur from the Middle East Gulf and that one Huayou Indonesian plant had reduced output by around 50%.",
+        "claim_type": "fact",
+        "confidence": 0.78,
+        "published_at": "2026-06-04",
+        "source_title": "Sulphur & sulphuric acid in 2026: The feedstock crisis cascading through copper, nickel & fertilisers",
+        "source_url": "https://www.kpler.com/blog/sulphur-sulphuric-acid-in-2026-the-feedstock-crisis-cascading-through-copper-nickel-fertilisers",
+        "ticker": ""
+      },
+      {
+        "claim": "A supplied specialty-API search result argues that regulatory re-validation can make API supplier switching slow and sticky, potentially benefiting niche API manufacturers as pharma customers diversify away from Chinese suppliers.",
+        "claim_type": "hypothesis",
+        "confidence": 0.64,
+        "published_at": "2026-05-31",
+        "source_title": "Revenue Grew 50%. Margins Hit 35%. Nobody Is Tracking This Niche API Manufacturer.",
+        "source_url": "https://secondsource.substack.com/p/revenue-grew-50-margins-hit-35-nobody",
+        "ticker": ""
+      },
+      {
+        "claim": "A supplied refractory-market search result argues that Indian steel and cement customers are consolidating refractory spend toward technically reliable organized suppliers with on-site service and higher-spec products.",
+        "claim_type": "hypothesis",
+        "confidence": 0.62,
+        "published_at": "2026-04-28",
+        "source_title": "The Hidden Small Cap Company That Quietly Owns 30% of a Market You've Never Heard Of",
+        "source_url": "https://rtomar.substack.com/p/the-hidden-small-cap-company-that",
+        "ticker": ""
+      },
+      {
+        "claim": "NVIDIA was included in the provided pilot universe as an AI semiconductor reference leader connected to AI accelerators, GPUs, data centers, HBM, networking, and power.",
+        "claim_type": "fact",
+        "confidence": 0.95,
+        "published_at": "2026-06-11",
+        "source_title": "Provided pilot universe",
+        "source_url": "provided_cached_context",
+        "ticker": "NVDA"
+      },
+      {
+        "claim": "Taiwan Semiconductor Manufacturing was included in the provided pilot universe as a foundry and advanced-packaging reference leader for AI chip capacity.",
+        "claim_type": "fact",
+        "confidence": 0.95,
+        "published_at": "2026-06-11",
+        "source_title": "Provided pilot universe",
+        "source_url": "provided_cached_context",
+        "ticker": "TSM"
+      },
+      {
+        "claim": "Quanta Services was included in the provided pilot universe as a grid transmission construction and power infrastructure reference leader.",
+        "claim_type": "fact",
+        "confidence": 0.95,
+        "published_at": "2026-06-11",
+        "source_title": "Provided pilot universe",
+        "source_url": "provided_cached_context",
+        "ticker": "PWR"
+      },
+      {
+        "claim": "Centrus Energy was included in the provided pilot universe as a nuclear fuel and HALEU-related bottleneck reference company.",
+        "claim_type": "fact",
+        "confidence": 0.95,
+        "published_at": "2026-06-11",
+        "source_title": "Provided pilot universe",
+        "source_url": "provided_cached_context",
+        "ticker": "LEU"
+      },
+      {
+        "claim": "A supplied media-like search result alleges a Ford-supplier rift; because the snippet is truncated and does not provide primary evidence, it should be treated only as a seed for supplier-stress research.",
+        "claim_type": "speculation",
+        "confidence": 0.35,
+        "published_at": "2026-06-04",
+        "source_title": "The Ford-Supplier Rift Nobody in Detroit Is Talking About – USA Business Times",
+        "source_url": "https://usabusinesstimes.com/the-ford-supplier-rift-nobody-in-detroit-is-talking-about/",
+        "ticker": ""
+      }
+    ],
+    "layer": "1A",
+    "memory_update": [
+      {
+        "confidence": 0.86,
+        "text": "New Hotspots should be treated as a cross-sector chokepoint funnel rather than a single ticker theme: identify sudden policy/demand shocks, then map the obscure supplier layer one to three steps away from the headline.",
+        "type": "theme_relation"
+      },
+      {
+        "confidence": 0.74,
+        "text": "Transmission line hardware is a high-priority underfollowed node for AI/data-center power because hardware procurement may precede EPC revenue and visible grid construction.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.84,
+        "text": "Sulphur and sulphuric acid are priority input chokepoints for copper SX-EW, Indonesian HPAL nickel, fertilizer, and industrial-acid chains after reported 2026 trade disruptions and export restrictions.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.76,
+        "text": "Regulated niche API suppliers should be screened for China-plus-one demand, molecule-level regulatory lock-in, DMF filings, export growth, and low analyst coverage.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.71,
+        "text": "Indian refractory suppliers may be second-order beneficiaries of steel and cement modernization if organized suppliers gain share through technical reliability, process embedding, and on-site service.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.69,
+        "text": "Nuclear fuel, enrichment, qualified components, and nuclear-grade industrial suppliers are better chokepoint search lanes than reactor developers alone for AI power and baseload themes.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.93,
+        "text": "Primary-source validation is required before advancing any candidate: company filings, backlog tables, customer disclosures, regulatory filings, capacity data, policy documents, and current market-pricing checks.",
+        "type": "coverage_gap"
+      }
+    ],
+    "summary": "Layer 1A decomposes 'New Hotspots' into underfollowed supply-chain chokepoints created by sudden demand shocks, policy shifts, and hidden customer-supplier dependencies. The strongest initial lanes are: AI/data-center power grid hardware, sulphur/sulphuric-acid feedstock disruption affecting copper/nickel/fertilizer, niche regulated API suppliers benefiting from China-diversification, India industrial refractories tied to steel/cement capex, nuclear fuel/components as a second-order AI power beneficiary, and hidden automotive supplier stress. This is an initial decomposition only, not a security recommendation; later layers should verify filings, customer concentration, backlog, capacity, pricing, and market expectations.",
+    "supply_chain_nodes": [
+      {
+        "bottleneck_hypothesis": "If transmission miles and interconnection work accelerate faster than skilled labor and hardware procurement can scale, small specialized transmission hardware suppliers may see backlog before revenue is visible in reported results.",
+        "claim_type": "hypothesis",
+        "confidence": 0.74,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Prefer USD 300M-3B niche industrial suppliers with backlog disclosure, utility exposure, and long customer relationships. Larger electrical equipment names can be reference comps, not primary discovery targets.",
+        "node": "Transmission line hardware for AI/data-center grid buildout",
+        "node_id": "transmission_line_hardware",
+        "public_asset_hunting_notes": "Start with public pure-play or near-pure-play suppliers of utility line hardware, connectors, clamps, armor rods, insulators, conductor accessories, and robotic-installation-compatible systems. Cross-check customers against Quanta Services, MYR Group, utilities, and transmission capex filings.",
+        "role": "infrastructure",
+        "search_queries": [
+          "\"transmission hardware\" \"backlog\" public company",
+          "\"line hardware\" \"utility\" \"AI data center\"",
+          "\"Quanta\" \"supplier\" \"transmission hardware\"",
+          "\"robotic installation\" \"transmission line hardware\"",
+          "\"FERC\" \"large load interconnection\" \"transmission\" suppliers"
+        ],
+        "underfollowed_angle": "This lane sits above the obvious EPC contractors and utilities. It may be categorized as industrial components rather than AI infrastructure, causing low thematic visibility.",
+        "why_it_matters": "AI data-center load growth may force utilities and grid contractors to accelerate transmission upgrades. The obvious beneficiaries are utilities, EPC contractors, and electrical equipment majors, but the more obscure layer is hardware installed on every tower and line before crews arrive."
+      },
+      {
+        "bottleneck_hypothesis": "Export restrictions, regional deficits, and disrupted trade routes can force downstream producers to compete for limited replacement acid, raising costs or curtailing output. Beneficiaries may include regional acid producers, smelters with acid byproduct, logistics operators, or upstream sulphur suppliers.",
+        "claim_type": "fact",
+        "confidence": 0.82,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Search globally for USD 300M-10B chemical, smelting, fertilizer, and industrial logistics companies with disclosed sulphur/sulphuric-acid exposure. Include emerging-market listings if disclosure quality is adequate.",
+        "node": "Sulphur and sulphuric acid feedstock chokepoint for copper, nickel, fertilizers, and industrial acid",
+        "node_id": "sulphuric_acid_feedstock_shock",
+        "public_asset_hunting_notes": "Map exposure across sulphur producers, refiners, smelters producing sulphuric acid byproduct, fertilizer producers with captive supply, copper SX-EW operators, Indonesian HPAL nickel operators, and shipping/logistics routes. Separate beneficiaries from users whose margins are squeezed.",
+        "role": "input",
+        "search_queries": [
+          "\"sulphuric acid\" \"export ban\" \"copper SX-EW\" public company",
+          "\"sulphur\" \"HPAL\" \"Indonesia\" \"listed\"",
+          "\"smelter acid\" \"Chile\" \"public company\"",
+          "\"sulphuric acid\" \"fertilizer\" \"supply shock\"",
+          "\"sulphur\" \"trade route\" \"nickel\" \"public company\""
+        ],
+        "underfollowed_angle": "Market attention may focus on copper, nickel, or fertilizer prices while missing the input constraint and regional acid logistics layer.",
+        "why_it_matters": "Sulphuric acid is a critical input for copper SX-EW, Indonesian HPAL nickel, fertilizers, and other industrial processes. A feedstock shock can create second-order winners and losers far away from the visible commodity headline."
+      },
+      {
+        "bottleneck_hypothesis": "Because changing API suppliers may require regulatory re-validation, inspections, and waiting periods, qualified niche API manufacturers can have higher switching costs than commodity chemical labels imply.",
+        "claim_type": "hypothesis",
+        "confidence": 0.77,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Prefer USD 300M-5B Indian, European, or specialty chemical/pharma suppliers with high EBITDA margins, rising regulated-market exports, and low sell-side coverage. Micro-cap exceptions require extra governance checks.",
+        "node": "Regulated niche API suppliers with customer re-validation lock-in",
+        "node_id": "regulated_niche_api_suppliers",
+        "public_asset_hunting_notes": "Look for listed API manufacturers with narrow molecule portfolios, DMF filings, customer concentration that is manageable but sticky, export-heavy revenue, FDA/EMA/PMDA inspection history, and disclosed China-plus-one wins.",
+        "role": "input",
+        "search_queries": [
+          "\"niche API\" \"regulatory re-validation\" listed company",
+          "\"API supplier\" \"China plus one\" \"DMF\" public company",
+          "\"specialty API\" \"FDA\" \"low analyst coverage\"",
+          "\"pharma API\" \"customer switching\" \"regulatory filing\"",
+          "\"India API manufacturer\" \"EBITDA margin\" \"export\""
+        ],
+        "underfollowed_angle": "These companies may screen as generic pharma or commodity chemicals despite having molecule-level monopoly-like economics and regulatory lock-in.",
+        "why_it_matters": "Specialty API suppliers can be deeply embedded in drug filings. When pharmaceutical customers diversify away from China or add alternate qualified sources, a small API producer can gain sticky contracts that are hard to displace."
+      },
+      {
+        "bottleneck_hypothesis": "If larger steel and cement plants standardize on high-spec refractory suppliers during design or modernization, embedded suppliers may gain switching costs and share from fragmented local or import-based competitors.",
+        "claim_type": "hypothesis",
+        "confidence": 0.72,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Prefer local-market small/mid caps with dominant organized-market share, technology licensing, high replacement frequency, and improving mix. Validate related-party dynamics if a listed subsidiary is parent-controlled.",
+        "node": "Indian refractories embedded in steel and cement capacity expansion",
+        "node_id": "india_refractory_consolidation",
+        "public_asset_hunting_notes": "Search listed refractory producers with exposure to Indian steel, cement, non-ferrous metals, flow-control products, parent-company technology transfer, plant-level service networks, and capacity expansion tied to customer capex.",
+        "role": "input",
+        "search_queries": [
+          "\"India refractory\" \"steel cement\" listed company",
+          "\"refractory\" \"flow control\" \"India\" \"public company\"",
+          "\"steel plant\" \"refractory supplier\" \"switching cost\"",
+          "\"cement refractory\" \"India infrastructure\" \"listed\"",
+          "\"RHI\" \"India\" \"refractory\" \"market share\""
+        ],
+        "underfollowed_angle": "The supply-chain beneficiary may not be a steel or cement company; it may be the specialized consumable or engineered material supplier embedded in the industrial process.",
+        "why_it_matters": "Steel and cement plants require refractory materials that withstand high temperatures and process stress. As Indian industrial plants scale and modernize, customers may consolidate spend toward suppliers with technical reliability, on-site service, and higher-spec products."
+      },
+      {
+        "bottleneck_hypothesis": "The market may over-focus on reactor developers or utilities while underpricing fuel availability, enrichment capacity, qualified components, testing/inspection, and nuclear-grade manufacturing constraints.",
+        "claim_type": "inference",
+        "confidence": 0.68,
+        "discovery_lane": "speculative_shadow",
+        "market_cap_hunting_notes": "Prefer USD 300M-10B companies with explicit nuclear certifications, NRC/DOE links, long-cycle backlog, or fuel-cycle exposure. Treat pre-revenue reactor developers and micro-cap nuclear stories as speculative until licensing and financing are verified.",
+        "node": "Nuclear fuel cycle and qualified reactor components as AI power second-order beneficiaries",
+        "node_id": "nuclear_fuel_and_qualified_components",
+        "public_asset_hunting_notes": "Use reference names such as Constellation, NuScale, BWX Technologies, Centrus, Cameco, Fluor, and GE Vernova to map demand, then search for smaller suppliers in valves, forgings, control systems, specialty materials, nondestructive testing, and nuclear-certified EPC subcontractors.",
+        "role": "capacity",
+        "search_queries": [
+          "\"nuclear certified\" \"valves\" public company",
+          "\"HALEU\" \"supplier\" \"listed company\"",
+          "\"nuclear components\" \"backlog\" \"small cap\"",
+          "\"data center\" \"nuclear power\" \"fuel\" \"enrichment\"",
+          "\"SMR\" \"supply chain\" \"forging\" \"public company\""
+        ],
+        "underfollowed_angle": "Some suppliers may be hidden inside industrial, defense, or testing segments rather than classified as nuclear equities.",
+        "why_it_matters": "Data-center baseload demand and energy-security policy may increase interest in nuclear power, including existing reactors, uprates, restarts, SMRs, fuel enrichment, HALEU, reactor components, and specialized EPC."
+      },
+      {
+        "bottleneck_hypothesis": "If an OEM-supplier rift becomes operational rather than merely contractual, second-order beneficiaries may include alternative component suppliers, tooling vendors, aftermarket suppliers, logistics firms, or distressed consolidators.",
+        "claim_type": "speculation",
+        "confidence": 0.46,
+        "discovery_lane": "speculative_shadow",
+        "market_cap_hunting_notes": "Focus on USD 300M-5B auto suppliers with concentrated OEM exposure, substitute capacity, or tooling ownership. Micro-cap distress cases require explicit solvency and customer-confirmation checks.",
+        "node": "Hidden auto OEM supplier dependency and pricing-stress chokepoints",
+        "node_id": "auto_oem_supplier_dependency_stress",
+        "public_asset_hunting_notes": "Do not rely on rumor alone. Verify via supplier filings, litigation, purchase commitments, receivables, warranty accruals, plant-level layoffs, NHTSA data, UCC liens, and OEM platform sourcing disclosures.",
+        "role": "distribution",
+        "search_queries": [
+          "\"Ford supplier\" \"pricing dispute\" public supplier",
+          "\"OEM supplier rift\" \"sole source\" \"public company\"",
+          "\"auto supplier\" \"receivables\" \"Ford\" \"10-K\"",
+          "\"tier 2 supplier\" \"platform launch\" \"capacity constraint\"",
+          "\"automotive supplier\" \"distressed consolidation\" listed"
+        ],
+        "underfollowed_angle": "Supplier stress is often visible first in local reports, trade publications, receivable deterioration, or plant-level activity rather than broad market coverage.",
+        "why_it_matters": "OEM pressure to cut costs can expose fragile supplier relationships, especially where a supplier is sole-source, financially stressed, tooling-specific, or embedded in a platform launch. A disruption can shift volume, pricing power, or consolidation value to obscure replacement suppliers."
+      }
+    ],
+    "theme_id": "new_hotspots_2026_06_11_layer_1a",
+    "theme_map": {
+      "demand_drivers": [
+        "AI data-center electricity demand forcing grid upgrades, transmission construction, substation equipment, cooling, backup power, and baseload procurement.",
+        "Policy-driven reshoring and supplier diversification away from China in pharmaceuticals, critical minerals, energy infrastructure, and industrial inputs.",
+        "Commodity feedstock shocks that cascade into downstream supply chains, especially sulphur/sulphuric acid exposure in copper SX-EW, Indonesian HPAL nickel, fertilizers, and industrial acid users.",
+        "Infrastructure and industrial capex in India, including steel and cement capacity expansion, creating demand for high-spec refractories and embedded process materials.",
+        "Nuclear power revival driven by data-center baseload needs, energy security, defense demand, and grid reliability concerns.",
+        "OEM cost-cutting and supplier disruptions in autos that may create second-order winners among replacement suppliers, tooling vendors, specialty components, logistics, or distressed consolidators."
+      ],
+      "discovery_lanes": {
+        "low_attention_search_queries": [
+          "\"data center power\" \"transmission hardware\" small cap supplier backlog",
+          "\"AI power demand\" \"line hardware\" \"utility\" public company",
+          "\"sulphuric acid\" export ban copper SX-EW listed suppliers",
+          "\"sulphur\" \"HPAL\" Indonesia nickel feedstock public company",
+          "\"China plus one\" \"API supplier\" \"regulatory re-validation\" listed company",
+          "\"niche API\" \"DMF\" \"low analyst coverage\" public company",
+          "\"India refractory\" \"steel cement capex\" listed company",
+          "\"refractory\" \"switching cost\" \"steel plant\" public company",
+          "\"HALEU\" \"nuclear fuel\" \"supplier\" small cap",
+          "\"Ford supplier\" dispute \"sole source\" public supplier"
+        ],
+        "reference_leaders": [
+          "NVDA",
+          "AMD",
+          "AVGO",
+          "TSM",
+          "ASML",
+          "ANET",
+          "VRT",
+          "ETN",
+          "CEG",
+          "SMR",
+          "BWXT",
+          "LEU",
+          "CCJ",
+          "FLR",
+          "GEV",
+          "PWR",
+          "NEE",
+          "PLTR",
+          "AMZN",
+          "MSFT",
+          "GOOGL",
+          "META"
+        ],
+        "underfollowed_supply_chain": [
+          "Transmission line hardware, connectors, clamps, armor rods, insulators, and robotics-compatible installation hardware.",
+          "Specialty API manufacturers with Drug Master File or equivalent regulatory lock-in and China-plus-one customer demand.",
+          "Sulphur, sulphuric acid, smelter acid byproduct logistics, fertilizer intermediates, copper SX-EW operators, and Indonesian HPAL nickel feedstock exposures.",
+          "Refractory suppliers embedded at the design stage of steel, cement, and non-ferrous industrial plants.",
+          "Nuclear fuel cycle suppliers, reactor-grade components, valves, forgings, testing, inspection, and regulated EPC subcontractors.",
+          "Obscure auto supplier dependencies exposed by OEM pricing pressure, sole-source contracts, or regional capacity constraints."
+        ]
+      },
+      "public_market_search_strategy": "Use a two-lane funnel. Lane 1 maps reference leaders such as NVIDIA, TSMC, ASML, Broadcom, Arista, Vertiv, Eaton, Constellation, BWX Technologies, Centrus, Cameco, GE Vernova, Quanta Services, and hyperscalers only as context for where capex and demand originate. Lane 2 searches one to three layers upstream or sideways for smaller public suppliers with narrow product exposure, backlog acceleration, regulatory qualification barriers, customer stickiness, or low analyst coverage. Prioritize companies with market caps roughly USD 300M-10B when possible, but allow local-market specialists, micro-cap exceptions, and non-US listings as speculative discovery targets if evidence is explicit.",
+      "supply_side_constraints": [
+        "Transmission hardware procurement lead times, specialized product qualification, and skilled lineworker shortages.",
+        "Regulatory re-validation and customer qualification cycles in pharmaceutical APIs, which can make supplier switching slow and sticky.",
+        "Sulphur and sulphuric-acid trade-route disruption, export bans, and regional deficits limiting downstream output in copper, nickel, and fertilizers.",
+        "Technical know-how, process embedding, on-site service, and customer consolidation in refractory materials.",
+        "Nuclear fuel enrichment, HALEU availability, reactor component qualification, licensing, and EPC execution capacity.",
+        "Opaque tier-1/tier-2 automotive supplier relationships where financial stress, pricing disputes, or sole-source dependencies may become bottlenecks."
+      ]
+    }
+  },
+  "metas": [
+    {
+      "created_at": "2026-06-11 14:57:05 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0f7d5e8421b940a0016a2acc49ecd4819bb91732f1912cd6fd",
+      "status": "completed",
+      "step": "layer1a_theme_map",
+      "usage": {
+        "input_tokens": 11158,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5889,
+        "output_tokens_details": {
+          "reasoning_tokens": 47
+        },
+        "total_tokens": 17047
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 14:59:03 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 18,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0d2631f21bd5cff7016a2accd8f5b881908f3d90f1cc257f37",
+      "status": "completed",
+      "step": "layer1b_node_transmission_line_hardware_direct_exposure",
+      "usage": {
+        "input_tokens": 23895,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4356,
+        "output_tokens_details": {
+          "reasoning_tokens": 1153
+        },
+        "total_tokens": 28251
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:00:25 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 18,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0c9a2fc27c85feb1016a2acd465eac8197add380bf585c5162",
+      "status": "completed",
+      "step": "layer1b_node_transmission_line_hardware_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 16317,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3552,
+        "output_tokens_details": {
+          "reasoning_tokens": 692
+        },
+        "total_tokens": 19869
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:02:09 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 18,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0ee7a47a97cb28b6016a2acd98e4f48195bd6e60c2cf7e15c8",
+      "status": "completed",
+      "step": "layer1b_node_transmission_line_hardware_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 23280,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4396,
+        "output_tokens_details": {
+          "reasoning_tokens": 1065
+        },
+        "total_tokens": 27676
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:03:35 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 18,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_041b570651520504016a2acdff9da081908702038ac9f67cf3",
+      "status": "completed",
+      "step": "layer1b_node_transmission_line_hardware_second_order_mapping",
+      "usage": {
+        "input_tokens": 20495,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3600,
+        "output_tokens_details": {
+          "reasoning_tokens": 661
+        },
+        "total_tokens": 24095
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:05:21 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 18,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_09f25454008cb0a7016a2ace5dbd34819b818a5db7cdc75889",
+      "status": "completed",
+      "step": "layer1b_node_sulphuric_acid_feedstock_shock_direct_exposure",
+      "usage": {
+        "input_tokens": 23533,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4166,
+        "output_tokens_details": {
+          "reasoning_tokens": 795
+        },
+        "total_tokens": 27699
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:07:29 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 18,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0a5187021fdaf076016a2acebfefe4819ab0852ab806fe0627",
+      "status": "completed",
+      "step": "layer1b_node_sulphuric_acid_feedstock_shock_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 42730,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4959,
+        "output_tokens_details": {
+          "reasoning_tokens": 1389
+        },
+        "total_tokens": 47689
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:09:40 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 18,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_06efa55938a4ce4e016a2acf3faaf4819996764770e0cd384b",
+      "status": "completed",
+      "step": "layer1b_node_sulphuric_acid_feedstock_shock_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 23626,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4200,
+        "output_tokens_details": {
+          "reasoning_tokens": 1160
+        },
+        "total_tokens": 27826
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:11:32 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 18,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0fba99d45bc9e600016a2acfc3639481948da1eb51b8fd8fac",
+      "status": "completed",
+      "step": "layer1b_node_sulphuric_acid_feedstock_shock_second_order_mapping",
+      "usage": {
+        "input_tokens": 29632,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 4658,
+        "output_tokens_details": {
+          "reasoning_tokens": 1284
+        },
+        "total_tokens": 34290
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:13:40 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_01dcded87eb0ea13016a2ad039cc388199b0af0a1ae42a3d07",
+      "status": "completed",
+      "step": "layer1b_node_regulated_niche_api_suppliers_direct_exposure",
+      "usage": {
+        "input_tokens": 57024,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 4271,
+        "output_tokens_details": {
+          "reasoning_tokens": 1370
+        },
+        "total_tokens": 61295
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:17:57 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0e98489f355350ee016a2ad1359d0081909197dbfe200a11c5",
+      "status": "completed",
+      "step": "layer1b_node_regulated_niche_api_suppliers_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 46158,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4930,
+        "output_tokens_details": {
+          "reasoning_tokens": 1344
+        },
+        "total_tokens": 51088
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:20:29 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_02dfb0691b7b57d8016a2ad1b3c6dc8197822cb71405cb9f79",
+      "status": "completed",
+      "step": "layer1b_node_regulated_niche_api_suppliers_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 55246,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5506,
+        "output_tokens_details": {
+          "reasoning_tokens": 1539
+        },
+        "total_tokens": 60752
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:22:20 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0c34adebac7c0000016a2ad24da038819a8b8f07d59b65d8a9",
+      "status": "completed",
+      "step": "layer1b_node_regulated_niche_api_suppliers_second_order_mapping",
+      "usage": {
+        "input_tokens": 31455,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4496,
+        "output_tokens_details": {
+          "reasoning_tokens": 1209
+        },
+        "total_tokens": 35951
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:24:30 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0f6c688186dcb21b016a2ad2c40e34819484c0bdb112999c23",
+      "status": "completed",
+      "step": "layer1b_node_india_refractory_consolidation_direct_exposure",
+      "usage": {
+        "input_tokens": 31720,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4899,
+        "output_tokens_details": {
+          "reasoning_tokens": 1178
+        },
+        "total_tokens": 36619
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:26:15 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_061cf29111f29586016a2ad33c4e9481939b533b11eb89a329",
+      "status": "completed",
+      "step": "layer1b_node_india_refractory_consolidation_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 33342,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4388,
+        "output_tokens_details": {
+          "reasoning_tokens": 977
+        },
+        "total_tokens": 37730
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:28:12 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_01dc56f3dc06e601016a2ad3a736dc81999c3dc9e0eab58997",
+      "status": "completed",
+      "step": "layer1b_node_india_refractory_consolidation_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 40637,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4472,
+        "output_tokens_details": {
+          "reasoning_tokens": 1223
+        },
+        "total_tokens": 45109
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:30:07 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_03fbda1e35292528016a2ad41b0e88819594fa61cccd3a3113",
+      "status": "completed",
+      "step": "layer1b_node_india_refractory_consolidation_second_order_mapping",
+      "usage": {
+        "input_tokens": 29926,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4627,
+        "output_tokens_details": {
+          "reasoning_tokens": 1039
+        },
+        "total_tokens": 34553
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:31:59 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_03c2a88681285dd3016a2ad4a3c2488196885a8b5d4421882c",
+      "status": "completed",
+      "step": "layer1b_node_nuclear_fuel_and_qualified_components_direct_exposure",
+      "usage": {
+        "input_tokens": 17179,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3911,
+        "output_tokens_details": {
+          "reasoning_tokens": 534
+        },
+        "total_tokens": 21090
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:33:46 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0a47b1b1f0cfb8a4016a2ad505bbd0819bbf315a00c8c6e54d",
+      "status": "completed",
+      "step": "layer1b_node_nuclear_fuel_and_qualified_components_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 17307,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3851,
+        "output_tokens_details": {
+          "reasoning_tokens": 873
+        },
+        "total_tokens": 21158
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:35:27 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0c85b5659d672d49016a2ad56e5174819a879026970deaeb24",
+      "status": "completed",
+      "step": "layer1b_node_nuclear_fuel_and_qualified_components_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 23265,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3705,
+        "output_tokens_details": {
+          "reasoning_tokens": 875
+        },
+        "total_tokens": 26970
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:37:02 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_02b6a8b4d2107bd3016a2ad5d1a1ac8193ae50ea3a75b24be2",
+      "status": "completed",
+      "step": "layer1b_node_nuclear_fuel_and_qualified_components_second_order_mapping",
+      "usage": {
+        "input_tokens": 28509,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 3848,
+        "output_tokens_details": {
+          "reasoning_tokens": 698
+        },
+        "total_tokens": 32357
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:38:43 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_028785702597aed2016a2ad635805c8197a79c7a615b14fc61",
+      "status": "completed",
+      "step": "layer1b_node_auto_oem_supplier_dependency_stress_direct_exposure",
+      "usage": {
+        "input_tokens": 31754,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3650,
+        "output_tokens_details": {
+          "reasoning_tokens": 897
+        },
+        "total_tokens": 35404
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:40:28 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_03612cf1be83aadd016a2ad691840881989bd2016f2b77a8bd",
+      "status": "completed",
+      "step": "layer1b_node_auto_oem_supplier_dependency_stress_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 29174,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4434,
+        "output_tokens_details": {
+          "reasoning_tokens": 756
+        },
+        "total_tokens": 33608
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:42:13 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0bcdb57360703918016a2ad6fd13608196b573ad4778ea26d4",
+      "status": "completed",
+      "step": "layer1b_node_auto_oem_supplier_dependency_stress_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 29620,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4303,
+        "output_tokens_details": {
+          "reasoning_tokens": 957
+        },
+        "total_tokens": 33923
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:44:43 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_02391270651a4d72016a2ad763db988197a501745e7cda1cc6",
+      "status": "completed",
+      "step": "layer1b_node_auto_oem_supplier_dependency_stress_second_order_mapping",
+      "usage": {
+        "input_tokens": 43114,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5844,
+        "output_tokens_details": {
+          "reasoning_tokens": 1573
+        },
+        "total_tokens": 48958
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:48:32 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_00a4d8a3896f4381016a2ad812e0388199ab4428eb8d34b8fc",
+      "status": "completed",
+      "step": "layer1c_merge_universe",
+      "usage": {
+        "input_tokens": 15653,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 10456,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 26109
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:51:05 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0b2168e71ff87be7016a2ad8f3b02481988c4fe3e86de69a4a",
+      "status": "completed",
+      "step": "layer2a_map",
+      "usage": {
+        "input_tokens": 13463,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 6475,
+        "output_tokens_details": {
+          "reasoning_tokens": 78
+        },
+        "total_tokens": 19938
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:52:58 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0337565d8bd7a5ae016a2ad97783308197858e95fe7ef6ddc6",
+      "status": "completed",
+      "step": "layer2b_relationships_01",
+      "usage": {
+        "input_tokens": 13742,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5391,
+        "output_tokens_details": {
+          "reasoning_tokens": 280
+        },
+        "total_tokens": 19133
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:54:34 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0bdcd70b517a4b5c016a2ad9e8289881998b74ad9029b21dc3",
+      "status": "completed",
+      "step": "layer2b_relationships_02",
+      "usage": {
+        "input_tokens": 13891,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4483,
+        "output_tokens_details": {
+          "reasoning_tokens": 128
+        },
+        "total_tokens": 18374
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:55:22 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0b67cb6692663f1e016a2ada4db03c8198a70cb83d49f82745",
+      "status": "completed",
+      "step": "layer2b_relationships_03",
+      "usage": {
+        "input_tokens": 11331,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 1528,
+        "output_tokens_details": {
+          "reasoning_tokens": 135
+        },
+        "total_tokens": 12859
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:57:34 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_06d050e57c87788c016a2ada88ffe08199937d244a1d249cd8",
+      "status": "completed",
+      "step": "layer3_ranking_01",
+      "usage": {
+        "input_tokens": 14532,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5562,
+        "output_tokens_details": {
+          "reasoning_tokens": 458
+        },
+        "total_tokens": 20094
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 15:59:29 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_03ba308aba2aceb9016a2adb01178c819b8fd8b26213c4d793",
+      "status": "completed",
+      "step": "layer3_ranking_02",
+      "usage": {
+        "input_tokens": 14483,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5240,
+        "output_tokens_details": {
+          "reasoning_tokens": 60
+        },
+        "total_tokens": 19723
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 16:01:30 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_072bac2404f10f3b016a2adb8c1e14819688ad70689c7fa854",
+      "status": "completed",
+      "step": "layer4_briefs_01",
+      "usage": {
+        "input_tokens": 10213,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4300,
+        "output_tokens_details": {
+          "reasoning_tokens": 82
+        },
+        "total_tokens": 14513
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 16:03:11 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_07ae520380f524d0016a2adbf1c5c48199aecfac8e50881c9e",
+      "status": "completed",
+      "step": "layer4_briefs_02",
+      "usage": {
+        "input_tokens": 10084,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4227,
+        "output_tokens_details": {
+          "reasoning_tokens": 76
+        },
+        "total_tokens": 14311
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 16:04:36 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_00e3d896e73aa587016a2adc4e620c819b9f57d07bd5096997",
+      "status": "completed",
+      "step": "layer5_deep_report_01",
+      "usage": {
+        "input_tokens": 27477,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 3655,
+        "output_tokens_details": {
+          "reasoning_tokens": 316
+        },
+        "total_tokens": 31132
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 16:05:54 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_038b597c9b788c17016a2adca56548819586137ed09f8f4473",
+      "status": "completed",
+      "step": "layer5_deep_report_02",
+      "usage": {
+        "input_tokens": 9997,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3317,
+        "output_tokens_details": {
+          "reasoning_tokens": 110
+        },
+        "total_tokens": 13314
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-11 16:07:45 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/hotspots-20260611-145407/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0e65b5501c21fc83016a2adcf18e8c819a83b7346e4fefb907",
+      "status": "completed",
+      "step": "layer5_deep_report_03",
+      "usage": {
+        "input_tokens": 20806,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4935,
+        "output_tokens_details": {
+          "reasoning_tokens": 505
+        },
+        "total_tokens": 25741
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    }
+  ],
+  "theme": {
+    "name": "New Hotspots",
+    "query": "emerging hotspots breaking news supply chain chokepoint demand shock policy shift underfollowed small mid cap obscure suppliers second order beneficiaries hidden customer supplier dependency low analyst coverage",
+    "theme_id": "hotspots"
+  }
+}

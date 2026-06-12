@@ -1,0 +1,213 @@
+{
+  "candidates": [
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Monolithic Power Systems",
+      "confidence": 0.72,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Confirm whether recent filings, earnings calls, or customer disclosures show AI-server power revenue, point-of-load regulator share, or platform-specific wins tied to NVIDIA/ODM rack designs.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Pull MPWR latest 10-Q/10-K and earnings call transcript; search for AI server, data center, GPU, power module, point-of-load, NVIDIA, and customer concentration language.",
+      "node_relation": "Merchant power-management semiconductor supplier with likely relevance near the point-of-load and board-level conversion stages of AI servers.",
+      "sector_or_industry": "Power management semiconductors",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "point_of_load",
+        "reference",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerator racks need efficient staged power conversion from rack-level distribution down to sub-one-volt chip rails; MPWR is cited in external context as a component-layer AI rack power supplier with strong NVIDIA-related design-win perception.",
+      "ticker": "MPWR",
+      "why_include": "Included as a reference semiconductor supplier for the point-of-load portion of the rack power map. External context explicitly places Monolithic Power at the component layer and says it has had strong NVIDIA design wins, while also noting competition is fiercest near the rack/chip conversion stages.",
+      "why_underfollowed": "Not truly underfollowed at the company level, but the specific mapping to AI rack power architecture may be less visible than its general data-center semiconductor narrative."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Vicor",
+      "confidence": 0.68,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Look for actual AI accelerator customer ramps, purchase commitments, platform wins, backlog conversion, and gross-margin stabilization rather than only architecture-level suitability.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check Vicor filings and calls for customer concentration, advanced computing revenue, 48V data-center design wins, litigation/customer issues, and whether revenue is scaling with AI rack deployments.",
+      "node_relation": "Power-module vendor exposed to high-density server power delivery, 48V distribution, and direct-to-load conversion architectures.",
+      "sector_or_industry": "Power modules and high-density DC/DC conversion",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "power_modules",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI rack density increases current and conversion complexity; Vicor’s factorized power and 48V direct-to-load approach may be relevant to AI server/rack power delivery even if 800V adoption changes the upstream architecture.",
+      "ticker": "VICR",
+      "why_include": "Vicor is cited by external context as a component-layer name with an elegant architecture that has struggled to convert into volume. Its own computing-power materials describe products enabling AC or high-voltage distribution and factorized power solutions for 48V direct-to-load conversion.",
+      "why_underfollowed": "Compared with mega-cap AI semiconductor names, Vicor sits one layer away from the obvious GPU story and is easier to misclassify as a generic power-module vendor rather than a possible rack-power chokepoint participant."
+    },
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Navitas Semiconductor",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Distinguish engineering collaboration and demo boards from production purchase orders, qualified sockets, revenue contribution, and sustainable gross margin.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify production status, named customer orders, backlog, 800V AI data-center revenue contribution, and whether 2027-plus NVIDIA rack timelines translate into firm commercial ramps.",
+      "node_relation": "GaN/SiC specialist targeting 800V HVDC AI data-center power architectures, including high-voltage conversion stages and rack-level power-density improvements.",
+      "sector_or_industry": "GaN and SiC power semiconductors",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "GaN",
+        "SiC",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "NVIDIA’s 800V HVDC AI-factory concept creates optionality for high-efficiency GaN and SiC devices across grid-to-rack and rack-to-board conversion stages.",
+      "ticker": "NVTS",
+      "why_include": "Navitas has disclosed development work with NVIDIA around next-generation 800V HVDC architecture and has described GaN/SiC products for AI data-center power supplies and 800V systems.",
+      "why_underfollowed": "It is small relative to the AI infrastructure leaders and sits in a narrow power-semiconductor niche, though retail attention may already be elevated because the NVIDIA/800V narrative is explicit."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Power Integrations",
+      "confidence": 0.62,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Confirm whether 800V AI data-center products are shipping into production systems or remain white-paper/demo-stage opportunities.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review investor presentations, product announcements, and earnings transcripts for AI data-center design wins, customer qualification, revenue timing, and competitive positioning versus Navitas, Infineon, TI, and EPC.",
+      "node_relation": "High-voltage GaN power IC supplier with products and technical materials aimed at 800VDC AI data-center architectures, including auxiliary and conversion power supplies.",
+      "sector_or_industry": "High-voltage power-conversion semiconductors",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "GaN",
+        "underfollowed",
+        "second_order",
+        "evidence_needed"
+      ],
+      "theme_relation": "As AI racks migrate toward higher-voltage DC distribution, high-voltage GaN switches and compact auxiliary power supplies may become second-order beneficiaries of rack-level power-density constraints.",
+      "ticker": "POWI",
+      "why_include": "Power Integrations has published materials on 1250V/1700V PowiGaN for 800VDC AI data-center architecture, and recent coverage says its GaN-based auxiliary power supplies target 800V DC AI systems.",
+      "why_underfollowed": "The company is often categorized as a broad power-conversion semiconductor vendor rather than an AI rack architecture supplier, and its AI exposure may be hidden in technical product lines rather than headline customer announcements."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Navitas announced development work with NVIDIA on next-generation 800V HVDC architecture for AI data-center power infrastructure, and described direct conversion from grid power to 800V HVDC as a way to reduce conversion steps.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-05-21",
+      "source_title": "Navitas Developing Next Generation 800 V HVDC Architecture With NVIDIA",
+      "source_url": "https://navitassemi.com/navitas-developing-next-generation-800-v-hvdc-architecture-with-nvidia/",
+      "ticker": "NVTS"
+    },
+    {
+      "claim": "Navitas investor material says it unveiled 100V GaN FETs, 650V GaN, and high-voltage SiC devices purpose-built for NVIDIA’s 800VDC AI-factory architecture and describes GaN/SiC coverage from grid to GPU.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05",
+      "source_title": "Navitas Supports 800 VDC Power Architecture for NVIDIA’s Next-Generation AI Factory Computing",
+      "source_url": "https://ir.navitassemi.com/node/11116/pdf",
+      "ticker": "NVTS"
+    },
+    {
+      "claim": "Vicor’s computing-power materials describe products enabling AC or high-voltage distribution and factorized power solutions for 48V direct-to-load conversion, with rack power rising as AI capability is deployed.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "",
+      "source_title": "Power Solutions for Computing Applications and the Data Center | Vicor",
+      "source_url": "https://www.vicorpower.com/industries-and-innovations/computing",
+      "ticker": "VICR"
+    },
+    {
+      "claim": "Power Integrations published a white paper on 1250V and 1700V PowiGaN technology for next-generation 800VDC AI data-center architecture.",
+      "claim_type": "fact",
+      "confidence": 0.79,
+      "published_at": "",
+      "source_title": "1250 V / 1700 V PowiGaN for 800 VDC AI Data Center Architecture",
+      "source_url": "https://www.power.com/design-support/whitepapers/1250-v-1700-v-powigan-800-vdc-ai-data-center-architecture?language=en",
+      "ticker": "POWI"
+    },
+    {
+      "claim": "Power Integrations said moving to an 800VDC input can simplify rack design, improve space use, and reduce copper usage; it also stated that its high-voltage GaN switches are in volume production.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2025",
+      "source_title": "Power Integrations Details 1250 V and 1700 V PowiGaN Technology for Next-Generation 800 VDC AI Data Centers",
+      "source_url": "https://investors.power.com/news/news-details/2025/Power-Integrations-Details-1250-V-and-1700-V-PowiGaN-Technology-for-Next-Generation-800-VDC-AI-Data-Centers/default.aspx?language=en",
+      "ticker": "POWI"
+    },
+    {
+      "claim": "External context places Monolithic Power Systems at the component layer of the AI rack power map and characterizes it as strong at point-of-load, but primary-source verification is still needed before treating the NVIDIA design-win claim as established.",
+      "claim_type": "inference",
+      "confidence": 0.65,
+      "published_at": "2026-05-26",
+      "source_title": "From Substation to Chip. And the Honest Question Underneath Owning Infineon Today.",
+      "source_url": "https://jpthoughtsandgrowth.substack.com/p/from-substation-to-chip-and-the-honest",
+      "ticker": "MPWR"
+    },
+    {
+      "claim": "External context describes Vicor as having an elegant architecture but struggling to convert it into volume, making it a candidate where architecture-level relevance must be tested against revenue conversion.",
+      "claim_type": "inference",
+      "confidence": 0.64,
+      "published_at": "2026-05-26",
+      "source_title": "From Substation to Chip. And the Honest Question Underneath Owning Infineon Today.",
+      "source_url": "https://jpthoughtsandgrowth.substack.com/p/from-substation-to-chip-and-the-honest",
+      "ticker": "VICR"
+    },
+    {
+      "claim": "External context says Navitas is a small GaN specialist that may already trade as if a major 800V AI rack contract is secured; this creates a valuation/evidence-risk flag despite stronger direct thematic evidence.",
+      "claim_type": "inference",
+      "confidence": 0.66,
+      "published_at": "2026-05-26",
+      "source_title": "From Substation to Chip. And the Honest Question Underneath Owning Infineon Today.",
+      "source_url": "https://jpthoughtsandgrowth.substack.com/p/from-substation-to-chip-and-the-honest",
+      "ticker": "NVTS"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.72,
+      "text": "MPWR should remain a reference candidate for point-of-load AI rack power, but later layers need primary evidence for customer/platform exposure rather than relying on market narrative.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.68,
+      "text": "VICR is an underfollowed power-module candidate tied to 48V/direct-to-load architectures; survival depends on evidence of volume conversion into AI accelerator systems.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "NVTS has the most explicit NVIDIA/800V public linkage among the smaller power-semiconductor candidates, but it carries high evidence and timing risk until production orders and revenue contribution are visible.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.62,
+      "text": "POWI is a low-attention second-order candidate for 800V AI data-center GaN auxiliary/conversion supplies; classify as hypothesis until design wins or production revenue are confirmed.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.75,
+      "text": "The node appears to be shifting from generic data-center power equipment toward an architecture-specific semiconductor/module map: 800V HVDC distribution, GaN/SiC high-voltage conversion, intermediate bus conversion, and point-of-load regulation.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Need a follow-up pass for non-U.S. or OTC-listed reference suppliers such as Infineon, ABB, Schneider-like peers, and possibly EPC/private suppliers to understand competitive pressure on US-listed names.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI rack power conversion from grid input to point-of-load",
+  "node_id": "ai_rack_power_conversion",
+  "summary": "Expanded the AI rack power-conversion universe around the emerging 800V/48V/point-of-load architecture. Reference context is dominated by NVIDIA’s 800V AI-factory architecture and broader power names, but the underfollowed lane points to merchant power-semiconductor/module vendors where design wins, voltage-stage coverage, and production ramp evidence may be underappreciated. The strongest Layer 1B candidates are not necessarily the largest electrical-equipment vendors; they are companies with credible exposure to GaN, SiC, DC/DC conversion, 48V direct-to-load, auxiliary power, or point-of-load regulation. This is research support only, not a trading recommendation.",
+  "theme_id": "ai"
+}

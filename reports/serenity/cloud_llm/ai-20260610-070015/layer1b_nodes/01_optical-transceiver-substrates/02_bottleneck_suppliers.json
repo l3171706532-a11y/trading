@@ -1,0 +1,201 @@
+{
+  "candidates": [
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "AXT, Inc.",
+      "confidence": 0.86,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether InP revenue growth is tied to qualified 800G/1.6T optical-component customers rather than cyclical telecom or China inventory rebuild; verify 6-inch InP yield, export permits, capacity additions, and backlog/allocation language.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Pull latest 10-Q, earnings-call transcript, Tongmei capacity disclosures, customer concentration details, and any export-permit updates for InP substrates.",
+      "node_relation": "Direct supplier of compound semiconductor substrates, including indium phosphide, used in optoelectronic devices and data-center connectivity applications.",
+      "sector_or_industry": "Compound semiconductor substrate wafers",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "materials",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI data-center scale-out requires higher-speed optical links; InP substrates are a plausible upstream constraint for lasers and photonic components used in 800G/1.6T modules.",
+      "ticker": "AXTI",
+      "why_include": "Official AXT releases state that Q1 2026 sequential revenue growth was expected to be driven primarily by indium phosphide growth for the AI infrastructure build-out, and that proceeds from a 2026 public offering would support Tongmei's expansion of indium phosphide substrate capacity for worldwide export.",
+      "why_underfollowed": "It is categorized as a compound-substrate materials company rather than an obvious AI optical-module brand, making its exposure one layer upstream from the visible transceiver winners."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Veeco Instruments Inc.",
+      "confidence": 0.84,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether the $250M+ InP laser equipment orders are concentrated in a few customers, whether deliveries convert to revenue in 2026-2027, and whether tool lead times create pricing or margin leverage.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check backlog by product line, customer concentration, cancellation clauses, delivery schedule, and whether follow-on orders appear from InP laser, EML, or silicon-photonics customers.",
+      "node_relation": "Equipment supplier for scaling InP laser and optical-component manufacturing through MOCVD, ion-beam, and wet-processing tools.",
+      "sector_or_industry": "Semiconductor and compound-semiconductor manufacturing equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "equipment",
+        "underfollowed",
+        "capacity_constraint"
+      ],
+      "theme_relation": "If InP lasers and optical components are capacity-constrained for AI optical interconnects, tool vendors enabling high-yield InP production become second-order beneficiaries.",
+      "ticker": "VECO",
+      "why_include": "Veeco announced more than $250 million in equipment orders for manufacturing InP lasers, with the company explicitly tying the orders to silicon photonics, AI infrastructure scaling, and the shift from copper to optical interconnects.",
+      "why_underfollowed": "It is not a transceiver company and is usually screened as general semiconductor equipment, but its order book may expose the substrate/component capacity buildout underneath AI optics."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "MACOM Technology Solutions Holdings, Inc.",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether 448G driver wins translate into production sockets at major transceiver/module makers and whether gross margin improves as 1.6T/3.2T ramps.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify design-win language, optical segment revenue mix, customer concentration, and whether shipments move from sampling to volume production.",
+      "node_relation": "Supplier of high-speed modulator drivers and optical semiconductor components that interface with EML, silicon photonics, and TFLN modulators for 1.6T/3.2T transceiver roadmaps.",
+      "sector_or_industry": "RF, microwave, analog, and photonic semiconductor components",
+      "serenity_tags": [
+        "components",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "photonic_packaging"
+      ],
+      "theme_relation": "AI data-center optical links require not only substrates and lasers but also RF/analog drivers capable of 200G/400G per lane signaling.",
+      "ticker": "MTSI",
+      "why_include": "MACOM announced 448G PAM4 modulator drivers for next-generation 1.6T and 3.2T optical transceivers, explicitly supporting silicon photonics, EML, and TFLN modulator platforms.",
+      "why_underfollowed": "Despite its increased market cap, it is often classified as an RF/analog component company rather than as a narrow AI optical-transceiver enabler; the exposure is component-level and platform-agnostic."
+    },
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Lumentum Holdings Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether Lumentum's EML and high-power laser capacity is constrained enough to support sustained substrate and equipment demand upstream.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track optical communications backlog, 200G/400G-per-lane EML shipments, hyperscaler/module customer exposure, and 1.6T volume-production timing.",
+      "node_relation": "Reference component leader for EML lasers, high-power lasers, and optical components used in 800G/1.6T AI and cloud data-center optical modules.",
+      "sector_or_industry": "Optical and photonic components",
+      "serenity_tags": [
+        "reference",
+        "demand",
+        "components",
+        "supply_chain",
+        "bottleneck"
+      ],
+      "theme_relation": "Provides context for the downstream component demand pulling on InP substrates, lasers, drivers, and related manufacturing capacity.",
+      "ticker": "LITE",
+      "why_include": "Lumentum's official OFC 2026 materials highlighted a 1.6T DR4 OSFP pluggable transceiver prototype using four 400G differential EML lasers and described its portfolio as enabling next-generation AI and cloud data-center infrastructure.",
+      "why_underfollowed": "Not underfollowed; included as a reference anchor to validate demand pull into EML, InP, and laser-component supply chains."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "AXT said expected Q1 2026 sequential revenue growth was driven primarily by indium phosphide growth for the AI infrastructure build-out.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-02-19",
+      "source_title": "AXT, Inc. Announces Fourth Quarter and Fiscal Year 2025 Financial Results",
+      "source_url": "https://investors.axt.com/Investors/news/news-details/2026/AXT-Inc--Announces-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results/default.aspx",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "AXT said public-offering proceeds would primarily support Tongmei's efforts to increase capacity to produce indium phosphide substrates for worldwide export.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-05",
+      "source_title": "AXT Announces Public Offering of Common Stock",
+      "source_url": "https://investors.axt.com/Investors/news/news-details/2026/AXT-Announces-Public-Offering-of-Common-Stock/default.aspx",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "Veeco announced more than $250 million in equipment orders for manufacturing InP lasers, with deliveries beginning in 2026 and accelerating in 2027.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "Veeco Announces $250 Million+ in Equipment Orders for Manufacturing Indium Phosphide Lasers",
+      "source_url": "https://ir.veeco.com/news-and-events/news-details/2026/Veeco-Announces-250-Million-in-Equipment-Orders-for-Manufacturing-Indium-Phosphide-Lasers/default.aspx",
+      "ticker": "VECO"
+    },
+    {
+      "claim": "Veeco stated that its MOCVD and IBD technologies are crucial for optical transceiver manufacturing to support the growing AI server market.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03-02",
+      "source_title": "Veeco Books Multi-System Lumina and Spector Orders for Manufacturing Indium-Phosphide (InP) based Optical Components",
+      "source_url": "https://ir.veeco.com/news-and-events/news-details/2026/Veeco-Books-Multi-System-Lumina-and-Spector-Orders-for-Manufacturing-Indium-Phosphide-InP-based-Optical-Components/default.aspx",
+      "ticker": "VECO"
+    },
+    {
+      "claim": "MACOM announced 448G PAM4 modulator drivers for next-generation 1.6T and 3.2T optical transceivers, supporting silicon photonics, EML, and TFLN modulators.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03",
+      "source_title": "MACOM Announces Two New 448G per Lane Drivers for 3.2T Data Center Connectivity",
+      "source_url": "https://www.macom.com/updates/news/2026/macom-announces-two-new-448g-per-lane-drivers-for-3-2t-data-cent",
+      "ticker": "MTSI"
+    },
+    {
+      "claim": "Lumentum demonstrated OFC 2026 technologies for AI infrastructure, including a 1.6T DR4 OSFP pluggable transceiver prototype using four 400G differential EML lasers.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2026-03",
+      "source_title": "Lumentum Demonstrates Industry-Leading Technologies and Products for Scale-Out, Scale-Up and Scale-Across AI Infrastructure at OFC 2026",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Demonstrates-Industry-Leading-Technologies-and-Products-for-Scale-Out-Scale-Up-and-Scale-Across-AI-Infrastructure-at-OFC-2026/default.aspx",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "TrendForce estimated that 800G-and-above optical transceiver shipment share would rise from 19.5% in 2024 to more than 60% in 2026, making them standard in AI-focused data centers.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-02-10",
+      "source_title": "Google’s High-Speed Interconnect Architecture to Push 800G+ Optical Transceiver Share Past 60% by 2026, Says TrendForce",
+      "source_url": "https://www.trendforce.com/presscenter/news/20260210-12919.html",
+      "ticker": ""
+    },
+    {
+      "claim": "External search context claims a Western-listed precision-substrate supplier has roughly five sell-side analysts, fewer than six qualified global suppliers, up-to-24-month customer qualification cycles, and sharply accelerating AI-data-center-driven revenue; this aligns most closely with AXTI but requires direct filing and transcript verification.",
+      "claim_type": "hypothesis",
+      "confidence": 0.58,
+      "published_at": "2026-05-08",
+      "source_title": "THE FORTY-YEAR EDGE THAT AI CANNOT FUNCTION WITHOUT",
+      "source_url": "https://wsissener.substack.com/p/the-forty-year-edge-that-ai-cannot",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.84,
+      "text": "AXTI should be promoted to the Layer 2 verification queue as the cleanest U.S.-listed underfollowed substrate candidate for the optical_transceiver_substrates node, with key diligence on InP revenue, export permits, Tongmei capacity, and customer qualification.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "The node should be split into at least three subnodes for later passes: InP substrates, InP/EML laser components, and 1.6T/TFLN-compatible RF/analog drivers and photonic packaging.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.83,
+      "text": "VECO is a second-order capacity-enabler candidate because its InP laser manufacturing equipment orders provide direct evidence of customer capex for optical-component scaling.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.7,
+      "text": "Need to verify whether the claimed fewer-than-six qualified supplier base and 24-month qualification cycle come from company filings, customer procurement evidence, or promotional investment writing.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Precision substrates and components for 800G/1.6T AI optical transceivers",
+  "node_id": "optical_transceiver_substrates",
+  "summary": "This Layer 1B pass expands the U.S.-listed universe around scarce precision substrates, compound-semiconductor components, optical-driver components, and manufacturing equipment tied to 800G/1.6T AI optical transceivers. The strongest underfollowed lead is AXTI, where official company releases directly link indium phosphide substrate demand and capacity expansion to AI infrastructure and data-center connectivity. VECO is an adjacent equipment chokepoint for scaling InP laser production. MTSI is a large-cap but unusually direct component supplier through 448G PAM4 modulator drivers that support TFLN, EML, and silicon-photonics optical platforms. LITE is included as a high-attention reference anchor for EML lasers and AI optical components, not as the primary underfollowed target.",
+  "theme_id": "AI"
+}

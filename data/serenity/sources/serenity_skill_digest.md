@@ -1,6 +1,6 @@
 # Serenity Skill Repository Digest
 
-Generated: 2026-06-09 02:41:43 UTC
+Generated: 2026-06-12 14:41:54 UTC
 
 Purpose: provide cached methodology context for cloud-side Serenity / chokepoint research runs.
 
@@ -1929,6 +1929,27 @@ the single chokepoint a hyperscaler will pay anything to keep flowing
 (optical/CPO, compound-semi substrates, memory, power), where the small market
 cap is most mispriced relative to the trillions flowing downstream.
 
+## How to read fresh posts
+
+A 2026-06-11 post-to-market review added one practical rule: Serenity's best
+supply-chain posts are usually not clean 1-day copy-trade signals. The more
+repeatable pattern is **5-60 trading days** from public thesis to validation as
+orders, filings, media coverage, institutional ownership, or local-market
+attention catch up.
+
+Use four buckets before treating a post as actionable:
+
+| Post type | How to use it |
+|---|---|
+| New bottleneck thesis | Highest research weight when the dependency is fresh, underpriced, and backed by customer, capacity, policy, or filing evidence |
+| Reaffirmation / buy-the-dip | Useful when a high-conviction name sells off on a false report, mechanical selloff, ATM overhang, or misunderstood earnings |
+| Supplier map / watchlist / no-position idea | Research input only; build a watchlist and wait for company-specific evidence |
+| Victory lap / mainstream validation | Confirms an older thesis worked; often late-cycle unless valuation and positioning reset |
+
+Always separate the stock thesis from the market window. A strong Serenity idea
+inside weak breadth or narrow sector participation is a selective/left-side
+window, not a green light to chase near-price entries.
+
 ## Provenance
 
 Tweets were collected via `agent-reach` Twitter/X tooling (`twitter-cli`
@@ -2032,6 +2053,17 @@ validated by later price/fundamental evidence, and his strongest AI photonics /
 CPO / InP / memory bottleneck subset looks closer to **75-85%**. Treat those as
 rough calibration bands, not a replicable trading return.
 
+**Signal timing calibration (2026-06-11 recheck):** his best supply-chain posts
+are usually not reliable 1-day copy-trade signals. The repeatable pattern is
+often **5-60 trading days** from public thesis to market validation, as company
+orders, media coverage, institutional ownership, or local-market attention catch
+up. Same-day or same-week reactions are more likely only when the post combines
+(1) a fresh, underpriced bottleneck, (2) a concrete external catalyst such as an
+order, filing, policy item, or named customer path, and (3) a small/illiquid
+equity where local media or retail attention can move the float. Treat late
+mainstream validation, victory laps, and broad supplier lists as research
+inputs, not fresh entry signals.
+
 **Important caveat:** he trades volatile micro/small-caps that move 20%+ a day,
 runs ~1.25–1.5x margin, and self-reports very high YTD returns (237% in
 Feb 2026, later 4502.45% YTD on May 26). Those numbers are unverified and carry
@@ -2075,20 +2107,7 @@ Read progressively — pull in only what the task needs.
 6. Present: his view, the supply-chain read, the bull/bear case, and the risks —
    framed as analysis, never as an order to place.
 
-### (b) Review a portfolio or watchlist against his views
-
-1. Take the list of tickers the reader provides (their holdings, a watchlist, a
-   sector basket).
-2. For each name, pull his view from `references/theses.md` and bucket into:
-   - **Agreements** — he is bullish on it.
-   - **Conflicts** — he is bearish/cautious on it (surface his dated reasoning).
-   - **Gaps** — his high-conviction names absent from the list (e.g. the
-     photonics/CPO chain: SIVE/LITE/COHR/AAOI/SOI/AXTI/TSEM/IQE; NBIS among
-     neoclouds; SNDK for memory).
-3. Check `references/articles.md` for long-form article support. Article-backed
-   signals should raise discussion priority only when they also fit the user's
-   risk budget, liquidity, and execution constraints.
-4. Produce a prioritized discussion li
+### (b) Review a portfolio or watchlist against his v
 ...TRUNCATED...
 ```
 
@@ -3128,23 +3147,36 @@ Each entry covers one ticker. Update **Latest signal** and timestamp in-place wh
 
 ---
 
-## $SIVE — Last updated: 2026-06-08T11:48:25Z
+## $SIVE — Last updated: 2026-06-12T04:26:43Z
 
-- **View**: Bullish (institutional float-constraint thesis)
-- **Latest signal**: JP Morgan disclosed buying 5.25%+ of $SIVE. Serenity argues the market is under-appreciating the signal — $135M is small relative to institutional capacity; JP Morgan could acquire up to 25%, but is constrained by the thin retail float available. Implies continued institutional accumulation pressure on limited supply.
-- **Post**: [2063951279278391414](https://x.com/aleabitoreddit/status/2063951279278391414) — 2026-06-08T11:48:25Z
-- **Key quote**: "I think the implications of JP Morgan's disclosure of buying 5.25%+ of $SIVE is a lot greater than people think. > $135M is pennies to US institutions. They can easily acquire 25% with their capital. They're just constrained by the amount of float that's available from retail"
-- **Thesis type**: Institutional accumulation / float squeeze risk
+- **View**: Bullish (space/defense catalyst + multi-institution floor-building; framed as early-stage "ALAB/AAOI/LITE comparable" — potential 2025 high-conviction pattern replay)
+- **Latest signal**: Serenity directly positioned $SIVE as being in the same early-stage range as $ALAB ($97→$372), $LITE ($330→$904), and $AAOI ($30→$175) were in 2025 when they were "small $3B companies (~$14B now)." This is the most explicit early-stage comparable framing she has applied to SIVE — implying it could follow the same trajectory as her 2025 calls that all delivered 2–5x+ returns.
+- **Post**: [2065289672356745561](https://x.com/aleabitoreddit/status/2065289672356745561) — 2026-06-12T04:26:43Z
+- **Key quote**: "So maybe some others in the same range today like $SIVE should get some more attention?"
+- **Thesis type**: Space/defense supply-chain chokepoint + multi-institution float squeeze (BlackRock+Fidelity+JPM accumulation pattern; ahead of SpaceX IPO); early-stage "ALAB/AAOI/LITE pattern" comparable at ~$3B MC
+- **Prior signals**: Jun 11 08:11 brief bullish reaffirmation: 'I like $SIVE' [[2064983882802565169]](https://x.com/aleabitoreddit/status/2064983882802565169) — 2026-06-11T08:11:37Z; New institutional validation wave — BlackRock entered $SIVE as passive owners following index listing; Fidelity Research starting direct positions. Pattern mirrors JP Morgan's earlier entry (small positions → acquired ~5.25% of company). Serenity interprets this as "US institutions validated Sivers's position in photonics and are trying to accumulate positions." Three major US institutions (JPM, BlackRock, Fidelity) now building positions in a thinly floated name = ongoing float squeeze dynamic reinforced. [[2064608597343125931]](https://x.com/aleabitoreddit/status/2064608597343125931) — 2026-06-10T07:20:22Z; Jun 11 01:38 institutional-cycle framework reaffirmation: 'There was close to 0 US institutional ownership on $SIVE. And now you see active institutions like JP Morgan, Fidelity Research, and others on the cap table.' Frames SIVE as the current leg of the RKLB ($16 entry → ATH) / NBIS (<30% inst. accumulation → float absorbed by institutions → ATH) institutional-cycle pattern; meta-signal: 'if you see negative sellside reports or an uncanny wave of negative news, it's a good signal they need liquidity'; explicitly links SIVE to Foci (3363) as parallel accumulation-phase long [[2064884912667439129]](https://x.com/aleabitoreddit/status/2064884912667439129) — 2026-06-11T01:38:21Z; Jun 10 13:44 recovery reaffirmation: 'optical players from $LITE to $AAOI and $SIVE are slightly recovering as they should. The initial selloff was just stupid.' [[2064705380933074945]](https://x.com/aleabitoreddit/status/2064705380933074945) — 2026-06-10T13:44:57Z; Jun 9 07:21 $8.2M production order for Ka-Band Beamforming ICs (allspace/YSS defense chain), "typically leads to more follow-up orders + volume contracts" [2064246556690469123](https://x.com/aleabitoreddit/status/2064246556690469123) — 2026-06-09T07:21:45Z; Jun 9 14:57 volatility reaffirmation: "photonics from $AAOI to $LITE or $SIVE are not disappearing anytime soon… just extremely volatile" [2064361170270933269](https://x.com/aleabitoreddit/status/2064361170270933269) — 2026-06-09T14:57:11Z; JP Morgan 5.25%+ stake disclosure [2063951279278391414](https://x.com/aleabitoreddit/status/2063951279278391414) — 2026-06-08T11:48:25Z
 
 ---
 
-## $MRVL (Marvell Technology) — Last updated: 2026-06-08T14:01:34Z
+## $JBL (Jabil Inc.) — Last updated: 2026-06-09T06:44:07Z
+
+- **View**: Tentatively bullish (speculative research idea, no position held)
+- **Latest signal**: Serenity flagged $JBL as a "highkey compelling long idea at $38B" — arguing markets haven't priced in the 1.6T LRO pluggable transceiver business, especially if $SIVE becomes the laser bottleneck through H1 2027. Jabil took over $INTC pluggable lines and is positioned as more scalable than $AAOI's capex-heavy laser-fab approach: if $SIVE + diverse fabs (Win Semi + others) supply lasers and $JBL handles final assembly, that creates an Innolight-style vertically-integrated setup with already-validated hyperscaler relationships and US-production premiums. Potential 40% re-rating by H1 2027.
+- **Post**: [2064237083510952402](https://x.com/aleabitoreddit/status/2064237083510952402) — 2026-06-09T06:44:07Z
+- **Key quote**: "$JBL seems highkey compelling long idea at $38B...markets have not priced in their 1.6T LRO pluggable transceiver business yet...especially if it's 'how much can you make' with $SIVE as the bottleneck H1 2027...Prob H1 2027 is when everyone starts realizing. Maybe 40% re-rating seems plausible?"
+- **Thesis type**: Pluggable transceiver / AI DC supply-chain play (adjacent to $SIVE photonics thesis)
+- **Caveat**: Serenity explicitly states no current position; forward research idea, not an active call. June 9 AI mid-cap list confirms no position held (holdings limited to NBIS/TSEM/AAOI).
+
+---
+
+## $MRVL (Marvell Technology) — Last updated: 2026-06-11T18:19:06Z
 
 - **View**: Bullish (top US equity pick)
 - **Latest signal**: Serenity reaffirmed $MRVL as part of a curated US equities "goated" list — a high-conviction selection of preferred US names shared as a recap for new followers. Positioned alongside $ARM and $INTC as core US semiconductor/tech holdings.
 - **Post**: [2063984786918854663](https://x.com/aleabitoreddit/status/2063984786918854663) — 2026-06-08T14:01:34Z
 - **Key quote**: "Still think this US list from $MRVL to $ARM to $INTC was goated. Just as a recap if new followers were wondering what US equities I like."
 - **Thesis type**: High-conviction US equity list (semiconductor/tech)
+- **Prior signals**: Jun 11 18:19 Iran ceasefire macro observation: $MRVL named alongside $SNDK and $LITE as rising on Trump's cancellation of Iran strikes — "Just in case you're wondering why indexes + individual names like $SNDK to $MRVL to $LITE are green now. Trump just cancelled attacks on Iran. This market is so volatile." Not a new buy call; contextual de-escalation catalyst note. [[2065136761077158061]](https://x.com/aleabitoreddit/status/2065136761077158061) — 2026-06-11T18:19:06Z
 
 ---
 
@@ -3158,145 +3190,53 @@ Each entry covers one ticker. Update **Latest signal** and timestamp in-place wh
 
 ---
 
-## $INTC (Intel) — Last updated: 2026-06-08T14:01:34Z
+## $INTC (Intel) — Last updated: 2026-06-11T16:13:28Z
 
-- **View**: Bullish (top US equity pick)
+- **View**: Bullish (top US equity pick; critical US supply-chain with subsidy validation)
 - **Latest signal**: Serenity reaffirmed $INTC as part of a curated US equities "goated" list alongside $MRVL and $ARM. This is notable given Intel's turnaround context — inclusion in this list signals continued conviction despite sector headwinds.
 - **Post**: [2063984786918854663](https://x.com/aleabitoreddit/status/2063984786918854663) — 2026-06-08T14:01:34Z
-- **Key quote**: "Still think this US list from $MRVL to $ARM to $INTC was goated. Just as a recap if new followers were wondering what US equities I like."
-- **Thesis type**: High-conviction US equity list (semiconductor/tech)
+- **Key quote**: "Still think this US list from $MRVL to $ARM to $INTC was goated. Just as a recap if new followers were wondering what US equities I like.
+...TRUNCATED...
 ```
 
 ### yan_labs_serenity_archive / serenity-aleabitoreddit/references/track-record.md
 
 ```text
-# Track Record — dated calls & calibration
+# Track Record — Serenity (@aleabitoreddit)
 
-A chronological timeline of Serenity's dated calls (merged from the "D. Dated
-calls" sections of all six period-analyses), with outcomes where the corpus
-records them, plus an honest calibration note for judging **how much to weight
-his views.**
-
-> **All figures are self-reported and unverified.** Outcomes are as *he*
-> reported them in subsequent tweets — a public feed selects for winners.
-> Read the [calibration note](#calibration-note-how-much-to-weight-him) before
-> trusting any of this.
-
-## Table of contents
-
-- [2025 Q3 (Jul-Sep)](#2025-q3-julsep)
-- [2025 Q4 (Oct-Nov)](#2025-q4-octnov)
-- [2025-12 to 2026-01](#2025-12-to-2026-01)
-- [2026-02](#2026-02)
-- [2026-03](#2026-03)
-- [2026-04 to 05](#2026-04-to-05)
-- [2026-06](#2026-06)
-- [Calibration note: how much to weight him](#calibration-note-how-much-to-weight-him)
+Tracks Serenity's publicly stated dated calls, position changes, and outcomes. Newest entries first.
 
 ---
 
-## 2025 Q3 (Jul-Sep)
+## 2026 Calls
 
-| Date | Ticker | Call | Outcome (as he reported) |
-|---|---|---|---|
-| 2025-07-02 | UPWK | Long ~$13-14; 7.5x P/E value thesis | +50%+ by Sep, trimmed $16.5-17 |
-| 2025-07-02 | IBIT/BTC | 2026-27 LEAPS at 44-55% IV; BTC $120-140K | +$44K unrealized + $6.5K CC income by Jul 28 |
-| 2025-07-03 | GOOGL | Calls ~$150; EOY PT $220+ | +$101,428 realized on Jul 28 earnings |
-| 2025-07-07 | HIMS | Long $45.26 | Squeeze thesis; held into Sep |
-| 2025-07-21 | ALAB | Long ~$96-100; "$50B+ moonshot" | +154% by Sep 21 ($96→$244) |
-| 2025-07-21 | CRDO | Long ~$100 (ALAB companion) | Held; DCA'd later |
-| 2025-07-28 | PLTR | **Short** $150+ ("thanks Jim") | Maintained bear stance |
-| 2025-07-31 | KSPI | Long $82, value | Held |
-| 2025-09-05 | HOOD | Long $325K on S&P inclusion | +15% next day; later trimmed $130+ |
-| 2025-09-08 | ALAB | **Took profit $217 (+100%+)** + CRDO short hedge | Realized win |
-| 2025-09-09 | NBIS | Long $100K after $17B MSFT contract | Scaled to $750K+; core thesis launched |
-| 2025-09-10 | TSM | Calls ~$253 | +68% by Sep 19; sold all +100%+ |
-| 2025-09-12 | LTC | Long ~$100-106 ahead of Oct 2 ETF | "300% potential"; **outcome not recorded** |
-| 2025-09-12 | HIMS | "42% SI… make history" (viral) | Squeeze thesis; mixed near-term |
-| 2025-09-19 | NBIS | Long $500K; PT $225; "highest conviction" | Became his defining multi-period winner |
-| 2025-09-23 | AMZN | "Great buy $220"; $3T PT | Long-term hold |
-| 2025-09-25 | CIFR | "Good buy on 17.54% drop"; 0% int. dilution | +250%, sold Oct 25 |
-| 2025-09-26 | IREN | Long $40.13 | ⚠️ later reversed to bear (2026) |
-| 2025-09-26 | ORCL | DCA calls $284 | ⚠️ later flipped to explicit Avoid |
-| 2025-09-27 | NeoCloud thesis | "$1.5M+ in, 200-300%+" (1.2M views) | Framework consolidation |
-| 2025-09-29 | OKLO/QBTS/IONQ | **Strong Sell** | Pre-revenue quantum avoid |
+| Date | Source | Ticker | Call | Entry | Outcome | Notes |
+|------|--------|--------|------|-------|---------|-------|
+| 2026-06-12 | X [2065289672356745561](https://x.com/aleabitoreddit/status/2065289672356745561) | $SIVE | Bullish — "same range as where ALAB/LITE/AAOI were" at ~$3B MC | ~$3B MC | Ongoing | Early-stage comparable to 2025 high-conviction calls |
+| 2026-06-11 | X [2065009883133644963](https://x.com/aleabitoreddit/status/2065009883133644963) | $XFAB | Research bullish (~€1.1B MC; EU silicon photonics foundry; early) | ~€1.1B MC | Ongoing | "Might just really early"; development-stage; Oct 2026 target |
+| 2026-06-11 | X [2064992691902140603](https://x.com/aleabitoreddit/status/2064992691902140603) | $LPK | Long (SpaceX supplier found in US import logs) | Undisclosed | Ongoing | Speculative; "not sure what the exact contract entails" |
+| 2026-03-11 | X | $TSEM | Long | Entry Mar 11 2026 | +63% in 2 weeks (self-reported) | ✅ Hit — held as of Jun 2026 (disclosed position) |
 
-## 2025 Q4 (Oct-Nov)
+---
 
-| Date | Ticker | Call | Outcome |
-|---|---|---|---|
-| Oct 10 | NBIS/CIFR/IREN/META/RKLB | **Buy the tariff dip** ("best entry of 2025") | Market stabilized Oct 12; dip-buyers rewarded |
-| Oct 17 | NBIS | +$300K leaps | Held into Q3 blowout |
-| Oct 22 | NBIS | +$200K leaps at $98.8 | Held |
-| Oct 25 | CIFR | **Sold +250%**, rotated to NBIS | Realized win |
-| Oct 25 | NBIS | Total exposure >$2M | Largest disclosed position |
-| Oct 30 | META | Calls ahead of Q3 | Beat + reaffirmed capex; profitable |
-| Nov 11 | NBIS | Q3 blowout, held; PT $400 bull / $200 base | 71.2% GAAP GM; S-tier confirmed |
-| Nov (mid) | CRWV | **Downgraded to F-tier** | "Crash warranted" |
-| Nov (mid) | IREN | "Good deal, not transformative"; reduced | Step toward later bear |
-| Nov (late) | NBIS | Sum-of-parts (Clickhouse/Avride/Toloka) | Subsidiary-value thesis |
+## 2025 Calls (Retrospective — validated Jun 12 2026)
 
-## 2025-12 to 2026-01
+Source: [2065289672356745561](https://x.com/aleabitoreddit/status/2065289672356745561) — Serenity's self-reported 2025 performance summary:
+> "Just some reflection, my core high conviction ideas from 2025 aged super well!"
 
-| Date | Ticker | Call | Outcome |
-|---|---|---|---|
-| 2025-12-01 | LITE | Long ~$316.5; TPU OCS monopoly | ⚠️ reduced ~$385 early Jan (InP-supply concern), then re-affirmed structural |
-| 2025-12-04 | TTD | Buy $38.6; PT $48-55 | "Markets pricing in" by Dec 14 |
-| 2025-12-05 | ORCL | **Maintain Avoid** before earnings | Vindicated by -11% drop |
-| 2025-12-09 | TSM | Added ~$302.5 | "Safest compounder" |
-| 2025-12-11 | AAOI | Formal long (small) | ⚠️ trimmed Jan 9 on Japan controls; later tripled |
-| 2025-12-12 | AVGO | -11.64% earnings = buy the dip | "Misunderstood backlog" |
-| 2025-12-12 | SNAP | Long $7.64; "100%+ upside" | ⚠️ flipped to bear Feb on SBC |
-| 2025-12-21 | CRCL | "1000%+ thesis," long ~$70-84 | +148% to $134+ by Mar 9 ✅ |
-| 2025-12-22 | LITE | "316% YTD, 1000%+ by 2027" | Structural |
-| 2025-12-26 | AXTI | **Flagship bottleneck thesis** ~$700M MC (5.47M views) | +60% in 6wk → +310% in 2mo → ~4-5x by Mar ✅ |
-| 2025-12-31 | MRVL | Maia thesis; Benchmark "disinformation" | Benchmark retracted |
-| 2026-01-06 | AXTI | China export ban on Japan → "monopoly" | +14% that day |
-| 2026-01-07 | OSS | Long $155M MC; combat-validated | +50%+ in a day |
-| 2026-01-08 | AXTI | -29.54% AH revenue miss; **held** ("deferred backlog") | Conviction held; thesis later vindicated |
-| 2026-01-09 | VLN | Long ~$1.50-2.28; data-error arbitrage | +58% day one; ~60% by Jan 14 ✅ |
-| 2026-01-12 | AXTI | Craig-Hallum Buy $26 PT (lagging validation) | Confirms institutional-lag thesis |
-| 2026-01-14 | LPTH | Long ~$621M MC; germanium-glass monopoly | +25% same day |
-| 2026-01-16 | AIRO | Long early Jan | +76% by mid-Jan ✅ |
-| 2026-01-17 | INTC | High-conviction long; "7x just for waiting" | "One of my biggest positions" |
+| Ticker | Entry Price | Latest Known Price | Return | Notes |
+|--------|-------------|-------------------|--------|-------|
+| $ALAB (Astera Labs) | ~$97 | ~$372 | +283% | ✅ Hit — note: Serenity "lost conviction on ALAB along the way with optical transitions"; did not ride to full ATH |
+| $LITE (Lumentum) | ~$330 | ~$904 | +174% | ✅ Hit |
+| $AAOI (Applied Optoelectronics) | ~$30 | ~$175 | +483% | ✅ Hit — now ~$14B MC (was ~$3B at entry) |
+| $NBIS (Nebius) | Early stage 2025 | Nasdaq 100 addition Jun 2026 | Multi-x | ✅ Hit (ongoing disclosed holding) |
+| $RKLB (Rocket Lab) | ~$16 | Nasdaq 100 addition Jun 2026 | Multi-x | ✅ Hit — full institutional-cycle complete |
+| $TSM (Taiwan Semiconductor) | 2025 | "Aged super well" | Positive | ✅ Hit |
+| $AXTI (AXT Inc) | Dec 2025 ~$700M MC | +1,057%+ by Apr 24 2026; Reuters InP thesis confirmed Jun 2026 | +1,057%+ | ✅ Hit — "Not a buy now" at 1,057% level; thesis validated by mainstream media |
 
-## 2026-02
+---
 
-| Date | Ticker | Call | Outcome |
-|---|---|---|---|
-| 2026-02-02 | SNDK | "Fwd 2027 P/E ~6.3x after +109% YTD" | Personal benchmark; Apr blowout ✅ |
-| 2026-02-03 | CRCL | "Really like CRCL at $54" | +53% by Feb 26 ✅ |
-| 2026-02-04 | GOOGL | Capex $175-185B = bullish for chain | Sector rallies followed ✅ |
-| 2026-02-09 | RDDT | Long $139; "not disrupted by AI" | Q1 blowout (Apr 30) ✅ |
-| 2026-02-09 | CRDO | "$95 biggest dip-buy of year" | +52.6% next day ✅ |
-| 2026-02-13 | EWY | IV arbitrage thesis (IV 32%) | IV → 44-47% in a week ✅ (then ⚠️ Iran-dented) |
-| 2026-02-16 | RPI | Long ~$542M MC; OpenClaw hardware | +46% in Feb; +58% growth confirmed Mar 31 ✅ |
-| 2026-02-19 | XLU | OTM 2yr leaps at ~14% IV | Strikes +80-150% in a week ✅ (then ⚠️ Iran-dented) |
-| 2026-02-20 | (portfolio) | YTD 237% claimed | **self-reported** |
-| 2026-02-25 | AXTI | +310% in 2 months | **self-reported** |
-| 2026-02-26 | (portfolio) | YTD 477.27% post-NVDA earnings | **self-reported** |
-| 2026-02-27 | AAOI | Blowout earnings; "next SNDK"; tripled position | Continued run into Mar-Apr ✅ |
-| 2026-02-28 | (macro) | Iran strike "fully frontrun"; don't chase oil/defense at ATH | Macro framing |
-
-## 2026-03
-
-| Date | Ticker | Call | Outcome |
-|---|---|---|---|
-| 2026-03-02 | AXTI | "Up 4x from ~$12-15 entry" | ATH $69.69 by Mar 24 ✅ |
-| 2026-03-02 | LASR | Long $3B MC; Iron Beam validation | Catalyst-driven |
-| 2026-03-05 | IREN | **Bear thesis published** ($6B ATM caps equity) | ⚠️ -34% by May ✅ (his bear validated) |
-| 2026-03-07 | HIMS | **Flipped to bull** (NVO dropped lawsuit) | +14-64% in Mar ✅ |
-| 2026-03-07 | NBIS | NVDA $2B strategic investment | Bullish confirmation |
-| 2026-03-11 | SOI | Long ~€43; CPO substrate monopoly; "3x in a year" | +200% by Apr 30 ✅; 4x+ by May 28; MS 6.5% holder |
-| 2026-03-11 | TSEM | Long; "TSM of photonics" | +63% in 2 weeks ✅ |
-| 2026-03-14 | SIVE | **First thesis ~$140M MC; #1 pick** | +165%+ from entry by Mar 23 ✅ |
-| 2026-03-21 | MU | Predicted 73-75% GM (Jan) | **Actual 74.9%** ✅ (clean validated call) |
-| 2026-03-24 | VCX | **Warning: "do not buy" (~20x NAV)** | -44% same day; $425→$110 in 4 days ✅ |
-| 2026-03-24 | ARM | Long ~$139; CPU bottleneck | +45% in a month; May 31 referenced ~$134 to $354 after taking positions and NVDA ARM-based processors at Computex; June 1 update extends the move to ~$413 from ~$134 in ~2.5 months, roughly 3x unlevered ✅ |
-| 2026-03-27 | Win Semi | Long $4.1B MC | Outperformed during selloff |
-| 2026-03-28 | XLU/EWY | **Admitted Iran killed rate-cut pricing; positions hurt** | ⚠️ honest self-correction |
-| 2026-03-3
-...TRUNCATED...
+*Managed by Kollab hourly timer. Updated incrementally from @aleabitoreddit posts.*
 ```
 
 ## Multi-perspective debate package
@@ -5184,14 +5124,12 @@ npx skills add w-y-p/serenity-aleabitoreddit-skill -g -a gemin
 ```text
 ---
 name: serenity-chokepoint-investing
-description: "Use when analyzing stocks through @aleabitoreddit/Serenity-style supply-chain chokepoint thinking: AI/semi photonics, scarce physical bottlenecks, small-cap monopoly or duopoly nodes, catalyst timing, valuation mismatch, and risk controls. Model-agnostic skill for Codex, Claude Code, Cursor, Gemini CLI, Windsurf, and other agents that support SKILL.md. This skill supports investment research and stock analysis; it does not provide personalized financial advice."
+description: "Use when analyzing stocks through @aleabitoreddit/Serenity-style supply-chain chokepoint thinking: AI/semi photonics, scarce physical bottlenecks, small-cap monopoly or duopoly nodes, catalyst timing, valuation mismatch, and risk controls. This skill supports investment research and stock analysis; it does not provide personalized financial advice."
 ---
 
 # Serenity Chokepoint Investing
 
 Use this skill to turn an investment idea into a structured chokepoint thesis. The goal is not to copy any public trader's positions. The goal is to test whether a company controls a scarce, hard-to-substitute physical layer that captures value as downstream demand expands.
-
-This skill is model-agnostic. Any agent that can load a `SKILL.md` file should use these instructions the same way. Do not rely on Codex-only syntax in the final answer; if the host agent does not support `$skill-name` invocation, treat any explicit request for "Serenity", "@aleabitoreddit", "chokepoint investing", "AI supply-chain bottlenecks", or this skill's name as the trigger.
 
 Respond in the user's language. If the request is in Chinese, keep the research output in Chinese while preserving ticker symbols, filings, and source titles as written.
 
@@ -5203,6 +5141,7 @@ Read only what the task needs:
 - `references/achievements_and_sources.md`: Serenity/@aleabitoreddit public achievements, follower growth, performance claims, and verification status.
 - `references/serenity_framework.md`: distilled investment philosophy and reusable research moves.
 - `references/case_patterns.md`: recurring case archetypes such as AXTI, SIVE, SOI, AAOI/LITE/COHR, European photonics names, and NBIS.
+- `references/update_2026_06.md`: staged June 2026 incremental notes from post/search-index evidence; use for new optics, policy, dilution, and reflexivity updates.
 - `references/maintenance.md`: rules for updating this skill from new posts or outside research without turning it into a noisy transcript.
 
 ## Guardrails
@@ -5214,6 +5153,9 @@ Read only what the task needs:
 - For microcaps, explicitly discuss liquidity, float, dilution, hype reflexivity, and exit risk.
 - Never present Serenity's self-reported returns or follower growth as audited evidence. Label them as self-reported, mirror-observed, or media-reported.
 - Treat options, margin, short-squeeze setups, and IV/vega trades as advanced risk overlays. Do not convert them into trade instructions or position-size prescriptions.
+- Do not conflate reference-design inclusion, ecosystem membership, foundry-platform validation, or customer engineering work with purchase orders or recognized revenue.
+- Do not treat all dilution the same. Distinguish constructive financing that unlocks IP, capacity, listing access, or customer delivery from toxic financing that transfers value away from shareholders.
+- Do not invalidate a hardware architecture thesis from price volatility alone; invalidate it through lost design-ins, substitute qualification, ramp breakdowns, margin collapse, excessive dilution, or demand rollover.
 
 For source context and known evidence limits, read `references/source_notes.md` when the user asks about Serenity, @aleabitoreddit, AXTI, SIVE, AAOI, SOI/SLOIF, IQE, XFAB, or the origin of this framework.
 
@@ -5242,6 +5184,7 @@ Key ideas:
    - For AI photonics, start with these layers: raw materials, pBN crucibles/growth equipment, InP or SOI substrates, epiwafers, CW lasers, optical transceivers/assembly, testing/qualification, fiber/cabling.
    - Do not assume the visible product assembler owns the profit pool; test upstream and midstream nodes separately.
    - Enforce chain fluency: do not conflate substrate, epiwafer, foundry, laser, transceiver, module, package, or system-integrator roles.
+   - For optics, label `laser array`, `external light source`, `light engine`, `pluggable transceiver`, `LRO/LPO`, `CPO`, `foundry platform`, `package/test`, and `EMS/manufacturing partner` separately.
 
 3. Score the chokepoint.
    - Irreplaceability: Can customers qualify alternatives quickly?
@@ -5253,6 +5196,7 @@ Key ideas:
 
 4. Build the evidence ladder.
    - Prefer primary sources: annual reports, 10-K/20-F/6-K/8-K, company presentations, earnings transcripts, customer press releases, and government awards.
+   - Classify reference designs, ecosystem memberships, foundry platforms, customer evaluations, and private-company architecture validation as a middle evidence tier: stronger than social inference, weaker than signed orders or recognized revenue.
    - Then use technical sources: papers, patents, bill-of-materials analysis, industry notes, standards, supplier lists, import/export data, and hiring/procurement signals.
    - Use social-media and third-party trackers only to generate hypotheses or locate source documents.
    - Require at least two independent confirmations before labeling a company a chokepoint.
@@ -5264,15 +5208,7 @@ Key ideas:
    - Signed contract ARR or take-or-pay commitments versus market cap, when applicable.
    - GAAP margin quality versus non-GAAP or cherry-picked segment margin claims.
    - Customer/counterparty quality: AAA hyperscaler, strategic investor, cash-burning startup, local government, or retail-only narrative.
-   - Unit economics: how many units per downstream deployment, selling price, gross margin, and ramp timing.
-   - Base, bull, and bear cases with explicit assumptions.
-   - Dilution audit: ATM programs, converts, warrants, shelf registrations, private placements, and insider selling.
-
-6. Track catalysts and invalidations.
-   - Catalysts: earnings calls, customer qualification, volume production starts, government funding, export controls, index inclusion, uplisting, industry conferences, and supply warnings.
-   - Invalidations: substitute qualification, customer loss, failure to ramp, margin collapse, excessive dilution, demand pull-in, inventory glut, or regulatory/geopolitical reversal.
-   - Update the thesis when capital structure or evidence changes, even if the original product thesis remains intact.
-   - Explicitly separate "price moved after a post" from "the comp
+   - Financing quality: strategic capital, listing-driven liquidity, and capacity/IP funding are different from ATMs, warrants, death-spiral structures, or promotion-funded cas
 ...TRUNCATED...
 ```
 
@@ -5321,7 +5257,7 @@ Important records:
 
 - SemiconStocks, "Serenity Tracker": `https://semiconstocks.com/`
   - Third-party tracker that organizes the AI photonics chokepoint map into 7 layers and lists many public theses.
-  - The page itself warns that track record is self-reported and incomplete.
+  - The page itself treats track record as self-reported context rather than primary performance evidence.
 
 - PANews / BruceBlue, "2年225倍收益？揭秘神秘研究员Serenity的AI'卡脖子'投资术": `https://www.panewslab.com/zh/articles/019e674b-724f-736c-8077-b2221cf24e39`
   - Presents the 225x/22,561.99% media narrative and the bottom-up AI supply-chain reverse-engineering frame.
@@ -5367,7 +5303,7 @@ Use this or adapt it:
 ```text
 # Case Patterns
 
-Snapshot date: 2026-05-31.
+Snapshot date: 2026-06-12.
 
 These are archetypes distilled from the recovered corpus and reviewed public summaries. They are templates for analysis, not current recommendations.
 
@@ -5390,11 +5326,24 @@ Pattern:
 - Downstream: CPO, external light sources, 1.6T/3.2T optics, hyperscaler AI networking.
 - Bottleneck candidate: CW/DFB laser source IP and qualified supplier relationships.
 - Scarcity logic: CPO architecture needs reliable light sources; qualification and customer design-ins can be slow; small company may be undercovered relative to downstream importance.
-- Catalysts seen in corpus: opportunity-pipeline growth, customer qualification clues, CHIPS Act/government support, Nasdaq/uplisting discussion, MSCI/index flow, short interest.
+- Catalysts seen in corpus: opportunity-pipeline growth, customer qualification clues, CHIPS Act/government support, Nasdaq/uplisting discussion, MSCI/index flow, major-holder disclosures, short interest.
 - Validation routes: annual reports, interim reports, customer confirmations, grant/award documents, transcript language on margins and demand.
 - Key risk: pipeline is not revenue; customer names may be inferred; financing needs and local-market volatility can dominate.
 
 Use this case to distinguish a future architecture chokepoint from a current-revenue story.
+
+Multi-hop proof-chain template:
+
+| Layer | What to prove | Evidence threshold |
+| --- | --- | --- |
+| Architecture | CPO/LRO/LPO or external light source adoption is real and timed. | Customer/product roadmap, conference transcript, standard, or peer shipment timeline. |
+| Platform | Foundry or reference-design partner can scale the needed process. | Foundry announcement, technical platform document, capacity plan, or customer evaluation. |
+| Customer path | A system integrator or module supplier plausibly needs the candidate. | Named customer disclosure, transcript wording, product page, purchase order, or two independent primary clues. |
+| Capacity | The candidate can actually produce enough at acceptable yield and margin. | Capacity plan, partner capacity, capex, gross-margin guidance, and production-order timing. |
+| Capital structure | Financing helps the thesis rather than consuming it. | Use-of-proceeds clarity, listing rationale, share count impact, warrants/ATM audit, and runway. |
+| Revenue conversion | Pipeline becomes orders, revenue, and cash flow. | Production orders, recognized revenue, backlog conversion, and margin expansion. |
+
+Keep public evidence, inferred customer paths, and unrecognized future revenue in separate rows. Do not let one strong link validate the whole chain.
 
 ## SOI / Soitec Substrate Monopoly Pattern
 
@@ -5409,7 +5358,20 @@ Pattern:
 
 Use this case for "old business plus new architecture" setups where legacy weakness hides future option value.
 
-## AAOI / LITE / COHR / Optical Transceiver Map
+## AAOI / Visible 1.6T Module Repricing
+
+Pattern:
+
+- Downstream: hyperscaler data-center interconnect, 800G/1.6T/3.2T pluggable optics, AI cluster networking.
+- Bottleneck candidate: a US-based optical module supplier with visible data-center transceiver ramp, laser/fab/assembly exposure, and direct revenue sensitivity.
+- Scarcity logic: visible module suppliers can reprice before deeper upstream layers because orders, capacity, and customer ramps are easier for the market to understand.
+- Catalysts seen in corpus: first volume orders, capacity-ramp commentary, US domestic supply-chain framing, analyst upgrades, and peer optics guidance.
+- Validation routes: company releases, earnings calls, backlog/order language, customer concentration, gross-margin trajectory, capex, and component sourcing.
+- Key risk: module competition, customer concentration, margin compression, rapid consensus formation, and upstream suppliers capturing the better economics.
+
+Use this case to separate a visible near-revenue optics rerating from hidden upstream chokepoints.
+
+## Optical Transceiver Basket / AAOI-LITE-COHR Map
 
 Pattern:
 
@@ -5437,78 +5399,32 @@ Shared setup:
 - Foreign or regional listing with limited US attention.
 - Hard technical niche that screens poorly on old financials.
 - Potential repricing when US retail/institutions discover the supply-chain role.
+- Possible policy support from EU Chips Act 2.0, sovereignty language, export controls, or strategic-funding programs.
 
 Key risk:
 
 - Cross-market liquidity, translation errors, settlement/friction, local disclosure standards, and reflexive retail flows.
+- Policy headlines may not map to direct funding, named customer demand, or near-term revenue.
 
 Use this pattern when analyzing non-US small/mid caps connected to AI infrastructure.
 
-## NBIS / Neocloud And Compute Infrastructure
+Policy-catalyst checklist:
+
+- Identify the exact policy source and date.
+- Map the company to an eligible technology layer.
+- Check facility location, customer role, and funding eligibility.
+- Distinguish grant/loan/tax/procurement/export-control mechanisms.
+- Compare potential support with current market cap and financing needs.
+
+## XFAB / Specialty Foundry And European Sovereignty
 
 Pattern:
 
-- Downstream: AI compute demand, GPU clusters, model training/inference capacity, hyperscaler or enterprise demand.
-- Bottleneck candidate: access to deployed compute, power, data-center capacity, financing, and customer contracts.
-- Scarcity logic: compute capacity can be scarce, but it is more capital-intensive and financially fragile than a pure component chokepoint.
-- Validation routes: contracted revenue, customer quality, capex financing, utilization, power access, depreciation, debt terms.
-- Key risk: financing and dilution can overwhelm the theme; headline capacity is not the same as profitable utilization.
+- Downstream: silicon photonics, InP-on-silicon, SiC/GaN, automotive/industrial semiconductors, and AI hardware localization.
+- Bottleneck candidate: a European specialty foundry whose legacy business may hide future photonics or power optionality.
+- Scarcity logic: specialty process know-how, qualified capacity, regional sovereignty, and limited European alternatives can create a policy-backed chokepoint.
+- Validation routes: annual reports, capex plans, customer/product pages, EU policy documents, foundry-platform releases, and utilization/margin data.
 
-Use this case to force a stronger financial model when the bottleneck is capital-heavy infrastructure.
-
-## Neocloud / Signed ARR / Financing Quality
-
-Pattern:
-
-- Downstream: AI training and inference demand that needs deployed GPU capacity, power, data centers, networking, and financing.
-- Bottleneck candidate: contracted compute supply, power access, customer commitment, and financing terms.
-- Scarcity logic: capacity is scarce, but scarcity alone is not enough if the company must dilute heavily or finance buildout at uneconomic cost.
-- Validation routes: signed contracts, take-or-pay terms, customer credit quality, strategic investor participation, debt maturity, interest cost, depreciation, utilization, and power availability.
-- Key risk: headline contract value can hide low margins, weak counterparties, capex burden, or shareholder dilution.
-
-Use this pattern whenever the "bottleneck" is infrastructure rather than a small physical component.
-
-## Mag7 Customer Concentration
-
-Pattern:
-
-- Positive version: a small supplier is qualified by several hyperscalers or top-tier semiconductor customers.
-- Negative version: a supplier depends on one customer and can be designed out.
-- Validation routes: customer concentration disclosures, purchase commitments, named partnerships, customer capex roadmaps, and peer supply-chain comments.
-- Key risk: inferred customer mapping is not the same as disclosed revenue.
-
-Use this pattern to avoid overvaluing vague "AI customer" language.
-
-## GAAP Margin And Accounting Quality
-
-Pattern:
-
-- Downstream: capital-heavy AI infrastructure, software-like orchestration layers, or component suppliers with different disclosure styles.
-- Bottleneck candidate: company that appears lower quality only because it reports more honestly.
-- Validation routes: GAAP gross margin, operating margin, SBC, depreciation, interest income, capex, cash conversion, and segment definitions.
-- Key risk: non-GAAP margin can make a weak business look like a premium asset.
-
-Use this pattern before comparing peers in neocloud, data-center, software, or hardware names.
-
-## Options IV / Vega And Macro Overlay
-
-Pattern:
-
-- Downstream: broad sector shift hidden inside an ETF, index, or "boring" wrapper.
-- Bottleneck candidate: not a company, but an underpriced volatility structure around a changing exposure.
-- Validation routes: current implied volatility, realized volatility, constituent weights, sector exposure, rate/macro regime, and liquidity.
-- Key risk: options can expire worthless; this is a timing and structure overlay, not a fundamental stock thesis.
-
-Use this pattern only when the user explicitly asks for options, hedging, or portfolio structure.
-
-## Risk-Call Pattern
-
-The corpus also contains negative calls on promotional or heavily diluted names.
-
-Checklist:
-
-- Is NAV or cash being used to justify a huge premium?
-- Is an ATM, shelf, convert, 
 ...TRUNCATED...
 ```
 
@@ -5541,7 +5457,7 @@ Skip:
 
 1. Originating/private corpus records and official X status URLs.
 2. Company filings, releases, transcripts, technical papers, and official customer/vendor disclosures.
-3. Structured mirrors used only to recover missing public posts or metadata.
+3. Structured mirrors used only to cross-check public posts or metadata.
 4. Third-party trackers, articles, and GitHub distillations used as synthesis and lead generation.
 
 When WOOK98 or another repository adds an idea, classify it as `third-party distillation` until independently checked.
@@ -5585,7 +5501,7 @@ python3 /path/to/skill-creator/scripts/quick_validate.py .
 ```text
 # Serenity Framework
 
-Snapshot date: 2026-05-31.
+Snapshot date: 2026-06-12.
 
 This is the distilled investment process inferred from the recovered @aleabitoreddit corpus and reviewed public summaries. It is a research framework, not a trading signal.
 
@@ -5613,6 +5529,9 @@ Most large moves in the corpus are tied to a transition:
 
 - Electrical interconnect to optical interconnect.
 - Pluggable optics to CPO/external light source architectures.
+- 800G/1.6T/3.2T optics to LRO/LPO/CPO and rack-scale optical fabrics.
+- Server power delivery toward 800V DC, SiC/GaN, power modules, and higher-density data-center infrastructure.
+- AI memory pressure that shifts attention from headline accelerators to upstream capacity bottlenecks.
 - Generic AI capex to named hyperscaler ASIC supply chains.
 - Commodity hardware to scarce substrates, lasers, testing, and packaging.
 - Local/legacy listings to global institutional attention.
@@ -5637,9 +5556,13 @@ Use this ladder:
 | Level | Evidence type | Role |
 | --- | --- | --- |
 | A | Filings, annual reports, official releases, earnings calls, customer announcements, government awards | Can validate or falsify the thesis. |
-| B | Technical papers, patents, standards, BOM analysis, industry reports, supplier/customer pages, hiring/procurement | Supports supply-chain mapping and bottleneck mechanics. |
-| C | Peer transcripts, sell-side notes, expert commentary, media reports | Useful context, but check incentives and timestamps. |
-| D | Social posts, third-party trackers, mirror sites | Hypothesis generation only. |
+| B | Purchase orders, named design wins, production orders, customer qualification language, signed contracts | Strong validation if economics, timing, and counterparty quality are clear. |
+| C | Reference designs, ecosystem membership, foundry-platform inclusion, customer evaluation, private-company architecture validation | Stronger than social inference, weaker than recognized revenue. |
+| D | Technical papers, patents, standards, BOM analysis, industry reports, supplier/customer pages, hiring/procurement | Supports supply-chain mapping and bottleneck mechanics. |
+| E | Peer transcripts, sell-side notes, expert commentary, media reports | Useful context, but check incentives and timestamps. |
+| F | Social posts, third-party trackers, mirror sites, search snippets | Hypothesis generation only. |
+
+Private companies can validate an architecture direction even when they are not investable securities. Map them as proof nodes in the supply chain, not as recommendations.
 
 ### 5. Catalyst Timing
 
@@ -5651,6 +5574,8 @@ Recurring catalysts:
 - Customer product ramps, such as AI ASICs, optical transceivers, or CPO deployments.
 - Government funding, CHIPS Act awards, export controls, or national-security framing.
 - Uplisting, dual listing, index inclusion, or forced institutional ownership.
+- Reference-design inclusion, ecosystem announcements, or foundry-platform validation.
+- 13G/major-holder disclosures, investor-base migration, passive/index flows, or cross-listing that changes the buyer base.
 - Short interest, crowded local shorts, or regional investor misunderstanding.
 - Conferences and technical events where architecture transitions become mainstream.
 
@@ -5666,7 +5591,7 @@ Translate the thesis:
 - What capex, working capital, and dilution are required to scale?
 - How much of the future is already in the stock?
 
-### 7. Anti-Hype And Dilution Audit
+### 7. Financing Quality And Dilution Audit
 
 The corpus repeatedly calls out names where narrative is stronger than economics. Before accepting a thesis, audit:
 
@@ -5677,96 +5602,57 @@ The corpus repeatedly calls out names where narrative is stronger than economics
 - Share count drift and management incentives.
 - Whether the public thesis itself has created crowding.
 
-### 8. Reflexivity
+Not all dilution is equal:
 
-Serenity's follower scale can move illiquid stocks. Treat attention as a market variable:
+- Constructive: one-time or strategic financing that funds capacity, IP acquisition, listing access, customer delivery, or balance-sheet cleanup.
+- Risky: financing needed before evidence converts, with unclear use of proceeds or heavy valuation leakage.
+- Toxic: deep-discount issuance, death-spiral converts, warrant-heavy deals, active ATMs into retail enthusiasm, or management behavior that repeatedly transfers value away from holders.
 
-- It can accelerate repricing before fundamental validation arrives.
-- It can compress future returns after a thesis becomes crowded.
-- It can make price action look like proof even when only social demand changed.
-- It raises exit-risk and liquidity-risk requirements for microcaps.
+### 8. Listing Venue And Jurisdiction Arbitrage
 
-## Supplemental Principles From WOOK98
-
-The WOOK98/serenity-aleabitoreddit repository is useful as a second distillation. It claims a larger archive, about 5,582 tweets plus 4 X Articles, and organizes the framework into named principles. Use these as supplemental lenses; continue to verify every claim against public posts, filings, current market data, and any private corpus you rebuild.
-
-### 1. Multi-Hop BOM And OSINT Mapping
-
-Do not stop at a one-hop supplier relationship. Chain the whole bill of materials:
-
-`hyperscaler capex -> ASIC/GPU/TPU -> switch or optical engine -> transceiver or CPO module -> laser/epi/substrate -> raw material or tool`.
-
-Useful OSINT inputs:
-
-- Conference slides and technical talks.
-- Investor decks and annual reports.
-- Customer partner pages and changes to those pages.
-- Hiring posts, patents, supplier lists, import/export data.
-- BOM percentage estimates and peer capacity comments.
-
-### 2. Contracted ARR Versus Market Cap
-
-For neoclouds, data centers, and infrastructure names, signed multi-year commitments matter more than trailing revenue only if the contract is real, financed, and backed by a creditworthy customer.
-
-Ask:
-
-- Is there a signed contract, letter of intent, framework agreement, or only marketing language?
-- Is the customer an AAA hyperscaler, strategic investor, startup, government buyer, or weak counterparty?
-- What capex, debt, or dilution is required to serve the contract?
-- Does contracted revenue create gross profit after power, depreciation, financing, and operating costs?
-
-### 3. Mag7 Customer Filter
-
-Multiple Mag7 customers can be a powerful demand signal for a small company, but concentration cuts both ways.
-
-- Positive: multiple hyperscalers or tier-one customers validate demand durability.
-- Negative: one anchor customer can create binary design-out risk.
-- Required check: named customer, revenue concentration, purchase commitment, design win, or inferred relationship.
-
-### 4. GAAP Margin Discipline
-
-Do not compare one company's full GAAP margin with another company's cherry-picked non-GAAP or segment-only margin.
+For foreign-listed or locally misunderstood hardware names, valuation can change when the investor base changes.
 
 Audit:
 
-- GAAP gross margin and operating margin.
-- Stock-based compensation.
-- Depreciation and data-center capex economics.
-- One-time gains, interest income, and capitalized costs.
-- Whether "software-like" margin is real or just disclosure framing.
+- Primary listing, ADR/dual-listing status, settlement friction, and liquidity.
+- Index eligibility, passive ownership, and potential institutional mandates.
+- Whether the company needs a US/EU parent, subsidiary, or local operating structure to access customers, CHIPS-style funding, or strategic M&A.
+- Whether the listing change creates real financing/capital access or only a temporary retail rerating.
 
-### 5. Qualification Cycle Versus TTM Revenue
+### 9. Chain Fluency And Optics Vocabulary
 
-Pre-ramp bottlenecks often look expensive or messy on trailing numbers. The question is whether current qualification evidence can plausibly turn into future revenue.
+Do not collapse all optical or semiconductor terms into one bucket.
 
-Good signs:
+For photonics/CPO work, separate:
 
-- Customer qualification orders.
-- Foundry or manufacturing partner confirmation.
-- Management language about volume production timing.
-- Peer comments that demand exceeds available supply.
+- Substrate: InP, SOI, glass core, SiC/GaN where relevant.
+- Epi/foundry: epiwafer growth, specialty foundry, InP-on-silicon, silicon photonics platform.
+- Light source: laser array, CW/DFB laser, external light source, light engine.
+- Module/system: pluggable transceiver, LRO/LPO, CPO, switch, package/test, EMS/manufacturing partner.
 
-Bad signs:
+The visible assembler may reprice first; the durable profit pool may sit upstream if the upstream layer is scarcer.
 
-- Perpetual "development" with no customer milestones.
-- Pipeline growth without conversion.
-- Financing need before revenue proof.
+### 10. Volatility Versus Invalidation
 
-### 6. Financing Quality Spectrum
+Microcap hardware theses can move violently before the income statement catches up. A drawdown does not invalidate the architecture thesis by itself.
 
-Within capital-heavy sectors, financing quality can dominate the technical thesis.
+Invalidate through:
 
-Prefer:
+- Lost design-in or customer loss.
+- Substitute qualification that removes scarcity.
+- Volume-ramp breakdown or manufacturing yield shortfall.
+- Margin collapse, uneconomic unit economics, or backlog that does not convert.
+- Excessive dilution, covenant stress, or financing that breaks shareholder economics.
+- Demand rollover or architecture reversal.
 
-- Strategic investor money that validates demand.
-- Debt or converts matched to contracted cash flow.
-- Small, one-time dilution that unlocks liquidity or retires debt.
+### 11. Policy-Backed Sovereignty Nodes
 
-Penalize:
+Government policy can turn a small supply-chain node into a strategic asset, especially in photonics, substrates, specialty foundry, advanced packaging, power, and critical materials.
 
-- Large active ATM programs.
-- Heavy SBC while issuing stock.
-- Debt
+Checklist:
+
+- Source document: law, policy paper, award notice, export-control action, or official speech.
+- Eligible technology: map the exact layer, not the theme
 ...TRUNCATED...
 ```
 
@@ -5775,11 +5661,11 @@ Penalize:
 ```text
 # Source Notes
 
-Evidence snapshot date: 2026-05-31.
+Evidence snapshot date: 2026-06-12.
 
 ## Corpus Snapshot
 
-This skill was originally distilled from a local research corpus. The raw corpus is not included in this public skill repository; preserve full tweet text outside the public skill package when doing private research.
+This skill was originally distilled from a local research corpus. Preserve raw post text in private research artifacts and keep the public skill package focused on reusable workflow, evidence rules, and case patterns.
 
 - Unique records recovered: 1,965.
 - Official X `statuses_count` observed in captured profile state: 6,916.
@@ -5805,11 +5691,20 @@ Input source summary:
 | `instalker` | 1,813 | 2026-05-31 | 2025-11-17 | Structured mirror JSON, widest coverage. |
 | `twiscan` | 40 | 2026-05-29 | 2025-12-26 | HTML mirror with inferred date strings. |
 
-The denominator is X's profile-level statuses count, not a clean public-post count. It can include replies and other activity, and deleted or unavailable posts cannot be recovered from public mirrors.
+The denominator is X's profile-level statuses count rather than a clean public-post count. It can include replies and other activity, so use it as profile-activity context.
+
+## June 2026 Incremental Snapshot
+
+After the original corpus snapshot, an incremental pass was performed on 2026-06-12 for posts after 2026-05-30.
+
+- The incremental table combines local recovered full-text records through 2026-05-31 with public search-index snippets and mirror-feed snippets for 2026-06-01 to 2026-06-12.
+- A local staging table captured 77 investment- or skill-relevant rows from 2026-05-30 to 2026-06-12.
+- Use this increment for updating recurring framework moves and source-routing.
+- Durable themes extracted from the increment: AAOI standalone optics case, SIVE multi-hop proof chain, reference-design/foundry-platform evidence tier, CPO/LPO/LRO vocabulary, constructive versus toxic dilution, listing venue and investor-base migration, volatility versus invalidation, policy-backed sovereignty nodes, information-cycle compression, A-share market adaptation, and 800V DC/power-delivery adjacency.
 
 ## Source Tiers
 
-- Tier 1: Original public posts or direct mirrors of @aleabitoreddit's X timeline. X is the primary venue, but mirrors can be stale or incomplete.
+- Tier 1: Original public posts or direct mirrors of @aleabitoreddit's X timeline. X is the primary venue; timestamp mirrors and cross-check important claims.
 - Tier 2: Company filings, releases, reports, and transcripts used to validate or falsify claims from the posts.
 - Tier 3: Third-party trackers and media articles. Useful for synthesis, but not proof of performance or current holdings.
 
@@ -5860,6 +5755,11 @@ The denominator is X's profile-level statuses count, not a clean public-post cou
   - Company source confirming Q1 2026 revenue of SEK 61.9m, revenue pressure from defense-budget timing and FX, and a stated opportunity-pipeline growth figure.
   - Use this as an example of validating a social thesis against company-reported operating data, including negative data.
 
+- June 2026 incremental research file: `references/update_2026_06.md`
+  - Staging notes from the post-2026-05-30 evidence snapshot.
+  - Useful for new optics, SIVE, AAOI, policy, dilution, listing, reflexivity, and A-share extension logic.
+  - Treat post-level snippets as leads unless the row points to a primary company, customer, filing, transcript, or policy source.
+
 See `achievements_and_sources.md` for date-stamped achievement claims and reliability labels.
 
 ## Distilled Patterns
@@ -5867,21 +5767,64 @@ See `achievements_and_sources.md` for date-stamped achievement claims and reliab
 - Start with physical bottlenecks, not app-layer narratives.
 - Identify monopoly/duopoly or hard-to-qualify nodes before they become consensus.
 - Prefer obscure, small, or foreign-listed suppliers where institutions may be slow.
-- Look for a technical architecture shift that changes the demand curve, such as CPO replacing or augmenting traditional interconnect.
-- Track government funding, sovereignty language, export controls, and customer qualification as validation.
-- Keep a dilution and capital-structure audit beside every growth thesis.
-- Treat violent volatility as expected in microcaps, but not as proof that the thesis is intact.
-- Treat audience growth as a reflexivity variable: it affects price impact and crowding, but it is not fundamental validation.
-- Add financial-quality lenses from WOOK98's synthesis: signed ARR versus market cap, GAAP margins over non-GAAP claims, Mag7/customer concentration, financing quality, macro/flow/IV overlays, and conviction tiering.
+- Look for a technical architecture shif
+...TRUNCATED...
+```
 
-## Evidence Limits
+### wyp_serenity_skill / references/update_2026_06.md
 
-- The available public crawl is partial and may miss deleted, edited, subscriber-only, or reply-only content.
-- Track record claims are not audited and may suffer survivorship bias.
-- Third-party trackers can paraphrase incorrectly or lag current position changes.
-- Third-party GitHub distillations can be useful but may contain selection bias, stale thesis state, or unverified backtest/calibration claims.
-- Public posts can move illiquid stocks; price action after a post is not evidence of fundamental validation.
-- This framework shou
+```text
+# June 2026 Incremental Update Notes
+
+Snapshot date: 2026-06-12.
+
+This file is a staging table for posts and related evidence observed after the original 2026-05-31 skill snapshot. The main recommendations from this file were integrated into `SKILL.md`, `source_notes.md`, `serenity_framework.md`, and `case_patterns.md` on 2026-06-12. Keep this file as an evidence-routing note, not as a replacement for the integrated framework files.
+
+## Coverage Status
+
+This is an incremental evidence-routing snapshot for @aleabitoreddit posts and related sources after 2026-05-30.
+
+- Evidence classes include SerenityAlpha Tracker, X/search result snippets, mirror-feed snippets, and primary company/policy links.
+- Treat post-level references in this file as leads unless a primary company, customer, or policy source is listed.
+
+## High-Confidence Updates
+
+| Date/window | New signal | Evidence class | Durable implication | Proposed skill destination | Status |
+| --- | --- | --- | --- | --- | --- |
+| 2026-06-02 | Ayar Labs joined the NVIDIA NVLink Fusion ecosystem for rack-scale AI infrastructure. | Primary company release: `https://ayarlabs.com/news/ayar-labs-joins-nvidia-nvlink-fusion-ecosystem-to-bring-co-packaged-optics-to-rack-scale-ai-infrastructure/` | CPO is not only a switch/transceiver story; it is becoming part of rack-scale/scale-up AI networking. Private companies can be validation nodes even when they are not investable tickers. | `serenity_framework.md`, `case_patterns.md` | Promote |
+| 2026-06 early | Sivers / GlobalFoundries optical-solution collaboration was repeatedly cited as part of the SIVE CPO/light-source chain. | Primary link identified but command-line fetch was Cloudflare-blocked: `https://www.sivers-semiconductors.com/press/sivers-globalfoundries-advance-ai-data-center-optical-solutions/` | Add `reference design` / `foundry platform` as a distinct evidence tier: stronger than social inference, weaker than recognized revenue. | `serenity_framework.md`, `case_patterns.md` | Promote after browser/manual source check |
+| 2026-06 early | Sivers / ALL.SPACE production order was cited as non-photonics volume-order evidence. | Primary link identified but command-line fetch was Cloudflare-blocked: `https://www.sivers-semiconductors.com/press/all-space-awards-8-2m-production-order-to-sivers-semiconductors-for-ka-band-beamforming-ics/` | Old/adjacent business lines can matter if they fund the waiting period for a future photonics thesis. Add a "cash bridge" check: volume orders, margin, backlog, and runway. | `serenity_framework.md`, `case_patterns.md` | Promote after browser/manual source check |
+| 2026-06 early | Applied Optoelectronics / AAOI received a first volume order for 1.6T data-center transceivers. | Primary company release: `https://investors.ao-inc.com/news-releases/news-release-details/aoi-receives-first-volume-order-16t-data-center-transceivers` | AAOI should be treated as a standalone visible-optics case, not only bundled with LITE/COHR. The lesson is how visible module suppliers reprice first, while upstream profit pools may rotate later. | `case_patterns.md` | Promote |
+| 2026-06 early | EU Chips Act 2.0 / technology-sovereignty language was cited as a stronger policy catalyst for European photonics and specialty semiconductor nodes. | Policy source to verify: `https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?qid=1780575624046&uri=COM%3A2026%3A504%3AFIN` | Broaden the European hardware pattern from "foreign underfollowed stocks" to "policy-backed sovereignty nodes": photonics, specialty foundry, substrates, advanced packaging, power, and materials. | `case_patterns.md`, `source_notes.md` | Promote after text verification |
+
+## Framework Updates To Consider
+
+| Update | Why it matters | Proposed wording / checklist addition | Destination |
+| --- | --- | --- | --- |
+| Add `reference design / ecosystem membership` to evidence ladder. | New posts lean on SIVE/GFS/Ayar-style platform validation. This is a middle tier between rumor and revenue. | "Classify reference-design inclusion, platform ecosystem membership, and customer engineering validation separately from purchase orders and recognized revenue." | `serenity_framework.md` |
+| Add private-company validation nodes. | Ayar Labs is private but useful for mapping the CPO/NVLink Fusion chain. | "A non-public company can validate architecture direction even if it is not an investable security; map it as a proof node, not a recommendation." | `serenity_framework.md` |
+| Add CPO/LPO/LRO vocabulary guardrail. | New posts use precise optics terms that should not be collapsed into generic "optical module" language. | Require separate labels for `laser array`, `external light source`, `light engine`, `silicon photonics platform`, `reference design`, `CPO`, `LPO/LRO`, `pluggable transceiver`, `EMS/manufacturing partner`, and `foundry platform`. | `SKILL.md` or `serenity_framework.md` |
+| Add cash-bridge check. | SIVE-style theses may need time before the core photonics ramp. Adjacent order flow can reduce financing risk. | "For pre-ramp chokepoints, ask whether legacy/adjacent business produces real orders, gross margin, backlog, and runway." | `serenity_framework.md` |
+| Add volatility-without-invalidation rule. | New posts frame optics as structurally attractive but extremely volatile. | "A drawdown does not invalidate an architecture thesis by itself; invalidate only through lost design-ins, substitute qualification, margin collapse, order failure, excessive dilution, or demand rollover." | `SKILL.md`, `serenity_framework.md` |
+| Upgrade AAOI from basket member to case template. | AAOI now has a primary 1.6T volume-order signal. | Add "AAOI / Visible 1.6T Module Repricing" as an archetype separate from LITE/COHR. | `case_patterns.md` |
+| Upgrade SIVE from future CPO option to multi-hop proof-chain case. | New posts emphasize SIVE -> GFS/reference design -> Jabil/1.6T LRO -> Ayar/NVLink Fusion. | Add a SIVE case subsection that explicitly separates public evidence, inferred customer paths, and revenue not yet recognized. | `case_patterns.md` |
+| Extend European photonics policy pattern. | EU policy language can act as a catalyst for neglected European nodes. | Add a policy-catalyst checklist: source document, eligible technology, funding mechanism, named company exposure, timing, and whether market cap already prices the subsidy. | `case_patterns.md` |
+
+## Candidate Leads Not Yet Ready For Promotion
+
+| Lead | Reason to hold back | What would make it promotable |
+| --- | --- | --- |
+| Jabil / 1.6T LRO / SIVE customer-path references | Current capture is based on search/tracker snippets and needs a primary Jabil transcript, presentation, or customer disclosure. | JP Morgan fireside-chat transcript, Jabil release, product page, or transcript language that explicitly links 1.6T LRO to the relevant supplier chain. |
+| Specific new tickers outside optics, such as energy/geopolitical trades or broad macro baskets | May reflect short-term market commentary rather than durable Serenity framework changes. | Repeated posts plus a reusable supply-chain or physical-bottleneck rule, not just a one-off trade view. |
+| Any post-level performance or follower milestone after 2026-05-31 | Not essential to the investment framework and difficult to verify cleanly. | Only update `achievements_and_sources.md` if there is a stable public milestone with a clear reliability label. |
+
+## Integration Status
+
+Integrated on 2026-06-12:
+
+- `SKILL.md`: added compact guardrails for reference-design evidence, optics vocabulary, constructive versus toxic dilution, volatility invalidation, and listing/investor-base catalysts.
+- `source_notes.md`: updated evidence snapshot date and added June 2026 search-index source notes.
+- `serenity_framework.md`: added evidence-tier changes, private-company validation nodes, chain vocabulary, financing quality, listing venue, policy-backed sovereignty nodes, volatility versus invalidation,
 ...TRUNCATED...
 ```
 

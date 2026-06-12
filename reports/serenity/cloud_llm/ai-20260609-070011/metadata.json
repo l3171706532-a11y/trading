@@ -1,0 +1,1324 @@
+{
+  "args": {
+    "limit_themes": 1,
+    "max_briefs": 8,
+    "max_candidates": 60,
+    "max_candidates_per_node": 15,
+    "max_deep_reports": 3,
+    "max_layer1_nodes": 6,
+    "theme_id": [
+      "ai"
+    ],
+    "themes": "config/serenity_themes.csv",
+    "universe": "config/us_serenity_pilot_universe.csv"
+  },
+  "external_search": {
+    "enabled": true,
+    "error_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_errors.jsonl",
+    "evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+    "max_queries": 5,
+    "max_results_per_query": 4,
+    "twitter_enabled": true
+  },
+  "layer1a": {
+    "coverage_gaps": [
+      "Layer 1A has not verified company-level revenue exposure, backlog, customer concentration, or segment materiality for any underfollowed candidate.",
+      "Need primary-source validation from 10-K/20-F/annual reports, investor presentations, earnings call transcripts, exchange filings, customer announcements, import/export data, and permitting records.",
+      "Need market-pricing check: analyst coverage count, market cap, valuation, short interest, estimate revisions, and whether the supposed hidden layer is already crowded.",
+      "Need to separate factual bottlenecks from newsletter claims; several provided sources are thematic articles and should be treated as lead-generation evidence rather than final proof.",
+      "Need geographic coverage expansion beyond US-listed names into Japan, Taiwan, Korea, Europe, and Canada, where many specialty materials, substrate, optical, and power-infrastructure suppliers are listed.",
+      "Need falsification criteria for each node: easing lead times, new supplier qualification, falling gross margins, lack of AI segment disclosure, customer insourcing, capex slowdown, or regulatory/permitting delays."
+    ],
+    "evidence": [
+      {
+        "claim": "The provided Serenity methodology says theme research should start from demand, supply-chain layers, bottlenecks, evidence, and falsification rather than from a single ticker.",
+        "claim_type": "fact",
+        "confidence": 0.95,
+        "published_at": "2026-06-09",
+        "source_title": "Serenity.skill repository methodology digest provided in prompt",
+        "source_url": "https://github.com/muxuuu/serenity-skill",
+        "ticker": ""
+      },
+      {
+        "claim": "The HBM search context distinguishes two production flows for AI accelerators: the HBM stack itself and the package substrate that carries logic die and HBM stacks together.",
+        "claim_type": "fact",
+        "confidence": 0.86,
+        "published_at": "2026-06-03T13:01:07.000Z",
+        "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+        "source_url": "https://outperformers.co/p/tss3",
+        "ticker": ""
+      },
+      {
+        "claim": "The HBM search context states that the FC-BGA substrate node is constrained by yield rather than throughput and identifies insulating film and copper bonding chemistry as key sublayers.",
+        "claim_type": "fact",
+        "confidence": 0.84,
+        "published_at": "2026-06-03T13:01:07.000Z",
+        "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+        "source_url": "https://outperformers.co/p/tss3",
+        "ticker": ""
+      },
+      {
+        "claim": "The optical-infrastructure search context claims that optical connections inside AI GPU clusters depend on specialist compound substrates and that major transceiver supplier qualification can take up to 24 months.",
+        "claim_type": "fact",
+        "confidence": 0.72,
+        "published_at": "2026-05-08T15:27:38.000Z",
+        "source_title": "THE FORTY-YEAR EDGE THAT AI CANNOT FUNCTION WITHOUT",
+        "source_url": "https://wsissener.substack.com/p/the-forty-year-edge-that-ai-cannot",
+        "ticker": ""
+      },
+      {
+        "claim": "The optical-infrastructure search context claims the global commercial-grade supplier base for next-generation AI optical infrastructure substrates is fewer than six companies worldwide.",
+        "claim_type": "fact",
+        "confidence": 0.68,
+        "published_at": "2026-05-08T15:27:38.000Z",
+        "source_title": "THE FORTY-YEAR EDGE THAT AI CANNOT FUNCTION WITHOUT",
+        "source_url": "https://wsissener.substack.com/p/the-forty-year-edge-that-ai-cannot",
+        "ticker": ""
+      },
+      {
+        "claim": "The Astera Labs search context says the company supplies AI connectivity products including PCIe retimers, AI fabric switch products, and active electrical cable modules.",
+        "claim_type": "fact",
+        "confidence": 0.78,
+        "published_at": "2026-03-20T12:30:00.000Z",
+        "source_title": "Astera Labs: What a 224% Bull Case Looks Like",
+        "source_url": "https://www.tikr.com/blog/astera-labs-what-a-224-bull-case-looks-like",
+        "ticker": "ALAB"
+      },
+      {
+        "claim": "The Astera Labs search context states that the company disclosed an Amazon warrant agreement tied to up to $6.5 billion in cumulative product purchases through 2033.",
+        "claim_type": "fact",
+        "confidence": 0.76,
+        "published_at": "2026-03-20T12:30:00.000Z",
+        "source_title": "Astera Labs: What a 224% Bull Case Looks Like",
+        "source_url": "https://www.tikr.com/blog/astera-labs-what-a-224-bull-case-looks-like",
+        "ticker": "ALAB"
+      },
+      {
+        "claim": "The BreakyNow search context presents Materion as a specialty materials supplier tied to semiconductor manufacturing and AI infrastructure demand.",
+        "claim_type": "fact",
+        "confidence": 0.66,
+        "published_at": "2026-03-03T12:35:37.000Z",
+        "source_title": "2026's Hidden Compounders: MTRN, JCI, and ENB Are Quietly Building the Infrastructure AI Can't Run Without",
+        "source_url": "https://breakynow.com/blog/2026-03-03-hidden-compounders-mtrn-jci-and-enb-ai-infrastructure",
+        "ticker": "MTRN"
+      },
+      {
+        "claim": "The BreakyNow search context identifies Johnson Controls as part of the thermal backbone for AI data centers and links chiller systems to GPU heat removal.",
+        "claim_type": "fact",
+        "confidence": 0.66,
+        "published_at": "2026-03-03T12:35:37.000Z",
+        "source_title": "2026's Hidden Compounders: MTRN, JCI, and ENB Are Quietly Building the Infrastructure AI Can't Run Without",
+        "source_url": "https://breakynow.com/blog/2026-03-03-hidden-compounders-mtrn-jci-and-enb-ai-infrastructure",
+        "ticker": "JCI"
+      },
+      {
+        "claim": "The BreakyNow search context frames Enbridge as an energy-delivery beneficiary of AI infrastructure power demand.",
+        "claim_type": "fact",
+        "confidence": 0.64,
+        "published_at": "2026-03-03T12:35:37.000Z",
+        "source_title": "2026's Hidden Compounders: MTRN, JCI, and ENB Are Quietly Building the Infrastructure AI Can't Run Without",
+        "source_url": "https://breakynow.com/blog/2026-03-03-hidden-compounders-mtrn-jci-and-enb-ai-infrastructure",
+        "ticker": "ENB"
+      }
+    ],
+    "layer": "1A",
+    "memory_update": [
+      {
+        "confidence": 0.88,
+        "text": "AI infrastructure should be tracked as a capacity-chain theme spanning compute, HBM, advanced packaging, networking, thermal, power, grid, energy, and software/data adoption rather than as a single GPU theme.",
+        "type": "theme_relation"
+      },
+      {
+        "confidence": 0.86,
+        "text": "HBM stack process tools and FC-BGA substrate materials are separate nodes; conflating them can produce false direct-HBM exposure assumptions.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.73,
+        "text": "Optical compound substrates for 800G/1.6T and co-packaged optics are a promising underfollowed discovery lane because the provided context points to long qualification cycles and a limited supplier base.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.78,
+        "text": "AI cluster connectivity semiconductors, including retimers, active electrical cables, CXL/PCIe connectivity, and fabric switching, should be treated as a distinct node between accelerators and networking systems.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.81,
+        "text": "Thermal management and liquid cooling should be decomposed into chillers, CDUs, heat exchangers, pumps, valves, sensors, controls, commissioning, and services rather than only obvious infrastructure leaders.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.83,
+        "text": "Power, grid, and energy delivery are second-order AI beneficiaries; prioritize executable electrical equipment and grid-service bottlenecks before longer-dated speculative SMR narratives.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.92,
+        "text": "Next layer must verify company-level exposure with filings, revenue segmentation, customer evidence, backlog, analyst coverage, valuation, and falsification triggers before any candidate ranking.",
+        "type": "coverage_gap"
+      }
+    ],
+    "summary": "AI should be decomposed less as a single software or GPU theme and more as a multi-layer capacity expansion problem: accelerator compute, HBM/advanced packaging, high-speed optical and electrical connectivity, thermal management, power delivery, grid/energy availability, and workflow/data software adoption. The highest-quality Layer 1A funnel should use mega-cap leaders only as demand reference points, while deliberately searching one or two layers beneath them for small/mid-cap suppliers exposed to qualification cycles, yield constraints, specialty materials, facility infrastructure, and hidden customer dependencies. This is research support only, not a trading recommendation.",
+    "supply_chain_nodes": [
+      {
+        "bottleneck_hypothesis": "The scarce layer may not be the DRAM producer alone but the process chain beneath HBM: die thinning, TSV/interconnect formation, bonding, gap fill, inspection, and packaging yield management. Suppliers with narrow exposure to these steps could benefit from HBM volume growth while receiving less attention than HBM producers.",
+        "claim_type": "hypothesis",
+        "confidence": 0.77,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Prioritize USD 300M-10B niche equipment/materials names; allow larger Japanese/Taiwanese suppliers if exposure is highly specific; exclude mega-cap memory producers from this lane except as customer/demand references.",
+        "node": "HBM stack flow and advanced packaging process tools",
+        "node_id": "hbm_stack_and_advanced_packaging_process",
+        "public_asset_hunting_notes": "Search globally across Japan, Korea, Taiwan, Europe, and the US for public equipment, materials, metrology, bonding, and consumables companies whose filings mention HBM, TSV, wafer thinning, hybrid bonding, underfill, or advanced packaging but are not primarily labeled as AI stocks.",
+        "role": "capacity",
+        "search_queries": [
+          "HBM die thinning bonding TSV underfill inspection public supplier small cap",
+          "HBM advanced packaging process equipment supplier low analyst coverage",
+          "wafer thinning HBM stack bonding material public company",
+          "AI accelerator HBM stack supplier one layer beneath producers"
+        ],
+        "underfollowed_angle": "The provided HBM search context says the market has identified many obvious HBM producers, so the discovery edge is one layer beneath them in process tools, consumables, yield-improvement materials, and suppliers with thinner analyst coverage.",
+        "why_it_matters": "AI accelerators require high-bandwidth memory and advanced packaging; the provided search context distinguishes HBM stack production from substrate packaging and says direct HBM stack suppliers have cleaner exposure to HBM unit growth."
+      },
+      {
+        "bottleneck_hypothesis": "Yield-critical substrate materials and surface chemistry could capture value regardless of which accelerator or substrate assembler wins, because they sit below multiple AI accelerator programs and may be difficult to qualify or substitute.",
+        "claim_type": "hypothesis",
+        "confidence": 0.8,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Prefer small/mid-cap specialty chemical, substrate, and inspection companies in Japan, Taiwan, and Korea; treat large conglomerates as harder-to-underwrite unless AI substrate exposure is broken out or material to segment growth.",
+        "node": "FC-BGA package substrate materials, insulating film, and copper adhesion chemistry",
+        "node_id": "fc_bga_substrate_materials_and_chemistry",
+        "public_asset_hunting_notes": "Map substrate makers, build-up film suppliers, copper adhesion chemistry suppliers, laminates, surface treatment materials, and process-control vendors. Separate HBM-stack exposure from package-substrate exposure to avoid false direct-HBM proxies.",
+        "role": "input",
+        "search_queries": [
+          "FC-BGA substrate yield bottleneck insulating film copper adhesion supplier",
+          "Ajinomoto build-up film AI accelerator substrate public competitors",
+          "MEC copper adhesion chemistry FC-BGA AI package supplier",
+          "AI accelerator package substrate material small mid cap public company"
+        ],
+        "underfollowed_angle": "Search context specifically flags Ajinomoto and MEC Company as dominant in insulating film and copper bonding chemistry, but notes that obvious substrate makers are already well-known; therefore Layer 1A should look for adjacent public suppliers, regional second-source candidates, and yield-enabling chemistry or inspection names.",
+        "why_it_matters": "The provided HBM supply-chain article states that the substrate node builds the FC-BGA package for logic die and HBM stacks, and that the binding constraint is yield rather than throughput."
+      },
+      {
+        "bottleneck_hypothesis": "As AI clusters scale from 800G to 1.6T and toward co-packaged optics, qualified compound substrate suppliers may become a hidden chokepoint because commercial-grade qualification cycles can be long and the supplier base may be very small.",
+        "claim_type": "hypothesis",
+        "confidence": 0.74,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Prioritize USD 300M-10B specialty materials and optical component suppliers with disclosed data-center, transceiver, or photonics exposure; include micro-caps only as speculative_shadow if revenue concentration, dilution, or customer evidence is weak.",
+        "node": "Compound substrates and precision materials for 800G/1.6T optical transceivers and co-packaged optics",
+        "node_id": "optical_compound_substrates_for_ai_networking",
+        "public_asset_hunting_notes": "Search for public suppliers of indium phosphide, gallium arsenide, lithium niobate, silicon photonics substrates, epiwafers, optical laser materials, transceiver components, and test/qualification services. Verify whether AI exposure is direct, through transceiver customers, or only a loose optical-cycle proxy.",
+        "role": "input",
+        "search_queries": [
+          "800G 1.6T optical transceiver compound substrate supplier public company",
+          "co-packaged optics substrate qualification cycle public company low analyst coverage",
+          "AI data center optical laser substrate supplier small cap",
+          "indium phosphide gallium arsenide substrate AI transceiver public company"
+        ],
+        "underfollowed_angle": "The provided source claims only five sell-side analysts cover the highlighted company and that the commercial-grade supplier base for next-generation optical infrastructure is fewer than six companies worldwide. This makes the node suitable for low-coverage discovery, but every company-level claim needs later source verification from filings and customer evidence.",
+        "why_it_matters": "The provided optical-infrastructure search context claims that AI GPU clusters rely on optical communication links and that a specialist compound substrate sits at the foundation of laser connections."
+      },
+      {
+        "bottleneck_hypothesis": "The market may over-focus on GPUs and Ethernet switch leaders while underpricing specialized connectivity silicon that solves signal integrity, scale-up, and protocol bottlenecks inside AI servers and clusters.",
+        "claim_type": "hypothesis",
+        "confidence": 0.72,
+        "discovery_lane": "reference",
+        "market_cap_hunting_notes": "Reference names may exceed the preferred small/mid-cap band; for discovery, search USD 300M-10B semiconductor, cable, connector, and test names with customer concentration to hyperscalers, switch OEMs, or accelerator platforms.",
+        "node": "Retimers, active electrical cables, CXL/PCIe connectivity, and AI fabric switching",
+        "node_id": "ai_cluster_connectivity_semiconductors",
+        "public_asset_hunting_notes": "Map public suppliers of retimers, linear redrivers, active copper/electrical cables, CXL controllers, UALink-related switching, SerDes IP, optical engines, and testing equipment. Distinguish pure AI connectivity growth from general server-cycle recovery.",
+        "role": "infrastructure",
+        "search_queries": [
+          "AI server retimer active electrical cable supplier public company",
+          "CXL PCIe retimer AI accelerator connectivity small cap",
+          "UALink AI fabric switch supplier public company",
+          "AI data center signal integrity semiconductor supplier underfollowed"
+        ],
+        "underfollowed_angle": "This node may be less obscure after Astera Labs became visible, so it should serve as a bridge node: use known leaders as reference, then search for smaller component, IP, connector, cable, and test suppliers with AI-server attach-rate leverage.",
+        "why_it_matters": "Large AI systems require high-speed data movement between accelerators, CPUs, memory, storage, and switches; the provided Astera Labs search context describes products including PCIe retimers, active electrical cable modules, and AI fabric switching for data-center AI connectivity."
+      },
+      {
+        "bottleneck_hypothesis": "Cooling may become a second-order beneficiary where the highest-quality opportunities are not only branded data-center infrastructure leaders but also component suppliers and integrators embedded in liquid-cooling bill-of-materials and service contracts.",
+        "claim_type": "hypothesis",
+        "confidence": 0.76,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Prioritize USD 300M-10B industrial component and thermal-management suppliers; include USD 10B-30B names if they have unusually pure data-center backlog or liquid-cooling exposure.",
+        "node": "Data-center thermal management, liquid cooling, chillers, CDUs, heat exchangers, pumps, valves, and controls",
+        "node_id": "thermal_management_and_liquid_cooling",
+        "public_asset_hunting_notes": "Search beyond Vertiv and Johnson Controls into chillers, CDU suppliers, heat exchangers, immersion-cooling components, pumps, valves, sensors, coolant materials, control software, commissioning, and maintenance providers. Verify exposure through backlog, hyperscaler customers, data-center segment disclosures, or capex commentary.",
+        "role": "infrastructure",
+        "search_queries": [
+          "AI data center liquid cooling CDU public company small mid cap",
+          "data center chiller heat exchanger supplier AI GPU public company",
+          "AI rack density cooling pumps valves sensors supplier",
+          "underfollowed thermal management supplier hyperscale data center"
+        ],
+        "underfollowed_angle": "Many cooling suppliers are categorized as industrial HVAC, flow control, building controls, or mechanical components, which may hide direct AI data-center leverage and reduce AI-focused analyst attention.",
+        "why_it_matters": "AI data centers require industrial-grade cooling as rack power density rises. The provided BreakyNow context identifies thermal management as part of the infrastructure AI cannot run without and highlights chiller systems for removing heat from GPU-heavy data centers."
+      },
+      {
+        "bottleneck_hypothesis": "Power availability, grid interconnection, transformer/switchgear lead times, and reliable energy delivery may become more binding than compute supply for some AI campuses, creating second-order beneficiaries outside standard technology sector screens.",
+        "claim_type": "hypothesis",
+        "confidence": 0.78,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Search USD 300M-10B electrical equipment, specialty EPC, testing, commissioning, and power infrastructure names first; treat regulated utilities and large energy companies as lower-beta reference assets unless a data-center power dependency is unusually concentrated.",
+        "node": "Electrical balance-of-plant, grid services, gas infrastructure, nuclear fuel/components, and power delivery for AI campuses",
+        "node_id": "power_grid_and_energy_delivery",
+        "public_asset_hunting_notes": "Map AI-campus dependencies from utility interconnection filings, data-center site announcements, PPA disclosures, gas pipeline capacity, substation contractors, transformer OEMs, nuclear fuel cycle suppliers, EPC contractors, and grid-service providers. Separate near-term executable grid/power equipment from longer-dated speculative nuclear or SMR exposure.",
+        "role": "infrastructure",
+        "search_queries": [
+          "AI data center power bottleneck transformer switchgear supplier small cap",
+          "data center grid interconnection services public company AI",
+          "AI campus gas pipeline power delivery public company underfollowed",
+          "nuclear fuel components data center power AI supplier public company",
+          "electrical balance of plant hyperscale data center public supplier"
+        ],
+        "underfollowed_angle": "AI exposure may be hidden in utilities, engineering, natural gas pipelines, electrical distributors, transformer suppliers, and grid contractors rather than explicit AI revenue lines. These names may benefit from data-center load growth without being included in AI software or semiconductor screens.",
+        "why_it_matters": "AI data centers consume large and growing amounts of power, creating demand for switchgear, transformers, substations, interconnection services, generation, gas delivery, nuclear components, and fuel. The pilot universe already includes power and energy reference names such as Vertiv, Eaton, Constellation Energy, NuScale, BWX Technologies, Centrus Energy, Cameco, Fluor, GE Vernova, Quanta Services, NextEra, and Enbridge from external context."
+      }
+    ],
+    "theme_id": "ai_infrastructure_hidden_bottlenecks_2026_l1a",
+    "theme_map": {
+      "demand_drivers": [
+        "Hyperscaler AI training and inference clusters driving demand for accelerators, HBM, high-speed networking, advanced packaging, data-center power, and cooling.",
+        "Shift from GPU-only narratives toward full AI factory constraints: memory bandwidth, package substrate yield, optical/electrical interconnect, liquid cooling, and power availability.",
+        "Enterprise and government AI adoption increasing demand for secure data platforms, automation software, and model deployment infrastructure.",
+        "Data-center power intensity creating second-order demand for electrical equipment, grid services, gas infrastructure, nuclear fuel/components, and thermal systems.",
+        "Transition toward 800G/1.6T optical links, co-packaged optics, retimers, active electrical cables, and scale-up fabrics as AI clusters become larger and more bandwidth-constrained."
+      ],
+      "discovery_lanes": {
+        "low_attention_search_queries": [
+          "AI data center underfollowed supplier advanced packaging HBM substrate chemistry public company",
+          "800G 1.6T optical transceiver compound substrate supplier public low analyst coverage",
+          "AI data center retimer active electrical cable CXL PCIe small cap supplier",
+          "liquid cooling CDU pumps valves heat exchanger AI data center public company supplier",
+          "AI data center electrical balance of plant switchgear transformer small mid cap supplier",
+          "HBM wafer thinning bonding inspection equipment supplier public company",
+          "AI infrastructure hidden supplier qualification cycle two years optical substrate",
+          "FC-BGA Ajinomoto build-up film copper adhesion chemistry public market supplier",
+          "data center power interconnection queue grid services underfollowed public company",
+          "AI automation software vertical data platform small mid cap low analyst coverage"
+        ],
+        "reference_leaders": [
+          "NVIDIA",
+          "Advanced Micro Devices",
+          "Broadcom",
+          "Taiwan Semiconductor Manufacturing",
+          "ASML Holding",
+          "Arista Networks",
+          "Vertiv",
+          "Eaton",
+          "Constellation Energy",
+          "Amazon",
+          "Microsoft",
+          "Alphabet",
+          "Meta Platforms"
+        ],
+        "underfollowed_supply_chain": [
+          "HBM stack equipment, wafer thinning, bonding, inspection, and advanced packaging process suppliers",
+          "FC-BGA substrate materials, insulating films, copper adhesion chemistry, and yield-critical substrate makers",
+          "Compound substrates and precision materials for 800G, 1.6T, silicon photonics, optical transceivers, and co-packaged optics",
+          "PCIe/CXL retimers, active electrical cable modules, AI fabric switches, and other non-obvious connectivity semiconductors",
+          "Liquid cooling, chillers, heat exchangers, CDU components, pumps, valves, sensors, and data-center thermal integration",
+          "Electrical balance-of-plant, switchgear, transformers, substations, grid services, gas infrastructure, nuclear fuel/components, and EPC services"
+        ]
+      },
+      "public_market_search_strategy": "Run a two-lane funnel. Lane 1 uses reference leaders such as NVIDIA, AMD, Broadcom, TSMC, ASML, Arista, Microsoft, Amazon, Alphabet, Meta, Vertiv, Eaton, Constellation, and GE Vernova to confirm where AI capex is flowing. Lane 2 searches one or two layers below those leaders for less obvious public suppliers in specialty materials, package substrate chemistry, HBM process tools, optical compound substrates, retimers, active cables, liquid cooling components, electrical balance-of-plant, commissioning, testing, and regulated energy infrastructure. Prefer companies with USD 300M-10B market caps when plausible, USD 10B-30B only if exposure is unusually pure, and micro-caps only as speculative exceptions. Do not rank securities in Layer 1A; instead, define nodes, evidence needs, and falsification paths.",
+      "supply_side_constraints": [
+        "HBM and advanced packaging capacity remain structurally tight in the provided 2026 search context, with downstream exposure split between HBM stack flow and package substrate flow.",
+        "FC-BGA and advanced substrate bottlenecks are more about yield, chemistry, and qualified materials than simple nameplate throughput.",
+        "Optical transceiver substrate and compound material suppliers may face long qualification cycles, limited commercial-grade supplier counts, and delayed entrant qualification.",
+        "Data-center cooling and power equipment face project lead-time, component availability, and integration constraints as rack densities rise.",
+        "Grid interconnection, power generation, gas pipeline access, nuclear licensing/fuel availability, and utility permitting may become binding constraints for AI campus growth.",
+        "Underfollowed public companies may be hidden because their AI exposure is buried in industrial, materials, specialty chemical, thermal, connector, testing, or infrastructure labels rather than AI labels."
+      ]
+    }
+  },
+  "metas": [
+    {
+      "created_at": "2026-06-09 07:02:56 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 15,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_05411f0abecf463c016a27ba309000819ba1ae032836767f3d",
+      "status": "completed",
+      "step": "layer1a_theme_map",
+      "usage": {
+        "input_tokens": 11185,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5852,
+        "output_tokens_details": {
+          "reasoning_tokens": 64
+        },
+        "total_tokens": 17037
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:04:56 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_09306fbed2584e35016a27babc5ce4819ba5878028df8df324",
+      "status": "completed",
+      "step": "layer1b_node_hbm_stack_and_advanced_packaging_process_direct_exposure",
+      "usage": {
+        "input_tokens": 24868,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4295,
+        "output_tokens_details": {
+          "reasoning_tokens": 691
+        },
+        "total_tokens": 29163
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:07:05 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_08e998d271f2dc44016a27bb24ad64819984dedd4b1dc0f029",
+      "status": "completed",
+      "step": "layer1b_node_hbm_stack_and_advanced_packaging_process_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 23570,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4673,
+        "output_tokens_details": {
+          "reasoning_tokens": 809
+        },
+        "total_tokens": 28243
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:08:52 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0b107c13ef6bbff7016a27bba6b804819a86b000c45d3f2f12",
+      "status": "completed",
+      "step": "layer1b_node_hbm_stack_and_advanced_packaging_process_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 21190,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4314,
+        "output_tokens_details": {
+          "reasoning_tokens": 985
+        },
+        "total_tokens": 25504
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:10:35 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0f5de57e7d47db4b016a27bc10f1348198a471e572a97fcc99",
+      "status": "completed",
+      "step": "layer1b_node_hbm_stack_and_advanced_packaging_process_second_order_mapping",
+      "usage": {
+        "input_tokens": 24175,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3837,
+        "output_tokens_details": {
+          "reasoning_tokens": 1219
+        },
+        "total_tokens": 28012
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:13:02 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_03c3aebf193cb4e6016a27bc86b38881988f607eadc4ecb2b4",
+      "status": "completed",
+      "step": "layer1b_node_fc_bga_substrate_materials_and_chemistry_direct_exposure",
+      "usage": {
+        "input_tokens": 33800,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 4927,
+        "output_tokens_details": {
+          "reasoning_tokens": 1588
+        },
+        "total_tokens": 38727
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:14:54 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0573c47ef89a0a45016a27bd0a72c0819b8c839feb5bee5cf5",
+      "status": "completed",
+      "step": "layer1b_node_fc_bga_substrate_materials_and_chemistry_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 29748,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4689,
+        "output_tokens_details": {
+          "reasoning_tokens": 1201
+        },
+        "total_tokens": 34437
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:17:13 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_091f6cbff566b768016a27bd7a811c819a9348c327b402a5ae",
+      "status": "completed",
+      "step": "layer1b_node_fc_bga_substrate_materials_and_chemistry_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 34737,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4996,
+        "output_tokens_details": {
+          "reasoning_tokens": 1347
+        },
+        "total_tokens": 39733
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:18:44 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_039d32b6b629400b016a27be0589a88198a6eabdbfce8ab3ec",
+      "status": "completed",
+      "step": "layer1b_node_fc_bga_substrate_materials_and_chemistry_second_order_mapping",
+      "usage": {
+        "input_tokens": 17146,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 4019,
+        "output_tokens_details": {
+          "reasoning_tokens": 566
+        },
+        "total_tokens": 21165
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:20:39 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0c7a30998dfbbca2016a27be6ed998819ba4f42c77bfd9f1ef",
+      "status": "completed",
+      "step": "layer1b_node_optical_compound_substrates_for_ai_networking_direct_exposure",
+      "usage": {
+        "input_tokens": 24244,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4197,
+        "output_tokens_details": {
+          "reasoning_tokens": 1126
+        },
+        "total_tokens": 28441
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:22:24 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0888cc3a474ef9e5016a27bed53dd4819b9a681890aff70479",
+      "status": "completed",
+      "step": "layer1b_node_optical_compound_substrates_for_ai_networking_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 23092,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4622,
+        "output_tokens_details": {
+          "reasoning_tokens": 1067
+        },
+        "total_tokens": 27714
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:24:21 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_05d09c8490f25c25016a27bf3d3a68819bbc1fdba9361ca873",
+      "status": "completed",
+      "step": "layer1b_node_optical_compound_substrates_for_ai_networking_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 24684,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4587,
+        "output_tokens_details": {
+          "reasoning_tokens": 1336
+        },
+        "total_tokens": 29271
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:25:58 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_08eaba2c39110e59016a27bfb0f7fc81988c462dda4db7c15b",
+      "status": "completed",
+      "step": "layer1b_node_optical_compound_substrates_for_ai_networking_second_order_mapping",
+      "usage": {
+        "input_tokens": 16751,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3994,
+        "output_tokens_details": {
+          "reasoning_tokens": 1016
+        },
+        "total_tokens": 20745
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:27:57 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0a0ef680e9c95e56016a27c01f1128819998bd31201a719795",
+      "status": "completed",
+      "step": "layer1b_node_ai_cluster_connectivity_semiconductors_direct_exposure",
+      "usage": {
+        "input_tokens": 23622,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4747,
+        "output_tokens_details": {
+          "reasoning_tokens": 1012
+        },
+        "total_tokens": 28369
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:29:51 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_085bc986f6252d62016a27c088dbb48198bb6e55524b4976cb",
+      "status": "completed",
+      "step": "layer1b_node_ai_cluster_connectivity_semiconductors_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 17261,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4425,
+        "output_tokens_details": {
+          "reasoning_tokens": 903
+        },
+        "total_tokens": 21686
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:31:50 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0cd206d70546b746016a27c0fb29448198bbf09f5f79dbb621",
+      "status": "completed",
+      "step": "layer1b_node_ai_cluster_connectivity_semiconductors_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 30727,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4556,
+        "output_tokens_details": {
+          "reasoning_tokens": 1468
+        },
+        "total_tokens": 35283
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:34:00 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_086da4ff3369c2cb016a27c173fe6c819b98838e5990a30049",
+      "status": "completed",
+      "step": "layer1b_node_ai_cluster_connectivity_semiconductors_second_order_mapping",
+      "usage": {
+        "input_tokens": 24864,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4388,
+        "output_tokens_details": {
+          "reasoning_tokens": 1593
+        },
+        "total_tokens": 29252
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:36:28 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0f6f4a0c379bb170016a27c203bf54819894d22ec45c82f5f3",
+      "status": "completed",
+      "step": "layer1b_node_thermal_management_and_liquid_cooling_direct_exposure",
+      "usage": {
+        "input_tokens": 34475,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4378,
+        "output_tokens_details": {
+          "reasoning_tokens": 1139
+        },
+        "total_tokens": 38853
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:38:09 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0a75d0073a63d562016a27c288ea848194b54e99444e78b237",
+      "status": "completed",
+      "step": "layer1b_node_thermal_management_and_liquid_cooling_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 23497,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4032,
+        "output_tokens_details": {
+          "reasoning_tokens": 655
+        },
+        "total_tokens": 27529
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:40:11 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0d5c2c9e2f54d859016a27c2ec94548199a85589cca9b8be25",
+      "status": "completed",
+      "step": "layer1b_node_thermal_management_and_liquid_cooling_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 44203,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4880,
+        "output_tokens_details": {
+          "reasoning_tokens": 1521
+        },
+        "total_tokens": 49083
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:42:15 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0243cf4eacb9853f016a27c36b46448198b74780a336211fb0",
+      "status": "completed",
+      "step": "layer1b_node_thermal_management_and_liquid_cooling_second_order_mapping",
+      "usage": {
+        "input_tokens": 29991,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 4034,
+        "output_tokens_details": {
+          "reasoning_tokens": 899
+        },
+        "total_tokens": 34025
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:43:52 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 15,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0b7dae469689fbe2016a27c3e0e3788199ab006b74a95181e6",
+      "status": "completed",
+      "step": "layer1b_node_power_grid_and_energy_delivery_direct_exposure",
+      "usage": {
+        "input_tokens": 23629,
+        "input_tokens_details": {
+          "cached_tokens": 3712
+        },
+        "output_tokens": 4072,
+        "output_tokens_details": {
+          "reasoning_tokens": 762
+        },
+        "total_tokens": 27701
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:46:29 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 15,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0c23f60519d913a3016a27c441ba00819aabfb2ead4e53d63f",
+      "status": "completed",
+      "step": "layer1b_node_power_grid_and_energy_delivery_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 28034,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4596,
+        "output_tokens_details": {
+          "reasoning_tokens": 1387
+        },
+        "total_tokens": 32630
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:50:36 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 15,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_00837825d619395c016a27c4e058d4819b9655790068053fbf",
+      "status": "completed",
+      "step": "layer1b_node_power_grid_and_energy_delivery_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 48513,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4176,
+        "output_tokens_details": {
+          "reasoning_tokens": 1342
+        },
+        "total_tokens": 52689
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 07:56:30 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 15,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_074b1777a518b3b4016a27c61f8a1c819ba3befd12a7243ae2",
+      "status": "completed",
+      "step": "layer1b_node_power_grid_and_energy_delivery_second_order_mapping",
+      "usage": {
+        "input_tokens": 24599,
+        "input_tokens_details": {
+          "cached_tokens": 9856
+        },
+        "output_tokens": 4249,
+        "output_tokens_details": {
+          "reasoning_tokens": 918
+        },
+        "total_tokens": 28848
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 08:02:53 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_028cf0ae1acdd0d6016a27c75d8f64819095a546758e482478",
+      "status": "completed",
+      "step": "layer1c_merge_universe",
+      "usage": {
+        "input_tokens": 15829,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 8874,
+        "output_tokens_details": {
+          "reasoning_tokens": 481
+        },
+        "total_tokens": 24703
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 08:07:49 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_03fe285b5a9d1a42016a27c8d5d5b48194b7bae45a17f5c1b3",
+      "status": "completed",
+      "step": "layer2a_map",
+      "usage": {
+        "input_tokens": 13658,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 6699,
+        "output_tokens_details": {
+          "reasoning_tokens": 49
+        },
+        "total_tokens": 20357
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 08:11:02 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_04f7d2ffcbaa4d3b016a27c9e1d4b88198a4efffdc1d8e0511",
+      "status": "completed",
+      "step": "layer2b_relationships_01",
+      "usage": {
+        "input_tokens": 13973,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4775,
+        "output_tokens_details": {
+          "reasoning_tokens": 56
+        },
+        "total_tokens": 18748
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 08:12:42 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0a6431489a08f85f016a27caa2a78c819b92fb0bbebf909ee8",
+      "status": "completed",
+      "step": "layer2b_relationships_02",
+      "usage": {
+        "input_tokens": 12016,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 2168,
+        "output_tokens_details": {
+          "reasoning_tokens": 46
+        },
+        "total_tokens": 14184
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 08:16:16 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_05d240cf156219d6016a27cb14d55c81989164bf29798938ec",
+      "status": "completed",
+      "step": "layer3_ranking_01",
+      "usage": {
+        "input_tokens": 14533,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5023,
+        "output_tokens_details": {
+          "reasoning_tokens": 232
+        },
+        "total_tokens": 19556
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 08:19:31 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0e65f26c2522eac3016a27cc05294c8199ba7b2acdc6896208",
+      "status": "completed",
+      "step": "layer4_briefs_01",
+      "usage": {
+        "input_tokens": 10243,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3764,
+        "output_tokens_details": {
+          "reasoning_tokens": 47
+        },
+        "total_tokens": 14007
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 08:22:43 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_05c0bdd12ce10025016a27ccac02f08199b950b8493898fbc5",
+      "status": "completed",
+      "step": "layer4_briefs_02",
+      "usage": {
+        "input_tokens": 10231,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 4240,
+        "output_tokens_details": {
+          "reasoning_tokens": 79
+        },
+        "total_tokens": 14471
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 08:25:40 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0a9f68304aa77cbd016a27cd5ec9708198a094568fb971bf6c",
+      "status": "completed",
+      "step": "layer5_deep_report_01",
+      "usage": {
+        "input_tokens": 16434,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4542,
+        "output_tokens_details": {
+          "reasoning_tokens": 214
+        },
+        "total_tokens": 20976
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 08:29:13 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_053e22114b535936016a27ce10b790819aa00d8b258d82c2c9",
+      "status": "completed",
+      "step": "layer5_deep_report_02",
+      "usage": {
+        "input_tokens": 22400,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4577,
+        "output_tokens_details": {
+          "reasoning_tokens": 338
+        },
+        "total_tokens": 26977
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-09 08:31:48 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/ai-20260609-070011/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0a4766f5d3460167016a27cee895e881988b10cb6fa44f37da",
+      "status": "completed",
+      "step": "layer5_deep_report_03",
+      "usage": {
+        "input_tokens": 16231,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3765,
+        "output_tokens_details": {
+          "reasoning_tokens": 191
+        },
+        "total_tokens": 19996
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    }
+  ],
+  "theme": {
+    "name": "AI",
+    "query": "AI artificial intelligence cloud data center semiconductors software automation underfollowed small mid cap obscure suppliers second order beneficiaries hidden customer supplier dependency low analyst coverage",
+    "theme_id": "ai"
+  }
+}

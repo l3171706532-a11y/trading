@@ -1,0 +1,182 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "confidence": 0.91,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Quarterly disclosures or conference commentary on CoWoS capacity additions, HBM-stack support, tool bottlenecks, and customer allocation.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track TSMC annual reports, technology symposium disclosures, capex guidance, and supplier comments referencing CoWoS, SoIC, 3DFabric, HBM, and AI accelerator ramps.",
+      "node_relation": "Reference anchor and capacity owner for CoWoS/3DFabric advanced packaging used in AI/HPC systems with HBM integration.",
+      "sector_or_industry": "Foundry and advanced packaging",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference_anchor"
+      ],
+      "theme_relation": "AI accelerator production depends on leading-edge logic manufacturing plus advanced packaging capacity that can place logic and HBM in high-bandwidth packages.",
+      "ticker": "TSM",
+      "why_include": "TSMC is the obvious public-market anchor for this node: its CoWoS advanced-packaging service is explicitly positioned for HPC applications and to accommodate high-bandwidth memories.",
+      "why_underfollowed": "Not underfollowed; included only to anchor supplier mapping and demand pull-through for smaller equipment and inspection vendors."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Camtek Ltd.",
+      "confidence": 0.88,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether the recent HBM and OSAT orders convert into recurring tool-of-record positions, follow-on orders, gross-margin durability, and multi-customer adoption.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review 20-F, backlog/order commentary, customer concentration, product gross margins, and whether Hawk displaces incumbent inspection tools at HBM4/HBM5 ramps.",
+      "node_relation": "Inspection and metrology systems for HBM, chiplets, hybrid bonding, advanced packaging, and high-density micro-bump applications.",
+      "sector_or_industry": "Semiconductor inspection and metrology equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "qualification_gated",
+        "inspection_metrology"
+      ],
+      "theme_relation": "As HBM and 2.5D/3D AI packaging grow more complex, inspection and metrology throughput and defect sensitivity become yield-critical upstream constraints.",
+      "ticker": "CAMT",
+      "why_include": "Camtek has disclosed large HBM and AI-related orders, including Hawk inspection systems for a leading HBM manufacturer and a tier-1 OSAT/AI-related device customer.",
+      "why_underfollowed": "It is a niche non-US semiconductor capital-equipment name listed on Nasdaq, sitting one layer beneath HBM producers and OSAT/foundry capacity rather than being an obvious AI chip leader."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "FormFactor Inc.",
+      "confidence": 0.84,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "HBM-specific revenue mix, DRAM probe-card growth, customer concentration, and whether higher-speed HBM4/HBM5 requirements force tool upgrades.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-K/10-Q and earnings transcripts for DRAM probe-card revenue, HBM revenue growth, capacity constraints, lead times, and memory customer design wins.",
+      "node_relation": "Probe-card and wafer-level test supplier for HBM known-good-die and advanced-packaging test flows.",
+      "sector_or_industry": "Semiconductor probe cards and wafer-level test",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "test",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM stack yields and advanced-packaging economics depend on early die and stack testing; probe-card performance and parallelism can become a hidden throughput/yield lever.",
+      "ticker": "FORM",
+      "why_include": "FormFactor explicitly markets probe solutions for known-good-die testing in HBM and advanced packaging, including HBM wafer and stack die test challenges.",
+      "why_underfollowed": "The company is usually categorized as semiconductor test/probe infrastructure rather than as a direct AI or HBM beneficiary, making the exposure less obvious than memory producers or GPU vendors."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "inference",
+      "company": "Kulicke & Soffa Industries",
+      "confidence": 0.74,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Direct HBM exposure is less explicit than Camtek or FormFactor; verify whether KLIC tools are qualified in HBM stack, interposer, hybrid-bonding, or CoWoS-adjacent process steps.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review customer/order disclosures, TCB revenue trajectory, advanced-packaging backlog, supply-chain limitation comments, and any named foundry/IDM/OSAT evaluations.",
+      "node_relation": "Thermocompression bonding and advanced-packaging equipment supplier for heterogeneous integration, chiplets, CPO, high-performance compute, and potentially HBM-related multi-die assembly flows.",
+      "sector_or_industry": "Semiconductor assembly and advanced-packaging equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "equipment",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerators and HBM-heavy packages require precise bonding and heterogeneous integration; bonding-tool capacity or qualification may become a second-order packaging bottleneck.",
+      "ticker": "KLIC",
+      "why_include": "K&S disclosed multiple thermocompression-bonding orders for advanced-packaging applications and stated that heterogeneous applications include high-bandwidth memory, GPU/CPU/TPU, and other multi-die systems.",
+      "why_underfollowed": "It is a smaller assembly-equipment vendor with mixed end-market labels; investors may treat it as cyclical semiconductor equipment rather than as a narrow AI advanced-packaging enabler."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "TSMC describes CoWoS as a proprietary advanced-packaging service for HPC applications and states that the CoWoS portfolio will expand to accommodate more advanced nodes and high-bandwidth memories.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "",
+      "source_title": "TSMC 3DFabric for High-Performance Computing",
+      "source_url": "https://www.tsmc.com/japanese/dedicatedFoundry/technology/platform_HPC_tech_WLSI",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Camtek announced over $105 million of multi-system orders from a tier-1 OSAT and a leading HBM manufacturer, citing 2.5D/3D AI devices and HBM manufacturing requirements.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-02",
+      "source_title": "Camtek Receives Over $105 Million Multi-System Orders from a Tier-1 OSAT and a Leading HBM Manufacturer",
+      "source_url": "https://www.camtek.com/news-and-events/camtek-receives-over-105-million-multi-system-orders-from-a-tier-1-osat-and-a-leading-hbm-manufacturer/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Camtek announced $45 million of aggregate Hawk orders from a tier-1 IDM for AI applications; the Hawk platform is designed for advanced packaging applications including HBM, chiplets, and hybrid bonding.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-02-10",
+      "source_title": "Camtek Receives Multiple Hawk Systems Order of Approximately $25 Million from an IDM for AI Applications",
+      "source_url": "https://www.camtek.com/news-and-events/camtek-receives-multiple-hawk-systems-order-of-approximately-25-million-from-an-idm-for-ai-applications/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "FormFactor says its probe solutions support known-good-die testing for HBM and advanced packaging, and that HBM demand increases KGSD test demand.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2024-03-14",
+      "source_title": "How FormFactor’s Known Good Die Test Enables Advanced Packaging for High Bandwidth Memory",
+      "source_url": "https://www.formfactor.com/blog/2024/known-good-die-test-enables-advanced-packaging-high-bandwidth-memory/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Kulicke & Soffa announced multiple thermocompression-bonding orders for advanced-packaging applications and stated that AI-driven heterogeneous applications include HBM and enterprise logic such as GPU, CPU, and TPU.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2023-11-15",
+      "source_title": "Kulicke & Soffa Announces Multiple Advanced Packaging Orders Supporting Long-Term AI Opportunities",
+      "source_url": "https://investor.kns.com/2023-11-15-Kulicke-Soffa-Announces-Multiple-Advanced-Packaging-Orders-Supporting-Long-Term-AI-Opportunities?asPDF=1",
+      "ticker": "KLIC"
+    },
+    {
+      "claim": "Provided search context states that the HBM producers are broadly priced and that the research edge may lie one layer beneath them in sub-$50B suppliers with thin analyst coverage, while warning that much of this layer may already be identified.",
+      "claim_type": "hypothesis",
+      "confidence": 0.76,
+      "published_at": "2026-06-03",
+      "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+      "source_url": "https://outperformers.co/p/tss3",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.87,
+      "text": "CAMT should remain high in the underfollowed lane for HBM/advanced-packaging inspection because it has disclosed recent HBM and tier-1 OSAT AI-related orders; next layer should verify durability of orders, customer concentration, and margin impact.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "FORM is a plausible HBM test chokepoint candidate through probe cards and known-good-die test; prioritize verification of HBM-specific revenue mix and whether HBM4/HBM5 creates incremental probe-card upgrade cycles.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "KLIC is a narrower bonding-equipment hypothesis: strong fit to heterogeneous integration and TCB, but direct HBM process exposure needs more evidence before promotion beyond Layer 1.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Amkor, Onto Innovation, ASE, substrate suppliers, thermal-material vendors, precision chemical suppliers, and HBM producers remain important adjacent names, but were excluded due to the four-candidate cap and should be revisited in later passes.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "HBM and advanced-packaging upstream inputs",
+  "node_id": "hbm_advanced_packaging_inputs",
+  "summary": "Expanded the US-listed universe for the HBM and advanced-packaging upstream-input node using a two-lane funnel. TSM is included as the obvious reference anchor because CoWoS/3DFabric capacity is structurally tied to AI accelerator packaging and HBM integration. The discovery lane emphasizes narrower inspection, metrology, probe-card, and bonding-equipment suppliers where qualification cycles, tool-of-record status, throughput limits, and customer concentration may create chokepoints beneath the already well-known HBM producers.",
+  "theme_id": "ai"
+}

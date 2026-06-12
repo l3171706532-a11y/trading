@@ -1,0 +1,619 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "confidence": 0.91,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Quarterly disclosures or conference commentary on CoWoS capacity additions, HBM-stack support, tool bottlenecks, and customer allocation.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track TSMC annual reports, technology symposium disclosures, capex guidance, and supplier comments referencing CoWoS, SoIC, 3DFabric, HBM, and AI accelerator ramps.",
+      "node_relation": "Reference anchor and capacity owner for CoWoS/3DFabric advanced packaging used in AI/HPC systems with HBM integration.",
+      "sector_or_industry": "Foundry and advanced packaging",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference_anchor"
+      ],
+      "theme_relation": "AI accelerator production depends on leading-edge logic manufacturing plus advanced packaging capacity that can place logic and HBM in high-bandwidth packages.",
+      "ticker": "TSM",
+      "why_include": "TSMC is the obvious public-market anchor for this node: its CoWoS advanced-packaging service is explicitly positioned for HPC applications and to accommodate high-bandwidth memories. | Needed as the reference node for mapping which upstream suppliers benefit when CoWoS and other advanced-packaging capacity expands.",
+      "why_underfollowed": "Not underfollowed; included only to anchor supplier mapping and demand pull-through for smaller equipment and inspection vendors."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Camtek Ltd.",
+      "confidence": 0.88,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether the recent HBM and OSAT orders convert into recurring tool-of-record positions, follow-on orders, gross-margin durability, and multi-customer adoption.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review 20-F, backlog/order commentary, customer concentration, product gross margins, and whether Hawk displaces incumbent inspection tools at HBM4/HBM5 ramps.",
+      "node_relation": "Inspection and metrology systems for HBM, chiplets, hybrid bonding, advanced packaging, and high-density micro-bump applications.",
+      "sector_or_industry": "Semiconductor inspection and metrology equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "qualification_gated",
+        "inspection_metrology",
+        "inspection",
+        "metrology",
+        "evidence_needed"
+      ],
+      "theme_relation": "As HBM and 2.5D/3D AI packaging grow more complex, inspection and metrology throughput and defect sensitivity become yield-critical upstream constraints.",
+      "ticker": "CAMT",
+      "why_include": "Camtek has disclosed large HBM and AI-related orders, including Hawk inspection systems for a leading HBM manufacturer and a tier-1 OSAT/AI-related device customer. | Camtek’s investor materials identify it as a high-end inspection and metrology supplier serving advanced interconnect packaging and memory markets, with explicit references in third-party summaries to chiplets, HBM, and hybrid bonding applications. | Recent company evidence cites multi-system orders for AI-related advanced-packaging applications and explicitly names HBM, chiplets, hybrid bonding, and high micro-bump-count wafers as target use cases.",
+      "why_underfollowed": "It is a niche non-US semiconductor capital-equipment name listed on Nasdaq, sitting one layer beneath HBM producers and OSAT/foundry capacity rather than being an obvious AI chip leader."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "FormFactor",
+      "confidence": 0.86,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether HBM-related DRAM probe-card demand remains strong as HBM4/HBM4E stack counts and microbump pitch requirements tighten.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track DRAM probe-card revenue mix, Korea customer concentration, HBM-specific commentary, Advantest partnership economics, backlog, gross margin, and capacity expansion at probe-card facilities.",
+      "node_relation": "Wafer-level probe-card supplier for DRAM, HBM, advanced packaging, known-good-die, and post-stack verification test flows.",
+      "sector_or_industry": "Semiconductor wafer probe cards and test systems",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "test",
+        "evidence_needed",
+        "qualification_gated",
+        "test_probe"
+      ],
+      "theme_relation": "AI accelerators depend on HBM and advanced packages; higher stack counts, microbump density, and known-good-die requirements can increase probe complexity and spending.",
+      "ticker": "FORM",
+      "why_include": "FormFactor explicitly markets probe solutions for known-good-die testing in HBM and advanced packaging, including HBM wafer and stack die test challenges. | FormFactor explicitly discusses HBM test challenges, multi-temperature HBM testing, micro-bump probing, and advanced packaging scalability. This makes it a plausible direct chokepoint candidate in HBM test infrastructure rather than a generic AI semiconductor name. | Company materials and filings explicitly connect FormFactor probe-card capability to HBM and advanced-packaging test requirements, including densely packed bumps, TSV-based HBM stacks, and at-speed verification. | FormFactor product materials explicitly reference probe-card architectures for next-generation known-good-die memory and HBM stack testing, including fine-pitch interposer and micro-bump testing for advanced packages.",
+      "why_underfollowed": "It sits one layer below the better-known HBM producers and ATE leaders; the company is often categorized as semiconductor test equipment rather than as a direct AI/HBM chokepoint."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Onto Innovation",
+      "confidence": 0.84,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether announced Dragonfly/3Di commitments translate into sustained revenue, follow-on tools, and share gains rather than a one-time HBM4 ramp order.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify volume purchase agreements, named or inferable HBM customer concentration, advanced-packaging revenue growth, 2026 shipment cadence, and tool-of-record status across HBM manufacturers.",
+      "node_relation": "Inspection/metrology supplier for advanced packaging and HBM, including Dragonfly G5 and 3Di technologies for HBM4 ramp inspection and bump metrology.",
+      "sector_or_industry": "Semiconductor inspection, metrology, and process control",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "process_control",
+        "advanced_packaging",
+        "evidence_needed",
+        "inspection_metrology",
+        "underfollowed",
+        "metrology"
+      ],
+      "theme_relation": "As HBM and 2.5D/3D packaging complexity rises, defect inspection and metrology become gating steps for yield, customer qualification, and volume ramp.",
+      "ticker": "ONTO",
+      "why_include": "Onto’s 2026 investor materials and earnings-related disclosures reference advanced packaging, HBM, 2D inspection, 3D bump metrology, and Dragonfly platform qualifications, making it directly relevant to this node. | Onto announced that a leading HBM manufacturer completed evaluation and selected Dragonfly G5 for HBM4 ramp inspection, with double-digit system order commitments and shipments starting in Q2 2026. | External search evidence indicates a leading HBM manufacturer selected Onto's Dragonfly G5 for HBM4-related inspection, and Onto's own materials describe advanced-packaging inspection, 3D bump metrology, lithography, and analytics for AI/HPC packaging.",
+      "why_underfollowed": "Large enough to be known by semiconductor specialists, but still less mainstream than lithography, foundry, GPU, and memory leaders; its exposure is hidden inside process-control and metrology budgets."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Cohu",
+      "confidence": 0.8,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether Neon HBM inspection scales from low double-digit millions into a material share of revenue and whether contactors/thermal handlers gain attach with AI/HBM test cells.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track HBM revenue guidance, repeat orders, customer identity if disclosed, test-cell utilization, gross margin impact, software/data analytics attach, and whether HBM4 inspection wins broaden beyond one customer.",
+      "node_relation": "Back-end semiconductor test, thermal handling, contactors, and HBM inspection/metrology via Neon platform.",
+      "sector_or_industry": "Semiconductor test handlers, contactors, inspection and metrology systems",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "test_equipment",
+        "inspection_metrology",
+        "underfollowed"
+      ],
+      "theme_relation": "HBM and AI compute packages require precise inspection, metrology, thermal handling, and interface/contacting during test; small revenue bases can create high operating leverage if HBM-specific products scale.",
+      "ticker": "COHU",
+      "why_include": "Cohu disclosed additional Neon orders for HBM inspection/metrology from a leading US-based memory/data-storage customer and raised forecasted 2025 HBM revenue to $10-$11 million.",
+      "why_underfollowed": "Small/mid-cap test-equipment name with a historically cyclical profile; HBM exposure is still small in absolute revenue terms, making it easier for generalist AI screens to miss."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Amkor Technology",
+      "confidence": 0.78,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether 2026-2028 capex converts into high-utilization advanced-packaging revenue rather than lower-margin commodity assembly/test revenue.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-K/10-Q segment disclosures, customer concentration, Arizona advanced-packaging milestones, announced AI accelerator/customer wins, and capex allocation to high-density fan-out or 2.5D/3D packaging.",
+      "node_relation": "Advanced-packaging and test capacity provider; potential US-based bottleneck relief for advanced packages tied to AI accelerators and heterogeneous integration.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test; advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "advanced_packaging",
+        "capacity_expansion",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order AI beneficiary through packaging/test capacity needed to turn advanced wafers and memory stacks into usable AI compute packages.",
+      "ticker": "AMKR",
+      "why_include": "Amkor is a US-listed OSAT with explicit advanced-packaging expansion and record advanced-packaging/computing commentary; it is a useful context anchor for the packaging chokepoint even though it is no longer obscure.",
+      "why_underfollowed": "Not deeply underfollowed versus small caps, but still less central in AI discussions than NVIDIA, TSMC, SK hynix, Micron, or Broadcom; messy OSAT classification can obscure AI packaging leverage."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "inference",
+      "company": "Kulicke & Soffa Industries",
+      "confidence": 0.74,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Direct HBM exposure is less explicit than Camtek or FormFactor; verify whether KLIC tools are qualified in HBM stack, interposer, hybrid-bonding, or CoWoS-adjacent process steps.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review customer/order disclosures, TCB revenue trajectory, advanced-packaging backlog, supply-chain limitation comments, and any named foundry/IDM/OSAT evaluations.",
+      "node_relation": "Thermocompression bonding and advanced-packaging equipment supplier for heterogeneous integration, chiplets, CPO, high-performance compute, and potentially HBM-related multi-die assembly flows.",
+      "sector_or_industry": "Semiconductor assembly and advanced-packaging equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "equipment",
+        "evidence_needed",
+        "advanced_packaging"
+      ],
+      "theme_relation": "AI accelerators and HBM-heavy packages require precise bonding and heterogeneous integration; bonding-tool capacity or qualification may become a second-order packaging bottleneck.",
+      "ticker": "KLIC",
+      "why_include": "K&S disclosed multiple thermocompression-bonding orders for advanced-packaging applications and stated that heterogeneous applications include high-bandwidth memory, GPU/CPU/TPU, and other multi-die systems. | KLIC has announced multiple thermocompression bonding orders tied to advanced packaging and AI opportunities, and market summaries report management commentary on HBM-related system shipments. However, the precise durability and HBM purity of this exposure require verification.",
+      "why_underfollowed": "It is a smaller assembly-equipment vendor with mixed end-market labels; investors may treat it as cyclical semiconductor equipment rather than as a narrow AI advanced-packaging enabler."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "TSMC describes CoWoS as a proprietary advanced-packaging service for HPC applications and states that the CoWoS portfolio will expand to accommodate more advanced nodes and high-bandwidth memories.",
+      "claim_type": "fact",
+      "confidence": 0.91,
+      "published_at": "",
+      "source_title": "TSMC 3DFabric for High-Performance Computing",
+      "source_url": "https://www.tsmc.com/japanese/dedicatedFoundry/technology/platform_HPC_tech_WLSI",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Camtek announced over $105 million of multi-system orders from a tier-1 OSAT and a leading HBM manufacturer, citing 2.5D/3D AI devices and HBM manufacturing requirements.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-02",
+      "source_title": "Camtek Receives Over $105 Million Multi-System Orders from a Tier-1 OSAT and a Leading HBM Manufacturer",
+      "source_url": "https://www.camtek.com/news-and-events/camtek-receives-over-105-million-multi-system-orders-from-a-tier-1-osat-and-a-leading-hbm-manufacturer/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Camtek announced $45 million of aggregate Hawk orders from a tier-1 IDM for AI applications; the Hawk platform is designed for advanced packaging applications including HBM, chiplets, and hybrid bonding.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-02-10",
+      "source_title": "Camtek Receives Multiple Hawk Systems Order of Approximately $25 Million from an IDM for AI Applications",
+      "source_url": "https://www.camtek.com/news-and-events/camtek-receives-multiple-hawk-systems-order-of-approximately-25-million-from-an-idm-for-ai-applications/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "FormFactor says its probe solutions support known-good-die testing for HBM and advanced packaging, and that HBM demand increases KGSD test demand.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2024-03-14",
+      "source_title": "How FormFactor’s Known Good Die Test Enables Advanced Packaging for High Bandwidth Memory",
+      "source_url": "https://www.formfactor.com/blog/2024/known-good-die-test-enables-advanced-packaging-high-bandwidth-memory/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Kulicke & Soffa announced multiple thermocompression-bonding orders for advanced-packaging applications and stated that AI-driven heterogeneous applications include HBM and enterprise logic such as GPU, CPU, and TPU.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2023-11-15",
+      "source_title": "Kulicke & Soffa Announces Multiple Advanced Packaging Orders Supporting Long-Term AI Opportunities",
+      "source_url": "https://investor.kns.com/2023-11-15-Kulicke-Soffa-Announces-Multiple-Advanced-Packaging-Orders-Supporting-Long-Term-AI-Opportunities?asPDF=1",
+      "ticker": "KLIC"
+    },
+    {
+      "claim": "Provided search context states that the HBM producers are broadly priced and that the research edge may lie one layer beneath them in sub-$50B suppliers with thin analyst coverage, while warning that much of this layer may already be identified.",
+      "claim_type": "hypothesis",
+      "confidence": 0.76,
+      "published_at": "2026-06-03",
+      "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+      "source_url": "https://outperformers.co/p/tss3",
+      "ticker": ""
+    },
+    {
+      "claim": "External search context states that HBM producers are broadly covered and priced, while the research opportunity is one layer down in sub-$50B suppliers whose revenue depends on HBM and advanced packaging but whose analyst coverage is thinner.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06-03",
+      "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+      "source_url": "https://outperformers.co/p/tss3",
+      "ticker": ""
+    },
+    {
+      "claim": "FormFactor published SWTest 2026 materials referencing multi-temperature HBM testing, micro-bump probing, and advanced packaging scalability.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-06",
+      "source_title": "Driving the Future of Wafer Test: FormFactor at SWTest 2026",
+      "source_url": "https://www.formfactor.com/blog/2026/driving-the-future-of-wafer-test-formfactor-at-swtest-2026/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor’s market capitalization was reported around $9.10B in June 2026, placing it in the preferred mid-cap discovery range for this pass.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026-06",
+      "source_title": "FormFactor (FORM) Stock Price & Overview",
+      "source_url": "https://stockanalysis.com/stocks/form/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Camtek describes itself as a developer and manufacturer of high-end inspection and metrology equipment serving advanced interconnect packaging and memory markets.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-05",
+      "source_title": "Investors - Camtek",
+      "source_url": "https://www.camtek.com/investors/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Camtek’s market capitalization was reported around $7.56B in June 2026, keeping it within the preferred mid-cap discovery lane.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026-06",
+      "source_title": "Camtek (CAMT) Stock Price & Overview",
+      "source_url": "https://stockanalysis.com/stocks/camt/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Onto’s January 2026 investor update maps company strengths to advanced packaging and high-bandwidth memory, including 2D inspection, 3D metrology, OCD, integrated metrology, and films metrology.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-01",
+      "source_title": "Onto Innovation Investor Update January 2026",
+      "source_url": "https://s24.q4cdn.com/480160064/files/doc_presentations/2026/Jan/13/Onto-Innovation-Investor-Update_January-2026.pdf",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Onto’s market capitalization was reported around $12.6B as of June 8, 2026, making it larger than the preferred small/mid-cap range but still far below mega-cap AI reference names.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026-06-08",
+      "source_title": "Onto Innovation (ONTO) Market Cap & Net Worth",
+      "source_url": "https://stockanalysis.com/stocks/onto/market-cap/",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Kulicke & Soffa announced multiple thermocompression bonding orders supporting long-term AI opportunities and stated thermocompression revenue had grown rapidly since 2020.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026",
+      "source_title": "Kulicke & Soffa Announces Multiple Advanced Packaging Orders Supporting Long-Term AI Opportunities",
+      "source_url": "https://investor.kns.com/2023-11-15-Kulicke-Soffa-Announces-Multiple-Advanced-Packaging-Orders-Supporting-Long-Term-AI-Opportunities?asPDF=1",
+      "ticker": "KLIC"
+    },
+    {
+      "claim": "Kulicke & Soffa’s market capitalization was reported near $5.14B in June 2026, fitting the preferred mid-cap hunting range.",
+      "claim_type": "fact",
+      "confidence": 0.75,
+      "published_at": "2026-06",
+      "source_title": "Kulicke and Soffa Industries (KLIC) Stock Price & Overview",
+      "source_url": "https://stockanalysis.com/stocks/klic/",
+      "ticker": "KLIC"
+    },
+    {
+      "claim": "Amkor reported that 2025 was a pivotal year with record advanced-packaging and computing revenue.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-02-09",
+      "source_title": "Amkor Technology Form 8-K / 2025 results release",
+      "source_url": "https://ir.amkor.com/static-files/1e199e2d-d9ab-45e4-9a12-aee8a68b901c",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor's market capitalization was reported around $16.1 billion as of June 5, 2026, placing it outside the preferred sub-$10B lane but still relevant as a node reference.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06-05",
+      "source_title": "Amkor Technology Market Cap & Net Worth",
+      "source_url": "https://stockanalysis.com/stocks/amkr/market-cap/",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "FormFactor states that HBM uses advanced packaging processes such as TSVs and thermo-compression bonding, and that its high-frequency capability supports HBM testing.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-02-21",
+      "source_title": "FormFactor 10-K Annual Report",
+      "source_url": "https://fintel.io/doc/sec-formfactor-inc-1039399-10k-2025-february-21-20140-5305",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor describes advanced-packaging wafer test as critical for HBM, known-good-die flows, microbump probing, and at-speed verification.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "Advanced Packaging Raises the Bar for Wafer Test",
+      "source_url": "https://www.formfactor.com/applications/high-volume-test-on-wafer/advanced-packaging/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor's market capitalization was reported at about $9.10 billion, within the preferred mid-cap discovery range.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026-06-05",
+      "source_title": "FormFactor Stock Price & Overview",
+      "source_url": "https://stockanalysis.com/stocks/form/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Onto Innovation announced Dragonfly G5 selection by a leading HBM manufacturer for HBM4 ramp inspection, with double-digit Dragonfly G5 and 3Di order commitments and shipments beginning in Q2 2026.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03-16",
+      "source_title": "Onto Innovation Launches Dragonfly G5 Inspection System",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Launches-Dragonfly-G5-Inspection-System/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Onto Innovation reported qualification of 3Di technology for 3D bump metrology by two customers supporting HBM and another supporting 2.5D logic applications for AI.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2025-11-06",
+      "source_title": "Onto Innovation Reports 2025 Third Quarter Results",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2025/Onto-Innovation-Reports-2025-Third-Quarter-Results/default.aspx",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Onto Innovation's market capitalization was reported at about $12.60 billion, making it a large-cap exception rather than a pure small/mid-cap discovery name.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026-06-05",
+      "source_title": "Onto Innovation Stock Price & Overview",
+      "source_url": "https://stockanalysis.com/stocks/onto/",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Cohu announced additional Neon orders for HBM inspection/metrology from a leading US-based memory/data-storage customer and raised forecasted 2025 HBM revenue to $10-$11 million.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-09-16",
+      "source_title": "Cohu Secures Additional Neon Orders, Raises 2025 Forecasted HBM Revenue to $10-$11 million",
+      "source_url": "https://ir.cohu.com/news-releases/news-release-details/cohu-secures-additional-neon-orders-raises-2025-forecasted-hbm",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "Cohu says it has a leading position in thermal handlers and interface solutions controlling temperature of GPU, HBM, and high-end CPU devices under test.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Computing and Network Expertise",
+      "source_url": "https://www.cohu.com/expertise-computing/",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "Cohu's market capitalization was reported around $2.35-$2.59 billion in early June 2026, within the preferred mid-cap discovery range.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026-06-05",
+      "source_title": "Cohu Stock Price & Overview",
+      "source_url": "https://stockanalysis.com/stocks/cohu/",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "The supplied search context argues that HBM producers are broadly priced, while sub-$50B suppliers one layer below HBM and advanced packaging may have thinner analyst coverage; this supports a discovery lane focused on test, inspection, probe, and packaging suppliers rather than HBM producers.",
+      "claim_type": "hypothesis",
+      "confidence": 0.74,
+      "published_at": "2026-06-03",
+      "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+      "source_url": "https://outperformers.co/p/tss3",
+      "ticker": ""
+    },
+    {
+      "claim": "TSMC's 2025 annual-report materials state that it is developing advanced packaging and 3D chip-stacking technologies including CoWoS, InFO, TSMC-SoIC, and related technologies to support customer needs.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04",
+      "source_title": "TSMC 2025 Annual Report Website",
+      "source_url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "TSMC's 2026 North America Technology Symposium materials state that CoWoS is being expanded to support AI demand for more compute and memory in a single package, with a 14-reticle-size CoWoS package slated for 2028 that can integrate about 10 large compute dies and 20 HBM stacks.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-22",
+      "source_title": "TSMC Debuts A13 Technology at 2026 North America Technology Symposium",
+      "source_url": "https://pr.tsmc.com/english/news/3302",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Camtek announced approximately $25 million of Hawk system orders from an IDM for AI applications, with the Hawk platform described for demanding advanced-packaging applications including HBM, chiplets, hybrid bonding, and wafers with up to 500 million micro-bumps.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-02",
+      "source_title": "Camtek receives multiple Hawk systems order of approximately $25 Million from an IDM for AI applications",
+      "source_url": "https://www.camtek.com/news-and-events/camtek-receives-multiple-hawk-systems-order-of-approximately-25-million-from-an-idm-for-ai-applications/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Camtek's 2026 filing describes its systems as serving advanced packaging, chiplets, HBM, memory, OSATs, foundries, and leading global IDMs, and highlights bump metrology for advanced-packaging requirements.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04",
+      "source_title": "CAMTEK LTD - 2026 SEC filing",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001109138/000117891326001561/zk2634678.htm",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "External search evidence reported that a leading HBM manufacturer completed evaluation and selected Onto's Dragonfly G5 for 2D inspection for an HBM4 ramp, and that advanced packaging was expected to grow more than 30% in 2026.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-03-16",
+      "source_title": "Leading high bandwidth memory manufacturer completes evaluation and selects Dragonfly G5 for HBM4 ramp",
+      "source_url": "https://www.stockwatch.com/News/Item/U-b20260316960698-U%21ONTO-20260316/U/ONTO",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Onto Innovation's own AI technology page says its advanced-packaging capabilities support 3D bump metrology, RDL printing, and inspection for interconnects critical to HPC performance.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "",
+      "source_title": "Artificial Intelligence (AI) - Onto Innovation",
+      "source_url": "https://ontoinnovation.com/tech-trends/artificial-intelligence-ai/",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "FormFactor's HFTAP product page states that its probe-card architecture supports wafer-level speed testing for next-generation known-good-die memory and devices used in HBM stacks, including fine-pitch interposers.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "HFTAP Series | FormFactor, Inc.",
+      "source_url": "https://www.formfactor.com/product/probe-cards/dram/hftap-series/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor's advanced-packaging page describes wafer-level test extending to multiple phases of advanced packaging and references micro-bump pitch testing and at-speed verification for known-good-die test flow.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Advanced Packaging Raises the Bar for Wafer Test | FormFactor Inc.",
+      "source_url": "https://www.formfactor.com/applications/high-volume-test-on-wafer/advanced-packaging/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "The supplied external search context argues that the market has largely identified the HBM producers but may still misprice selected sub-$50 billion suppliers with thin analyst coverage and one-or-two-step-removed exposure to HBM and advanced packaging.",
+      "claim_type": "hypothesis",
+      "confidence": 0.76,
+      "published_at": "2026-06-03",
+      "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+      "source_url": "https://outperformers.co/p/tss3",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.87,
+      "text": "CAMT should remain high in the underfollowed lane for HBM/advanced-packaging inspection because it has disclosed recent HBM and tier-1 OSAT AI-related orders; next layer should verify durability of orders, customer concentration, and margin impact.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "FORM is a plausible HBM test chokepoint candidate through probe cards and known-good-die test; prioritize verification of HBM-specific revenue mix and whether HBM4/HBM5 creates incremental probe-card upgrade cycles.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "KLIC is a narrower bonding-equipment hypothesis: strong fit to heterogeneous integration and TCB, but direct HBM process exposure needs more evidence before promotion beyond Layer 1.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Amkor, Onto Innovation, ASE, substrate suppliers, thermal-material vendors, precision chemical suppliers, and HBM producers remain important adjacent names, but were excluded due to the four-candidate cap and should be revisited in later passes.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.82,
+      "text": "FORM should be tracked as a direct HBM test-interface candidate; key validation is HBM-specific probe-card revenue, customer concentration, and margin contribution.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "CAMT should be tracked as an advanced-packaging and HBM inspection/metrology candidate; verify revenue mix and customer concentration before promoting beyond Layer 1.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "ONTO is a larger-cap but still specialized process-control candidate for HBM and advanced packaging; keep as an underfollowed-quality comparator rather than a pure small-cap discovery name.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.68,
+      "text": "KLIC is a lower-attention hypothesis around thermocompression bonding and AI advanced packaging; requires stronger evidence on materiality and HBM-specific demand.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.79,
+      "text": "For the HBM upstream-input node, the most actionable US-listed sub-layers found in this pass are probe/test, inspection/metrology, and advanced bonding equipment rather than the HBM producers themselves.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.73,
+      "text": "Still need a separate materials/chemicals pass for underfill, bonding films, substrates, thermal interface materials, specialty gases, and ultra-pure chemicals; US-listed pure plays may be harder to identify and may sit inside diversified suppliers.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "FORM should be tracked as an HBM wafer-probe and known-good-die test candidate; direct evidence exists in company materials and filings, but revenue materiality and customer concentration need verification.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "ONTO is a high-quality but less underfollowed large-cap exception for HBM4 inspection/metrology; Dragonfly G5 and 3Di order commitments make it one of the cleaner node mappings.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "COHU is the most small/mid-cap underfollowed HBM inspection/test candidate in this pass; HBM revenue is still small, so survival in later layers depends on follow-on orders and materiality.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "AMKR belongs in the reference lane for US-listed advanced-packaging capacity, but it is less obscure and above the preferred $10B cap range; use mainly as a context anchor unless customer/capex evidence sharpens.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "For the HBM advanced-packaging inputs node, the strongest US-listed underfollowed sub-nodes found in this pass are wafer probe cards, HBM inspection/metrology, package test handlers/contactors, and OSAT advanced-packaging capacity.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Need a later pass on materials and substrates: ABF, temporary bonding/debonding, thermal interface materials, photoresists, electroplating chemistries, glass substrates, and advanced substrate suppliers may be non-US-listed or hidden inside conglomerates.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.86,
+      "text": "CAMT should remain in the HBM/advanced-packaging inspection watchlist because recent company evidence explicitly links Hawk system orders to AI, HBM, chiplets, hybrid bonding, and high micro-bump-count wafers.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "ONTO should remain in the HBM/advanced-packaging metrology watchlist, with the key evidence gap being whether HBM4 Dragonfly G5 adoption broadens beyond one leading HBM manufacturer.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "FORM should remain in the HBM/advanced-packaging test watchlist because known-good-die and micro-bump/interposer testing are structurally important as HBM stack and heterogeneous-integration complexity rises.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.68,
+      "text": "Potentially relevant US-listed names not included due to the four-candidate limit but worth a later pass include AMKR for outsourced advanced packaging/test capacity, MKSI for Atotech plating/advanced-packaging process technology, ENTG for specialty materials/contamination control, and KLIC for advanced bonding equipment.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.78,
+      "text": "For this node, the strongest underfollowed subcategories appear to be inspection/metrology, probe-card wafer test, bonding, plating/chemistry, and outsourced advanced-packaging/test capacity rather than the already-visible HBM producers.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "HBM and advanced-packaging upstream inputs",
+  "node_id": "hbm_advanced_packaging_inputs",
+  "search_pass_count": 4,
+  "summary": "Combined focused Layer 1B searches: Expanded the US-listed universe for the HBM and advanced-packaging upstream-input node using a two-lane funnel. TSM is included as the obvious reference anchor because CoWoS/3DFabric capacity is structurally tied to AI accelerator packaging and HBM integration. The discovery lane emphasizes narrower inspection, metrology, probe-card, and bonding-equipment suppliers where qualification cycles, tool-of-record status, throughput limits, and customer concentration may create chokepoints beneath the already well-known HBM producers. Expanded the US-listed universe for HBM and advanced-packaging upstream inputs with a two-lane structure. Reference context remains HBM producers, TSMC/CoWoS, and AI accelerator customers, but this pass prioritizes smaller or niche equipment/test/inspection suppliers where HBM growth creates qualification-gated demand. The strongest candidates in this pass are probe-card/test interface, inspection/metrology, and thermocompression/advanced-packaging assembly equipment vendors. No buy/sell recommendation is implied. Expanded the US-listed universe for HBM and advanced-packaging upstream inputs with one context/reference OSAT and three underfollowed equipment/test/inspection suppliers. The discovery edge is less about the already-priced HBM producers and more about qualification-gated inspection, wafer probe, package test, and advanced-packaging capacity where customer ramps can create narrow chokepoints. This is a research universe only, not a buy/sell list. Layer 1B expansion for the HBM/advanced-packaging input node found one reference anchor and thr",
+  "theme_id": ""
+}

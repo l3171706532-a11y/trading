@@ -1,0 +1,238 @@
+{
+  "candidates": [
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Ajinomoto Co., Inc.",
+      "confidence": 0.9,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether ABF price, mix, shipment CAGR, or capacity expansion is large enough to move group-level earnings rather than remaining hidden inside a broader conglomerate.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest Ajinomoto IR fact book and segment disclosure for ABF shipment volume, pricing, capex, ICT segment margin, and customer qualification commentary.",
+      "node_relation": "Primary supplier of Ajinomoto Build-up Film, the insulating build-up film used in high-performance semiconductor package substrates.",
+      "sector_or_industry": "Specialty materials / food and bioscience conglomerate",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "materials",
+        "reference",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerator package complexity increases dependence on advanced FC-BGA substrates, where ABF is a yield-critical dielectric input below substrate makers.",
+      "ticker": "AJINY",
+      "why_include": "Ajinomoto is the necessary reference anchor for this node: the company itself states ABF is used for complex circuit substrates for high-performance CPUs and facilitates micro-scale circuit formation in build-up substrates; external search context states Ajinomoto holds over 95% of the insulating film chokepoint.",
+      "why_underfollowed": "Not truly underfollowed as a chokepoint, but often under-modeled as a chip-cycle asset because the listed company is a diversified Japanese food and bioscience conglomerate rather than a pure semiconductor materials company."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "MEC Company Ltd.",
+      "confidence": 0.86,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether leading FC-BGA substrate makers are expanding use of MEC's newer fine-roughening or non-roughening chemical adhesion products for AI/HPC substrates.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "unknown",
+      "next_evidence": "Verify OTC liquidity and share class, latest MEC securities filings, revenue by package-substrate application, customer concentration, and management comments on AI server or high-density package-substrate demand.",
+      "node_relation": "Supplier of copper surface roughening and adhesion-enhancement chemistries used to improve copper-to-resin adhesion in package substrates.",
+      "sector_or_industry": "Electronic substrate chemicals / copper surface treatment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "materials",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI accelerator substrates are yield-constrained, copper-to-resin adhesion chemistry can capture value below substrate assemblers regardless of which package substrate maker wins sockets.",
+      "ticker": "MECGF",
+      "why_include": "MEC directly describes its CZ series as copper-surface treatment that enhances copper-to-resin adhesion and says the series has been adopted by package substrate manufacturers; external search context states MEC holds over 90% of the surface chemistry that bonds copper to insulating film.",
+      "why_underfollowed": "US exposure appears to be through OTC ordinary shares rather than a primary US listing, and the company sits under the obvious AI/HBM names as a narrow Japanese process-chemistry supplier."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Element Solutions Inc.",
+      "confidence": 0.72,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether MacDermid Alpha is qualified at advanced FC-BGA substrate makers for AI/HPC packages or mainly exposed to broader PCB and packaging applications.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check ESI annual report, investor decks, and customer/application disclosures for IC substrate revenue, advanced packaging mix, AI/HPC wording, and margin sensitivity to electronics materials.",
+      "node_relation": "Through MacDermid Alpha, supplies PCB and IC-substrate fabrication chemistries including metallization, copper adhesion promotion, plating, etching, and process solutions.",
+      "sector_or_industry": "Specialty chemicals / electronics materials",
+      "serenity_tags": [
+        "supply_chain",
+        "underfollowed",
+        "materials",
+        "second_order",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order exposure to advanced IC substrate yield and reliability as AI packaging drives finer lines, higher density, and more demanding copper/resin interfaces.",
+      "ticker": "ESI",
+      "why_include": "MacDermid Alpha product pages explicitly market IC-substrate fabrication solutions, SAP copper metallization, and copper adhesion promoters. The link to the specific FC-BGA AI accelerator chokepoint is plausible but less proven than Ajinomoto or MEC.",
+      "why_underfollowed": "Element Solutions is a diversified specialty-chemicals company; AI substrate exposure may be buried inside electronics materials rather than visible as a pure semiconductor packaging line."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Onto Innovation Inc.",
+      "confidence": 0.74,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether advanced IC substrate tools are contributing materially to orders and revenue rather than serving mainly as roadmap positioning.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest ONTO annual report, order commentary, product mix, and customer adoption for Firefly G3, JetStep X500, Discover/TrueADC, advanced IC substrate, and AI package applications.",
+      "node_relation": "Yield-enabling inspection, metrology, lithography, and defect analytics for advanced IC substrates and panel-level advanced packaging.",
+      "sector_or_industry": "Semiconductor process control / metrology and inspection",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "equipment",
+        "yield",
+        "evidence_needed"
+      ],
+      "theme_relation": "If the FC-BGA substrate constraint is yield rather than throughput, inspection and process-control systems for advanced IC substrates can be second-order beneficiaries of AI accelerator package complexity.",
+      "ticker": "ONTO",
+      "why_include": "Onto's Firefly G3 product page states it provides automated inspection and 3D metrology for advanced IC substrates and panel-level packaging, including HPC, AI, cloud computing, and machine/deep learning applications.",
+      "why_underfollowed": "Not obscure in semiconductor equipment, but less obvious than GPU, HBM, or substrate-maker names; the specific substrate-yield linkage may be under-modeled versus broader wafer-level metrology exposure."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Ajinomoto's ADR information page lists ticker symbol AJINY on the OTC market.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "",
+      "source_title": "ADR Information | Stock | IR | Ajinomoto Group",
+      "source_url": "https://www.ajinomoto.co.jp/company/en/ir/stock/adr.html",
+      "ticker": "AJINY"
+    },
+    {
+      "claim": "Ajinomoto states ABF provides electrical insulation for complex circuit substrates for high-performance CPUs and supports micro-scale circuit formation in build-up substrates.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "Ajinomoto Build-up Film (ABF) | Innovation Story | Ajinomoto Group",
+      "source_url": "https://www.ajinomoto.com/innovation/our_innovation/buildupfilm",
+      "ticker": "AJINY"
+    },
+    {
+      "claim": "External search context states that the substrate node builds the FC-BGA package, the binding constraint is yield, and Ajinomoto holds over 95% of the insulating film chokepoint.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06-03T13:01:07.000Z",
+      "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+      "source_url": "https://outperformers.co/p/tss3",
+      "ticker": "AJINY"
+    },
+    {
+      "claim": "MEC states its MECetchBOND CZ series creates fine copper surface roughness, enhances copper-to-resin adhesion, and has been adopted by package substrate manufacturers.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "MEC's Technologies | MEC COMPANY LTD.",
+      "source_url": "https://www.mec-co.com/en/technical/about/",
+      "ticker": "MECGF"
+    },
+    {
+      "claim": "MEC's medium-term plan says it has achieved a dominant market share in the global package substrate market with its super-roughening adhesion promoter for copper/resin adhesion.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03",
+      "source_title": "MEC Company Ltd. Medium-term Business Plan 2025",
+      "source_url": "https://www.mec-co.com/en/ir/mtp/pdf/medium-term_business_plan2025-2.pdf",
+      "ticker": "MECGF"
+    },
+    {
+      "claim": "Bloomberg's quote page identifies MECGF as MEC Company Ltd. on OTC US.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "",
+      "source_title": "MECGF:OTC US Stock Quote - MEC Company Ltd.",
+      "source_url": "https://www.bloomberg.co.jp/quote/MECGF:US",
+      "ticker": "MECGF"
+    },
+    {
+      "claim": "Element Solutions' 2025 annual report states MacDermid Alpha Electronics Solutions serves electronics hardware from complex printed circuit boards to advanced semiconductor packaging.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-05",
+      "source_title": "Element Solutions Inc. 2025 Annual Report",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1590714/000159071426000036/element_solutionsx25arhrfi.pdf",
+      "ticker": "ESI"
+    },
+    {
+      "claim": "MacDermid Alpha markets circuitry solutions for PCB and IC substrate fabrication intended to improve yield, signal integrity, and reliability.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Chemistries & Materials for Printed Circuit Boards (PCB) & IC Designs | MacDermid Alpha",
+      "source_url": "https://www.macdermidalpha.com/products/circuitry-solutions",
+      "ticker": "ESI"
+    },
+    {
+      "claim": "MacDermid Alpha's Systek SAP Copper page describes a process chemistry suite for high-density integrated circuit substrates and references copper adhesion promoters for IC substrate excellence.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Systek SAP Copper | MacDermid Alpha",
+      "source_url": "https://www.macdermidalpha.com/products/circuitry-solutions/ic-substrates/sap-technologies/systek-sap-copper",
+      "ticker": "ESI"
+    },
+    {
+      "claim": "Onto Innovation's Firefly G3 system provides automated inspection and 3D metrology for advanced IC substrates and panel-level packaging for HPC, AI, cloud computing, and machine/deep learning applications.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Panel Level Packaging Inspection System | Onto Innovation",
+      "source_url": "https://ontoinnovation.com/products/firefly-g3/",
+      "ticker": "ONTO"
+    },
+    {
+      "claim": "Onto Innovation announced a glass substrate suite including JetStep X500 and Firefly G3 systems for panel-level packaging and advanced IC substrates supporting heterogeneous integration chiplet packages for AI, high-performance compute, and cloud computing.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2024-07-09",
+      "source_title": "Onto Innovation Further Strengthens Company’s Panel Portfolio with New Glass Suite",
+      "source_url": "https://investors.ontoinnovation.com/news/news-details/2024/Onto-Innovation-Further-Strengthens-Companys-Panel-Portfolio-with-New-Glass-Suite/default.aspx",
+      "ticker": "ONTO"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.88,
+      "text": "AJINY should be retained as the reference anchor for ABF insulating film, but group-level purity is a major underwriting issue because Ajinomoto is not a pure semiconductor materials company.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "MECGF is the highest-priority underfollowed candidate for this node because copper-to-resin adhesion chemistry maps directly to FC-BGA substrate yield and has OTC US tradability, but liquidity and disclosure quality must be checked.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "ESI is a plausible US-listed second-order chemistry candidate via MacDermid Alpha IC-substrate fabrication chemistry; it needs customer and revenue-mix verification before moving beyond Layer 1.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.74,
+      "text": "ONTO is a yield/process-control candidate rather than a materials supplier; include only if the research pass allows inspection, metrology, and defect analytics vendors tied to advanced IC substrates.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "For this node, separate direct substrate-material chokepoints from HBM-stack tools: ABF insulating film and copper adhesion chemistry are exposed to accelerator package count and package complexity, not pure HBM bit growth.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.76,
+      "text": "Need a follow-up search for US OTC tickers and liquidity for Ibiden, Unimicron, Kinsus, AT&S, Shinko, and regional second-source ABF/adhesion chemistry candidates; they were not included here because the candidate list was capped at four.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "FC-BGA package substrate materials, insulating film, and copper adhesion chemistry",
+  "node_id": "fc_bga_substrate_materials_and_chemistry",
+  "summary": "Expanded the US-tradable universe around the FC-BGA package-substrate materials and yield node. The strongest direct reference exposure is Ajinomoto via its OTC ADR because ABF is the dominant insulating film used in high-performance semiconductor package substrates. The strongest underfollowed chokepoint candidate is MEC Company via OTC ordinary shares because its copper-to-resin adhesion chemistry is directly tied to package-substrate yield. Element Solutions is a US-listed underfollowed second-source/adjacent chemistry candidate through MacDermid Alpha circuitry and IC-substrate process chemistries. Onto Innovation is included as a yield-enabling process-control vendor for advanced IC substrates and panel-level packaging rather than as a materials supplier.",
+  "theme_id": "ai"
+}

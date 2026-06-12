@@ -1,0 +1,426 @@
+{
+  "evidence": [
+    {
+      "claim": "AI investment is straining broader supply chains, with lengthening delivery times and growing order backlogs cited as evidence of pressure beyond GPUs.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05-11T11:00:00.000Z",
+      "source_title": "Will Mounting Supply Chain Strains Hamstring the AI Investment Boom? - Liberty Street Economics",
+      "source_url": "https://libertystreeteconomics.newyorkfed.org/2026/05/will-mounting-supply-chain-strains-hamstring-the-ai-investment-boom/",
+      "used_for": [
+        "demand_durability",
+        "bottleneck_severity",
+        "data_center_infrastructure_candidates",
+        "semicap_supply_chain_candidates"
+      ]
+    },
+    {
+      "claim": "Cached Layer 2 identifies grid interconnection, large power transformers, electrical balance of plant, cooling, and data-center construction as AI infrastructure nodes where bottlenecks may broaden beyond chips.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-06-11T07:00:06.000Z",
+      "source_title": "Cached Serenity Layer 2 provided in prompt",
+      "source_url": "cached_serenity_layer2",
+      "used_for": [
+        "IESC",
+        "STRL",
+        "FIX",
+        "VRT",
+        "BE"
+      ]
+    },
+    {
+      "claim": "Cached Layer 2 states that higher AI rack power density pushes adoption of liquid cooling and advanced thermal systems, creating potential catalysts for cooling specialists and heat-rejection infrastructure suppliers.",
+      "claim_type": "inference",
+      "confidence": 0.7,
+      "published_at": "2026-06-11T07:00:06.000Z",
+      "source_title": "Cached Serenity Layer 2 provided in prompt",
+      "source_url": "cached_serenity_layer2",
+      "used_for": [
+        "FIX",
+        "VRT"
+      ]
+    },
+    {
+      "claim": "Cached Layer 2 states that advanced AI accelerator packages, HBM4/HBM4E, chiplets, and hybrid bonding increase process-control intensity and raise the value of inspection, metrology, probe-card, and known-good-die test nodes.",
+      "claim_type": "inference",
+      "confidence": 0.74,
+      "published_at": "2026-06-11T07:00:06.000Z",
+      "source_title": "Cached Serenity Layer 2 provided in prompt",
+      "source_url": "cached_serenity_layer2",
+      "used_for": [
+        "UCTT",
+        "ICHR",
+        "AEIS",
+        "MKSI"
+      ]
+    },
+    {
+      "claim": "The provided candidate chunk identifies Ultra Clean Holdings as a potential supplier of subsystems, parts, and services to semiconductor equipment makers enabling advanced-node and packaging capacity additions.",
+      "claim_type": "hypothesis",
+      "confidence": 0.55,
+      "published_at": "2026-06-11",
+      "source_title": "Candidate chunk provided in prompt",
+      "source_url": "provided_candidate_chunk",
+      "used_for": [
+        "UCTT"
+      ]
+    },
+    {
+      "claim": "The provided candidate chunk identifies Ichor Holdings as a potential fluid delivery subsystem supplier to semiconductor capital-equipment platforms required for advanced logic, memory, and packaging capacity expansion.",
+      "claim_type": "hypothesis",
+      "confidence": 0.54,
+      "published_at": "2026-06-11",
+      "source_title": "Candidate chunk provided in prompt",
+      "source_url": "provided_candidate_chunk",
+      "used_for": [
+        "ICHR"
+      ]
+    },
+    {
+      "claim": "The provided candidate chunk identifies Advanced Energy Industries as a precision power systems supplier potentially exposed to semiconductor equipment demand and high-density power-control needs.",
+      "claim_type": "hypothesis",
+      "confidence": 0.54,
+      "published_at": "2026-06-11",
+      "source_title": "Candidate chunk provided in prompt",
+      "source_url": "provided_candidate_chunk",
+      "used_for": [
+        "AEIS"
+      ]
+    },
+    {
+      "claim": "The provided candidate chunk identifies MKS Instruments as potentially exposed to semiconductor process subsystems and photonics tools that enable advanced chip manufacturing and high-speed optical systems.",
+      "claim_type": "hypothesis",
+      "confidence": 0.53,
+      "published_at": "2026-06-11",
+      "source_title": "Candidate chunk provided in prompt",
+      "source_url": "provided_candidate_chunk",
+      "used_for": [
+        "MKSI"
+      ]
+    },
+    {
+      "claim": "The provided candidate chunk identifies Sterling Infrastructure, IES Holdings, and Comfort Systems USA as possible second-order beneficiaries of data-center construction, electrical balance of plant, cooling, and infrastructure work.",
+      "claim_type": "hypothesis",
+      "confidence": 0.53,
+      "published_at": "2026-06-11",
+      "source_title": "Candidate chunk provided in prompt",
+      "source_url": "provided_candidate_chunk",
+      "used_for": [
+        "STRL",
+        "IESC",
+        "FIX"
+      ]
+    },
+    {
+      "claim": "The provided candidate chunk identifies Bloom Energy as a potential distributed-power solution for data centers seeking faster power availability amid grid interconnection constraints.",
+      "claim_type": "inference",
+      "confidence": 0.58,
+      "published_at": "2026-06-11",
+      "source_title": "Candidate chunk provided in prompt",
+      "source_url": "provided_candidate_chunk",
+      "used_for": [
+        "BE"
+      ]
+    },
+    {
+      "claim": "The provided candidate chunk identifies Centrus Energy and BWX Technologies as indirect nuclear and nuclear-fuel-cycle beneficiaries if AI-driven power demand increases interest in nuclear generation and domestic fuel-cycle security.",
+      "claim_type": "hypothesis",
+      "confidence": 0.5,
+      "published_at": "2026-06-11",
+      "source_title": "Candidate chunk provided in prompt",
+      "source_url": "provided_candidate_chunk",
+      "used_for": [
+        "LEU",
+        "BWXT"
+      ]
+    }
+  ],
+  "layer": 3,
+  "memory_update": [
+    {
+      "content": "For AI Layer 3, do not let high-attention reference leaders outrank underfollowed candidates when the underfollowed names have a plausible hidden supply-chain signal and a clear falsification path.",
+      "type": "ranking_rule"
+    },
+    {
+      "content": "Highest-priority follow-up from this chunk: IESC, STRL, AEIS, UCTT, ICHR, and MKSI. Required next evidence: backlog mix, AI/data-center or advanced-node exposure, customer concentration, margin leverage, and order durability.",
+      "type": "candidate_watchlist"
+    },
+    {
+      "content": "Downgrade construction/service candidates if backlog is not data-center linked, if margins are driven by non-AI cyclicality, or if labor constraints prevent operating leverage. Downgrade semicap subsystem candidates if demand is only broad WFE recovery without leading-edge, memory, HBM, or advanced-packaging linkage.",
+      "type": "falsification_plan"
+    },
+    {
+      "content": "Use VRT as a benchmark for data-center power and thermal infrastructure, not as the main underfollowed discovery candidate.",
+      "type": "reference_anchor"
+    }
+  ],
+  "ranked_candidates": [
+    {
+      "attention_level": "low_attention",
+      "company": "IES Holdings",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify data-center backlog, customer concentration, labor constraints, margin sustainability, and whether projects are AI-cluster related.",
+      "main_evidence_gap": "No hard evidence in the provided context proving the percentage of revenue, backlog, or operating profit tied specifically to AI data centers.",
+      "market_cap_bucket": "small_cap",
+      "rank": 1,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 5,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 5
+      },
+      "ticker": "IESC",
+      "total_score": 35,
+      "why_prioritized": "Electrical contracting and infrastructure services are directly tied to the physical buildout problem that AI data centers face: power distribution, installation, and integration. The Serenity score is high because the signal is hidden inside a services label, but can be tested through backlog mix, data-center exposure, margins, labor constraints, and customer concentration.",
+      "why_underfollowed": "Classified as electrical contracting rather than AI infrastructure, so screens focused on chips, GPUs, cooling equipment, or data-center REITs may miss it."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Sterling Infrastructure",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify data-center customer mix, backlog, margin contribution, geography, project duration, and whether growth is tied to AI compute clusters.",
+      "main_evidence_gap": "The provided context does not establish how much backlog or revenue is specifically from AI-related data-center work.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 2,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 5,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 5
+      },
+      "ticker": "STRL",
+      "total_score": 35,
+      "why_prioritized": "Site preparation and civil infrastructure could be a practical gating item for AI data-center expansion, especially where grid access, permitting, and construction capacity delay new compute clusters. The candidate is attractive for Serenity work because the thesis is second-order, under a construction label, and testable through backlog, customer mix, geography, and project duration.",
+      "why_underfollowed": "The company is likely screened as infrastructure or construction rather than AI, making any data-center mix potentially underappreciated."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "Advanced Energy Industries",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify semicap recovery, AI/data-center power wins, margin leverage, customer concentration, and whether demand is structurally AI-linked.",
+      "main_evidence_gap": "Current evidence is mostly thematic; the chunk does not provide customer, order, backlog, or segment data proving material AI exposure.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 3,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4,
+        "underfollowed_discovery": 4
+      },
+      "ticker": "AEIS",
+      "total_score": 33,
+      "why_prioritized": "Precision power conversion sits inside both semiconductor manufacturing equipment and high-density power-control architectures. If AI-driven advanced-node, memory, and packaging capex remains durable, power-control subsystems may benefit before the signal becomes obvious in end-market labels.",
+      "why_underfollowed": "Diversified precision-power exposure can obscure the AI linkage through semiconductor tools or data-center power systems."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "Ultra Clean Holdings",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify exposure to AI-related WFE, advanced packaging, leading-edge foundry/memory capex, customer concentration, backlog, and margin recovery.",
+      "main_evidence_gap": "No provided evidence confirms AI-specific revenue materiality, advanced-packaging exposure, or customer order acceleration.",
+      "market_cap_bucket": "small_cap",
+      "rank": 4,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 5
+      },
+      "ticker": "UCTT",
+      "total_score": 32,
+      "why_prioritized": "Ultra Clean is one layer below major semiconductor equipment OEMs. If AI-related advanced-node, memory, and packaging capacity additions drive WFE orders, subsystem and outsourced manufacturing suppliers could show early operating leverage. The underfollowed score is high because the AI signal may be buried in subsystem orders rather than reported as a clean AI segment.",
+      "why_underfollowed": "It is a supplier to semiconductor equipment makers, not a visible AI chip, memory, or advanced-packaging leader."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "Ichor Holdings",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify tool-platform exposure, leading-edge memory/foundry demand, backlog, customer concentration, and separation from broad semicap cyclicality.",
+      "main_evidence_gap": "The current evidence does not prove that its subsystem demand is structurally tied to AI rather than ordinary semicap cyclicality.",
+      "market_cap_bucket": "small_cap",
+      "rank": 5,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 5
+      },
+      "ticker": "ICHR",
+      "total_score": 32,
+      "why_prioritized": "Ichor's fluid delivery subsystem exposure makes it a plausible second-order beneficiary of advanced logic, memory, and packaging equipment demand. It ranks near Ultra Clean because the thesis is hidden, small-cap, and falsifiable through platform exposure, backlog, and leading-edge customer demand.",
+      "why_underfollowed": "The company is several steps removed from AI chips and may not appear in keyword-based AI screens."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "MKS Instruments",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify leading-edge semicap exposure, advanced-packaging relevance, photonics/datacom contribution, deleveraging constraints, and customer demand visibility.",
+      "main_evidence_gap": "The provided context does not quantify AI-related semicap, advanced-packaging, or datacom-photonics contribution.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 6,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4,
+        "underfollowed_discovery": 4
+      },
+      "ticker": "MKSI",
+      "total_score": 32,
+      "why_prioritized": "MKS has plausible exposure to semiconductor process-control subsystems and photonics, both connected to AI infrastructure through advanced chip manufacturing and optical systems. It is research-worthy because the AI signal may be diluted by diversified industrial and semicap exposure, creating a possible discovery gap.",
+      "why_underfollowed": "The diversified industrial, semicap, and photonics mix makes the AI linkage hard to isolate."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Comfort Systems USA",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify backlog mix, data-center share, labor availability, project margins, and cyclicality versus durable AI capacity expansion.",
+      "main_evidence_gap": "The provided context does not verify data-center revenue share or AI-cluster specificity.",
+      "market_cap_bucket": "large_cap",
+      "rank": 7,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 3
+      },
+      "ticker": "FIX",
+      "total_score": 30,
+      "why_prioritized": "Mechanical, electrical, and HVAC contracting can benefit from high-density data-center construction and liquid-cooling retrofits. It ranks below smaller construction-service names because it is larger and somewhat more visible, but the evidence path remains clear through backlog mix, data-center share, margins, and labor availability.",
+      "why_underfollowed": "It is categorized as construction/services rather than an AI infrastructure equipment supplier."
+    },
+    {
+      "attention_level": "high_attention",
+      "company": "Bloom Energy",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify signed data-center contracts, unit economics, fuel availability, deployment speed, service margins, and whether demand is durable beyond narrative-driven orders.",
+      "main_evidence_gap": "The provided context does not supply signed contract details, economics, or proof that AI data-center demand is durable and material.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 8,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 3,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 2
+      },
+      "ticker": "BE",
+      "total_score": 29,
+      "why_prioritized": "Distributed power could address grid interconnection delays for data centers, making the company relevant to the 'megawatts' bottleneck. However, the name has higher AI-power attention and carries execution, unit-economics, fuel-availability, and service-margin questions.",
+      "why_underfollowed": "It is still often treated as a fuel-cell or energy-transition company, although AI data-center power narratives are increasingly visible."
+    },
+    {
+      "attention_level": "high_attention",
+      "company": "Vertiv Holdings",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Track backlog, AI-specific orders, liquid-cooling adoption, pricing power, margin durability, and whether market expectations already discount the buildout.",
+      "main_evidence_gap": "The remaining research gap is not whether Vertiv is exposed, but whether expectations already price in the AI infrastructure buildout.",
+      "market_cap_bucket": "large_cap",
+      "rank": 9,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 1,
+        "public_market_purity": 5,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4,
+        "underfollowed_discovery": 1
+      },
+      "ticker": "VRT",
+      "total_score": 33,
+      "why_prioritized": "Vertiv is a reference anchor for data-center power and thermal infrastructure. Its operational exposure appears high, but it is not the main alpha-hunt target because attention and market awareness are already high.",
+      "why_underfollowed": "Not underfollowed; included only to benchmark smaller suppliers, contractors, controls vendors, and cooling/power-service companies."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Centrus Energy",
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Verify enrichment contracts, HALEU milestones, regulatory funding, utility demand, scale-up feasibility, and whether AI data-center power demand directly increases order visibility.",
+      "main_evidence_gap": "No provided evidence demonstrates that AI data-center power demand is directly translating into Centrus order visibility.",
+      "market_cap_bucket": "small_cap",
+      "rank": 10,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 3,
+        "evidence_quality": 2,
+        "falsifiability": 3,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 2,
+        "supplier_scarcity": 5,
+        "underfollowed_discovery": 3
+      },
+      "ticker": "LEU",
+      "total_score": 30,
+      "why_prioritized": "Domestic enrichment and HALEU could be a severe bottleneck if AI-driven power demand accelerates nuclear generation and fuel-cycle security. It ranks lower despite scarcity because the AI linkage is several steps removed and depends on policy, nuclear deployment timelines, and contract milestones.",
+      "why_underfollowed": "Nuclear fuel-cycle exposure does not typically appear in AI infrastructure screens."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "BWX Technologies",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify commercial nuclear backlog, SMR component exposure, fuel-cycle role, customer commitments, and whether AI data-center demand accelerates orders.",
+      "main_evidence_gap": "The provided evidence does not show a direct AI data-center demand pull into BWXT commercial nuclear orders.",
+      "market_cap_bucket": "large_cap",
+      "rank": 11,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 3,
+        "evidence_quality": 2,
+        "falsifiability": 3,
+        "mispricing_potential": 2,
+        "public_market_purity": 2,
+        "risk_clarity": 3,
+        "supplier_scarcity": 4,
+        "underfollowed_discovery": 2
+      },
+      "ticker": "BWXT",
+      "total_score": 25,
+      "why_prioritized": "BWX Technologies may benefit from renewed nuclear investment, SMR interest, and nuclear supply-chain capacity, but the AI linkage is indirect and likely slower than data-center construction, grid, or power-distribution bottlenecks.",
+      "why_underfollowed": "Its defense and nuclear-industrial identity may obscure optionality tied to AI power demand."
+    }
+  ],
+  "summary": "Layer 3 ranking prioritizes underfollowed, testable chokepoint candidates one or two steps away from obvious AI demand. Within this chunk, the highest Serenity research priority goes to data-center electrical/mechanical construction and semicap subsystem suppliers where AI demand could show up in backlog, customer concentration, margins, and order visibility. Reference leaders are retained only as anchors and are not ranked above smaller names solely because of popularity.",
+  "theme_id": "AI"
+}

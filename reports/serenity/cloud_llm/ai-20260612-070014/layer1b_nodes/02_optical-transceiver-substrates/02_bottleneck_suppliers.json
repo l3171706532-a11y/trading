@@ -1,0 +1,210 @@
+{
+  "candidates": [
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "AXT, Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether 2026 InP backlog, capacity expansion, customer commitments, and AI data-center demand are disclosed directly in AXT filings, earnings call transcripts, or investor materials; also whether 800G/1.6T customers are qualified rather than merely sampling.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "300m_to_1b",
+      "next_evidence": "Pull latest AXTI 10-Q, earnings transcript, investor deck, and customer concentration disclosures; verify InP revenue mix, backlog conversion, capex for InP capacity, qualification duration, and whether management explicitly links demand to EML, silicon photonics, 800G, or 1.6T optical transceivers.",
+      "node_relation": "Direct candidate for the scarce substrate node; manufactures indium phosphide, gallium arsenide, and germanium wafer substrates used when silicon cannot meet optoelectronic or semiconductor performance requirements.",
+      "sector_or_industry": "Compound semiconductor substrate materials",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "qualification_cycle",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI data-center optical networking requires high-speed lasers, photodiodes, and optical transceivers; InP substrates can become a hidden upstream constraint if 800G and 1.6T optical demand outpaces qualified substrate capacity.",
+      "ticker": "AXTI",
+      "why_include": "It is the most direct US-listed fit found for the node: a narrow compound-semiconductor substrate supplier with explicit InP exposure and end-market relevance to data-center connectivity. External context also claims a small global supplier base, long qualification cycles, rapid AI-driven product-line growth, and backlog visibility, but those specific claims need primary filing/call verification.",
+      "why_underfollowed": "It sits several layers below GPUs, switches, hyperscalers, and transceiver brands; the business is categorized as specialty materials/compound substrates rather than AI networking."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Veeco Instruments Inc.",
+      "confidence": 0.76,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether MOCVD orders are broad-based across multiple optical laser customers or concentrated in one customer; whether backlog is tied to AI data-center optical transceivers rather than telecom or non-AI compound-semiconductor applications.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check VECO backlog by product line, customer concentration, management commentary on photonics/MOCVD, lead times, and whether orders are repeat or one-off capacity additions.",
+      "node_relation": "Second-order equipment supplier; its Lumina MOCVD systems are used for InP epitaxy on 4-inch and 6-inch wafers for optical-communications laser production.",
+      "sector_or_industry": "Semiconductor and compound-semiconductor manufacturing equipment",
+      "serenity_tags": [
+        "equipment",
+        "supply_chain",
+        "capacity_constraint",
+        "second_order",
+        "evidence_needed"
+      ],
+      "theme_relation": "If InP laser and photonic-device capacity becomes the constraint behind 800G/1.6T optical modules, epitaxy equipment can benefit from customers expanding compound-semiconductor production capacity.",
+      "ticker": "VECO",
+      "why_include": "Veeco is not a substrate producer, but it may be an enabling tool vendor for the same constrained InP photonics stack. A company press release states that a leading optical-communications laser manufacturer ordered multiple Lumina MOCVD systems and selected Lumina as production tool of record for InP epitaxy on 4-inch and 6-inch wafers.",
+      "why_underfollowed": "It is usually screened as semiconductor equipment or advanced packaging exposure, so its InP optical-communications tool leverage may be less obvious than laser or transceiver suppliers."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Lumentum Holdings Inc.",
+      "confidence": 0.78,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether Lumentum is supply-constrained by InP substrates, epitaxy, internal laser capacity, or customer qualification; also whether 1.6T ramps shift more value to silicon photonics and away from discrete EMLs.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review latest LITE earnings call for AI data-center revenue mix, 800G/1.6T order visibility, EML/CW laser capacity additions, and explicit mentions of substrate or wafer supply constraints.",
+      "node_relation": "Downstream component/reference anchor; supplies EMLs and CW lasers used in AI/cloud data-center optical interconnects, creating demand pull for InP substrates and epitaxy capacity.",
+      "sector_or_industry": "Optical and photonic components",
+      "serenity_tags": [
+        "component",
+        "demand",
+        "reference",
+        "optical_interconnect",
+        "evidence_needed"
+      ],
+      "theme_relation": "Lumentum’s data-center laser portfolio supports 400G, 800G, 1.6T, silicon photonics, and co-packaged optics architectures, making it a key read-through for whether the substrate bottleneck is real.",
+      "ticker": "LITE",
+      "why_include": "Lumentum is closer to the optical component demand driver than AXT or Veeco. Its product pages describe EMLs for AI/cloud data centers and an upgrade path toward 1.6T, plus CW lasers for SiPh and CPO architectures across 400G, 800G, and 1.6T platforms.",
+      "why_underfollowed": "Not truly underfollowed versus small-cap suppliers, but useful as a reference name because laser demand is one of the mechanisms that would tighten substrate and epitaxy supply."
+    },
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Coherent Corp.",
+      "confidence": 0.8,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether Coherent’s InP product growth is internally supplied or dependent on third-party substrate suppliers such as AXT/Sumitomo-class vendors; whether substrate shortages appear in lead times, gross margin, or backlog commentary.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check COHR segment disclosures, OFC 2026 materials, earnings transcripts, and supplier-risk language for InP wafer, epitaxy, and optical-component capacity constraints.",
+      "node_relation": "Integrated photonics/component reference; offers InP photodiodes, EMLs, modulators, lasers, and subsystems for 800G, 1.6T, CPO, and next-generation data-center architectures.",
+      "sector_or_industry": "Photonics, optical components, and compound-semiconductor devices",
+      "serenity_tags": [
+        "component",
+        "reference",
+        "demand_validation",
+        "optical_interconnect",
+        "bottleneck_readthrough"
+      ],
+      "theme_relation": "Coherent validates demand for InP-based optical components used in high-speed datacenter transceivers; its scale and product breadth make it a reference anchor for substrate and component capacity needs.",
+      "ticker": "COHR",
+      "why_include": "Coherent is not the underfollowed alpha target, but it is an important public-market map for the downstream InP component layer. Company releases describe production InP photodiodes for 800G and 1.6T transceivers and an InP portfolio including 200G EMLs for 1.6T and products for CPO and SiPh pluggables.",
+      "why_underfollowed": "Not underfollowed; included as a high-attention reference anchor to benchmark whether smaller substrate/tool names are exposed to real orders or merely riding the optics narrative."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "AXT describes itself as a material science company developing and manufacturing compound and single-element semiconductor wafer substrates including indium phosphide, gallium arsenide, and germanium; its substrates are used when silicon cannot meet performance requirements for semiconductor or optoelectronic devices.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "AXT, Inc. Investor Relations Overview",
+      "source_url": "https://investors.axt.com/Investors/Overview/default.aspx",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "External context claims the precision substrate supplier base for commercial-grade 800G and 1.6T optical transceivers is fewer than six companies worldwide, that qualification can take up to twenty-four months, and that the Western-listed candidate saw a near-tripling of a core product line driven by AI data-center demand. This appears directionally consistent with an InP-substrate chokepoint but requires primary-source confirmation.",
+      "claim_type": "hypothesis",
+      "confidence": 0.68,
+      "published_at": "2026-05-08",
+      "source_title": "THE FORTY-YEAR EDGE THAT AI CANNOT FUNCTION WITHOUT",
+      "source_url": "https://wsissener.substack.com/p/the-forty-year-edge-that-ai-cannot",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "Veeco announced that a leading optical-communications laser manufacturer ordered multiple Lumina MOCVD systems and that Lumina became the customer’s production tool of record for InP epitaxy on 4-inch and 6-inch wafers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2025-10-01",
+      "source_title": "Veeco Receives Multiple Lumina Systems Order from Leading Optical Communications Laser Manufacturer",
+      "source_url": "https://ir.veeco.com/news-and-events/news-details/2025/Veeco-Receives-Multiple-Lumina-Systems-Order-from-Leading-Optical-Communications-Laser-Manufacturer/default.aspx",
+      "ticker": "VECO"
+    },
+    {
+      "claim": "Veeco linked advanced optical transceivers to communication between processors running complex AI workloads at hyperscale data centers in the same MOCVD order announcement.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-10-01",
+      "source_title": "Veeco Receives Multiple Lumina Systems Order from Leading Optical Communications Laser Manufacturer",
+      "source_url": "https://ir.veeco.com/news-and-events/news-details/2025/Veeco-Receives-Multiple-Lumina-Systems-Order-from-Leading-Optical-Communications-Laser-Manufacturer/default.aspx",
+      "ticker": "VECO"
+    },
+    {
+      "claim": "Lumentum states that its EMLs support AI and cloud data-center optical connectivity and power 400G and 800G modules while providing an upgrade path toward 1.6T performance.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "Lumentum EMLs",
+      "source_url": "https://www.lumentum.com/en/products/data-center/modulated-lasers/emls",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Lumentum states that its CW lasers support silicon-photonics transceivers and co-packaged optics architectures for next-generation AI and cloud data centers across 400G, 800G, and 1.6T platforms.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "Lumentum CW Lasers",
+      "source_url": "https://www.lumentum.com/en/products/data-center/cw-lasers",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "Coherent announced production release of high-speed InP photodiodes designed for next-generation 800G and 1.6T transceivers with 200 Gb/s PAM4 optical lanes.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2024-10-01",
+      "source_title": "Coherent Launches High-Speed Photodiodes for 1.6T Transceivers",
+      "source_url": "https://www.coherent.com/news/press-releases/high-speed-photodiodes",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Coherent announced an InP portfolio for OFC 2026 including lasers, modulators, photodiodes, and subsystems for next-generation datacenter architectures, including 200G EML solutions for 1.6T transceivers and high-power CW lasers for CPO and SiPh pluggables.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03-31",
+      "source_title": "Coherent Demonstrates InP Technology Innovation With a Broad Range of Products",
+      "source_url": "https://www.coherent.com/news/press-releases/coherent-demonstrates-inp-technology-innovation",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Applied Optoelectronics announced its first volume order for 1.6T data-center transceivers from a major hyperscale customer for AI workloads; this was used as downstream demand validation, although AAOI was not included in the final four-candidate limit.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03-09",
+      "source_title": "AOI Receives First Volume Order of 1.6T Data Center Transceivers from Major Hyperscale Customer",
+      "source_url": "https://newsroom.ao-inc.com/news-releases/aoi-receives-first-volume-order-of-1-6t-data-center-transceivers-from-major-hyperscale-customer/",
+      "ticker": "AAOI"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.82,
+      "text": "AXTI should be carried forward as the primary underfollowed US-listed direct substrate candidate for the 800G/1.6T optical-transceiver substrate node, pending verification of InP backlog, AI data-center revenue, and qualification-cycle evidence from primary filings/calls.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "VECO should be tracked as a second-order equipment beneficiary because MOCVD tools for InP epitaxy may become a capacity-expansion bottleneck if optical-communications laser demand accelerates.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.79,
+      "text": "The node likely maps most cleanly to the InP substrate and InP epitaxy stack rather than generic optical modules; downstream EML, CW laser, photodiode, and transceiver orders should be used as demand validation but not as proof of substrate scarcity.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Need primary evidence on global supplier count, 24-month qualification cycles, customer identity/qualification status, and whether substrate supply is the binding constraint versus laser epitaxy, transceiver assembly, silicon-photonics foundry capacity, DSP availability, or hyperscaler order timing.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Commercial-grade substrates for 800G and 1.6T optical transceivers",
+  "node_id": "optical_transceiver_substrates",
+  "summary": "Layer 1B expansion for the optical-transceiver substrate chokepoint points first to indium phosphide and adjacent compound-semiconductor photonics capacity. The strongest underfollowed US-listed candidate is AXT, which directly manufactures InP/GaAs/Ge compound semiconductor substrates used in optoelectronic devices and data-center connectivity. Veeco is a second-order equipment candidate because its MOCVD systems enable InP epitaxy for optical-communications lasers. Lumentum and Coherent are higher-attention reference/component anchors: they sit closer to EML/CW laser and InP photodiode demand that pulls on substrate and epitaxy capacity. Applied Optoelectronics would also be a valid downstream demand validator, but this pass limits candidates to four and prioritizes scarce inputs, tools, and component nodes over module assemblers.",
+  "theme_id": "ai"
+}

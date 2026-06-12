@@ -1,0 +1,172 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "inference",
+      "company": "Vertiv Holdings",
+      "confidence": 0.78,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether backlog, book-to-bill, lead times, or customer commentary specifically point to AI data-center electrical infrastructure rather than generalized data-center spending.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-Q/10-K, earnings call transcript, segment backlog, hyperscaler exposure commentary, and margin mix between power, thermal, and services.",
+      "node_relation": "Direct supplier of critical power and thermal infrastructure used by data centers, including AI-scale facilities.",
+      "sector_or_industry": "Data center power, cooling, and critical digital infrastructure",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference_leader"
+      ],
+      "theme_relation": "AI data-center growth increases demand for reliable power distribution, backup power, thermal management, and uptime-critical infrastructure.",
+      "ticker": "VRT",
+      "why_include": "Vertiv is an obvious reference name for the data-center physical infrastructure layer and helps anchor the procurement dependency map from AI compute demand into electrical and thermal systems.",
+      "why_underfollowed": "Not underfollowed; included as a reference leader so that smaller suppliers and component vendors can be compared against a known data-center infrastructure beneficiary."
+    },
+    {
+      "attention_level": "high_attention",
+      "claim_type": "inference",
+      "company": "Constellation Energy",
+      "confidence": 0.72,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "New or expanded data-center power purchase agreements, nuclear uprate plans, restart economics, capacity-market exposure, and fuel procurement constraints.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review company filings, investor presentations, PPA announcements, PJM capacity commentary, and nuclear fuel procurement disclosures.",
+      "node_relation": "Owner/operator of nuclear generation assets that can serve as firm, carbon-free power supply for large data-center and hyperscaler electricity demand.",
+      "sector_or_industry": "Regulated and merchant nuclear power generation",
+      "serenity_tags": [
+        "demand",
+        "regulated_asset",
+        "reference_leader",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI data-center growth increases demand for high-availability electricity; nuclear generation is a reference source for firm baseload supply.",
+      "ticker": "CEG",
+      "why_include": "Constellation is a reference asset owner for the power-supply side of the AI electricity theme and frames why nuclear fuel, interconnection, and grid hardware may become second-order chokepoints.",
+      "why_underfollowed": "Not underfollowed; included as a direct asset-owner anchor because the node is electricity demand, but the discovery work should not stop at generation ownership."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Preformed Line Products",
+      "confidence": 0.68,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Order intake or backlog acceleration preceding Quanta, MYR, or utility transmission construction; evidence of line-hardware lead-time tightness; adoption of robotic installation systems that could raise switching costs.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "300m_to_1b",
+      "next_evidence": "Verify revenue exposure by utility/transmission products, customer concentration, backlog/order trends, utility capex correlation, and whether management explicitly cites data-center load or grid interconnection as demand drivers.",
+      "node_relation": "Supplier of physical transmission-line hardware that must be procured before transmission construction crews can complete grid expansion tied to new load growth.",
+      "sector_or_industry": "Transmission and distribution line hardware",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "second_order_beneficiary",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI/data-center electricity demand creates pressure for interconnection and transmission expansion; PLPC sits in the bill of materials for lines rather than owning generation or building data centers.",
+      "ticker": "PLPC",
+      "why_include": "Provided evidence describes PLPC as a pure-play public transmission hardware supplier whose products are installed on transmission towers and can be ordered before construction activity becomes visible in EPC revenue.",
+      "why_underfollowed": "It is obscure relative to utilities, hyperscalers, nuclear generators, and grid EPCs because it is a component supplier inside transmission construction rather than a branded AI or data-center company."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Centrus Energy",
+      "confidence": 0.76,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Federal HALEU awards, production ramp milestones, customer contracts with advanced reactor developers, enrichment capacity, and whether revenue timing matches AI/data-center power procurement timelines.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check DOE award documents, NRC licensing status, company filings, HALEU production disclosures, customer agreements, and cash-flow sensitivity to government-funded enrichment programs.",
+      "node_relation": "Nuclear fuel enrichment supplier linked to the availability of advanced reactor fuel and HALEU, a potential upstream bottleneck for nuclear capacity serving long-duration electricity demand.",
+      "sector_or_industry": "Nuclear fuel enrichment and HALEU",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "nuclear_fuel",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI data-center power demand increases the strategic value of firm nuclear generation and SMRs, nuclear fuel enrichment becomes a second-order procurement constraint.",
+      "ticker": "LEU",
+      "why_include": "Provided evidence states that Centrus is the only American firm licensed to produce HALEU, which is relevant for advanced nuclear fuel supply and potential SMR-linked power demand.",
+      "why_underfollowed": "More underfollowed than mega-cap nuclear generators or hyperscalers because it is upstream in fuel enrichment and its relevance depends on nuclear buildout, HALEU procurement, and policy execution rather than immediate data-center construction."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Preformed Line Products may be a pure-play public transmission hardware beneficiary because its hardware is installed on transmission towers and can be procured before line construction crews arrive.",
+      "claim_type": "hypothesis",
+      "confidence": 0.68,
+      "published_at": "2026-04-13T22:10:04.000Z",
+      "source_title": "The Only Pure-Play Transmission Hardware Stock Nobody Is Talking About",
+      "source_url": "https://lanin.substack.com/p/the-invisible-bom-plpc-is-the-hardware",
+      "ticker": "PLPC"
+    },
+    {
+      "claim": "Centrus Energy is described in the provided evidence as the only American firm licensed to produce high-assay low-enriched uranium, which is relevant to advanced nuclear reactor fuel supply.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-04-26T00:00:00.000Z",
+      "source_title": "3 Overlooked Nuclear Fuel Supply Chain Winners",
+      "source_url": "https://finance.yahoo.com/sectors/energy/articles/3-overlooked-nuclear-fuel-supply-115000175.html",
+      "ticker": "LEU"
+    },
+    {
+      "claim": "Nuclear fuel enrichment is a second-order chokepoint for AI power demand if hyperscalers and utilities increasingly rely on nuclear generation or SMRs for firm electricity supply.",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "published_at": "2026-05-09T23:28:27.000Z",
+      "source_title": "Where the Uranium bottlenecks actually are - by Dante",
+      "source_url": "https://www.airealist.ai/p/where-the-uranium-bottlenecks-actually",
+      "ticker": "LEU"
+    },
+    {
+      "claim": "Power distribution, power conversion, transformers, and power quality are schedule-critical for AI infrastructure and data-center expansion, supporting inclusion of data-center power infrastructure leaders as reference names.",
+      "claim_type": "inference",
+      "confidence": 0.7,
+      "published_at": "2026-05-28T12:45:56.000Z",
+      "source_title": "The Boring Power Infrastructure Company That Is Becoming a Monster 10x Compounder: Hammond Power Solutions ($HPS.A)",
+      "source_url": "https://rmainvestments.substack.com/p/the-boring-power-infrastructure-company",
+      "ticker": "VRT"
+    },
+    {
+      "claim": "AI/data-center electricity demand raises the strategic value of firm power assets, including nuclear generation, but generation ownership is only one layer of the chokepoint map.",
+      "claim_type": "inference",
+      "confidence": 0.66,
+      "published_at": "2026-05-09T23:28:27.000Z",
+      "source_title": "Where the Uranium bottlenecks actually are - by Dante",
+      "source_url": "https://www.airealist.ai/p/where-the-uranium-bottlenecks-actually",
+      "ticker": "CEG"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.68,
+      "text": "PLPC should be tracked as an underfollowed U.S.-listed transmission hardware candidate for the AI/data-center power-load node; verify product-level utility exposure and backlog before promoting beyond Layer 1.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "LEU belongs in the underfollowed nuclear-fuel chokepoint lane because HALEU/enrichment exposure is more direct to advanced nuclear fuel scarcity than diversified mega-cap industrial exposure.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.74,
+      "text": "For AI power demand, the investable chokepoint may appear before generation revenue recognition: transformers, switchgear, transmission hardware, fuel enrichment, and interconnection equipment can become procurement gates.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.71,
+      "text": "Hammond Power Solutions appears relevant to dry-type transformers and power-quality exposure, but it is not primarily U.S.-listed; track separately as non-U.S. comparable or OTC-accessible candidate if the mandate expands.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI and data-center electricity demand as the top-of-funnel load driver",
+  "node_id": "ai_data_center_power_load",
+  "summary": "Expanded the direct public-company universe around the AI/data-center power-load node using a two-lane Serenity funnel. Reference lane includes obvious large-cap demand/procurement beneficiaries such as Vertiv and Constellation. Discovery lane emphasizes investable chokepoint suppliers one or two steps away from the headline AI story: transmission-line hardware and nuclear fuel/enrichment. Claims are constrained to the provided search evidence; unsupported sizing and exposure details are labeled as inference or hypothesis.",
+  "theme_id": "energy"
+}

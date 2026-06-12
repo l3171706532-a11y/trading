@@ -1,0 +1,251 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "ASML Holding N.V.",
+      "confidence": 0.93,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Track EUV/high-NA order timing, installed-base service revenue, throughput upgrades, and supplier constraints inside ASML's own supply chain.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review ASML annual report, EUV backlog/order commentary, high-NA shipment schedule, and named supplier dependencies where disclosed.",
+      "node_relation": "Reference leader and primary EUV lithography bottleneck for leading-edge semiconductor manufacturing.",
+      "sector_or_industry": "Semiconductor lithography equipment",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference_leader",
+        "qualification_gated"
+      ],
+      "theme_relation": "Advanced AI accelerators depend on leading-edge foundry capacity, which depends on EUV and high-NA lithography availability, uptime, throughput, and customer qualification.",
+      "ticker": "ASML",
+      "why_include": "ASML is the clearest context anchor for this node because EUV lithography is a hard chokepoint in advanced-node capacity expansion.",
+      "why_underfollowed": "Not underfollowed; included only as the reference leader to map downstream AI capex into less obvious suppliers."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Entegris, Inc.",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether Entegris has rising mix or pricing in advanced-node, HBM, advanced packaging, EUV-related filtration, specialty gases, or ultra-high-purity materials.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check segment revenue growth, customer concentration, gross-margin drivers, fab ramp commentary, and any disclosures tying products to advanced logic, DRAM/HBM, or advanced packaging.",
+      "node_relation": "Supplies contamination-control, filtration, purification, specialty materials, specialty gases, CMP materials, and wafer-handling solutions used in semiconductor manufacturing.",
+      "sector_or_industry": "Semiconductor materials, filtration, purification, contamination control",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "specialty_materials",
+        "qualification_gated",
+        "underfollowed"
+      ],
+      "theme_relation": "As advanced AI chips push smaller geometries, 3D structures, HBM, and advanced packaging, contamination control and ultra-high-purity materials may become more critical to yield and time-to-ramp.",
+      "ticker": "ENTG",
+      "why_include": "Entegris maps directly to the node's specialty materials and contamination-control angle; its products can be recurring consumables rather than one-time equipment sales.",
+      "why_underfollowed": "It is not obscure, but it is less discussed than ASML, Applied Materials, Lam Research, KLA, or chip designers; the AI link is often indirect through yield, process complexity, and fab consumables."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "MKS Inc.",
+      "confidence": 0.75,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether semiconductor and electronics/packaging growth is specifically tied to AI-related advanced packaging, leading-edge foundry/memory capex, or OEM design-ins.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review 10-K segment disclosures, semiconductor end-market growth, customer concentration, debt/leverage from Atotech acquisition, and product-level exposure to advanced packaging.",
+      "node_relation": "Provides instruments, subsystems, process-control solutions, vacuum technologies, photonics, and specialty chemicals used in semiconductor manufacturing and electronics/advanced packaging.",
+      "sector_or_industry": "Semiconductor process-control, vacuum, photonics, specialty chemicals, advanced packaging tools",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment_components",
+        "advanced_packaging",
+        "bottleneck",
+        "underfollowed"
+      ],
+      "theme_relation": "AI-driven wafer-fab and advanced-packaging investment can pull demand for vacuum, gas/vapor delivery, process control, photonics, and packaging-enabling technologies.",
+      "ticker": "MKSI",
+      "why_include": "MKS sits one layer below the obvious equipment OEMs, supplying enabling technologies and subsystems that can become qualification-gated within fab tools and advanced-packaging flows.",
+      "why_underfollowed": "Market attention usually clusters around wafer-fab equipment primes; MKS is a component/subsystem and enabling-technology supplier with a more complex business mix."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Ichor Holdings, Ltd.",
+      "confidence": 0.66,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Evidence of design-in status, share gains, backlog recovery, or customer concentration with major deposition/etch equipment OEMs tied to advanced-node capex.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-K and quarterly filings for customer concentration, Lam/Applied/TEL exposure if disclosed, gross-margin recovery, backlog, and commentary on advanced-node or memory equipment demand.",
+      "node_relation": "Designs and manufactures critical gas and chemical fluid-delivery subsystems and precision components for semiconductor capital-equipment OEMs.",
+      "sector_or_industry": "Semiconductor capital equipment subsystems and fluid delivery",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment_components",
+        "bottleneck",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "If leading-edge wafer-fab equipment demand rises with AI chip capacity expansion, fluid-delivery subsystems inside deposition, etch, and related tools may see second-order demand.",
+      "ticker": "ICHR",
+      "why_include": "Ichor is closer to the Serenity 'buried supplier' pattern: a smaller public company supplying critical subsystems into semiconductor capital equipment OEMs rather than selling fab tools directly.",
+      "why_underfollowed": "It is small/mid-cap, less visible than equipment primes, and its AI exposure is hidden through OEM customers and fab-tool demand rather than direct AI revenue disclosure."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "ASML is a leading semiconductor lithography company and discloses EUV lithography systems, including delivery of a full-specification TWINSCAN EXE:5200B system.",
+      "claim_type": "fact",
+      "confidence": 0.93,
+      "published_at": "2026-03",
+      "source_title": "ASML 2025 Annual Report",
+      "source_url": "https://www.asml.com/en/investors/annual-report/2025",
+      "ticker": "ASML"
+    },
+    {
+      "claim": "ASML's U.S.-listed equity had a market capitalization of approximately $682.3 billion in the finance tool snapshot used for this run.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-11",
+      "source_title": "Finance tool snapshot for ASML",
+      "source_url": "web.finance://ASML?as_of=2026-06-11",
+      "ticker": "ASML"
+    },
+    {
+      "claim": "Entegris describes contamination control as crucial in semiconductor fabs as feature sizes decrease and 3D structures proliferate, and offers liquid, gas, and air purification/filtration solutions.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Contamination Control | Entegris",
+      "source_url": "https://www.entegris.com/en/home/our-science/by-solution-area/contamination-control.html",
+      "ticker": "ENTG"
+    },
+    {
+      "claim": "Entegris reports Materials Solutions and Advanced Purity Solutions businesses that include deposition materials, CMP materials, ion implantation specialty gases, formulated etch/clean materials, and filtration/purification/contamination-control solutions.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025",
+      "source_title": "Financials | Entegris",
+      "source_url": "https://investor.entegris.com/financials/default.aspx",
+      "ticker": "ENTG"
+    },
+    {
+      "claim": "Entegris had a finance-tool market capitalization of approximately $19.7 billion in the snapshot used for this run.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-11",
+      "source_title": "Finance tool snapshot for ENTG",
+      "source_url": "web.finance://ENTG?as_of=2026-06-11",
+      "ticker": "ENTG"
+    },
+    {
+      "claim": "MKS says it delivers foundational technology solutions to leading-edge semiconductor manufacturing, electronics and packaging, including instruments, subsystems, systems, process-control solutions, and specialty chemicals technology.",
+      "claim_type": "fact",
+      "confidence": 0.85,
+      "published_at": "2025-02-11",
+      "source_title": "MKS Instruments Declares Quarterly Cash Dividend",
+      "source_url": "https://investor.mks.com/news-releases/news-release-details/mks-instruments-declares-quarterly-cash-dividend-32",
+      "ticker": "MKSI"
+    },
+    {
+      "claim": "MKS reported Q4 and full-year 2025 results and stated that its portfolio targeted to next-generation semiconductor manufacturing and advanced packaging drove double-digit growth in its two key end markets in 2025.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-02-17",
+      "source_title": "MKS Inc. Reports Fourth Quarter and Full-Year 2025 Financial Results",
+      "source_url": "https://investor.mks.com/node/23836",
+      "ticker": "MKSI"
+    },
+    {
+      "claim": "MKS had a finance-tool market capitalization of approximately $22.5 billion in the snapshot used for this run.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-11",
+      "source_title": "Finance tool snapshot for MKSI",
+      "source_url": "web.finance://MKSI?as_of=2026-06-11",
+      "ticker": "MKSI"
+    },
+    {
+      "claim": "Ichor is described as a leader in design, engineering, and manufacturing of critical fluid-delivery subsystems for semiconductor capital equipment.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Ichor Holdings Ltd - AnnualReports.com",
+      "source_url": "https://www.annualreports.com/Company/ichor-holdings-ltd",
+      "ticker": "ICHR"
+    },
+    {
+      "claim": "Ichor's 10-K language states its goal is to be a leading supplier of fluid-delivery subsystems and components to OEMs engaged in manufacturing capital equipment to produce semiconductors.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-03",
+      "source_title": "Ichor Holdings details 2025 results and risks | ICHR Annual Report (10-K)",
+      "source_url": "https://www.stocktitan.net/sec-filings/ICHR/10-k-ichor-holdings-ltd-files-annual-report-84289a8523cc.html",
+      "ticker": "ICHR"
+    },
+    {
+      "claim": "Ichor had a finance-tool market capitalization of approximately $2.5 billion in the snapshot used for this run.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-11",
+      "source_title": "Finance tool snapshot for ICHR",
+      "source_url": "web.finance://ICHR?as_of=2026-06-11",
+      "ticker": "ICHR"
+    },
+    {
+      "claim": "The external search context supports the Serenity lens that inefficiency may sit one or two layers below obvious AI chip and HBM producers, especially where analyst coverage is thin and supplier dependencies are hard to map.",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "published_at": "2026-06-03",
+      "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+      "source_url": "https://outperformers.co/p/tss3",
+      "ticker": ""
+    },
+    {
+      "claim": "The external search context frames semiconductor equipment as a necessary layer for advanced-node AI capacity, but dependency paths often require mapping beyond simple AI keyword exposure.",
+      "claim_type": "inference",
+      "confidence": 0.7,
+      "published_at": "2026-05-19",
+      "source_title": "I Built the AI Supply Chain Map Wall Street Wishes It Had",
+      "source_url": "https://automatedalpha.substack.com/p/i-built-the-ai-supply-chain-map-wall",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.93,
+      "text": "ASML should remain the reference leader for the lithography bottleneck but should not dominate the underfollowed lane.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "ENTG is a strong follow-up candidate for contamination-control, specialty-materials, purification, filtration, and recurring consumables exposure to advanced semiconductor manufacturing.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.75,
+      "text": "MKSI is a follow-up candidate for vacuum, process-control, photonics, specialty chemicals, and advanced-packaging exposure; verify how much growth is AI-related versus broad electronics cycle recovery.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.66,
+      "text": "ICHR is a smaller, lower-attention supplier candidate for critical fluid-delivery subsystems used by semiconductor capital-equipment OEMs; verify customer concentration and design-in durability.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Need a later pass on other public niche names in metrology, inspection, probe cards, test handlers, advanced packaging consumables, ceramics, vacuum components, specialty gases, and cleanroom contamination control.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Semiconductor equipment, specialty materials, and qualification-gated tooling",
+  "node_id": "semiconductor_equipment_materials_qualification",
+  "summary": "Expanded the direct public-company universe for the semiconductor equipment/materials/qualification node with a two-lane list: ASML as the reference bottleneck anchor, and Entegris, MKS Instruments, and Ichor Holdings as more underfollowed or second-layer suppliers tied to contamination control, specialty materials, process-control subsystems, vacuum/photonics, and fluid-delivery subsystems. This pass stays close to the node and does not make buy/sell recommendations.",
+  "theme_id": "ai"
+}

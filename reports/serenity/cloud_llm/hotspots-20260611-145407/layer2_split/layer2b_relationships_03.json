@@ -1,0 +1,83 @@
+{
+  "evidence": [
+    {
+      "claim": "The cached candidate chunk includes Ford Motor Company only as a low-confidence research seed around possible supplier stress and OEM-supplier relationship tension; it states that this node is not validated by primary evidence in the supplied context.",
+      "claim_type": "speculation",
+      "confidence": 0.2,
+      "published_at": "2026-06-11T14:41:51Z",
+      "source_title": "Cached Layer 1 candidate chunk provided by user",
+      "source_url": "",
+      "ticker": "F"
+    },
+    {
+      "claim": "Because Ford is a large, high-attention OEM, the more Serenity-consistent research path is to use Ford as a reference node to identify overlooked suppliers, tooling vendors, parts makers, or financially stressed counterparties rather than treating Ford itself as the underfollowed candidate.",
+      "claim_type": "inference",
+      "confidence": 0.35,
+      "published_at": "2026-06-11T14:41:51Z",
+      "source_title": "Inference from cached Serenity methodology and candidate chunk",
+      "source_url": "",
+      "ticker": "F"
+    },
+    {
+      "claim": "The external search context supplied for this model call contains evidence on sulphur/sulphuric acid, indium phosphide, marine biofouling, logistics hotspots, and niche API manufacturers, but it does not include direct primary evidence about Ford supplier disputes or Ford-specific auto supplier stress.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-11T00:00:00Z",
+      "source_title": "External search context supplied in prompt",
+      "source_url": "",
+      "ticker": ""
+    }
+  ],
+  "layer": "2B",
+  "memory_update": [
+    {
+      "confidence": 0.75,
+      "text": "F should be retained only as a speculative-shadow/reference OEM node for the auto supplier stress branch of New Hotspots; it is not an underfollowed candidate and has no validated company-level catalyst in the supplied evidence.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Need primary-source validation before advancing the Ford-supplier-stress node: Ford SEC filings, earnings calls, recall/NHTSA data, supplier litigation, and supplier filings must show actual disputes, delayed payments, pricing resets, production disruption, warranty exposure, or supplier financial stress.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.85,
+      "text": "Next layer should identify specific public suppliers with Ford customer concentration and small/mid-cap market caps, then test for receivables stress, launch-cost overruns, program exposure, margin compression, covenant risk, or restructuring charges.",
+      "type": "evidence_gap"
+    }
+  ],
+  "summary": "Candidate chunk is a low-confidence speculative-shadow node centered on Ford Motor Company as a possible indicator of auto supplier stress. No primary or external search evidence provided in this run validates a Ford-specific supplier rift, payment dispute, production disruption, warranty issue, or procurement reset. Relationship mapping should therefore retain Ford only as a reference/risk node and explicitly redirect the next research step toward identifying underfollowed suppliers, tooling vendors, parts makers, distressed counterparties, or warranty-exposed component categories before this node can advance.",
+  "theme_id": "new_hotspots",
+  "ticker_relationships": [
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0.2,
+      "hidden_signal_to_verify": "Primary-source evidence of Ford supplier disputes, delayed payments, production disruptions, supplier pricing resets, warranty claims, purchasing-policy changes, receivables stress, litigation, or supplier bankruptcies tied to Ford programs.",
+      "next_evidence": "Search Ford 10-Q/10-K risk factors and MD&A for supplier disruption, warranty accrual, production constraints, inventory, recall, and procurement commentary; then cross-check supplier 10-Qs for Ford customer concentration, receivables growth, margin compression, covenant stress, program launch costs, or restructuring charges.",
+      "node": "auto supplier stress / OEM-supplier relationship tension",
+      "relationship": "Ford is the visible OEM reference point for a speculative supplier-stress research seed. The potential Serenity angle is not Ford itself, but whether Ford-related procurement, warranty, production, or supplier-financing pressure is creating overlooked stress or repricing opportunities among smaller public suppliers.",
+      "ticker": "F"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.25,
+      "hidden_signal_to_verify": "Supplier filings disclosing Ford as a major customer, Ford-specific platform exposure, concentration in EV programs, combustion platform wind-downs, warranty/recall components, stamping, seating, wiring, driveline, castings, sensors, tooling, or logistics.",
+      "next_evidence": "Build a supplier-exposure table from public filings using terms such as 'Ford', 'major customer', 'customer concentration', 'launch costs', 'platform', 'warranty', 'recall', 'receivables', and 'pricing recoveries'.",
+      "node": "reference OEM for underfollowed supplier discovery",
+      "relationship": "Ford may function as a high-attention reference leader used to trace downstream pressure into less-followed public suppliers. It should not crowd out the actual alpha hunt, which should focus on small/mid-cap suppliers with direct Ford exposure if verified.",
+      "ticker": "F"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0.15,
+      "hidden_signal_to_verify": "Ford-specific disclosure showing supplier instability affects cost of goods sold, production schedules, warranty accruals, recalls, working capital, or vehicle availability.",
+      "next_evidence": "Review recent Ford earnings call transcripts, SEC filings, recall notices, NHTSA data, and supplier litigation dockets for corroboration.",
+      "node": "risk-node rather than direct beneficiary",
+      "relationship": "If supplier stress is real, Ford could be a source of margin pressure, production risk, warranty exposure, or procurement renegotiation headlines rather than the clean beneficiary. Any direct Ford thesis should remain secondary until company-level evidence exists.",
+      "ticker": "F"
+    }
+  ]
+}

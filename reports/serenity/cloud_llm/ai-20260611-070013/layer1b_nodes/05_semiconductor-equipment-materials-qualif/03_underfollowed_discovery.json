@@ -1,0 +1,188 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "ASML Holding N.V.",
+      "confidence": 0.9,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Supplier-level exposure to ASML tool builds, EUV service intensity, high-purity consumables, optics, vacuum, motion-control, ceramics, and contamination-control subsystems.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Map ASML supplier disclosures, major WFE OEM supplier lists, and component categories with long qualification cycles.",
+      "node_relation": "Reference leader for EUV/advanced lithography tooling; used as the context anchor for mapping downstream qualification-gated suppliers and subsystems.",
+      "sector_or_industry": "Semiconductor lithography equipment",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference_leader"
+      ],
+      "theme_relation": "Advanced AI accelerators depend on leading-edge wafer manufacturing, where lithography availability and tool roadmaps constrain advanced-node capacity.",
+      "ticker": "ASML",
+      "why_include": "ASML is the obvious chokepoint anchor for advanced-node semiconductor equipment; it helps identify supplier categories beneath lithography and wafer-fab-equipment OEMs.",
+      "why_underfollowed": "Not underfollowed; included only as a reference anchor so smaller suppliers are not evaluated in isolation."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "MKS Instruments, Inc.",
+      "confidence": 0.74,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Semiconductor and advanced-packaging revenue mix, tool OEM customer concentration, exposure to leading-edge nodes, and attach rate to deposition/etch/lithography/metrology workflows.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review latest 10-K segment revenue, customer concentration, semiconductor vs electronics/packaging growth, debt load, and commentary from Lam/Applied/ASML capex cycles.",
+      "node_relation": "Supplies instruments, subsystems, process-control solutions, specialty chemicals, vacuum, photonics, lasers, and related technologies used in semiconductor manufacturing, electronics, and advanced packaging.",
+      "sector_or_industry": "Semiconductor subsystems, process control, vacuum, photonics, lasers, specialty chemicals",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "qualification_gated",
+        "underfollowed"
+      ],
+      "theme_relation": "AI chip demand indirectly pulls advanced-node wafer capacity, advanced packaging, and process-control intensity, which can flow into MKSI's vacuum, photonics, laser, and specialty-materials businesses.",
+      "ticker": "MKSI",
+      "why_include": "MKSI is not obscure by market cap, but its AI exposure is second-order and buried in enabling technologies rather than branded AI chips. It may capture demand through vacuum/process control, lasers, photonics, and materials required by WFE and advanced packaging.",
+      "why_underfollowed": "It is often screened as diversified instruments/electronics equipment rather than as a pure AI infrastructure supplier; the relevant signal may sit inside semiconductor process-control and packaging subsegments."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Ichor Holdings, Ltd.",
+      "confidence": 0.8,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Revenue concentration with Lam Research, Applied Materials, ASML or other WFE OEMs; design-win duration; content per tool for advanced-node deposition/etch; and whether chemical delivery is expanding faster than baseline WFE.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify named customers and customer concentration in latest 10-K, compare backlog/bookings with WFE cycle recovery, and check whether gross margin improves with advanced-node subsystem mix.",
+      "node_relation": "Designs, engineers, and manufactures gas and liquid delivery subsystems and components purchased by semiconductor capital-equipment manufacturers.",
+      "sector_or_industry": "Semiconductor equipment subsystems; gas and chemical delivery",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "qualification_gated",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Advanced AI semiconductor production requires more wafer-fab process steps, tighter gas/chemical control, and qualified subsystem suppliers; ICHR is one layer beneath the obvious WFE OEMs.",
+      "ticker": "ICHR",
+      "why_include": "ICHR fits the Serenity underfollowed profile: narrow WFE subsystem supplier, customer-specific design requirements, and likely qualification friction in gas/chemical delivery for complex semiconductor tools.",
+      "why_underfollowed": "The company is not usually discussed as an AI name because it sells into capital-equipment OEMs rather than directly to NVIDIA, hyperscalers, or foundries."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Ultra Clean Holdings, Inc.",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Growth in Services versus Products, utilization of cleaning facilities, customer concentration, exposure to leading-edge fabs, and whether AI-related WFE recovery improves margins after recent cyclicality.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review latest 10-K and quarterly filings for segment trends, customer concentration, internal-control risks, impairment history, and management commentary on advanced-node and high-purity cleaning demand.",
+      "node_relation": "Provides critical subsystems, components, parts, and ultra-high-purity cleaning and analytical services primarily to semiconductor equipment and semiconductor manufacturing customers.",
+      "sector_or_industry": "Semiconductor critical subsystems, components, parts, ultra-high-purity cleaning and analytical services",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "contamination_control",
+        "qualification_gated",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI-driven advanced-node capacity expansion can increase demand for qualified subsystems, clean parts, chamber components, and contamination-control services across wafer-fab equipment and fabs.",
+      "ticker": "UCTT",
+      "why_include": "UCTT is a plausible second-order beneficiary because ultra-high-purity cleaning and critical subsystem supply are qualification-sensitive and harder to substitute quickly in semiconductor manufacturing.",
+      "why_underfollowed": "The company is a behind-the-scenes outsourced manufacturing and cleaning-services supplier; its AI exposure is not obvious from ticker screens and may be hidden inside WFE OEM and IDM relationships."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Ichor designs, develops, manufactures, and distributes gas and liquid delivery subsystems and components purchased by capital-equipment manufacturers for semiconductor markets.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-02-21",
+      "source_title": "Ichor Holdings, Ltd. - 10-K - Annual Report - February 21, 2025",
+      "source_url": "https://fintel.io/doc/sec-ichor-holdings-ltd-1652535-10k-2025-february-21-20140-371",
+      "ticker": "ICHR"
+    },
+    {
+      "claim": "Ultra Clean is described as a supplier of critical subsystems, components, parts, and ultra-high-purity cleaning and analytical services primarily for the semiconductor industry.",
+      "claim_type": "fact",
+      "confidence": 0.85,
+      "published_at": "2025-02-25",
+      "source_title": "Ultra Clean Holdings, Inc. - 10-K - Annual Report - February 25, 2025",
+      "source_url": "https://fintel.io/doc/sec-ultra-clean-holdings-inc-1275014-10k-2025-february-25-20144-8846",
+      "ticker": "UCTT"
+    },
+    {
+      "claim": "MKS Instruments designs and manufactures instruments, subsystems, systems, process-control solutions, and specialty chemicals focused on vacuum, photonics, lasers, and related technologies for semiconductor manufacturing, electronics and packaging, and specialty industrial markets.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2024-02-27",
+      "source_title": "MKS Instruments 10-K business description tracker",
+      "source_url": "https://www.board-cybersecurity.com/annual-reports/tracker/20240227-mks-instruments-cybersecurity-10k",
+      "ticker": "MKSI"
+    },
+    {
+      "claim": "Advanced Energy provides highly engineered precision power conversion, measurement, and control solutions, with applications including semiconductor equipment, data-center computing, industrial, medical, networking, and telecom markets. It was considered but not included due to the four-candidate limit.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-02-13",
+      "source_title": "Advanced Energy Industries Inc. 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/927003/000110465926014731/aeis-20251231x10k.htm",
+      "ticker": "AEIS"
+    },
+    {
+      "claim": "The underfollowed discovery logic favors companies one or two steps beneath obvious AI semiconductor leaders, where thin coverage and indirect exposure may create overlooked supplier dependencies.",
+      "claim_type": "inference",
+      "confidence": 0.68,
+      "published_at": "2026-06-03",
+      "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+      "source_url": "https://outperformers.co/p/tss3",
+      "ticker": ""
+    },
+    {
+      "claim": "AI infrastructure supply-chain stress is visible in delivery times, order backlogs, and industrial input constraints, supporting a broader search for physical bottlenecks beyond GPU vendors.",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "published_at": "2026-05-11",
+      "source_title": "Will Mounting Supply Chain Strains Hamstring the AI Investment Boom?",
+      "source_url": "https://libertystreeteconomics.newyorkfed.org/2026/05/will-mounting-supply-chain-strains-hamstring-the-ai-investment-boom/",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.8,
+      "text": "ICHR should remain in the Layer 1B universe as a high-relevance underfollowed supplier for gas and chemical delivery subsystems used by semiconductor capital-equipment OEMs.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "UCTT should remain in the Layer 1B universe as a second-order semiconductor equipment and contamination-control candidate tied to critical subsystems, parts, and ultra-high-purity cleaning services.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.74,
+      "text": "MKSI is larger than the preferred small/mid-cap hunting range but merits continued tracking because its vacuum, photonics, lasers, process-control, and specialty-chemicals exposure is strategically relevant to advanced-node and advanced-packaging workflows.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Need primary-source verification of named customer exposure, design-in duration, qualification cycles, and content-per-tool for ICHR, UCTT, and MKSI before any candidate can advance beyond Layer 1.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.82,
+      "text": "The most promising subnodes for the next pass are gas/chemical delivery, ultra-high-purity cleaning, vacuum/process control, specialty chemicals, precision components, and tool-specific qualified subsystems.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "Semiconductor equipment, specialty materials, and qualification-gated tooling",
+  "node_id": "semiconductor_equipment_materials_qualification",
+  "summary": "Expanded the semiconductor equipment/materials qualification node with a two-lane universe: ASML as the obvious reference bottleneck, plus underfollowed US-listed suppliers one or two layers beneath wafer-fab equipment OEMs. The strongest discovery candidates in this pass are ICHR and UCTT because they sit in gas/chemical delivery, critical subsystems, precision components, and ultra-high-purity cleaning services that are tied to fab-equipment qualification cycles but are less directly associated with AI than GPU, foundry, or lithography leaders. MKSI is larger and more visible, but still relevant because its vacuum, photonics, lasers, process-control, and specialty-chemical exposure maps cleanly into advanced semiconductor manufacturing and packaging.",
+  "theme_id": "ai"
+}

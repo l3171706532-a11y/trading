@@ -1,0 +1,986 @@
+{
+  "catalysts": [
+    {
+      "affected_nodes": [
+        "defense_appropriations_and_multiyear_procurement",
+        "policy_capital_and_direct_government_investment",
+        "solid_rocket_motor_capacity",
+        "tier_2_defense_electronics_and_mission_processing",
+        "skilled_labor_and_manufacturing_infrastructure"
+      ],
+      "claim_type": "fact",
+      "description": "FY27 defense-industrial-base funding requests or congressional appropriations that explicitly allocate money to private-sector capacity, strategic manufacturing, munitions, sustainment, or reshoring.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "policy_capital_and_direct_government_investment",
+        "solid_rocket_motor_capacity",
+        "ammonium_perchlorate_and_energetics_inputs",
+        "testing_certification_and_qualification_equipment"
+      ],
+      "claim_type": "fact",
+      "description": "Direct DoD strategic investments into named defense-industrial-base suppliers or business units, especially when funds are targeted at capacity expansion, modernization, production acceleration, or critical national-security technologies.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "defense_primes_and_tier_1_integrators",
+        "tier_2_defense_electronics_and_mission_processing",
+        "advanced_composites_ablatives_nozzle_and_radome_materials",
+        "testing_certification_and_qualification_equipment"
+      ],
+      "claim_type": "inference",
+      "description": "Prime-contractor earnings calls or filings that cite Tier 2 supplier constraints, specialized electronic components, circuit boards, material shortages, or supplier price increases as production risks.",
+      "type": "earnings"
+    },
+    {
+      "affected_nodes": [
+        "solid_rocket_motor_capacity",
+        "ammonium_perchlorate_and_energetics_inputs",
+        "infrared_optics_optical_materials_and_camera_modules",
+        "advanced_composites_ablatives_nozzle_and_radome_materials",
+        "tier_2_defense_electronics_and_mission_processing"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Capacity-expansion announcements by SRM suppliers, energetic-material suppliers, defense electronics providers, photonics suppliers, or specialty materials companies, especially where expansion is tied to funded programs or government support.",
+      "type": "capex"
+    },
+    {
+      "affected_nodes": [
+        "tier_2_defense_electronics_and_mission_processing",
+        "advanced_composites_ablatives_nozzle_and_radome_materials",
+        "infrared_optics_optical_materials_and_camera_modules",
+        "testing_certification_and_qualification_equipment",
+        "defense_aftermarket_sustainment_and_logistics"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Evidence that a small or mid-cap supplier is sole-source, limited-source, qualified, or embedded on a funded missile, radar, space, aircraft, infrared, sustainment, or classified defense program.",
+      "type": "customer"
+    },
+    {
+      "affected_nodes": [
+        "tariffs_export_controls_and_covered_nation_sourcing_rules",
+        "infrared_optics_optical_materials_and_camera_modules",
+        "non_china_rare_earth_feedstock_and_separation",
+        "magnet_requalification_and_customer_acceptance",
+        "tier_2_defense_electronics_and_mission_processing"
+      ],
+      "claim_type": "inference",
+      "description": "Covered-nation sourcing restrictions, China-risk reduction rules, tariffs, export controls, or defense procurement rules that require domestic or allied sourcing of optics, electronics, rare earths, magnet materials, or critical components.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "non_china_rare_earth_feedstock_and_separation",
+        "magnet_requalification_and_customer_acceptance"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Qualification of non-China rare earth oxides or magnet feedstock by downstream magnet makers, defense customers, or industrial OEMs.",
+      "type": "technology"
+    },
+    {
+      "affected_nodes": [
+        "tier_2_defense_electronics_and_mission_processing",
+        "solid_rocket_motor_capacity",
+        "advanced_composites_ablatives_nozzle_and_radome_materials",
+        "testing_certification_and_qualification_equipment"
+      ],
+      "claim_type": "hypothesis",
+      "description": "Backlog conversion, book-to-bill strength, margin expansion, or disclosed price increases at subtier suppliers that confirm pricing power from defense supply-chain scarcity.",
+      "type": "earnings"
+    },
+    {
+      "affected_nodes": [
+        "defense_appropriations_and_multiyear_procurement",
+        "skilled_labor_and_manufacturing_infrastructure",
+        "policy_capital_and_direct_government_investment",
+        "defense_aftermarket_sustainment_and_logistics"
+      ],
+      "claim_type": "fact",
+      "description": "Continuing resolutions, delayed appropriations, or budget instability that reduce supplier willingness to invest in capacity despite strong headline demand.",
+      "type": "policy"
+    },
+    {
+      "affected_nodes": [
+        "defense_primes_and_tier_1_integrators",
+        "solid_rocket_motor_capacity",
+        "ammonium_perchlorate_and_energetics_inputs",
+        "tier_2_defense_electronics_and_mission_processing"
+      ],
+      "claim_type": "fact",
+      "description": "Reports or official documents showing that new defense entrants rely on the same constrained subtier supply chain as incumbents, limiting the ability of venture-backed or nontraditional primes to relieve bottlenecks quickly.",
+      "type": "news"
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "The defense industrial base remains shallow and fragile because capital has flowed heavily to would-be Tier 1 companies while subtier suppliers remain exposed to uneven demand signals and appropriations.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": ""
+    },
+    {
+      "claim": "CNAS identifies L3Harris as one of the two main current suppliers of solid rocket motors.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": "LHX"
+    },
+    {
+      "claim": "CNAS identifies Northrop Grumman as one of the two main current suppliers of solid rocket motors.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": "NOC"
+    },
+    {
+      "claim": "The SRM bottleneck extends below the prime supplier layer because SRM makers depend on the same underlying supply chain for critical parts and materials.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": ""
+    },
+    {
+      "claim": "CNAS states that as recently as 2020 there was only one certified domestic source of ammonium perchlorate for SRM makers, with a second certified in 2021, while demand still exceeds supply.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": ""
+    },
+    {
+      "claim": "JPMorgan's defense-industrial-base report states that decades of consolidation, inconsistent investment, fragile supply chains, and workforce constraints have left the U.S. defense industrial base optimized for peacetime efficiency rather than scale, speed, or sustained competition.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "An Era of Global Rearmament and the U.S. Defense Industrial Base",
+      "source_url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/documents/center-for-geopolitics/jpmc-cfg-us-dib-v4-ada-remediated.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "JPMorgan's report argues that procurement alone cannot solve production bottlenecks because subtier suppliers, skilled labor, manufacturing infrastructure, and capital investment require coordinated public-private action.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "An Era of Global Rearmament and the U.S. Defense Industrial Base",
+      "source_url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/documents/center-for-geopolitics/jpmc-cfg-us-dib-v4-ada-remediated.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "JPMorgan's report states that continuing resolutions and delayed appropriations discourage long-term investment, workforce expansion, and capacity growth.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "",
+      "source_title": "An Era of Global Rearmament and the U.S. Defense Industrial Base",
+      "source_url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/documents/center-for-geopolitics/jpmc-cfg-us-dib-v4-ada-remediated.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "Capstone reported that on April 23 the Defense Department and L3Harris announced closure of a $1 billion DoD investment in L3Harris's Missile Solutions business for modernization, R&D acceleration, and production-capacity expansion.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05-04",
+      "source_title": "The Industrial Surge: How Defense Dollars Will Strengthen American Supply Chains - Capstone DC",
+      "source_url": "https://capstonedc.com/insights/the-industrial-surge-how-defense-dollars-will-strengthen-american-supply-chains/",
+      "ticker": "LHX"
+    },
+    {
+      "claim": "Capstone reported that the White House requested $92.4 billion for defense-industrial-base funding in the FY27 President's Budget Request, compared with $14 billion the prior year.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-05-04",
+      "source_title": "The Industrial Surge: How Defense Dollars Will Strengthen American Supply Chains - Capstone DC",
+      "source_url": "https://capstonedc.com/insights/the-industrial-surge-how-defense-dollars-will-strengthen-american-supply-chains/",
+      "ticker": ""
+    },
+    {
+      "claim": "If policy capital is directed toward production capacity rather than only procurement, subtier suppliers with qualified capacity, specialized materials, tooling, testing, or manufacturing infrastructure may benefit more directly than high-attention primes.",
+      "claim_type": "inference",
+      "confidence": 0.68,
+      "published_at": "2026-05-04",
+      "source_title": "The Industrial Surge: How Defense Dollars Will Strengthen American Supply Chains - Capstone DC",
+      "source_url": "https://capstonedc.com/insights/the-industrial-surge-how-defense-dollars-will-strengthen-american-supply-chains/",
+      "ticker": ""
+    },
+    {
+      "claim": "Under a Serenity chokepoint lens, the politics theme maps more cleanly to defense-industrial-base bottlenecks, reshoring rules, and critical-mineral qualification than to broad election headlines or mega-cap political narratives.",
+      "claim_type": "inference",
+      "confidence": 0.7,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": ""
+    },
+    {
+      "claim": "Domestic infrared optics, optical materials, camera modules, and germanium-reduction technologies could become hidden beneficiaries of defense sourcing restrictions if suppliers are qualified on funded programs.",
+      "claim_type": "hypothesis",
+      "confidence": 0.62,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Serenity Layer 1 universe",
+      "source_url": "cached_serenity_layer1_context",
+      "ticker": "LPTH"
+    },
+    {
+      "claim": "Embedded aerospace and defense electronics or structural-system suppliers may benefit from defense production expansion if backlog maps to funded multiyear programs and if prime customers cannot easily substitute qualified suppliers.",
+      "claim_type": "hypothesis",
+      "confidence": 0.64,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Serenity Layer 1 universe",
+      "source_url": "cached_serenity_layer1_context",
+      "ticker": "DCO"
+    },
+    {
+      "claim": "Specialty ablative, radome, composite, nozzle, UAV, rocket, or classified defense materials may hide bottleneck value if they are sole-source or limited-source qualified on missile, hypersonic, rocket-motor, or defense-aircraft programs.",
+      "claim_type": "hypothesis",
+      "confidence": 0.61,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Serenity Layer 1 universe",
+      "source_url": "cached_serenity_layer1_context",
+      "ticker": "PKE"
+    },
+    {
+      "claim": "Defense modernization and open-systems architecture may create demand for specialized Tier 2 electronics, mission-processing, and sensor-processing suppliers, but execution quality and funded backlog must be verified.",
+      "claim_type": "hypothesis",
+      "confidence": 0.63,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Serenity Layer 1 universe",
+      "source_url": "cached_serenity_layer1_context",
+      "ticker": "MRCY"
+    },
+    {
+      "claim": "Defense readiness spending can flow to aircraft maintenance, parts logistics, contractor logistics support, and component repair providers rather than only new-build weapons suppliers.",
+      "claim_type": "hypothesis",
+      "confidence": 0.6,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Serenity Layer 1 universe",
+      "source_url": "cached_serenity_layer1_context",
+      "ticker": "AIR"
+    },
+    {
+      "claim": "Automated test systems, avionics electrical subsystems, and production-gating certification tools may become bottlenecks when defense hardware production expands.",
+      "claim_type": "hypothesis",
+      "confidence": 0.6,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Serenity Layer 1 universe",
+      "source_url": "cached_serenity_layer1_context",
+      "ticker": "ATRO"
+    },
+    {
+      "claim": "Non-China rare earth processing and feedstock qualification may become policy-relevant if magnet producers must requalify oxide inputs away from China and if output meets required purity specifications.",
+      "claim_type": "hypothesis",
+      "confidence": 0.58,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Serenity Layer 1 universe",
+      "source_url": "cached_serenity_layer1_context",
+      "ticker": "UUUU"
+    },
+    {
+      "claim": "Domestic rare earth production, separation, pricing support, and magnet qualification can serve as a reference node for U.S. critical-minerals policy exposure, but market pricing may already reflect part of the policy narrative.",
+      "claim_type": "hypothesis",
+      "confidence": 0.6,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Serenity Layer 1 universe",
+      "source_url": "cached_serenity_layer1_context",
+      "ticker": "MP"
+    },
+    {
+      "claim": "The defense industrial base remains shallow and fragile because private capital has flowed heavily to would-be Tier 1 companies while subtier suppliers remain dependent on uneven demand signals and appropriations.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": ""
+    },
+    {
+      "claim": "CNAS identifies L3Harris as one of the two main current U.S. suppliers of solid rocket motors.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": "LHX"
+    },
+    {
+      "claim": "CNAS identifies Northrop Grumman as one of the two main current U.S. suppliers of solid rocket motors.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": "NOC"
+    },
+    {
+      "claim": "The solid-rocket-motor bottleneck extends beneath prime suppliers because current and new SRM producers rely on the same underlying supply chain for critical parts and materials.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": ""
+    },
+    {
+      "claim": "CNAS states that as recently as 2020 there was only one certified domestic ammonium perchlorate source for SRM makers, a second was certified in 2021, and demand still exceeds supply.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": ""
+    },
+    {
+      "claim": "JPMorgan's defense-industrial-base report argues that decades of consolidation, inconsistent investment, fragile supply chains, and workforce constraints left the U.S. defense industrial base optimized for peacetime efficiency rather than scale, speed, or sustained competition.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "An Era of Global Rearmament and the U.S. Defense Industrial Base",
+      "source_url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/documents/center-for-geopolitics/jpmc-cfg-us-dib-v4-ada-remediated.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "JPMorgan's report states that procurement alone cannot solve production bottlenecks because subtier suppliers, skilled labor, manufacturing infrastructure, and capital investment require coordinated public-private action.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "An Era of Global Rearmament and the U.S. Defense Industrial Base",
+      "source_url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/documents/center-for-geopolitics/jpmc-cfg-us-dib-v4-ada-remediated.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "JPMorgan's report says continuing resolutions and delayed appropriations discourage long-term investment, workforce expansion, and capacity growth in the defense industrial base.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "An Era of Global Rearmament and the U.S. Defense Industrial Base",
+      "source_url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/documents/center-for-geopolitics/jpmc-cfg-us-dib-v4-ada-remediated.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "Capstone DC reports that on April 23, 2026, the Defense Department and L3Harris announced closing a $1 billion DoD investment in L3Harris's Missile Solutions business to expand and modernize facilities, accelerate R&D, and increase production capacity for critical national-security technologies.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05-04",
+      "source_title": "The Industrial Surge: How Defense Dollars Will Strengthen American Supply Chains - Capstone DC",
+      "source_url": "https://capstonedc.com/insights/the-industrial-surge-how-defense-dollars-will-strengthen-american-supply-chains/",
+      "ticker": "LHX"
+    },
+    {
+      "claim": "Capstone DC reports that the FY27 President's Budget Request sought $92.4 billion for defense-industrial-base investment, materially above the prior year's $14 billion budget for private-sector interventions.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-05-04",
+      "source_title": "The Industrial Surge: How Defense Dollars Will Strengthen American Supply Chains - Capstone DC",
+      "source_url": "https://capstonedc.com/insights/the-industrial-surge-how-defense-dollars-will-strengthen-american-supply-chains/",
+      "ticker": ""
+    },
+    {
+      "claim": "If policy capital and procurement focus shift from headline primes toward production capacity, qualified subtier suppliers in optics, composites, electronics, test equipment, rare earths, and sustainment may become more relevant than their traditional industrial classifications imply.",
+      "claim_type": "inference",
+      "confidence": 0.68,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": ""
+    },
+    {
+      "claim": "Prime-contractor supply-chain constraints create a research case for underfollowed Tier 2 and Tier 3 public suppliers, but issuer-specific pricing power requires validation through backlog, sole-source status, customer concentration, and margin conversion.",
+      "claim_type": "inference",
+      "confidence": 0.55,
+      "published_at": "2025-12-17",
+      "source_title": "The $160 Billion Defense Backlog Nobody's Talking About",
+      "source_url": "https://macronotes.substack.com/p/the-160-billion-defense-backlog-nobodys",
+      "ticker": ""
+    },
+    {
+      "claim": "The defense industrial base remains shallow and fragile because much private capital has flowed to would-be Tier 1 entrants while subtier suppliers remain exposed to uneven demand signals and appropriations.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": ""
+    },
+    {
+      "claim": "CNAS states that the DIB is shallow and poorly understood, that small subtier suppliers lack the capital resilience of primes, and that fixing supply chains requires policy continuity and a dual-use commercial-defense manufacturing base.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": ""
+    },
+    {
+      "claim": "CNAS identifies L3Harris as one of the two main current solid rocket motor suppliers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": "LHX"
+    },
+    {
+      "claim": "CNAS identifies Northrop Grumman as one of the two main current solid rocket motor suppliers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": "NOC"
+    },
+    {
+      "claim": "CNAS states that solid rocket motor makers rely on the same underlying supply chain for critical parts and materials, meaning new entrants do not automatically solve the bottleneck.",
+      "claim_type": "fact",
+      "confidence": 0.87,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": ""
+    },
+    {
+      "claim": "CNAS states that as recently as 2020 there was only one certified domestic source of ammonium perchlorate for SRM makers, with a second certified in 2021, while demand still exceeds supply.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": ""
+    },
+    {
+      "claim": "JPMorgan's defense-industrial-base report says decades of consolidation, inconsistent investment, fragile supply chains, and workforce constraints have left the U.S. defense industrial base optimized for peacetime efficiency rather than scale, speed, or sustained competition.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "An Era of Global Rearmament and the U.S. Defense Industrial Base",
+      "source_url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/documents/center-for-geopolitics/jpmc-cfg-us-dib-v4-ada-remediated.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "JPMorgan's report argues that procurement alone cannot create production capacity because subtier suppliers, skilled labor, manufacturing infrastructure, and capital investment require coordinated public-private action.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "An Era of Global Rearmament and the U.S. Defense Industrial Base",
+      "source_url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/documents/center-for-geopolitics/jpmc-cfg-us-dib-v4-ada-remediated.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "JPMorgan's report says budget instability, continuing resolutions, and delayed appropriations discourage long-term investment, workforce expansion, and capacity growth in the defense industrial base.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "An Era of Global Rearmament and the U.S. Defense Industrial Base",
+      "source_url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/documents/center-for-geopolitics/jpmc-cfg-us-dib-v4-ada-remediated.pdf",
+      "ticker": ""
+    },
+    {
+      "claim": "Capstone DC reports that on April 23 the Defense Department and L3Harris announced a $1 billion strategic investment in L3Harris's Missile Solutions business to expand and modernize facilities, accelerate R&D, and increase production capacity for critical national-security technologies.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-05-04",
+      "source_title": "The Industrial Surge: How Defense Dollars Will Strengthen American Supply Chains - Capstone DC",
+      "source_url": "https://capstonedc.com/insights/the-industrial-surge-how-defense-dollars-will-strengthen-american-supply-chains/",
+      "ticker": "LHX"
+    },
+    {
+      "claim": "Capstone DC reports that the FY27 President's Budget Request seeks $92.4 billion for defense-industrial-base investment, compared with $14 billion the prior year.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026-05-04",
+      "source_title": "The Industrial Surge: How Defense Dollars Will Strengthen American Supply Chains - Capstone DC",
+      "source_url": "https://capstonedc.com/insights/the-industrial-surge-how-defense-dollars-will-strengthen-american-supply-chains/",
+      "ticker": ""
+    },
+    {
+      "claim": "The broad policy backdrop supports searching below primes for bottleneck suppliers, including critical materials, qualified manufacturing assets, testing/certification, and secure supply-chain nodes.",
+      "claim_type": "inference",
+      "confidence": 0.74,
+      "published_at": "2026-05-28",
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "ticker": ""
+    },
+    {
+      "claim": "USA Rare Earth may be relevant to domestic rare-earth and magnet-capacity policy, but this Layer 2B input does not yet provide primary-source evidence of commercial production, qualification, or customer commitments.",
+      "claim_type": "hypothesis",
+      "confidence": 0.42,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Layer 1 candidate chunk",
+      "source_url": "cached_serenity_layer1_candidate_chunk",
+      "ticker": "USAR"
+    },
+    {
+      "claim": "Neo Performance Materials may be relevant as a non-China rare-earth processing and advanced-materials node, but Estonia capacity, feedstock qualification, and contracted policy-driven demand need verification.",
+      "claim_type": "hypothesis",
+      "confidence": 0.48,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Layer 1 candidate chunk",
+      "source_url": "cached_serenity_layer1_candidate_chunk",
+      "ticker": "NOPMF"
+    },
+    {
+      "claim": "3D Systems may be relevant if defense additive-manufacturing rules and secure manufacturing networks favor U.S. or allied qualified systems, but DoD revenue, approved-equipment status, and backlog conversion require verification.",
+      "claim_type": "hypothesis",
+      "confidence": 0.36,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Layer 1 candidate chunk",
+      "source_url": "cached_serenity_layer1_candidate_chunk",
+      "ticker": "DDD"
+    },
+    {
+      "claim": "Stratasys may be relevant if allied additive-manufacturing systems are eligible for defense procurement and distributed manufacturing networks, but customer usage, origin-rule fit, and order conversion are not yet verified.",
+      "claim_type": "hypothesis",
+      "confidence": 0.34,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Layer 1 candidate chunk",
+      "source_url": "cached_serenity_layer1_candidate_chunk",
+      "ticker": "SSYS"
+    },
+    {
+      "claim": "Materialise may be a second-order software and qualification workflow candidate for secure additive manufacturing, but defense/aerospace exposure and policy linkage remain indirect and unverified.",
+      "claim_type": "hypothesis",
+      "confidence": 0.28,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Layer 1 candidate chunk",
+      "source_url": "cached_serenity_layer1_candidate_chunk",
+      "ticker": "MTLS"
+    },
+    {
+      "claim": "Velo3D may be thematically related to metal additive manufacturing for defense surge capacity, but this relationship is speculative until solvency, listing status, qualified processes, and actual defense demand are verified.",
+      "claim_type": "speculation",
+      "confidence": 0.18,
+      "published_at": "2026-06-09",
+      "source_title": "Cached Layer 1 candidate chunk",
+      "source_url": "cached_serenity_layer1_candidate_chunk",
+      "ticker": "VLD"
+    }
+  ],
+  "layer": 2,
+  "memory_update": [
+    {
+      "confidence": 0.82,
+      "text": "For the Politics theme, prioritize policy-transmission chains rather than political headlines: defense appropriations, direct industrial-base investment, procurement rules, covered-nation sourcing, tariffs/export controls, and critical-minerals policy.",
+      "type": "supply_chain_node"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Solid rocket motors and their shared subtier inputs, especially ammonium perchlorate and energetics, are the clearest documented bottleneck node in the current evidence set.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Tier 2 and Tier 3 suppliers, not high-attention primes, are the main place to look for hidden bottleneck value in defense-industrial-base politics.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.72,
+      "text": "Testing, certification, and qualification gates should be tracked as production-gating assets because procurement dollars do not automatically convert into deliverable hardware.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.66,
+      "text": "Non-China rare earth feedstock is not enough by itself; magnet-maker and defense-customer requalification is the likely chokepoint.",
+      "type": "bottleneck"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Direct DoD strategic investments into defense suppliers, such as the reported L3Harris Missile Solutions investment, are important catalysts because they can validate bottleneck nodes and trigger capex at specific layers.",
+      "type": "catalyst"
+    },
+    {
+      "confidence": 0.78,
+      "text": "FY27 defense-industrial-base appropriations and any changes to the $92.4 billion request should be tracked as a policy catalyst for capacity, manufacturing infrastructure, workforce, and subtier supplier funding.",
+      "type": "catalyst"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Need company-level verification for each underfollowed candidate: funded backlog, program mapping, sole-source or limited-source status, capacity constraints, customer concentration, margin impact, and qualification evidence.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Need primary-source validation from filings, contract awards, DoD budget documents, earnings transcripts, and supplier disclosures before promoting any Layer 1 candidate into a stronger company-level thesis.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Need market-pricing check in later layers to avoid confusing a real political catalyst with an already-priced high-attention narrative in defense primes or rare earth leaders.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.58,
+      "text": "LPTH should be tracked as an underfollowed defense-optics and infrared-materials hypothesis, not yet a verified chokepoint; survival requires program qualification, defense backlog conversion, and non-China/germanium-reduction evidence.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.64,
+      "text": "DCO maps to Tier 2 defense electronics/structures and prime-supplier-dependency nodes; next layer should verify funded defense backlog and whether assemblies are sole-source or limited-source.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.55,
+      "text": "PKE maps to advanced composites, ablatives, radomes, and rocket-motor-adjacent materials; evidence is still hypothesis-level until specific programs, qualifications, customers, or limited-source status are documented.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.63,
+      "text": "MRCY maps to Tier 2 defense electronics, mission processing, open systems, and sensor/signal-processing subsystems; relationship strength depends on funded backlog conversion and execution recovery.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.51,
+      "text": "UUUU should be tracked as an underfollowed rare-earth policy and magnet-feedstock qualification hypothesis because uranium exposure may obscure rare-earth processing optionality.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.66,
+      "text": "MP is a reference leader rather than underfollowed; use it to benchmark non-China rare-earth production, policy support, NdPr pricing, and magnet qualification hurdles.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.53,
+      "text": "AIR maps to defense sustainment, readiness, MRO, parts logistics, and contractor logistics support; not a classic chokepoint unless parts availability, platform exposure, or government backlog show scarcity value.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.5,
+      "text": "ATRO maps to testing, certification, avionics/electrical subsystems, and production-gating equipment; evidence remains weak until Test Systems orders and defense program ties are verified.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.85,
+      "text": "NOC and LHX are reference SRM leaders; their role is to identify bottleneck demand and subtier dependencies rather than to dominate the underfollowed alpha search.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Need primary-source issuer evidence for LPTH, DCO, PKE, MRCY, UUUU, AIR, and ATRO: latest 10-K/10-Q, backlog, funded/unfunded mix, named program exposure, DoD awards, prime contracts, customer concentration, capacity plans, and gross-margin response.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Need policy-source verification distinguishing authorized funds, appropriated funds, and requested FY27 budget amounts before treating defense-industrial-base funding as a realized demand catalyst.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Rare-earth and magnet candidates require qualification evidence from downstream magnet makers or defense/industrial OEMs; policy support alone is insufficient to prove chokepoint capture.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.42,
+      "text": "USAR maps to domestic rare-earth and magnet-capacity optionality under U.S. critical-minerals and defense sourcing policy, but should remain speculative_shadow until production, financing, qualification, litigation, and customer evidence are verified.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.48,
+      "text": "NOPMF maps to non-China rare-earth processing and materials qualification; it is potentially underfollowed because it may be classified as specialty materials rather than an obvious U.S. rare-earth policy beneficiary.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.36,
+      "text": "DDD maps to secure additive-manufacturing infrastructure and possible defense procurement decoupling, but current evidence supports only a hypothesis pending DoD customer, qualification, origin-rule, and backlog verification.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.34,
+      "text": "SSYS maps to allied additive-manufacturing systems that could be relevant to defense distributed manufacturing networks, but eligibility and order conversion are unverified.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.28,
+      "text": "MTLS maps to additive software, quality workflow, and digital-thread infrastructure as a second-order beneficiary; evidence is weak and indirect.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.18,
+      "text": "VLD maps to metal additive manufacturing as a micro-cap speculative shadow candidate; require solvency, listing, backlog, customer, and process-qualification checks before further promotion.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.9,
+      "text": "Need primary-source company evidence for all six tickers: latest filings, market cap/liquidity, government awards, customer/offtake agreements, defense/aerospace revenue, certifications, backlog, and facility status.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Need exact FY26/FY27 NDAA or appropriations language on additive-manufacturing equipment restrictions, Civil Reserve Manufacturing Network funding, domestic/allied origin rules, and critical-minerals sourcing requirements.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "Need to separate broad policy tailwind from issuer-specific monetization: government funding and procurement rules may benefit private suppliers or larger incumbents rather than these public candidates.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.82,
+      "text": "For rare-earth candidates, verify actual non-China feedstock availability and downstream magnet requalification; policy demand is not sufficient if customers have not accepted the material stream.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.8,
+      "text": "For additive-manufacturing candidates, verify whether defense primes and depots already use their machines or software in qualified production, not just prototypes or marketing case studies.",
+      "type": "evidence_gap"
+    }
+  ],
+  "summary": "Split Layer 2 synthesis. Politics is too broad to map as one monolithic sector. For this Layer 2A pass, the investable industry-chain map is centered on policy-driven chokepoints where government spending, procurement rules, reshoring mandates, tariffs/export controls, and defense-industrial-base intervention can transmit into public-market supply chains. The highest-value nodes are not the obvious defense primes or headline political winners, but subtier suppliers, qualified materials, energetics inputs, testing/certification gates, sustainment logistics, and non-China critical-mineral qualification paths. Key catalysts include direct DoD investment, FY27 defense-industrial-base budget requests, multiyear procurement, appropriations stability or instability, reshoring mandates, and supply-chain disclosure from primes.",
+  "supply_chain_map": [
+    {
+      "bottleneck_score": 8,
+      "node": "defense_appropriations_and_multiyear_procurement",
+      "role": "demand",
+      "why_it_matters": "Government acquisition decisions create the demand signal that determines whether industry invests in capacity, workforce, inventory, and tooling. Political instability, delayed appropriations, or continuing resolutions can weaken the signal even when headline demand is strong."
+    },
+    {
+      "bottleneck_score": 5,
+      "node": "defense_primes_and_tier_1_integrators",
+      "role": "customer",
+      "why_it_matters": "Large primes aggregate demand from missiles, radar, aircraft, space, air defense, and classified systems, but they are often not the true constraint. They expose downstream demand and disclose where Tier 2 and Tier 3 suppliers are limiting production."
+    },
+    {
+      "bottleneck_score": 9,
+      "node": "tier_2_defense_electronics_and_mission_processing",
+      "role": "capacity",
+      "why_it_matters": "Specialized electronics, circuit boards, sensor-processing modules, secure processing, and open-architecture subsystems can gate prime deliveries. These suppliers can be overlooked because they screen as industrial electronics rather than political or defense beneficiaries."
+    },
+    {
+      "bottleneck_score": 10,
+      "node": "solid_rocket_motor_capacity",
+      "role": "capacity",
+      "why_it_matters": "Solid rocket motors are a known defense-industrial-base bottleneck. The prime-level SRM suppliers matter, but the deeper constraint may sit in shared subtier inputs, energetics, materials, tooling, and certification capacity."
+    },
+    {
+      "bottleneck_score": 10,
+      "node": "ammonium_perchlorate_and_energetics_inputs",
+      "role": "input",
+      "why_it_matters": "SRM production depends on specialized energetic inputs with limited qualified domestic supply. Even new SRM entrants may face the same material constraints, making this a classic hidden bottleneck node."
+    },
+    {
+      "bottleneck_score": 8,
+      "node": "advanced_composites_ablatives_nozzle_and_radome_materials",
+      "role": "input",
+      "why_it_matters": "Missiles, hypersonics, UAVs, rockets, and defense aircraft require qualified composite, ablative, nozzle, and radome materials. Long qualification cycles and narrow recipes can create scarcity below the prime-contractor layer."
+    },
+    {
+      "bottleneck_score": 8,
+      "node": "infrared_optics_optical_materials_and_camera_modules",
+      "role": "input",
+      "why_it_matters": "Defense policy, covered-nation sourcing restrictions, and reshoring can increase the value of domestic or allied infrared optics, germanium-reduction materials, optical assemblies, and imaging systems. This node may hide in small photonics suppliers rather than large defense names."
+    },
+    {
+      "bottleneck_score": 8,
+      "node": "testing_certification_and_qualification_equipment",
+      "role": "equipment",
+      "why_it_matters": "Production expansion cannot convert into deliveries unless parts, subsystems, and platforms pass test, certification, and qualification gates. Niche test-system providers and certification assets can become gating infrastructure during defense production surges."
+    },
+    {
+      "bottleneck_score": 7,
+      "node": "defense_aftermarket_sustainment_and_logistics",
+      "role": "distribution",
+      "why_it_matters": "Political focus on readiness and fleet availability can flow through parts logistics, maintenance, contractor logistics support, and component repair rather than only new weapons procurement. This node is often underfollowed because it screens as MRO or aerospace aftermarket."
+    },
+    {
+      "bottleneck_score": 8,
+      "node": "non_china_rare_earth_feedstock_and_separation",
+      "role": "input",
+      "why_it_matters": "Critical-minerals policy, China-risk reduction, and defense-electrification needs can favor non-China rare earth mining, separation, and oxide supply. The bottleneck is not only raw resource ownership but qualification of feedstock into downstream magnet supply chains."
+    },
+    {
+      "bottleneck_score": 9,
+      "node": "magnet_requalification_and_customer_acceptance",
+      "role": "regulation",
+      "why_it_matters": "Even if non-China rare earth feedstock exists, magnet makers and defense customers must qualify oxide purity, process compatibility, reliability, and supplier documentation. This can create a slow-moving certification chokepoint."
+    },
+    {
+      "bottleneck_score": 7,
+      "node": "policy_capital_and_direct_government_investment",
+      "role": "regulation",
+      "why_it_matters": "Direct federal investment, Defense Production Act-style tools, budget-line intervention, and targeted grants can reshape which suppliers receive capacity expansion capital. This can benefit subtier suppliers but can also distort economics if funding is one-off or politically unstable."
+    },
+    {
+      "bottleneck_score": 8,
+      "node": "skilled_labor_and_manufacturing_infrastructure",
+      "role": "capacity",
+      "why_it_matters": "Production cannot be surged by procurement alone. Workforce, tooling, manufacturing infrastructure, and capital investment are recurring constraints across defense and reshoring themes."
+    },
+    {
+      "bottleneck_score": 7,
+      "node": "tariffs_export_controls_and_covered_nation_sourcing_rules",
+      "role": "regulation",
+      "why_it_matters": "Political restrictions on sourcing can redirect demand to domestic or allied suppliers, especially in optics, critical minerals, electronics, and defense materials. The beneficiaries may be low-attention suppliers already qualified outside restricted countries."
+    }
+  ],
+  "theme_id": "politics",
+  "ticker_relationships": [
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.48,
+      "hidden_signal_to_verify": "Verify whether defense customer orders, BlackDiamond/germanium-reduction materials, and infrared systems are qualified on programs of record; check backlog conversion, customer concentration, margin impact, facility capacity, and DoD or prime subcontract evidence.",
+      "next_evidence": "Pull latest LPTH 10-K/10-Q, backlog/customer disclosures, defense order press releases, export-control or domestic-sourcing references, and any DoD/prime award records naming LPTH or its subsidiaries.",
+      "node": "infrared_optics_optical_materials_and_camera_modules",
+      "relationship": "Potential underfollowed subtier beneficiary of defense-policy demand for domestic or allied infrared optics, optical assemblies, cooled infrared cameras, and germanium-reduction/substitution materials. The relationship is strongest if LPTH's BlackDiamond materials and infrared systems are qualified into programs of record or embedded in prime-contractor supply chains affected by covered-nation sourcing restrictions.",
+      "ticker": "LPTH"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.56,
+      "hidden_signal_to_verify": "Verify which military and space backlog items map to funded multiyear programs, whether it is sole-source or limited-source on critical assemblies, and whether customer concentration creates pricing power or risk.",
+      "next_evidence": "Review DCO segment revenue, backlog, defense/customer concentration, investor presentations, 10-K risk factors, recent contract releases, and prime-customer program references.",
+      "node": "tier_2_defense_electronics_and_mission_processing",
+      "relationship": "Embedded aerospace and defense subtier supplier potentially tied to missile, radar, rotary-wing, aircraft, space, and classified-platform production ramps. The relationship depends on whether Ducommun's electronics, structures, and engineered products sit on funded programs where prime contractors face supplier constraints.",
+      "ticker": "DCO"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.46,
+      "hidden_signal_to_verify": "Verify whether its ablative and radome materials are sole-source or limited-source content on missile, hypersonic, rocket-motor, UAV, or classified defense programs; check capacity, customer concentration, and qualification cycles.",
+      "next_evidence": "Search PKE filings and technical product disclosures for ablative, radome, missile, rocket, UAV, hypersonic, and defense-program language; verify named customers, program wins, qualification status, and manufacturing capacity.",
+      "node": "advanced_composites_ablatives_nozzle_and_radome_materials",
+      "relationship": "Specialty advanced-composites and materials supplier potentially exposed to qualified ablatives, radomes, rocket-motor-adjacent materials, UAV, missile, hypersonic, space, and defense-aircraft programs. Strategic relevance would come from narrow recipes, qualification cycles, and limited-source material availability rather than headline prime exposure.",
+      "ticker": "PKE"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.58,
+      "hidden_signal_to_verify": "Verify funded versus unfunded backlog, open-systems program conversion, capacity constraints, customer mix, margin recovery, and whether execution issues offset policy-driven demand.",
+      "next_evidence": "Check MRCY backlog composition, funded backlog, bookings, program names, margin bridge, supply-chain commentary, and customer concentration in latest filings and earnings-call transcripts.",
+      "node": "tier_2_defense_electronics_and_mission_processing",
+      "relationship": "Defense-electronics and mission-processing subtier supplier potentially positioned below primes in sensor processing, signal processing, open-systems architecture, secure compute, and electronic subsystems. The policy relationship is plausible because broad defense modernization and prime outsourcing can pull through specialized Tier 2 electronics capacity, but execution and margin recovery are key gating risks.",
+      "ticker": "MRCY"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.42,
+      "hidden_signal_to_verify": "Verify current rare earth production volumes, customer qualification status, magnet-maker feedstock trials, DoD or government support, economics independent of uranium, and whether output meets oxide purity requirements for magnet lines.",
+      "next_evidence": "Pull latest UUUU filings, rare-earth production updates, offtake agreements, pilot/commercial separation data, customer qualification references, government grant/DoD support, and realized oxide pricing.",
+      "node": "non_china_rare_earth_feedstock_and_separation",
+      "relationship": "Potential non-China rare-earth processing and feedstock supplier whose policy relevance is partially hidden by uranium exposure. The relationship is strongest if Energy Fuels can produce separated rare earth oxides at required purity, secure magnet-maker qualification, and demonstrate economics independent of uranium-cycle optionality.",
+      "ticker": "UUUU"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.6,
+      "hidden_signal_to_verify": "Verify latest NdPr production, realized pricing, DoD price-floor structure, magnet-making progress, customer qualification, and whether market expectations already price in policy support.",
+      "next_evidence": "Review MP filings, DoD contract/investment documents, production volumes, realized pricing, magnet-facility updates, offtake/customer disclosures, and analyst/market-pricing context.",
+      "node": "non_china_rare_earth_feedstock_and_separation",
+      "relationship": "Reference leader for U.S. rare-earth mining, separation, NdPr production, and downstream magnet ambitions. MP is not underfollowed, but it is useful as a benchmark for domestic rare-earth policy support, DoD-linked economics, price-floor structures, and customer qualification hurdles faced by smaller or less obvious feedstock candidates.",
+      "ticker": "MP"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.44,
+      "hidden_signal_to_verify": "Verify defense/government contract backlog, recompete schedule, military platform exposure, parts inventory constraints, appropriations sensitivity, and margins by government versus commercial activity.",
+      "next_evidence": "Pull AIR government-services revenue, backlog, contract awards, military-platform exposure, margins by segment, inventory/parts constraints, and recompete disclosures.",
+      "node": "defense_aftermarket_sustainment_and_logistics",
+      "relationship": "Second-order beneficiary candidate where defense readiness, fleet availability, aircraft sustainment, parts logistics, contractor logistics support, and repair demand can receive policy dollars outside new weapons procurement. The bottleneck angle is component availability and sustainment execution rather than new-platform production.",
+      "ticker": "AIR"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.43,
+      "hidden_signal_to_verify": "Verify Test Systems segment orders, defense customer references, specific prime or military test-equipment awards, backlog conversion, and whether systems are tied to programs with long qualification cycles.",
+      "next_evidence": "Review ATRO Test Systems segment backlog/orders, military customer disclosures, contract announcements, program references, and any evidence of long-cycle qualification or sole/limited-source test systems.",
+      "node": "testing_certification_and_qualification_equipment",
+      "relationship": "Potential underfollowed test, qualification, avionics/electrical, and production-gating supplier for aerospace and defense hardware. The relationship is strongest if Astronics Test Systems is tied to defense primes or programs where testing and certification capacity gate production throughput.",
+      "ticker": "ATRO"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.9,
+      "hidden_signal_to_verify": "Verify SRM program backlog, capacity-expansion plans, ammonium perchlorate and energetics sourcing, margin sensitivity, and whether subtier constraints limit prime-level demand conversion.",
+      "next_evidence": "Check NOC filings, earnings calls, SRM-capacity commentary, DoD awards, supplier-risk disclosures, and procurement-program funding.",
+      "node": "solid_rocket_motor_capacity",
+      "relationship": "Reference leader and one of the two main current U.S. solid-rocket-motor suppliers identified in the cached CNAS evidence. NOC helps define the prime-level SRM chokepoint, but Serenity priority for this chunk is to map constraints beneath NOC into ammonium perchlorate, energetics, casings/nozzles, ablatives, electronics, and qualified materials.",
+      "ticker": "NOC"
+    },
+    {
+      "claim_type": "fact",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.88,
+      "hidden_signal_to_verify": "Verify Missile Solutions capacity expansion milestones, funded program backlog, supply-chain dependencies, ammonium perchlorate and energetics sourcing, and whether government investment relieves or merely exposes subtier bottlenecks.",
+      "next_evidence": "Review DoD/LHX transaction documents, LHX filings, earnings-call capacity commentary, supplier-risk disclosures, and missile/munition procurement funding.",
+      "node": "solid_rocket_motor_capacity",
+      "relationship": "Reference leader and one of the two main current U.S. solid-rocket-motor suppliers identified in the cached CNAS evidence. LHX is also directly tied to the policy-capital node through a reported $1 billion DoD strategic investment in its Missile Solutions business to expand and modernize facilities, accelerate R&D, and increase production capacity.",
+      "ticker": "LHX"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0.42,
+      "hidden_signal_to_verify": "Verify listing status, market cap, liquidity, Round Top development milestones, magnet facility commercialization, government financing or grants, dilution risk, MP Materials trade-secret litigation status, customer commitments, and defense/industrial magnet qualification.",
+      "next_evidence": "Pull latest SEC filings, investor deck, litigation disclosures, DoD/DOE award databases, customer/offtake agreements, facility commissioning updates, and magnet qualification evidence.",
+      "node": "pre_commercial_magnet_capacity|critical_minerals_policy|non_china_rare_earth_feedstock",
+      "relationship": "USA Rare Earth is mapped as a speculative domestic rare-earth and magnet-capacity candidate. The political relevance is that U.S. critical-minerals policy and defense sourcing pressure may favor domestic rare-earth separation, magnet production, and qualified non-China feedstock. However, for this chunk the evidence supports only thematic proximity, not confirmed commercial execution or defense qualification.",
+      "ticker": "USAR"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.48,
+      "hidden_signal_to_verify": "Verify Estonia separation capacity, current feedstock sources, oxide and magnetic-powder qualification status, customer concentration, defense/aerospace exposure, liquidity, market cap, and whether policy pressure is converting into contracted volumes.",
+      "next_evidence": "Review latest annual report, technical disclosures, EU/Estonia permitting or capacity documents, customer announcements, export-control exposure, and any government critical-minerals funding.",
+      "node": "non_china_rare_earth_feedstock|estonia_rare_earth_operation|magnet_requalification_bottleneck",
+      "relationship": "Neo Performance Materials is mapped as an underfollowed non-China rare-earth processing and advanced-materials node. The relationship is more concrete than pre-commercial peers because the candidate is associated with existing rare-earth separation/materials operations, but this Layer 2B evidence does not yet verify capacity, feedstock chain, defense eligibility, or contracted Western magnet demand.",
+      "ticker": "NOPMF"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.36,
+      "hidden_signal_to_verify": "Verify DoD-approved equipment status, machine origin rules, defense and aerospace customer revenue, ITAR/security certifications, installed base at primes or depots, materials/process qualification, and backlog tied to defense or aerospace customers.",
+      "next_evidence": "Check latest 10-K/10-Q, earnings transcripts, DoD contract database, prime supplier references, facility certifications, additive-manufacturing standards participation, and NDAA/appropriations language on restricted equipment.",
+      "node": "civil_reserve_manufacturing_network|additive_manufacturing_decoupling|secure_digital_manufacturing_infrastructure",
+      "relationship": "3D Systems is mapped as an underfollowed additive-manufacturing infrastructure candidate. The hypothesis is that defense procurement restrictions on Chinese/Russian additive systems and CRMN-type surge capacity could increase demand for U.S./allied 3D-printing hardware, materials, and qualified workflows. Company-specific defense revenue, DoD approval, and origin-rule fit remain unverified.",
+      "ticker": "DDD"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.34,
+      "hidden_signal_to_verify": "Verify U.S./allied manufacturing origin, DoD or prime customer usage, ITAR/security compliance, aerospace and defense installed base, CRMN eligibility, materials qualification, and whether policy changes translate into orders.",
+      "next_evidence": "Review latest filings, investor presentations, defense/aerospace case studies, U.S. government contract data, customer certifications, manufacturing-origin disclosures, and additive procurement-rule text.",
+      "node": "civil_reserve_manufacturing_network|additive_manufacturing_decoupling|secure_digital_manufacturing_infrastructure",
+      "relationship": "Stratasys is mapped as an underfollowed allied additive-manufacturing systems candidate. The political-policy relationship is plausible if U.S. defense procurement rules prefer domestic or allied-origin additive equipment and if qualified distributed manufacturing networks require existing industrial printer fleets. This remains a company-specific hypothesis until defense usage, eligibility, and order conversion are verified.",
+      "ticker": "SSYS"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0.28,
+      "hidden_signal_to_verify": "Verify defense/aerospace customer exposure, secure workflow capability, quality certifications, U.S./allied defense eligibility, regulated manufacturing software usage, and any connection to CRMN-like programs.",
+      "next_evidence": "Search filings, customer case studies, standards/certification references, aerospace quality disclosures, DoD or NATO procurement records, and partnerships with defense primes or additive hardware vendors.",
+      "node": "additive_manufacturing_software|qualification_and_digital_thread|testing_certification_and_qualification_equipment",
+      "relationship": "Materialise is mapped as a second-order additive-manufacturing software and services candidate. The theory is that secure defense additive manufacturing may require traceability, process control, quality documentation, and digital-thread software, not only printers. The relationship is indirect and weak at this layer because defense/aerospace exposure and CRMN-like eligibility are not yet supported by provided evidence.",
+      "ticker": "MTLS"
+    },
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0.18,
+      "hidden_signal_to_verify": "Verify solvency, listing status, liquidity, defense/aerospace installed base, qualified materials and processes, machine-origin compliance, order backlog, customer concentration, and whether CRMN-related policy creates actual demand.",
+      "next_evidence": "Check latest SEC filings, exchange listing notices, restructuring or financing disclosures, backlog updates, customer announcements, DoD/prime references, and any standards or qualification documentation.",
+      "node": "metal_additive_manufacturing|civil_reserve_manufacturing_network|secure_digital_manufacturing_infrastructure",
+      "relationship": "Velo3D is mapped as a micro-cap speculative metal additive-manufacturing candidate. The thematic relationship is that metal additive systems could be relevant to defense surge capacity, complex aerospace parts, and domestic manufacturing resilience. The company-level relationship is high-risk and unproven without fresh evidence on solvency, listing status, customer retention, qualified processes, and defense backlog.",
+      "ticker": "VLD"
+    }
+  ]
+}

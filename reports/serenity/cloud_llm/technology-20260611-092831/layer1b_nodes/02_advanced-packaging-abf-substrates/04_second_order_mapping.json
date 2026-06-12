@@ -1,0 +1,185 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "inference",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "confidence": 0.72,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether TSMC advanced-packaging capacity additions are constrained by substrate availability, ABF material supply, or qualified substrate vendor capacity rather than only CoWoS/tool capacity.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check TSMC 2025/2026 annual reports, earnings-call transcripts, and capex disclosures for explicit comments on advanced-package substrate constraints, supplier qualification, and AI accelerator packaging bottlenecks.",
+      "node_relation": "Context anchor and demand aggregator for advanced packaging capacity that consumes high-end substrates beneath AI accelerators.",
+      "sector_or_industry": "Foundry and advanced packaging",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "reference_anchor",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerator demand flows through TSMC fabrication and advanced packaging before reaching substrate makers and ABF/build-up-film suppliers.",
+      "ticker": "TSM",
+      "why_include": "Useful as a reference customer/context anchor because the supplied evidence describes AI accelerators flowing from chip designers to TSMC and then to substrate makers.",
+      "why_underfollowed": "Not underfollowed; included only to prevent the substrate node from being analyzed without its dominant upstream demand anchor."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "MKS Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Segment-level growth in Electronics & Packaging or Atotech-linked revenue, orders from high-end IC substrate makers, consumables pull-through, margin expansion from proprietary chemistry, and management commentary tying growth to AI/server substrate capacity.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review MKS 10-K/10-Q segment disclosures, Atotech product pages, investor presentations, and earnings-call Q&A for IC substrate, ABF substrate, advanced packaging, SAP/mSAP plating, and AI-server substrate references.",
+      "node_relation": "Direct adjacent supplier through Atotech: specialized plating equipment and proprietary chemistry sold to PCB/substrate manufacturers.",
+      "sector_or_industry": "Semiconductor subsystems, process control, and specialty plating equipment/chemistry",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "equipment",
+        "chemistry",
+        "second_order_beneficiary"
+      ],
+      "theme_relation": "If high-end IC substrate capacity ramps for AI accelerators require more advanced plating process capability, MKS/Atotech could benefit as a less visible equipment-and-consumables layer below substrate makers.",
+      "ticker": "MKSI",
+      "why_include": "The supplied evidence explicitly states that MKS, through Atotech, sells specialized plating equipment to PCB manufacturers and that the equipment runs on proprietary chemistry, making it the clearest US-listed underfollowed mapping to the node.",
+      "why_underfollowed": "MKS is typically categorized as a diversified semiconductor equipment subsystem supplier rather than an AI substrate beneficiary, and its Atotech acquisition/debt profile can obscure the substrate-plating exposure."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "ACM Research, Inc.",
+      "confidence": 0.46,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Direct references to advanced packaging, panel-level packaging, IC substrate, electrochemical plating, copper plating, mSAP/SAP, or named substrate/OSAT customers.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check ACMR annual reports, product documentation, earnings transcripts, and customer disclosures for packaging-plating tools, substrate-maker customers, and revenue contribution from advanced packaging versus front-end wafer cleaning.",
+      "node_relation": "Potential adjacent equipment supplier if its wet-processing, cleaning, or electrochemical plating tools are used in advanced packaging or substrate-related process steps.",
+      "sector_or_industry": "Semiconductor wet-processing and plating equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "underfollowed",
+        "evidence_needed",
+        "speculative_shadow"
+      ],
+      "theme_relation": "Could be a second-order beneficiary if AI-driven packaging/substrate capacity expansions require more wet-processing or plating equipment beyond the best-known Japanese/Taiwanese substrate supply chain.",
+      "ticker": "ACMR",
+      "why_include": "Included as a US-listed narrow-process-equipment hypothesis for the plating/wet-processing portion of the node, not as a proven ABF substrate supplier.",
+      "why_underfollowed": "Market attention often frames ACMR as a China semiconductor equipment localization story, not as an AI substrate or advanced-packaging capacity derivative."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "hypothesis",
+      "company": "Camtek Ltd.",
+      "confidence": 0.54,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Revenue exposure to advanced packaging, HBM, chiplet packaging, IC substrates, OSATs, or substrate makers; backlog tied to AI accelerators; and management commentary on substrate/package inspection bottlenecks.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review Camtek annual reports, product pages, investor presentations, and earnings transcripts for advanced-packaging inspection, IC substrate inspection, HBM/chiplet exposure, customer concentration, and order growth from packaging capacity additions.",
+      "node_relation": "Adjacent inspection/metrology chokepoint for advanced packaging and potentially high-density substrate/package processes, pending verification of direct IC substrate exposure.",
+      "sector_or_industry": "Inspection and metrology equipment for semiconductor manufacturing and advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "inspection",
+        "metrology",
+        "advanced_packaging",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "As package complexity rises with AI accelerators, inspection and metrology demand can scale with advanced packaging capacity even when the company is not a substrate or ABF material supplier.",
+      "ticker": "CAMT",
+      "why_include": "Included as a less obvious testing/inspection layer around advanced packaging, where tighter substrate/package geometries may increase inspection intensity.",
+      "why_underfollowed": "It is not usually grouped with ABF film or substrate makers, so any connection to AI substrate capacity would likely be indirect and easy to miss in broad AI semiconductor screens."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "The supplied evidence states that Nvidia designs the chip, TSMC fabricates it, and the product then goes to a substrate maker; it identifies Ibiden, Shinko, Unimicron, Nan Ya PCB, and AT&S as the key high-end substrate makers.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05-31T00:00:00.000Z",
+      "source_title": "The Seasoning Company That Sits Under Every AI Accelerator",
+      "source_url": "https://nextfinancial.substack.com/p/the-seasoning-company-that-sits-under",
+      "ticker": ""
+    },
+    {
+      "claim": "The supplied evidence states that Ajinomoto does not make substrates but supplies build-up film to the firms that do, and characterizes Ajinomoto as a near-monopoly beneath high-end AI accelerator substrates.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2026-05-31T00:00:00.000Z",
+      "source_title": "The Seasoning Company That Sits Under Every AI Accelerator",
+      "source_url": "https://nextfinancial.substack.com/p/the-seasoning-company-that-sits-under",
+      "ticker": ""
+    },
+    {
+      "claim": "The supplied evidence states that MKS, through Atotech, sells specialized plating equipment to PCB manufacturers and that the equipment runs on MKS proprietary chemistry.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04-16T15:02:46.000Z",
+      "source_title": "Deep Dive: MKS Inc ($MKSI) - Market Sentiment",
+      "source_url": "https://www.marketsentiment.co/p/deep-dive-mks-inc-mksi",
+      "ticker": "MKSI"
+    },
+    {
+      "claim": "The supplied evidence describes MKS as a lower-visibility semiconductor subsystem supplier whose products are present across many semiconductor production tools, with sales often going to OEMs rather than directly to fabs.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-04-16T15:02:46.000Z",
+      "source_title": "Deep Dive: MKS Inc ($MKSI) - Market Sentiment",
+      "source_url": "https://www.marketsentiment.co/p/deep-dive-mks-inc-mksi",
+      "ticker": "MKSI"
+    },
+    {
+      "claim": "ACMR may have relevance to the plating/wet-processing side of the node, but direct evidence tying the company to AI accelerator substrates or ABF substrate capacity was not provided in the supplied search context.",
+      "claim_type": "hypothesis",
+      "confidence": 0.42,
+      "published_at": "2026-04-16T15:02:46.000Z",
+      "source_title": "Deep Dive: MKS Inc ($MKSI) - Market Sentiment",
+      "source_url": "https://www.marketsentiment.co/p/deep-dive-mks-inc-mksi",
+      "ticker": "ACMR"
+    },
+    {
+      "claim": "Camtek may be an adjacent beneficiary through inspection/metrology intensity in advanced packaging, but direct evidence tying it to ABF substrate or AI-server substrate capacity was not provided in the supplied search context.",
+      "claim_type": "hypothesis",
+      "confidence": 0.45,
+      "published_at": "2026-05-31T00:00:00.000Z",
+      "source_title": "The Seasoning Company That Sits Under Every AI Accelerator",
+      "source_url": "https://nextfinancial.substack.com/p/the-seasoning-company-that-sits-under",
+      "ticker": "CAMT"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.84,
+      "text": "MKSI should remain in the Layer 1 universe as the strongest US-listed underfollowed candidate for the plating-equipment and chemistry sub-node via Atotech.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "The highest-purity substrate/ABF chokepoint names appear to be mostly non-US listed: Ajinomoto for build-up film, and Ibiden, Shinko, Unimicron, Nan Ya PCB, and AT&S for high-end substrates.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.76,
+      "text": "US-listed exposure to ABF/build-up film and high-end substrate manufacturing is limited; the better US-listed hunt may sit in plating chemistry/equipment, inspection/metrology, OSAT demand pull, and consumables.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.5,
+      "text": "ACMR and CAMT are useful speculative-shadow candidates only if later evidence confirms direct advanced-packaging, IC substrate, or substrate-maker customer exposure.",
+      "type": "candidate"
+    }
+  ],
+  "node": "Advanced packaging substrate stack: ABF/build-up film, high-end IC substrates, plating equipment and chemistry",
+  "node_id": "advanced_packaging_abf_substrates",
+  "summary": "Expanded the US-listed universe around the ABF/high-end IC substrate chokepoint with one reference anchor and three underfollowed or second-order candidates. The strongest US-listed underfollowed mapping from the supplied evidence is MKS Inc. via Atotech plating equipment and proprietary chemistry used by PCB/substrate manufacturers. Other US-listed candidates are included as hypotheses because their relevance is adjacent: wet-processing/electrochemical plating tools, advanced-packaging inspection/metrology, or OSAT demand pull for high-end substrates. Non-US primary chokepoint names such as Ajinomoto, Ibiden, Shinko, Unimicron, Nan Ya PCB, and AT&S appear more directly exposed but are outside the requested US-listed focus.",
+  "theme_id": "technology_software_semiconductors_cloud_cybersecurity_infrastructure_automation"
+}
