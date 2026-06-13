@@ -1,0 +1,319 @@
+{
+  "evidence": [
+    {
+      "claim": "Powell Industries disclosed fiscal Q2 2026 backlog of approximately $1.8 billion, up 33%, and disclosed a subsequent mega data-center order with value exceeding $400 million.",
+      "claim_type": "fact",
+      "source_title": "Powell Industries Announces Second Quarter Fiscal 2026 Results",
+      "source_url": "https://powellindustriesinc.gcs-web.com/news-releases/news-release-details/powell-industries-announces-second-quarter-fiscal-2026-results",
+      "supports_tickers": [
+        "POWL"
+      ]
+    },
+    {
+      "claim": "Powell Industries disclosed in fiscal Q1 2026 commentary that rapid data-center development and AI investment were creating larger and more numerous opportunities for its medium-voltage switchgear products.",
+      "claim_type": "fact",
+      "source_title": "Powell Industries Announces First Quarter Fiscal 2026 Results",
+      "source_url": "https://powellindustriesinc.gcs-web.com/news-releases/news-release-details/powell-industries-announces-first-quarter-fiscal-2026-results",
+      "supports_tickers": [
+        "POWL"
+      ]
+    },
+    {
+      "claim": "Celestica's Q1 2026 filing described revenue growth driven by data-center networking demand, including ongoing ramps of switch programs.",
+      "claim_type": "fact",
+      "source_title": "Celestica Q1 2026 Form 10-Q",
+      "source_url": "https://corporate.celestica.com/static-files/a038440f-2566-4bc4-bb26-95d437a2830d",
+      "supports_tickers": [
+        "CLS"
+      ]
+    },
+    {
+      "claim": "Celestica is listed on both NYSE and TSX, so CLS and CLS.TO represent the same company-level exposure and should be deduplicated for dashboard ranking unless local-listing tracking is required.",
+      "claim_type": "fact",
+      "source_title": "Celestica Q1 2026 results / listing context",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001030894/000103089426000030/cls-20260331prcondensedfs.htm",
+      "supports_tickers": [
+        "CLS",
+        "CLS.TO"
+      ]
+    },
+    {
+      "claim": "SailPoint returned to public markets in 2025 and applied to list on Nasdaq under ticker SAIL; subsequent filings describe the IPO closing on February 14, 2025.",
+      "claim_type": "fact",
+      "source_title": "SailPoint IPO and FY2026 filing context",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0002030781/000203078126000003/sail-20260131.htm",
+      "supports_tickers": [
+        "SAIL"
+      ]
+    },
+    {
+      "claim": "Vertiv and Eaton are high-attention reference anchors for data-center power, cooling, and electrical infrastructure, but the candidate chunk itself labels them as reference rather than underfollowed discovery names.",
+      "claim_type": "fact",
+      "source_title": "User-provided candidate chunk",
+      "source_url": "cached_serenity_context",
+      "supports_tickers": [
+        "VRT",
+        "ETN"
+      ]
+    },
+    {
+      "claim": "Atkore, Badger Meter, Tenable, and Samsara remain hypotheses in the supplied candidate chunk because their AI links are indirect and require verification through revenue mix, product use cases, customer disclosures, or AI-specific monetization evidence.",
+      "claim_type": "fact",
+      "source_title": "User-provided candidate chunk",
+      "source_url": "cached_serenity_context",
+      "supports_tickers": [
+        "ATKR",
+        "BMI",
+        "TENB",
+        "IOT"
+      ]
+    }
+  ],
+  "layer": 3,
+  "memory_update": [
+    {
+      "content": "Do not rank CLS.TO separately from CLS unless the dashboard explicitly tracks local Canadian listings. Treat Celestica as one company-level exposure.",
+      "type": "deduplication"
+    },
+    {
+      "content": "Promote POWL above generic data-center reference leaders for this chunk because official disclosures now provide a direct data-center order/backlog signal and a clear falsification path.",
+      "type": "priority_adjustment"
+    },
+    {
+      "content": "For physical AI infrastructure candidates, prioritize names with order/backlog evidence tied to data centers over broad thematic claims about electrification, cooling, construction, or AI software.",
+      "type": "watchlist_rule"
+    },
+    {
+      "content": "Downgrade POWL if the $400M-plus data-center order proves one-off, if backlog growth is dominated by non-data-center projects, if book-to-bill weakens materially, or if margins normalize faster than expected.",
+      "type": "falsification_plan"
+    },
+    {
+      "content": "Downgrade CLS if data-center networking growth slows, switch-program ramps roll off, customer concentration worsens, or HPS margins compress despite revenue growth.",
+      "type": "falsification_plan"
+    },
+    {
+      "content": "ATKR, BMI, TENB, and IOT require primary-source verification before moving beyond hypothesis/speculative-shadow status.",
+      "type": "evidence_gap"
+    }
+  ],
+  "ranked_candidates": [
+    {
+      "attention_level": "medium_attention",
+      "company": "Powell Industries",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify the proportion of backlog and bookings tied to data centers, whether the $400M-plus data-center order is repeatable or one-off, capacity constraints, lead times, pricing power, and margin durability.",
+      "main_evidence_gap": "Need segment-level data-center revenue, customer concentration, order repeatability, and proof that AI data-center orders are not being overstated by one or two lumpy projects.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 1,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 5,
+        "mispricing_potential": 4,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 4
+      },
+      "ticker": "POWL",
+      "total_score": 37,
+      "why_prioritized": "Powell has the strongest combination of underfollowed discovery and testable evidence in this chunk. Its medium-voltage switchgear and electrical distribution exposure maps directly to AI data-center power constraints, and recent company disclosures mention data-center-driven opportunities, backlog growth, and a large data-center order. This makes it a better Serenity candidate than generic AI-adjacent software names because the demand node, order signal, and falsification path are concrete.",
+      "why_underfollowed": "It often screens as industrial electrical equipment rather than AI infrastructure. The hidden signal is that medium-voltage switchgear and related power-distribution systems may be a physical-infrastructure chokepoint for larger data centers."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Celestica",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify AI networking or data-center platform revenue, switch-program contribution, hyperscaler customer concentration, backlog visibility, HPS margin sustainability, and whether growth is AI-cluster-specific rather than general hardware refresh.",
+      "main_evidence_gap": "Need named program/customer evidence and better separation of AI networking revenue from broader hardware-platform revenue.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 2,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 2,
+        "underfollowed_discovery": 3
+      },
+      "ticker": "CLS",
+      "total_score": 32,
+      "why_prioritized": "Celestica has official evidence of data-center networking demand and switch-program ramps, making it one of the cleaner underfollowed AI infrastructure mappings in this chunk. It is less of a pure chokepoint than Powell because EMS/platform manufacturing has more substitutability, but its exposure to AI networking hardware makes the thesis testable through revenue mix, HPS margins, backlog, and customer concentration.",
+      "why_underfollowed": "It is often categorized as EMS or contract manufacturing rather than as an AI data-center networking infrastructure supplier. The AI exposure may be hidden inside communications and enterprise hardware programs."
+    },
+    {
+      "attention_level": "high_attention",
+      "company": "Vertiv",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Verify backlog quality, liquid-cooling mix, hyperscale exposure, service attach rate, and whether smaller suppliers show similar or stronger order acceleration.",
+      "main_evidence_gap": "Need current official backlog and liquid-cooling mix evidence for direct comparison with smaller suppliers in this chunk.",
+      "market_cap_bucket": "large_cap",
+      "rank": 3,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 5,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 1,
+        "public_market_purity": 5,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 0
+      },
+      "ticker": "VRT",
+      "total_score": 29,
+      "why_prioritized": "Vertiv remains useful as a reference leader for AI data-center power and cooling demand. Its public-market purity to critical digital infrastructure is high, and its backlog, liquid-cooling mix, and hyperscaler exposure can benchmark the smaller names. It is not prioritized as an underfollowed discovery because the market already widely associates it with AI data-center infrastructure.",
+      "why_underfollowed": "Not underfollowed. It should be used as a benchmark rather than the main alpha hunt."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "Atkore",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify data-center revenue contribution, volume growth, pricing dynamics, channel inventory, and whether AI data-center demand can offset cyclical weakness in broader construction markets.",
+      "main_evidence_gap": "No strong evidence in the provided context that data centers are a material or accelerating part of Atkore revenue.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 4,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 4,
+        "evidence_quality": 1,
+        "falsifiability": 3,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2,
+        "underfollowed_discovery": 4
+      },
+      "ticker": "ATKR",
+      "total_score": 26,
+      "why_prioritized": "Atkore is a plausible second-order AI data-center infrastructure candidate because data-center construction requires electrical raceway, conduits, cable management, and infrastructure products. It scores well on underfollowed discovery and mispricing potential, but the evidence quality is currently weak and the bottleneck severity is lower than Powell or Vertiv.",
+      "why_underfollowed": "It screens as construction products or electrical infrastructure rather than AI. Its exposure is one or two steps removed from hyperscaler capex."
+    },
+    {
+      "attention_level": "unknown",
+      "company": "SailPoint",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify public listing status, AI-agent identity product evidence, non-human identity demand, enterprise adoption, ARR growth, net retention, and whether AI-related use cases are material rather than marketing language.",
+      "main_evidence_gap": "The provided evidence confirms public-company status but does not yet prove that AI-agent or non-human identity demand is a material revenue driver.",
+      "market_cap_bucket": "unknown",
+      "rank": 5,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 3,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2,
+        "underfollowed_discovery": 3
+      },
+      "ticker": "SAIL",
+      "total_score": 26,
+      "why_prioritized": "SailPoint has a credible second-order AI-security thesis: AI agents, machine identities, and enterprise automation may increase the need for identity governance and access-control systems. It is less directly tied to physical AI infrastructure than Powell or Celestica, but the non-human identity angle is a testable hidden signal.",
+      "why_underfollowed": "Identity governance can be overlooked relative to cloud security, model security, or endpoint security. If AI-agent permissions become a governance bottleneck, identity platforms may become more important."
+    },
+    {
+      "attention_level": "high_attention",
+      "company": "Eaton",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Verify data-center order growth, electrical backlog, pricing, lead times, and whether smaller suppliers have more concentrated exposure to the same demand wave.",
+      "main_evidence_gap": "Need current segment-level evidence separating AI/data-center demand from broader electrical and industrial growth.",
+      "market_cap_bucket": "mega_cap",
+      "rank": 6,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 5,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 1,
+        "public_market_purity": 3,
+        "risk_clarity": 4,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 0
+      },
+      "ticker": "ETN",
+      "total_score": 27,
+      "why_prioritized": "Eaton is a strong reference anchor for AI data-center electrical infrastructure demand, but it is penalized for mega-cap status, high attention, and lower public-market purity because its business is diversified across broader power-management markets. It is useful for demand validation, not as the main underfollowed discovery.",
+      "why_underfollowed": "Not underfollowed. It is already widely recognized as an electrification and data-center power beneficiary."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Tenable",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify AI-specific products, exposure-management adoption tied to AI workloads, federal and enterprise demand, net retention, and whether AI increases budgets rather than merely appearing in product messaging.",
+      "main_evidence_gap": "Need official customer, product, or revenue evidence showing AI-specific demand uplift.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 7,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 4,
+        "evidence_quality": 1,
+        "falsifiability": 3,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2,
+        "underfollowed_discovery": 3
+      },
+      "ticker": "TENB",
+      "total_score": 24,
+      "why_prioritized": "Tenable has a plausible AI-adjacent security thesis because enterprise AI deployment may expand attack surfaces and asset complexity. However, the causal link from AI adoption to incremental revenue is not proven in the supplied evidence, and vulnerability management is less of a hard chokepoint than power, cooling, or networking infrastructure.",
+      "why_underfollowed": "It may be treated as generic cybersecurity software rather than as an AI-exposure-management beneficiary."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Badger Meter",
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Verify whether Badger Meter products are used in data-center cooling loops, water management, or utility infrastructure serving data centers; check end-market mix and customer disclosures.",
+      "main_evidence_gap": "No direct evidence in the provided context that data centers are material to revenue or orders.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 8,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 3,
+        "evidence_quality": 1,
+        "falsifiability": 3,
+        "mispricing_potential": 3,
+        "public_market_purity": 2,
+        "risk_clarity": 2,
+        "supplier_scarcity": 2,
+        "underfollowed_discovery": 4
+      },
+      "ticker": "BMI",
+      "total_score": 22,
+      "why_prioritized": "Badger Meter is an interesting but speculative shadow candidate. AI data centers increase cooling and water-management complexity, and flow measurement may be relevant to cooling loops or utility infrastructure. The underfollowed angle is real, but current evidence is too weak to place it above more directly exposed electrical and networking suppliers.",
+      "why_underfollowed": "The possible AI link is hidden inside water infrastructure, cooling instrumentation, and flow measurement rather than obvious data-center equipment."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Samsara",
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Verify AI product adoption, incremental pricing, expansion rates, customer retention, vertical exposure, and whether AI features drive revenue rather than functioning as product enhancement.",
+      "main_evidence_gap": "Need evidence that AI-specific functionality is a material revenue or retention driver.",
+      "market_cap_bucket": "large_cap",
+      "rank": 9,
+      "scores": {
+        "bottleneck_severity": 1,
+        "demand_durability": 3,
+        "evidence_quality": 1,
+        "falsifiability": 3,
+        "mispricing_potential": 2,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 1,
+        "underfollowed_discovery": 1
+      },
+      "ticker": "IOT",
+      "total_score": 18,
+      "why_prioritized": "Samsara is a lower-priority candidate for this specific chunk. AI may increase the value of operational data platforms, fleet automation, and industrial telemetry, but the supplied evidence does not establish a hard bottleneck, a scarce supplier position, or material AI monetization.",
+      "why_underfollowed": "Not especially underfollowed, and the AI linkage is broad rather than supply-chain-specific."
+    }
+  ],
+  "summary": "Within this candidate chunk, the highest Serenity research priority goes to underfollowed or less-obvious AI data-center infrastructure suppliers with verifiable order, backlog, or revenue signals. Powell Industries ranks first because recent official disclosures directly tie backlog and a large data-center order to AI/data-center power demand. Celestica ranks second because official filings show strong data-center networking demand, but it is becoming more recognized and has customer/margin concentration questions. Vertiv and Eaton are useful reference anchors but are penalized for high attention and lower underfollowed discovery. Atkore, SailPoint, Tenable, Badger Meter, and Samsara remain secondary or speculative because their AI linkage is more indirect or evidence quality is weaker. Celestica's Canadian listing is deduplicated and not ranked separately.",
+  "theme_id": "technology_ai_data_center_physical_infrastructure_and_second_order_software_chunk"
+}
