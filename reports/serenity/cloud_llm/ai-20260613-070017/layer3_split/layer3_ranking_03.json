@@ -1,0 +1,226 @@
+{
+  "evidence": [
+    {
+      "claim": "Layer 2 cached context identifies AI infrastructure demand as spreading beyond GPUs into advanced packaging, networking, power, optical interconnect, server platforms, and data-center electrical infrastructure.",
+      "claim_type": "fact",
+      "source": "provided_cached_layer2_context",
+      "source_url": "cached_evidence_from_user_prompt",
+      "used_for": [
+        "demand_durability",
+        "bottleneck_severity",
+        "reference_anchor_scoring"
+      ]
+    },
+    {
+      "claim": "Broadcom's reported custom AI accelerator and AI networking strength supports mapping AI demand through networking and ASIC supply, not only merchant GPUs.",
+      "claim_type": "fact",
+      "source": "Signals from SEC Filings — Tech Supply Chain | InvestReport.ai",
+      "source_url": "https://investreport.ai/sec-signal.html",
+      "used_for": [
+        "demand_durability",
+        "hyperscaler_custom_silicon_context",
+        "upstream_supply_chain_mapping"
+      ]
+    },
+    {
+      "claim": "The provided candidate chunk classifies Flex and Jabil as underfollowed EMS hypotheses with evidence-needed tags and specific hidden signals to verify around AI server, rack, power, networking, data-center, or cloud hardware programs.",
+      "claim_type": "fact",
+      "source": "provided_candidate_chunk",
+      "source_url": "cached_candidate_chunk_from_user_prompt",
+      "used_for": [
+        "underfollowed_discovery",
+        "falsifiability",
+        "main_evidence_gap"
+      ]
+    },
+    {
+      "claim": "The provided candidate chunk classifies Microsoft, Amazon, Alphabet, and Meta as high-attention mega-cap reference anchors, not underfollowed discovery candidates.",
+      "claim_type": "fact",
+      "source": "provided_candidate_chunk",
+      "source_url": "cached_candidate_chunk_from_user_prompt",
+      "used_for": [
+        "discovery_lane",
+        "underfollowed_discovery",
+        "ranking_penalty_for_popularity"
+      ]
+    }
+  ],
+  "layer": 3,
+  "memory_update": [
+    {
+      "content": "For Layer 3 AI candidate chunks, prioritize underfollowed suppliers with testable hidden AI infrastructure exposure over mega-cap demand anchors, even when the anchors have stronger evidence quality.",
+      "type": "ranking_rule"
+    },
+    {
+      "reason": "Highest underfollowed priority in this chunk; thesis is testable through AI/data-center program exposure, segment revenue, margins, backlog, inventory, and customer concentration.",
+      "status": "promote_to_layer4_verification",
+      "ticker": "FLEX",
+      "type": "candidate_status"
+    },
+    {
+      "reason": "Second underfollowed EMS candidate; needs direct validation of cloud/data-center or AI infrastructure manufacturing exposure and margin quality.",
+      "status": "promote_to_layer4_verification",
+      "ticker": "JBL",
+      "type": "candidate_status"
+    },
+    {
+      "reason": "Useful for mapping capex and procurement pressure but not suitable as underfollowed Serenity chokepoint candidates in this chunk.",
+      "status": "retain_as_reference_anchors_only",
+      "tickers": [
+        "MSFT",
+        "AMZN",
+        "GOOGL",
+        "META"
+      ],
+      "type": "candidate_status"
+    }
+  ],
+  "ranked_candidates": [
+    {
+      "attention_level": "medium_attention",
+      "company": "Flex Ltd.",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify AI server, rack, power, networking, or hyperscaler program exposure, revenue materiality, margins, and customer concentration.",
+      "main_evidence_gap": "No direct evidence in the provided context proves material AI-related revenue or bottleneck control. Need primary-source confirmation from filings, earnings calls, segment disclosures, customer references, or management commentary.",
+      "market_cap_bucket": "large_cap",
+      "rank": 1,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2,
+        "underfollowed_discovery": 4
+      },
+      "ticker": "FLEX",
+      "total_score": 28,
+      "why_prioritized": "Flex is the highest-priority name in this chunk because its broad EMS and data-center infrastructure label could hide AI rack, power, networking, or hyperscaler manufacturing exposure. The thesis is still a hypothesis, but it has a clear Serenity verification path: segment revenue, customer programs, backlog, margins, inventory, and capex tied to AI data-center hardware.",
+      "why_underfollowed": "The company is usually classified as broad electronics manufacturing services rather than as an AI infrastructure supplier, which may obscure exposure to rack-level systems, data-center hardware, power assemblies, or cloud infrastructure programs."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Jabil Inc.",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify cloud/data-center program exposure, AI-related revenue contribution, margin mix, customer concentration, and inventory risk.",
+      "main_evidence_gap": "Provided evidence does not establish whether Jabil has material AI infrastructure exposure, whether such exposure is margin-accretive, or whether customers can dual-source the work easily.",
+      "market_cap_bucket": "large_cap",
+      "rank": 2,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 4,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2,
+        "underfollowed_discovery": 4
+      },
+      "ticker": "JBL",
+      "total_score": 28,
+      "why_prioritized": "Jabil is a credible second underfollowed candidate because AI data-center hardware growth can flow through complex electronics manufacturing, supply-chain services, and cloud hardware programs. It ranks just behind Flex because the provided chunk offers less node specificity around data-center power or rack infrastructure.",
+      "why_underfollowed": "The broad manufacturing and supply-chain-services label may cause investors to miss cloud or data-center program exposure if AI-related content is embedded inside diversified end markets."
+    },
+    {
+      "attention_level": "high_attention",
+      "company": "Microsoft Corporation",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Verify AI capex trajectory, GPU/custom silicon procurement, power constraints, depreciation pressure, and cloud AI monetization.",
+      "main_evidence_gap": "The chunk does not provide current primary-source Microsoft capex, AI revenue, supplier commitment, or power-constraint evidence; the Serenity use case is mainly contextual rather than alpha-discovery focused.",
+      "market_cap_bucket": "mega_cap",
+      "rank": 3,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 1,
+        "public_market_purity": 2,
+        "risk_clarity": 4,
+        "supplier_scarcity": 1,
+        "underfollowed_discovery": 0
+      },
+      "ticker": "MSFT",
+      "total_score": 24,
+      "why_prioritized": "Microsoft is useful as a reference demand anchor because hyperscaler AI capex can drive upstream demand for accelerators, networking, optics, power, cooling, and data-center construction. It is not prioritized as an underfollowed chokepoint candidate.",
+      "why_underfollowed": "Not underfollowed; included only to map downstream AI demand, procurement behavior, capex durability, and pressure on upstream supply-chain nodes."
+    },
+    {
+      "attention_level": "high_attention",
+      "company": "Amazon.com, Inc.",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Verify AI capex, AWS AI revenue contribution, custom silicon ramp, power availability, and supplier commitments.",
+      "main_evidence_gap": "The provided context does not include fresh primary-source AWS capex, Trainium/Inferentia deployment economics, supplier commitments, or evidence tying Amazon directly to the underfollowed EMS candidates.",
+      "market_cap_bucket": "mega_cap",
+      "rank": 4,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 1,
+        "public_market_purity": 2,
+        "risk_clarity": 4,
+        "supplier_scarcity": 1,
+        "underfollowed_discovery": 0
+      },
+      "ticker": "AMZN",
+      "total_score": 24,
+      "why_prioritized": "Amazon is a reference anchor for AWS AI infrastructure, custom silicon, and data-center capex. Its main value in this layer is to identify upstream demand paths rather than to serve as an underfollowed public-market bottleneck candidate.",
+      "why_underfollowed": "Not underfollowed; included only as a procurement and capex anchor for the AI data-center supply chain."
+    },
+    {
+      "attention_level": "high_attention",
+      "company": "Alphabet Inc.",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Verify TPU capex, cloud AI revenue, data-center power constraints, optical/networking demand, and supplier relationships.",
+      "main_evidence_gap": "The chunk lacks current primary-source evidence on TPU-related capex, supplier allocations, optical/networking demand, and power constraints.",
+      "market_cap_bucket": "mega_cap",
+      "rank": 5,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 5,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 1,
+        "public_market_purity": 2,
+        "risk_clarity": 4,
+        "supplier_scarcity": 1,
+        "underfollowed_discovery": 0
+      },
+      "ticker": "GOOGL",
+      "total_score": 24,
+      "why_prioritized": "Alphabet is a reference anchor for custom AI accelerator demand through TPU infrastructure and cloud AI buildout. It helps map demand for networking, substrates, optics, power, and data-center infrastructure, but it is not a hidden supply-chain candidate.",
+      "why_underfollowed": "Not underfollowed; included as a demand anchor for custom silicon and data-center infrastructure."
+    },
+    {
+      "attention_level": "high_attention",
+      "company": "Meta Platforms, Inc.",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Verify AI capex, model deployment economics, supplier commitments, power availability, and depreciation burden.",
+      "main_evidence_gap": "The chunk does not provide direct current evidence for Meta supplier commitments, power availability constraints, AI return-on-capex, or specific links to the EMS candidates.",
+      "market_cap_bucket": "mega_cap",
+      "rank": 6,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 1,
+        "public_market_purity": 2,
+        "risk_clarity": 4,
+        "supplier_scarcity": 1,
+        "underfollowed_discovery": 0
+      },
+      "ticker": "META",
+      "total_score": 23,
+      "why_prioritized": "Meta remains relevant as a reference AI infrastructure demand anchor whose model training and inference buildout can affect GPU, optics, power, cooling, and data-center construction chains. It ranks below the other reference anchors because its public-market exposure is less pure to monetized cloud AI infrastructure.",
+      "why_underfollowed": "Not underfollowed; included only to map AI infrastructure demand-side capex and procurement pressure."
+    }
+  ],
+  "summary": "Within this candidate chunk, Serenity priority favors the two underfollowed EMS names because they may sit one or two steps away from obvious AI demand and have testable hidden supply-chain signals. Flex ranks ahead of Jabil due to a slightly cleaner possible link to data-center infrastructure, power, rack, and industrial systems. The hyperscalers are retained as reference demand anchors only; they score highly on demand durability and evidence quality but low on underfollowed discovery, public-market purity to this specific supply-chain bottleneck, and mispricing potential for a Serenity chokepoint funnel.",
+  "theme_id": "ai_layer3_candidate_chunk_ems_hyperscaler_demand_anchors"
+}

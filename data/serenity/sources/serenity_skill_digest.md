@@ -1,6 +1,6 @@
 # Serenity Skill Repository Digest
 
-Generated: 2026-06-12 14:41:54 UTC
+Generated: 2026-06-13 07:00:07 UTC
 
 Purpose: provide cached methodology context for cloud-side Serenity / chokepoint research runs.
 
@@ -3147,56 +3147,21 @@ Each entry covers one ticker. Update **Latest signal** and timestamp in-place wh
 
 ---
 
-## $SIVE — Last updated: 2026-06-12T04:26:43Z
+## $AXTI — AXT Inc
 
-- **View**: Bullish (space/defense catalyst + multi-institution floor-building; framed as early-stage "ALAB/AAOI/LITE comparable" — potential 2025 high-conviction pattern replay)
-- **Latest signal**: Serenity directly positioned $SIVE as being in the same early-stage range as $ALAB ($97→$372), $LITE ($330→$904), and $AAOI ($30→$175) were in 2025 when they were "small $3B companies (~$14B now)." This is the most explicit early-stage comparable framing she has applied to SIVE — implying it could follow the same trajectory as her 2025 calls that all delivered 2–5x+ returns.
-- **Post**: [2065289672356745561](https://x.com/aleabitoreddit/status/2065289672356745561) — 2026-06-12T04:26:43Z
-- **Key quote**: "So maybe some others in the same range today like $SIVE should get some more attention?"
-- **Thesis type**: Space/defense supply-chain chokepoint + multi-institution float squeeze (BlackRock+Fidelity+JPM accumulation pattern; ahead of SpaceX IPO); early-stage "ALAB/AAOI/LITE pattern" comparable at ~$3B MC
-- **Prior signals**: Jun 11 08:11 brief bullish reaffirmation: 'I like $SIVE' [[2064983882802565169]](https://x.com/aleabitoreddit/status/2064983882802565169) — 2026-06-11T08:11:37Z; New institutional validation wave — BlackRock entered $SIVE as passive owners following index listing; Fidelity Research starting direct positions. Pattern mirrors JP Morgan's earlier entry (small positions → acquired ~5.25% of company). Serenity interprets this as "US institutions validated Sivers's position in photonics and are trying to accumulate positions." Three major US institutions (JPM, BlackRock, Fidelity) now building positions in a thinly floated name = ongoing float squeeze dynamic reinforced. [[2064608597343125931]](https://x.com/aleabitoreddit/status/2064608597343125931) — 2026-06-10T07:20:22Z; Jun 11 01:38 institutional-cycle framework reaffirmation: 'There was close to 0 US institutional ownership on $SIVE. And now you see active institutions like JP Morgan, Fidelity Research, and others on the cap table.' Frames SIVE as the current leg of the RKLB ($16 entry → ATH) / NBIS (<30% inst. accumulation → float absorbed by institutions → ATH) institutional-cycle pattern; meta-signal: 'if you see negative sellside reports or an uncanny wave of negative news, it's a good signal they need liquidity'; explicitly links SIVE to Foci (3363) as parallel accumulation-phase long [[2064884912667439129]](https://x.com/aleabitoreddit/status/2064884912667439129) — 2026-06-11T01:38:21Z; Jun 10 13:44 recovery reaffirmation: 'optical players from $LITE to $AAOI and $SIVE are slightly recovering as they should. The initial selloff was just stupid.' [[2064705380933074945]](https://x.com/aleabitoreddit/status/2064705380933074945) — 2026-06-10T13:44:57Z; Jun 9 07:21 $8.2M production order for Ka-Band Beamforming ICs (allspace/YSS defense chain), "typically leads to more follow-up orders + volume contracts" [2064246556690469123](https://x.com/aleabitoreddit/status/2064246556690469123) — 2026-06-09T07:21:45Z; Jun 9 14:57 volatility reaffirmation: "photonics from $AAOI to $LITE or $SIVE are not disappearing anytime soon… just extremely volatile" [2064361170270933269](https://x.com/aleabitoreddit/status/2064361170270933269) — 2026-06-09T14:57:11Z; JP Morgan 5.25%+ stake disclosure [2063951279278391414](https://x.com/aleabitoreddit/status/2063951279278391414) — 2026-06-08T11:48:25Z
+- **Latest signal**: Opportunistic/Bullish — AI export wars creating supply-chain bottlenecks; upstream compound semiconductor players like AXTI (InP substrates) positioned to benefit "in the near future"
+- **Latest tweet**: [2065650434644304165](https://x.com/aleabitoreddit/status/2065650434644304165) — 2026-06-13T04:20:16Z
+- **Quote**: "The AI supremacy Wars begins. Think a lot of the upstream supply chain bottlenecks caused by each Country export controlling each other (eg. $AXTI). Should present some interesting opportunities in the near future."
+- **Context**: Serenity cites US government export controls on Anthropic's Fable/Mythos AI models to foreign nationals as evidence of escalating AI supremacy competition. Uses AXTI as an illustrative example of upstream supply-chain beneficiaries amid inter-country export restrictions. **Note:** Prior AXTI call (Dec 2025 entry ~$700M MC) returned +1,057%+ by Apr 2026; this is a fresh macro-thesis mention, not a new explicit buy signal. Views new wave of AI export controls as a second-order catalyst for InP wafer substrate players.
 
 ---
 
-## $JBL (Jabil Inc.) — Last updated: 2026-06-09T06:44:07Z
+## $SPCX — SpaceX
 
-- **View**: Tentatively bullish (speculative research idea, no position held)
-- **Latest signal**: Serenity flagged $JBL as a "highkey compelling long idea at $38B" — arguing markets haven't priced in the 1.6T LRO pluggable transceiver business, especially if $SIVE becomes the laser bottleneck through H1 2027. Jabil took over $INTC pluggable lines and is positioned as more scalable than $AAOI's capex-heavy laser-fab approach: if $SIVE + diverse fabs (Win Semi + others) supply lasers and $JBL handles final assembly, that creates an Innolight-style vertically-integrated setup with already-validated hyperscaler relationships and US-production premiums. Potential 40% re-rating by H1 2027.
-- **Post**: [2064237083510952402](https://x.com/aleabitoreddit/status/2064237083510952402) — 2026-06-09T06:44:07Z
-- **Key quote**: "$JBL seems highkey compelling long idea at $38B...markets have not priced in their 1.6T LRO pluggable transceiver business yet...especially if it's 'how much can you make' with $SIVE as the bottleneck H1 2027...Prob H1 2027 is when everyone starts realizing. Maybe 40% re-rating seems plausible?"
-- **Thesis type**: Pluggable transceiver / AI DC supply-chain play (adjacent to $SIVE photonics thesis)
-- **Caveat**: Serenity explicitly states no current position; forward research idea, not an active call. June 9 AI mid-cap list confirms no position held (holdings limited to NBIS/TSEM/AAOI).
-
----
-
-## $MRVL (Marvell Technology) — Last updated: 2026-06-11T18:19:06Z
-
-- **View**: Bullish (top US equity pick)
-- **Latest signal**: Serenity reaffirmed $MRVL as part of a curated US equities "goated" list — a high-conviction selection of preferred US names shared as a recap for new followers. Positioned alongside $ARM and $INTC as core US semiconductor/tech holdings.
-- **Post**: [2063984786918854663](https://x.com/aleabitoreddit/status/2063984786918854663) — 2026-06-08T14:01:34Z
-- **Key quote**: "Still think this US list from $MRVL to $ARM to $INTC was goated. Just as a recap if new followers were wondering what US equities I like."
-- **Thesis type**: High-conviction US equity list (semiconductor/tech)
-- **Prior signals**: Jun 11 18:19 Iran ceasefire macro observation: $MRVL named alongside $SNDK and $LITE as rising on Trump's cancellation of Iran strikes — "Just in case you're wondering why indexes + individual names like $SNDK to $MRVL to $LITE are green now. Trump just cancelled attacks on Iran. This market is so volatile." Not a new buy call; contextual de-escalation catalyst note. [[2065136761077158061]](https://x.com/aleabitoreddit/status/2065136761077158061) — 2026-06-11T18:19:06Z
-
----
-
-## $ARM (ARM Holdings) — Last updated: 2026-06-08T14:01:34Z
-
-- **View**: Bullish (top US equity pick)
-- **Latest signal**: Serenity reaffirmed $ARM as part of a curated US equities "goated" list — a high-conviction selection of preferred US names. Context: Serenity noted they have been discussing international companies recently, but reaffirmed the US list including $ARM remains favored.
-- **Post**: [2063984786918854663](https://x.com/aleabitoreddit/status/2063984786918854663) — 2026-06-08T14:01:34Z
-- **Key quote**: "Still think this US list from $MRVL to $ARM to $INTC was goated. Especially because I've been talking about international companies recently."
-- **Thesis type**: High-conviction US equity list (semiconductor/tech)
-
----
-
-## $INTC (Intel) — Last updated: 2026-06-11T16:13:28Z
-
-- **View**: Bullish (top US equity pick; critical US supply-chain with subsidy validation)
-- **Latest signal**: Serenity reaffirmed $INTC as part of a curated US equities "goated" list alongside $MRVL and $ARM. This is notable given Intel's turnaround context — inclusion in this list signals continued conviction despite sector headwinds.
-- **Post**: [2063984786918854663](https://x.com/aleabitoreddit/status/2063984786918854663) — 2026-06-08T14:01:34Z
-- **Key quote**: "Still think this US list from $MRVL to $ARM to $INTC was goated. Just as a recap if new followers were wondering what US equities I like.
-...TRUNCATED...
+- **Latest signal**: Bullish — IPO debut confirmed; now trading at $2.15T+ market cap
+- **Latest tweet**: [2065462946785030506](https://x.com/aleabitoreddit/status/2065462946785030506) — 2026-06-12T15:55:15Z
+- **Quote**: "$SPCX is now trading! And it's now over $2.15T+ MC."
+- **Context**: Serenity had been tracking the SPCX IPO closely; same-day tweet (2065434058474307866) noted "everyone is just waiting for the $SPCX IPO in a few hours." IPO confirmed with $2.15T+ market cap on debut — framed as a milestone. Implied bullish on SpaceX public equity; high valuation treated as notable/positive.
 ```
 
 ### yan_labs_serenity_archive / serenity-aleabitoreddit/references/track-record.md
