@@ -1,6 +1,6 @@
 # Serenity Skill Repository Digest
 
-Generated: 2026-06-13 11:42:04 UTC
+Generated: 2026-06-14 07:00:06 UTC
 
 Purpose: provide cached methodology context for cloud-side Serenity / chokepoint research runs.
 
@@ -3147,6 +3147,15 @@ Each entry covers one ticker. Update **Latest signal** and timestamp in-place wh
 
 ---
 
+## $SIVE — (SEK-listed)
+
+- **Latest signal**: Bullish (fully validated) — Original long thesis at 4 SEK (~March 2026); now up ~1900%. Ranked "2nd greatest thesis of all time after $AXTI." US institutions (JPM, Fidelity) only recently entering positions, suggesting adoption tailwind continues.
+- **Latest tweet**: [2065779524248510758](https://x.com/aleabitoreddit/status/2065779524248510758) — 2026-06-13T12:53:13Z
+- **Quote**: "It's been officially 3 months since I posted my $SIVE long thesis back at 4 SEK. This idea is now up ~1900%… With many US institutions from JPM to Fidelity only recently entering positions. Probably my 2nd greatest thesis of all time after $AXTI."
+- **Context**: SEK-listed stock. Original long thesis initiated ~March 13, 2026 at 4 SEK entry. By June 13, 2026, up ~1900% (~3 months). Major institutions (JPM, Fidelity) have only recently begun entering — indicating potential ongoing institutional adoption tailwind despite already large gain. Ranked #2 all-time call after $AXTI. No explicit exit signal stated.
+
+---
+
 ## $AXTI — AXT Inc
 
 - **Latest signal**: Opportunistic/Bullish — AI export wars creating supply-chain bottlenecks; upstream compound semiconductor players like AXTI (InP substrates) positioned to benefit "in the near future"
@@ -3186,9 +3195,10 @@ Tracks Serenity's publicly stated dated calls, position changes, and outcomes. N
 
 | Date | Source | Ticker | Call | Entry | Outcome | Notes |
 |------|--------|--------|------|-------|---------|-------|
-| 2026-06-12 | X [2065289672356745561](https://x.com/aleabitoreddit/status/2065289672356745561) | $SIVE | Bullish — "same range as where ALAB/LITE/AAOI were" at ~$3B MC | ~$3B MC | Ongoing | Early-stage comparable to 2025 high-conviction calls |
+| 2026-06-12 | X [2065289672356745561](https://x.com/aleabitoreddit/status/2065289672356745561) | $SIVE | Bullish — "same range as where ALAB/LITE/AAOI were" at ~$3B MC | ~$3B MC | ✅ +1900% from Mar 2026 origin (validated 2026-06-13) | June 13 tweet confirms original March call up ~1900%; JPM+Fidelity recently entering as of Jun 2026 |
 | 2026-06-11 | X [2065009883133644963](https://x.com/aleabitoreddit/status/2065009883133644963) | $XFAB | Research bullish (~€1.1B MC; EU silicon photonics foundry; early) | ~€1.1B MC | Ongoing | "Might just really early"; development-stage; Oct 2026 target |
 | 2026-06-11 | X [2064992691902140603](https://x.com/aleabitoreddit/status/2064992691902140603) | $LPK | Long (SpaceX supplier found in US import logs) | Undisclosed | Ongoing | Speculative; "not sure what the exact contract entails" |
+| 2026-03-13 (est.) | X [2033463897521520947](https://x.com/aleabitoreddit/status/2033463897521520947) | $SIVE | Long thesis initiation at 4 SEK | 4 SEK | ✅ +1900% by Jun 2026 | Original call; ranked "2nd greatest thesis of all time after $AXTI"; institutions JPM+Fidelity still entering as of Jun 2026 |
 | 2026-03-11 | X | $TSEM | Long | Entry Mar 11 2026 | +63% in 2 weeks (self-reported) | ✅ Hit — held as of Jun 2026 (disclosed position) |
 
 ---

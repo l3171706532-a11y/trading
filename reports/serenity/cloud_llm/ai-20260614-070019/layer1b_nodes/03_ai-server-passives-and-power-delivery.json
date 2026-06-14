@@ -1,0 +1,570 @@
+{
+  "candidates": [
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Murata Manufacturing Co., Ltd.",
+      "confidence": 0.86,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether Murata's AI-server MLCC demand is concentrated in a narrow high-capacitance, low-ESR/low-ESL band with limited qualified suppliers, not just generic MLCC recovery.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review Murata FY2025/FY2026 earnings materials, AI data-center presentation slides, customer qualification language, capex allocation, and any pricing/lead-time commentary for high-end MLCCs.",
+      "node_relation": "Reference leader for high-end MLCCs and related data-center passive/power components; US OTC ADR used as a context anchor rather than an underfollowed small/mid-cap discovery candidate.",
+      "sector_or_industry": "Electronic components; MLCCs, EMI filters, power supplies",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference_leader",
+        "evidence_needed",
+        "passives",
+        "reference_anchor",
+        "mlcc"
+      ],
+      "theme_relation": "AI data-center server builds appear to be increasing demand for MLCCs, EMI filters, and server power-supply components.",
+      "ticker": "MRAAY",
+      "why_include": "External search context identifies Murata as a central AI-server MLCC beneficiary, with the key claim that the bottleneck is concentrated in small, high-capacitance, low-ESR, low-ESL parts rather than the whole MLCC market. Murata's own server/data-center product pages also list chip MLCC and low-ESL MLCC product families for server applications. | External search context specifically identifies Murata as a leading AI-server MLCC beneficiary and states the bottleneck is in a narrow high-end MLCC band rather than commodity MLCCs broadly. | Murata explicitly projected MLCC revenue growth driven by data-center component demand and power-supply revenue growth for server applications, making it the cleanest public reference anchor for the node. | Murata is the cleanest public reference for the hypothesis that the bottleneck is not commodity MLCCs broadly, but high-capacitance, low-ESR/low-ESL server-grade MLCCs and related data-center components.",
+      "why_underfollowed": "Not underfollowed relative to component specialists, but often absent from US AI narratives dominated by GPUs, HBM, networking, and power/cooling infrastructure."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Vicor Corporation",
+      "confidence": 0.86,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether current revenue growth is actually tied to AI accelerator wins versus legacy industrial, aerospace, automotive, or customer-concentration effects.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify customer concentration, AI/data-center revenue contribution, design-win status, production ramps, gross-margin sensitivity, and competitive displacement risk versus multiphase buck, vertical power delivery, and ASIC-vendor in-house designs.",
+      "node_relation": "Direct board-level AI-processor power-delivery supplier through high-density power modules and power-delivery-network architectures for AI accelerators and OCP accelerator modules.",
+      "sector_or_industry": "Power modules; high-density power conversion; point-of-load power delivery",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "power_delivery",
+        "evidence_needed",
+        "underfollowed",
+        "qualification_gate",
+        "ai_accelerator"
+      ],
+      "theme_relation": "AI accelerators require very high current at low voltage, making dense, efficient last-inch and board-level power conversion a direct AI-server infrastructure exposure.",
+      "ticker": "VICR",
+      "why_include": "Vicor's own materials describe AI/data-center power-delivery-network use cases, including AI processor delivery above 500A at sub-1V levels and OCP accelerator-card form factors. This makes VICR a direct power-delivery anchor for the node. | Vicor's 10-K explicitly describes a power-on-package configuration for an AI accelerator card and states Advanced Products are concentrated in data center and hyperscaler enterprise computing, with use in server motherboards, racks, and datacenter infrastructure. | Vicor's own materials discuss power delivery for OCP Accelerator Module cards, custom AI accelerator cards, server racks, and datacenter infrastructure. Its 2024 10-K also described advanced products used for power delivery on server motherboards, in racks, and across datacenter infrastructure. | Vicor is one of the clearest public-market mappings to board-level AI accelerator power delivery, including 48V migration, OAM/custom AI accelerator cards, lateral and vertical power delivery, and datacenter/hyperscaler customer concentration.",
+      "why_underfollowed": "More followed than small passives suppliers, but still less central in mainstream AI discussions than GPU, memory, and networking leaders; exposure is narrower and more technical."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Bel Fuse Inc.",
+      "confidence": 0.74,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether datacenter/networking front-end power demand is tied to AI server/rack deployments rather than general networking recovery; whether 48V power architecture adoption benefits Bel's specific products.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify datacenter revenue mix, hyperscaler/ODM customer references, backlog, margin sustainability, power-shelf qualification, 48V product penetration, and whether magnetic-solutions growth is tied to AI networking platforms.",
+      "node_relation": "Second-order supplier of front-end power products, DC-DC converters, power shelves/racks, magnetics, circuit protection, and connectivity used in networking/datacenter infrastructure and potentially AI accelerator platforms.",
+      "sector_or_industry": "Power supplies, magnetics, circuit protection, connectivity, and electronic components",
+      "serenity_tags": [
+        "supply_chain",
+        "underfollowed",
+        "power_delivery",
+        "data_center",
+        "evidence_needed",
+        "power_infrastructure",
+        "datacenter",
+        "second_order"
+      ],
+      "theme_relation": "AI datacenters raise power density and networking throughput, which can increase demand for high-density AC-DC front-end power, DC-DC conversion, rack-level 12V/48V architectures, magnetics, protection, and interconnect components.",
+      "ticker": "BELFB",
+      "why_include": "Bel's own product pages highlight data-center, networking, compute, front-end power supplies, DC-DC converters, power shelves, and AI/ML server environment readiness. This maps directly to the rack and board-level power-delivery side of the node. | Bel Fuse's 2025 10-K reports a 32.9% increase in front-end power sales driven by networking and datacenter applications, while its product site explicitly markets power shelves/racks, AC-DC and DC-DC converters for high-density data environments and AI accelerators. | Bel Fuse is a US-listed, smaller-cap component and power-systems supplier with explicit data-center, networking, compute, AI workload, 48V, power shelf, AC-DC, DC-DC, magnetics, and high-density power language.",
+      "why_underfollowed": "Bel Fuse is a small-cap component conglomerate with mixed end markets, dual share classes, and less direct AI labeling; AI exposure may be hidden in front-end power, magnetics, and networking customer demand rather than a pure AI product line."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Vishay Intertechnology, Inc.",
+      "confidence": 0.61,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Design wins or order growth for high-capacitance capacitors, current-sense resistors, TVS, Schottky diodes, MOSFETs/DrMOS-adjacent products, or vPolyTan/polymer capacitors in NVIDIA/ODM AI-server platforms.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-K/10-Q segment commentary, conference-call transcripts, distributor line-card changes, lead times, pricing discipline, and any mentions of AI servers, data storage, data centers, communications, or NVIDIA/ODM supply-chain links.",
+      "node_relation": "Potential second-source or adjacent supplier across capacitors, resistors, inductors, MOSFETs, TVS/protection, and board-level power components used in server and data-center electronics.",
+      "sector_or_industry": "Discrete semiconductors and passive components; capacitors, resistors, inductors, MOSFETs, diodes",
+      "serenity_tags": [
+        "supply_chain",
+        "underfollowed",
+        "passives",
+        "bottleneck",
+        "evidence_needed",
+        "power_delivery",
+        "second_order"
+      ],
+      "theme_relation": "AI-server density raises component count and board-level power/protection requirements; Vishay's broad passive and power-discrete portfolio could benefit if qualified into AI server, accelerator, power shelf, or networking BOMs.",
+      "ticker": "VSH",
+      "why_include": "Vishay has public MLCC and high-reliability capacitor product families and a broad passive-components franchise. It fits the Serenity underfollowed lens because it is a component supplier rather than an obvious AI platform name. | Vishay is US-listed, above the preferred market-cap floor, and has one of the broadest portfolios of passive components and discrete power semiconductors. Its 2025 10-K explicitly lists AI among growth vectors and describes capacity expansion in power inductors, resistors, diodes, and other strategic lines. | Vishay has meaningful capacitor, resistor, inductor, MOSFET, and diode businesses, which map to AI-server board-level passives and power delivery. The inclusion is based on product fit plus external discussion of Vishay as a hidden AI-server supply-chain beneficiary, not yet on verified AI-server revenue disclosure. | Vishay maps to the adjacent passive and power-component basket: capacitors, inductors, resistors, MOSFETs, diodes, and server power-supply application pages. It is a plausible underfollowed beneficiary if high-density AI servers tighten more than MLCCs alone.",
+      "why_underfollowed": "It is usually classified as a cyclical broadline component maker rather than an AI infrastructure supplier; any AI exposure may be hidden inside small BOM items and distributor/customer channels."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Knowles Corporation",
+      "confidence": 0.49,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether Knowles has qualified parts in AI-server power supplies, accelerator boards, optical-networking modules, or high-speed data-center infrastructure, especially after the Cornell Dubilier integration.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Search filings and calls for data-center, AI server, optical networking, power electronics, capacitor assembly, MLCC capacity, book-to-bill, distributor demand, and qualification-cycle disclosures.",
+      "node_relation": "Speculative high-reliability capacitor and specialty passive-component candidate; relevant product features include MLCCs, high-capacitance MLCCs, ultra-low ESR, high-reliability screening, capacitor assemblies, and EMI/RF components.",
+      "sector_or_industry": "High-performance capacitors, RF filters, specialty electronic components",
+      "serenity_tags": [
+        "supply_chain",
+        "underfollowed",
+        "evidence_needed",
+        "qualification_gate",
+        "speculative_shadow"
+      ],
+      "theme_relation": "Could benefit if AI-server power-density and reliability requirements pull demand toward specialty high-performance capacitors or EMI/filter components, but direct AI-server exposure is not yet evidenced.",
+      "ticker": "KN",
+      "why_include": "Knowles Precision Devices markets high-performance MLCCs, capacitor assemblies, low ESR/ESL designs, high-reliability capacitors, and power-electronics capacitor solutions. These map technically to the node, but there is no verified AI-server revenue link in the gathered evidence.",
+      "why_underfollowed": "Knowles is often screened as an audio/medtech/defense/industrial specialty component company, so any AI-server passive-component optionality may be obscured by legacy labels and mixed end markets."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Murata lists server/data-center product categories that include chip MLCCs and low-ESL multilayer ceramic capacitor families for server applications.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Server | Data Center & Enterprise Computing | Murata Manufacturing Co., Ltd.",
+      "source_url": "https://www.murata.com/apps/enterprise/datacenter/server",
+      "ticker": "MRAAY"
+    },
+    {
+      "claim": "External search context argues that AI-server MLCC bottlenecks are concentrated in a narrow high-end band requiring small size, high capacitance, low ESR, and low ESL, and cites much higher MLCC counts in AI servers than standard servers.",
+      "claim_type": "hypothesis",
+      "confidence": 0.69,
+      "published_at": "2026-05-31",
+      "source_title": "Murata: The Stock You Missed If You Only Bought GPUs and HBM in the AI Rally",
+      "source_url": "https://damnang2.substack.com/p/murata-the-stock-you-missed-if-you",
+      "ticker": "MRAAY"
+    },
+    {
+      "claim": "Vicor describes power-delivery networks for AI processors delivering 500A-plus at sub-1V levels and references power modules for AI processor power delivery.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "Power of the Module | Vicor Power Applications, Modules, and Solutions",
+      "source_url": "https://www.vicorpower.com/resource-library/articles/power-of-the-module",
+      "ticker": "VICR"
+    },
+    {
+      "claim": "Vicor markets computing/data-center power solutions designed for OCP accelerator modules and custom AI accelerator cards.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "Power Solutions for Computing Applications and the Data Center | Vicor",
+      "source_url": "https://www.vicorpower.com/industries-and-innovations/computing",
+      "ticker": "VICR"
+    },
+    {
+      "claim": "Vishay offers surface-mount multilayer ceramic chip capacitor products, including high-voltage commercial MLCCs with high-capacitance X7R dielectric options.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "",
+      "source_title": "VJ….W1HV High Voltage MLCC Commercial Series Multilayer SMD | Vishay",
+      "source_url": "https://www.vishay.com/en/product/28580",
+      "ticker": "VSH"
+    },
+    {
+      "claim": "Vishay's broad passive-component portfolio could map to AI-server power-integrity needs, but the gathered evidence does not yet prove qualification into AI-server high-end MLCC sockets.",
+      "claim_type": "hypothesis",
+      "confidence": 0.54,
+      "published_at": "",
+      "source_title": "MULTILAYER CERAMIC CHIP CAPACITORS | Vishay",
+      "source_url": "https://www.vishay.com/doc?48734=",
+      "ticker": "VSH"
+    },
+    {
+      "claim": "Bel Fuse markets power and connectivity products for data-center, networking, and compute equipment, including front-end power supplies, DC-DC converters, power shelves, racks, magnetics, and connectors.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Power & Connectivity for Data Center, Networking, and Compute Equipment | Bel",
+      "source_url": "https://www.belfuse.com/lp/power-and-connectivity-for-data-centers",
+      "ticker": "BELFB"
+    },
+    {
+      "claim": "Bel Fuse announced Titanium-efficiency CRPS front-end power supplies for next-generation compute, storage, networking, datacenter, hyperscale, and AI/ML server environments.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "",
+      "source_title": "Bel Fuse Expands Titanium-Efficiency CRPS Portfolio with Launch of TEC2700 and TEC3200 Front-End Power Supplies",
+      "source_url": "https://www.belfuse.com/resources/news/bel-fuse-expands-titanium-efficiency-crps-portfolio-with-launch-of-tec2700-and-tec3200-front-end-power-supplies",
+      "ticker": "BELFB"
+    },
+    {
+      "claim": "External search context states AI-server MLCC demand is concentrated in high-capacitance, low-ESR, low-ESL parts and identifies Murata as a key supplier; this supports Murata as the reference leader for the high-end AI-server MLCC bottleneck thesis, pending primary-source verification.",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "published_at": "2026-05-31",
+      "source_title": "Murata: The Stock You Missed If You Only Bought GPUs and HBM in the AI Rally",
+      "source_url": "https://damnang2.substack.com/p/murata-the-stock-you-missed-if-you",
+      "ticker": "MRAAY"
+    },
+    {
+      "claim": "Vishay's 2025 Form 10-K says it manufactures a broad portfolio of discrete semiconductors and passive electronic components, including resistors, inductors, and capacitors, and says its components support markets including computing and telecommunications.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-02-11",
+      "source_title": "Vishay Intertechnology 2025 Form 10-K",
+      "source_url": "https://ir.vishay.com/static-files/0b0bc109-6d1c-4853-a6ca-2786970e20aa",
+      "ticker": "VSH"
+    },
+    {
+      "claim": "Vishay's 2025 Form 10-K states it is investing in capacity expansion based partly on accelerated electrification including AI and 5G infrastructure, including projects for power inductors, resistors, diode manufacturing, and wafer fabs.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-02-11",
+      "source_title": "Vishay Intertechnology 2025 Form 10-K",
+      "source_url": "https://ir.vishay.com/static-files/0b0bc109-6d1c-4853-a6ca-2786970e20aa",
+      "ticker": "VSH"
+    },
+    {
+      "claim": "Vicor's annual report describes a power-on-package configuration for an AI accelerator card requiring 350W, delivering 0.7V, 650A average current and up to 1,200A peak current to a GPU or AI ASIC.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2025-03-03",
+      "source_title": "Vicor Corporation 10-K Annual Report",
+      "source_url": "https://fintel.io/doc/sec-vicor-corp-751978-10k-2025-march-03-20150-7744",
+      "ticker": "VICR"
+    },
+    {
+      "claim": "Vicor's annual report states its Advanced Products customers are concentrated in data center and hyperscaler enterprise computing and are used for power delivery on server motherboards, server racks, and datacenter infrastructure.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2025-03-03",
+      "source_title": "Vicor Corporation 10-K Annual Report",
+      "source_url": "https://fintel.io/doc/sec-vicor-corp-751978-10k-2025-march-03-20150-7744",
+      "ticker": "VICR"
+    },
+    {
+      "claim": "Bel Fuse's 2025 10-K reports Power Solutions and Protection sales increased 45.3% in 2025, with an 18.3 million dollar, or 32.9%, increase in front-end power product sales driven by networking and datacenter applications.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-02-24",
+      "source_title": "Bel Fuse Inc. 10-K Annual Report",
+      "source_url": "https://fintel.io/doc/sec-bel-fuse-inc-729580-10k-2026-february-24-20508-2809",
+      "ticker": "BELFB"
+    },
+    {
+      "claim": "Bel Fuse's product site markets 12V/48V power shelves and racks for high-density data environments, AC-DC converters for server/storage/networking platforms, and DC-DC converters for AI accelerators and high-speed networking.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Bel Fuse, Inc. | Power, Protection & Connectivity Solutions",
+      "source_url": "https://www.belfuse.com/",
+      "ticker": "BELFB"
+    },
+    {
+      "claim": "Murata's FY2025 earnings conference material projected MLCC revenue growth driven by strong demand for data-center components and projected power-supply revenue growth for server applications.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04-30",
+      "source_title": "Murata Manufacturing - Earnings Release Conference FY2025",
+      "source_url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0430b/25q4-e-speach.ashx?cvid=20260430024820000000&la=en",
+      "ticker": "MRAAY"
+    },
+    {
+      "claim": "Murata's earlier IR material stated that the number of MLCCs used per AI server is 5 to 10 times greater, supporting the component-intensity thesis.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2024-07-30",
+      "source_title": "Murata Manufacturing - FY2024 Q1 Earnings Material",
+      "source_url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2024/0730b/24q1-e.ashx?cvid=20240802090711000000&la=en-gb",
+      "ticker": "MRAAY"
+    },
+    {
+      "claim": "Vishay's 2025 annual report describes a broad electronic-component portfolio, including capacitors, resistors, inductors, MOSFETs, diodes, and optoelectronic components.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04",
+      "source_title": "Vishay Intertechnology 2025 Annual Report",
+      "source_url": "https://ir.vishay.com/static-files/63ad84cd-1318-4bb1-845d-c097c3a7d07d",
+      "ticker": "VSH"
+    },
+    {
+      "claim": "External investor discussion frames Vishay as a possible hidden NVIDIA AI-server supply-chain beneficiary through MOSFET/DrMOS-adjacent, polymer tantalum, current-shunt resistor, TVS, and diode components; this remains unverified by primary company disclosure in the gathered evidence.",
+      "claim_type": "hypothesis",
+      "confidence": 0.36,
+      "published_at": "2024-11",
+      "source_title": "Reddit discussion referencing Ming-Chi Kuo note on Vishay AI-server supply-chain exposure",
+      "source_url": "https://www.reddit.com/r/TradingEdge/comments/1h2xkk5",
+      "ticker": "VSH"
+    },
+    {
+      "claim": "Vicor describes products for OCP Accelerator Module cards, custom AI accelerator cards, 48V data-center migration, and high-density power modules for AI supercomputer data-center racks.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "",
+      "source_title": "Vicor - Power Solutions for Computing Applications and the Data Center",
+      "source_url": "https://www.vicorpower.com/industries-and-innovations/computing",
+      "ticker": "VICR"
+    },
+    {
+      "claim": "Vicor's 2024 10-K stated that advanced products are used for power delivery on server motherboards, in server racks, and across datacenter infrastructure, and gave an AI accelerator-card power-on-package example.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2025-03-03",
+      "source_title": "Vicor Corporation 2024 Form 10-K",
+      "source_url": "https://fintel.io/doc/sec-vicor-corp-751978-10k-2025-march-03-20150-7744",
+      "ticker": "VICR"
+    },
+    {
+      "claim": "Knowles Precision Devices markets MLCCs, high-reliability capacitors, single-layer capacitors, EMI filters, RF/microwave components, and high-capacitance MLCCs for demanding applications.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "Knowles Precision Devices - Specialty Components",
+      "source_url": "https://www.knowlescapacitors.com/",
+      "ticker": "KN"
+    },
+    {
+      "claim": "Knowles capacitor assemblies include low ESR/ESL designs for switched-mode power supply assemblies and board-space reduction, technically relevant to dense power-electronics applications.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "",
+      "source_title": "Knowles Precision Devices - Capacitor Assemblies",
+      "source_url": "https://www.knowlescapacitors.com/Products/Capacitors/CAP-Assemblies",
+      "ticker": "KN"
+    },
+    {
+      "claim": "Murata stated that FY2026 multilayer ceramic capacitor revenue is expected to increase, driven by strong demand for data-center applications, and that server power-supply revenue is also expected to increase.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04-30",
+      "source_title": "Murata Manufacturing Earnings Release Conference FY2025",
+      "source_url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0430b/25q4-e-speach.ashx?cvid=20260430024820000000&la=en",
+      "ticker": "MRAAY"
+    },
+    {
+      "claim": "Murata management has been reported as considering price increases for cutting-edge MLCCs used in AI servers, with high-performance MLCCs described as important for controlling large power loads in AI servers.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-02-17",
+      "source_title": "Murata Explores Raising Prices of Key AI Server Component",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-02-17/murata-explores-raising-prices-of-ai-server-ceramic-capacitors",
+      "ticker": "MRAAY"
+    },
+    {
+      "claim": "Vishay lists computer applications including GPU graphics cards, networking switches and routers, UPS, and server power supplies, and says these applications use Vishay semiconductors and passive components including MOSFETs, resistors, inductors, and capacitors.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Vishay Computer Applications",
+      "source_url": "https://www.vishay.com/en/applications/computer/",
+      "ticker": "VSH"
+    },
+    {
+      "claim": "Because Vishay supplies server power-supply components and a broad passive/discrete portfolio, it is a plausible second-order beneficiary of AI-server power-density growth, but direct AI-server MLCC qualification evidence still needs verification.",
+      "claim_type": "inference",
+      "confidence": 0.56,
+      "published_at": "",
+      "source_title": "Vishay SMPS Server Power Supply Computer Applications",
+      "source_url": "https://www.vishay.com/en/applications/computer/smps_serverpower/",
+      "ticker": "VSH"
+    },
+    {
+      "claim": "Bel Fuse markets power and connectivity products for data-center, networking, and compute equipment, including power shelves, AC-DC converters, DC-DC converters, magnetics, connectors, and circuit-protection products.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Bel Power & Connectivity for Data Center, Networking, and Compute Equipment",
+      "source_url": "https://www.belfuse.com/lp/power-and-connectivity-for-data-centers",
+      "ticker": "BELFB"
+    },
+    {
+      "claim": "Bel Fuse describes high-density DC-DC converters as serving AI accelerators, high-speed networking, and modern data infrastructure; it also markets 48V power distribution products for servers, routers, and network switches.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Bel TET6000 AC-DC/HVDC Series",
+      "source_url": "https://www.belfuse.com/products/power-supplies/ac-dc-converters/tet6000-ac-dc-hvdc-series",
+      "ticker": "BELFB"
+    },
+    {
+      "claim": "Bel Fuse reported Q4 2025 Power Solutions and Protection sales growth of 18.5% year over year and Connectivity Solutions growth of 15.1% year over year.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-02-17",
+      "source_title": "Bel Reports Fourth Quarter and Full Year 2025 Results",
+      "source_url": "https://www.nasdaq.com/press-release/bel-reports-fourth-quarter-and-full-year-2025-results-2026-02-17",
+      "ticker": "BELFB"
+    },
+    {
+      "claim": "Vicor says its lateral power delivery is designed for OCP Accelerator Module cards and custom AI accelerator cards, and that its power architectures support migration from 12V to 48V systems.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "Vicor Power Solutions for Computing Applications and the Data Center",
+      "source_url": "https://www.vicorpower.com/industries-and-innovations/computing",
+      "ticker": "VICR"
+    },
+    {
+      "claim": "Vicor's 2024 10-K states that Advanced Product customers are concentrated in data-center and hyperscaler enterprise computing, and that its AI market customers include leading processor and accelerator designers and early adopters in cloud and high-performance computing.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2025-03-03",
+      "source_title": "Vicor Corporation 2024 Form 10-K",
+      "source_url": "https://fintel.io/doc/sec-vicor-corp-751978-10k-2025-march-03-20150-7744",
+      "ticker": "VICR"
+    },
+    {
+      "claim": "As of the latest available market data from June 12-13, 2026 UTC, Vishay's market capitalization was about $8.16 billion, placing it in the mid-cap discovery range.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06-13",
+      "source_title": "Finance quote snapshot for VSH",
+      "source_url": "web.finance:VSH",
+      "ticker": "VSH"
+    },
+    {
+      "claim": "As of the latest available market data from June 12-13, 2026 UTC, Bel Fuse's BELFB share class implied a market capitalization of about $3.10 billion, placing it in the mid-cap discovery range.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-06-13",
+      "source_title": "Finance quote snapshot for BELFB",
+      "source_url": "web.finance:BELFB",
+      "ticker": "BELFB"
+    },
+    {
+      "claim": "As of the latest available market data from June 12-13, 2026 UTC, Vicor's market capitalization was about $14.35 billion, making it larger than the preferred small/mid-cap range but still relevant because its AI power-delivery exposure is unusually direct.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-06-13",
+      "source_title": "Finance quote snapshot for VICR",
+      "source_url": "web.finance:VICR",
+      "ticker": "VICR"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.8,
+      "text": "MRAAY should remain the reference MLCC anchor for this node because both external AI-server MLCC commentary and Murata product pages map directly to high-end server passives.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "VICR is a direct power-delivery reference candidate for AI accelerator board-level current delivery; verify current revenue dependence and customer concentration before treating it as a bottleneck beneficiary.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.56,
+      "text": "VSH is an underfollowed passive-components hypothesis: it has MLCC products, but AI-server-specific qualification and high-end low-ESL/high-capacitance exposure remain unverified.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.68,
+      "text": "BELFB is an underfollowed second-order power-delivery candidate tied to data-center front-end supplies, DC-DC conversion, power shelves, magnetics, and connectors; materiality to AI server ramps needs confirmation.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Layer 1B should separate high-end MLCC/passive bottleneck exposure from broader rack and board-level power-delivery exposure; both are relevant but need different evidence tests.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Need primary-source confirmation from earnings calls, filings, or product qualification documents that AI-server MLCC counts, low-ESL/high-capacitance mix, lead times, and pricing are changing materially for US-listed candidates.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Add Murata ADR MRAAY as the direct high-end AI-server MLCC reference benchmark, but keep it in the reference lane because it is not a US small/mid-cap discovery candidate.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.58,
+      "text": "Add Vishay VSH to the underfollowed discovery lane as a broad passives and power-discrete candidate; survival requires evidence of high-end AI-server MLCC, specialty capacitor, power-inductor, or server power-design wins.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Add Vicor VICR to the underfollowed lane as a direct AI accelerator and hyperscaler power-delivery candidate with explicit 10-K evidence; next layer should test customer concentration and production-ramp durability.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.74,
+      "text": "Add Bel Fuse BELFB to the underfollowed lane as a small-cap second-order datacenter power, magnetics, rack power, and DC-DC conversion beneficiary; next layer should isolate AI-specific datacenter exposure from non-AI networking and defense/aerospace growth.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "Need primary-source verification for AI-server MLCC part-level suppliers beyond Murata, especially Samsung Electro-Mechanics, TDK, Taiyo Yuden, Yageo/KEMET, Kyocera/AVX, and whether any have liquid US-listed ADRs suitable for the universe.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.84,
+      "text": "MRAAY should be retained as the reference MLCC/power-component anchor for AI-server passive-component research, but not treated as the underfollowed alpha lane.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.61,
+      "text": "VSH is a plausible underfollowed broadline passive/power-component candidate; direct AI-server revenue and platform qualification evidence remain the key gating items.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "VICR has the cleanest US-listed direct exposure to board-level and rack-level AI power delivery, though valuation/attention may already reflect part of the AI power-density narrative.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.5,
+      "text": "KN is a lower-confidence, underfollowed specialty-capacitor hypothesis; require explicit data-center, AI-server, optical-networking, or accelerator-board customer evidence before promotion.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Need a follow-up distributor and ODM/EMS evidence pass for actual AI-server BOM qualification: Murata, Samsung Electro-Mechanics, TDK, Taiyo Yuden, Vishay, Knowles, AVX/Kyocera, Yageo, and passive-component distributors.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Murata/MRAAY should be retained as the reference anchor for high-end AI-server MLCC evidence, pricing discipline, and capacity-tightness checks.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.58,
+      "text": "Vishay/VSH enters the underfollowed lane as a hypothesis: broad passive/discrete exposure to server power supplies and computing applications is clear, but direct high-end AI-server MLCC qualification evidence is not yet proven.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "Bel Fuse/BELFB enters the underfollowed lane for AI data-center power shelves, 48V architectures, DC-DC conversion, magnetics, and connectivity; next layer should separate AI-driven growth from acquisition/cyclical growth.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Vicor/VICR is a high-relevance but larger-cap underfollowed power-delivery candidate; direct AI accelerator power evidence is strong, but customer/platform concentration and design-win durability are the core falsification points.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "The chokepoint may split into two tracks: high-end MLCC/passive supply tightness and 48V-to-point-of-load AI accelerator power-delivery architecture.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.67,
+      "text": "Need another pass on US-listed or OTC ADR passives suppliers such as Samsung Electro-Mechanics, TDK, Taiyo Yuden, Kyocera, Yageo, and Panasonic-related instruments where accessible; current pass prioritized US exchange-listed or US-traded names with clearer source availability.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "AI-server passive components and board-level power delivery, including high-end MLCCs",
+  "node_id": "ai_server_passives_and_power_delivery",
+  "search_pass_count": 4,
+  "summary": "Combined focused Layer 1B searches: Expanded the US-listed universe for AI-server passives and board-level power delivery into two lanes. Reference lane includes Murata as the most direct high-end MLCC context anchor and Vicor as a direct AI-processor power-delivery specialist. Underfollowed lane includes Vishay as a US-listed passive-components/MLCC candidate requiring AI-server qualification proof, and Bel Fuse as a smaller data-center power, magnetics, connectivity, and power-shelf supplier with plausible second-order exposure to AI rack power intensity. The core chokepoint remains a hypothesis: the bottleneck is not generic capacitors, but a narrow high-capacitance, low-ESR/low-ESL, high-reliability band plus nearby high-current power-delivery architectures. Layer 1B expansion finds one direct MLCC/passives reference name and three US-listed underfollowed or lower-attention candidates tied to board-level power delivery, front-end/datacenter power, magnetics, capacitors, inductors, and power semiconductors. The strongest direct node fit is Murata via AI-server MLCC intensity, but it is an OTC ADR reference leader rather than a small/mid-cap alpha candidate. The underfollowed lane is more speculative: Vishay has broad passive-component and power-discrete exposure with explicit AI/electrification capacity investment but needs proof of high-end AI-server MLCC qualification; Vicor has explicit AI accelerator and hyperscaler power-delivery exposure; Bel Fuse has datacenter front-end power, DC-DC converters, racks/shelves, magnetics, and networking demand evidence but needs clearer AI-server customer mix. Layer ",
+  "theme_id": ""
+}
