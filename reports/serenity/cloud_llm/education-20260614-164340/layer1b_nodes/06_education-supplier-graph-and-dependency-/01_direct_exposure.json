@@ -1,0 +1,213 @@
+{
+  "candidates": [
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Nelnet, Inc.",
+      "confidence": 0.86,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Named university and K-12 customer list, contract duration, churn/retention, share of revenue from education technology services and payments, dependency on federal loan-servicing policy, and third-party software/payment processors used by Nelnet.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Parse NNI 2025 10-K segment footnotes, SEC exhibits, university payment pages referencing Nelnet Campus Commerce, and Scrutica/FactSet-style supplier-customer edges for named institution links.",
+      "node_relation": "Direct product leader and dependency-mapping anchor: Nelnet Campus Commerce, FACTS, tuition payment plans, school information systems, financial aid management, and student-loan servicing create visible customer links to colleges, K-12 schools, and education-finance channels.",
+      "sector_or_industry": "Education finance, loan servicing, campus commerce, education technology services and payments",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Education exposure is embedded across payment processing, tuition management, school administration software, and student-loan servicing rather than appearing only as a pure online-learning stock.",
+      "ticker": "NNI",
+      "why_include": "SEC filing evidence says Nelnet Campus Commerce serves more than 1,200 colleges and universities and over 8 million students, with 2025 revenue disclosed for Campus Commerce and Payment Services. This makes NNI a direct public-market map of university payment and administration dependencies.",
+      "why_underfollowed": "It is often screened as student-loan servicing / finance, while the campus-commerce and education-technology-services dependency graph may be missed by education or SaaS screens."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Flywire Corporation",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Customer concentration by university system, renewal rates, international-student volume sensitivity, education vertical revenue share, payment-plan adoption, and named campus integrations.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Extract education vertical revenue and risk-factor language from the latest 10-K; map school payment pages naming Flywire; compare against Nelnet, Paymentus, TouchNet, and PayMyTuition references.",
+      "node_relation": "Direct platform for higher-education payments, especially international tuition and student-payment workflows; useful for mapping universities' cross-border payment dependencies.",
+      "sector_or_industry": "Vertical payments software; education payments",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct beneficiary if universities need digital tuition collection, payment plans, affordability tools, and international-student payment infrastructure; exposed to enrollment volatility and institutional purchasing cycles.",
+      "ticker": "FLYW",
+      "why_include": "Company filings indicate education is Flywire's largest vertical and that volumes and revenue depend on international enrollments and school preferences. This directly fits the hidden customer-supplier dependency node for universities and education payments.",
+      "why_underfollowed": "Although known in fintech, it may not be captured by education screens because it is classified as payments software rather than an education company."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Paymentus Holdings, Inc.",
+      "confidence": 0.6,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Whether higher education is a material vertical, number of university customers, named campus wins, revenue share from tuition/campus-fee payments, and whether it displaces or complements Nelnet/Flywire/TouchNet.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Search PAY 10-K for education, university, vertical revenue, customer concentration, and partner integrations; scrape university bursar pages naming Paymentus; verify if any contracts appear in public procurement portals.",
+      "node_relation": "Potential hidden supplier to higher-education bursar offices through billing, tuition payment, payment-plan, reconciliation, digital wallet, IVR/SMS, and SIS-integration capabilities.",
+      "sector_or_industry": "Bill payment software and payment processing",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order education beneficiary if colleges consolidate payment vendors or modernize tuition, housing, parking, and campus-fee billing workflows.",
+      "ticker": "PAY",
+      "why_include": "Paymentus has an explicit higher-education product page describing billing, payment plans, SIS integration, FERPA/GLBA/PCI-related capabilities, and a university case study. However, education revenue materiality is not yet verified from SEC segment disclosures.",
+      "why_underfollowed": "It is usually viewed as a utility/government/insurance/healthcare bill-pay platform, so university-payment exposure could be hidden inside broader biller categories."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Coursera, Inc.",
+      "confidence": 0.72,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Revenue concentration by top content partners, percentage of enterprise revenue from universities/governments/employers, degree-program economics, AI-course partner mix, renewal rates, and whether partner bargaining power is increasing.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "300m_to_1b",
+      "next_evidence": "Parse COUR 2025 10-K for partner concentration, segment revenue, paid enterprise customer metrics, degree/certificate economics, and risk factors around university partners and Title IV exposure.",
+      "node_relation": "Direct platform and dependency-map anchor linking learners, university/content partners, industry certificate partners, enterprise customers, and government/higher-education programs.",
+      "sector_or_industry": "Online learning platform; workforce training; university and enterprise education platform",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Exposed to online learning, workforce training, university partner programs, professional certificates, enterprise upskilling, and education credential distribution.",
+      "ticker": "COUR",
+      "why_include": "Coursera's latest filing evidence shows registered learner growth and paid enterprise customers; search evidence also indicates reliance on university/industry partner ecosystems. It is relevant to supplier-customer graphing because partner content and institutional distribution are core nodes.",
+      "why_underfollowed": "The market may screen it as consumer internet or unprofitable edtech, while the hidden dependency may be the partner/content graph across universities, employers, governments, and credential providers."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Scrutica describes a directed supply-chain graph with 13,213 bilateral edges from FactSet Revere, SEC Exhibit 21 subsidiary filings, and CSET entity classification, intended to surface upstream suppliers, downstream customers, and single-source dependencies.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "",
+      "source_title": "Supply Chain Interdependence | Scrutica",
+      "source_url": "https://scrutica.com/supply-chain",
+      "ticker": ""
+    },
+    {
+      "claim": "Nelnet's 2025 10-K states that Nelnet Campus Commerce provides service for more than 1,200 colleges and universities and serves over 8 million students; it also discloses revenue for Nelnet Campus Commerce and Nelnet Payment Services.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03",
+      "source_title": "Nelnet 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1258602/000125860226000014/nni-20251231.htm",
+      "ticker": "NNI"
+    },
+    {
+      "claim": "Nelnet's 2025 annual-report evidence says education technology services and payments revenue increased due to more payment plans in K-12 and higher education markets, plus growth in financial aid management, student information systems, and enrollment services.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-03",
+      "source_title": "Nelnet 2025 Annual Report",
+      "source_url": "https://s21.q4cdn.com/107231992/files/doc_downloads/2026/03/10X-NNI-12-31-2025-10K-FINAL-Doc-Access-hyperlinks.pdf",
+      "ticker": "NNI"
+    },
+    {
+      "claim": "Flywire's 2025 annual-report evidence says education is its largest vertical and that volumes and revenue from education clients depend on international enrollments and student school preferences.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-03",
+      "source_title": "Flywire 2025 Annual Report 10-K summary",
+      "source_url": "https://www.stocktitan.net/sec-filings/FLYW/10-k-flywire-corp-files-annual-report-01e14765779d.html",
+      "ticker": "FLYW"
+    },
+    {
+      "claim": "Flywire filing evidence describes product refinements to support education payment plans and client communication solutions with minimal IT involvement.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-03",
+      "source_title": "Flywire 2025 Annual Report 10-K summary",
+      "source_url": "https://www.stocktitan.net/sec-filings/FLYW/10-k-flywire-corp-files-annual-report-01e14765779d.html",
+      "ticker": "FLYW"
+    },
+    {
+      "claim": "Paymentus markets a higher-education billing and payments platform with tuition payment plans, student information system integrations, reconciliation tools, digital wallets, and compliance-oriented capabilities for colleges and universities.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "",
+      "source_title": "Paymentus Higher Education Billing & Payments",
+      "source_url": "https://www.paymentus.com/education/",
+      "ticker": "PAY"
+    },
+    {
+      "claim": "A Paymentus higher-education case study says Westcliff University selected Paymentus as its first billing and payments partner.",
+      "claim_type": "fact",
+      "confidence": 0.74,
+      "published_at": "",
+      "source_title": "Westcliff Adopts Higher Education Payments Platform & Seamless Integration | Paymentus",
+      "source_url": "https://www.paymentus.com/industry-insights/westcliff/",
+      "ticker": "PAY"
+    },
+    {
+      "claim": "Coursera's 2025 10-K evidence says it serves individual learners and institutional customers through Consumer and Enterprise segments and defines Paid Enterprise Customers as customers purchasing through its direct sales force.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-02",
+      "source_title": "Coursera 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001651562/000165156226000015/cour-20251231.htm",
+      "ticker": "COUR"
+    },
+    {
+      "claim": "Coursera's 2025 annual-report evidence reported 197.3 million registered learners and states approximately 94% of enterprise revenue came from Paid Enterprise Customers.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-05",
+      "source_title": "Coursera 2025 Annual Report",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156226000037/a2025annualreport.pdf",
+      "ticker": "COUR"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.86,
+      "text": "NNI should be retained as a high-priority underfollowed candidate for education supplier-dependency mapping because campus commerce, payment plans, K-12 FACTS, student information systems, and loan servicing create multiple education customer edges.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "FLYW should be retained as an education-payments platform candidate; it is directly exposed to universities and international-student payment flows, but must be stress-tested against enrollment and policy volatility.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.6,
+      "text": "PAY belongs in speculative_shadow until education revenue materiality is verified; the product fit is clear, but SEC-level vertical exposure evidence is still needed.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "For this node, the best public-company hunting lane is not education operators alone, but university payment processors, campus-commerce platforms, student-loan servicers, enterprise learning platforms, and software vendors named on school bursar/procurement pages.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Need a dedicated Layer 1C scrape of university payment pages, SEC customer-concentration notes, and procurement portals for named vendors such as Nelnet, Flywire, Paymentus, TouchNet, Transact, PayMyTuition, and SIS integrations.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Hidden customer-supplier dependency mapping for education vendors",
+  "node_id": "education_supplier_graph_and_dependency_mapping",
+  "summary": "Expanded the direct public-company universe for the education supplier-dependency node. The strongest directly exposed names found in this pass are education payments / campus-commerce platforms and online-learning platforms where universities, school systems, students, or workforce-training buyers appear as customers or supply-side partners. The underfollowed lane is more attractive than mega-cap context here because exposure is often embedded inside payments, lending, compliance, student information, or partner-platform relationships rather than GICS education screens. Claims are research candidates only, not investment recommendations.",
+  "theme_id": "education"
+}
