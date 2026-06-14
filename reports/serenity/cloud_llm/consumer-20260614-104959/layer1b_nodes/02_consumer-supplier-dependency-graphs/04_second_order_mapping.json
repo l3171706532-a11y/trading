@@ -1,0 +1,192 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Walmart Inc.",
+      "confidence": 0.88,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Track supplier 10-K language around Walmart order levels, shelf-space changes, vendor terms, deductions, inventory normalization, private-label substitution, and omnichannel compliance requirements.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Build an EDGAR query for exact phrases: 'Walmart accounted for', 'Walmart/Sam’s Club', 'largest customer', 'greater than 10% of net sales', and compare year-over-year disclosed exposure.",
+      "node_relation": "Reference customer anchor for supplier-concentration mapping; multiple consumer suppliers disclose Walmart or Walmart/Sam's Club as a greater-than-10% customer.",
+      "sector_or_industry": "Mega-cap retail / grocery / omnichannel commerce",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "customer_anchor",
+        "reference",
+        "evidence_needed"
+      ],
+      "theme_relation": "Walmart is the large retail demand node whose merchandising, inventory, private-label, omnichannel, and supplier-compliance decisions can propagate to smaller consumer suppliers.",
+      "ticker": "WMT",
+      "why_include": "Included only as a reference lane anchor, not as the underfollowed idea. Supplier filings repeatedly identify Walmart or Walmart/Sam's Club as a material customer, making Walmart a useful root node for a consumer dependency graph.",
+      "why_underfollowed": "Not underfollowed; used to prevent the discovery lane from floating without a concrete demand/customer anchor."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "SPS Commerce, Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether slower discretionary technology spending by suppliers is cyclical or indicates reduced pricing power; verify churn, supplier additions, retailer enablement programs, and integrations per customer.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review 2025 10-K, Q1/Q2 2026 filings, earnings-call commentary on supplier churn, retailer-led enablement programs, revenue recovery products, and the acquired SupplyPike/Carbon6 contribution.",
+      "node_relation": "Infrastructure layer connecting retailers, grocers, distributors, suppliers, manufacturers, and logistics firms through a recurring-revenue retail supply-chain network.",
+      "sector_or_industry": "Retail supply-chain software / EDI network / trading-partner connectivity",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "software_data",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order beneficiary of retail complexity: suppliers need EDI, order, invoice, fulfillment, analytics, compliance, and trading-partner integrations to sell through large retailers and ecommerce channels.",
+      "ticker": "SPSC",
+      "why_include": "The company directly maps to the node: its 2025 10-K describes a global supply-chain network where companies connect once and transact with thousands of trading partners, and recurring revenues represented 96% of 2025 revenue.",
+      "why_underfollowed": "It is not a consumer brand and may be screened as vertical SaaS rather than consumer retail infrastructure; the chokepoint is operational integration and trading-partner maps rather than visible SKU demand."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Hillman Solutions Corp.",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Check whether Home Depot/Lowe's inventory destocking, Pro demand recovery, tariff passthrough, store-service labor requirements, and SKU resets are improving or hurting Hillman's sell-through.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Read the 2025 10-K customer-concentration section, segment revenue trends, inventory commentary, tariff exposure, and any customer-program language tied to Lowe's and Home Depot.",
+      "node_relation": "Consumer/home-improvement supplier with disclosed greater-than-10% revenue exposure to Lowe's and Home Depot.",
+      "sector_or_industry": "Hardware, fasteners, keys, work-gear, home-improvement supplier",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "customer_concentration",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order exposure to repair/remodel, housing turnover, DIY/pro demand, and large home-center merchandising; dependence is visible in customer concentration rather than in a clean sector label.",
+      "ticker": "HLMN",
+      "why_include": "Hillman's 2025 10-K says it derived over 10% of total revenues from Lowe's and Home Depot in each of the years ended December 27, 2025, December 28, 2024, and December 30, 2023.",
+      "why_underfollowed": "The company can look like a mundane hardware/fastener supplier rather than a concentrated derivative of home-center traffic, repair/remodel demand, private-label/service programs, and shelf-space decisions."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Lifetime Brands, Inc.",
+      "confidence": 0.7,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Determine whether the Walmart percentage decline reflects diversification, lost shelf space, lower sell-through, or retailer inventory normalization; also verify Costco/Amazon/TJX exposure and margin impact.",
+      "market_cap_bucket": "unknown",
+      "market_cap_filter_note": "unknown",
+      "next_evidence": "Review latest 10-K/10-Q revenue bridge, customer concentration footnotes, inventory commitments, retailer deductions/allowances, tariff sourcing exposure, and liquidity covenants before promoting beyond speculative shadow.",
+      "node_relation": "Niche consumer supplier with disclosed Walmart concentration and broader dependence on large retailers including Costco, Amazon, and TJX.",
+      "sector_or_industry": "Housewares, kitchenware, tabletop, and consumer products supplier",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "customer_concentration",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potentially high-beta second-order exposure to mass retail, club, ecommerce, off-price, wedding/household formation, and discretionary housewares demand.",
+      "ticker": "LCUT",
+      "why_include": "Lifetime Brands' 2025 filing discloses that Walmart accounted for 17% of consolidated net sales in 2025, with prior-year exposure of 19% in 2024 and 21% in 2023.",
+      "why_underfollowed": "It is a small, messy-label housewares supplier where the investable signal is not brand buzz but customer dependency, retailer order cadence, seasonal delivery execution, and channel mix."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "SPS Commerce's 2025 10-K states that recurring revenues from recurring revenue customers accounted for 96% of total revenues in 2025 and describes a global supply-chain network enabling retailers, grocers, distributors, suppliers, manufacturers, and logistics firms to connect and transact.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-02-19",
+      "source_title": "SPS Commerce grows revenue to $751.5M in 2025 | SPSC Annual Report (10-K)",
+      "source_url": "https://www.stocktitan.net/sec-filings/SPSC/10-k-sps-commerce-inc-files-annual-report-8dd5477c51f1.html",
+      "ticker": "SPSC"
+    },
+    {
+      "claim": "SPS Commerce reported Q4 and FY2025 results and described itself as a leading intelligent supply-chain network for retail partners.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-02-12",
+      "source_title": "SPS Commerce Reports Fourth Quarter and Fiscal Year 2025 Financial Results",
+      "source_url": "https://investors.spscommerce.com/news-releases/news-release-details/sps-commerce-reports-fourth-quarter-and-fiscal-year-2025",
+      "ticker": "SPSC"
+    },
+    {
+      "claim": "Hillman Solutions' 2025 10-K states that it derived over 10% of total revenues from Lowe's and Home Depot in 2025, 2024, and 2023.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-02-17",
+      "source_title": "Hillman Solutions Corp. 2025 Form 10-K",
+      "source_url": "https://ir.hillmangroup.com/financial-information/sec-filings/content/0001822492-26-000019/hlmn-20251227.htm",
+      "ticker": "HLMN"
+    },
+    {
+      "claim": "Lifetime Brands' 2025 filing states that Walmart accounted for 17% of consolidated net sales in 2025, 19% in 2024, and 21% in 2023, with no other customer above 10%.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "2026-03-01",
+      "source_title": "Lifetime Brands, Inc. 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000874396/000087439626000008/lcut-20251231.htm",
+      "ticker": "LCUT"
+    },
+    {
+      "claim": "Walmart's annual report is useful as a reference anchor because it frames the large retail demand node, including supply-chain, store, club, remodel, and omnichannel initiatives that can affect suppliers.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "2025-10-01",
+      "source_title": "Walmart 2025 Annual Report",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000059/walmartannualreport2025.pdf",
+      "ticker": "WMT"
+    },
+    {
+      "claim": "Flowers Foods' 2025 10-K states that Walmart/Sam's Club was the only customer above 10% of net sales, with a disclosed fiscal 2025 percentage of 21.5%; this supports Walmart as a recurring supplier-dependency root node even though FLO was not included due to the four-candidate cap.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-03-01",
+      "source_title": "Flowers Foods 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1128928/000119312526071441/flo-20260103.htm",
+      "ticker": "FLO"
+    },
+    {
+      "claim": "Scotts Miracle-Gro's 2025 10-K disclosure, found during universe expansion, says its top two retail customers, Home Depot and Lowe's, together accounted for 52% of fiscal 2025 net sales; SMG is a future watchlist candidate but not included due to the four-candidate cap.",
+      "claim_type": "fact",
+      "confidence": 0.79,
+      "published_at": "2025-11-01",
+      "source_title": "Scotts Miracle-Gro 2025 10-K: 52% of sales to top 2 retailers",
+      "source_url": "https://www.stocktitan.net/sec-filings/SMG/10-k-scotts-miracle-gro-co-files-annual-report-ae5b411243cf.html",
+      "ticker": "SMG"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.82,
+      "text": "SPSC should be tracked as a retail supply-chain graph infrastructure candidate: the mapping is not customer concentration but network dependency, recurring revenue, EDI/compliance workflows, and retailer/supplier integrations.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "HLMN fits the underfollowed consumer dependency lane because its 10-K exposes material Lowe's and Home Depot revenue dependence while the company screens as a mundane hardware/fastener supplier.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.7,
+      "text": "LCUT is a speculative-shadow candidate for retailer dependency mapping; Walmart exposure is explicit, but market-cap/liquidity and customer concentration risks need verification before later-layer promotion.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Future Layer 1B passes should add a systematic EDGAR phrase screen for 'largest customer', 'accounted for % of net sales', 'Walmart', 'Home Depot', 'Lowe’s', 'Amazon', 'Costco', 'Target', 'TJX', 'supplier concentration', and 'vendor allowances'.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Hidden customer/supplier dependency mapping across consumer brands, retailers, and niche suppliers",
+  "node_id": "consumer_supplier_dependency_graphs",
+  "summary": "Layer 1B expands the universe around hidden consumer customer/supplier dependencies. The strongest underfollowed mapping is not a brand screen but a filing-mining screen: identify suppliers or infrastructure vendors whose revenue, workflows, or operational switching costs are tied to Walmart, Home Depot, Lowe's, Costco, Amazon, Target, and other high-volume retail channels. This pass keeps one mega-cap retailer as a reference anchor and prioritizes smaller/mid-cap discovery candidates where filings expose customer concentration or retail-network dependency.",
+  "theme_id": "consumer"
+}
