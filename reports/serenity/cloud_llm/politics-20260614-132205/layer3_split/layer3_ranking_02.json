@@ -1,0 +1,390 @@
+{
+  "evidence": [
+    {
+      "claim": "Cached Serenity methodology requires starting from demand, mapping supply-chain layers, identifying bottlenecks, then mapping public companies and evidence rather than ranking by popularity.",
+      "claim_type": "fact",
+      "confidence": 0.96,
+      "source_title": "Serenity.skill repository digest provided in cached context",
+      "source_url": "https://github.com/muxuuu/serenity-skill",
+      "used_for": [
+        "ranking_method",
+        "underfollowed_discovery_weighting",
+        "evidence_gap_fields"
+      ]
+    },
+    {
+      "claim": "Cached Serenity methodology prioritizes bottleneck traits including low supplier count, long validation cycles, difficult capacity expansion, strict customer certification, and high material purity or qualification requirements.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "source_title": "Serenity.skill repository digest provided in cached context",
+      "source_url": "https://github.com/muxuuu/serenity-skill",
+      "used_for": [
+        "bottleneck_severity_scores",
+        "supplier_scarcity_scores",
+        "falsifiability_scores"
+      ]
+    },
+    {
+      "claim": "External search context reports defense prime and subtier constraints including Tier 2 supplier constraints, specialized electronic components, circuit-board shortages, vendor price increases, and backlog pressure.",
+      "claim_type": "fact",
+      "confidence": 0.62,
+      "source_title": "The $160 Billion Defense Backlog Nobody's Talking About",
+      "source_url": "https://macronotes.substack.com/p/the-160-billion-defense-backlog-nobodys",
+      "used_for": [
+        "defense_component_reference_scoring",
+        "HEICO_reference_scoring",
+        "subtier_supplier_chokepoint_context"
+      ]
+    },
+    {
+      "claim": "External search context reports that tariff and exemption burdens can fall more heavily on smaller defense and aerospace companies, and that visibility worsens farther down supply chains.",
+      "claim_type": "fact",
+      "confidence": 0.7,
+      "source_title": "A year after ‘Liberation Day,’ impact of Trump tariffs on defense industry remains muted - Breaking Defense",
+      "source_url": "https://breakingdefense.com/2026/04/a-year-after-liberation-day-impact-of-trump-tariffs-on-defense-industry-remains-muted/",
+      "used_for": [
+        "trade_compliance_software_hypothesis",
+        "small_supplier_risk_clarity",
+        "policy_administrative_burden_context"
+      ]
+    },
+    {
+      "claim": "External search context reports that DoD supply chains often span five to six tiers, with DoD losing visibility beyond tier two and primes also lacking visibility beyond direct suppliers.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "source_title": "The Invisible Industrial Base | CNAS",
+      "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+      "used_for": [
+        "underfollowed_discovery_weighting",
+        "subtier_supplier_priority",
+        "evidence_gap_design"
+      ]
+    },
+    {
+      "claim": "External search context identifies semiconductor high-purity quartz and crucible dependency, with customers including wafer manufacturers such as SUMCO, GlobalWafers, and Siltronic, and notes that qualification can take years.",
+      "claim_type": "fact",
+      "confidence": 0.66,
+      "source_title": "Underneath Every Chip — The Spruce Pine Problem",
+      "source_url": "https://nextfinancial.substack.com/p/underneath-every-chip-the-spruce",
+      "used_for": [
+        "Siltronic_scoring",
+        "GlobalWafers_scoring",
+        "SUMCO_scoring",
+        "semiconductor_materials_bottleneck_context"
+      ]
+    },
+    {
+      "claim": "Layer 2 context states that non-Chinese-feedstock-qualified rare-earth separation and magnet supply may be the politically relevant rare-earth bottleneck, especially where defense and domestic-content rules focus on origin and qualification.",
+      "claim_type": "inference",
+      "confidence": 0.74,
+      "source_title": "Layer 2 cached context and external rare-earth casefile summary",
+      "source_url": "https://forcedalpha.com/tools/casefiles/ndaa-rare-earth-cascade/",
+      "used_for": [
+        "Lynas_scoring",
+        "rare_earth_feedstock_chokepoint_context"
+      ]
+    },
+    {
+      "claim": "Layer 2 context identifies grid-hardening, electrification, reshoring, data-center interconnection, and public-infrastructure policies as demand drivers for electrical equipment, switchgear, transformers, and specialty electrical infrastructure.",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "source_title": "Layer 2 cached Serenity output provided by user",
+      "source_url": "cached_context",
+      "used_for": [
+        "Hammond_Power_Solutions_scoring",
+        "grid_transformer_node_prioritization"
+      ]
+    }
+  ],
+  "layer": 3,
+  "memory_update": [
+    {
+      "content": "For Politics theme funnels, prioritize underfollowed small/mid-cap candidates when political demand maps to hard supply-chain bottlenecks with verifiable backlog, qualification, capacity, customer, or pricing signals.",
+      "type": "ranking_preference"
+    },
+    {
+      "content": "Grid transformers and power-quality equipment are a high-priority policy chokepoint node when tied to electrification, grid hardening, reshoring, infrastructure, utility capex, and data-center interconnection.",
+      "type": "theme_node"
+    },
+    {
+      "content": "Rare-earth analysis should distinguish headline mining capacity from compliant feedstock, separation, magnet qualification, origin rules, customer approval, and defense-relevant offtake.",
+      "type": "theme_node"
+    },
+    {
+      "content": "Semiconductor reshoring and export-control themes should include upstream wafer, high-purity quartz, crucible, graphite, filtration, and contamination-control dependencies rather than only fabs and equipment leaders.",
+      "type": "theme_node"
+    },
+    {
+      "content": "Speculative software candidates tied to politics should be downgraded unless filings, calls, product releases, or customer examples show regulatory, tariff, sourcing, documentation, or compliance complexity as a measurable sales driver.",
+      "type": "falsification_rule"
+    }
+  ],
+  "ranked_candidates": [
+    {
+      "attention_level": "low_attention",
+      "company": "Hammond Power Solutions Inc.",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Transformer backlog, lead times, utility versus industrial demand mix, North American capacity additions, margins, and customer qualification.",
+      "main_evidence_gap": "Need primary company filings or presentations showing backlog duration, transformer lead times, utility/customer qualification status, capacity expansion, and whether demand is policy-linked rather than only cyclical industrial demand.",
+      "market_cap_bucket": "small_cap",
+      "rank": 1,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 5,
+        "mispricing_potential": 4,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4,
+        "underfollowed_discovery": 5
+      },
+      "ticker": "HPS.A.TO",
+      "total_score": 37,
+      "why_prioritized": "Transformer and power-quality exposure maps cleanly to policy-linked grid hardening, electrification, reshoring, public infrastructure, industrial power demand, and data-center interconnection. The candidate is small enough to be missed by U.S.-centric grid screens, while backlog, lead times, capacity additions, mix, and margin data provide a concrete falsification path.",
+      "why_underfollowed": "Smaller Canadian industrial supplier that may not appear in U.S.-centric grid-infrastructure screens despite sitting close to transformer and electrical distribution constraints."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Lynas Rare Earths Limited",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Feedstock flows to magnet or alloy processors, customer qualification, defense-relevant volumes, heavy rare-earth exposure, and offtake structures.",
+      "main_evidence_gap": "Need confirmation of defense-relevant end markets, qualified downstream magnet/alloy routes, heavy rare-earth capability, customer approvals, and whether non-Chinese feedstock receives durable price or contract advantages.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 2,
+      "scores": {
+        "bottleneck_severity": 5,
+        "demand_durability": 4,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 5,
+        "underfollowed_discovery": 3
+      },
+      "ticker": "LYC.AX",
+      "total_score": 36,
+      "why_prioritized": "Non-Chinese rare-earth feedstock is a high-severity political chokepoint if defense and domestic-content rules focus on origin, separation, magnet qualification, and customer approvals rather than headline mine capacity. Lynas is less underfollowed than the ideal target but is important as a reference node for verifying downstream transition partners.",
+      "why_underfollowed": "Not obscure within rare earths, but relevant as a non-Chinese feedstock reference for smaller downstream transition partners."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Siltronic AG",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Exposure to high-purity quartz or crucible suppliers, wafer capacity utilization, fab reshoring demand, customer concentration, and qualification risks.",
+      "main_evidence_gap": "Need primary disclosure on quartz/crucible supplier exposure, qualification cycles, long-term supply agreements, utilization, wafer pricing, and whether policy-driven fab capacity creates incremental demand rather than just cyclical recovery.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 3,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 4,
+        "risk_clarity": 3,
+        "supplier_scarcity": 4,
+        "underfollowed_discovery": 4
+      },
+      "ticker": "WAF.DE",
+      "total_score": 34,
+      "why_prioritized": "Silicon wafers sit one step below fabs and one step above high-purity quartz and crucible constraints. This gives Siltronic a useful chokepoint position in semiconductor reshoring and supply-security politics, while its European listing and wafer focus make it less obvious than fabs, chip designers, or equipment leaders.",
+      "why_underfollowed": "European wafer supplier may be less prominent than fabs and chip-equipment leaders, while sitting close to quartz-crucible constraints."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "GlobalWafers Co., Ltd.",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "U.S. and allied-country capacity plans, quartz/crucible supplier exposure, customer qualifications, utilization, and subsidy-linked projects.",
+      "main_evidence_gap": "Need company-level evidence on subsidy-linked projects, customer qualification, utilization, quartz/crucible supply risk, and whether new allied-country wafer capacity is bottlenecked by upstream materials.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 4,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 3,
+        "supplier_scarcity": 4,
+        "underfollowed_discovery": 3
+      },
+      "ticker": "6488.TW",
+      "total_score": 32,
+      "why_prioritized": "GlobalWafers is a useful public-market mapping for semiconductor wafer capacity, allied-country capacity plans, subsidy-linked projects, and upstream quartz/crucible dependencies. It is not the most obscure name, but it can validate whether wafer suppliers are transmitting high-purity material constraints into pricing, supply agreements, or capex plans.",
+      "why_underfollowed": "More visible than obscure materials suppliers but less discussed than chip designers or foundries."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "SUMCO Corporation",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Quartz crucible sourcing, wafer pricing, fab demand, qualification cycles, geographic concentration, and long-term supply agreements.",
+      "main_evidence_gap": "Need confirmation of quartz/crucible exposure, supplier concentration, wafer pricing power, long-term agreements, utilization, and sensitivity to reshoring or export-control-driven demand.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 5,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 4,
+        "risk_clarity": 3,
+        "supplier_scarcity": 4,
+        "underfollowed_discovery": 3
+      },
+      "ticker": "3436.T",
+      "total_score": 32,
+      "why_prioritized": "SUMCO is a reference wafer supplier tied to the same high-purity quartz and crucible dependency chain. The node has structural bottleneck characteristics because semiconductor-grade inputs and customer qualification can take years, but SUMCO is more likely to be a validation anchor than the most underfollowed opportunity.",
+      "why_underfollowed": "Important in the supply chain but usually receives less political-theme attention than fabs, equipment, or AI chips."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "SGL Carbon SE",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Semiconductor-grade graphite exposure, customer qualification, capacity constraints, defense or energy applications, and pricing power.",
+      "main_evidence_gap": "Need segment-level disclosure tying revenue or backlog to semiconductor-grade graphite, defense/energy applications, qualified customers, capacity constraints, and pricing power.",
+      "market_cap_bucket": "small_cap",
+      "rank": 6,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 3,
+        "evidence_quality": 2,
+        "falsifiability": 4,
+        "mispricing_potential": 4,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 4,
+        "underfollowed_discovery": 5
+      },
+      "ticker": "SHW.DE",
+      "total_score": 32,
+      "why_prioritized": "SGL Carbon is a more obscure materials candidate with possible semiconductor-grade graphite, defense, energy, and industrial reshoring relevance. It scores well on underfollowed discovery and potential supplier scarcity, but the current evidence quality is weaker than for wafer or rare-earth names.",
+      "why_underfollowed": "Messy materials label and European listing can obscure semiconductor or strategic-materials exposure."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "Wacker Chemie AG",
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Semiconductor-grade material exposure, customer qualification cycles, capacity additions, geographic sourcing relevance, and policy-linked demand.",
+      "main_evidence_gap": "Need clearer disclosure separating semiconductor-grade exposure from broader chemical, polysilicon, and solar cyclicality, plus evidence of customer qualification and policy-linked demand.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 7,
+      "scores": {
+        "bottleneck_severity": 3,
+        "demand_durability": 4,
+        "evidence_quality": 3,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 4
+      },
+      "ticker": "WCH.DE",
+      "total_score": 30,
+      "why_prioritized": "Wacker offers a policy-adjacent materials angle through specialty chemicals, polysilicon, solar, and potential semiconductor-grade materials. It is plausibly missed by U.S.-focused political and semiconductor screens, but the exact chokepoint exposure is less pure than transformer, rare-earth, or wafer candidates.",
+      "why_underfollowed": "European specialty-chemical exposure may be missed by U.S.-focused political and semiconductor screens."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Entegris, Inc.",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Exposure to U.S. fab reshoring, high-purity materials capacity, customer qualifications, export-control sensitivity, and bottleneck product lines.",
+      "main_evidence_gap": "Need product-line-level evidence of which materials or filtration nodes are true bottlenecks, how much demand is reshoring or policy-driven, and whether valuation already prices that exposure.",
+      "market_cap_bucket": "large_cap",
+      "rank": 8,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 2,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4,
+        "underfollowed_discovery": 2
+      },
+      "ticker": "ENTG",
+      "total_score": 32,
+      "why_prioritized": "Entegris is a high-quality reference anchor for qualified semiconductor materials, filtration, contamination control, and advanced materials handling. It ranks below smaller underfollowed names because the market is more likely to recognize its semiconductor-materials exposure, reducing discovery value.",
+      "why_underfollowed": "Not obscure, but it frames how markets value qualified high-purity semiconductor inputs and contamination-control suppliers."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "SPS Commerce, Inc.",
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Explicit customer demand for compliance documentation, tariff or sourcing data modules, supplier onboarding growth, and regulatory-use cases.",
+      "main_evidence_gap": "Need evidence from filings, calls, product releases, or customer examples showing tariff, sourcing, forced-labor, or regulatory-compliance modules are material sales drivers.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 9,
+      "scores": {
+        "bottleneck_severity": 2,
+        "demand_durability": 3,
+        "evidence_quality": 2,
+        "falsifiability": 3,
+        "mispricing_potential": 3,
+        "public_market_purity": 3,
+        "risk_clarity": 3,
+        "supplier_scarcity": 3,
+        "underfollowed_discovery": 3
+      },
+      "ticker": "SPSC",
+      "total_score": 25,
+      "why_prioritized": "SPS Commerce has a plausible second-order policy angle if tariffs, country-of-origin rules, forced-labor enforcement, or supplier documentation needs increase demand for supplier connectivity and transaction visibility. It remains speculative because the link from political complexity to measurable revenue growth is indirect.",
+      "why_underfollowed": "The compliance link is indirect; it may be classified as retail EDI rather than political supply-chain infrastructure."
+    },
+    {
+      "attention_level": "high_attention",
+      "company": "HEICO Corporation",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Defense and space growth inside Electronic Technologies Group, acquisition mix, organic growth, order strength, lead times, and capacity expansion.",
+      "main_evidence_gap": "Need current segment-level evidence separating defense/space organic growth from acquisition effects and showing whether component scarcity creates incremental pricing power.",
+      "market_cap_bucket": "large_cap",
+      "rank": 10,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 4,
+        "evidence_quality": 4,
+        "falsifiability": 4,
+        "mispricing_potential": 1,
+        "public_market_purity": 4,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4,
+        "underfollowed_discovery": 1
+      },
+      "ticker": "HEI",
+      "total_score": 30,
+      "why_prioritized": "HEICO fits the aerospace and defense components and high-reliability electronics map, and it can serve as a benchmark for qualified component scarcity. However, it is high-attention and large-cap, so it is less useful for the underfollowed discovery objective unless segment-level data reveals a neglected defense electronics bottleneck.",
+      "why_underfollowed": "Not meaningfully underfollowed; included only as a reference-quality benchmark for aerospace and defense component scarcity."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "Q2 Holdings, Inc.",
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Regulatory-compliance product demand, bank IT spending tied to rule changes, and whether policy complexity is a measurable sales driver.",
+      "main_evidence_gap": "Need primary evidence that regulatory change is driving incremental sales, product adoption, or customer urgency rather than generic digital banking software demand.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 11,
+      "scores": {
+        "bottleneck_severity": 1,
+        "demand_durability": 2,
+        "evidence_quality": 1,
+        "falsifiability": 3,
+        "mispricing_potential": 2,
+        "public_market_purity": 2,
+        "risk_clarity": 2,
+        "supplier_scarcity": 2,
+        "underfollowed_discovery": 2
+      },
+      "ticker": "QTWO",
+      "total_score": 17,
+      "why_prioritized": "Q2 Holdings remains in the chunk only as a speculative second-order regulated-software hypothesis. The politics link is too indirect for high Serenity priority without evidence that rule changes or compliance complexity are a measurable driver of bank software demand.",
+      "why_underfollowed": "The politics link is indirect and not yet validated by node-level evidence."
+    }
+  ],
+  "summary": "Layer 3 ranking favors candidates where political demand can plausibly transmit into hard-to-substitute supply-chain nodes with testable evidence paths. Highest priority goes to underfollowed or niche public companies tied to grid transformers, rare-earth feedstock qualification, semiconductor wafer-material dependencies, and obscure specialty materials. Reference leaders are retained mainly as anchors for chokepoint validation, not as popularity-driven rankings. Speculative software names are ranked lower unless the policy-to-revenue bridge is directly verifiable.",
+  "theme_id": "politics_policy_chokepoints_layer3_candidate_chunk"
+}
