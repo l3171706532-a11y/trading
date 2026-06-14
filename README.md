@@ -1,11 +1,12 @@
 # Trading Research Reports
 
-Updated: 2026-06-14 09:39:44 UTC
+Updated: 2026-06-14 10:49:54 UTC
 
 This repository contains generated research reports and structured outputs. It is not investment advice.
 
 ## Cloud LLM Serenity Runs
 
+- [technology-20260614-093950](reports/serenity/cloud_llm/technology-20260614-093950/research_report_bilingual.md)
 - [technology-20260613-091344](reports/serenity/cloud_llm/technology-20260613-091344/research_report_bilingual.md)
 - [technology-20260612-091055](reports/serenity/cloud_llm/technology-20260612-091055/research_report_bilingual.md)
 - [technology-20260611-092831](reports/serenity/cloud_llm/technology-20260611-092831/research_report_bilingual.md)
