@@ -1,0 +1,210 @@
+{
+  "candidates": [
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Amkor Technology",
+      "confidence": 0.78,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether Amkor's advanced-packaging expansion is tied to AI/HBM packages with named customers or remains broad packaging capacity.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track capex timing, customer disclosures, CHIPS Act milestones, 2.5D/HDFO/TSV utilization, and whether HBM-related package revenue becomes material.",
+      "node_relation": "Reference OSAT and advanced-packaging capacity provider; 2.5D/3D TSV and high-density packaging are relevant to AI accelerator packages using HBM.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test / advanced packaging",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "advanced_packaging",
+        "reference_anchor"
+      ],
+      "theme_relation": "If HBM and advanced packaging remain structurally tight, OSATs with credible 2.5D/advanced-package roadmaps can become capacity-release nodes for AI chip supply chains.",
+      "ticker": "AMKR",
+      "why_include": "Included as a context anchor because Amkor publicly discusses 2.5D/3D TSV packaging, HBM-related 2.5D packaging architecture, and a large Arizona advanced packaging/test expansion.",
+      "why_underfollowed": "Not truly underfollowed versus smaller tool suppliers; included mainly to map the downstream customer/capacity node that could pull demand for inspection, metrology, probe, bonding, and test equipment."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Camtek",
+      "confidence": 0.86,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Customer concentration and whether orders are from HBM manufacturers, OSATs, foundries, or broader AI/advanced-packaging customers.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify 2026 order backlog, HBM-specific revenue mix, gross-margin durability, tool shipment lead times, and customer qualification disclosures.",
+      "node_relation": "Inspection/metrology supplier for advanced packaging, HBM, chiplets, hybrid bonding, and high-density micro-bump inspection.",
+      "sector_or_industry": "Semiconductor inspection and metrology equipment",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "inspection_metrology"
+      ],
+      "theme_relation": "HBM and chiplet packages increase inspection steps and defect sensitivity, potentially raising demand for high-end 2D/3D inspection tools.",
+      "ticker": "CAMT",
+      "why_include": "Camtek explicitly identifies HBM, chiplets, hybrid bonding, and advanced packaging as target applications, and disclosed an AI-related order for Hawk systems from an IDM.",
+      "why_underfollowed": "The company is smaller than major semiconductor-equipment leaders and may be categorized generically as inspection/metrology, obscuring its leverage to HBM micro-bump and advanced-package yield."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "FormFactor",
+      "confidence": 0.84,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether HBM probe-card revenue is concentrated in one memory customer or diversified across Samsung, SK hynix, and Micron.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check 10-Q/10-K segment commentary, customer concentration, DRAM probe-card revenue growth, HBM design-win cadence, and capex required to support MEMS probe capacity.",
+      "node_relation": "Probe-card and wafer-test supplier; HBM raises probe complexity and test intensity for high-density DRAM stacks used in AI accelerators.",
+      "sector_or_industry": "Semiconductor probe cards and test systems",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "probe_card"
+      ],
+      "theme_relation": "If HBM output remains supply-constrained, memory producers may prioritize probe-card capacity and advanced MEMS probe technology to improve yield and throughput.",
+      "ticker": "FORM",
+      "why_include": "FormFactor states that advanced-packaging wafer-test challenges apply to HBM, and third-party filing summaries indicate Q1 2026 DRAM revenue growth was driven by HBM designs used in generative AI.",
+      "why_underfollowed": "Although its market cap has grown, the company is still less visible than HBM producers and front-end equipment leaders; the key mapping is through probe-card intensity rather than direct memory production."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Cohu",
+      "confidence": 0.76,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether the HBM customer selection has scaled into material revenue or remains an isolated design win.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track backlog, HBM-related orders, Neon platform adoption, thermal-handler demand for GPU/HBM devices, and management commentary on AI memory revenue contribution.",
+      "node_relation": "Test/inspection/metrology and thermal-handler supplier with explicit HBM inspection-metrology product alignment.",
+      "sector_or_industry": "Semiconductor test handlers, inspection, metrology, and automation",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM devices used in HPC and generative AI need inspection, metrology, sorting, and controlled-temperature test handling, which could create second-order demand for niche back-end equipment.",
+      "ticker": "COHU",
+      "why_include": "Cohu announced its Neon inspection/metrology platform was selected by a leading US memory and data-storage customer for HBM devices, and its product pages describe HBM market alignment.",
+      "why_underfollowed": "Cohu is usually grouped under cyclical semiconductor test/automation rather than HBM chokepoints, making its memory inspection and thermal-handler exposure a messier but plausible second-order mapping."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "The supplied search context states that structural HBM undersupply through 2027 has pushed investors one layer below producers, but also cautions that much of the sub-$50B supplier layer may already be identified by the market.",
+      "claim_type": "hypothesis",
+      "confidence": 0.74,
+      "published_at": "2026-06-03",
+      "source_title": "The HBM Supply Chain: One Layer Beneath the Producers",
+      "source_url": "https://outperformers.co/p/tss3",
+      "ticker": ""
+    },
+    {
+      "claim": "Amkor describes 2.5D/3D TSV packaging platforms, and its materials explain that 2.5D packaging can place logic chips and HBM on a silicon interposer.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "",
+      "source_title": "2.5D/3D TSV Packaging - Amkor Technology",
+      "source_url": "https://amkor.com/technology/25d-3d-tsv/",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor and Samsung discussed H-Cube as a 2.5D packaging solution for HPC, AI, data-center, and network products, with HBM placed with logic on an interposer.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "",
+      "source_title": "Samsung Electronics Partners With Amkor Technology on the Development of Leading-edge H-Cube Solution",
+      "source_url": "https://amkor.com/blog/samsung-electronics-partners-with-amkor-technology-on-the-development-of-leading-edge-h-cube-solution/",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Camtek announced an approximately $25 million multi-system Hawk order from an IDM for AI applications; the Hawk platform is described as designed for demanding advanced-packaging applications including HBM, chiplets, hybrid bonding, and high micro-bump-count wafers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-02-10",
+      "source_title": "Camtek receives multiple Hawk systems order of approximately $25 Million from an IDM for AI applications",
+      "source_url": "https://www.camtek.com/news-and-events/camtek-receives-multiple-hawk-systems-order-of-approximately-25-million-from-an-idm-for-ai-applications/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Camtek's SEC filing states that its systems inspect wafers for demanding semiconductor segments including advanced packaging, chiplets, HBM, memory, compound semiconductors, and foundries/OSATs.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026",
+      "source_title": "Camtek Ltd SEC Filing 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001109138/000117891326001561/zk2634678.htm",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "FormFactor describes advanced-packaging wafer-test challenges as applying to HBM and offers probe-card products aimed at high-volume wafer test.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Advanced Packaging Raises the Bar for Wafer Test",
+      "source_url": "https://www.formfactor.com/applications/high-volume-test-on-wafer/advanced-packaging/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "A Q1 2026 10-Q summary states FormFactor revenue rose to $226.1 million and DRAM product revenue growth was primarily driven by HBM designs used in generative AI applications.",
+      "claim_type": "fact",
+      "confidence": 0.76,
+      "published_at": "2026",
+      "source_title": "FormFactor Q1 2026 Quarterly Report Summary",
+      "source_url": "https://www.stocktitan.net/sec-filings/FORM/10-q-formfactor-inc-quarterly-earnings-report-fd4f2595365c.html",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Cohu announced that its Neon inspection/metrology platform was selected by a leading US memory and data-storage customer for HBM devices used in HPC and generative AI.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "Cohu Enters HBM Memory Market with Neon Inspection Metrology Platform",
+      "source_url": "https://cohu.gcs-web.com/news-releases/news-release-details/cohu-enters-hbm-memory-market-neon-inspection-metrology-platform",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "Cohu's Neon product page states that the platform supports HBM market requirements and targets semiconductors used in high-bandwidth memory and high-volume die sort.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "Neon - Next Generation Inspection Platform",
+      "source_url": "https://www.cohu.com/neon/",
+      "ticker": "COHU"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.86,
+      "text": "CAMT should remain in the HBM/advanced-packaging second-order universe as an inspection/metrology supplier with explicit HBM, chiplet, hybrid-bonding, and AI-order evidence.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "FORM should remain in the universe as a probe-card/test-intensity beneficiary where HBM complexity may increase wafer-test demand; verify customer concentration and HBM revenue materiality.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "COHU is a lower-attention discovery candidate for HBM inspection/metrology and test handling; survival in later layers requires proof that Neon HBM selection is scaling into material revenue.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "Need a separate pass on bonding, thermal-interface materials, substrates, and wet-process suppliers such as KLIC, ACMR, ONTO, and materials names; this pass prioritized stronger explicit HBM evidence in inspection, probe, and OSAT nodes.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "HBM and advanced-packaging second-order suppliers",
+  "node_id": "hbm_advanced_packaging_second_order_suppliers",
+  "summary": "Expanded the node around less-obvious US-listed second-order suppliers tied to HBM yield, advanced-packaging inspection, probe cards, test handling, and outsourced packaging capacity. The discovery lane favors companies where HBM is not the headline product but appears to drive inspection/metrology intensity, wafer probing complexity, or package/test capacity. This is a research universe only, not a buy/sell list.",
+  "theme_id": "new_hotspots"
+}

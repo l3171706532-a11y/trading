@@ -1,0 +1,183 @@
+{
+  "candidates": [
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "AXT Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Track quarterly disclosures for InP order backlog, export-permit cadence, China/Tongmei shipment delays, Texas capacity progress, and whether customers are prepaying or signing longer-term substrate supply agreements.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Pull latest AXTI 10-Q/10-K, earnings call transcript, backlog commentary, export-control disclosures, customer concentration notes, and capex schedule for non-China InP capacity.",
+      "node_relation": "Direct supplier of compound semiconductor substrates, including indium phosphide substrates, with production exposure to China export permitting.",
+      "sector_or_industry": "Compound semiconductor substrates",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "export_control",
+        "evidence_needed"
+      ],
+      "theme_relation": "If AI optical interconnect demand creates a substrate shortage, AXTI is one of the few US-listed direct substrate beneficiaries, but also exposed to export-license timing risk.",
+      "ticker": "AXTI",
+      "why_include": "The node hypothesis explicitly points to InP substrate scarcity and export licensing. Cached evidence states AXT/Tongmei is one of the concentrated global InP wafer suppliers and that Chinese export permits have become a key operating constraint.",
+      "why_underfollowed": "AXTI sits upstream of the better-known optical module and laser names; its business label is broader compound substrates, so the InP bottleneck may be less obvious than in transceiver assemblers."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Veeco Instruments Inc.",
+      "confidence": 0.86,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Check whether the $250M+ order figure converts into backlog, revenue, margin expansion, and repeat tool orders, and whether customers include the leading AI optical transceiver ecosystem.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review VECO latest 10-Q backlog, segment revenue, customer concentration, shipment timing, tool lead times, and management commentary on Lumina MOCVD, Spector IBD, and WaferEtch demand.",
+      "node_relation": "Second-order equipment supplier for InP laser manufacturing, including MOCVD, ion beam deposition, wet processing, and related process tools.",
+      "sector_or_industry": "Semiconductor process equipment; compound semiconductor tools",
+      "serenity_tags": [
+        "supply_chain",
+        "equipment",
+        "second_order",
+        "underfollowed",
+        "bottleneck"
+      ],
+      "theme_relation": "If downstream laser and transceiver makers expand InP capacity, equipment orders may surface before wafer or module revenue normalizes, making VECO a tools-layer bottleneck candidate.",
+      "ticker": "VECO",
+      "why_include": "Veeco announced more than $250 million in equipment orders for manufacturing InP lasers, with a substantial portion tied to leading manufacturers of 800G and 1.6T optical transceivers for hyperscale data centers.",
+      "why_underfollowed": "The market may focus on COHR/LITE/optical modules while overlooking the tool vendors required to scale InP laser epitaxy, coatings, and wafer processing."
+    },
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Coherent Corp.",
+      "confidence": 0.84,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Watch whether COHR’s internal InP capacity reduces dependence on external substrate suppliers or instead confirms that industrywide InP wafer/tool capacity remains tight.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review latest investor deck, capex plans, customer commentary, datacom growth, InP capacity utilization, and supplier disclosures.",
+      "node_relation": "Integrated downstream and midstream reference name with InP wafer fabrication and optical-device exposure for AI transceivers and photonics.",
+      "sector_or_industry": "Optical components; compound semiconductors; photonics",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "reference",
+        "capacity_expansion",
+        "bottleneck"
+      ],
+      "theme_relation": "COHR helps validate demand and capacity expansion at the InP wafer/device layer; it is less underfollowed but useful as a demand-chain anchor for AXTI and VECO.",
+      "ticker": "COHR",
+      "why_include": "Texas state and company materials describe Coherent’s scaled 6-inch InP wafer production push in Sherman, Texas, tied to data centers, AI, telecommunications, and advanced connectivity.",
+      "why_underfollowed": "Not underfollowed; included only as a context anchor because its InP capacity plans and AI optical demand validate the upstream substrate and equipment thesis."
+    },
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Lumentum Holdings Inc.",
+      "confidence": 0.83,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Check whether LITE’s InP-device expansion tightens demand for substrates, epitaxy tools, and optical coatings, or whether silicon photonics substitution reduces InP intensity over time.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review latest earnings calls for EML/CW laser capacity, order coverage, customer concentration, 1.6T and CPO exposure, and facility capex timing.",
+      "node_relation": "Downstream InP laser/device supplier for AI data-center optical interconnects; validates laser-side demand for InP substrates and epitaxy capacity.",
+      "sector_or_industry": "Optical components; lasers; photonics",
+      "serenity_tags": [
+        "demand",
+        "reference",
+        "optical_lasers",
+        "capacity_expansion",
+        "bottleneck"
+      ],
+      "theme_relation": "LITE is a high-attention laser bottleneck reference name. Its capacity expansion can signal the urgency of InP device supply constraints, but it is not the main underfollowed discovery target.",
+      "ticker": "LITE",
+      "why_include": "Lumentum announced a new US manufacturing facility to produce advanced lasers for large AI data centers, explicitly expanding domestic production of InP devices with expected production ramp in mid-2028.",
+      "why_underfollowed": "Not underfollowed; included as a high-attention downstream demand anchor and to map the substrate-to-laser chain."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "China added indium phosphide substrates to its export control list on February 4, 2025; AXT disclosed export-permit requirements and receipt of initial permits through its China subsidiary.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-04",
+      "source_title": "AXT 2026 10-K filing mirror",
+      "source_url": "https://stocklight.com/stocks/us/nasdaq-axti/axt/annual-reports/nasdaq-axti-2026-10K-26762567.pdf",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "Provided cached evidence states that AXT is one of the concentrated global InP wafer producers and that export permits and backlog are material constraints for shipments.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "2026-06-01",
+      "source_title": "The Chokepoint Atlas #1: The $200 million wafer that decides who wins the AI decade",
+      "source_url": "https://theintlstrat.substack.com/p/the-chokepoint-atlas-1-the-200-million",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "Veeco announced more than $250 million in equipment orders for manufacturing InP lasers, with a substantial portion tied to 800G and 1.6T optical-transceiver manufacturers for hyperscale data centers.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-05",
+      "source_title": "Veeco Announces $250 Million+ in Equipment Orders for Manufacturing Indium Phosphide Lasers",
+      "source_url": "https://ir.veeco.com/news-and-events/news-details/2026/Veeco-Announces-250-Million-in-Equipment-Orders-for-Manufacturing-Indium-Phosphide-Lasers/default.aspx",
+      "ticker": "VECO"
+    },
+    {
+      "claim": "Texas announced a semiconductor grant to Coherent to accelerate scaled production of InP wafers in Sherman, describing the project as a 6-inch InP wafer factory supporting data centers, AI, telecommunications, and connectivity.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-02-06",
+      "source_title": "Governor Abbott Announces Texas Semiconductor Innovation Fund Grant To Coherent",
+      "source_url": "https://gov.texas.gov/news/post/governor-abbott-announces-texas-semiconductor-innovation-fund-grant-to-coherent",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Coherent previously announced 6-inch InP wafer-fabrication capability in Sherman, Texas and Järfälla, Sweden for InP optoelectronic devices used in datacom transceivers, AI interconnects, and optical communications.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2024",
+      "source_title": "Coherent Announces the World's First 6-inch Indium Phosphide Scalable Wafer Fabs",
+      "source_url": "https://www.coherent.com/news/press-releases/worlds-first-6-inch-inp-scalable-wafer-fabs-paving-the-way-for-the-next-generation-of-lasers-for-ai-transceivers-and-6g-wireless-networks",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Lumentum announced a new US manufacturing facility to produce advanced lasers for AI data centers, expanding domestic production of InP devices with production expected to ramp in mid-2028.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-04",
+      "source_title": "Lumentum Announces New U.S. Manufacturing Facility to Produce Advanced Lasers for the World's Largest AI Data Centers",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-New-U-S--Manufacturing-Facility-to-Produce-Advanced-Lasers-for-the-Worlds-Largest-AI-Data-Centers/default.aspx",
+      "ticker": "LITE"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.82,
+      "text": "AXTI is the cleanest US-listed underfollowed direct InP substrate candidate but has asymmetric dependence on China export permitting and Tongmei-related shipment cadence.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "VECO is a second-order underfollowed tools candidate for the InP laser capacity buildout; the key evidence is $250M+ InP laser equipment orders tied to 800G/1.6T optical-transceiver manufacturers.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "COHR and LITE should remain reference anchors, not primary underfollowed discoveries, because they validate downstream InP wafer/device demand and AI optical-interconnect capacity pressure.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.74,
+      "text": "Need a later pass on non-US or OTC-adjacent InP substrate/epitaxy suppliers, including Sumitomo Electric, JX Advanced Metals, IQE, and possible micro-cap photonics alternatives; these were excluded here to keep the pass US-listed and underfollowed-focused.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Indium phosphide wafers and optical substrates for AI networking",
+  "node_id": "indium_phosphide_optical_substrates",
+  "summary": "Expanded the US-listed universe around the InP optical-substrate chokepoint with a two-lane funnel. Reference lane: COHR and LITE validate downstream demand for InP wafers, lasers, and AI data-center optical interconnects. Underfollowed lane: AXTI is the most direct US-listed InP substrate exposure, while VECO is a second-order tool/equipment beneficiary tied to InP laser manufacturing capacity expansion. No recommendation is implied; these are research candidates requiring further evidence checks.",
+  "theme_id": "new_hotspots"
+}
