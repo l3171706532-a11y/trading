@@ -1,0 +1,192 @@
+{
+  "candidates": [
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "hypothesis",
+      "company": "AXT Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Verify the latest 10-Q/10-K and earnings-call language for InP revenue mix, backlog tied to export permits, customer concentration, China manufacturing footprint, capacity-expansion timing, and whether AI datacenter optical demand is explicitly affecting orders.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Pull AXTI latest SEC filings and earnings transcript; search for 'indium phosphide', 'MOFCOM', 'export license', 'backlog', 'Beijing', 'capacity', and 'AI' references.",
+      "node_relation": "Direct supplier of compound semiconductor substrates, including indium phosphide wafers; manufacturing and export-licensing exposure to China is directly relevant to the hypothesized bottleneck.",
+      "sector_or_industry": "Compound semiconductor substrates",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "regulated_input",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potential scarce upstream input supplier for AI optical interconnects if high-speed optical module demand tightens InP wafer availability.",
+      "ticker": "AXTI",
+      "why_include": "External search context cites AXT as one of the leading InP substrate manufacturers and specifically connects AXT to China MOFCOM export-license timing and backlog risk. This makes AXTI the cleanest US-listed candidate for the node.",
+      "why_underfollowed": "AXT is several layers below AI accelerators and Ethernet switches, classified as a specialty substrate supplier rather than an obvious AI infrastructure name."
+    },
+    {
+      "attention_level": "high_attention",
+      "claim_type": "inference",
+      "company": "Coherent Corp.",
+      "confidence": 0.66,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Verify whether Coherent discloses InP wafer, laser, transceiver, datacom, or AI-related optical backlog exposure, and whether substrate availability is mentioned as a constraint.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest COHR filings, investor presentations, and earnings-call Q&A for 'InP', 'indium phosphide', 'datacom', '800G', '1.6T', 'AI', 'substrate', and 'capacity'.",
+      "node_relation": "Downstream optical-component and photonics platform company with plausible exposure to InP-based lasers, optical components, and high-speed datacenter interconnect supply chains.",
+      "sector_or_industry": "Optical components and photonics materials",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "components",
+        "reference",
+        "evidence_needed"
+      ],
+      "theme_relation": "Reference anchor for how InP substrate constraints could propagate into AI datacenter optical modules and photonic components.",
+      "ticker": "COHR",
+      "why_include": "External context explicitly links the InP bottleneck theme to COHR alongside AXTI and LITE. Coherent is not the underfollowed alpha target in this pass, but it is important for mapping downstream demand pull and component-level constraints.",
+      "why_underfollowed": "Not underfollowed at the company level; included as a reference lane because segment-level InP exposure may be underappreciated relative to the broader optics and materials business."
+    },
+    {
+      "attention_level": "high_attention",
+      "claim_type": "inference",
+      "company": "Lumentum Holdings Inc.",
+      "confidence": 0.63,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Determine whether Lumentum’s datacom/telecom growth depends materially on InP lasers or wafers, whether it sources from AXT/Sumitomo/JX or internal fabs, and whether lead times or costs are changing.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review LITE latest 10-K/10-Q, earnings transcripts, product pages, and supplier-risk disclosures for 'indium phosphide', 'InP', 'EML', 'laser', '800G', '1.6T', 'AI datacenter', and 'supply constraint'.",
+      "node_relation": "Downstream optical-component supplier with plausible InP-based laser/photonics exposure for high-speed data-center optical links.",
+      "sector_or_industry": "Optical and photonic components",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "components",
+        "reference",
+        "evidence_needed"
+      ],
+      "theme_relation": "A demand-pull and constraint-transmission candidate: if InP wafers are scarce, optical-component vendors tied to high-speed transceiver growth may face margin, lead-time, or sourcing effects.",
+      "ticker": "LITE",
+      "why_include": "External context names LITE in connection with the InP AI bottleneck. It is useful as a downstream public-market mapping point for AI optical interconnect demand.",
+      "why_underfollowed": "Not underfollowed as a stock, but the specific substrate dependency and supplier-risk angle may be less visible than headline AI optical-module demand."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "speculation",
+      "company": "Applied Optoelectronics Inc.",
+      "confidence": 0.43,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Check whether AAOI uses InP-based lasers internally or through suppliers, whether AI datacenter customers are driving 800G/1.6T demand, and whether substrate or laser availability is a bottleneck.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review AAOI filings, product disclosures, and earnings transcripts for 'InP', 'indium phosphide', 'laser diode', 'EML', 'silicon photonics', '800G', '1.6T', 'datacenter', 'Microsoft', 'Amazon', and supplier concentration.",
+      "node_relation": "Possible second-order beneficiary or victim through optical transceiver and laser-component demand, but direct InP substrate dependency is not established from provided evidence.",
+      "sector_or_industry": "Optical transceivers and networking components",
+      "serenity_tags": [
+        "demand",
+        "components",
+        "second_order",
+        "speculative_shadow",
+        "evidence_needed"
+      ],
+      "theme_relation": "Could be exposed to AI data-center optical-interconnect demand one layer downstream from InP wafers; relevance depends on product mix, speed roadmap, and laser sourcing.",
+      "ticker": "AAOI",
+      "why_include": "Included as a speculative shadow candidate because the node’s demand driver is high-speed AI optical connectivity, and AAOI is a US-listed optical-networking component/transceiver name. Provided evidence does not confirm material InP substrate exposure.",
+      "why_underfollowed": "It may sit outside the obvious substrate-supplier screen and could be hidden under optical networking/transceiver labels rather than specialty materials."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "External search context states that more than 90% of global indium phosphide wafer production is controlled by Sumitomo Electric, JX Nippon/JX Advanced Metals, and AXT, with AXT manufacturing in Beijing.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "2026-06-01T16:37:24.000Z",
+      "source_title": "The Chokepoint Atlas #1: The $200 million wafer that decides who wins the AI decade",
+      "source_url": "https://theintlstrat.substack.com/p/the-chokepoint-atlas-1-the-200-million",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "External search context states that AXT shipments require China Ministry of Commerce approval and that permits can take 60 or more business days, with more than $100 million of backlog waiting on that process as of early 2026.",
+      "claim_type": "fact",
+      "confidence": 0.68,
+      "published_at": "2026-06-01T16:37:24.000Z",
+      "source_title": "The Chokepoint Atlas #1: The $200 million wafer that decides who wins the AI decade",
+      "source_url": "https://theintlstrat.substack.com/p/the-chokepoint-atlas-1-the-200-million",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "External search context states that Reuters reported AXT and Sumitomo together account for almost 80% of global InP substrate manufacturing, with Japan's JX Advanced Metals also named among leading suppliers.",
+      "claim_type": "fact",
+      "confidence": 0.65,
+      "published_at": "2026-06-11T12:51:42.000Z",
+      "source_title": "Indium Phosphide: The AI Bottleneck Behind AXTI, COHR and LITE Stocks — Breakouts Happen",
+      "source_url": "https://breakoutshappen.com/stock-news/indium-phosphide-the-ai-bottleneck-behind-axti-cohr-and-lite-stocks",
+      "ticker": "AXTI"
+    },
+    {
+      "claim": "Coherent is a relevant reference-lane candidate because external search context explicitly frames COHR as connected to the InP AI bottleneck alongside AXTI and LITE, implying downstream optical-component exposure that should be verified in filings.",
+      "claim_type": "inference",
+      "confidence": 0.58,
+      "published_at": "2026-06-11T12:51:42.000Z",
+      "source_title": "Indium Phosphide: The AI Bottleneck Behind AXTI, COHR and LITE Stocks — Breakouts Happen",
+      "source_url": "https://breakoutshappen.com/stock-news/indium-phosphide-the-ai-bottleneck-behind-axti-cohr-and-lite-stocks",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "Lumentum is a relevant reference-lane candidate because external search context explicitly frames LITE as connected to the InP AI bottleneck alongside AXTI and COHR, implying downstream optical-component exposure that should be verified in filings.",
+      "claim_type": "inference",
+      "confidence": 0.58,
+      "published_at": "2026-06-11T12:51:42.000Z",
+      "source_title": "Indium Phosphide: The AI Bottleneck Behind AXTI, COHR and LITE Stocks — Breakouts Happen",
+      "source_url": "https://breakoutshappen.com/stock-news/indium-phosphide-the-ai-bottleneck-behind-axti-cohr-and-lite-stocks",
+      "ticker": "LITE"
+    },
+    {
+      "claim": "External search context states that refined indium supply is concentrated, with roughly 70% produced in China, increasing the policy and regulated-input relevance of the InP substrate node.",
+      "claim_type": "fact",
+      "confidence": 0.66,
+      "published_at": "2026-06-01T16:37:24.000Z",
+      "source_title": "The Chokepoint Atlas #1: The $200 million wafer that decides who wins the AI decade",
+      "source_url": "https://theintlstrat.substack.com/p/the-chokepoint-atlas-1-the-200-million",
+      "ticker": ""
+    },
+    {
+      "claim": "If AI data-center optical bandwidth demand keeps shifting toward higher-speed links, a concentrated InP wafer supply base and China-linked export licensing could become a binding constraint for optical-component makers.",
+      "claim_type": "hypothesis",
+      "confidence": 0.74,
+      "published_at": "2026-06-01T16:37:24.000Z",
+      "source_title": "The Chokepoint Atlas #1: The $200 million wafer that decides who wins the AI decade",
+      "source_url": "https://theintlstrat.substack.com/p/the-chokepoint-atlas-1-the-200-million",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.82,
+      "text": "AXTI should be the primary underfollowed US-listed candidate for the InP optical-substrate node; later layers must verify actual InP revenue exposure, export-license backlog, customer mix, and capacity expansion.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.62,
+      "text": "COHR and LITE are reference-lane downstream optical-component candidates, not clean substrate plays; their inclusion depends on verifying InP-based laser/photonics exposure and whether substrate shortages affect lead times, margins, or customer deliveries.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.43,
+      "text": "AAOI is a speculative shadow candidate for second-order AI optical-interconnect exposure; it should be dropped in Layer 2 unless filings or product disclosures confirm material InP, laser, or supplier dependency.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.76,
+      "text": "Major non-US substrate suppliers Sumitomo Electric and JX Advanced Metals/JX Nippon appear central to the physical bottleneck but are outside the US-listed candidate goal for this pass; keep them as private/non-US supply-chain reference nodes.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Indium phosphide substrates and wafers for AI optical interconnects",
+  "node_id": "indium_phosphide_optical_substrates",
+  "summary": "Expanded the US-listed universe around the InP optical-substrate chokepoint with a two-lane structure. The direct underfollowed candidate is AXT, whose exposure is closest to the substrate bottleneck and whose China-linked manufacturing/export-license dependency is central to the node. Coherent and Lumentum are included as higher-attention reference/component anchors because they sit downstream in high-speed optical components where InP substrate availability may affect lasers, photonic components, and AI data-center optical-module supply. Applied Optoelectronics is included as a speculative second-order optical transceiver/component candidate that may benefit from or be constrained by high-speed optical demand, but its specific InP substrate dependency needs verification.",
+  "theme_id": "new_hotspots"
+}

@@ -1,0 +1,97 @@
+{
+  "evidence": [
+    {
+      "claim": "The provided candidate chunk classifies Resources Connection as professional services and states that it is not a credible fit for the liquid-cooling chokepoint node.",
+      "claim_type": "fact",
+      "confidence": 0.98,
+      "published_at": "2026-06-15T14:42:19Z",
+      "source_title": "User-provided Layer 1 candidate chunk",
+      "source_url": "cached_user_candidate_chunk",
+      "ticker": "RGP"
+    },
+    {
+      "claim": "The provided candidate chunk classifies Arteris as semiconductor interconnect software and states that it is not a fit for the thermal node.",
+      "claim_type": "fact",
+      "confidence": 0.98,
+      "published_at": "2026-06-15T14:42:19Z",
+      "source_title": "User-provided Layer 1 candidate chunk",
+      "source_url": "cached_user_candidate_chunk",
+      "ticker": "AIP"
+    },
+    {
+      "claim": "The provided candidate chunk labels TTM as an invalid mapping candidate and says it was not retained because of insufficient fit for liquid-cooling components.",
+      "claim_type": "fact",
+      "confidence": 0.98,
+      "published_at": "2026-06-15T14:42:19Z",
+      "source_title": "User-provided Layer 1 candidate chunk",
+      "source_url": "cached_user_candidate_chunk",
+      "ticker": "TTM"
+    },
+    {
+      "claim": "The supplied external search context contains evidence for other New Hotspots nodes such as HBM supply chain, sulphur/sulphuric acid, bauxite, and indium phosphide, but it does not provide supporting evidence for RGP, AIP, or TTM as liquid-cooling or thermal-management beneficiaries.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-15T14:42:19Z",
+      "source_title": "External search context gathered by cloud tools before this model call",
+      "source_url": "provided_external_search_context",
+      "ticker": ""
+    }
+  ],
+  "layer": "2B",
+  "memory_update": [
+    {
+      "confidence": 0.98,
+      "text": "RGP should be quarantined or removed from the liquid-cooling/thermal-management node; supplied evidence indicates no credible relationship.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.95,
+      "text": "AIP should not be mapped to liquid cooling. If retained at all, it belongs in a separate semiconductor-design IP or chiplet/interconnect software node, pending primary-source evidence.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.98,
+      "text": "TTM mapping is invalid until ticker identity is resolved. Do not advance it in the liquid-cooling candidate set without fresh primary evidence.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.9,
+      "text": "The liquid-cooling node needs a fresh candidate rebuild focused on actual public companies in coolant distribution units, cold plates, pumps, manifolds, quick disconnects, heat exchangers, immersion fluids, thermal interfaces, rack integration, and data-center mechanical contractors.",
+      "type": "evidence_gap"
+    }
+  ],
+  "summary": "Candidate chunk fails Layer 2B ticker-relationship mapping for the selected node. All three names were originally attached to 'Liquid cooling and thermal-management components for high-density AI racks,' but neither cached Serenity evidence nor provided external search context supports a credible direct, indirect, or hidden relationship. Resources Connection is a professional-services firm with no demonstrated thermal-component exposure in the supplied evidence. Arteris is semiconductor interconnect IP/software, which may be relevant to chip design themes but not to liquid cooling. TTM appears to be an invalid or confused mapping for this node. These should be removed or quarantined as evidence gaps rather than advanced into Layer 3.",
+  "theme_id": "new_hotspots",
+  "ticker_relationships": [
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0,
+      "hidden_signal_to_verify": "Check whether Resources Connection has any material consulting revenue tied to AI data-center buildouts, thermal engineering, facilities commissioning, liquid-cooling project management, or supply-chain advisory work. Current supplied evidence says none.",
+      "next_evidence": "Review latest 10-K/10-Q business description, segment revenue, customer case studies, investor presentations, and transcript mentions for 'data center', 'thermal', 'cooling', 'AI infrastructure', 'commissioning', or 'power'. If absent, remove from theme universe.",
+      "node": "Liquid cooling and thermal-management components for high-density AI racks",
+      "relationship": "No credible mapped relationship. The company was surfaced as a speculative shadow candidate, but the supplied context identifies it as professional services and explicitly says it is not a credible fit for the chokepoint node.",
+      "ticker": "RGP"
+    },
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0,
+      "hidden_signal_to_verify": "Verify whether Arteris has any software/IP product specifically used in thermal-management controllers, data-center rack systems, coolant distribution units, or AI accelerator power/thermal design workflows. No such evidence is present in supplied context.",
+      "next_evidence": "Review latest filings, product pages, customer case studies, and earnings-call transcripts for 'thermal', 'liquid cooling', 'rack', 'data center infrastructure', 'CDU', or 'coolant'. If only SoC interconnect exposure is found, remap to semiconductor-design IP or drop from this candidate chunk.",
+      "node": "Liquid cooling and thermal-management components for high-density AI racks",
+      "relationship": "No credible relationship to the thermal-management node. Arteris may be tangentially exposed to semiconductor design complexity through network-on-chip/interconnect IP, but that is a different supply-chain node from liquid cooling and rack thermal hardware.",
+      "ticker": "AIP"
+    },
+    {
+      "claim_type": "speculation",
+      "discovery_lane": "speculative_shadow",
+      "evidence_quality": 0,
+      "hidden_signal_to_verify": "Determine whether ticker intended was Tata Motors, TTM Technologies, or another TTM-like symbol. If TTM Technologies was intended, verify whether printed circuit boards, RF components, or advanced electronics have any specific liquid-cooling or AI-rack thermal relevance. Current supplied evidence is invalid.",
+      "next_evidence": "Resolve ticker identity first. If ticker is Tata Motors, remove from node. If ticker is TTM Technologies, separately evaluate under PCB/interconnect/electronics supply-chain node, not liquid cooling, unless primary evidence proves thermal-management exposure.",
+      "node": "Liquid cooling and thermal-management components for high-density AI racks",
+      "relationship": "Invalid or confused mapping. The candidate record itself says 'Tata Motors? / invalid mapping candidate removed' and provides no credible connection to liquid-cooling components.",
+      "ticker": "TTM"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Trading Research Reports
 
-Updated: 2026-06-15 15:13:07 UTC
+Updated: 2026-06-15 16:28:04 UTC
 
 This repository contains generated research reports and structured outputs. It is not investment advice.
 
@@ -35,6 +35,7 @@ This repository contains generated research reports and structured outputs. It i
 - [politics-20260609-174858](reports/serenity/cloud_llm/politics-20260609-174858/research_report_bilingual.md)
 - [politics-20260608-153907](reports/serenity/cloud_llm/politics-20260608-153907/research_report_bilingual.md)
 - [politics-20260607-092249](reports/serenity/cloud_llm/politics-20260607-092249/research_report_bilingual.md)
+- [hotspots-20260615-151313](reports/serenity/cloud_llm/hotspots-20260615-151313/research_report_bilingual.md)
 - [hotspots-20260614-175731](reports/serenity/cloud_llm/hotspots-20260614-175731/research_report_bilingual.md)
 - [hotspots-20260612-144215](reports/serenity/cloud_llm/hotspots-20260612-144215/research_report_bilingual.md)
 - [hotspots-20260611-145407](reports/serenity/cloud_llm/hotspots-20260611-145407/research_report_bilingual.md)

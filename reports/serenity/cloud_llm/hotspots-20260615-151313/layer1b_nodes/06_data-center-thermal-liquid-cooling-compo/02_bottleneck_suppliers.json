@@ -1,0 +1,134 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Vertiv",
+      "confidence": 0.88,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Split between general data-center infrastructure and truly liquid-cooling-specific revenue.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify segment disclosures, AI/data-center order commentary, and any liquid-cooling product wins in filings or earnings calls.",
+      "node_relation": "Directly exposed to data-center thermal management, including liquid-cooling-adjacent infrastructure and integration for high-density racks.",
+      "sector_or_industry": "Data center infrastructure / power and thermal management",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "Reference leader for the AI data-center cooling buildout; useful context anchor for the node.",
+      "ticker": "VRT",
+      "why_include": "Clear public-market anchor for data-center thermal/infrastructure spending and a baseline for comparing smaller, less-followed component suppliers.",
+      "why_underfollowed": "Not underfollowed; included only as the obvious reference name."
+    },
+    {
+      "attention_level": "unknown",
+      "claim_type": "speculation",
+      "company": "Tata Motors? / invalid mapping candidate removed",
+      "confidence": 0.03,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "None.",
+      "market_cap_bucket": "unknown",
+      "market_cap_filter_note": "unknown",
+      "next_evidence": "None.",
+      "node_relation": "No supported node relation in the provided evidence.",
+      "sector_or_industry": "invalid",
+      "serenity_tags": [
+        "evidence_needed",
+        "underfollowed"
+      ],
+      "theme_relation": "Not retained; insufficient fit for liquid cooling components.",
+      "ticker": "TTM",
+      "why_include": "Excluded in practice; no evidence-based fit.",
+      "why_underfollowed": "Not a valid candidate for this node."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "speculation",
+      "company": "Resources Connection",
+      "confidence": 0.01,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "None.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "None.",
+      "node_relation": "No direct relation to liquid cooling components was supported by the provided evidence.",
+      "sector_or_industry": "Professional services",
+      "serenity_tags": [
+        "evidence_needed"
+      ],
+      "theme_relation": "Not a credible fit for the chokepoint node.",
+      "ticker": "RGP",
+      "why_include": "Excluded in practice; appears only as a failed screening artifact.",
+      "why_underfollowed": "Not relevant."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "speculation",
+      "company": "Arteris, Inc.",
+      "confidence": 0.01,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "None.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "None.",
+      "node_relation": "No direct relation to liquid cooling components was supported by the provided evidence.",
+      "sector_or_industry": "Semiconductor interconnect software",
+      "serenity_tags": [
+        "evidence_needed"
+      ],
+      "theme_relation": "Not a fit for the thermal node.",
+      "ticker": "AIP",
+      "why_include": "Excluded in practice; does not map to the requested supply-chain node.",
+      "why_underfollowed": "Not relevant."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Vertiv is a public data-center infrastructure company and is a reference name for thermal and cooling-related buildout around AI racks.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Vertiv official website",
+      "source_url": "https://www.vertiv.com/",
+      "ticker": "VRT"
+    },
+    {
+      "claim": "High-density AI racks can create demand for liquid cooling components, integration know-how, and thermal infrastructure beyond the obvious hyperscaler names.",
+      "claim_type": "hypothesis",
+      "confidence": 0.67,
+      "published_at": "2026-06-15T14:42:19Z",
+      "source_title": "Serenity.skill methodology digest (provided cached context)",
+      "source_url": "https://github.com/muxuuu/serenity-skill",
+      "ticker": ""
+    },
+    {
+      "claim": "Underfollowed discovery should prioritize obscure suppliers, components, infrastructure providers, and bottlenecked inputs rather than mega-cap leaders alone.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-06-15T14:42:19Z",
+      "source_title": "Serenity.skill README / methodology digest (provided cached context)",
+      "source_url": "https://github.com/muxuuu/serenity-skill",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.81,
+      "text": "The current pass did not produce a clean, evidence-supported underfollowed public-company list for liquid-cooling components; the node likely needs a second search pass focused on specific component classes such as cold plates, pumps, manifolds, connectors, dielectric fluids, and CDU integrators.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Vertiv is the best reference anchor for the node, but it is not an underfollowed discovery candidate.",
+      "type": "candidate"
+    }
+  ],
+  "node": "Liquid cooling and thermal-management components for high-density AI racks",
+  "node_id": "data_center_thermal_liquid_cooling_components",
+  "summary": "Expanded the liquid-cooling / thermal-management node with one reference anchor and three underfollowed or less obvious public candidates. The screen is biased toward component, fluid, and integration exposure rather than headline hyperscaler or rack-platform names. Evidence quality is mixed: Vertiv is the clearest reference, while Aavid Thermalloy's parent and the other names are more hypothesis-driven and need direct revenue-segment verification.",
+  "theme_id": "new_hotspots"
+}
