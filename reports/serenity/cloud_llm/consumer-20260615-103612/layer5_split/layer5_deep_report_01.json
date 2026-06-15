@@ -1,0 +1,126 @@
+{
+  "deep_reports": [
+    {
+      "attention_level": "low_attention",
+      "company": "SPS Commerce",
+      "discovery_lane": "underfollowed",
+      "evidence_chain": [
+        "Fact from cached evidence: SPS Commerce reportedly disclosed approximately 54,600 recurring-revenue customers as of December 31, 2025, up from approximately 45,350 at the prior year-end in its 2025 Form 10-K. This supports customer growth but does not by itself prove network effects or pricing power.",
+        "Inference from brief: SPS appears to operate across EDI, supplier onboarding, purchase orders, invoices, ASNs, item data, retailer compliance rules, and trading-partner mapping. This supports a possible chokepoint position, but the exact revenue contribution and stickiness of each workflow still require verification.",
+        "Fact from external search context on Samsonite: Samsonite reported that for the three months ended March 31, 2026, wholesale accounted for 60.2% of net sales and DTC accounted for 39.8%, with wholesale including partnerships with large brick-and-mortar and digital retailers. This is not evidence about SPS directly, but it illustrates that consumer brands still rely heavily on wholesale and retailer channels where supplier connectivity and compliance workflows can matter.",
+        "Fact from external search context on UFP Industries: UFP described on-trend brands sold to major building products retailers with Q1 2026 YTD sales mix of 71% to Big Box customers and 29% to one- and two-step distribution. This is not direct SPS evidence, but it illustrates supplier dependence on scaled retail channels and potential need for standardized retailer-facing operational workflows.",
+        "Inference: If many consumer-product suppliers have to maintain separate mappings and compliance processes for each retailer, a third-party network with pre-built trading-partner logic could lower onboarding friction and raise switching costs.",
+        "Hypothesis: SPS may benefit when retailers and distributors increase vendor compliance requirements, omnichannel ordering complexity, item-data quality requirements, or supplier onboarding burden.",
+        "Hypothesis: SPS may be vulnerable if ERP vendors, iPaaS vendors, marketplaces, large retailers, or retail media / commerce platforms internalize connectivity and commoditize EDI/compliance workflows."
+      ],
+      "falsification_plan": [
+        "Downgrade if recurring-revenue customer growth slows sharply or turns negative after excluding acquisitions.",
+        "Downgrade if net revenue retention, gross retention, ARPU, revenue per customer, or cohort expansion falls materially for multiple reporting periods.",
+        "Downgrade if transaction-volume growth, trading-partner connections, or supplier onboarding activity diverges negatively from customer growth.",
+        "Downgrade if management commentary shows elevated churn among small suppliers, tariff-exposed suppliers, Amazon-related sellers, or consumer discretionary vendors.",
+        "Downgrade if large retailers, marketplaces, ERP vendors, iPaaS vendors, or commerce platforms announce credible in-house alternatives that reduce SPS’s role in EDI/compliance workflows.",
+        "Downgrade if revenue concentration or partner concentration proves meaningfully higher than expected.",
+        "Downgrade if gross margin, implementation efficiency, or sales efficiency deteriorates in a way that suggests the network is not scaling.",
+        "Downgrade if filings show that important growth metrics are acquisition-driven rather than organic.",
+        "Upgrade only if primary sources confirm high recurring revenue mix, strong retention or NRR, expanding revenue per customer, rising transaction volumes, and broadening retailer/trading-partner connections."
+      ],
+      "hidden_signal_to_verify": "Verify whether recurring-revenue retention, net revenue retention or ARPU expansion, trading-partner connection growth, transaction-volume growth, and customer cohort behavior show that retailer-specific compliance maps create durable switching costs despite supplier budget pressure. The most important hidden signal is whether suppliers keep paying because SPS is embedded in mandatory retail workflows, not because it is a nice-to-have productivity tool.",
+      "market_cap_bucket": "mid_cap",
+      "next_research_tasks": [
+        "Retrieve and verify the SPS Commerce 2025 Form 10-K customer-count disclosure, recurring-revenue definition, revenue mix, customer concentration, acquisition contribution, and risk factors.",
+        "Extract five-year trend data for recurring-revenue customers, revenue per recurring customer, organic revenue growth, gross margin, operating margin, and free cash flow conversion.",
+        "Search SPS investor presentations, earnings call transcripts, and annual reports for gross retention, net revenue retention, wallet expansion, ARPU, transaction volume, trading-partner count, and customer cohort commentary.",
+        "Map the product stack into EDI, fulfillment, analytics, item data, supplier onboarding, compliance, and revenue-recovery products; estimate which modules are mandatory workflow versus discretionary analytics.",
+        "Identify named retailer, grocer, marketplace, distributor, ERP, logistics, and commerce-platform partners from primary SPS sources and customer case studies.",
+        "Check whether SPS discloses exposure to Amazon, Walmart, Target, Costco, Kroger, Home Depot, Lowe’s, Shopify, ERP vendors, or major distributors, and whether any one ecosystem could bypass it.",
+        "Compare SPS against competitors and substitutes including traditional EDI providers, iPaaS vendors, ERP-native integrations, marketplace-native supplier portals, and large retailer proprietary portals.",
+        "Use consumer-supplier examples from companies with large wholesale or big-box exposure to test whether supplier compliance complexity is rising or falling.",
+        "Monitor management commentary on tariffs, supplier budget pressure, consumer slowdown, retailer inventory cycles, Amazon 3P dynamics, revenue recovery, and churn.",
+        "Build a falsification dashboard with quarterly fields for customer additions, organic growth, retention/NRR proxy, revenue per customer, transaction volume if available, gross margin, sales efficiency, acquisition contribution, and concentration disclosures."
+      ],
+      "risks": [
+        "Customer-quality risk: customer-count growth may include small, low-ARPU, acquisition-driven, or low-activity customers; it does not automatically prove high-value network expansion.",
+        "Retention risk: if net revenue retention, gross retention, ARPU, or cohort expansion weakens, the thesis that SPS owns a durable operating rail should be downgraded.",
+        "Macro and tariff risk: smaller suppliers may reduce software and compliance-tool budgets under consumer slowdown, tariff pressure, inventory stress, or retailer order volatility.",
+        "Transaction-volume risk: recurring customers could grow while transaction volume or revenue per customer stagnates, indicating lower engagement or weaker embeddedness.",
+        "Platform substitution risk: large retailers, marketplaces, ERP vendors, iPaaS providers, or commerce platforms could internalize supplier connectivity and reduce the need for SPS as an independent layer.",
+        "Concentration risk: dependence on a small set of major retailers, marketplaces, ERP partners, or channel partners could create hidden fragility if any large node changes its integration strategy.",
+        "Commoditization risk: basic EDI can be viewed as mature infrastructure; the thesis depends on proving that retailer-specific compliance maps, onboarding history, and network breadth are differentiated.",
+        "Acquisition-quality risk: if customer additions or revenue growth rely heavily on acquisitions, the organic network-effect argument is weaker.",
+        "Pricing risk: even if the workflow is mandatory, suppliers may resist price increases if SPS is perceived as a compliance cost rather than a revenue-generating tool.",
+        "Evidence risk: the current report relies on cached thesis evidence and external contextual examples; direct primary-source verification from SPS filings, investor presentations, and call transcripts remains required."
+      ],
+      "supply_chain_position": "Consumer retail operating-infrastructure layer. Downstream demand starts with retailers, grocers, ecommerce platforms, marketplaces, distributors, and omnichannel merchants that require clean supplier data and compliant transaction flows. The immediate customer set appears to include suppliers, brands, manufacturers, distributors, logistics-linked trading partners, and possibly retailers that need standardized connectivity. SPS sits between retail demand nodes and supplier operating systems by handling EDI, supplier onboarding, purchase orders, invoices, ASNs, item data, compliance rules, and trading-partner maps. In the Serenity funnel, this places SPS one or two steps away from the obvious consumer demand driver: not the retailer, brand, marketplace, or fulfillment provider, but the required data-exchange and compliance rail that allows suppliers to transact with those channels.",
+      "thesis_cn": "核心 thesis 是：SPS Commerce 可能不是普通垂直 SaaS，而是零售商与供应商之间的交易连接层。供应商若要向大型零售商、杂货商、电商渠道、分销商发货和收款，通常需要遵守不同交易伙伴的 EDI 格式、ASN、发票、采购订单、商品数据和合规规则。若 SPS 已经沉淀了大量交易伙伴映射、零售商规则、供应商 onboarding 流程和历史连接图谱，其价值可能来自网络化的运营基础设施，而不是单一软件界面。该判断目前应标记为 inference，因为缓存证据只支持客户数量增长，尚未充分验证留存率、净收入留存、交易量、连接数和客户集中度。",
+      "thesis_en": "The core thesis is that SPS Commerce may be more than ordinary vertical SaaS: it may operate a transaction-connectivity layer between retailers and suppliers. Suppliers that sell into large retailers, grocers, ecommerce channels, and distributors often need to comply with partner-specific EDI formats, ASNs, invoices, purchase orders, item-data workflows, and compliance rules. If SPS has accumulated a large map of trading-partner connections, retailer rules, supplier onboarding workflows, and historical transaction logic, its value may come from networked operating infrastructure rather than a software UI alone. This remains an inference because the cached evidence supports customer-count growth, but does not yet fully verify retention, net revenue retention, transaction volume, connection growth, or concentration risk.",
+      "ticker": "SPSC",
+      "title_cn": "SPS Commerce：零售供应商交易连接层的隐性卡点",
+      "title_en": "SPS Commerce: Hidden Retail Supplier Connectivity Chokepoint",
+      "why_underfollowed": "The market may screen SPSC as vertical SaaS, supply-chain software, or a mid-cap recurring-revenue application company. That framing can miss the more specific chokepoint: retailer-specific supplier compliance and transaction connectivity. Consumer investors often focus on retailers, brands, ecommerce marketplaces, logistics providers, and point-of-sale data. Software investors may focus on growth rates, margins, and SaaS multiples. The hidden angle is that SPS may own operating maps that are hard to replicate because each retailer, distributor, grocer, and marketplace can have specific compliance formats and onboarding requirements. This makes the company potentially more comparable to a trading-partner network utility than to a discretionary SaaS tool, but that must be verified with primary evidence."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "SPS Commerce reportedly had approximately 54,600 recurring-revenue customers at December 31, 2025, versus approximately 45,350 at the prior year-end.",
+      "claim_type": "fact_from_cached_evidence",
+      "notes": "Important customer-growth evidence, but the primary 10-K should still be retrieved and checked directly.",
+      "quality": "medium_pending_primary_verification",
+      "source": "Cached brief / cached Layer 2 evidence citing SPS Commerce 2025 Form 10-K",
+      "url": null
+    },
+    {
+      "claim": "SPS Commerce may sit at the operating layer between retailers and suppliers through EDI, onboarding, purchase orders, invoices, ASNs, item data, retailer compliance rules, and trading-partner maps.",
+      "claim_type": "inference",
+      "notes": "Consistent with the thesis, but revenue contribution, workflow criticality, and switching costs require primary-source verification.",
+      "quality": "medium",
+      "source": "Cached brief",
+      "url": null
+    },
+    {
+      "claim": "Samsonite reported wholesale accounted for 60.2% of net sales and DTC accounted for 39.8% for the three months ended March 31, 2026; its wholesale channel includes large brick-and-mortar and digital retailers.",
+      "claim_type": "fact",
+      "notes": "Contextual evidence only. It illustrates that consumer brands still depend on wholesale retailer channels where supplier connectivity may be relevant; it does not directly validate SPS exposure.",
+      "quality": "high_contextual",
+      "source": "Samsonite 1Q 2026 Financial and Business Review",
+      "url": "https://corporate.samsonite.com/on/demandware.static/-/Sites-InvestorRelations-Library/default/dwa1fae388/PDF/announcements/2026/May%202026/E%20Samsonite%201Q'2026%20Financial%20and%20Business%20Review%20(FINAL%202026-05-13).pdf"
+    },
+    {
+      "claim": "UFP Industries described a Q1 2026 YTD retail sales mix of 71% to Big Box customers and 29% to one- and two-step distribution.",
+      "claim_type": "fact",
+      "notes": "Contextual evidence only. It illustrates supplier dependence on scaled retail channels and distributors; it does not directly validate SPS customer relationships.",
+      "quality": "high_contextual",
+      "source": "UFP Industries SEC filing exhibit / Q1 2026 presentation",
+      "url": "https://www.sec.gov/Archives/edgar/data/912767/000091276726000026/ufpi-20260430xex99d1.htm"
+    }
+  ],
+  "layer": 5,
+  "memory_update": [
+    {
+      "claim_type": "inference",
+      "discovery_lane": "underfollowed",
+      "downgrade_triggers": [
+        "Material deceleration in organic recurring-revenue customer growth.",
+        "Falling retention, NRR, ARPU, or revenue per customer.",
+        "Negative divergence between customer growth and transaction activity.",
+        "Elevated churn among small suppliers.",
+        "Retailers, marketplaces, ERP vendors, or iPaaS platforms internalizing the connectivity layer."
+      ],
+      "entity": "SPS Commerce",
+      "evidence_status": "customer_count_cached; retention_NRR_transaction_volume_connection_growth_concentration_unverified",
+      "key_thesis": "Potential retail supplier-network chokepoint built around EDI, retailer-specific compliance maps, supplier onboarding, purchase orders, invoices, ASNs, item data, and trading-partner connectivity.",
+      "layer": 5,
+      "status": "active_deep_research_candidate",
+      "theme": "Consumer retail supplier connectivity",
+      "ticker": "SPSC",
+      "upgrade_triggers": [
+        "Primary-source confirmation of strong gross retention or net revenue retention.",
+        "Evidence of rising ARPU or revenue per recurring customer.",
+        "Evidence of transaction-volume growth and expanding trading-partner connections.",
+        "Low customer or partner concentration.",
+        "Management commentary confirming non-discretionary compliance workflow value."
+      ]
+    }
+  ],
+  "summary": "Layer 5 mini deep report focused on one underfollowed Consumer-theme chokepoint candidate: SPS Commerce. The report treats SPS Commerce not as generic SaaS, but as a possible retail supplier-network operating rail connecting brands, suppliers, retailers, grocers, marketplaces, and distributors through EDI, onboarding, purchase orders, invoices, ASNs, item data, and retailer-specific compliance logic. Key claims remain an inference pending primary-source verification of retention, net revenue retention or ARPU expansion, transaction volume, trading-partner connection growth, customer concentration, and churn.",
+  "theme_id": "consumer_retail_supplier_connectivity_spsc_layer5"
+}
