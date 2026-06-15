@@ -1,6 +1,6 @@
 # Serenity Skill Repository Digest
 
-Generated: 2026-06-15 11:42:18 UTC
+Generated: 2026-06-15 14:42:19 UTC
 
 Purpose: provide cached methodology context for cloud-side Serenity / chokepoint research runs.
 
@@ -3147,21 +3147,57 @@ Each entry covers one ticker. Update **Latest signal** and timestamp in-place wh
 
 ---
 
+## $IQE — IQE plc (LON: IQE)
+
+- **Latest signal**: Strongly Bullish — Called at ~$12 as key Western InP epiwafer supplier critical to optical supply chains. Validated: $MTSI secured multi-year IQE supply, then Tower Semiconductor ($TSEM) signed multi-year InP epiwafer deal (Jun 15, 2026). China eased InP substrate exports (Jun 15, Digitimes), relieving upstream capacity bottlenecks → bullish for all InP epiwafer consumers. Supply chain: $AXTI (substrates) → $IQE (epiwafers) → $MTSI, $TSEM, laser makers downstream.
+- **Latest tweet**: [2066421816793714938](https://x.com/aleabitoreddit/status/2066421816793714938) — 2026-06-15T07:25:28Z
+- **Quote**: "Wow, $IQE and $TSEM sign a multi year InP epiwafer deal. Remember I told you all IQE was important to Western optical supply chains back at $12? $MTSI had to go out of their way to secure their supply with IQE. Now there's another critical deal with Tower Semi."
+- **Context**: IQE is the critical InP epiwafer chokepoint in Western optical supply chains. After calling it at $12, thesis validated by two successive multi-year supply agreements ($MTSI then $TSEM), confirming IQE's monopoly-adjacent position. China InP substrate export easing (Jun 15) is a second-order bullish: more upstream inputs → more IQE production capacity → more revenue. Serenity has explicitly held IQE as a core supply chain position; see also "Ur welcome with $IQE" (2066435132471513578, Jun 15 08:18) as victory-lap post.
+
+---
+
 ## $SIVE — (SEK-listed)
 
 - **Latest signal**: Bullish (fully validated) — Original long thesis at 4 SEK (~March 2026); now up ~1900%. Ranked "2nd greatest thesis of all time after $AXTI." US institutions (JPM, Fidelity) only recently entering positions, suggesting adoption tailwind continues.
 - **Latest tweet**: [2065779524248510758](https://x.com/aleabitoreddit/status/2065779524248510758) — 2026-06-13T12:53:13Z
 - **Quote**: "It's been officially 3 months since I posted my $SIVE long thesis back at 4 SEK. This idea is now up ~1900%… With many US institutions from JPM to Fidelity only recently entering positions. Probably my 2nd greatest thesis of all time after $AXTI."
-- **Context**: SEK-listed stock. Original long thesis initiated ~March 13, 2026 at 4 SEK entry. By June 13, 2026, up ~1900% (~3 months). Major institutions (JPM, Fidelity) have only recently begun entering — indicating potential ongoing institutional adoption tailwind despite already large gain. Ranked #2 all-time call after $AXTI. No explicit exit signal stated.
+- **Context**: SEK-listed stock. Original long thesis initiated ~March 13, 2026 at 4 SEK entry. By June 13, 2026, up ~1900% (~3 months). Major institutions (JPM, Fidelity) have only recently begun entering — indicating potential ongoing institutional adoption tailwind despite already large gain. Ranked #2 all-time call after $AXTI. No explicit exit signal stated. China InP export easing (Jun 15) is an additional tailwind for SIVE as a laser/optical components maker.
 
 ---
 
 ## $AXTI — AXT Inc
 
-- **Latest signal**: Opportunistic/Bullish — AI export wars creating supply-chain bottlenecks; upstream compound semiconductor players like AXTI (InP substrates) positioned to benefit "in the near future"
-- **Latest tweet**: [2065650434644304165](https://x.com/aleabitoreddit/status/2065650434644304165) — 2026-06-13T04:20:16Z
-- **Quote**: "The AI supremacy Wars begins. Think a lot of the upstream supply chain bottlenecks caused by each Country export controlling each other (eg. $AXTI). Should present some interesting opportunities in the near future."
-- **Context**: Serenity cites US government export controls on Anthropic's Fable/Mythos AI models to foreign nationals as evidence of escalating AI supremacy competition. Uses AXTI as an illustrative example of upstream supply-chain beneficiaries amid inter-country export restrictions. **Note:** Prior AXTI call (Dec 2025 entry ~$700M MC) returned +1,057%+ by Apr 2026; this is a fresh macro-thesis mention, not a new explicit buy signal. Views new wave of AI export controls as a second-order catalyst for InP wafer substrate players.
+- **Latest signal**: Bullish — China eased InP substrate exports (Jun 15, source: Digitimes), expected to relieve mass production bottlenecks in the photonics market. InP substrate easing = more upstream capacity flowing through the chain ($AXTI→$IQE→$AAOI/$LITE/$SIVE). Earlier AI export wars signal (Jun 13) framed $AXTI as a supply-chain bottleneck beneficiary in escalating AI supremacy competition.
+- **Latest tweet**: [2066340661633372452](https://x.com/aleabitoreddit/status/2066340661633372452) — 2026-06-15T02:02:59Z
+- **Quote**: "Today, there's a new report that China eased InP substrate exports. Which is expected to relieve mass production bottlenecks in the photonics market. My optical positions are very happy to hear this: From $AXTI (substrates), $IQE (epiwafers) to $AAOI (lasers)/$LITE/$SIVE, and others."
+- **Context**: Original AXTI call (Dec 2025 entry ~$700M MC) returned +1,057%+ by Apr 2026; Reuters InP thesis confirmed Jun 2026. InP substrate easing is bullish because the whole photonics market is currently supply-constrained ("how much can you make" rather than how much demand). More substrates → more epiwafers → more lasers → more revenue. "Not a buy now" at +1,057% level for new entries; but as disclosed position, the easing news is positive.
+
+---
+
+## $LITE — Lumentum Holdings
+
+- **Latest signal**: Bullish — Part of Serenity's optical supply chain basket. China eased InP substrate exports (Jun 15), directly benefiting optical players like $LITE. Also cited as direct beneficiary in "optical basket go brrr" from Iran/Strait peace deals reducing macro uncertainty. Validated 2025 call: +174% from ~$330 to ~$904.
+- **Latest tweet**: [2066340661633372452](https://x.com/aleabitoreddit/status/2066340661633372452) — 2026-06-15T02:02:59Z
+- **Quote**: "My optical positions are very happy to hear this: From $AXTI (substrates), $IQE (epiwafers) to $AAOI (lasers)/$LITE/$SIVE, and others. Taiwanese optical players like VPEC, Landmark, and others should go brrr as well."
+- **Context**: $LITE is a key laser/optical component maker in the InP supply chain. Supply chain flows upstream-to-downstream: $AXTI (substrates) → $IQE (epiwafers) → $LITE, $AAOI, $SIVE (lasers and modules). InP substrate easing unlocks production capacity for all laser makers. Serenity also cited $LITE as a specific "optical basket" beneficiary from macro de-escalation (Iran/Strait deals, Jun 15 tweet 2066360345774764496).
+
+---
+
+## $AAOI — Applied Optoelectronics Inc
+
+- **Latest signal**: Bullish — Laser company directly benefiting from InP substrate supply chain easing (Jun 15, China Digitimes report). 2025 call fully validated: +483% from ~$30 to ~$175, now ~$14B MC. China InP easing unlocks more production capacity for high-demand laser companies.
+- **Latest tweet**: [2066340661633372452](https://x.com/aleabitoreddit/status/2066340661633372452) — 2026-06-15T02:02:59Z
+- **Quote**: "From $AXTI (substrates), $IQE (epiwafers) to $AAOI (lasers)/$LITE/$SIVE, and others."
+- **Context**: AAOI is a laser company in the optical supply chain (downstream of IQE epiwafers). 2025 thesis entry ~$30, now ~$175 (+483%), market cap grew from ~$3B to ~$14B. InP substrate easing is bullish because AAOI's revenue potential is constrained by how much it can make, not demand. See track-record.md for 2025 entry data.
+
+---
+
+## $TSEM — Tower Semiconductor
+
+- **Latest signal**: Bullish (deal catalyst) — Tower Semiconductor signed a multi-year InP epiwafer supply agreement with $IQE (Jun 15, 2026), securing critical supply for photonic/optical production. This follows $MTSI's earlier supply security deal with IQE, confirming escalating strategic demand for InP epiwafers. Serenity held $TSEM long since Mar 11 2026 (+63% in 2 weeks, still held as of Jun 2026).
+- **Latest tweet**: [2066421816793714938](https://x.com/aleabitoreddit/status/2066421816793714938) — 2026-06-15T07:25:28Z
+- **Quote**: "Now there's another critical deal with Tower Semi."
+- **Context**: Tower Semiconductor's multi-year InP epiwafer deal with IQE validates InP as a critical strategic material. Two consecutive supply agreements (MTSI then TSEM) confirm the thesis. TSEM's ability to secure InP supply positions it for compound semiconductor and photonics market growth. Serenity's TSEM long (from Mar 2026 at +63% in 2 weeks) continues to be held; new IQE deal is an incremental positive.
 
 ---
 
@@ -3170,16 +3206,8 @@ Each entry covers one ticker. Update **Latest signal** and timestamp in-place wh
 - **Latest signal**: Bullish — IPO debut confirmed; now trading at $2.15T+ market cap
 - **Latest tweet**: [2065462946785030506](https://x.com/aleabitoreddit/status/2065462946785030506) — 2026-06-12T15:55:15Z
 - **Quote**: "$SPCX is now trading! And it's now over $2.15T+ MC."
-- **Context**: Serenity had been tracking the SPCX IPO closely; same-day tweet (2065434058474307866) noted "everyone is just waiting for the $SPCX IPO in a few hours." IPO confirmed with $2.15T+ market cap on debut — framed as a milestone. Implied bullish on SpaceX public equity; high valuation treated as notable/positive.
-
----
-
-## Foosung (093370.KS) — WF₆ Supply Chain Beneficiary
-
-- **Latest signal**: Bullish (published idea, no stated position) — China export controls on Japan disrupted ~25% of global WF₆ supply; Foosung (~10% of supply chain) is the "best pure play beneficiary outside of China"
-- **Latest tweet**: [2065736884752703865](https://x.com/aleabitoreddit/status/2065736884752703865) — 2026-06-13T10:03:47Z
-- **Quote**: "Foosung's importance just shot through the roof given from some est. they're 10% of the supply chain? ... this looks like the best pure play beneficiary outside of China (even if precursors pricing are rough). Don't have positions, just wanted to publish an idea."
-- **Context**: Korean-listed company (~$1.2B MC at time of tweet). China export controlled Japan, taking down ~25% of global WF₆ (tungsten hexafluoride) supply — a critical semiconductor process gas used by SK Hynix, Samsung, and TSM. Serenity compares the chokepoint to "the Strait of Hormuz with Oil." No position taken; framed as an investment idea to publish. Supply constraint mechanism: fewer global suppliers → bottleneck → Foosung demand/pricing power rises.
+- **Context**: Serenity had been tracking the SPCX IPO closely; same-day tweet (2065434058474307866) noted "everyone is just waiting for the $SPCX IPO in a few hours." IPO confirmed with $2.15T+ market cap on debut — framed as a milestone. J
+...TRUNCATED...
 ```
 
 ### yan_labs_serenity_archive / serenity-aleabitoreddit/references/track-record.md
@@ -3195,6 +3223,10 @@ Tracks Serenity's publicly stated dated calls, position changes, and outcomes. N
 
 | Date | Source | Ticker | Call | Entry | Outcome | Notes |
 |------|--------|--------|------|-------|---------|-------|
+| 2026-06-15 | X [2066421816793714938](https://x.com/aleabitoreddit/status/2066421816793714938) | $IQE + $TSEM | Multi-year InP epiwafer deal validates $12 call; Tower Semi joins MTSI in securing IQE supply | ~$12 (original entry) | ✅ Validated — two successive multi-year supply agreements ($MTSI then $TSEM) confirm IQE's monopoly-adjacent position in InP epiwafers | |
+| 2026-06-15 | X [2066404298163154976](https://x.com/aleabitoreddit/status/2066404298163154976) | Foosung 093370.KS | +21% single-day — validates WF₆ bottleneck call from Chinese export controls on Japan | ~$1.2B MC (published without position) | ✅ +21% single-day validates bottleneck thesis | |
+| 2026-06-15 | X [2066340661633372452](https://x.com/aleabitoreddit/status/2066340661633372452) | $AXTI $IQE $AAOI $LITE $SIVE | China eased InP substrate exports (Digitimes); bullish for entire photonics basket | Various | Bullish macro catalyst — InP supply easing relieves photonics mass-production bottlenecks; "how much can you make" market benefits directly from upstream capacity relief | |
+| 2026-06-15 | X [2066331049605627951](https://x.com/aleabitoreddit/status/2066331049605627951) | $NVDA $GOOGL $VRT | 800V DC power delivery ahead of schedule; Q3 2026 small volume shipments starting; power semi basket flagged as beneficiaries (source: Commercial Times) | Various | Bullish — 800V DC pulled up from prior expected timeline; Vera Rubin ($NVDA) and Google next-gen AI DCs are first adopters | |
 | 2026-06-12 | X [2065289672356745561](https://x.com/aleabitoreddit/status/2065289672356745561) | $SIVE | Bullish — "same range as where ALAB/LITE/AAOI were" at ~$3B MC | ~$3B MC | ✅ +1900% from Mar 2026 origin (validated 2026-06-13) | June 13 tweet confirms original March call up ~1900%; JPM+Fidelity recently entering as of Jun 2026 |
 | 2026-06-11 | X [2065009883133644963](https://x.com/aleabitoreddit/status/2065009883133644963) | $XFAB | Research bullish (~€1.1B MC; EU silicon photonics foundry; early) | ~€1.1B MC | Ongoing | "Might just really early"; development-stage; Oct 2026 target |
 | 2026-06-11 | X [2064992691902140603](https://x.com/aleabitoreddit/status/2064992691902140603) | $LPK | Long (SpaceX supplier found in US import logs) | Undisclosed | Ongoing | Speculative; "not sure what the exact contract entails" |

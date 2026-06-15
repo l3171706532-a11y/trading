@@ -1,0 +1,1270 @@
+{
+  "args": {
+    "limit_themes": 1,
+    "max_briefs": 8,
+    "max_candidates": 60,
+    "max_candidates_per_node": 15,
+    "max_deep_reports": 3,
+    "max_layer1_nodes": 6,
+    "theme_id": [
+      "politics"
+    ],
+    "themes": "config/serenity_themes.csv",
+    "universe": "config/us_serenity_pilot_universe.csv"
+  },
+  "external_search": {
+    "enabled": true,
+    "error_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_errors.jsonl",
+    "evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+    "max_queries": 5,
+    "max_results_per_query": 4,
+    "twitter_enabled": true
+  },
+  "layer1a": {
+    "coverage_gaps": [
+      "Need direct filing-based mapping of small/mid-cap defense subcontractors with named primes and backlog evidence.",
+      "Need verification of which compliance/logistics names actually monetize tariff paperwork rather than merely talking about it.",
+      "Need a focused scan for public specialty-material processors and requalification bottlenecks tied to defense or regulated industrial programs.",
+      "Need a separate election-cycle lens for policy beneficiaries in healthcare, education, infrastructure, and consulting that are not defense-related.",
+      "Need jurisdiction-specific mapping if the theme is narrowed to US-only, EU-only, or A-share policy beneficiaries."
+    ],
+    "evidence": [
+      {
+        "claim": "Defense supply chains commonly span five to six tiers and visibility often drops beyond tier 2.",
+        "claim_type": "fact",
+        "confidence": 0.94,
+        "published_at": "2026-05-28T13:30:00.000Z",
+        "source_title": "The Invisible Industrial Base | CNAS",
+        "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+        "ticker": ""
+      },
+      {
+        "claim": "Tariff impacts on the defense industry have been muted in aggregate, but smaller companies can be more vulnerable because exemption applications create administrative burden.",
+        "claim_type": "fact",
+        "confidence": 0.91,
+        "published_at": "2026-04-02T00:00:00.000Z",
+        "source_title": "A year after ‘Liberation Day,’ impact of Trump tariffs on defense industry remains muted - Breaking Defense",
+        "source_url": "https://breakingdefense.com/2026/04/a-year-after-liberation-day-impact-of-trump-tariffs-on-defense-industry-remains-muted/",
+        "ticker": ""
+      },
+      {
+        "claim": "Underfollowed alpha is more likely to come from tier-2/tier-3 suppliers, specialty materials, and compliance/service layers than from the most visible primes.",
+        "claim_type": "inference",
+        "confidence": 0.86,
+        "published_at": "",
+        "source_title": "Inference from Serenity methodology plus CNAS and Breaking Defense evidence",
+        "source_url": "",
+        "ticker": ""
+      },
+      {
+        "claim": "Defense and aerospace companies were affected by reciprocal and Section 232 tariffs, with exemptions playing a major role in actual impact.",
+        "claim_type": "fact",
+        "confidence": 0.88,
+        "published_at": "2026-04-02T00:00:00.000Z",
+        "source_title": "A year after ‘Liberation Day,’ impact of Trump tariffs on defense industry remains muted - Breaking Defense",
+        "source_url": "https://breakingdefense.com/2026/04/a-year-after-liberation-day-impact-of-trump-tariffs-on-defense-industry-remains-muted/",
+        "ticker": ""
+      },
+      {
+        "claim": "Defense industrial-base capital has flowed disproportionately to tier-one companies while lower-tier suppliers remain exposed to uneven demand signals and appropriations.",
+        "claim_type": "fact",
+        "confidence": 0.9,
+        "published_at": "2026-05-28T13:30:00.000Z",
+        "source_title": "The Invisible Industrial Base | CNAS",
+        "source_url": "https://www.cnas.org/publications/commentary/new-dib-rue",
+        "ticker": ""
+      }
+    ],
+    "layer": "1A",
+    "memory_update": [
+      {
+        "confidence": 0.89,
+        "text": "Politics themes often monetize through procurement, exemption paperwork, compliance, and supply-chain reconfiguration rather than direct end-demand alone.",
+        "type": "theme_relation"
+      },
+      {
+        "confidence": 0.91,
+        "text": "Tier-2 and tier-3 defense suppliers are a priority underfollowed discovery lane because supply-chain visibility falls sharply below prime contractors.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.88,
+        "text": "A later layer should separate US defense, tariff, and election beneficiaries into distinct sub-themes to avoid overbroad theme dilution.",
+        "type": "coverage_gap"
+      }
+    ],
+    "summary": "Broad politics-driven market themes usually monetise through budget allocation, procurement, compliance, and supply-chain reconfiguration rather than through a single obvious end-demand surge. For this funnel, the highest-quality decomposition is to separate: (1) defense and homeland-security spending; (2) tariff-driven import substitution and exemption/admin burden; (3) election-driven policy volatility; and (4) regulation/compliance and government-capex execution. The underfollowed opportunity set is most likely to sit in obscure subcontractors, qualification-dependent components, testing/inspection, niche materials, and distribution/service layers that become more valuable when policy changes force re-sourcing or paper-heavy compliance.",
+    "supply_chain_nodes": [
+      {
+        "bottleneck_hypothesis": "Primes may be less constrained by tariffs than smaller suppliers, but they control procurement specs and therefore determine which lower-tier vendors get qualified and funded.",
+        "claim_type": "fact",
+        "confidence": 0.92,
+        "discovery_lane": "reference",
+        "market_cap_hunting_notes": "Large-cap anchor names only; not the target alpha pool.",
+        "node": "Defense prime contractors and program integrators",
+        "node_id": "defense_prime_production",
+        "public_asset_hunting_notes": "Use primes as the top-of-funnel map, then hunt for smaller suppliers named in segment disclosures, supplier days, and contract awards.",
+        "role": "customer",
+        "search_queries": [
+          "defense prime supplier day subcontractor qualification",
+          "segment disclosure tier 2 defense suppliers sec filing",
+          "contract award named subcontractor defense small cap"
+        ],
+        "underfollowed_angle": "Not the obvious trade itself; use the primes to identify obscure subcontractors and niche component vendors.",
+        "why_it_matters": "Defense primes convert appropriations into long-cycle revenue and pull demand through the rest of the supply chain."
+      },
+      {
+        "bottleneck_hypothesis": "Visibility drops sharply below tier 2, so a supplier with a qualified part or long program history can become sticky and pricing-powerful.",
+        "claim_type": "inference",
+        "confidence": 0.86,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Prefer USD 300M-10B where feasible; micro-caps only if backed by repeat awards and qualification evidence.",
+        "node": "Tier 2 / tier 3 defense subcontractors",
+        "node_id": "tier2_tier3_defense_suppliers",
+        "public_asset_hunting_notes": "Search for small/mid-cap public companies disclosed in customer concentration, backlog, or contract-notice language; look for niche machining, electronics, mission systems, and specialty assemblies.",
+        "role": "input",
+        "search_queries": [
+          "site:sec.gov defense subcontractor backlog customer concentration small cap",
+          "\"tier 2\" defense supplier public company",
+          "small cap defense subcontractor qualified supplier backlog"
+        ],
+        "underfollowed_angle": "Low analyst coverage, messy industry labels, and customer names hidden in footnotes or government award databases.",
+        "why_it_matters": "These are often the scarce, low-visibility suppliers that absorb policy shocks, qualification costs, and tariff paperwork."
+      },
+      {
+        "bottleneck_hypothesis": "Smaller suppliers may be disproportionately affected because they lack the administrative and legal resources to secure exemptions.",
+        "claim_type": "hypothesis",
+        "confidence": 0.79,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Search for niche public software/services firms with defense or industrial client mentions and limited sell-side attention.",
+        "node": "Tariff-exemption and trade-compliance administration",
+        "node_id": "tariff_exemption_admin",
+        "public_asset_hunting_notes": "Look for public companies exposed to customs brokerage, trade compliance software, freight forwarding, and supply-chain documentation.",
+        "role": "regulation",
+        "search_queries": [
+          "\"tariff exemption\" public company compliance software",
+          "customs brokerage defense supply chain public company",
+          "trade compliance software small cap public company"
+        ],
+        "underfollowed_angle": "The revenue beneficiary may be a boring compliance or logistics name rather than a headline defense stock.",
+        "why_it_matters": "Tariff policy can create real costs through paperwork, legal review, and exception handling even when end-market demand stays intact."
+      },
+      {
+        "bottleneck_hypothesis": "Policy-driven reshoring can create temporary shortages because compliant supply does not exist at scale or has not been requalified.",
+        "claim_type": "inference",
+        "confidence": 0.84,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Look for niche processors and converters with government or defense certifications rather than commodity miners alone.",
+        "node": "Specialty materials and requalification-dependent inputs",
+        "node_id": "specialty_materials_requalification",
+        "public_asset_hunting_notes": "Track rare-earth, uranium/fuel, alloys, coatings, and other controlled inputs where source traceability matters.",
+        "role": "input",
+        "search_queries": [
+          "defense requalification specialty materials public company",
+          "rare earth processing non chinese feedstock public company",
+          "qualified supplier defense specialty alloy public company"
+        ],
+        "underfollowed_angle": "The opportunity may sit in the processor or qualifier, not the mine or end-user.",
+        "why_it_matters": "Defense, aerospace, and regulated industrial programs often require requalification before a new input source can be accepted."
+      },
+      {
+        "bottleneck_hypothesis": "Grid, power, and facility upgrades tied to defense or industrial policy can favor contractors with permitting, labor, and execution scale.",
+        "claim_type": "inference",
+        "confidence": 0.83,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Mid-cap contractors are often more interesting than mega-cap generalists for theme purity.",
+        "node": "Government-funded engineering, construction, and grid execution",
+        "node_id": "government_construction_execution",
+        "public_asset_hunting_notes": "Focus on EPC, grid services, and specialty contractors with government or regulated-utility exposure.",
+        "role": "capacity",
+        "search_queries": [
+          "government spending grid contractor public company backlog",
+          "defense facility construction contractor public company",
+          "policy driven infrastructure execution small mid cap"
+        ],
+        "underfollowed_angle": "Often overlooked versus the policy headlines, yet these firms capture the real spend.",
+        "why_it_matters": "When politics drives budgeted infrastructure, execution contractors monetize the physical buildout and permitting bottlenecks."
+      },
+      {
+        "bottleneck_hypothesis": "Compliance burden rises fastest for firms selling into sensitive markets or handling controlled technical data.",
+        "claim_type": "speculation",
+        "confidence": 0.62,
+        "discovery_lane": "speculative_shadow",
+        "market_cap_hunting_notes": "Only elevate if filings explicitly mention regulated industries, export control workflows, or defense customers.",
+        "node": "Export controls, sanctions, and procurement compliance software/services",
+        "node_id": "export_controls_and_compliance",
+        "public_asset_hunting_notes": "Search niche software, data, and services firms that sell compliance workflows, screening, or audit support into industrial/defense ecosystems.",
+        "role": "data",
+        "search_queries": [
+          "export controls compliance software defense customers public company",
+          "sanctions screening software public company industrial customers",
+          "procurement compliance software government contractors public company"
+        ],
+        "underfollowed_angle": "May be hidden inside broader enterprise software names; evidence may be thinner, so keep it as a shadow lane.",
+        "why_it_matters": "Geopolitical policy changes can increase compliance workload, monitoring, and audit requirements for suppliers and customers."
+      }
+    ],
+    "theme_id": "politics_policy_regulation_tariffs_defense_election_government_spending",
+    "theme_map": {
+      "demand_drivers": [
+        "Defense procurement and rearmament budgets",
+        "Tariff policy and import-substitution pressure",
+        "Election-cycle spending shifts and policy volatility",
+        "Industrial policy, reshoring, and domestic-content mandates",
+        "Regulatory compliance, export controls, and procurement documentation burden"
+      ],
+      "discovery_lanes": {
+        "low_attention_search_queries": [
+          "site:sec.gov defense subcontractor backlog qualification supplier tariffs small cap",
+          "\"case-by-case\" tariff exemption defense supplier small company",
+          "government procurement domestic content niche supplier analyst coverage",
+          "defense industrial base tier 2 supplier small cap backlog",
+          "election policy volatility second order beneficiaries small cap public company",
+          "export controls compliance software public company defense customers"
+        ],
+        "reference_leaders": [
+          "Lockheed Martin",
+          "Northrop Grumman",
+          "RTX",
+          "General Dynamics",
+          "BAE Systems",
+          "Eaton",
+          "GE Vernova"
+        ],
+        "underfollowed_supply_chain": [
+          "BWX Technologies",
+          "Centrus Energy",
+          "Fluor",
+          "Quanta Services",
+          "small defense electronics subcontractors",
+          "specialty metals and rare-earth processers",
+          "compliance/documentation software vendors",
+          "testing/inspection and qualification service providers"
+        ]
+      },
+      "public_market_search_strategy": "Start with broad policy regime mapping, then trace where the policy change forces a physical or administrative bottleneck. Prioritise suppliers one or two steps removed from the headline beneficiaries, especially small/mid-cap names with low analyst coverage, narrow customer exposure, and evidence of qualification lock-in, backlog, or mandated domestic sourcing. Use leaders as anchors, but search for hidden second-order beneficiaries in components, testing, logistics, compliance software, specialty materials, and subcontracting.",
+      "supply_side_constraints": [
+        "Multi-tier defense and industrial supply chains with poor visibility beyond tier 2",
+        "Qualification and certification requirements that slow vendor switching",
+        "Case-by-case tariff exemptions and administrative overhead that weigh more on small suppliers",
+        "Scarce niche inputs such as rare-earth feedstock, specialty metals, and defense-grade components",
+        "Government budget timing and procurement lags that delay revenue recognition"
+      ]
+    }
+  },
+  "metas": [
+    {
+      "created_at": "2026-06-15 14:07:23 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_06c5fae753f20823016a3006e760f08198ae04ccd8439c704c",
+      "status": "completed",
+      "step": "layer1a_theme_map",
+      "usage": {
+        "input_tokens": 11169,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3122,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 14291
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:09:00 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_02a5a0db5f18a071016a30073a522c8191bb9d3d3477f6e5df",
+      "status": "completed",
+      "step": "layer1b_node_defense_prime_production_direct_exposure",
+      "usage": {
+        "input_tokens": 22610,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3273,
+        "output_tokens_details": {
+          "reasoning_tokens": 539
+        },
+        "total_tokens": 25883
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:10:31 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_016b92faaf2ed426016a300789f2208198990c45e59bdd2239",
+      "status": "completed",
+      "step": "layer1b_node_defense_prime_production_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 17010,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3986,
+        "output_tokens_details": {
+          "reasoning_tokens": 585
+        },
+        "total_tokens": 20996
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:12:14 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_07f0c6d79734e603016a3007e5d1b4819986023eadb438ca8a",
+      "status": "completed",
+      "step": "layer1b_node_defense_prime_production_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 25227,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4474,
+        "output_tokens_details": {
+          "reasoning_tokens": 1139
+        },
+        "total_tokens": 29701
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:12:57 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_005285e7c6fae478016a300850ce688198a55590b432006cfc",
+      "status": "completed",
+      "step": "layer1b_node_defense_prime_production_second_order_mapping",
+      "usage": {
+        "input_tokens": 9750,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 1639,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11389
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:15:17 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_08fdaa42dfd4fec9016a300896c310819b818127e800642bf7",
+      "status": "completed",
+      "step": "layer1b_node_tier2_tier3_defense_suppliers_direct_exposure",
+      "usage": {
+        "input_tokens": 53712,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4319,
+        "output_tokens_details": {
+          "reasoning_tokens": 1195
+        },
+        "total_tokens": 58031
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:16:41 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0a9b3fdf1d26d7d0016a3009036a58819aaefb932c8011ba1c",
+      "status": "completed",
+      "step": "layer1b_node_tier2_tier3_defense_suppliers_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 10301,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3586,
+        "output_tokens_details": {
+          "reasoning_tokens": 966
+        },
+        "total_tokens": 13887
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:17:28 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_011a40f31aa67259016a30095aa134819a95c1bad9c1fa9b5f",
+      "status": "completed",
+      "step": "layer1b_node_tier2_tier3_defense_suppliers_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 9810,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 1761,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11571
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:18:07 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_08a6894bfa52cf51016a300988d02c8198bd98b2ef8a7afa56",
+      "status": "completed",
+      "step": "layer1b_node_tier2_tier3_defense_suppliers_second_order_mapping",
+      "usage": {
+        "input_tokens": 9791,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 1699,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11490
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:20:27 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0fda5313690e8f18016a3009b65130819b9b83619271e3741f",
+      "status": "completed",
+      "step": "layer1b_node_tariff_exemption_admin_direct_exposure",
+      "usage": {
+        "input_tokens": 27341,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5798,
+        "output_tokens_details": {
+          "reasoning_tokens": 3619
+        },
+        "total_tokens": 33139
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:22:03 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0aad652624cb0ab9016a300a38ec008191a74914dcc2570fdc",
+      "status": "completed",
+      "step": "layer1b_node_tariff_exemption_admin_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 23219,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4158,
+        "output_tokens_details": {
+          "reasoning_tokens": 821
+        },
+        "total_tokens": 27377
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:23:52 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0f98eca4c0e384aa016a300a998ab48194aba55800d5e18a88",
+      "status": "completed",
+      "step": "layer1b_node_tariff_exemption_admin_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 23917,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4500,
+        "output_tokens_details": {
+          "reasoning_tokens": 1116
+        },
+        "total_tokens": 28417
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:27:41 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_06a6e0ef593167ad016a300b88b698819bb275747fdb7f5f2f",
+      "status": "completed",
+      "step": "layer1b_node_tariff_exemption_admin_second_order_mapping",
+      "usage": {
+        "input_tokens": 21685,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4196,
+        "output_tokens_details": {
+          "reasoning_tokens": 1058
+        },
+        "total_tokens": 25881
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:29:03 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_06d822d28392e53d016a300bf82f1881919d146c8ec07a8c01",
+      "status": "completed",
+      "step": "layer1b_node_specialty_materials_requalification_direct_exposure",
+      "usage": {
+        "input_tokens": 9744,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 2976,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 12720
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:30:38 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0c39e3a6fbf5dd43016a300c3f3564819495644c655c2e6a46",
+      "status": "completed",
+      "step": "layer1b_node_specialty_materials_requalification_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 21108,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4029,
+        "output_tokens_details": {
+          "reasoning_tokens": 756
+        },
+        "total_tokens": 25137
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:32:29 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_09f88923ab152674016a300ca357dc8199a37687dcf91befd9",
+      "status": "completed",
+      "step": "layer1b_node_specialty_materials_requalification_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 31431,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4250,
+        "output_tokens_details": {
+          "reasoning_tokens": 931
+        },
+        "total_tokens": 35681
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:34:04 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_04129cb3ff211bdb016a300d0e7e78819690827132b6e971ea",
+      "status": "completed",
+      "step": "layer1b_node_specialty_materials_requalification_second_order_mapping",
+      "usage": {
+        "input_tokens": 23257,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4004,
+        "output_tokens_details": {
+          "reasoning_tokens": 915
+        },
+        "total_tokens": 27261
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:35:46 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_08bf3222f4189068016a300d73f61c81988140df03354bd97c",
+      "status": "completed",
+      "step": "layer1b_node_government_construction_execution_direct_exposure",
+      "usage": {
+        "input_tokens": 16873,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4052,
+        "output_tokens_details": {
+          "reasoning_tokens": 778
+        },
+        "total_tokens": 20925
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:41:51 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0664d9cc01c09b01016a300ee2be14819184ab9254b0b3a9eb",
+      "status": "completed",
+      "step": "layer1b_node_government_construction_execution_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 19276,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3705,
+        "output_tokens_details": {
+          "reasoning_tokens": 935
+        },
+        "total_tokens": 22981
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:43:48 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0879284b356f1bf6016a300f3ebde08199b7531d88f9a6072a",
+      "status": "completed",
+      "step": "layer1b_node_government_construction_execution_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 22481,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 5296,
+        "output_tokens_details": {
+          "reasoning_tokens": 2871
+        },
+        "total_tokens": 27777
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:46:13 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_038c29dc70eade60016a300fcd90348195a662fac2b7c14bc7",
+      "status": "completed",
+      "step": "layer1b_node_government_construction_execution_second_order_mapping",
+      "usage": {
+        "input_tokens": 44087,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4430,
+        "output_tokens_details": {
+          "reasoning_tokens": 1226
+        },
+        "total_tokens": 48517
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:48:07 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_052ca105f808587f016a30104d74708191803264ead1a1f3da",
+      "status": "completed",
+      "step": "layer1b_node_export_controls_and_compliance_direct_exposure",
+      "usage": {
+        "input_tokens": 29662,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4222,
+        "output_tokens_details": {
+          "reasoning_tokens": 1156
+        },
+        "total_tokens": 33884
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:49:43 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0f51b6ebac9c6c06016a3010b88d5881988556db77481eace3",
+      "status": "completed",
+      "step": "layer1b_node_export_controls_and_compliance_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 15071,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4035,
+        "output_tokens_details": {
+          "reasoning_tokens": 853
+        },
+        "total_tokens": 19106
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:52:35 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0abeed8ff0f449c1016a30119ca050819ab706edc80411157c",
+      "status": "completed",
+      "step": "layer1b_node_export_controls_and_compliance_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 9771,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 1528,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11299
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:55:40 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_03e0eb9af75db361016a30124b642481919d3cd1b359845105",
+      "status": "completed",
+      "step": "layer1b_node_export_controls_and_compliance_second_order_mapping",
+      "usage": {
+        "input_tokens": 9752,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 2092,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11844
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:56:49 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 17,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_03d5af259333339a016a3012808dd88198906d7d3032ce87cb",
+      "status": "completed",
+      "step": "layer1c_merge_universe",
+      "usage": {
+        "input_tokens": 15304,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4709,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 20013
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 14:59:21 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0ac29c9bc11aedd3016a3012d363288191a78367b71186fe20",
+      "status": "completed",
+      "step": "layer2a_map",
+      "usage": {
+        "input_tokens": 13371,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 6333,
+        "output_tokens_details": {
+          "reasoning_tokens": 86
+        },
+        "total_tokens": 19704
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 15:01:11 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0f3bb5625f02162c016a30135f4fcc819a93f72a5105b9a0e0",
+      "status": "completed",
+      "step": "layer2b_relationships_01",
+      "usage": {
+        "input_tokens": 13238,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4812,
+        "output_tokens_details": {
+          "reasoning_tokens": 2300
+        },
+        "total_tokens": 18050
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 15:02:30 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0af65e5a689414b4016a3013c5e7c8819ba833ca748bed270d",
+      "status": "completed",
+      "step": "layer2b_relationships_02",
+      "usage": {
+        "input_tokens": 11592,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3517,
+        "output_tokens_details": {
+          "reasoning_tokens": 50
+        },
+        "total_tokens": 15109
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 15:04:40 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_00d4dd6975ef4f09016a301426d15c819aadcbc8c5757942bc",
+      "status": "completed",
+      "step": "layer3_ranking_01",
+      "usage": {
+        "input_tokens": 14186,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5349,
+        "output_tokens_details": {
+          "reasoning_tokens": 65
+        },
+        "total_tokens": 19535
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 15:05:40 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_059795fded7e9dec016a3014972b148198890410155106181e",
+      "status": "completed",
+      "step": "layer3_ranking_02",
+      "usage": {
+        "input_tokens": 11847,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 2461,
+        "output_tokens_details": {
+          "reasoning_tokens": 1404
+        },
+        "total_tokens": 14308
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 15:07:28 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_094abf663df7fb33016a3014eaae10819ab24f7f88415265a9",
+      "status": "completed",
+      "step": "layer4_briefs_01",
+      "usage": {
+        "input_tokens": 9912,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3800,
+        "output_tokens_details": {
+          "reasoning_tokens": 59
+        },
+        "total_tokens": 13712
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 15:09:22 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_07dc1213120eea8a016a301550f984819186cace419557be12",
+      "status": "completed",
+      "step": "layer4_briefs_02",
+      "usage": {
+        "input_tokens": 9835,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4437,
+        "output_tokens_details": {
+          "reasoning_tokens": 60
+        },
+        "total_tokens": 14272
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 15:10:37 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0c97466d6f019836016a3015b13a8081919adc460670e20b39",
+      "status": "completed",
+      "step": "layer5_deep_report_01",
+      "usage": {
+        "input_tokens": 9828,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3201,
+        "output_tokens_details": {
+          "reasoning_tokens": 57
+        },
+        "total_tokens": 13029
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 15:11:50 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0e9a4cf3d517cae9016a3015fc8048819080bb22419b02c71d",
+      "status": "completed",
+      "step": "layer5_deep_report_02",
+      "usage": {
+        "input_tokens": 9718,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3123,
+        "output_tokens_details": {
+          "reasoning_tokens": 56
+        },
+        "total_tokens": 12841
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 15:12:58 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/politics-20260615-140529/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0e9c97867b1a64b2016a30164547e08191ad4fc04200ec6d4a",
+      "status": "completed",
+      "step": "layer5_deep_report_03",
+      "usage": {
+        "input_tokens": 9636,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 2858,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 12494
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    }
+  ],
+  "theme": {
+    "name": "Politics",
+    "query": "politics policy regulation tariffs defense election government spending underfollowed small mid cap obscure suppliers second order beneficiaries hidden customer supplier dependency low analyst coverage",
+    "theme_id": "politics"
+  }
+}
