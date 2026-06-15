@@ -1,0 +1,1213 @@
+{
+  "args": {
+    "limit_themes": 1,
+    "max_briefs": 8,
+    "max_candidates": 60,
+    "max_candidates_per_node": 15,
+    "max_deep_reports": 3,
+    "max_layer1_nodes": 6,
+    "theme_id": [
+      "energy"
+    ],
+    "themes": "config/serenity_themes.csv",
+    "universe": "config/us_serenity_pilot_universe.csv"
+  },
+  "external_search": {
+    "enabled": true,
+    "error_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_errors.jsonl",
+    "evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+    "max_queries": 5,
+    "max_results_per_query": 4,
+    "twitter_enabled": true
+  },
+  "layer1a": {
+    "coverage_gaps": [
+      "Oil & gas subtheme is still broad and should be split further into upstream services, midstream compression, LNG, and refining equipment in the next layer.",
+      "Renewables are under-decomposed; next pass should separate interconnection, inverters, trackers, transmission, and storage.",
+      "Public-market expressibility for nuclear conversion and HALEU remains thin; verify which exposures are direct versus indirect.",
+      "Need a dedicated pass on low-coverage suppliers in transformers, switchgear, and line hardware with actual analyst coverage counts.",
+      "Need verification of which names have the cleanest customer concentration and backlog visibility rather than merely thematic linkage."
+    ],
+    "evidence": [
+      {
+        "claim": "Dry-type transformers and related power-quality products are used across renewable energy, industrial facilities, commercial construction, digital infrastructure, transportation, utilities, microgrids, and semiconductors.",
+        "claim_type": "fact",
+        "confidence": 0.9,
+        "published_at": "2026-05-28T12:45:56.000Z",
+        "source_title": "The Boring Power Infrastructure Company That Is Becoming a Monster 10x Compounder: Hammond Power Solutions ($HPS.A)",
+        "source_url": "https://rmainvestments.substack.com/p/the-boring-power-infrastructure-company",
+        "ticker": "HPS.A"
+      },
+      {
+        "claim": "Transmission hardware is installed at every tower on every line that gets built, and order intake can lead transmission construction activity by months.",
+        "claim_type": "fact",
+        "confidence": 0.88,
+        "published_at": "2026-04-13T22:10:04.000Z",
+        "source_title": "The Only Pure-Play Transmission Hardware Stock Nobody Is Talking About",
+        "source_url": "https://lanin.substack.com/p/the-invisible-bom-plpc-is-the-hardware",
+        "ticker": "PLPC"
+      },
+      {
+        "claim": "Transformer oil and adjacent specialty chemical suppliers can act as second-order beneficiaries during grid expansion cycles because analyst coverage is fragmented across power and chemicals.",
+        "claim_type": "inference",
+        "confidence": 0.75,
+        "published_at": "2026-04-24T00:00:00.000Z",
+        "source_title": "The Shadow Beneficiary: A Framework for Proxy Investing",
+        "source_url": "https://spicapitalresearch.substack.com/p/the-shadow-beneficiary-a-framework",
+        "ticker": ""
+      },
+      {
+        "claim": "The United States has a single operating conversion facility, and there is no listed pure-play conversion exposure; BWX Technologies is noted as the only public direct play in advanced fuel fabrication in this context.",
+        "claim_type": "fact",
+        "confidence": 0.86,
+        "published_at": "2026-05-09T23:28:27.000Z",
+        "source_title": "Where the Uranium bottlenecks actually are - by Dante",
+        "source_url": "https://www.airealist.ai/p/where-the-uranium-bottlenecks-actually",
+        "ticker": "LEU"
+      },
+      {
+        "claim": "Supplier risk in energy supply chains is becoming a structural feature rather than an episodic one, with availability of equipment and continuity of supply increasingly central.",
+        "claim_type": "fact",
+        "confidence": 0.83,
+        "published_at": "2026-04-02T07:00:00.000Z",
+        "source_title": "Energy supply chains under sustained stress and the evolving nature of supplier risk",
+        "source_url": "https://www.moodys.com/web/en/us/insights/corporations/energy-supply-chains-under-sustained-stress-and-the-evolving-nature-of-supplier-risk.html",
+        "ticker": ""
+      }
+    ],
+    "layer": "1A",
+    "memory_update": [
+      {
+        "confidence": 0.88,
+        "text": "For the Energy theme, prioritize an electricity bottleneck map first: grid hardware, transformers, switchgear, EPC, and nuclear fuel steps are likely to reveal more underfollowed public names than end-market utilities or commodity producers.",
+        "type": "theme_relation"
+      },
+      {
+        "confidence": 0.84,
+        "text": "The best second-order beneficiaries are likely to sit one layer above or below the obvious headline winners, especially in transmission hardware, dry-type transformers, and specialized nuclear fuel inputs.",
+        "type": "theme_relation"
+      },
+      {
+        "confidence": 0.79,
+        "text": "Need a follow-on pass to separate oil & gas into sub-segments and identify which public names have the cleanest bottleneck exposure versus generic energy beta.",
+        "type": "coverage_gap"
+      }
+    ],
+    "summary": "This theme is best decomposed as an electricity-and-fuels bottleneck map, not a single sector bet. The clearest hidden layers are transmission hardware, dry-type transformers and power-quality gear, and nuclear fuel conversion/HALEU, with oil/gas and renewables feeding the same infrastructure demand cycle through compressors, switchgear, EPC, and interconnection constraints.",
+    "supply_chain_nodes": [
+      {
+        "bottleneck_hypothesis": "The bottleneck is not only line construction; it is the hardware that must be ordered, qualified, and delivered first. That creates earlier order visibility and potential switching costs once a utility standardizes on a supplier.",
+        "claim_type": "hypothesis",
+        "confidence": 0.76,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Best fit is small/mid-cap industrial hardware suppliers with utility concentration and thin sell-side coverage.",
+        "node": "Grid transmission hardware and tower-line components",
+        "node_id": "grid_transmission_hardware",
+        "public_asset_hunting_notes": "Look for public names exposed to tower hardware, clamps, insulators, fittings, and transmission accessories. PLP-style niches and diversified industrials with utility hardware divisions are likely hunting grounds.",
+        "role": "equipment",
+        "search_queries": [
+          "transmission hardware utility order backlog public company",
+          "tower line hardware supplier listed company",
+          "power line hardware fittings insulators public markets"
+        ],
+        "underfollowed_angle": "Hidden one step above the obvious EPC and utility names; often overlooked because the product is low-profile but schedule-critical.",
+        "why_it_matters": "Every new line build requires a dense layer of hardware installed before or alongside conductor and tower work. This makes the category a quiet lead indicator for transmission capex and utility grid buildouts."
+      },
+      {
+        "bottleneck_hypothesis": "Transformer and power-quality capacity can become a project gate because if power conditioning is late, the entire facility launch slips. Lead times and manufacturing capacity matter more than headline demand growth.",
+        "claim_type": "fact",
+        "confidence": 0.86,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Ideal candidates are sub-$10B industrials with clear backlog language, North American manufacturing, and exposure to digital infrastructure or utility capex.",
+        "node": "Dry-type transformers and power-quality electrical equipment",
+        "node_id": "dry_type_transformers_power_quality",
+        "public_asset_hunting_notes": "Screen for dry-type transformer specialists, magnetics makers, and power-quality suppliers. Hammond Power Solutions is a strong underfollowed reference point; also look at niche gear suppliers with utility and data-center exposure.",
+        "role": "equipment",
+        "search_queries": [
+          "dry-type transformer company data center renewables backlog",
+          "power quality equipment small cap utility demand",
+          "Hammond Power Solutions commentary data center electrification"
+        ],
+        "underfollowed_angle": "Often misclassified as boring electrical distribution rather than a power bottleneck tied to electrification and AI infrastructure.",
+        "why_it_matters": "These products sit inside renewables, industrial facilities, commercial construction, digital infrastructure, transportation, utilities, and semiconductors. They are schedule-critical when power availability becomes the binding constraint."
+      },
+      {
+        "bottleneck_hypothesis": "The bottleneck is concentrated and only partly investable. Public-market exposure is thin, so the most interesting names may be indirect, partially exposed, or structurally small relative to the total market narrative.",
+        "claim_type": "fact",
+        "confidence": 0.82,
+        "discovery_lane": "speculative_shadow",
+        "market_cap_hunting_notes": "This is more suitable for niche mid-cap or indirect-exposure screening than for broad mega-cap exposure hunting.",
+        "node": "Nuclear fuel conversion and HALEU-related supply chain",
+        "node_id": "nuclear_fuel_conversion_haleu",
+        "public_asset_hunting_notes": "Primary public names to inspect include Centrus Energy and BWX Technologies, while Honeywell represents an indirect conversion exposure. Also monitor private ecosystem names for spillover effects.",
+        "role": "input",
+        "search_queries": [
+          "HALEU public company conversion enrichment listed exposure",
+          "nuclear conversion bottleneck listed company",
+          "advanced fuel fabrication public company BWXT Centrus"
+        ],
+        "underfollowed_angle": "The investable path is narrow enough that the market may misprice the importance of upstream fuel steps or overfocus on reactor headlines.",
+        "why_it_matters": "Nuclear expansion is constrained by fuel steps upstream of reactor operation. Conversion, enrichment, and advanced fuel fabrication can be tighter than the reactor story itself."
+      },
+      {
+        "bottleneck_hypothesis": "Skilled lineworker shortages and permitting delays can throttle the buildout even when demand is strong. Order books in EPC names can act as an early indicator for adjacent suppliers.",
+        "claim_type": "inference",
+        "confidence": 0.71,
+        "discovery_lane": "reference",
+        "market_cap_hunting_notes": "Use large caps as context only; prefer smaller contractors or niche utility-services names where coverage is thinner.",
+        "node": "Grid EPC, transmission construction, and utility services",
+        "node_id": "grid_epc_and_line_construction",
+        "public_asset_hunting_notes": "Quanta Services is the reference name, but the discovery hunt should also include lesser-followed transmission contractors, regional EPCs, and specialty installers.",
+        "role": "infrastructure",
+        "search_queries": [
+          "transmission construction backlog utility services listed company",
+          "lineworker shortage transmission contractor public company",
+          "Quanta backlog supplier lead indicator hardware"
+        ],
+        "underfollowed_angle": "The obvious names are well known; the alpha hunt is in the supplier and hardware layers that move before the visible construction revenue.",
+        "why_it_matters": "This is the execution layer that turns capex plans into installed assets. The backlog, labor availability, and permitting pace often dictate realized demand more than the headline project pipeline."
+      },
+      {
+        "bottleneck_hypothesis": "The hidden opportunity is in second-order beneficiaries that sell picks-and-shovels to midstream and LNG buildouts rather than in the commodity producers themselves.",
+        "claim_type": "hypothesis",
+        "confidence": 0.63,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Focus on mid-cap industrials with recurring service revenue, installed-base economics, or direct LNG/midstream linkage.",
+        "node": "Midstream compression, flow control, and LNG-adjacent equipment",
+        "node_id": "midstream_compression_flow_control",
+        "public_asset_hunting_notes": "Look for public names with compressor, valve, cryogenic, or flow-control exposure such as Archrock, Chart Industries, Flowserve, or similar niche industrials.",
+        "role": "equipment",
+        "search_queries": [
+          "compressor equipment midstream public company backlog",
+          "LNG equipment flow control supplier listed",
+          "oil gas second order beneficiary industrials public markets"
+        ],
+        "underfollowed_angle": "These names can be overlooked because the market labels them as industrials or maintenance equipment, even when their revenue is leveraged to energy infrastructure capex.",
+        "why_it_matters": "Oil and gas still matter as a capex chain: pipelines, compressors, valves, and LNG systems are necessary for moving molecules and supporting power and industrial demand."
+      },
+      {
+        "bottleneck_hypothesis": "Switchgear lead times and qualification requirements can constrain both utility upgrades and behind-the-meter buildouts, making this a classic hidden bottleneck.",
+        "claim_type": "hypothesis",
+        "confidence": 0.7,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Prefer names with concentrated electrical distribution exposure and visible order backlogs over diversified industrial conglomerates.",
+        "node": "Substation switchgear, busway, and power distribution",
+        "node_id": "substation_switchgear_distribution",
+        "public_asset_hunting_notes": "Search for public companies with medium-voltage gear, switchgear, panel building, and substation automation exposure; Powell Industries is a useful starting point, with broader electrical peers as comparison set.",
+        "role": "equipment",
+        "search_queries": [
+          "switchgear lead times public company data center utility",
+          "substation equipment listed company backlog",
+          "medium voltage gear utility exposure small cap"
+        ],
+        "underfollowed_angle": "This is the unglamorous layer that often gets missed between generation headlines and end-user load growth.",
+        "why_it_matters": "Substations and distribution gear are mandatory for integrating new generation, storage, data centers, and industrial loads into the grid."
+      }
+    ],
+    "theme_id": "energy_power_grid_nuclear_uranium_oil_gas_renewables_electrification_2026_06",
+    "theme_map": {
+      "demand_drivers": [
+        "AI/data-center load growth and hyperscaler power procurement",
+        "Grid replacement and transmission expansion across aging power infrastructure",
+        "Renewables buildout requiring interconnection, lines, transformers, and substations",
+        "Nuclear restarts, SMR deployments, and fuel-security efforts",
+        "Industrial electrification, EV charging, and distributed power quality needs",
+        "Oil & gas midstream, LNG, and compression demand tied to broader energy capex"
+      ],
+      "discovery_lanes": {
+        "low_attention_search_queries": [
+          "\"dry-type transformers\" backlog data center renewables",
+          "\"transmission hardware\" order intake utility line buildout",
+          "\"transformer oil\" grid expansion supplier",
+          "\"HALEU\" conversion public company bottleneck",
+          "\"switchgear\" lead times data center utility",
+          "\"nuclear fuel fabrication\" listed company US"
+        ],
+        "reference_leaders": [
+          "Constellation Energy",
+          "GE Vernova",
+          "Eaton",
+          "Quanta Services",
+          "Cameco",
+          "BWX Technologies"
+        ],
+        "underfollowed_supply_chain": [
+          "Hammond Power Solutions",
+          "Centrus Energy",
+          "PLP / transmission hardware suppliers",
+          "Powell Industries",
+          "Chart Industries",
+          "Archrock"
+        ]
+      },
+      "public_market_search_strategy": "Start from the scarce layer, not from the headline end-market. First map which parts are actually short, regulated, or hard to qualify: transmission hardware, transformers, switchgear, nuclear fuel steps, EPC, compression, and power-quality equipment. Then rank public names by proximity to the bottleneck, not by size or brand recognition. Deliberately search for underfollowed small/mid-cap suppliers whose customers are utilities, grid contractors, nuclear developers, or LNG/midstream operators, and check for backlog, order intake, qualification language, and lead-time commentary before assuming revenue capture.",
+      "supply_side_constraints": [
+        "Long lead times and tight capacity in transformers, switchgear, and related electrical gear",
+        "Skilled labor and permitting bottlenecks in transmission construction",
+        "Sparse public exposure to nuclear conversion and HALEU-related steps",
+        "Customer qualification, utility procurement, and switching-cost friction",
+        "Supplier-risk concentration and fragile continuity across critical equipment chains",
+        "Private ownership of some key sub-suppliers, reducing public-market expressibility"
+      ]
+    }
+  },
+  "metas": [
+    {
+      "created_at": "2026-06-15 08:10:40 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0af46be961c358aa016a2fb308d8b48199b14ae05908274532",
+      "status": "completed",
+      "step": "layer1a_theme_map",
+      "usage": {
+        "input_tokens": 11063,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 6490,
+        "output_tokens_details": {
+          "reasoning_tokens": 2996
+        },
+        "total_tokens": 17553
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:12:22 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0c635197d140dbcc016a2fb39790148191a4ac23808f72de17",
+      "status": "completed",
+      "step": "layer1b_node_grid_transmission_hardware_direct_exposure",
+      "usage": {
+        "input_tokens": 21918,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3655,
+        "output_tokens_details": {
+          "reasoning_tokens": 1045
+        },
+        "total_tokens": 25573
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:14:01 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_029314d6e6f6acee016a2fb3f4681c8191b90ee0a40d47ea79",
+      "status": "completed",
+      "step": "layer1b_node_grid_transmission_hardware_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 29063,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3843,
+        "output_tokens_details": {
+          "reasoning_tokens": 644
+        },
+        "total_tokens": 32906
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:16:10 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_09f1facd5d7fc2fc016a2fb46cebc88190a32f7672a28245d8",
+      "status": "completed",
+      "step": "layer1b_node_grid_transmission_hardware_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 36006,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4353,
+        "output_tokens_details": {
+          "reasoning_tokens": 913
+        },
+        "total_tokens": 40359
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:17:39 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_08f4c172de438bff016a2fb4d7e5908196955a85097d212334",
+      "status": "completed",
+      "step": "layer1b_node_grid_transmission_hardware_second_order_mapping",
+      "usage": {
+        "input_tokens": 16843,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3726,
+        "output_tokens_details": {
+          "reasoning_tokens": 795
+        },
+        "total_tokens": 20569
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:21:07 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_073af112545e4f33016a2fb593ccec819abae5ac41e2b30c1b",
+      "status": "completed",
+      "step": "layer1b_node_dry_type_transformers_power_quality_direct_exposure",
+      "usage": {
+        "input_tokens": 28923,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4454,
+        "output_tokens_details": {
+          "reasoning_tokens": 1289
+        },
+        "total_tokens": 33377
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:23:19 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_01c4db08d4560018016a2fb601130881938309315df74fc48a",
+      "status": "completed",
+      "step": "layer1b_node_dry_type_transformers_power_quality_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 45385,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5325,
+        "output_tokens_details": {
+          "reasoning_tokens": 1354
+        },
+        "total_tokens": 50710
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:25:14 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0aff556696560935016a2fb6850738819588948fe1b5cdfdaf",
+      "status": "completed",
+      "step": "layer1b_node_dry_type_transformers_power_quality_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 29557,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4785,
+        "output_tokens_details": {
+          "reasoning_tokens": 1188
+        },
+        "total_tokens": 34342
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:27:00 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0f3a1499a83270fa016a2fb6f85b7c8190b697c5a8b3ae844c",
+      "status": "completed",
+      "step": "layer1b_node_dry_type_transformers_power_quality_second_order_mapping",
+      "usage": {
+        "input_tokens": 23819,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4205,
+        "output_tokens_details": {
+          "reasoning_tokens": 1136
+        },
+        "total_tokens": 28024
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:28:22 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0b5d41a7c4e6ce89016a2fb76a35d48195925f4adf75a1aee8",
+      "status": "completed",
+      "step": "layer1b_node_nuclear_fuel_conversion_haleu_direct_exposure",
+      "usage": {
+        "input_tokens": 9698,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3127,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 12825
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:30:22 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0da9dd025334dc21016a2fb7b3c5cc8194bfa549211baf85af",
+      "status": "completed",
+      "step": "layer1b_node_nuclear_fuel_conversion_haleu_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 28430,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4770,
+        "output_tokens_details": {
+          "reasoning_tokens": 1566
+        },
+        "total_tokens": 33200
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:31:59 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_06bfb1b0508f3cfb016a2fb82cc06c819999d25bea1011b538",
+      "status": "completed",
+      "step": "layer1b_node_nuclear_fuel_conversion_haleu_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 17109,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 4097,
+        "output_tokens_details": {
+          "reasoning_tokens": 976
+        },
+        "total_tokens": 21206
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:33:22 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0de714f11309e883016a2fb8906f908191983de1448234b33d",
+      "status": "completed",
+      "step": "layer1b_node_nuclear_fuel_conversion_haleu_second_order_mapping",
+      "usage": {
+        "input_tokens": 9703,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3402,
+        "output_tokens_details": {
+          "reasoning_tokens": 414
+        },
+        "total_tokens": 13105
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:35:01 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 18,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_031a13f81df75b2d016a2fb8eae74881918056a0f2a02c89a9",
+      "status": "completed",
+      "step": "layer1b_node_grid_epc_and_line_construction_direct_exposure",
+      "usage": {
+        "input_tokens": 23036,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3694,
+        "output_tokens_details": {
+          "reasoning_tokens": 588
+        },
+        "total_tokens": 26730
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:36:31 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 18,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_06cb0cc58a559892016a2fb94397b4819aa4c4498d05156183",
+      "status": "completed",
+      "step": "layer1b_node_grid_epc_and_line_construction_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 16938,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3686,
+        "output_tokens_details": {
+          "reasoning_tokens": 881
+        },
+        "total_tokens": 20624
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:37:59 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 18,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_01c132aeb0a685e0016a2fb99d30248197b283c70b8797eb51",
+      "status": "completed",
+      "step": "layer1b_node_grid_epc_and_line_construction_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 21885,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 3592,
+        "output_tokens_details": {
+          "reasoning_tokens": 560
+        },
+        "total_tokens": 25477
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:39:26 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 18,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0f4167029ec71239016a2fb9f5d3ec8191b4a4b616d5e8e4a0",
+      "status": "completed",
+      "step": "layer1b_node_grid_epc_and_line_construction_second_order_mapping",
+      "usage": {
+        "input_tokens": 16988,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3649,
+        "output_tokens_details": {
+          "reasoning_tokens": 697
+        },
+        "total_tokens": 20637
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:41:05 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_04669b884780d16e016a2fba54da70819bb2097ccf1dfb4134",
+      "status": "completed",
+      "step": "layer1b_node_midstream_compression_flow_control_direct_exposure",
+      "usage": {
+        "input_tokens": 22891,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 3816,
+        "output_tokens_details": {
+          "reasoning_tokens": 926
+        },
+        "total_tokens": 26707
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:42:39 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_08d482d36988a88c016a2fbaaf591c819190cae6269f3c2562",
+      "status": "completed",
+      "step": "layer1b_node_midstream_compression_flow_control_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 22358,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4027,
+        "output_tokens_details": {
+          "reasoning_tokens": 638
+        },
+        "total_tokens": 26385
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:44:26 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_067bd0ec09aa9129016a2fbb0c9e6481918221a4e89228e103",
+      "status": "completed",
+      "step": "layer1b_node_midstream_compression_flow_control_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 29352,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 4394,
+        "output_tokens_details": {
+          "reasoning_tokens": 976
+        },
+        "total_tokens": 33746
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:46:04 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_02d3906e82f94708016a2fbb786830819193cbef32468fc68e",
+      "status": "completed",
+      "step": "layer1b_node_midstream_compression_flow_control_second_order_mapping",
+      "usage": {
+        "input_tokens": 27202,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4128,
+        "output_tokens_details": {
+          "reasoning_tokens": 801
+        },
+        "total_tokens": 31330
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:47:56 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0811bd02e7a40c26016a2fbbe26f808191b3b2d84c2d736e64",
+      "status": "completed",
+      "step": "layer1b_node_substation_switchgear_distribution_direct_exposure",
+      "usage": {
+        "input_tokens": 26689,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4226,
+        "output_tokens_details": {
+          "reasoning_tokens": 761
+        },
+        "total_tokens": 30915
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:49:38 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_08cb41ce8ab567c2016a2fbc4a346481919044ec461536e828",
+      "status": "completed",
+      "step": "layer1b_node_substation_switchgear_distribution_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 23061,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4354,
+        "output_tokens_details": {
+          "reasoning_tokens": 857
+        },
+        "total_tokens": 27415
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:51:20 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_02d5a94b5696c4ab016a2fbcaffb708193825b1cc6e803d258",
+      "status": "completed",
+      "step": "layer1b_node_substation_switchgear_distribution_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 31188,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4393,
+        "output_tokens_details": {
+          "reasoning_tokens": 1199
+        },
+        "total_tokens": 35581
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:53:07 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0be79ffb92916199016a2fbd1716ac8191b4b2245124c0b3cf",
+      "status": "completed",
+      "step": "layer1b_node_substation_switchgear_distribution_second_order_mapping",
+      "usage": {
+        "input_tokens": 25131,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4362,
+        "output_tokens_details": {
+          "reasoning_tokens": 1296
+        },
+        "total_tokens": 29493
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:55:38 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_00b824f29b3450c0016a2fbd9aa2508191ad9047ff96f07f29",
+      "status": "completed",
+      "step": "layer1c_merge_universe",
+      "usage": {
+        "input_tokens": 15419,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 6114,
+        "output_tokens_details": {
+          "reasoning_tokens": 156
+        },
+        "total_tokens": 21533
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:57:58 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0bf2fb16ac535907016a2fbe2adc54819698dc45b6cb06b807",
+      "status": "completed",
+      "step": "layer2a_map",
+      "usage": {
+        "input_tokens": 13311,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5911,
+        "output_tokens_details": {
+          "reasoning_tokens": 58
+        },
+        "total_tokens": 19222
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 08:59:38 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0e2ef67f5278e151016a2fbea4e5a08199bb39ec8ba3544942",
+      "status": "completed",
+      "step": "layer2b_relationships_01",
+      "usage": {
+        "input_tokens": 13573,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4658,
+        "output_tokens_details": {
+          "reasoning_tokens": 2004
+        },
+        "total_tokens": 18231
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 09:02:01 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0501651a688470a7016a2fbf1abf54819b8b8d51d716e0f356",
+      "status": "completed",
+      "step": "layer3_ranking_01",
+      "usage": {
+        "input_tokens": 14341,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 6084,
+        "output_tokens_details": {
+          "reasoning_tokens": 690
+        },
+        "total_tokens": 20425
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 09:04:10 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_09ab583eec000907016a2fbfb310c881949aa99cbd1dc35cc5",
+      "status": "completed",
+      "step": "layer4_briefs_01",
+      "usage": {
+        "input_tokens": 10038,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4749,
+        "output_tokens_details": {
+          "reasoning_tokens": 54
+        },
+        "total_tokens": 14787
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 09:06:33 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0c2205ee15bda13e016a2fc01f347481968901a2bfd40ea12d",
+      "status": "completed",
+      "step": "layer4_briefs_02",
+      "usage": {
+        "input_tokens": 22440,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 6229,
+        "output_tokens_details": {
+          "reasoning_tokens": 716
+        },
+        "total_tokens": 28669
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 09:07:44 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0c4601f30193ec3f016a2fc0a690b88195b2af9f46c9137c05",
+      "status": "completed",
+      "step": "layer5_deep_report_01",
+      "usage": {
+        "input_tokens": 10128,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3110,
+        "output_tokens_details": {
+          "reasoning_tokens": 90
+        },
+        "total_tokens": 13238
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 09:09:37 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0603f9972e7a99d4016a2fc0ee33a081969fbe0396f7783bb5",
+      "status": "completed",
+      "step": "layer5_deep_report_02",
+      "usage": {
+        "input_tokens": 31209,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5137,
+        "output_tokens_details": {
+          "reasoning_tokens": 455
+        },
+        "total_tokens": 36346
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-15 09:11:20 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/energy-20260615-080747/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_04385eb04c31f499016a2fc15feddc8191a304dd11372ad633",
+      "status": "completed",
+      "step": "layer5_deep_report_03",
+      "usage": {
+        "input_tokens": 16192,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4695,
+        "output_tokens_details": {
+          "reasoning_tokens": 492
+        },
+        "total_tokens": 20887
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    }
+  ],
+  "theme": {
+    "name": "Energy",
+    "query": "energy power grid nuclear uranium oil gas renewables electrification underfollowed small mid cap obscure suppliers second order beneficiaries hidden customer supplier dependency low analyst coverage",
+    "theme_id": "energy"
+  }
+}
