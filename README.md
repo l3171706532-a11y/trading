@@ -1,6 +1,6 @@
 # Trading Research Reports
 
-Updated: 2026-06-16 12:49:32 UTC
+Updated: 2026-06-16 13:59:14 UTC
 
 This repository contains generated research reports and structured outputs. It is not investment advice.
 
@@ -20,6 +20,7 @@ This repository contains generated research reports and structured outputs. It i
 - [special_energy_power_chain-20260608-173647](reports/serenity/cloud_llm/special_energy_power_chain-20260608-173647/research_report_bilingual.md)
 - [special_ai_infrastructure_chain-20260608-163427](reports/serenity/cloud_llm/special_ai_infrastructure_chain-20260608-163427/research_report_bilingual.md)
 - [special-tech-ai-energy-study-20260608-153109](reports/serenity/cloud_llm/special-tech-ai-energy-study-20260608-153109/research_report_bilingual.md)
+- [restaurants-20260616-124938](reports/serenity/cloud_llm/restaurants-20260616-124938/research_report_bilingual.md)
 - [restaurants-20260615-125242](reports/serenity/cloud_llm/restaurants-20260615-125242/research_report_bilingual.md)
 - [restaurants-20260614-120844](reports/serenity/cloud_llm/restaurants-20260614-120844/research_report_bilingual.md)
 - [restaurants-20260613-122708](reports/serenity/cloud_llm/restaurants-20260613-122708/research_report_bilingual.md)
