@@ -1,0 +1,178 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Micron Technology Inc.",
+      "confidence": 0.9,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Track HBM mix, conventional DRAM ASPs, enterprise SSD allocation, and customer prepayment or long-term supply agreements.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review Micron latest 10-Q/earnings call for HBM revenue, HBM gross margin commentary, wafer starts, capex allocation, and customer concentration.",
+      "node_relation": "US-listed reference memory maker exposed directly to HBM, DRAM wafers, enterprise DRAM, and enterprise SSD supply allocation.",
+      "sector_or_industry": "Memory semiconductors",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck"
+      ],
+      "theme_relation": "Reference anchor for the hypothesis that HBM demand reallocates wafer capacity and tightens broader DRAM supply.",
+      "ticker": "MU",
+      "why_include": "Needed as the obvious US-listed context anchor for HBM and DRAM capacity constraints; S&P Global notes Samsung, SK hynix, and Micron are diverting capacity toward HBM while conventional DRAM tightens.",
+      "why_underfollowed": "Not underfollowed; included only as the reference lane to benchmark smaller suppliers and spillover names."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Cohu, Inc.",
+      "confidence": 0.86,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether HBM revenue expands from a small base into a repeat tool category across multiple memory customers and HBM4 ramps.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-Q and earnings transcript for Neon shipments, HBM customer count, backlog, revenue contribution, China/export risk, and whether HBM inspection revenue exceeds the prior $10-$11 million estimate.",
+      "node_relation": "HBM inspection/metrology equipment supplier; Neon platform used for inspection and metrology of HBM devices.",
+      "sector_or_industry": "Semiconductor test, automation, inspection and metrology equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct supplier into the quality-control bottleneck created by HBM stack complexity, micro-pillar inspection, HBM3E/HBM4 ramps, and AI accelerator packaging yields.",
+      "ticker": "COHU",
+      "why_include": "Cohu disclosed additional Neon orders from a leading US-based memory and data-storage customer for HBM inspection/metrology and raised 2025 forecasted HBM revenue to $10-$11 million.",
+      "why_underfollowed": "Market label is broad semiconductor test equipment, while the chokepoint signal is a narrow HBM inspection/metrology insertion that may be missed by investors focused only on memory makers or lithography leaders."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "FormFactor, Inc.",
+      "confidence": 0.88,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Customer concentration, second HBM customer ramp, DRAM probe-card mix, South Korea revenue exposure, and whether margins improve after HBM ramp costs.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Pull latest investor-day deck, 10-Q, and Q2 2026 results when available; verify HBM probe-card revenue, customer count, gross-margin trajectory, and exposure to SK hynix/Samsung/Micron.",
+      "node_relation": "DRAM and HBM probe-card supplier; HFTAP K32 probe-card architecture supports wafer-level speed testing and verification of devices used in HBM stacks.",
+      "sector_or_industry": "Semiconductor probe cards and test systems",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct exposure to HBM yield learning and known-good-die testing, which become more important as HBM stacks and advanced packaging grow more complex.",
+      "ticker": "FORM",
+      "why_include": "FormFactor reported record DRAM revenue in Q1 2026 driven by increased HBM demand; its product literature explicitly ties HFTAP probe cards to HBM-stack electrical performance and yield verification.",
+      "why_underfollowed": "Although no longer small-cap, it is still less obvious than memory makers and front-end equipment leaders; the exposure hides in probe-card consumables and customer-specific HBM ramps."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "hypothesis",
+      "company": "Penguin Solutions, Inc.",
+      "confidence": 0.68,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether Integrated Memory growth is structural AI-memory demand versus favorable spot pricing or temporary allocation; verify MemoryAI customer adoption and repeat orders.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review latest 10-Q segment footnotes, customer concentration, inventory commitments, MemoryAI pipeline, gross margin by segment, and exposure to DRAM price swings.",
+      "node_relation": "Second-order enterprise-memory and AI-inference infrastructure beneficiary; offers Integrated Memory and MemoryAI CXL-based KV-cache server products.",
+      "sector_or_industry": "AI infrastructure, advanced computing, integrated memory",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potential spillover beneficiary if HBM/DRAM tightness raises the strategic value of memory optimization, CXL memory expansion, and specialized enterprise AI infrastructure.",
+      "ticker": "PENG",
+      "why_include": "Penguin reported Q2 FY2026 Integrated Memory revenue of $171.6 million versus $105.3 million a year earlier and cited strong memory demand plus a MemoryAI CXL-based KV-cache server customer win.",
+      "why_underfollowed": "Messy business mix across AI infrastructure, integrated memory, and LED products can obscure the memory-spillover angle; it is not a pure semiconductor manufacturer."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "S&P Global reported that Samsung, SK hynix, and Micron are diverting production capacity toward HBM, tightening conventional DRAM supply and raising prices.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2026-01",
+      "source_title": "AI memory boom squeezes legacy DRAM supply, pushing prices higher",
+      "source_url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/ai-memory-boom-squeezes-legacy-dram-supply-pushing-prices-higher",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Cohu announced additional Neon orders from a leading US-based memory and data-storage customer for HBM inspection/metrology and raised forecasted 2025 HBM revenue to $10-$11 million.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2025-09-16",
+      "source_title": "Cohu Secures Additional Neon Orders, Raises 2025 Forecasted HBM Revenue to $10-$11 million",
+      "source_url": "https://ir.cohu.com/node/19256/pdf",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "FormFactor says its HFTAP K32 architecture enables DRAM wafer-level speed testing and verifies devices used in HBM stacks, including the fine-pitch interposer.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "HFTAP Series",
+      "source_url": "https://www.formfactor.com/product/probe-cards/dram/hftap-series/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor reported Q1 2026 record DRAM revenue with increased demand in HBM applications.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04-29",
+      "source_title": "FormFactor, Inc. Reports 2026 First Quarter Results",
+      "source_url": "https://investors.formfactor.com/news-releases/news-release-details/formfactor-inc-reports-2026-first-quarter-results",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Penguin Solutions reported Q2 FY2026 Integrated Memory net sales of $171.6 million versus $105.3 million a year earlier and said memory is a critical scaling factor for AI inference.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "2026-04-01",
+      "source_title": "Penguin Solutions Reports Q2 Fiscal 2026 Financial Results",
+      "source_url": "https://ir.penguinsolutions.com/news/news-details/2026/Penguin-Solutions-Reports-Q2-Fiscal-2026-Financial-Results/default.aspx",
+      "ticker": "PENG"
+    },
+    {
+      "claim": "Penguin Solutions disclosed five new AI/HPC customers in Q2 FY2026, including a Tier One financial institution deploying its MemoryAI CXL-based KV-cache server.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2026-04-01",
+      "source_title": "Penguin Solutions Reports Q2 Fiscal 2026 Financial Results",
+      "source_url": "https://ir.penguinsolutions.com/news/news-details/2026/Penguin-Solutions-Reports-Q2-Fiscal-2026-Financial-Results/default.aspx",
+      "ticker": "PENG"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.86,
+      "text": "COHU is a high-relevance underfollowed HBM inspection/metrology candidate with explicit HBM customer orders and small but disclosed HBM revenue.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.84,
+      "text": "FORM is a strong HBM probe-card candidate; direct HBM evidence is strong, but market cap is slightly above the preferred $300M-$10B hunting range, so it should be tracked as an unusually pure large-cap exposure.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.68,
+      "text": "PENG is a second-order memory-spillover candidate tied to enterprise AI inference, Integrated Memory, and CXL-based MemoryAI; evidence is promising but needs validation that growth is structural rather than pricing-cycle driven.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Still need a follow-up pass for US-listed substrate, underfill, thermal-interface, ABF-material, and advanced-packaging consumables suppliers; current pass is stronger in test/probe and memory-infrastructure spillovers.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "HBM, DRAM wafers, advanced packaging, substrates, test/inspection, and enterprise memory/storage spillovers",
+  "node_id": "hbm_memory_advanced_packaging",
+  "summary": "Layer 1B expansion found one reference anchor and three underfollowed public-market mappings. Micron is the obvious US-listed memory reference for HBM/DRAM tightness. The underfollowed lane is stronger in semiconductor test/probe and memory-infrastructure spillovers: Cohu for HBM inspection/metrology, FormFactor for DRAM/HBM probe cards, and Penguin Solutions for enterprise AI memory and CXL-based inference-memory systems. The cleanest direct evidence is Cohu and FormFactor; Penguin is a second-order spillover candidate tied to AI inference memory demand rather than HBM manufacturing itself.",
+  "theme_id": "new_hotspots"
+}

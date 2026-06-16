@@ -1,0 +1,192 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Micron Technology",
+      "confidence": 0.9,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "HBM revenue mix, HBM gross-margin commentary, capex allocation to HBM/advanced packaging, and whether non-HBM DRAM/SSD supply is being tightened by AI-data-center prioritization.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-Q/10-K, earnings-call transcript, capex guidance, HBM capacity allocation, and customer platform qualification disclosures.",
+      "node_relation": "Direct HBM and DRAM supplier; reference anchor for AI memory capacity tightness and downstream supplier demand.",
+      "sector_or_industry": "Memory semiconductors: DRAM, HBM, NAND, enterprise SSDs",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference",
+        "evidence_needed"
+      ],
+      "theme_relation": "If HBM and DRAM capacity remain constrained, memory makers may capture higher margins and pull forward demand for inspection, test, advanced packaging, and enterprise-memory ecosystem suppliers.",
+      "ticker": "MU",
+      "why_include": "Micron is a US-listed direct HBM producer and has public materials describing HBM3E/HBM4 products for AI platforms, including HBM4 volume shipment for NVIDIA Vera Rubin.",
+      "why_underfollowed": "Not underfollowed; included only as a reference anchor to validate whether supplier demand is tied to real HBM ramps rather than generic AI claims."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Camtek Ltd.",
+      "confidence": 0.86,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Order concentration by tier-1 memory/customer, repeat orders, backlog mix from HBM/HI, and whether HBM-related tools carry higher margins or faster turns.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review latest 20-F/6-K, earnings-call customer comments, backlog by application, and any new HBM/HPC inspection-tool order announcements.",
+      "node_relation": "Inspection and metrology systems for HBM and heterogeneous integration; potential bottleneck exposure at advanced packaging yield-control step.",
+      "sector_or_industry": "Semiconductor inspection and metrology equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "equipment",
+        "evidence_needed"
+      ],
+      "theme_relation": "As HBM stacks and advanced packages add micro-bumps, hybrid integration, and tighter yield requirements, inspection/metrology intensity can rise faster than wafer volume.",
+      "ticker": "CAMT",
+      "why_include": "Company announced a 28-system order from a tier-1 manufacturer for HBM and heterogeneous-integration inspection/metrology, making the HBM linkage unusually explicit for a mid-cap equipment name.",
+      "why_underfollowed": "Exposure sits one step away from obvious memory producers; often categorized as generic semiconductor equipment rather than a specific HBM yield-enablement supplier."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Cohu, Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether the Neon HBM win has turned into repeat systems, revenue contribution, gross-margin uplift, or broader adoption across HBM makers.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest 10-K/10-Q and earnings transcripts for Neon, HBM, memory-customer orders, design wins, backlog, and utilization commentary.",
+      "node_relation": "HBM inspection/metrology via Neon platform; broader semiconductor test-handler and yield-productivity exposure.",
+      "sector_or_industry": "Semiconductor test, inspection, metrology, and handlers",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "test_inspection",
+        "evidence_needed"
+      ],
+      "theme_relation": "HBM ramp complexity creates more demand for inspection/metrology and yield-control tools, especially where memory customers require high-volume production qualification.",
+      "ticker": "COHU",
+      "why_include": "Cohu announced that its Neon platform was selected by a leading US memory and data-storage customer for HBM inspection/metrology used in HPC and generative AI applications.",
+      "why_underfollowed": "Cohu is usually screened as a cyclical semiconductor test/handler company, so a narrow HBM inspection-metrology design-in may be overlooked unless order conversion is tracked."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "hypothesis",
+      "company": "Aehr Test Systems",
+      "confidence": 0.55,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Named or strongly inferable memory customer, production—not evaluation—orders for high-bandwidth flash or DRAM, and recurring consumables from WaferPak/DiePak tied to memory applications.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify latest investor deck, 10-K/10-Q, customer concentration, order releases, and whether management confirms revenue from memory/HBF/DRAM rather than only evaluation-stage discussions.",
+      "node_relation": "Potential second-order memory-capacity and AI-device test/burn-in supplier; public materials mention memory, high-bandwidth flash, and longer-term DRAM wafer-level test/burn-in opportunity.",
+      "sector_or_industry": "Wafer-level and packaged-part semiconductor test and burn-in equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "speculative_shadow",
+        "underfollowed",
+        "test_burn_in",
+        "evidence_needed"
+      ],
+      "theme_relation": "If HBM scarcity causes AI architectures to use adjacent high-bandwidth flash or pushes more stringent memory/AI-processor reliability screening, wafer-level burn-in suppliers could benefit.",
+      "ticker": "AEHR",
+      "why_include": "Aehr has public materials describing AI processor burn-in orders and flash-memory wafer-level test/burn-in opportunity, with stated longer-term potential to move into DRAM wafer-level test and burn-in.",
+      "why_underfollowed": "The market often associates AEHR with silicon carbide and power semiconductors; memory-related AI spillover is less established and may be missed or overhyped without customer validation."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Micron publicly lists HBM as part of its AI/data-center memory portfolio and describes HBM4 as designed for next-generation AI platforms.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "",
+      "source_title": "High-bandwidth memory (HBM) | Micron Technology Inc.",
+      "source_url": "https://www.micron.com/products/memory/hbm",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Micron announced HBM4 36GB 12H volume shipment in Q1 calendar 2026 and said it is designed for NVIDIA Vera Rubin.",
+      "claim_type": "fact",
+      "confidence": 0.92,
+      "published_at": "2026-03-16",
+      "source_title": "Micron in High-Volume Production of HBM4 Designed for NVIDIA Vera Rubin",
+      "source_url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+      "ticker": "MU"
+    },
+    {
+      "claim": "Camtek announced a 28-system order from a tier-1 manufacturer for inspection and metrology of HBM and heterogeneous-integration applications.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2023-12-18",
+      "source_title": "Camtek Receives Order for 28 Systems from a tier-1 manufacturer for High Bandwidth Memory (HBM) and Heterogenous Integration (HI) Applications",
+      "source_url": "https://www.camtek.com/news-and-events/camtek-receives-order-for-28-systems-from-a-tier-1-manufacturer-for-high-bandwidth-memory-hbm-and-heterogenous-integration-hi-applications/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Camtek markets advanced-packaging inspection and metrology systems for high-volume production environments.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "",
+      "source_title": "Advanced Packaging - Camtek",
+      "source_url": "https://www.camtek.com/markets/advanced-packaging/",
+      "ticker": "CAMT"
+    },
+    {
+      "claim": "Cohu announced entry into the HBM memory market through selection of its Neon inspection-metrology platform by a leading US memory and data-storage customer.",
+      "claim_type": "fact",
+      "confidence": 0.88,
+      "published_at": "2024-11-12",
+      "source_title": "Cohu Enters HBM Memory Market with Neon Inspection Metrology Platform",
+      "source_url": "https://cohu.gcs-web.com/news-releases/news-release-details/cohu-enters-hbm-memory-market-neon-inspection-metrology-platform",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "Aehr says its wafer-level test and burn-in solutions have proven applications including logic, memory, photonic, and power devices.",
+      "claim_type": "fact",
+      "confidence": 0.74,
+      "published_at": "",
+      "source_title": "Wafer Level Test & Burn-in - Aehr Test Systems | Solutions",
+      "source_url": "https://www.aehr.com/solutions/",
+      "ticker": "AEHR"
+    },
+    {
+      "claim": "Aehr investor materials describe high-bandwidth flash test/burn-in engagement and longer-term potential to move into DRAM wafer-level test and burn-in; direct HBM production exposure remains unverified.",
+      "claim_type": "hypothesis",
+      "confidence": 0.58,
+      "published_at": "2026-01-13",
+      "source_title": "Aehr FY26 Investor Presentation",
+      "source_url": "https://www.aehr.com/wp-content/uploads/2026/01/AEHR-FY26Presentation_1_13_26.pdf",
+      "ticker": "AEHR"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.86,
+      "text": "CAMT should be tracked as a direct HBM/heterogeneous-integration inspection-metrology underfollowed candidate; explicit tier-1 HBM order evidence exists.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "COHU should be tracked as a lower-attention HBM inspection/metrology candidate through its Neon platform selection by a leading US memory/data-storage customer.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.55,
+      "text": "AEHR is not yet a confirmed HBM supplier but belongs in speculative shadow tracking for high-bandwidth flash, memory wafer-level burn-in, and AI processor burn-in spillovers.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Need a follow-up pass on US-listed advanced-packaging materials and substrate-adjacent suppliers: underfill, thermal-interface materials, electroplating/chemicals, ABF-related inputs, and consumables are not fully covered in this 4-candidate limit.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "HBM, DRAM wafers, advanced packaging, substrates, test/inspection, and enterprise memory/storage spillovers",
+  "node_id": "hbm_memory_advanced_packaging",
+  "summary": "Layer 1B expansion found one obvious US-listed HBM/memory anchor and three more underfollowed or shadow suppliers tied to HBM inspection, metrology, test/burn-in, or memory-capacity spillovers. The cleanest underfollowed evidence in this pass is CAMT and COHU, both with explicit HBM inspection/metrology exposure. AEHR is included as a speculative shadow candidate because its public materials point to AI processor burn-in and high-bandwidth flash / future DRAM wafer-level burn-in opportunities, but direct HBM revenue evidence still needs verification.",
+  "theme_id": "new_hotspots"
+}
