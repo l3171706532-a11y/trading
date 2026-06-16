@@ -1,0 +1,152 @@
+{
+  "candidates": [
+    {
+      "attention_level": "low_attention",
+      "claim_type": "speculation",
+      "company": "Power Integrations",
+      "confidence": 0.12,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Whether any AI packaging or photonics revenue exposure is being incorrectly attributed to this ticker.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "unknown",
+      "next_evidence": "Verify company identity and remove if no packaging/CPO/OSAT exposure exists.",
+      "node_relation": "Not a direct packaging supplier; included only as a possible name-confusion check because external snippets referenced Powertech Technology, not Power Integrations.",
+      "sector_or_industry": "Semiconductor power ICs",
+      "serenity_tags": [
+        "evidence_needed",
+        "underfollowed"
+      ],
+      "theme_relation": "AI infrastructure adjacent through semiconductor supply-chain confusion, but not a confirmed node beneficiary.",
+      "ticker": "POWI",
+      "why_include": "Included as a guardrail candidate to avoid ticker/name confusion with Powertech Technology in AI packaging research.",
+      "why_underfollowed": "Could be mistaken for a packaging name in loose screening, so it is low-signal and should be excluded unless validated."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Aeluma, Inc.",
+      "confidence": 0.55,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Customer qualification, capacity commitments, and any concrete AI/datacenter optics design wins.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "below_300m_exception",
+      "next_evidence": "Check SEC filings, investor presentations, and customer or partner announcements for AI datacenter photonics exposure.",
+      "node_relation": "Potential second-order CPO/photonics supply-chain node via III-V devices and photonic integration rather than packaging itself.",
+      "sector_or_industry": "Compound semiconductor photonics / III-V devices",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI optics scaling and co-packaged optics integration could create demand for alternative photonics platforms if InP capacity stays tight.",
+      "ticker": "AELM",
+      "why_include": "Recent snippet evidence suggests hyperscaler and NVIDIA-linked photonics capacity interest in alternative integration platforms.",
+      "why_underfollowed": "Very small-cap, niche photonics name with low mainstream AI attention."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Coherent Corp.",
+      "confidence": 0.7,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Management commentary on InP substrate/device capacity, lead times, and AI/datacenter end-market mix.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Use earnings calls, annual report, and segment disclosure to isolate AI datacenter photonics contribution.",
+      "node_relation": "Direct photonics supply-chain exposure; potential bottleneck supplier for CPO and optical interconnect components.",
+      "sector_or_industry": "Photonics, lasers, materials",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI optical I/O, transceivers, and photonics manufacturing constraints are part of the broader AI infrastructure scaling path.",
+      "ticker": "COHR",
+      "why_include": "Mentioned in external research as constrained InP-related capacity holder in the AI optics chain.",
+      "why_underfollowed": "Less discussed than GPUs/hyperscalers, though not obscure."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Lumentum Holdings",
+      "confidence": 0.66,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether AI/datacenter optics is a growing share of backlog, orders, or revenue.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest transcript, backlog commentary, and product mix disclosures.",
+      "node_relation": "Optical interconnect / photonics component supplier that may benefit from AI network and CPO demand.",
+      "sector_or_industry": "Optical components and photonics",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order AI beneficiary through optical connectivity and constrained photonics supply.",
+      "ticker": "LITE",
+      "why_include": "Appears in the evidence set as a constrained InP-capacity name relevant to AI optics.",
+      "why_underfollowed": "Not obscure, but often screened as telecom optics rather than AI infrastructure."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "No evidence here supports packaging or CPO exposure for Power Integrations; this name is likely a misread of Powertech Technology in external research.",
+      "claim_type": "speculation",
+      "confidence": 0.86,
+      "published_at": "2026-05-04T14:30:58.000Z",
+      "source_title": "The Advanced Packaging Chokepoint: How Powertech Technology Is Capturing the Memory Overflow",
+      "source_url": "https://pequityresearch.substack.com/p/the-advanced-packaging-chokepoint",
+      "ticker": "POWI"
+    },
+    {
+      "claim": "External research suggests NVIDIA-linked photonics supply-chain investment and constrained InP capacity may support alternative integration platforms like Aeluma, but this remains unverified.",
+      "claim_type": "hypothesis",
+      "confidence": 0.64,
+      "published_at": "2026-03-05T16:49:37.000Z",
+      "source_title": "Nvidia's $4B Optics Push And Capacity Constraints Are Tailwinds For Aeluma (ALMU)",
+      "source_url": "https://seekingalpha.com/article/4878981-nvidia-4b-optics-push-and-capacity-constraints-are-tailwinds-for-aeluma",
+      "ticker": "AELM"
+    },
+    {
+      "claim": "External research cites Coherent as a constrained InP-related supplier in the AI photonics chain.",
+      "claim_type": "inference",
+      "confidence": 0.62,
+      "published_at": "2026-03-05T16:49:37.000Z",
+      "source_title": "Nvidia's $4B Optics Push And Capacity Constraints Are Tailwinds For Aeluma (ALMU)",
+      "source_url": "https://seekingalpha.com/article/4878981-nvidia-4b-optics-push-and-capacity-constraints-are-tailwinds-for-aeluma",
+      "ticker": "COHR"
+    },
+    {
+      "claim": "External research cites Lumentum as part of the constrained InP-dependent photonics ecosystem relevant to AI optical interconnect.",
+      "claim_type": "inference",
+      "confidence": 0.62,
+      "published_at": "2026-03-05T16:49:37.000Z",
+      "source_title": "Nvidia's $4B Optics Push And Capacity Constraints Are Tailwinds For Aeluma (ALMU)",
+      "source_url": "https://seekingalpha.com/article/4878981-nvidia-4b-optics-push-and-capacity-constraints-are-tailwinds-for-aeluma",
+      "ticker": "LITE"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.92,
+      "text": "Need primary-source validation for AI advanced packaging and CPO beneficiary names; current evidence is mostly secondary research snippets, not filings or company disclosures.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.78,
+      "text": "Underfollowed lane should prioritize niche photonics and overflow packaging suppliers with customer qualification evidence before broader OSAT names.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.74,
+      "text": "AI advanced packaging node appears to extend from packaging overflow into photonics and optical interconnect supply constraints rather than only CoWoS-style packaging.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "Advanced packaging, fan-out panel-level packaging, and co-packaged optics integration",
+  "node_id": "advanced_packaging_foplp_cpo",
+  "summary": "This pass expands the universe around AI advanced packaging and optical integration chokepoints. The strongest context names are TSMC, Broadcom, and NVIDIA as demand anchors, but the more interesting Layer 1B hunt is in underfollowed overflow packaging, panel-level fan-out, substrate/test, and photonics-capacity suppliers. Evidence from recent research snippets points to Powertech Technology as a direct overflow packaging/testing beneficiary with FOPLP and early CPO work, while Aeluma, Coherent, and Lumentum appear in the constrained photonics chain. Most of these claims still need primary-source validation from filings, transcripts, or customer disclosures.",
+  "theme_id": "AI"
+}

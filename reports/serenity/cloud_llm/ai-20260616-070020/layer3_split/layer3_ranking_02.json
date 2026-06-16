@@ -1,0 +1,100 @@
+{
+  "evidence": [
+    {
+      "claim": "AMD is a reference AI accelerator challenger whose product ramps can add pressure to foundry, HBM, advanced packaging, and test capacity.",
+      "claim_type": "fact",
+      "source_url": "cached_serenity_skill_context"
+    },
+    {
+      "claim": "Power Integrations is only a loose AI infrastructure power-adjacent candidate and is not currently a strong fit for memory backend, photonics, or advanced packaging chokepoints.",
+      "claim_type": "fact",
+      "source_url": "cached_serenity_skill_context"
+    },
+    {
+      "claim": "PCTEL is a very weak AI-adjacent placeholder with no confirmed direct memory backend, OSAT, photonics, or AI infrastructure chokepoint evidence in the provided material.",
+      "claim_type": "fact",
+      "source_url": "cached_serenity_skill_context"
+    }
+  ],
+  "layer": 3,
+  "memory_update": [
+    "Layer 3 for this AI candidate chunk should be treated as a reference-plus-shadow set: AMD for demand validation, POWI as a weak but testable mid-cap shadow, and PCTI as a low-confidence placeholder.",
+    "Do not upgrade speculative candidates without filing-level or customer-level evidence tying them to AI data-center power, memory backend, OSAT, photonics, or inspection/test demand."
+  ],
+  "ranked_candidates": [
+    {
+      "attention_level": "high_attention",
+      "company": "Advanced Micro Devices",
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "MI-series shipment growth, HBM supply, advanced-packaging capacity, customer concentration, and any supplier validation such as FOPLP or backend partnerships.",
+      "main_evidence_gap": "The chunk provides thematic linkage but no direct filing-level data here on current MI-series unit growth, packaging allocation, or supplier-specific bottlenecks.",
+      "market_cap_bucket": "mega_cap",
+      "rank": 1,
+      "scores": {
+        "bottleneck_severity": 4,
+        "demand_durability": 5,
+        "evidence_quality": 5,
+        "falsifiability": 5,
+        "mispricing_potential": 1,
+        "public_market_purity": 5,
+        "risk_clarity": 4,
+        "supplier_scarcity": 4,
+        "underfollowed_discovery": 0
+      },
+      "ticker": "AMD",
+      "total_score": 33,
+      "why_prioritized": "AMD is the cleanest demand-validation reference in the chunk. Its MI-series ramp, HBM consumption, and dependence on advanced packaging make it a useful anchor for checking whether AI accelerator demand is still pulling on foundry, packaging, and memory constraints.",
+      "why_underfollowed": "Not underfollowed; it is included as a benchmark rather than a hidden opportunity."
+    },
+    {
+      "attention_level": "medium_attention",
+      "company": "Power Integrations",
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Exclude unless filings show direct AI data-center power, memory-package, packaging/test, or OSAT customer exposure with material revenue impact.",
+      "main_evidence_gap": "No confirmed direct linkage in the provided material to AI infrastructure, memory backend, photonics, or OSAT chokepoints; the current thesis is mostly a screening hypothesis.",
+      "market_cap_bucket": "mid_cap",
+      "rank": 2,
+      "scores": {
+        "bottleneck_severity": 1,
+        "demand_durability": 2,
+        "evidence_quality": 1,
+        "falsifiability": 4,
+        "mispricing_potential": 3,
+        "public_market_purity": 2,
+        "risk_clarity": 3,
+        "supplier_scarcity": 2,
+        "underfollowed_discovery": 3
+      },
+      "ticker": "POWI",
+      "total_score": 21,
+      "why_prioritized": "POWI is a testable shadow candidate because it is mid-cap and could become relevant if filings show direct AI data-center power or packaging/test exposure. That makes it a better Layer 3 follow-up than a pure placeholder, even though the present AI link is weak.",
+      "why_underfollowed": "It is less crowded than hyperscaler or core AI semiconductor names, and it sits in a niche power-management layer where a real AI exposure could be overlooked if disclosed in customer or segment data."
+    },
+    {
+      "attention_level": "low_attention",
+      "company": "PCTEL",
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Remove unless filings or investor materials show direct OSAT, memory test, datacenter AI, optical networking, or semiconductor inspection exposure.",
+      "main_evidence_gap": "No verified direct exposure to AI infrastructure, memory backend, photonics, or semiconductor inspection appears in the provided evidence.",
+      "market_cap_bucket": "unknown",
+      "rank": 3,
+      "scores": {
+        "bottleneck_severity": 1,
+        "demand_durability": 1,
+        "evidence_quality": 1,
+        "falsifiability": 5,
+        "mispricing_potential": 2,
+        "public_market_purity": 1,
+        "risk_clarity": 4,
+        "supplier_scarcity": 1,
+        "underfollowed_discovery": 2
+      },
+      "ticker": "PCTI",
+      "total_score": 18,
+      "why_prioritized": "PCTI is ranked third only because it is a clearly falsifiable low-attention placeholder. The current evidence does not support treating it as a real AI chokepoint, so it should be checked only if a direct customer or segment disclosure appears.",
+      "why_underfollowed": "It is obscure and low-attention, but obscurity here is not backed by a credible AI supply-chain signal."
+    }
+  ],
+  "summary": "Within this candidate chunk, AMD is the only true reference-demand name and is ranked first despite not being underfollowed, because it can validate AI accelerator, HBM, and advanced-packaging demand signals. POWI ranks second as a weak but testable AI power-adjacent shadow candidate with some mid-cap obscurity, while PCTI ranks third because the current evidence for direct AI chokepoint exposure is too thin. Overall, the chunk is dominated by one high-attention reference and two speculative shadows, so Layer 3 prioritization should favor testability and evidence path over obscurity alone.",
+  "theme_id": "AI"
+}
