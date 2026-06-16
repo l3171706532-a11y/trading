@@ -1,0 +1,230 @@
+{
+  "evidence": [
+    {
+      "claim": "The cached Serenity methodology requires starting from a broad theme and tracing demand drivers, supply-chain nodes, bottlenecks, public-market mappings, evidence, pricing checks, and falsification plans.",
+      "claim_type": "fact",
+      "confidence": 0.95,
+      "published_at": "2026-06-16",
+      "source_title": "Serenity.skill cached methodology context",
+      "source_url": "https://github.com/muxuuu/serenity-skill",
+      "ticker": ""
+    },
+    {
+      "claim": "KLA sits in process control and its tools inspect wafers, measure defects, improve yields, and manage process complexity across wafers, reticles, integrated circuits, packaging, and printed circuit boards.",
+      "claim_type": "inference",
+      "confidence": 0.9,
+      "published_at": "2026-06-14T11:55:00.000Z",
+      "source_title": "The Most Important Company in AI Youve Never Heard Of: KLA",
+      "source_url": "https://adamniedbalski.substack.com/p/the-most-important-company-in-ai",
+      "ticker": "KLA"
+    },
+    {
+      "claim": "Each AI chip generation requires more complex substrates, fewer suppliers can manufacture them at viable yields, and ABF film allocation can become a bottleneck when lead times stretch and prices rise.",
+      "claim_type": "inference",
+      "confidence": 0.88,
+      "published_at": "2026-04-08T06:16:03.000Z",
+      "source_title": "Ibiden: The Hidden Bottleneck Beneath AI",
+      "source_url": "https://nikhs.substack.com/p/ibiden-the-hidden-bottleneck-beneath",
+      "ticker": "IBIDF"
+    },
+    {
+      "claim": "The external context says Ibiden has large customer advance payments and that Nvidia, Intel, AMD, and hyperscalers may have co-funded expansion capex at top substrate suppliers, but this still needs primary-source verification.",
+      "claim_type": "hypothesis",
+      "confidence": 0.66,
+      "published_at": "2026-04-08T06:16:03.000Z",
+      "source_title": "Ibiden: The Hidden Bottleneck Beneath AI",
+      "source_url": "https://nikhs.substack.com/p/ibiden-the-hidden-bottleneck-beneath",
+      "ticker": "IBIDF"
+    },
+    {
+      "claim": "The external context describes Powertech as benefiting from memory-backend crowding out, with reported FOPLP progress, possible AMD and Broadcom validation, pilot yields, and CPO development that require confirmation from primary filings.",
+      "claim_type": "hypothesis",
+      "confidence": 0.62,
+      "published_at": "2026-05-04T14:30:58.000Z",
+      "source_title": "The Advanced Packaging Chokepoint: How Powertech Technology Is Capturing the Memory Overflow",
+      "source_url": "https://pequityresearch.substack.com/p/the-advanced-packaging-chokepoint",
+      "ticker": "6239.TW"
+    },
+    {
+      "claim": "The external context argues that grid-equipment backlog and lead times have expanded with AI data-center demand, and that Eaton was one of the earlier underpriced layers in the AI infrastructure stack.",
+      "claim_type": "inference",
+      "confidence": 0.7,
+      "published_at": "2026-05-26T06:50:56.000Z",
+      "source_title": "From Semiconductor to Energy Supercycle: The Full AI Infrastructure Framework",
+      "source_url": "https://denisdoroshenko.substack.com/p/from-semiconductor-cycle-to-energy",
+      "ticker": "ETN"
+    }
+  ],
+  "layer": "2B",
+  "memory_update": [
+    {
+      "confidence": 0.93,
+      "text": "This chunk is mostly reference leaders; the most useful role of NVDA, TSM, AVGO, MSFT, AMZN, GOOGL, META, and ETN is demand validation, not alpha generation.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.9,
+      "text": "The clearest underfollowed chokepoints surfaced by this chunk are KLA in process control, IBIDF in substrates and ABF allocation, and 6239.TW in advanced packaging and FOPLP.",
+      "type": "ticker_relationship"
+    },
+    {
+      "confidence": 0.88,
+      "text": "Primary-source confirmation is still missing for Powertech FOPLP validation, customer names, yields, and any CPO progress.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.87,
+      "text": "Primary-source confirmation is still missing for Ibiden customer advance payments, co-funded capex, and the exact severity of ABF film allocation constraints.",
+      "type": "evidence_gap"
+    },
+    {
+      "confidence": 0.85,
+      "text": "The data-center power and grid lane is still underexpanded below ETN; smaller contractors, transmission names, and power electronics suppliers should be searched next.",
+      "type": "evidence_gap"
+    }
+  ],
+  "summary": "This chunk is dominated by high-attention reference leaders. The main relationship pattern is demand anchors in AI compute, cloud, and power flowing into bottlenecks in advanced packaging, substrates, process control, networking, and grid equipment. The best underfollowed shadows to carry forward are KLA, Ibiden, and Powertech because they sit one or two steps away from obvious AI demand and have clearer chokepoint characteristics than the mega-cap anchors.",
+  "theme_id": "technology",
+  "ticker_relationships": [
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.78,
+      "hidden_signal_to_verify": "Whether data-center backlog, lead times, pricing, and capacity additions remain strong enough to support margin expansion versus cyclical normalization.",
+      "next_evidence": "Check latest backlog, segment mix, pricing commentary, and lead-time trends in the most recent earnings call and 10-Q.",
+      "node": "data-center power distribution and grid equipment",
+      "relationship": "AI data-center growth increases demand for electrical distribution, power management, and grid-facing equipment; this name is a reference anchor for the power stack.",
+      "ticker": "ETN"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.95,
+      "hidden_signal_to_verify": "Whether GPU and platform demand continues to drive upstream chokepoints rather than shifting faster than expected to alternative architectures.",
+      "next_evidence": "Check next earnings call for comments on HBM allocation, CoWoS or packaging capacity, networking attach rates, and supply bottlenecks.",
+      "node": "AI accelerators and system-level demand",
+      "relationship": "Primary visible demand driver for AI infrastructure buildout; downstream pressure should propagate into HBM, advanced packaging, networking, power, and test.",
+      "ticker": "NVDA"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.87,
+      "hidden_signal_to_verify": "Whether AI supply constraints remain tied to upstream capacity nodes and create identifiable beneficiaries among public suppliers.",
+      "next_evidence": "Check revenue mix, AI networking commentary, and any explicit supplier or packaging bottleneck disclosure in transcripts.",
+      "node": "custom AI ASICs and networking semiconductors",
+      "relationship": "Reference leader for custom ASIC and networking demand; useful for tracing whether supply constraints sit in foundry, packaging, substrates, or memory.",
+      "ticker": "AVGO"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.9,
+      "hidden_signal_to_verify": "Whether leading-edge wafer and advanced-packaging capacity limits persist and whether outsourcing shifts toward OSATs and packaging/test suppliers.",
+      "next_evidence": "Check capex, CoWoS-related commentary, utilization, and packaging capacity expansion in the latest filings and earnings materials.",
+      "node": "foundry capacity and advanced packaging",
+      "relationship": "Reference anchor for leading-edge wafer and advanced-packaging capacity; it helps map second-order beneficiaries in OSAT, inspection, metrology, and equipment.",
+      "ticker": "TSM"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.7,
+      "hidden_signal_to_verify": "Whether AMD accelerator ramps create specific demand for FOPLP, advanced substrates, and backend test suppliers beyond known foundry ties.",
+      "next_evidence": "Verify primary-source disclosures on packaging, memory allocation, and customer or design-win evidence before treating this as a chokepoint signal.",
+      "node": "AI accelerators and advanced packaging validation",
+      "relationship": "Reference AI accelerator supplier whose ramps can validate demand for HBM, OSAT, substrate, and test suppliers.",
+      "ticker": "AMD"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.8,
+      "hidden_signal_to_verify": "Whether AI networking demand is pushing adoption of CPO or remains mostly in pluggable optics and conventional switching architectures.",
+      "next_evidence": "Check mix shift, shipment commentary, and any references to optics, cabling, or photonics-related supplier constraints.",
+      "node": "AI networking and data-center interconnect",
+      "relationship": "Downstream benchmark for whether AI networking demand is broadening into CPO, optical connectivity, and higher-speed switching supply chains.",
+      "ticker": "ANET"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.76,
+      "hidden_signal_to_verify": "Whether the market is already fully pricing obvious lithography exposure while missing smaller process-control and packaging suppliers.",
+      "next_evidence": "Check whether order growth or guidance implies a stronger mix shift toward adjacent process steps rather than only EUV exposure.",
+      "node": "semiconductor lithography equipment",
+      "relationship": "Reference benchmark for whether AI capex is broadening into packaging, metrology, and backend equipment faster than into already-recognized leading-edge lithography.",
+      "ticker": "ASML"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.75,
+      "hidden_signal_to_verify": "Whether AI infrastructure capex continues to flow through to suppliers instead of being offset by internal efficiency or capex digestion.",
+      "next_evidence": "Check capex guidance, data-center build commentary, and any changes in external supplier intensity.",
+      "node": "hyperscaler AI capex",
+      "relationship": "Cloud demand anchor for AI infrastructure spending that should flow into power, cooling, networking, semiconductor, and security suppliers.",
+      "ticker": "MSFT"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.76,
+      "hidden_signal_to_verify": "Whether AWS AI capex growth remains strong enough to sustain second-order demand for suppliers.",
+      "next_evidence": "Check AWS capex commentary, capacity expansion language, and any disclosed data-center power or cooling constraints.",
+      "node": "AWS AI infrastructure capex",
+      "relationship": "Reference demand node for AI infrastructure, networking, power, cooling, and security complexity.",
+      "ticker": "AMZN"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.74,
+      "hidden_signal_to_verify": "Whether internal TPU and cloud AI expansion creates identifiable external bottlenecks in HBM, packaging, networking, power, cooling, or security tooling.",
+      "next_evidence": "Check capex guidance and any supplier-related language tied to AI cluster expansion or custom silicon rollout.",
+      "node": "custom AI compute and cloud capex",
+      "relationship": "Reference demand node for AI infrastructure buildout and custom compute; useful for validating second-order supplier demand.",
+      "ticker": "GOOGL"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "reference",
+      "evidence_quality": 0.73,
+      "hidden_signal_to_verify": "Whether Meta AI capex remains externally supplier-intensive or shifts toward internal optimization and capex digestion.",
+      "next_evidence": "Check capital expenditure guidance, infrastructure spending mix, and any evidence of external supply-chain stress.",
+      "node": "hyperscaler AI infrastructure and data-center buildout",
+      "relationship": "Reference demand node for data-center and AI infrastructure spending; helps validate whether suppliers are seeing sustained pull-through.",
+      "ticker": "META"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.91,
+      "hidden_signal_to_verify": "Whether AI-driven growth is broad-based across foundry, logic, memory, advanced packaging, and services rather than isolated to one segment.",
+      "next_evidence": "Check the latest earnings release and transcript for AI-related growth by end market and any margin or backlog acceleration.",
+      "node": "process control, inspection, and metrology",
+      "relationship": "Underfollowed chokepoint name that sits across wafers, reticles, packaging, and PCBs; it benefits when AI complexity raises yield-control intensity systemwide.",
+      "ticker": "KLA"
+    },
+    {
+      "claim_type": "hypothesis",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.66,
+      "hidden_signal_to_verify": "Whether FOPLP progress, pilot yields, customer backing, and CPO development are confirmed by primary filings rather than secondary commentary.",
+      "next_evidence": "Verify company filings for capacity, yield, customer names, and any capex or validation disclosures before promoting the thesis.",
+      "node": "advanced packaging, FOPLP, and memory backend overflow",
+      "relationship": "Underfollowed packaging candidate that may benefit if conventional DRAM and NAND backend work is pushed outward by HBM crowding-out effects.",
+      "ticker": "6239.TW"
+    },
+    {
+      "claim_type": "inference",
+      "discovery_lane": "underfollowed",
+      "evidence_quality": 0.88,
+      "hidden_signal_to_verify": "Whether ABF film allocation, customer advance payments, and substrate lead times remain tight enough to constrain supply.",
+      "next_evidence": "Check primary filings for customer advances, capex, and any explicit disclosure around ABF supply or substrate capacity.",
+      "node": "advanced substrates and ABF film allocation",
+      "relationship": "Underfollowed substrate bottleneck candidate whose attractiveness rises if AI chip complexity keeps shrinking the supplier set that can achieve viable yields.",
+      "ticker": "IBIDF"
+    }
+  ]
+}
