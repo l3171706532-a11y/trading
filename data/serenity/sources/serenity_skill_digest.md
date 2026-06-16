@@ -1,6 +1,6 @@
 # Serenity Skill Repository Digest
 
-Generated: 2026-06-16 08:42:27 UTC
+Generated: 2026-06-16 11:42:28 UTC
 
 Purpose: provide cached methodology context for cloud-side Serenity / chokepoint research runs.
 
@@ -3203,10 +3203,8 @@ Each entry covers one ticker. Update **Latest signal** and timestamp in-place wh
 
 ## $SPCX — SpaceX
 
-- **Latest signal**: Bullish — IPO debut confirmed; now trading at $2.15T+ market cap
-- **Latest tweet**: [2065462946785030506](https://x.com/aleabitoreddit/status/2065462946785030506) — 2026-06-12T15:55:15Z
-- **Quote**: "$SPCX is now trading! And it's now over $2.15T+ MC."
-- **Context**: Serenity had been tracking the SPCX IPO closely; same-day tweet (2065434058474307866) noted "everyone is just waiting for the $SPCX IPO in a few hours." IPO confirmed with $2.15T+ market cap on debut — framed as a milestone. J
+- **Latest signal**: Bullish (cautious on acquisition valuation) — IPO confirmed at $2.15T+ MC (Jun 12). New Jun 16: $SPCX acquired Cursor (AI coding) for $60B; Serenity surprised at the price, initially skeptical, but posits network-effect / AI training-data flywheel could justify it; cites Elon's Twitter acquisition as precedent for underestimated strategic value. No position change stated.
+- **Latest tweet**: [2066838650193949091](https://x.com/aleabitoreddit/status/2066838650193949091) — 2026-06-16T11:01:48
 ...TRUNCATED...
 ```
 
