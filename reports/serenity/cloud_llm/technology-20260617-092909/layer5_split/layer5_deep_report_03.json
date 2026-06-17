@@ -1,0 +1,116 @@
+{
+  "deep_reports": [
+    {
+      "attention_level": "medium_attention",
+      "company": "Ibiden Co., Ltd.",
+      "discovery_lane": "reference",
+      "evidence_chain": [
+        "[Fact] Ibiden has an official investor-relations site with recent FY2025 and quarterly financial-statement materials listed, including FY2025 materials dated May 11, 2026. Source: https://www.ibiden.com/ir/",
+        "[Fact] Ibiden’s official company outline lists products including IC Package, SiC-DPF, Substrate Holding Mat, Graphite Specialty, and High Temperature Insulation Wool; it also reports consolidated annual sales of JPY 369,436 million and consolidated employees of 11,168 as of March 2025. Source: https://www.ibiden.com/company/profile/info/",
+        "[Fact] Ibiden’s official company outline states capital of JPY 64,152 million as of March 2025, fiscal year-end March 31, and issued common shares of 281,721,114 as of January 1, 2026. Source: https://www.ibiden.com/company/profile/info/",
+        "[Fact] Ibiden’s official global-network page lists multiple Japan electronics-related manufacturing sites, including Ogaki Plant, Ogaki Central Plant, Aoyanagi Plant, Gama Plant, and Ono Plant. Source: https://www.ibiden.com/company/profile/globalization-japan-ibiden/",
+        "[Fact] StockAnalysis describes Ibiden as offering printed circuit boards, plastic packaging, and IC package substrates used for PC/data-center MPUs and GPUs for AI and vehicles; it also reported market cap of JPY 5.24 trillion and TTM revenue of JPY 416.20 billion on its captured page. Source: https://stockanalysis.com/quote/tyo/4062/",
+        "[Fact with source conflict] CompaniesMarketCap showed Ibiden market capitalization of about USD 32.67 billion as of June 2026, while another search result showed about USD 14.11 billion. Because market cap is volatile and source-dependent, the report classifies Ibiden as large_cap rather than relying on a precise value. Sources: https://companiesmarketcap.com/ibiden/marketcap/ and https://assetmarketcap.com/asset/4062.T",
+        "[Fact] Ibiden’s IR library page lists FY2025 financial-review materials. Source: https://www.ibiden.com/ir/library/statement/",
+        "[Inference] The company’s exposure to AI/HPC package substrate demand is supported directionally by product descriptions and external profile data, but the exact AI/HPC revenue and margin contribution still requires verification from official segment disclosures, earnings presentations, and Q&A.",
+        "[Hypothesis] If high-end substrate qualification and yield learning are the binding constraints, Ibiden’s moat should appear as sustained high utilization, stronger Electronics margins, customer stickiness, and capex that converts into profitable output rather than only higher depreciation."
+      ],
+      "falsification_plan": [
+        "Downgrade the thesis if official financial materials show Electronics or IC package substrate growth is weak despite AI/HPC industry demand.",
+        "Downgrade the thesis if operating margin does not improve or deteriorates while capex and depreciation rise.",
+        "Downgrade the thesis if management commentary points to broad semiconductor recovery rather than AI/server/ASIC substrate demand as the main driver.",
+        "Downgrade the thesis if customer qualification or new plant ramp timelines slip materially.",
+        "Downgrade the thesis if competitors disclose successful qualification at the same AI/HPC customers and enough incremental capacity to ease scarcity.",
+        "Downgrade the thesis if major AI accelerator platforms redesign packages in ways that reduce Ibiden-like high-end organic substrate intensity.",
+        "Downgrade the thesis if customer concentration leads to price concessions, order volatility, or inventory corrections rather than durable bottleneck economics.",
+        "Upgrade the thesis only if AI/server substrate exposure is quantifiable and tied to revenue growth, utilization, margin expansion, and credible capex returns."
+      ],
+      "hidden_signal_to_verify": "The hidden signal is whether AI-server and accelerator package substrate demand is translating into measurable Ibiden-specific economics: rising Electronics/IC package substrate revenue, higher operating margin, capacity sold out before ramp, management commentary on AI servers or ASICs, customer concentration clues, and capex that earns returns despite depreciation. The upgrade signal would be official disclosure that advanced AI/HPC substrates are a material and growing profit driver with sustained utilization and successful yield ramp. The downgrade signal would be rising capex without margin improvement, delayed customer qualification, customer diversification away from Ibiden, or substitution by alternative substrate/packaging architectures.",
+      "market_cap_bucket": "large_cap",
+      "next_research_tasks": [
+        "Download and parse Ibiden FY2025 financial statement, financial review, and latest earnings presentation from the official IR library; extract Electronics revenue, operating profit, margin, capex, depreciation, and management commentary.",
+        "Search Ibiden’s FY2025 and FY2026 Q&A materials for references to AI servers, ASICs, GPUs, HPC, data centers, IC package substrate capacity, utilization, yield, and customer qualification.",
+        "Build a competitor table for high-end IC package substrate suppliers, including Shinko, Unimicron, Nan Ya PCB, Kinsus, AT&S, Semco/Samsung Electro-Mechanics, and others; compare capex timing, customer overlap, and disclosed AI/server exposure.",
+        "Cross-check demand commentary from Nvidia, AMD, Broadcom, Marvell, Intel, TSMC, ASE, Amkor, and major server OEMs for substrate bottleneck language.",
+        "Estimate Ibiden’s AI/HPC substrate sensitivity: revenue per substrate, substrate area trend, layer-count trend, platform cycle, yield assumptions, and capacity additions.",
+        "Track Ono Plant and other electronics capacity ramp milestones, including timing of mass production, utilization, incremental depreciation, and shipment contribution.",
+        "Verify customer concentration through annual securities reports, major customer disclosures if available, import/export records if legally accessible, supply-chain checks, and analyst Q&A.",
+        "Monitor alternative substrate technologies, especially glass substrate roadmaps and advanced packaging architectures that may change organic substrate intensity."
+      ],
+      "official_website": "https://www.ibiden.com/",
+      "official_x_url": "N/A",
+      "risks": [
+        "Customer concentration risk: AI accelerator, CPU, ASIC, foundry, or OSAT customers may have enough bargaining power to capture much of the economics.",
+        "Capex return risk: aggressive substrate expansion can create depreciation burden before utilization, yield, or pricing catches up.",
+        "Yield-ramp risk: the same process complexity that creates the chokepoint can delay revenue recognition or pressure margins if yields remain poor.",
+        "Cycle risk: package substrate markets have historically been cyclical; a digestion phase in AI accelerators or general servers could reduce utilization.",
+        "Competitive supply risk: other qualified substrate makers may add enough high-end capacity to reduce scarcity or pricing power.",
+        "Technology substitution risk: glass substrates, alternative interposers, different package architectures, or chiplet redesigns could reduce organic substrate intensity over time.",
+        "Evidence risk: public disclosures may not cleanly separate AI/HPC substrates from broader Electronics revenue, making the thesis hard to prove.",
+        "Valuation/expectation risk: if Ibiden is already being repriced as an AI substrate leader, future upside in fundamentals may already be partly reflected in the share price; this report does not make any buy/sell recommendation."
+      ],
+      "supply_chain_position": "AI/HPC compute demand → accelerator/CPU/ASIC design houses → foundry wafer fabrication → advanced packaging/OSAT/foundry packaging such as 2.5D/3D integration → high-end organic IC package substrate/ABF-like substrate layer → Ibiden as a qualified substrate supplier → AI servers and data-center systems. Ibiden sits upstream of the visible GPU/server story and downstream of substrate materials, equipment, plating, lamination, drilling, inspection, and yield-control tools.",
+      "thesis_cn": "Ibiden 的潜在卡点不只是“ABF/IC 封装基板扩产”，而是 AI/HPC 加速器所需的大尺寸、多层、细线路、高良率、客户定制认证的高端 IC package substrate。公司官网确认其产品包括 IC package substrates，应用于 PC、数据中心 MPU 以及 AI/汽车 GPU；公司资料也显示其 Electronics 相关生产基地集中在日本多处工厂。若 AI accelerator、ASIC、CPU/GPU 平台升级继续推高基板面积、层数、线路精度和良率要求，则已通过核心客户验证、具备高端量产经验的供应商可能获得更强议价和更高产能利用率。但目前仍需把行业层面的“AI 基板紧缺”转化为公司层面的硬证据：AI/server substrate 收入占比、客户集中度、毛利贡献、产能利用率、良率爬坡、折旧压力和新增产能回报。",
+      "thesis_en": "[Inference] Ibiden’s possible chokepoint is not simply generic ABF or IC substrate capacity; it is the advanced package substrate layer required by AI/HPC accelerators: large body size, high layer count, fine features, high yield, and customer/platform-specific qualification. Company and third-party profile data confirm that Ibiden sells IC package substrates used in PCs, data-center MPUs, and GPUs for AI/automotive applications, and its official site identifies multiple Japan-based electronics manufacturing plants. If AI accelerator, ASIC, CPU, and GPU platform transitions keep increasing substrate area, layer count, routing density, and yield difficulty, qualified high-end suppliers may gain better utilization and pricing power. The thesis is not yet fully proven, because the next step is company-level proof: AI/server substrate revenue mix, customer concentration, margin contribution, utilization, yield ramp, depreciation burden, and returns on new capacity.",
+      "ticker": "4062.JP",
+      "title_cn": "Ibiden：AI/HPC 高端 IC 封装基板的产能与良率卡点",
+      "title_en": "Ibiden: Capacity, Yield, and Qualification Chokepoint in High-End AI/HPC IC Package Substrates",
+      "why_underfollowed": "Ibiden is not truly obscure among semiconductor substrate specialists, so it is classified as a reference-lane target rather than an underfollowed alpha candidate. However, it can still be missed by broad AI screens because it is a Japanese component and substrate manufacturer, not an obvious AI chip designer, cloud platform, foundry, server OEM, networking company, or power-equipment supplier. The market may also mislabel it as a diversified electronics/ceramics company, causing investors to underweight the purity and cyclicality of its high-end IC package substrate exposure."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Ibiden maintains an official investor-relations site with FY2025 and quarterly financial-statement materials.",
+      "claim_type": "fact",
+      "source_note": "Official company IR page.",
+      "source_url": "https://www.ibiden.com/ir/"
+    },
+    {
+      "claim": "Ibiden’s official company outline lists IC Package among its products and reports consolidated annual sales of JPY 369,436 million and consolidated employees of 11,168 as of March 2025.",
+      "claim_type": "fact",
+      "source_note": "Official company profile.",
+      "source_url": "https://www.ibiden.com/company/profile/info/"
+    },
+    {
+      "claim": "Ibiden has multiple Japan electronics-related manufacturing plants, including Ogaki, Ogaki Central, Aoyanagi, Gama, and Ono.",
+      "claim_type": "fact",
+      "source_note": "Official global-network page.",
+      "source_url": "https://www.ibiden.com/company/profile/globalization-japan-ibiden/"
+    },
+    {
+      "claim": "Ibiden offers IC package substrates used for PC/data-center MPUs and GPUs for AI and vehicles.",
+      "claim_type": "fact",
+      "source_note": "Third-party company profile; should be cross-checked against Ibiden product pages and official filings.",
+      "source_url": "https://stockanalysis.com/quote/tyo/4062/"
+    },
+    {
+      "claim": "Ibiden’s market capitalization appears to place it in a large-cap bucket, but precise market cap differs across sources and dates.",
+      "claim_type": "fact_with_source_conflict",
+      "source_note": "CompaniesMarketCap showed about USD 32.67 billion as of June 2026; AssetMarketCap showed about USD 14.11 billion in another search result. Bucket classification is therefore approximate.",
+      "source_url": "https://companiesmarketcap.com/ibiden/marketcap/"
+    },
+    {
+      "claim": "AI/HPC package substrate complexity can create a chokepoint through qualification, yield learning, high layer count, fine features, and platform-specific requirements.",
+      "claim_type": "inference",
+      "source_note": "Derived from the provided brief and Serenity chokepoint framework; requires company-level verification.",
+      "source_url": "cached_serenity_methodology_context"
+    }
+  ],
+  "layer": 5,
+  "memory_update": [
+    {
+      "key": "4062.JP_layer5_status",
+      "value": "Reference-lane Layer 5 mini deep report completed. Thesis remains inference pending official proof of AI/HPC substrate revenue, margin contribution, utilization, yield, capex returns, and customer concentration."
+    },
+    {
+      "key": "4062.JP_primary_chokepoint",
+      "value": "High-end IC package substrates for AI/HPC accelerators where qualification and yield learning may matter as much as nominal capacity."
+    },
+    {
+      "key": "4062.JP_next_gate",
+      "value": "Parse latest official FY2025/FY2026 IR materials and Q&A for Electronics segment economics and explicit AI/server/ASIC substrate disclosures."
+    }
+  ],
+  "summary": "Layer 5 mini deep report for Ibiden Co., Ltd. The thesis remains an inference, not a fully proven company-specific fact: Ibiden appears positioned in the high-end IC package substrate chokepoint for AI/HPC accelerators, but the key unresolved work is to prove how much of revenue, margin, utilization, and future capex return is directly tied to AI/server substrates rather than broad semiconductor recovery or market enthusiasm.",
+  "theme_id": "technology_ai_hpc_package_substrate_ibiden_4062jp"
+}
