@@ -1,0 +1,1263 @@
+{
+  "args": {
+    "limit_themes": 1,
+    "max_briefs": 8,
+    "max_candidates": 60,
+    "max_candidates_per_node": 15,
+    "max_deep_reports": 3,
+    "max_layer1_nodes": 6,
+    "theme_id": [
+      "education"
+    ],
+    "themes": "config/serenity_themes.csv",
+    "universe": "config/us_serenity_pilot_universe.csv"
+  },
+  "external_search": {
+    "enabled": true,
+    "error_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_errors.jsonl",
+    "evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+    "max_queries": 5,
+    "max_results_per_query": 4,
+    "twitter_enabled": true
+  },
+  "layer1a": {
+    "coverage_gaps": [
+      "Need current market-cap and analyst-coverage screen for public education, HR-tech, student-finance, assessment, and simulation vendors.",
+      "Need filings-based revenue segmentation for GCE, SEI, LRN, and potential second-order suppliers before any candidate ranking.",
+      "Need regulatory map for Title IV, gainful employment, borrower-defense, state authorization, and student-loan servicing changes as of 2026.",
+      "Need source-backed evidence on healthcare clinical-placement shortages, nursing faculty shortages, and simulation substitution rules by state/accreditor.",
+      "Need employer-spending data for tuition assistance, skills training, and education benefits to separate cyclical HR budget risk from structural demand.",
+      "Need customer/supplier dependency checks: university partner concentration, government contract concentration, employer concentration, and district/state funding exposure."
+    ],
+    "evidence": [
+      {
+        "claim": "Grand Canyon Education says its online pillar exceeded long-term growth objectives, supported by expanding program offerings and more than 5,000 educational agreements across more than 34,000 locations.",
+        "claim_type": "fact",
+        "confidence": 0.86,
+        "published_at": "",
+        "source_title": "Grand Canyon Education stockholder materials",
+        "source_url": "https://investors.gce.com/static-files/5a5de984-323f-47ba-a216-6d39ff29c33e",
+        "ticker": "LOPE"
+      },
+      {
+        "claim": "Grand Canyon Education says it has helped Grand Canyon University graduate 183,632 students since becoming a service provider, including many in licensure fields such as teaching, counseling, social work, and nursing.",
+        "claim_type": "fact",
+        "confidence": 0.86,
+        "published_at": "",
+        "source_title": "Grand Canyon Education stockholder materials",
+        "source_url": "https://investors.gce.com/static-files/5a5de984-323f-47ba-a216-6d39ff29c33e",
+        "ticker": "LOPE"
+      },
+      {
+        "claim": "Grand Canyon Education says that since 2019, 17,644 students graduated from other university partners' ABSN or OTA programs, and that it continues to invest in simulation technology, virtual reality, and prerequisite strategies.",
+        "claim_type": "fact",
+        "confidence": 0.84,
+        "published_at": "",
+        "source_title": "Grand Canyon Education stockholder materials",
+        "source_url": "https://investors.gce.com/static-files/5a5de984-323f-47ba-a216-6d39ff29c33e",
+        "ticker": "LOPE"
+      },
+      {
+        "claim": "Strategic Education describes itself as providing career-relevant learning experiences and says it has employer partners across the U.S., including offerings such as tuition assistance, accredited degrees, non-degree skill pathways, coding schools, and workforce solutions.",
+        "claim_type": "fact",
+        "confidence": 0.82,
+        "published_at": "2026-04-24",
+        "source_title": "Strategic Education Inc.",
+        "source_url": "https://strategiceducation.com/",
+        "ticker": "STRA"
+      },
+      {
+        "claim": "Stride describes itself as serving learners in primary, secondary, and postsecondary settings, with services including K-12 education, career learning, professional skills training, and talent development.",
+        "claim_type": "fact",
+        "confidence": 0.82,
+        "published_at": "2025-10-28",
+        "source_title": "Strong Demand Drives Growth",
+        "source_url": "https://www.globenewswire.com/de/news-release/2025/10/28/3175965/0/en/Strong-Demand-Drives-Growth.html",
+        "ticker": "LRN"
+      },
+      {
+        "claim": "Stride says it reaches learners in all 50 U.S. states and over 100 countries.",
+        "claim_type": "fact",
+        "confidence": 0.82,
+        "published_at": "2025-10-28",
+        "source_title": "Strong Demand Drives Growth",
+        "source_url": "https://www.globenewswire.com/de/news-release/2025/10/28/3175965/0/en/Strong-Demand-Drives-Growth.html",
+        "ticker": "LRN"
+      },
+      {
+        "claim": "Operations-management research cited in the search context defines a supplier bottleneck in terms of effective capacity: the lowest capacity level among suppliers determines total supply-chain throughput.",
+        "claim_type": "fact",
+        "confidence": 0.76,
+        "published_at": "2023-02-14",
+        "source_title": "Supplier bottleneck and information dissemination - Li - 2023",
+        "source_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/joom.1239",
+        "ticker": ""
+      },
+      {
+        "claim": "For education, the strongest Serenity-style bottlenecks are likely capacity, compliance, employer integration, and credential trust layers rather than generic course content.",
+        "claim_type": "inference",
+        "confidence": 0.72,
+        "published_at": "2026-06-17",
+        "source_title": "Cached Serenity skill methodology context",
+        "source_url": "https://github.com/muxuuu/serenity-skill",
+        "ticker": ""
+      }
+    ],
+    "layer": "1A",
+    "memory_update": [
+      {
+        "confidence": 0.84,
+        "text": "Education theme should be treated as human-capital infrastructure spanning higher education, employer workforce training, K-12 virtual schooling, healthcare licensure programs, and student-finance rails.",
+        "type": "theme_relation"
+      },
+      {
+        "confidence": 0.82,
+        "text": "Healthcare licensure education capacity is a promising underfollowed node because growth may depend on clinical placements, simulation, virtual reality training, faculty, and university partner operations.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.78,
+        "text": "Employer-funded workforce training and tuition-benefit administration is a promising discovery lane; beneficiaries may be classified as HR-tech or benefits administration rather than education.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.72,
+        "text": "Assessment, credentialing, identity verification, and proctoring are cross-cutting trust infrastructure layers for online learning, workforce training, and licensure programs.",
+        "type": "supply_chain_node"
+      },
+      {
+        "confidence": 0.9,
+        "text": "Future layers need current public-company screen by market cap, analyst coverage, segment revenue, customer concentration, and regulatory exposure before candidate ranking.",
+        "type": "coverage_gap"
+      },
+      {
+        "confidence": 0.62,
+        "text": "Student-loan servicing and repayment-compliance rails are plausible second-order beneficiaries but require stronger evidence before promotion from speculative shadow lane.",
+        "type": "coverage_gap"
+      }
+    ],
+    "summary": "Education is best decomposed not as a single online-learning story, but as a multi-channel human-capital infrastructure theme: employer-funded workforce training, regulated degree programs tied to licensure, K-12 virtual schooling, healthcare clinical-capacity expansion, student-loan servicing/compliance rails, and niche enablement software for enrollment, simulation, assessment, credentialing, and employer benefits. The most promising Serenity-style chokepoints are likely not the largest universities themselves, but the constrained layers that universities, employers, school districts, healthcare systems, and loan programs depend on: accredited program operations, clinical-placement capacity, employer tuition-benefit platforms, state authorization/compliance, virtual-school infrastructure, and student-finance administration. This Layer 1A pass is an initial decomposition only; it does not rank securities or make trading recommendations.",
+    "supply_chain_nodes": [
+      {
+        "bottleneck_hypothesis": "The chokepoint is not generic course content; it is employer integration, HR workflow embedding, reimbursement administration, measurable skill outcomes, and the ability to match training to internal talent pipelines.",
+        "claim_type": "hypothesis",
+        "confidence": 0.74,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Prioritize USD 300M-10B companies with recurring B2B revenue, employer concentration disclosures, and measurable education/workforce exposure. Include larger firms only as reference leaders.",
+        "node": "Employer-funded workforce training and tuition-benefit platforms",
+        "node_id": "employer_funded_workforce_training",
+        "public_asset_hunting_notes": "Start with Strategic Education as a reference leader because its public materials emphasize employer partners, tuition assistance, accredited degrees, non-degree pathways, coding schools, and workforce solutions. Then search for smaller public vendors embedded in HR benefits, learning administration, credentialing, or workforce analytics.",
+        "role": "customer",
+        "search_queries": [
+          "employer tuition assistance platform public company workforce education revenue",
+          "Strategic Education employer partners tuition assistance platform annual report",
+          "workforce training benefits administration public company education",
+          "career learning employer partner public education company"
+        ],
+        "underfollowed_angle": "Obscure beneficiaries may be labeled as HR software, benefits administration, testing, credentialing, or workforce analytics rather than education companies.",
+        "why_it_matters": "Employers are increasingly direct payers or channel partners for career-relevant degrees, certificates, coding schools, and non-degree skill pathways. This can shift demand from consumer-paid education toward B2B2C learning models with potentially lower student-acquisition friction."
+      },
+      {
+        "bottleneck_hypothesis": "The scarce layer is clinical and hybrid-program capacity: ABSN/OTA sites, simulation labs, virtual reality training, prerequisite pipelines, and university partner operations that allow programs to expand while meeting licensure standards.",
+        "claim_type": "hypothesis",
+        "confidence": 0.82,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Look for small/mid-cap healthcare training, simulation, education services, and software vendors where education customers are material but not obvious from sector labels.",
+        "node": "Healthcare licensure program capacity: nursing, OTA, counseling, social work, and related programs",
+        "node_id": "healthcare_licensure_program_capacity",
+        "public_asset_hunting_notes": "Use Grand Canyon Education as a reference because provided evidence says GCE supports university partners, online programs, hybrid programs, ABSN/OTA programs, and investments in simulation technology, virtual reality, and prerequisite strategies. Hunt for public suppliers of simulation, clinical-placement software, lab equipment, and healthcare education services.",
+        "role": "capacity",
+        "search_queries": [
+          "public company nursing simulation technology education revenue",
+          "accelerated bachelor nursing program clinical placement software public company",
+          "occupational therapy assistant program university partner services public company",
+          "healthcare education simulation virtual reality supplier public company"
+        ],
+        "underfollowed_angle": "Second-order beneficiaries may sit outside standard education screens: simulation hardware/software, healthcare training labs, staffing/preceptor networks, and clinical scheduling tools.",
+        "why_it_matters": "Licensure-linked healthcare and social-services programs have clearer employment demand and regulatory requirements than generic online degrees. Capacity expansion depends on program approvals, clinical placements, simulation infrastructure, faculty, and student support."
+      },
+      {
+        "bottleneck_hypothesis": "The chokepoint is credible, compliant scaling of online and hybrid programs with measurable student outcomes, not simply content hosting. Providers with long university relationships, program-development expertise, and regulatory discipline may be harder to replace.",
+        "claim_type": "inference",
+        "confidence": 0.76,
+        "discovery_lane": "reference",
+        "market_cap_hunting_notes": "Reference leaders may exceed ideal underfollowed size. For alpha discovery, screen sub-USD 10B vendors with high education vertical exposure and university customer disclosures.",
+        "node": "Online program management and university-services infrastructure",
+        "node_id": "online_program_management_university_services",
+        "public_asset_hunting_notes": "Map GCE and other OPM/university-service firms as reference points, then search for less obvious suppliers: enrollment analytics, CRM, retention tools, instructional design, state authorization support, and student-success platforms.",
+        "role": "infrastructure",
+        "search_queries": [
+          "online program management public company university services enrollment support",
+          "higher education student success software public company university customers",
+          "state authorization compliance software higher education public company",
+          "university enrollment analytics CRM public company education vertical"
+        ],
+        "underfollowed_angle": "The most visible OPM names may be fully debated; the overlooked angle is specialized enablement software used by many institutions but categorized under SaaS, analytics, or customer engagement.",
+        "why_it_matters": "Universities often need external support for enrollment, marketing, course operations, student advising, technology, and employer outreach. These service layers may capture value even when the university brand owns the student relationship."
+      },
+      {
+        "bottleneck_hypothesis": "The chokepoint is operating compliant multi-state virtual schools at scale: curriculum, teacher staffing, special education, attendance tracking, state reporting, and district relationships.",
+        "claim_type": "hypothesis",
+        "confidence": 0.78,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Favor small/mid-cap education service providers with district exposure, recurring contracts, and state-level funding sensitivity. Treat micro-cap tutoring or content firms as speculative unless contracts are verifiable.",
+        "node": "K-12 virtual schooling and alternative digital schooling platforms",
+        "node_id": "k12_virtual_schooling_platforms",
+        "public_asset_hunting_notes": "Use Stride as a reference leader because provided evidence says it serves K-12, postsecondary, career learning, professional skills training, and talent development across all 50 states and over 100 countries. Then search for smaller curriculum, tutoring, assessment, and special-education vendors tied to virtual schooling.",
+        "role": "distribution",
+        "search_queries": [
+          "K-12 virtual school public company state contracts curriculum services",
+          "online K-12 special education services public company",
+          "Stride career learning K-12 public company annual report",
+          "digital curriculum state reporting virtual school supplier public company"
+        ],
+        "underfollowed_angle": "Obscure suppliers may be curriculum vendors, student-information systems, special-education service providers, proctoring firms, or implementation partners rather than branded virtual schools.",
+        "why_it_matters": "K-12 online schooling is a distinct demand pool from higher education and workforce training. It depends on state funding, district authorizations, curriculum standards, teacher networks, family adoption, and student outcomes."
+      },
+      {
+        "bottleneck_hypothesis": "The chokepoint is regulatory and operational competence: handling federal/private loan rules, repayment-plan changes, data security, customer service, and compliance at scale.",
+        "claim_type": "speculation",
+        "confidence": 0.58,
+        "discovery_lane": "speculative_shadow",
+        "market_cap_hunting_notes": "Prioritize companies where education-finance exposure is disclosed and material. Avoid relying on generic consumer-finance exposure without evidence of student-loan servicing or education-payment links.",
+        "node": "Student-finance, loan-servicing, repayment, and compliance rails",
+        "node_id": "student_finance_and_loan_servicing_rails",
+        "public_asset_hunting_notes": "Search beyond universities for public companies in student-loan servicing, education-finance software, payment processing, call-center compliance, identity verification, and borrower analytics.",
+        "role": "regulation",
+        "search_queries": [
+          "student loan servicing public company federal contract annual report",
+          "education finance compliance software public company student loans",
+          "borrower communication repayment plan servicing public company",
+          "student loan default prevention analytics public company"
+        ],
+        "underfollowed_angle": "This lane may be hidden inside specialty finance, government services, BPO, analytics, or software companies rather than education tickers.",
+        "why_it_matters": "Student loans and repayment complexity shape affordability, enrollment decisions, institutional risk, and borrower outcomes. Servicing, compliance, borrower communication, and default-prevention infrastructure can benefit even when education providers face pressure."
+      },
+      {
+        "bottleneck_hypothesis": "The scarce layer is trusted verification: secure exams, identity proofing, skills assessment, credential issuance, and integrations with institutions, employers, and regulators.",
+        "claim_type": "hypothesis",
+        "confidence": 0.72,
+        "discovery_lane": "underfollowed",
+        "market_cap_hunting_notes": "Target USD 300M-10B firms with recurring institutional or certification-body relationships. Small vendors require verification of customer concentration and AI-cheating mitigation relevance.",
+        "node": "Assessment, credentialing, identity verification, and remote proctoring infrastructure",
+        "node_id": "assessment_credentialing_and_proctoring",
+        "public_asset_hunting_notes": "Search for public testing, credentialing, proctoring, identity-verification, and education data vendors. This node cuts across K-12, higher ed, professional certification, and employer training.",
+        "role": "data",
+        "search_queries": [
+          "remote proctoring public company higher education credentialing",
+          "assessment credentialing public company workforce training",
+          "identity verification online education testing public company",
+          "professional certification testing services public company education"
+        ],
+        "underfollowed_angle": "These companies may be classified as testing, compliance, identity, workforce software, or data services, causing them to be missed by simple education screens.",
+        "why_it_matters": "Online degrees, workforce credentials, licensure programs, and K-12 virtual learning all require trusted assessment and proof of learning. Credential validity becomes more important as AI-generated work and remote learning increase integrity risks."
+      }
+    ],
+    "theme_id": "education_online_learning_workforce_training_student_loans_underfollowed",
+    "theme_map": {
+      "demand_drivers": [
+        "Workforce reskilling demand from employers facing skills gaps, automation, AI adoption, and retention pressure.",
+        "Healthcare and education labor shortages driving demand for licensure-linked programs such as nursing, teaching, counseling, social work, occupational therapy, and allied health.",
+        "Adult learners seeking flexible, online, hybrid, and employer-funded degree pathways.",
+        "K-12 families and districts using virtual schooling, alternative schooling models, and supplemental digital learning.",
+        "Universities seeking outsourced enrollment, marketing, instructional design, simulation, compliance, and student-support infrastructure.",
+        "Student affordability pressure, federal loan complexity, and repayment-plan compliance needs creating demand for servicing, data, and administrative rails."
+      ],
+      "discovery_lanes": {
+        "low_attention_search_queries": [
+          "public company employer tuition assistance platform workforce education partners annual report",
+          "small cap education technology clinical simulation nursing programs public company",
+          "university services provider accelerated bachelor nursing clinical placement simulation revenue",
+          "student loan servicing compliance software public company education finance",
+          "K-12 virtual school curriculum services state authorization public company",
+          "accreditation compliance licensure tracking software higher education public company",
+          "online program manager underfollowed supplier university partners workforce training",
+          "education benefits platform employer partners public company low analyst coverage"
+        ],
+        "reference_leaders": [
+          "Grand Canyon Education / GCE as a university services and hybrid healthcare-program enablement reference point.",
+          "Strategic Education / SEI as an employer-partner and workforce-education reference point.",
+          "Stride / LRN as a K-12 virtual education and lifelong-learning reference point.",
+          "Large private or nonprofit universities and online platforms only as demand indicators, not primary alpha targets.",
+          "Federal student-loan servicers and education-finance platforms as infrastructure comparables."
+        ],
+        "underfollowed_supply_chain": [
+          "Clinical simulation, virtual reality training, lab, and placement-capacity suppliers for nursing and allied-health programs.",
+          "Employer tuition-assistance administration and workforce-learning marketplaces embedded in HR benefit workflows.",
+          "State authorization, accreditation, licensure-compliance, and curriculum-mapping software for universities.",
+          "Assessment, proctoring, identity-verification, and credentialing infrastructure used by online and hybrid programs.",
+          "Student-loan servicing, repayment-plan compliance, default-prevention, and borrower-communication platforms.",
+          "K-12 virtual-school curriculum, teacher-support, district implementation, and special-education service vendors."
+        ]
+      },
+      "public_market_search_strategy": "Use a two-lane funnel. Lane 1 maps reference leaders such as large online program managers, public education platforms, university-service companies, and virtual-school operators to understand demand and terminology. Lane 2 searches for underfollowed small/mid-cap or obscure suppliers one layer away from the obvious story: clinical simulation vendors, student lifecycle software, employer tuition-benefit administrators, workforce credentialing platforms, assessment/testing providers, student-loan servicers, compliance/data vendors, and niche staffing or placement networks tied to regulated programs. Avoid treating enrollment growth alone as proof; require evidence from employer partnerships, university contracts, licensure-linked program growth, capacity additions, regulatory filings, and segment-level revenue.",
+      "supply_side_constraints": [
+        "Accreditation, state authorization, Title IV eligibility, licensure alignment, and regulatory scrutiny limit how quickly education providers can scale.",
+        "Clinical placements, lab space, simulation capacity, faculty availability, and preceptor networks constrain healthcare education expansion.",
+        "Employer adoption cycles and HR/payroll integration slow scaling of tuition-benefit and workforce-training platforms.",
+        "K-12 virtual-school growth depends on state funding formulas, district approvals, teacher availability, curriculum standards, and political/regulatory acceptance.",
+        "Student-loan servicing and compliance require scale, regulatory expertise, data-security capabilities, and government-contract reliability.",
+        "Outcome proof, completion rates, job-placement credibility, and employer ROI are increasingly important bottlenecks versus pure enrollment growth."
+      ]
+    }
+  },
+  "metas": [
+    {
+      "created_at": "2026-06-17 12:01:54 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_087dfa4ee000f533016a328c5a9828819495863b2d133f4726",
+      "status": "completed",
+      "step": "layer1a_theme_map",
+      "usage": {
+        "input_tokens": 11040,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4795,
+        "output_tokens_details": {
+          "reasoning_tokens": 59
+        },
+        "total_tokens": 15835
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:03:28 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0ff3726ea4f1329d016a328cc862b4819b9a3fcdde53f4d669",
+      "status": "completed",
+      "step": "layer1b_node_employer_funded_workforce_training_direct_exposure",
+      "usage": {
+        "input_tokens": 16742,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3730,
+        "output_tokens_details": {
+          "reasoning_tokens": 339
+        },
+        "total_tokens": 20472
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:04:36 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0d255e9b2ed9ef05016a328d1dcc2c819a93a866fd8448ca83",
+      "status": "completed",
+      "step": "layer1b_node_employer_funded_workforce_training_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 9739,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 2998,
+        "output_tokens_details": {
+          "reasoning_tokens": 447
+        },
+        "total_tokens": 12737
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:06:04 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_08a28264874061a7016a328d63a274819b96361f3cbbf47956",
+      "status": "completed",
+      "step": "layer1b_node_employer_funded_workforce_training_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 16986,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3857,
+        "output_tokens_details": {
+          "reasoning_tokens": 604
+        },
+        "total_tokens": 20843
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:07:43 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_081837a1932e1d69016a328dc00c9c8191b9051bf7a701e6a1",
+      "status": "completed",
+      "step": "layer1b_node_employer_funded_workforce_training_second_order_mapping",
+      "usage": {
+        "input_tokens": 17086,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4014,
+        "output_tokens_details": {
+          "reasoning_tokens": 819
+        },
+        "total_tokens": 21100
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:09:30 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_08c8a9a9b6d20c80016a328e249c888191b94269e8cbbbcf26",
+      "status": "completed",
+      "step": "layer1b_node_healthcare_licensure_program_capacity_direct_exposure",
+      "usage": {
+        "input_tokens": 34817,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4212,
+        "output_tokens_details": {
+          "reasoning_tokens": 777
+        },
+        "total_tokens": 39029
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:11:19 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_024f8877074427a3016a328e88f220819a89b9b873bb393a25",
+      "status": "completed",
+      "step": "layer1b_node_healthcare_licensure_program_capacity_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 30608,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4487,
+        "output_tokens_details": {
+          "reasoning_tokens": 1406
+        },
+        "total_tokens": 35095
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:15:30 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0c1079320606047a016a328f7813e8819190124d994817f36a",
+      "status": "completed",
+      "step": "layer1b_node_healthcare_licensure_program_capacity_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 36040,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 4839,
+        "output_tokens_details": {
+          "reasoning_tokens": 1255
+        },
+        "total_tokens": 40879
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:17:19 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_03cfac874d5494cf016a328ff49a348191bacffbf3fde0470f",
+      "status": "completed",
+      "step": "layer1b_node_healthcare_licensure_program_capacity_second_order_mapping",
+      "usage": {
+        "input_tokens": 35799,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4263,
+        "output_tokens_details": {
+          "reasoning_tokens": 1157
+        },
+        "total_tokens": 40062
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:19:01 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_01a74bd7d2e235fa016a32906ae7948194b909ab9b376386ca",
+      "status": "completed",
+      "step": "layer1b_node_online_program_management_university_services_direct_exposure",
+      "usage": {
+        "input_tokens": 17184,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3778,
+        "output_tokens_details": {
+          "reasoning_tokens": 589
+        },
+        "total_tokens": 20962
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:20:46 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_04e750779aaa2061016a3290c3b1b08194ae589beac718d8f7",
+      "status": "completed",
+      "step": "layer1b_node_online_program_management_university_services_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 31496,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4278,
+        "output_tokens_details": {
+          "reasoning_tokens": 1081
+        },
+        "total_tokens": 35774
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:22:34 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_058d0bd862956e96016a32912e6e0c8191b11c7ddcc6b95eb2",
+      "status": "completed",
+      "step": "layer1b_node_online_program_management_university_services_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 22376,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4517,
+        "output_tokens_details": {
+          "reasoning_tokens": 890
+        },
+        "total_tokens": 26893
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:23:49 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0241ba0254ca9960016a32919851548191aa8f5d4aeee82907",
+      "status": "completed",
+      "step": "layer1b_node_online_program_management_university_services_second_order_mapping",
+      "usage": {
+        "input_tokens": 9722,
+        "input_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "output_tokens": 3239,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 12961
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:25:49 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0f8ad56a838a9601016a3291ed62b0819abe9a92f27ed9baad",
+      "status": "completed",
+      "step": "layer1b_node_k12_virtual_schooling_platforms_direct_exposure",
+      "usage": {
+        "input_tokens": 31332,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4314,
+        "output_tokens_details": {
+          "reasoning_tokens": 1260
+        },
+        "total_tokens": 35646
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:27:49 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0668ece9adf51cc1016a32925f73248191b4cd592183c73895",
+      "status": "completed",
+      "step": "layer1b_node_k12_virtual_schooling_platforms_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 36203,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4369,
+        "output_tokens_details": {
+          "reasoning_tokens": 1319
+        },
+        "total_tokens": 40572
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:29:40 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_06b72eddd6567482016a3292d358d481998d6de254b849ea74",
+      "status": "completed",
+      "step": "layer1b_node_k12_virtual_schooling_platforms_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 29716,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4433,
+        "output_tokens_details": {
+          "reasoning_tokens": 1118
+        },
+        "total_tokens": 34149
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:31:34 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0b6667fabc88df8a016a32934495448191ae05704a34e71928",
+      "status": "completed",
+      "step": "layer1b_node_k12_virtual_schooling_platforms_second_order_mapping",
+      "usage": {
+        "input_tokens": 23597,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4597,
+        "output_tokens_details": {
+          "reasoning_tokens": 1176
+        },
+        "total_tokens": 28194
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:33:26 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 21,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_04f1eee780099fcd016a3293c178dc8198b7fd4a41b7069df6",
+      "status": "completed",
+      "step": "layer1b_node_student_finance_and_loan_servicing_rails_direct_exposure",
+      "usage": {
+        "input_tokens": 34534,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4071,
+        "output_tokens_details": {
+          "reasoning_tokens": 771
+        },
+        "total_tokens": 38605
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:35:09 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 21,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_00c809f87445169e016a3294250064819a97f6c87fff7fdf64",
+      "status": "completed",
+      "step": "layer1b_node_student_finance_and_loan_servicing_rails_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 29700,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4297,
+        "output_tokens_details": {
+          "reasoning_tokens": 968
+        },
+        "total_tokens": 33997
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:38:06 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 21,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0b05c78e5446c38b016a3294cca4e88191b9d9126da9bcdb12",
+      "status": "completed",
+      "step": "layer1b_node_student_finance_and_loan_servicing_rails_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 35028,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4525,
+        "output_tokens_details": {
+          "reasoning_tokens": 940
+        },
+        "total_tokens": 39553
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:39:41 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 21,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_04b564f63768bffa016a32953c88f8819a989e1e3ce93b0753",
+      "status": "completed",
+      "step": "layer1b_node_student_finance_and_loan_servicing_rails_second_order_mapping",
+      "usage": {
+        "input_tokens": 22875,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3879,
+        "output_tokens_details": {
+          "reasoning_tokens": 978
+        },
+        "total_tokens": 26754
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:43:42 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_044b52d85dbbb032016a32962800ec8199a505c4b85d0bc83d",
+      "status": "completed",
+      "step": "layer1b_node_assessment_credentialing_and_proctoring_direct_exposure",
+      "usage": {
+        "input_tokens": 31685,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4078,
+        "output_tokens_details": {
+          "reasoning_tokens": 747
+        },
+        "total_tokens": 35763
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:45:16 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0916e3d78847478d016a32968c9a18819984579768508b99ee",
+      "status": "completed",
+      "step": "layer1b_node_assessment_credentialing_and_proctoring_bottleneck_suppliers",
+      "usage": {
+        "input_tokens": 23021,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4143,
+        "output_tokens_details": {
+          "reasoning_tokens": 1144
+        },
+        "total_tokens": 27164
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:46:56 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0f6b4660fe4cbe4e016a3296eaa3bc8195a600b141d0684c0b",
+      "status": "completed",
+      "step": "layer1b_node_assessment_credentialing_and_proctoring_underfollowed_discovery",
+      "usage": {
+        "input_tokens": 23596,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4200,
+        "output_tokens_details": {
+          "reasoning_tokens": 888
+        },
+        "total_tokens": 27796
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:49:10 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_05accff8f0175da0016a32974dd2e0819194c01feb865227d6",
+      "status": "completed",
+      "step": "layer1b_node_assessment_credentialing_and_proctoring_second_order_mapping",
+      "usage": {
+        "input_tokens": 41548,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4800,
+        "output_tokens_details": {
+          "reasoning_tokens": 1238
+        },
+        "total_tokens": 46348
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:51:05 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 12,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_060b29f3b933f83c016a3297d7ec1c8198893c926431189842",
+      "status": "completed",
+      "step": "layer1c_merge_universe",
+      "usage": {
+        "input_tokens": 15128,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5351,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 20479
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:53:13 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0fb2cfaa32705a0b016a32985899c081919119b85373e995cd",
+      "status": "completed",
+      "step": "layer2a_map",
+      "usage": {
+        "input_tokens": 13272,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 5298,
+        "output_tokens_details": {
+          "reasoning_tokens": 58
+        },
+        "total_tokens": 18570
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:55:45 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 20,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0a58ab9c58708500016a3298ca34e0819bb20b611ea5c9e394",
+      "status": "completed",
+      "step": "layer2b_relationships_01",
+      "usage": {
+        "input_tokens": 42971,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 6248,
+        "output_tokens_details": {
+          "reasoning_tokens": 3513
+        },
+        "total_tokens": 49219
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:57:39 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0a42e27bcb98902f016a3299706a7c819ebd0ca751c5cb0356",
+      "status": "completed",
+      "step": "layer3_ranking_01",
+      "usage": {
+        "input_tokens": 13788,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 4550,
+        "output_tokens_details": {
+          "reasoning_tokens": 58
+        },
+        "total_tokens": 18338
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 12:59:32 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_009d2d47e586abb2016a3299edb38c819198b42d97d7a5c17c",
+      "status": "completed",
+      "step": "layer4_briefs_01",
+      "usage": {
+        "input_tokens": 10326,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3865,
+        "output_tokens_details": {
+          "reasoning_tokens": 88
+        },
+        "total_tokens": 14191
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 13:00:50 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 19,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0bc64183c61b8e73016a329a4bacfc819b973e373e5bef4952",
+      "status": "completed",
+      "step": "layer4_briefs_02",
+      "usage": {
+        "input_tokens": 9820,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 2962,
+        "output_tokens_details": {
+          "reasoning_tokens": 74
+        },
+        "total_tokens": 12782
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 13:02:40 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 15,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_01ac7e5b756bcdb7016a329ab38f448191b33231c894d6a6eb",
+      "status": "completed",
+      "step": "layer5_deep_report_01",
+      "usage": {
+        "input_tokens": 10178,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3091,
+        "output_tokens_details": {
+          "reasoning_tokens": 47
+        },
+        "total_tokens": 13269
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 13:04:48 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 15,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0572238f7099c6c1016a329b271cfc8191b9206286c0f1d098",
+      "status": "completed",
+      "step": "layer5_deep_report_02",
+      "usage": {
+        "input_tokens": 9931,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3894,
+        "output_tokens_details": {
+          "reasoning_tokens": 83
+        },
+        "total_tokens": 13825
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    },
+    {
+      "created_at": "2026-06-17 13:06:50 UTC",
+      "external_search_enabled": true,
+      "external_search_evidence_path": "/opt/trading/reports/serenity/cloud_llm/education-20260617-115925/search_evidence.jsonl",
+      "external_search_rows": 15,
+      "model": "gpt-5.5",
+      "output_types": [
+        "message"
+      ],
+      "response_id": "resp_0ac36e44bc475dc1016a329ba5414881939e6e02ffaf32e360",
+      "status": "completed",
+      "step": "layer5_deep_report_03",
+      "usage": {
+        "input_tokens": 21875,
+        "input_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "output_tokens": 3577,
+        "output_tokens_details": {
+          "reasoning_tokens": 360
+        },
+        "total_tokens": 25452
+      },
+      "web_search_fallback_reason": "",
+      "web_search_requested": true,
+      "web_search_sources": [],
+      "web_search_used": false
+    }
+  ],
+  "theme": {
+    "name": "Education",
+    "query": "education online learning universities workforce training student loans underfollowed small mid cap obscure suppliers second order beneficiaries hidden customer supplier dependency low analyst coverage",
+    "theme_id": "education"
+  }
+}
