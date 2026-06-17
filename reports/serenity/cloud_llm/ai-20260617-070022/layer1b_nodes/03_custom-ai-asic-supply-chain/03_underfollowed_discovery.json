@@ -1,0 +1,185 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Broadcom Inc.",
+      "confidence": 0.94,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether Broadcom's custom AI accelerator growth is increasing demand for third-party IP, packaging, test, substrates, probe cards, and burn-in capacity rather than remaining vertically controlled by a narrow supplier set.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track future Broadcom 10-Q/10-K language on AI semiconductor revenue, customer concentration, outsourced manufacturing dependencies, supplier constraints, and custom accelerator backlog.",
+      "node_relation": "Reference anchor for hyperscaler custom AI accelerators and AI networking silicon.",
+      "sector_or_industry": "Semiconductors / custom silicon / AI networking",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "reference_anchor",
+        "custom_asic",
+        "ai_networking"
+      ],
+      "theme_relation": "Broadcom provides context that custom AI ASIC demand is not theoretical; management reported AI semiconductor revenue growth driven by custom AI accelerators and AI networking.",
+      "ticker": "AVGO",
+      "why_include": "Needed as the visible reference node for the custom AI accelerator shift; smaller suppliers should be mapped around Broadcom-like custom silicon demand rather than treated as standalone AI stories.",
+      "why_underfollowed": "Not underfollowed; included only as a context anchor to validate demand direction and identify adjacent suppliers."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "inference",
+      "company": "Rambus Inc.",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Evidence that HBM4/HBM4E controller IP wins are tied to custom AI accelerator customers, chiplet base dies, or hyperscaler-sponsored silicon programs.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check future Rambus filings and earnings transcripts for AI/HPC design-win commentary, HBM IP licensing growth, customer concentration, royalty timing, and attach rates to advanced packaging/chiplet programs.",
+      "node_relation": "IP-block supplier for HBM controller IP, memory-interface architecture, and high-speed interface components used in AI SoCs and custom accelerator designs.",
+      "sector_or_industry": "Semiconductor IP / memory interface IP / SerDes",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "ip_block",
+        "hbm",
+        "underfollowed"
+      ],
+      "theme_relation": "If custom ASICs proliferate, validated HBM controller IP and interface IP may become a scaling gate for AI SoC design teams that need high memory bandwidth without building every block internally.",
+      "ticker": "RMBS",
+      "why_include": "Rambus is a public, US-listed way to track the memory-interface/IP layer underneath AI accelerators; the company explicitly markets HBM controller IP for AI/HPC workloads and custom base-die solutions.",
+      "why_underfollowed": "Often categorized as semiconductor IP or licensing rather than as a direct AI accelerator supply-chain beneficiary."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "FormFactor Inc.",
+      "confidence": 0.86,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether AI/HBM/foundry logic probe-card growth is translating into sustained revenue acceleration, margins, and customer pull rather than a short-cycle equipment refresh.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Track quarterly probe-card revenue mix, HBM commentary, foundry/logic strength, export-control impacts, backlog, and management language on AI processor or advanced packaging test demand.",
+      "node_relation": "Probe-card and wafer-level test supplier for AI processors, HBM, foundry/logic, silicon photonics, and advanced packaging workflows.",
+      "sector_or_industry": "Semiconductor test equipment / probe cards / wafer test",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "test_gate",
+        "hbm",
+        "advanced_packaging",
+        "underfollowed"
+      ],
+      "theme_relation": "Custom ASIC and HBM-heavy accelerator architectures raise the importance of wafer-level test, known-good-die screening, probe-card complexity, and yield management before expensive advanced packaging steps.",
+      "ticker": "FORM",
+      "why_include": "FormFactor sits at a testing gate that becomes more valuable as AI accelerators use HBM, chiplets, and advanced packaging where bad die are costly to package.",
+      "why_underfollowed": "It is usually screened as test equipment or probe cards, not as a custom AI ASIC chokepoint."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Aehr Test Systems",
+      "confidence": 0.66,
+      "discovery_lane": "speculative_shadow",
+      "hidden_signal_to_verify": "Whether AI processor and silicon photonics orders become repeat production revenue rather than initial qualification or pilot shipments.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "300m_to_1b",
+      "next_evidence": "Verify customer concentration, repeat orders, backlog conversion, AI processor revenue mix, silicon photonics production orders, and whether WaferPak/FOX systems become part of high-volume AI accelerator manufacturing flows.",
+      "node_relation": "Wafer-level and package-level burn-in/test equipment supplier for high-power AI processors, silicon photonics, memory, and other reliability-critical devices.",
+      "sector_or_industry": "Semiconductor test and burn-in equipment",
+      "serenity_tags": [
+        "supply_chain",
+        "test_gate",
+        "burn_in",
+        "silicon_photonics",
+        "speculative_shadow",
+        "evidence_needed"
+      ],
+      "theme_relation": "As AI ASIC power density rises and optical I/O/silicon photonics move closer to compute packages, reliability screening and burn-in can become a qualification bottleneck before volume deployment.",
+      "ticker": "AEHR",
+      "why_include": "Aehr has explicit company disclosures around AI processors, high-power devices, wafer-level burn-in, and silicon photonics, making it a plausible obscure second-order beneficiary.",
+      "why_underfollowed": "The company is small and historically associated with silicon carbide and specialty burn-in rather than mainstream AI accelerators."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Broadcom reported Q2 FY2026 AI semiconductor revenue of $10.8 billion, up 143% year over year, driven by demand for custom AI accelerators and AI networking.",
+      "claim_type": "fact",
+      "confidence": 0.96,
+      "published_at": "2026-06-03",
+      "source_title": "Broadcom Inc. Q2 FY2026 results exhibit filed with SEC",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-05032026x8kxex99.htm",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Rambus announced HBM4E Controller IP for next-generation AI workloads and stated it can be used as part of an AI SoC or custom base-die solution.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-03-17",
+      "source_title": "Rambus Sets New Benchmark for AI Memory Performance with Industry-Leading HBM4E Controller IP",
+      "source_url": "https://investor.rambus.com/press-releases/press-release-details/2026/Rambus-Sets-New-Benchmark-for-AI-Memory-Performance-with-Industry-Leading-HBM4E-Controller-IP/default.aspx",
+      "ticker": "RMBS"
+    },
+    {
+      "claim": "FormFactor lists AI processor wafer-level test as an application area and describes probe solutions for AI, HPC, cloud services, and HBM-related workflows.",
+      "claim_type": "fact",
+      "confidence": 0.86,
+      "published_at": "",
+      "source_title": "AI Processor Testing - Wafer-Level Test Solutions | FormFactor Inc.",
+      "source_url": "https://www.formfactor.com/applications/high-volume-test-on-wafer/ai-processors/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor's 2025 10-K states that customers use its products to test SoCs, graphics processors, network ICs, electro-optical devices, DRAM including HBM, and other semiconductor device types.",
+      "claim_type": "fact",
+      "confidence": 0.9,
+      "published_at": "2026-04-17",
+      "source_title": "FormFactor 2025 Annual Report / Form 10-K",
+      "source_url": "https://investors.formfactor.com/static-files/f903ad72-0783-4e11-bdcc-cfae526f1f96",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Aehr disclosed that its Sonoma line is designed for reliability and burn-in needs of AI accelerators, GPUs, HPC processors, and high-power devices.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2025-07-28",
+      "source_title": "Aehr Test Systems 2025 Form 10-K",
+      "source_url": "https://fintel.io/doc/sec-aehr-test-systems-1040470-10k-2025-july-28-20297-6029",
+      "ticker": "AEHR"
+    },
+    {
+      "claim": "Aehr reported initial volume production orders for FOX-XP systems and WaferPak contactors used for wafer-level test and burn-in of AI processors.",
+      "claim_type": "fact",
+      "confidence": 0.83,
+      "published_at": "2025-01-13",
+      "source_title": "Aehr Test Systems press release exhibit filed with SEC",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495425000292/aehr_ex991.htm",
+      "ticker": "AEHR"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.78,
+      "text": "Add RMBS as an underfollowed custom AI ASIC supply-chain candidate tied to HBM controller IP, memory-interface IP, and potential custom base-die/chiplet exposure.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.86,
+      "text": "Add FORM as an underfollowed test-gate candidate for AI processors, HBM, advanced packaging, known-good-die workflows, and wafer-level probe-card complexity.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.66,
+      "text": "Add AEHR as a speculative shadow candidate for AI processor burn-in, high-power reliability screening, and silicon photonics test; requires stronger proof of repeat production orders.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.82,
+      "text": "Need a follow-up pass for US-listed or ADR-accessible advanced substrate, socket/thermal interface, OSAT, and EDA/verification names; current pass only covers reference custom silicon, IP, probe cards, and burn-in/test.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Custom AI accelerator and ASIC supply chain",
+  "node_id": "custom_ai_asic_supply_chain",
+  "summary": "Layer 1B expansion for the custom AI ASIC node. Reference lane confirms that custom AI accelerators and AI networking are already a large, visible revenue driver at Broadcom. Underfollowed discovery lane should track enabling chokepoints one or two steps away from the obvious chip designer: memory-interface IP, HBM/AI probe cards, wafer-level burn-in, silicon photonics test, and known-good-die validation. This pass is research-only and does not make trading recommendations.",
+  "theme_id": "ai"
+}

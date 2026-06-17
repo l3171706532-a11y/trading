@@ -1,0 +1,229 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "inference",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "confidence": 0.83,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether TSMC advanced-packaging lead times, CoWoS capacity additions, and AI ASIC/GPU packaging allocations are still tight enough in 2026 to push work to external OSATs.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check TSMC 2026 quarterly transcripts, capex commentary, advanced-packaging revenue disclosures, and customer allocation comments for CoWoS/SoIC/advanced-packaging constraints.",
+      "node_relation": "Primary context anchor for leading-edge foundry and advanced packaging capacity; its CoWoS/advanced-packaging tightness is the reference constraint that may create overflow or pricing opportunities for OSAT/test suppliers.",
+      "sector_or_industry": "Foundry and advanced packaging",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "bottleneck",
+        "reference",
+        "evidence_needed"
+      ],
+      "theme_relation": "AI accelerator demand depends on TSMC wafer fabrication plus advanced packaging capacity, making TSM a demand signal rather than the main underfollowed target.",
+      "ticker": "TSM",
+      "why_include": "Included only as a context anchor because external search context states that Broadcom warned about exhausted TSMC production capacity and that secondary foundries, advanced-packaging firms, and assembly partners may absorb overflow.",
+      "why_underfollowed": "Not underfollowed; it is deliberately included as a high-attention reference name to map overflow pressure."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Amkor Technology",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether advanced packaging for AI/HPC is becoming a distinct revenue and margin driver, rather than a broad OSAT recovery story.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify 2025/2026 10-K, CHIPS Act documents, customer commitments, capex mix, utilization, and whether management quantifies AI/HPC advanced-packaging demand.",
+      "node_relation": "US-listed OSAT with advanced-packaging and test capacity; plausible beneficiary if AI/HPC packaging demand spills beyond foundry-integrated capacity.",
+      "sector_or_industry": "Outsourced semiconductor assembly and test; advanced packaging",
+      "serenity_tags": [
+        "supply_chain",
+        "capacity",
+        "bottleneck",
+        "underfollowed",
+        "advanced_packaging",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order AI infrastructure beneficiary through packaging and test rather than chip design.",
+      "ticker": "AMKR",
+      "why_include": "Amkor is a direct OSAT candidate for advanced packaging/test overflow. Search results cite its advanced packaging technologies, computing growth, and a planned Arizona advanced packaging and test facility.",
+      "why_underfollowed": "Often classified as a mature outsourced assembly/test company rather than as an AI packaging-capacity chokepoint. Its AI relevance may be hidden in computing, SiP, wafer-level packaging, and geographic supply-chain resilience disclosures."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "fact",
+      "company": "Cohu",
+      "confidence": 0.8,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Repeat orders, HBM4 compatibility, system-level-test adoption for AI processors, and whether AI/HBM products become material to backlog or revenue.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check 2026 10-Q/10-K product revenue, backlog, Neon adoption, Eclipse handler production wins, OSAT/customer concentration, and gross-margin leverage from software/analytics.",
+      "node_relation": "Backend semiconductor test and inspection supplier with HBM inspection/metrology exposure and AI/HPC test-handler relevance.",
+      "sector_or_industry": "Semiconductor test, inspection, metrology, handlers, software analytics",
+      "serenity_tags": [
+        "testing",
+        "inspection",
+        "metrology",
+        "supply_chain",
+        "bottleneck",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Potential beneficiary if AI packages, HBM, and higher-power accelerators require more complex inspection, thermal handling, yield analytics, and production test capacity.",
+      "ticker": "COHU",
+      "why_include": "Cohu’s own materials state that its solutions support AI and high-performance computing, and its Neon platform is positioned for HBM inspection/metrology. A 2024 release says Neon was selected by a leading US memory/data-storage customer for HBM devices used in HPC and generative AI.",
+      "why_underfollowed": "The company is usually screened as cyclical semiconductor test equipment, not as an HBM/AI backend inspection bottleneck. The AI signal is embedded in narrow product wins such as Neon HBM inspection and high-power thermal handlers."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "FormFactor",
+      "confidence": 0.79,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether HBM probe-card demand remains supply constrained and whether advanced package test intensity rises faster than unit volumes.",
+      "market_cap_bucket": "large_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Review customer concentration, DRAM/HBM probe-card revenue mix, lead times, capacity expansion, SK hynix/Micron/Samsung exposure, and whether probe-card pricing power is visible in margins.",
+      "node_relation": "Probe-card and test-measurement supplier tied to HBM and advanced package test complexity; sits upstream of reliable AI memory and accelerator package production.",
+      "sector_or_industry": "Probe cards and semiconductor test and measurement",
+      "serenity_tags": [
+        "testing",
+        "probe_cards",
+        "hbm",
+        "advanced_packaging",
+        "bottleneck",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order AI beneficiary through HBM probe cards, foundry/logic probe cards, and silicon-photonics test exposure.",
+      "ticker": "FORM",
+      "why_include": "Search results cite FormFactor’s 2025 annual report language describing AI infrastructure demand, HBM, and silicon photonics, while 2026 reporting links record revenue to HBM probe-card demand.",
+      "why_underfollowed": "Less visible than GPU, memory, or wafer-fab names; AI exposure is in enabling test hardware that customers need before high-yield HBM and advanced packages can scale."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "AI accelerator and HBM demand may create a crowding-out effect in memory backend work, pushing conventional DRAM/NAND packaging and test outward to third-party providers.",
+      "claim_type": "hypothesis",
+      "confidence": 0.68,
+      "published_at": "2026-05-04T14:30:58.000Z",
+      "source_title": "The Advanced Packaging Chokepoint: How Powertech Technology Is Capturing the Memory Overflow",
+      "source_url": "https://pequityresearch.substack.com/p/the-advanced-packaging-chokepoint",
+      "ticker": ""
+    },
+    {
+      "claim": "TSMC capacity tightness is a context signal for potential overflow to secondary foundries, advanced packaging firms, and assembly partners.",
+      "claim_type": "inference",
+      "confidence": 0.7,
+      "published_at": "2026-03-24T08:56:16.000Z",
+      "source_title": "AI Hardware Supply Crunch | Secondary Foundry Gains",
+      "source_url": "https://explore.nemo.money/en/ai-capacity-crunch-capitalizing-on-semiconductor-foundry-overflow",
+      "ticker": "TSM"
+    },
+    {
+      "claim": "Amkor is described as investing in advanced packaging and test capacity, including a planned Arizona advanced packaging and test facility.",
+      "claim_type": "fact",
+      "confidence": 0.77,
+      "published_at": "2025-09-02T15:32:34Z",
+      "source_title": "Amkor's Arizona mega-plant could plug the holes in America's chip ambitions",
+      "source_url": "https://www.tomshardware.com/tech-industry/semiconductors/amkor-arizona-plant-plans-approved",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Amkor annual-report search results describe a broad advanced-packaging portfolio, including System-in-Package and wafer-level packaging, and investments in AI-related high-growth markets.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "",
+      "source_title": "Annual Reports | Amkor Technology",
+      "source_url": "https://ir.amkor.com/financial-information/annual-reports",
+      "ticker": "AMKR"
+    },
+    {
+      "claim": "Cohu describes itself as a supplier of test, automation, inspection, metrology, software analytics, and services to the semiconductor industry, with solutions supporting AI and HPC applications.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Home | Cohu",
+      "source_url": "https://www.cohu.com/home/",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "Cohu announced that its Neon platform was selected for inspection metrology of HBM devices used in HPC and generative AI applications.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "",
+      "source_title": "Cohu Enters HBM Memory Market with Neon Inspection Metrology Platform",
+      "source_url": "https://cohu.gcs-web.com/news-releases/news-release-details/cohu-enters-hbm-memory-market-neon-inspection-metrology-platform",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "Cohu’s Neon product page states HBM market alignment, including compatibility with HBM3E, HBM4, and HBM4E and use in advanced-package inspection/metrology workflows.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "",
+      "source_title": "Neon - Next Generation Inspection Platform | Cohu",
+      "source_url": "https://www.cohu.com/neon/",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "FormFactor’s 2025 annual-report search result states that the company strengthened its position in AI infrastructure demand, HBM, and silicon photonics.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "2026-04-01",
+      "source_title": "FormFactor 2025 Annual Report",
+      "source_url": "https://investors.formfactor.com/static-files/f903ad72-0783-4e11-bdcc-cfae526f1f96",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Recent reporting attributed FormFactor’s record Q1 2026 revenue partly to DRAM/HBM probe-card demand connected to AI accelerator memory.",
+      "claim_type": "fact",
+      "confidence": 0.72,
+      "published_at": "2026-05-06T21:33:00Z",
+      "source_title": "FormFactor posts record Q1 revenue on HBM probe card surge",
+      "source_url": "https://datatech.disruptsmedia.com/ai-ml/formfactor-posts-record-q1-revenue-hbm-probe-card-surge",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Onto Innovation appears relevant for later review because its 2024 annual report search results mention advanced packaging process control and AI-related demand, but it was excluded from the four-candidate limit.",
+      "claim_type": "fact",
+      "confidence": 0.73,
+      "published_at": "",
+      "source_title": "Onto Innovation 2024 Annual Report + 2025 Proxy",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/704532/000095017025052322/onto_annualreport_2025.pdf",
+      "ticker": "ONTO"
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.78,
+      "text": "AMKR should remain in the advanced_packaging_osat_overflow universe as a direct US-listed OSAT/advanced-packaging capacity candidate, but later layers must separate broad OSAT recovery from AI/HPC-specific revenue and margins.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.8,
+      "text": "COHU is a high-priority underfollowed test/inspection candidate because HBM inspection, AI/HPC thermal handling, and yield analytics map directly to backend chokepoints.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.79,
+      "text": "FORM belongs in the HBM/advanced-package test lane because probe cards may scale with test complexity and HBM growth even when investors focus on memory manufacturers.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "ONTO, KLIC, ICHR, ACMR, and non-US-listed Powertech should be searched in a separate follow-up pass for process-control, packaging-equipment, and memory-backend overflow exposure.",
+      "type": "coverage_gap"
+    },
+    {
+      "confidence": 0.76,
+      "text": "The key falsification test for this node is whether TSMC/leading foundry packaging capacity catches up fast enough to prevent durable overflow economics for OSAT, probe-card, inspection, and backend-test suppliers.",
+      "type": "node_relation"
+    }
+  ],
+  "node": "Advanced packaging, OSAT, memory backend, fan-out and test overflow",
+  "node_id": "advanced_packaging_osat_overflow",
+  "summary": "Underfollowed expansion for the AI advanced-packaging/test-capacity node. The node thesis is that AI accelerator and HBM demand may push value from obvious GPU designers toward packaging, probe-card, inspection/metrology, and backend-test capacity. The strongest US-listed discovery candidates in this pass are not GPU leaders; they are OSAT, HBM inspection/test, probe-card, and advanced-packaging process-control suppliers. Market-cap buckets use current web finance context from 2026-06-17 where available and should be rechecked in later layers.",
+  "theme_id": "ai"
+}

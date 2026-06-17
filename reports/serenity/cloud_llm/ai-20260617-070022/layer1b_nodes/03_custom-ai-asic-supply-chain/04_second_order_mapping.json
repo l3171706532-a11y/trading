@@ -1,0 +1,206 @@
+{
+  "candidates": [
+    {
+      "attention_level": "high_attention",
+      "claim_type": "fact",
+      "company": "Broadcom Inc.",
+      "confidence": 0.82,
+      "discovery_lane": "reference",
+      "hidden_signal_to_verify": "Whether custom AI accelerator demand is broadening beyond a few hyperscaler customers and whether supplier pull-through is visible in test, probe-card, packaging, IP, substrate, or design-service vendors.",
+      "market_cap_bucket": "mega_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify latest Broadcom 10-Q/10-K language for custom AI accelerator revenue, customer concentration, backlog, and commentary on foundry or packaging constraints.",
+      "node_relation": "Reference customer-facing custom AI accelerator and networking silicon supplier; useful anchor for mapping downstream demand into ASIC design, advanced packaging, substrates, SerDes, HBM interfaces, and test ecosystems.",
+      "sector_or_industry": "Semiconductors / custom silicon / networking ASICs",
+      "serenity_tags": [
+        "demand",
+        "supply_chain",
+        "reference_node",
+        "custom_asic",
+        "evidence_needed"
+      ],
+      "theme_relation": "Direct AI infrastructure exposure through custom AI accelerators and data-center networking silicon.",
+      "ticker": "AVGO",
+      "why_include": "Included as a reference anchor because the provided external context states Broadcom's semiconductor revenue growth was explicitly driven by custom AI accelerators, and separate context frames Broadcom as a source of evidence for TSMC capacity constraints.",
+      "why_underfollowed": "Not underfollowed; it is included only to anchor the supply-chain map and avoid losing the customer/sponsor signal for smaller suppliers."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "Rambus Inc.",
+      "confidence": 0.74,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether HBM4, PCIe 7.0, CXL, SerDes/security IP licensing wins are tied to hyperscaler ASIC programs or merchant AI accelerator platforms.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check recent Rambus 10-K/10-Q, earnings calls, and product announcements for AI infrastructure design wins, IP backlog, royalty duration, and customer concentration.",
+      "node_relation": "Potential IP-block beneficiary for custom AI ASICs requiring HBM, PCIe/CXL-class connectivity, security IP, and high-speed memory/interface subsystems.",
+      "sector_or_industry": "Semiconductor IP / memory interface chips / high-speed interface IP",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "ip_blocks",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Second-order AI ASIC exposure via enabling IP and chips for data-intensive computing systems rather than selling complete accelerators.",
+      "ticker": "RMBS",
+      "why_include": "Rambus reported that it provides chips and silicon IP for data-center and AI infrastructure, and highlighted customer momentum across HBM4, GDDR7, PCIe 7.0 digital IP, and security IP families.",
+      "why_underfollowed": "Market labeling often places Rambus in legacy memory IP or licensing rather than as a custom-ASIC enabler tied to HBM and high-speed interface complexity."
+    },
+    {
+      "attention_level": "medium_attention",
+      "claim_type": "fact",
+      "company": "FormFactor Inc.",
+      "confidence": 0.78,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "HBM and advanced probe-card revenue mix, AI/HPC customer concentration, silicon-photonics or co-packaged-optics test adoption, and any capacity expansion tied to advanced packaging.",
+      "market_cap_bucket": "mid_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Verify latest FORM 10-K/10-Q and earnings-call details on HBM probe cards, foundry/logic probe demand, advanced packaging, customer concentration, and margin impact.",
+      "node_relation": "Wafer-level test and probe-card supplier positioned near HBM, advanced packaging, silicon photonics, and high-performance compute device qualification.",
+      "sector_or_industry": "Semiconductor test equipment / probe cards / wafer-level test",
+      "serenity_tags": [
+        "supply_chain",
+        "bottleneck",
+        "test",
+        "advanced_packaging",
+        "underfollowed"
+      ],
+      "theme_relation": "Second-order beneficiary if custom AI ASIC and advanced-packaging complexity increases wafer-level test intensity before chips move into packaging and final test.",
+      "ticker": "FORM",
+      "why_include": "FormFactor's filings and company materials describe probe cards and test systems used across the semiconductor lifecycle, including HBM, advanced packaging, and high-performance-compute devices powering generative-AI applications.",
+      "why_underfollowed": "It is usually categorized as semiconductor test equipment, not as an AI ASIC supplier, even though wafer-level testing can become more critical as die sizes, chiplets, HBM stacks, and advanced packages grow more complex."
+    },
+    {
+      "attention_level": "low_attention",
+      "claim_type": "hypothesis",
+      "company": "Cohu Inc.",
+      "confidence": 0.56,
+      "discovery_lane": "underfollowed",
+      "hidden_signal_to_verify": "Whether AI accelerators, HBM-related packages, high-power devices, or advanced-packaged chiplets are driving handler, contactor, thermal-control, or interface-product orders.",
+      "market_cap_bucket": "small_cap",
+      "market_cap_filter_note": "above_1b",
+      "next_evidence": "Check latest Cohu 10-K/10-Q, earnings transcripts, product mix, customer concentration, and any mentions of AI processors, HPC, advanced packaging, HBM, or high-power thermal test.",
+      "node_relation": "Packaged-device test automation, handlers, contactors, probe heads, probe pins, inspection, metrology, and interface hardware supplier; possible beneficiary of higher test complexity in AI ASICs and chiplet-based packages.",
+      "sector_or_industry": "Semiconductor test handlers / interface products / inspection and metrology",
+      "serenity_tags": [
+        "supply_chain",
+        "test",
+        "components",
+        "underfollowed",
+        "evidence_needed"
+      ],
+      "theme_relation": "Adjacent chokepoint candidate: if custom accelerators require more burn-in, thermal, contactor, handler, and final-test intensity, Cohu could see second-order demand even without being branded as an AI company.",
+      "ticker": "COHU",
+      "why_include": "Provided search evidence identifies Cohu as a supplier of semiconductor handlers, interface products, test contactors, probe heads, probe pins, automation, inspection, metrology products, and software. The direct AI ASIC linkage still needs verification.",
+      "why_underfollowed": "Cohu is more likely screened as cyclical semiconductor capital equipment or back-end test automation than as a custom AI ASIC supply-chain beneficiary."
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "External context states Broadcom reported Q2 FY2026 revenue of $22.19B, semiconductor revenue of $15.0B, and that semiconductor growth was driven explicitly by custom AI accelerators.",
+      "claim_type": "fact",
+      "confidence": 0.78,
+      "published_at": "",
+      "source_title": "Signals from SEC Filings — Tech Supply Chain | InvestReport.ai",
+      "source_url": "https://investreport.ai/sec-signal.html",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Broadcom is a useful reference node for custom AI ASIC supply-chain mapping because external context links its AI hardware demand to TSMC capacity exhaustion and overflow pressure across foundry, packaging, and assembly partners.",
+      "claim_type": "inference",
+      "confidence": 0.67,
+      "published_at": "2026-03-24T08:56:16.000Z",
+      "source_title": "AI Hardware Supply Crunch | Secondary Foundry Gains",
+      "source_url": "https://explore.nemo.money/en/ai-capacity-crunch-capitalizing-on-semiconductor-foundry-overflow",
+      "ticker": "AVGO"
+    },
+    {
+      "claim": "Rambus describes itself as providing chips and silicon IP for data-center and AI infrastructure and highlighted customer momentum across HBM4, GDDR7, PCIe 7.0 digital IP, and security IP.",
+      "claim_type": "fact",
+      "confidence": 0.82,
+      "published_at": "2026-03-00",
+      "source_title": "Rambus 2025 Form 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526057101/rmbs-20251231.htm",
+      "ticker": "RMBS"
+    },
+    {
+      "claim": "FormFactor announced an expanded Advantest partnership to accelerate innovation for advanced packaging and high-performance compute, and stated wafer-level test is increasingly important for leading-edge manufacturing, especially HPC devices powering generative-AI applications.",
+      "claim_type": "fact",
+      "confidence": 0.84,
+      "published_at": "2025-01-07",
+      "source_title": "FormFactor Expands Partnership with Advantest",
+      "source_url": "https://www.formfactor.com/press-release/formfactor-expands-partnership-with-advantest/",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "FormFactor's annual-report evidence says its probe cards test device types including SoCs, microprocessors, graphic processors, network/digital signal processing ICs, and DRAM memory including HBM; it also said fiscal 2024 momentum was driven by HBM demand used in generative AI applications.",
+      "claim_type": "fact",
+      "confidence": 0.8,
+      "published_at": "2025-02-21",
+      "source_title": "FormFactor, Inc. 2025 10-K Annual Report",
+      "source_url": "https://fintel.io/doc/sec-formfactor-inc-1039399-10k-2025-february-21-20140-5305",
+      "ticker": "FORM"
+    },
+    {
+      "claim": "Cohu evidence describes semiconductor handlers used with ATE to automate packaged-semiconductor testing and interface products including test contactors, probe heads, and probe pins.",
+      "claim_type": "fact",
+      "confidence": 0.68,
+      "published_at": "2025-05-16",
+      "source_title": "Cohu 2025 Form SD with Report and Exhibit",
+      "source_url": "https://www.cohu.com/wp-content/uploads/2025/05/2025-Form-SD-with-Report-and-Exhibit-Final-filed-5.16.25.pdf",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "Cohu may have second-order exposure to custom AI ASIC scaling through higher final-test, handler, contactor, thermal, and interface complexity, but the direct AI ASIC customer linkage was not proven in this pass.",
+      "claim_type": "hypothesis",
+      "confidence": 0.52,
+      "published_at": "2025-05-16",
+      "source_title": "Cohu 2025 Form SD with Report and Exhibit",
+      "source_url": "https://www.cohu.com/wp-content/uploads/2025/05/2025-Form-SD-with-Report-and-Exhibit-Final-filed-5.16.25.pdf",
+      "ticker": "COHU"
+    },
+    {
+      "claim": "The broader custom AI ASIC supply-chain bottleneck may migrate toward memory bandwidth, advanced packaging, substrates, and test, based on external context describing memory bandwidth as a physical bottleneck and AI-driven crowding-out effects in backend packaging and testing.",
+      "claim_type": "inference",
+      "confidence": 0.64,
+      "published_at": "2026-05-04T14:30:58.000Z",
+      "source_title": "The Advanced Packaging Chokepoint: How Powertech Technology Is Capturing the Memory Overflow",
+      "source_url": "https://pequityresearch.substack.com/p/the-advanced-packaging-chokepoint",
+      "ticker": ""
+    }
+  ],
+  "layer": "1B",
+  "memory_update": [
+    {
+      "confidence": 0.74,
+      "text": "RMBS should remain in the underfollowed lane for custom AI ASIC research as a memory/interface/security IP supplier tied to HBM4, GDDR7, and PCIe 7.0 design complexity.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.78,
+      "text": "FORM should remain in the underfollowed lane as a wafer-level test and probe-card candidate linked to HBM, advanced packaging, HPC, and silicon photonics/co-packaged-optics test workflows.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.56,
+      "text": "COHU is a weaker but plausible underfollowed candidate in packaged-device test automation, handlers, contactors, and interface products; direct AI ASIC pull-through must be verified before promotion beyond Layer 1.",
+      "type": "candidate"
+    },
+    {
+      "confidence": 0.72,
+      "text": "For custom AI ASIC supply-chain mapping, Broadcom should be treated as a reference demand node, while smaller suppliers should be checked for pull-through in IP blocks, probe cards, test handlers/contactors, substrates, advanced packaging, and yield analytics.",
+      "type": "node_relation"
+    },
+    {
+      "confidence": 0.69,
+      "text": "This pass did not fully verify US-listed substrate, thermal-interface-material, EDA/verification, or design-services names; follow-up Layer 1B searches should target ABF/glass substrate materials, EDA verification, chiplet interconnect IP, and OSAT/advanced-packaging overflow.",
+      "type": "coverage_gap"
+    }
+  ],
+  "node": "Custom AI accelerator and ASIC supply chain",
+  "node_id": "custom_ai_asic_supply_chain",
+  "summary": "Layer 1B expansion for the custom AI ASIC supply-chain node. The context lane uses Broadcom as the obvious reference anchor for hyperscaler custom AI accelerator demand. The underfollowed lane focuses on second-order suppliers that may benefit if custom silicon volumes shift value toward memory/interface IP, wafer-level probing, and packaged-device test/interface hardware. Candidate inclusion is research-only, not a buy/sell recommendation. Several links are weakly evidenced at this stage and require filing-level verification in later layers.",
+  "theme_id": "ai"
+}
